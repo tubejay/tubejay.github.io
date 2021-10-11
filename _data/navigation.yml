@@ -1,5 +1,5 @@
 docs:
-  - title: archive
+  - title: personal archive
     children:
-      - title: "archive"
-        url: /categories/archive/
+      - title: "personal archive"
+        url: /categories/personal-archive/
