@@ -1,6 +1,6 @@
 ---
 title: "investment websites"
-date: 
+date: 2021-10-01
 categories: arkiv
 ---
 
