@@ -8,9 +8,9 @@ $text-color: white;
 $link-color: #FFFF00;
 $masthead-link-color: white;
 
-$sans-serif : "IBM Plex Mono", sans-serif;
-$serif : "IBM Plex Mono", serif;
-$monospace : "IBM Plex Mono", monospace;
+$sans-serif : "IBM Plex Mono", "IBM Plex Sans KR", sans-serif;
+$serif : "IBM Plex Mono", "IBM Plex Sans KR", serif;
+$monospace : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
 
 // http://chriskempson.com/projects/base16/
 $base00: #1d1f21; // base00 - Default Background
