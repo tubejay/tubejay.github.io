@@ -20,9 +20,9 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "tubejay"
 title_separator          : "-"
-subtitle                 : "personal archive" # site tagline that appears below site title in masthead
+subtitle                 : "personal_archive" # site tagline that appears below site title in masthead
 name                     : "tubejay"
-description              : "personal archive"
+description              : "personal_archive"
 url                      : "https://tubejay.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "tubejay"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "personal archive"
+  bio              : "personal_archive"
   location         : 
   email            : 
   links:
