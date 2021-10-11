@@ -1,6 +1,5 @@
 docs:
   - title: personal_archive
-    url: /categories/personal_archive/
-#    children:
-#      - title: "personal_archive"
-#        url: /categories/personal_archive/
+    children:
+      - title: "personal_archive"
+        url: /categories/personal_archive/
