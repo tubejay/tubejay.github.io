@@ -1,5 +1,6 @@
 docs:
   - title: arkiv
-    children:
-      - title: "arkiv"
-        url: /categories/arkiv/
+    url: /categories/arkiv/
+#    children:
+#      - title: "arkiv"
+#        url: /categories/arkiv/
