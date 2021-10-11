@@ -37,17 +37,17 @@ $base0f: #a3685a; // base0F - Deprecated, Opening/Closing Embedded Language Tags
 
 // https://github.com/mmistakes/minimal-mistakes/discussions/1219
 html {
-  font-size: 18px; // change to whatever
+  font-size: 15px; // change to whatever
 
   @include breakpoint($medium) {
-    font-size: 18px; // change to whatever
+    font-size: 15px; // change to whatever
   }
 
   @include breakpoint($large) {
-    font-size: 18px; // change to whatever
+    font-size: 15px; // change to whatever
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever
+    font-size: 15px; // change to whatever
   }
 }
