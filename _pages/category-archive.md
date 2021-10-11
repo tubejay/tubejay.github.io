@@ -1,6 +1,5 @@
 ---
-title: "archive"
-layout: category
-permalink: /categories/archive/
-taxonomy: archive
+title: "Categories"
+layout: categories
+permalink: /categories/
 ---
