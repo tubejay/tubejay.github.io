@@ -1,0 +1,5 @@
+docs:
+  - title: archive
+    children:
+      - title: "archive"
+        url: /categories/archive/
