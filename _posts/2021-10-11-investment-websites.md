@@ -4,6 +4,7 @@ date: 2021-10-11
 categories: arkiv
 ---
 
-- investment websites
-- 투자 자료
+시황
 
+- 장전
+  - [골드래빗 : 경제기사로 여는 아침](https://brunch.co.kr/magazine/sinmorning)
