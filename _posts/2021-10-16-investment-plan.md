@@ -2,7 +2,7 @@
 title: "investment plan"
 date: 2021-10-16
 categories: arkiv
-published: false
+published: true
 ---
 
 ## 계획
