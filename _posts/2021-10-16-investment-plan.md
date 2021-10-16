@@ -5,7 +5,7 @@ categories: arkiv
 published: true
 ---
 
-:blue_square:
+:green_square:
 
 ## 계획
 
