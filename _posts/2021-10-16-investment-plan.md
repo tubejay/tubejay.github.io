@@ -5,8 +5,6 @@ categories: arkiv
 published: true
 ---
 
-:red_circle:
-
 ## 계획
 
 ### 예측
