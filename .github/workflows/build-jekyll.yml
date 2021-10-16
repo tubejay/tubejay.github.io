@@ -7,7 +7,7 @@ name: Build and Deploy to Github Pages
 on:
   push:
     branches:
-      - main  # Here source code branch is `master`, it could be other branch
+      - master  # Here source code branch is `master`, it could be other branch
   schedule:
     - cron: '*/5 * * * *'
 
