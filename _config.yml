@@ -228,8 +228,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jemoji
-  - ruby
   - jekyll-spaceship          ## https://github.com/jeffreytse/jekyll-spaceship
 
 
@@ -240,8 +238,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jemoji
-  - ruby
 
 
 # Archives
