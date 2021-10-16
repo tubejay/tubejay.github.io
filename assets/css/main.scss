@@ -3,6 +3,8 @@
 ---
 
 // https://github.com/rashevskyv/dsi/blob/master/_sass/minimal-mistakes/skins/_dark.scss
+@import "minimal-mistakes/_sass/minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 $body-color                   : black;
 $background-color             : #090105;
@@ -40,9 +42,6 @@ $base0e: #66ffff; // base0E - Keywords, Storage, Selector, Markup Italic, Diff C
 $base0f: #a3685a; // base0F - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
 
 @charset "utf-8";
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
 
 // https://github.com/mmistakes/minimal-mistakes/discussions/1219
 html {
