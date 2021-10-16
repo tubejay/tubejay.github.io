@@ -2,15 +2,27 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$body-color: black;
-$background-color: #090105;
-$text-color: white;
-$link-color: ##bdfffc;
-$masthead-link-color: white;
+// color
 
+$body-color                   : black;
+$background-color             : #090105;
+
+$text-color                   : white;
+
+$link-color                   : #dbfffd;
+$link-color-hover             : #dbe3ff;
+$link-color-visited           : #ffdbf4;
+
+$masthead-link-color          : white;
+$masthead-link-color-hover    : yellow;
+
+$navicon-link-color           : orange;
+$navicon-link-color-hover     : green
+
+// font
 $sans-serif : "IBM Plex Mono", "IBM Plex Sans KR", sans-serif;
-$serif : "IBM Plex Mono", "IBM Plex Sans KR", serif;
-$monospace : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+$serif      : "IBM Plex Mono", "IBM Plex Sans KR", serif;
+$monospace  : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
 
 // http://chriskempson.com/projects/base16/
 $base00: #1d1f21; // base00 - Default Background
