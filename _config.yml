@@ -228,8 +228,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
-##   - jekyll-spaceship          ## https://github.com/jeffreytse/jekyll-spaceship
-
 
 # mimic GitHub Pages with --safe
 whitelist:
