@@ -35,17 +35,17 @@ hidden: false
 
 | 유형          | 대상          | 차트          | 종목         |
 :-----------   | :---------   | :-           | :-          |
-| 에너지         | 석유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | |
-|               | 천연가스      | [Webull](https://www.webull.com/quote/nysearca-ung){:target="\_blank"} | |
+| 에너지         | 석유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500019) <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500027) |
+|               | 천연가스      | [Webull](https://www.webull.com/quote/nysearca-ung){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500053) <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500054) |
 | S&P           | 원유생산기업   | [Webull](https://www.webullapp.com/ticker/idxsp-sp500-10102020){:target="\_blank"} | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A219390){:target="\_blank"} |
 |               | 에너지        | [Webull](https://www.webull.com/quote/nysearca-xle){:target="\_blank"} | [KODEX](https://stockplus.com/m/stocks/KOREA-A218420){:target="\_blank"} |
-| 금속           | 구리         | [Webull](https://www.webull.com/quote/nysearca-cper){:target="\_blank"} | |
-|               | 알루미늄      | [Webull](https://www.webullapp.com/ticker/idxdjx-djusal){:target="\_blank"} | |
-|               | 아연         | [Webull](https://www.webullapp.com/ticker/nse-hindzinc){:target="\_blank"} | |
-|               | 니켈         | [Webull](https://www.webull.com/quote/nysearca-jjn){:target="\_blank"} | |
-|               | 철광석        | [Webull](https://www.webullapp.com/ticker/idxdjx-djusst){:target="\_blank"} | |
-|               | 플래티넘       | [Webull](https://www.webull.com/quote/nysearca-pplt){:target="\_blank"} | |
-|               | 팔라듐         | [Webull](https://www.webull.com/quote/nysearca-pall){:target="\_blank"} | |
+| 금속           | 구리         | [Webull](https://www.webull.com/quote/nysearca-cper){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530063) <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530064) |
+|               | 알루미늄      | [Webull](https://www.webullapp.com/ticker/idxdjx-djusal){:target="\_blank"} | [대신](https://stockplus.com/m/stocks/KOREA-Q510014) |
+|               | 아연         | [Webull](https://www.webullapp.com/ticker/nse-hindzinc){:target="\_blank"} | [대신 2X](https://stockplus.com/m/stocks/KOREA-Q510005) <br> [대신 인버스](https://stockplus.com/m/stocks/KOREA-Q510004) |
+|               | 니켈         | [Webull](https://www.webull.com/quote/nysearca-jjn){:target="\_blank"} | [대신 2X](https://stockplus.com/m/stocks/KOREA-Q510007) <br> [대신 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q510010) |
+|               | 철광석        | [Webull](https://www.webullapp.com/ticker/idxdjx-djusst){:target="\_blank"} | [대신 2X](https://stockplus.com/m/stocks/KOREA-Q510017) <br> [대신 인버스](https://stockplus.com/m/stocks/KOREA-Q510009) |
+|               | 플래티넘       | [Webull](https://www.webull.com/quote/nysearca-pplt){:target="\_blank"} | [TRUE](https://stockplus.com/m/stocks/KOREA-Q570052) <br> [TRUE 인버스](https://stockplus.com/m/stocks/KOREA-Q570053) |
+|               | 팔라듐         | [Webull](https://www.webull.com/quote/nysearca-pall){:target="\_blank"} | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A334690) <br> [KBSTAR 인버스](https://stockplus.com/m/stocks/KOREA-A334700) |
 | 종합           | 금속           | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A139310){:target="\_blank"} |
 |               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003){:target="\_blank"} |
 
