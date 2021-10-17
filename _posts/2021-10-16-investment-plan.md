@@ -33,21 +33,21 @@ hidden: false
 
 ### 재료
 
-| 유형          | 대상          | 차트          |
-:-----------   | :---------   | :-           |
-| 에너지         | 석유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} |
-|               | 천연가스      | [Webull](https://www.webull.com/quote/nysearca-ung){:target="\_blank"} |
-|               | S&P 원유생산기업 | [Webull](https://www.webullapp.com/ticker/idxsp-sp500-10102020){:target="\_blank"} |
-|               | 미국S&P 에너지   | [Webull](https://www.webull.com/quote/nysearca-xle){:target="\_blank"} |
-| 금속           | 구리         | [Webull](https://www.webull.com/quote/nysearca-cper){:target="\_blank"} |
-|               | 알루미늄      | [Webull](https://www.webullapp.com/ticker/idxdjx-djusal){:target="\_blank"} |
-|               | 아연         | [Webull](https://www.webullapp.com/ticker/nse-hindzinc){:target="\_blank"} |
-|               | 니켈         | [Webull](https://www.webull.com/quote/nysearca-jjn){:target="\_blank"} |
-|               | 철광석        | [Webull](https://www.webullapp.com/ticker/idxdjx-djusst){:target="\_blank"} |
-|               | 플래티넘       | [Webull](https://www.webull.com/quote/nysearca-pplt){:target="\_blank"} |
-|               | 팔라듐         | [Webull](https://www.webull.com/quote/nysearca-pall){:target="\_blank"} |
-|               | 금속선물        | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} |
-|               | 원자재 선물      | [Investing.com](https://www.investing.com/indices/dj-commodity){:target="\_blank"} |
+| 유형          | 대상          | 차트          | 종목         |
+:-----------   | :---------   | :-           | :-          |
+| 에너지         | 석유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | |
+|               | 천연가스      | [Webull](https://www.webull.com/quote/nysearca-ung){:target="\_blank"} | |
+| S&P           | 원유생산기업   | [Webull](https://www.webullapp.com/ticker/idxsp-sp500-10102020){:target="\_blank"} | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A219390) |
+|               | 에너지        | [Webull](https://www.webull.com/quote/nysearca-xle){:target="\_blank"} | [KODEX](https://stockplus.com/m/stocks/KOREA-A218420) |
+| 금속           | 구리         | [Webull](https://www.webull.com/quote/nysearca-cper){:target="\_blank"} | |
+|               | 알루미늄      | [Webull](https://www.webullapp.com/ticker/idxdjx-djusal){:target="\_blank"} | |
+|               | 아연         | [Webull](https://www.webullapp.com/ticker/nse-hindzinc){:target="\_blank"} | |
+|               | 니켈         | [Webull](https://www.webull.com/quote/nysearca-jjn){:target="\_blank"} | |
+|               | 철광석        | [Webull](https://www.webullapp.com/ticker/idxdjx-djusst){:target="\_blank"} | |
+|               | 플래티넘       | [Webull](https://www.webull.com/quote/nysearca-pplt){:target="\_blank"} | |
+|               | 팔라듐         | [Webull](https://www.webull.com/quote/nysearca-pall){:target="\_blank"} | |
+| 종합           | 금속           | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A139310) |
+|               | 원자재          | [Investing.com](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003) |
 
 ### 자산
 
