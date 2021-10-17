@@ -38,7 +38,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 에너지         | 석유         |                   | [Webull](https://www.webull.com/quote/nysearca-uso) |
 |               | 천연가스      |                   | [Webull](https://www.webull.com/quote/nysearca-ung) |
 | 금속           | 구리         |                   | [Webull](https://www.webull.com/quote/nysearca-cper) |
@@ -53,7 +52,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 채권           | 한국 국채     |                   | |
 |               | 미국 국채     |                   | [Webull](https://www.webull.com/quote/nysearca-iltb) |
 | 통화           | 달러         |                   | [Webull](https://www.webull.com/quote/fx-usdkrw) |
@@ -67,7 +65,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 아시아         | 필리핀        |                   | [Webull](https://www.webull.com/quote/nysearca-ephe) |
 |               | 베트남        |                   | [Webull](https://www.webull.com/quote/bats-vnm) |
 |               | 인도네시아     |                   | [Webull](https://www.webull.com/quote/nysearca-eido) |
@@ -80,7 +77,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 일본           |             |                   | [Webull](https://www.webullapp.com/ticker/tpe-00640l) |
 | 영국           |             |                   | [Webull](https://www.webull.com/quote/idxftse-ftse) |
 | 유럽           |             |                   | [Webull](https://www.webull.com/quote/nysearca-fez) |
@@ -90,7 +86,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 홍콩           | HSCEI       |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil) |
 |               | 항셍테크      |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech) |
 | 본토           | CSI300      |                   | [Webull](https://www.webullapp.com/ticker/idxsha-000300) |
@@ -101,7 +96,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 지수          | 다우존스       |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn) |
 |              | 나스닥         |                   | [Webull](https://www.webull.com/quote/idxnasdaq-ixic) |
 |              | S&P500        |                   | [Investing.com](https://www.investing.com/indices/us-spx-500) |
@@ -117,7 +111,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 지수          | 코스닥150      |                   | |
 |              | 코스피200      |                   | |
 |              | KRX300        |                   | |
@@ -131,7 +124,6 @@ hidden: false
 
 | 유형          | 종목          | 기록               | 차트          |
 :-----------   | :---------   | :-                | :-           |
-| | | | |
 | 탄소배출권      |              |                   | |
 | 신재생에너지     |              |                   | |
 | 배터리          |              |                   | |
