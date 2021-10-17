@@ -35,8 +35,8 @@ published: true
 
 ### 차트
 
-- [Webull](https://app.webull.com/trade){:target="_blank"}
-- [Investing.com](https://www.investing.com/markets/){:target="_blank"}
+- [Webull](https://app.webull.com/trade){:target="￦_blank"}
+- [Investing.com](https://www.investing.com/markets/){:target="￦_blank"}
 
 ### 종목
 
