@@ -3,7 +3,7 @@ title: "investment websites"
 date: 2021-10-11
 categories: investment
 published: true
-visible: true
+hidden: false
 ---
 
 ### 시황
