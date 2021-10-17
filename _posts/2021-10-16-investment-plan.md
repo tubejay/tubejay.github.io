@@ -140,6 +140,9 @@ hidden: false
 | 배터리          | 2차전지 | | [KODEX](https://stockplus.com/m/stocks/KOREA-A305720) <br> [TIGER](https://stockplus.com/m/stocks/KOREA-A305540) |
 |                | 글로벌리튬&2차전지 | [Webull](https://www.webull.com/quote/nysearca-lit){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A394670) |
 |                | K-뉴딜          | | [KB](https://stockplus.com/m/stocks/KOREA-Q580025) |
-| BBIG           |                | | []() |
-| 4차산업          |                | | |
-| 메타버스          |                | | |
+| BBIG           | 글로벌           | | [TIGER](https://stockplus.com/m/stocks/KOREA-A387270) |
+|                | K-뉴딜           | | [삼성](https://stockplus.com/m/stocks/KOREA-Q530086) |
+| 4차산업          | 로보틱스          | [Webull](https://www.webullapp.com/ticker/nysearca-robo) | [KODEX](https://stockplus.com/m/stocks/KOREA-A276990) |
+|                 | 혁신기술          | [Webull](https://www.webull.com/quote/nasdaq-xt) | [TIGER](https://stockplus.com/m/stocks/KOREA-A275980) |
+|                 | IT              | | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A276650) |
+| 메타버스          |                 |  | [KODEX](https://stockplus.com/m/stocks/KOREA-A401470) <br> [TIGER](https://stockplus.com/m/stocks/KOREA-A400970) <br> [KBSTAR](https://stockplus.com/m/stocks/KOREA-A401170) <br> [HANARO](https://stockplus.com/m/stocks/KOREA-A402460) |
