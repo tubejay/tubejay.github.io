@@ -47,20 +47,20 @@ hidden: false
 |               | 플래티넘       | [Webull](https://www.webull.com/quote/nysearca-pplt){:target="\_blank"} | |
 |               | 팔라듐         | [Webull](https://www.webull.com/quote/nysearca-pall){:target="\_blank"} | |
 | 종합           | 금속           | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A139310) |
-|               | 원자재          | [Investing.com](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003) |
+|               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003) |
 
 ### 자산
 
-| 유형          | 대상          | 차트          |
-:-----------   | :---------   | :-           |
-| 채권           | 한국 국채     | |
-|               | 미국 국채     | [Webull](https://www.webull.com/quote/nysearca-iltb){:target="\_blank"} |
-| 통화           | 달러         | [Webull](https://www.webull.com/quote/fx-usdkrw){:target="\_blank"} |
-|               | 유로         | [Webull](https://www.webull.com/quote/fx-eurkrw){:target="\_blank"} |
-|               | 엔           | [Webull](https://www.webull.com/quote/fx-jpyusd){:target="\_blank"} |
-| 안전자산         | 금           | [Webull](https://www.webull.com/quote/nysearca-iau){:target="\_blank"} |
-|                | 은           | [Webull](https://www.webull.com/quote/nysearca-slv){:target="\_blank"} |
-| 농산물           | 옥수수        | [Webull](https://www.webull.com/quote/nysearca-corn){:target="\_blank"} |
+| 유형          | 대상          | 차트          | 종목          |
+:-----------   | :---------   | :-           | :-           |
+| 채권           | 한국 국채     | | [메리츠 30년 레버리지](https://stockplus.com/m/stocks/KOREA-Q610008) <br> [메리츠 30년 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q610010) |
+|               | 미국 국채     | [Webull](https://www.webull.com/quote/nysearca-iltb){:target="\_blank"} | |
+| 통화           | 달러         | [Webull](https://www.webull.com/quote/fx-usdkrw){:target="\_blank"} | |
+|               | 유로         | [Webull](https://www.webull.com/quote/fx-eurkrw){:target="\_blank"} | |
+|               | 엔           | [Webull](https://www.webull.com/quote/fx-jpyusd){:target="\_blank"} | |
+| 안전자산         | 금           | [Webull](https://www.webull.com/quote/nysearca-iau){:target="\_blank"} | |
+|                | 은           | [Webull](https://www.webull.com/quote/nysearca-slv){:target="\_blank"} | |
+| 농산물           | 옥수수        | [Webull](https://www.webull.com/quote/nysearca-corn){:target="\_blank"} | |
 
 ### 신흥
 
@@ -79,7 +79,7 @@ hidden: false
 | 유형          | 대상          | 차트          |
 :-----------   | :---------   | :-           |
 | 일본           | TOPIX       | [Webull](https://www.webullapp.com/ticker/tpe-00640l){:target="\_blank"} |
-| 해외           | 럭셔리        | [Investing.com](https://www.investing.com/indices/sp-global-luxury-goods-net-return){:target="\_blank"} |
+| 해외           | 럭셔리        | [Investing](https://www.investing.com/indices/sp-global-luxury-goods-net-return){:target="\_blank"} |
 |               | FTSE         | [Webull](https://www.webull.com/quote/idxftse-ftse){:target="\_blank"} |
 |               | 유로스탁스      | [Webull](https://www.webull.com/quote/nysearca-fez){:target="\_blank"} |
 | 종합           | 선진국         | [Webull](https://www.webull.com/quote/nysearca-urth){:target="\_blank"} |
@@ -99,40 +99,47 @@ hidden: false
 :-----------   | :---------   | :-           |
 | 지수          | 다우존스       | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn){:target="\_blank"} |
 |              | 나스닥         | [Webull](https://www.webull.com/quote/idxnasdaq-ixic){:target="\_blank"} |
-|              | S&P500        | [Investing.com](https://www.investing.com/indices/us-spx-500){:target="\_blank"} |
+|              | S&P500        | [Investing](https://www.investing.com/indices/us-spx-500){:target="\_blank"} |
 |              | VIX           | [Webull](https://www.webull.com/quote/bats-vixy){:target="\_blank"} |
 | 평가          | 성장주          | [Webull](https://www.webullapp.com/ticker/idxsp-sp500g){:target="\_blank"} |
 |              | 가치주          | [Webull](https://www.webullapp.com/ticker/idxsp-ivx){:target="\_blank"} |
 |              | Wide Moat      | [Webull](https://www.webullapp.com/ticker/idxdjx-mwmf){:target="\_blank"} |
 |              | ESG            | [Webull](https://www.webull.com/quote/nysearca-snpe){:target="\_blank"} |
 | 기술          | 나스닥 기술주      | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt){:target="\_blank"} |
-|              | 미국테크 TOP10    | [Investing.com](https://m.investing.com/etfs/381170){:target="\_blank"} |
-|              | 미국 IT TOP5     | [Investing.com](https://m.investing.com/etfs/nh-qv-us-it-top5-etn-h-41){:target="\_blank"} |
-|              | 릭소디지털경제      | [Investing.com](https://m.investing.com/etfs/ebuy){:target="\_blank"} |
+|              | 미국테크 TOP10    | [Investing](https://m.investing.com/etfs/381170){:target="\_blank"} |
+|              | 미국 IT TOP5     | [Investing](https://m.investing.com/etfs/nh-qv-us-it-top5-etn-h-41){:target="\_blank"} |
+|              | 릭소디지털경제      | [Investing](https://m.investing.com/etfs/ebuy){:target="\_blank"} |
 |              | 클라우드컴퓨팅      | [Webull](https://www.webull.com/quote/nasdaq-clou){:target="\_blank"} |
 |              | 데이터센터리츠      | [Webull](https://www.webull.com/quote/nysearca-srvr){:target="\_blank"} |
 
 ### 한국
 
-| 유형          | 대상          | 차트          |
-:-----------   | :---------   | :-           |
-| 지수          | 코스닥150      | |
-|              | 코스피200      | |
-|              | KRX300        | |
-| 미국+한국       | USD K200     | |
-|               | TRF          | |
-| 업종           | 전기전자        | |
-|               | 에너지화학       | |
-|               | 미디어엔터       | |
+| 유형          | 대상          | 차트          | 종목         |
+:-----------   | :---------   | :-           | :-          |
+| 지수          | 코스닥150      | | [KOSEF 레버리지](https://stockplus.com/m/stocks/KOREA-A291630) <br> [KOSEF 인버스](https://stockplus.com/m/stocks/KOREA-A291620) |
+|              | 코스피200      | | [KOSEF 레버리지](https://stockplus.com/m/stocks/KOREA-A253250) <br> [KOSEF 인버스 2X](https://stockplus.com/m/stocks/KOREA-A253230) |
+|              | 롱+숏          | | [KODEX 코스닥+코스피](https://stockplus.com/m/stocks/KOREA-A360150) <br> [KODEX 코스피+코스닥](https://stockplus.com/m/stocks/KOREA-A360140) |
+|              | KRX300        | | [메리츠 레버리지](https://stockplus.com/m/stocks/KOREA-Q610005) <br> [메리츠 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q610006) |
+| 미국+한국       | 바이셀         | | [신한 USD+K200](https://stockplus.com/m/stocks/KOREA-Q500002) <br> [신한 K200+USD](https://stockplus.com/m/stocks/KOREA-Q500001) |
+|               | TRF           | | [KODEX 70+30](https://stockplus.com/m/stocks/KOREA-A329670) <br> [KODEX 50+50](https://stockplus.com/m/stocks/KOREA-A329660) <br> [KODEX 30+70](https://stockplus.com/m/stocks/KOREA-A329650) |
+| 업종           | 전기전자        | | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520004) <br> [미래에셋 인버스](https://stockplus.com/m/stocks/KOREA-Q520005) |
+|               | 에너지화학       | | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520006) <br> [미래에셋 인버스](https://stockplus.com/m/stocks/KOREA-Q520007) |
+|               | 미디어엔터       | | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520014) <br> [미래에셋 인버스](https://stockplus.com/m/stocks/KOREA-Q520015) |
 
 ### 미래
 
-| 유형          | 대상          | 차트          |
-:-----------   | :---------   | :-           |
-| 탄소배출권      | 유럽          | [Investing.com](https://www.investing.com/commodities/carbon-emissions){:target="\_blank"} |
-|               | 글로벌        | [Investing.com](https://m.investing.com/etfs/krbn){:target="\_blank"} |
-| 신재생에너지     |              | |
-| 배터리          | 글로벌리튬&2차전지 | [Webull](https://www.webull.com/quote/nysearca-lit){:target="\_blank"} |
-| BBIG           |              | |
-| 4차산업          |              | |
-| 메타버스          |              | |
+| 유형          | 대상          | 차트          | 종목        |
+:-----------   | :---------   | :-           | :-         |
+| 탄소배출권      | 유럽          | [Investing](https://www.investing.com/commodities/carbon-emissions){:target="\_blank"} | [SOL](https://stockplus.com/m/stocks/KOREA-A400580) |
+|               | 글로벌        | [Investing](https://m.investing.com/etfs/krbn){:target="\_blank"} | [SOL](https://stockplus.com/m/stocks/KOREA-A400590) |
+| 신재생에너지     | 신재생에너지    | | [KODEX](https://stockplus.com/m/stocks/KOREA-A385510) |
+|               | 미래차         | | [KODEX](https://stockplus.com/m/stocks/KOREA-A385520) |
+|               | 전기수소차      | | [HANARO](https://stockplus.com/m/stocks/KOREA-A381560) |
+|               | 모빌리티        | | [TIGER](https://stockplus.com/m/stocks/KOREA-A387280) |
+|               | 미국친환경       | | [KINDEX](https://stockplus.com/m/stocks/KOREA-A391600) |
+| 배터리          | 2차전지 | | [KODEX](https://stockplus.com/m/stocks/KOREA-A305720) <br> [TIGER](https://stockplus.com/m/stocks/KOREA-A305540) |
+|                | 글로벌리튬&2차전지 | [Webull](https://www.webull.com/quote/nysearca-lit){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A394670) |
+|                | K-뉴딜          | | [KB](https://stockplus.com/m/stocks/KOREA-Q580025) |
+| BBIG           |                | | []() |
+| 4차산업          |                | | |
+| 메타버스          |                | | |
