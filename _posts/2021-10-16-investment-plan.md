@@ -43,7 +43,7 @@ hidden: false
 |         |               | 천연가스      |                   | [Webull](https://www.webull.com/quote/nysearca-ung) |
 |         | 금속           | 구리         |                   | [Webull](https://www.webull.com/quote/nysearca-cper) |
 |         |               | 알루미늄      |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-djusal) |
-|         |               | 아연         |                   | |
+|         |               | 아연         |                   | [Webull](https://www.webullapp.com/ticker/nse-hindzinc) |
 |         |               | 니켈         |                   | [Webull](https://www.webull.com/quote/nysearca-jjn) |
 |         |               | 철광석        |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-djusst) |
 |         |               | 플래티넘       |                   | [Webull](https://www.webull.com/quote/nysearca-pplt) |
@@ -64,10 +64,12 @@ hidden: false
 |         |               | 인도          |                   | [Webull](https://www.webull.com/quote/idxnse-nsei) |
 |         | 기타           | 러시아         |                   | [Webull](https://www.webull.com/quote/nysearca-erus) |
 |         |               | 멕시코         |                   | [Webull](https://www.webull.com/quote/nysearca-eww) |
+|         | 종합           |               |                   | [Webull](https://www.webull.com/quote/nysearca-eem) |
 | | | | | |
 | 선진     | 일본           |             |                   | [Webull](https://www.webullapp.com/ticker/tpe-00640l) |
 |         | 영국           |             |                   | [Webull](https://www.webull.com/quote/idxftse-ftse) |
 |         | 유럽           |             |                   | [Webull](https://www.webull.com/quote/nysearca-fez) |
+|         | 종합           |             |                   | [Webull](https://www.webull.com/quote/nysearca-urth) |
 | | | | | |
 | 중국     | 홍콩           | HSCEI       |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil) |
 |         |               | 항셍테크      |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech) |
@@ -80,8 +82,10 @@ hidden: false
 |         |              | VIX           |                   | [Webull](https://www.webull.com/quote/bats-vixy) |
 |         | 평가          | 성장주          |                   | [Webull](https://www.webullapp.com/ticker/idxsp-sp500g) |
 |         |              | 가치주          |                   | [Webull](https://www.webullapp.com/ticker/idxsp-ivx) |
+|         |              | Wide Moat      |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-mwmf) |
 |         |              | ESG            |                   | [Webull](https://www.webull.com/quote/nysearca-snpe) |
-|         | 기술          |                 |                  | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt) |
+|         | 기술          | 나스닥 기술주         |                  | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt) |
+|         |              | 데이터 인프라 리츠      |                 | [Webull](https://www.webull.com/quote/nysearca-srvr) |
 | | | | | |
 | 한국     | 지수          | 코스닥150      |                   | |
 |         |              | 코스피200      |                   | |
