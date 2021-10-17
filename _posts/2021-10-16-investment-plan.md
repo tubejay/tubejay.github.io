@@ -3,7 +3,7 @@ title: "investment plan"
 date: 2021-10-16
 categories: investment
 published: true
-hidden: true
+hidden: false
 ---
 
 ## 계획
