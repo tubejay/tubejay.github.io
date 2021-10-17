@@ -33,7 +33,7 @@ hidden: false
 
 ### 재료
 
-| 유형          | 대상          | 차트          | 종목         |
+| 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 에너지         | 석유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500019){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500027){:target="\_blank"} |
 |               | 천연가스      | [Webull](https://www.webull.com/quote/nysearca-ung){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500053){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500054){:target="\_blank"} |
@@ -51,7 +51,7 @@ hidden: false
 
 ### 자산
 
-| 유형          | 대상          | 차트          | 종목          |
+| 유형          | 대상          | 벤치          | 종목          |
 :-----------   | :---------   | :-           | :-           |
 | 채권           | 한국 국채     | | [메리츠 30년 레버리지](https://stockplus.com/m/stocks/KOREA-Q610008){:target="\_blank"} <br> [메리츠 30년 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q610010){:target="\_blank"} |
 |               | 미국 국채     | [Webull](https://www.webull.com/quote/nysearca-iltb){:target="\_blank"} | [KBSTAR 장기 레버리지](https://stockplus.com/m/stocks/KOREA-A267490){:target="\_blank"} <br> [KBSTAR 장기 인버스 2X](https://stockplus.com/m/stocks/KOREA-A267500){:target="\_blank"} |
@@ -64,7 +64,7 @@ hidden: false
 
 ### 신흥
 
-| 유형          | 대상          | 차트          | 종목         |
+| 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 아시아         | 필리핀        | [Webull](https://www.webull.com/quote/nysearca-ephe){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A261920){:target="\_blank"} |
 |               | 베트남        | [Webull](https://www.webull.com/quote/bats-vnm){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A245710){:target="\_blank"} <br> [TRUE 레버리지](https://stockplus.com/m/stocks/KOREA-Q570065){:target="\_blank"} <br> [TRUE 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q570066){:target="\_blank"} |
@@ -76,7 +76,7 @@ hidden: false
 
 ### 선진
 
-| 유형          | 대상          | 차트          | 종목         |
+| 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 일본           | TOPIX       | [Webull](https://www.webullapp.com/ticker/tpe-00640l){:target="\_blank"} | [KINDEX 레버리지](https://stockplus.com/m/stocks/KOREA-A196030){:target="\_blank"} <br> [KINDEX 인버스](https://stockplus.com/m/stocks/KOREA-A205720){:target="\_blank"} |
 | 해외           | 럭셔리        | [Investing](https://www.investing.com/indices/sp-global-luxury-goods-net-return){:target="\_blank"} | [HANARO](https://stockplus.com/m/stocks/KOREA-A354350){:target="\_blank"} |
@@ -86,7 +86,7 @@ hidden: false
 
 ### 중국
 
-| 유형          | 대상          | 차트          | 종목         |
+| 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 홍콩           | HSCEI       | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530075){:target="\_blank"} <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530076){:target="\_blank"} |
 |               | 항셍테크      | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530081){:target="\_blank"} <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530082){:target="\_blank"} |
@@ -95,7 +95,7 @@ hidden: false
 
 ### 미국
 
-| 유형          | 대상          | 차트          |
+| 유형          | 대상          | 벤치          |
 :-----------   | :---------   | :-           |
 | 지수          | 다우존스       | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn){:target="\_blank"} |
 |              | 나스닥         | [Webull](https://www.webull.com/quote/idxnasdaq-ixic){:target="\_blank"} |
@@ -114,7 +114,7 @@ hidden: false
 
 ### 한국
 
-| 유형          | 대상          | 차트          | 종목         |
+| 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 지수          | 코스닥150      | | [KOSEF 레버리지](https://stockplus.com/m/stocks/KOREA-A291630){:target="\_blank"} <br> [KOSEF 인버스](https://stockplus.com/m/stocks/KOREA-A291620){:target="\_blank"} |
 |              | 코스피200      | | [KOSEF 레버리지](https://stockplus.com/m/stocks/KOREA-A253250){:target="\_blank"} <br> [KOSEF 인버스 2X](https://stockplus.com/m/stocks/KOREA-A253230){:target="\_blank"} |
@@ -128,7 +128,7 @@ hidden: false
 
 ### 미래
 
-| 유형          | 대상          | 차트          | 종목        |
+| 유형          | 대상          | 벤치          | 종목        |
 :-----------   | :---------   | :-           | :-         |
 | 탄소배출권      | 유럽          | [Investing](https://www.investing.com/commodities/carbon-emissions){:target="\_blank"} | [SOL](https://stockplus.com/m/stocks/KOREA-A400580){:target="\_blank"} |
 |               | 글로벌        | [Investing](https://m.investing.com/etfs/krbn){:target="\_blank"} | [SOL](https://stockplus.com/m/stocks/KOREA-A400590){:target="\_blank"} |
