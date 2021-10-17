@@ -12,8 +12,8 @@ published: true
 | 장전     | [골드래빗 : 경제기사로 여는 아침](https://brunch.co.kr/magazine/sinmorning){:target="\_blank"} |
 |         | [주식 투자 커뮤니티 : 미국증시 시황](https://usstockinfo.tistory.com/m/category/%EB%AF%B8%EA%B5%AD%EC%A6%9D%EC%8B%9C%20%EC%8B%9C%ED%99%A9){:target="\_blank"} |
 |         | [키움증권 : 시황&투자전략](https://m.post.naver.com/my/series/detail.naver?seriesNo=526982&memberNo=30473277){:target="￦_blank"} |
-| 마감     | [리치줌인센터 : 마감시황](https://brunch.co.kr/@a43bc8f3787943b#articles){:target="￦_blank"} |
-|         | [염승환 : 오늘 마감](https://brunch.co.kr/@6a5b8881f191434#articles){:target="￦_blank"} |
+| 마감     | [리치줌인센터 : 마감시황](https://brunch.co.kr/@a43bc8f3787943b#articles){:target="\_blank"} |
+|         | [염승환 : 오늘 마감](https://brunch.co.kr/@6a5b8881f191434#articles){:target="\_blank"} |
 | 자산 규모 | [CompaniesMarketCap.com : Top Assets by Market Cap](https://companiesmarketcap.com/assets-by-market-cap/){:target="\_blank"} |
 |         | [TradingView : Stock Heatmap](https://www.tradingview.com/heatmap/stock/){:target="\_blank"} |
 |         | [finviz : Map](https://finviz.com/map.ashx){:target="\_blank"} |
