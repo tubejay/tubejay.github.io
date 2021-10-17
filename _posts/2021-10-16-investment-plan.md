@@ -76,13 +76,13 @@ hidden: false
 
 ### 선진
 
-| 유형          | 대상          | 차트          |
-:-----------   | :---------   | :-           |
-| 일본           | TOPIX       | [Webull](https://www.webullapp.com/ticker/tpe-00640l){:target="\_blank"} |
-| 해외           | 럭셔리        | [Investing](https://www.investing.com/indices/sp-global-luxury-goods-net-return){:target="\_blank"} |
-|               | FTSE         | [Webull](https://www.webull.com/quote/idxftse-ftse){:target="\_blank"} |
-|               | 유로스탁스      | [Webull](https://www.webull.com/quote/nysearca-fez){:target="\_blank"} |
-| 종합           | 선진국         | [Webull](https://www.webull.com/quote/nysearca-urth){:target="\_blank"} |
+| 유형          | 대상          | 차트          | 종목         |
+:-----------   | :---------   | :-           | :-          |
+| 일본           | TOPIX       | [Webull](https://www.webullapp.com/ticker/tpe-00640l){:target="\_blank"} | [KINDEX 레버리지](https://stockplus.com/m/stocks/KOREA-A196030){:target="\_blank"} <br> [KINDEX 인버스](https://stockplus.com/m/stocks/KOREA-A205720){:target="\_blank"} |
+| 해외           | 럭셔리        | [Investing](https://www.investing.com/indices/sp-global-luxury-goods-net-return){:target="\_blank"} | [HANARO](https://stockplus.com/m/stocks/KOREA-A354350){:target="\_blank"} |
+|               | FTSE         | [Webull](https://www.webull.com/quote/idxftse-ftse){:target="\_blank"} | [TRUE](https://stockplus.com/m/stocks/KOREA-Q570047){:target="\_blank"} |
+|               | 유로스탁스      | [Webull](https://www.webull.com/quote/nysearca-fez){:target="\_blank"} | [TIGER 레버리지](https://stockplus.com/m/stocks/KOREA-A225050){:target="\_blank"} <br> [TRUE 레버리지](https://stockplus.com/m/stocks/KOREA-Q570054){:target="\_blank"} <br> [TRUE 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q570027){:target="\_blank"} |
+| 종합           | 선진국         | [Webull](https://www.webull.com/quote/nysearca-urth){:target="\_blank"} | [KODEX](https://stockplus.com/m/stocks/KOREA-A251350){:target="\_blank"} |
 
 ### 중국
 
