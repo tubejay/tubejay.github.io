@@ -33,7 +33,7 @@ hidden: false
 
 ### 재료
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 에너지         | 석유         |                   | [Webull](https://www.webull.com/quote/nysearca-uso) |
 |               | 천연가스      |                   | [Webull](https://www.webull.com/quote/nysearca-ung) |
@@ -47,7 +47,7 @@ hidden: false
 
 ### 자산
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 채권           | 한국 국채     |                   | |
 |               | 미국 국채     |                   | [Webull](https://www.webull.com/quote/nysearca-iltb) |
@@ -60,7 +60,7 @@ hidden: false
 
 ### 신흥
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 아시아         | 필리핀        |                   | [Webull](https://www.webull.com/quote/nysearca-ephe) |
 |               | 베트남        |                   | [Webull](https://www.webull.com/quote/bats-vnm) |
@@ -72,7 +72,7 @@ hidden: false
 
 ### 선진
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 일본           |             |                   | [Webull](https://www.webullapp.com/ticker/tpe-00640l) |
 | 영국           |             |                   | [Webull](https://www.webull.com/quote/idxftse-ftse) |
@@ -81,7 +81,7 @@ hidden: false
 
 ### 중국
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 홍콩           | HSCEI       |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil) |
 |               | 항셍테크      |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech) |
@@ -91,7 +91,7 @@ hidden: false
 
 ### 미국
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 지수          | 다우존스       |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn) |
 |              | 나스닥         |                   | [Webull](https://www.webull.com/quote/idxnasdaq-ixic) |
@@ -101,12 +101,13 @@ hidden: false
 |              | 가치주          |                   | [Webull](https://www.webullapp.com/ticker/idxsp-ivx) |
 |              | Wide Moat      |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-mwmf) |
 |              | ESG            |                   | [Webull](https://www.webull.com/quote/nysearca-snpe) |
-| 기술          | 나스닥 기술주         |                  | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt) |
-|              | 데이터 인프라 리츠      |                 | [Webull](https://www.webull.com/quote/nysearca-srvr) |
+| 기술          | 나스닥 기술주      |                   | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt) |
+|              | 테크 TOP10       | [Investing.com](https://m.investing.com/etfs/381170) | [Indxx](https://www.indxx.com/indices/thematic/indxx-us-tech-top-10-index-pr) | 
+|              | 데이터 인프라 리츠   |                   | [Webull](https://www.webull.com/quote/nysearca-srvr) |
 
 ### 한국
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 지수          | 코스닥150      |                   | |
 |              | 코스피200      |                   | |
@@ -119,11 +120,11 @@ hidden: false
 
 ### 미래
 
-| 유형          | 종목          | 기록               | 차트          |
+| 유형          | 대상          | 종목               | 기초지수          |
 :-----------   | :---------   | :-                | :-           |
 | 탄소배출권      |              |                   | |
 | 신재생에너지     |              |                   | |
-| 배터리          |              |                   | |
+| 배터리          |              |                   |
 | BBIG           |              |                   | |
 | 4차산업          |              |                   | |
 | 메타버스          |              |                   |
