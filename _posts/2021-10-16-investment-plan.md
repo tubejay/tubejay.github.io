@@ -39,49 +39,49 @@ hidden: false
 | 대분류   | 중분류         | 소분류        | 기록               | 차트          |
 | :-----  | :----------- | :---------   | :-                | :-          |
 | | | | | |
-| 재료     | 에너지         | 석유         |                   | https://www.webull.com/quote/nysearca-uso |
-|         |               | 천연가스      |                   | https://www.webull.com/quote/nysearca-ung |
-|         | 금속           | 구리         |                   | https://www.webull.com/quote/nysearca-cper |
-|         |               | 알루미늄      |                   | https://www.webullapp.com/ticker/idxdjx-djusal |
+| 재료     | 에너지         | 석유         |                   | [Webull](https://www.webull.com/quote/nysearca-uso) |
+|         |               | 천연가스      |                   | [Webull](https://www.webull.com/quote/nysearca-ung) |
+|         | 금속           | 구리         |                   | [Webull](https://www.webull.com/quote/nysearca-cper) |
+|         |               | 알루미늄      |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-djusal) |
 |         |               | 아연         |                   | |
-|         |               | 니켈         |                   | https://www.webull.com/quote/nysearca-jjn |
-|         |               | 철광석        |                   | https://www.webullapp.com/ticker/idxdjx-djusst |
-|         |               | 플래티넘       |                   | https://www.webull.com/quote/nysearca-pplt |
-|         |               | 팔라듐         |                   | https://www.webull.com/quote/nysearca-pall |
+|         |               | 니켈         |                   | [Webull](https://www.webull.com/quote/nysearca-jjn) |
+|         |               | 철광석        |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-djusst) |
+|         |               | 플래티넘       |                   | [Webull](https://www.webull.com/quote/nysearca-pplt) |
+|         |               | 팔라듐         |                   | [Webull](https://www.webull.com/quote/nysearca-pall) |
 | | | | | |
 | 자산     | 채권           | 한국 국채     |                   | |
-|         |               | 미국 국채     |                   | https://www.webull.com/quote/nysearca-iltb |
-|         | 통화           | 달러         |                   | https://www.webull.com/quote/fx-usdkrw |
-|         |               | 유로         |                   | https://www.webull.com/quote/fx-eurkrw |
-|         |               | 엔           |                   | https://www.webull.com/quote/fx-jpyusd|
-|         | 안전자산         | 금          |                   | https://www.webull.com/quote/nysearca-iau |
-|         |                | 은          |                   | https://www.webull.com/quote/nysearca-slv |
-|         | 농산물           | 옥수수       |                   | https://www.webull.com/quote/nysearca-corn |
+|         |               | 미국 국채     |                   | [Webull](https://www.webull.com/quote/nysearca-iltb) |
+|         | 통화           | 달러         |                   | [Webull](https://www.webull.com/quote/fx-usdkrw) |
+|         |               | 유로         |                   | [Webull](https://www.webull.com/quote/fx-eurkrw) |
+|         |               | 엔           |                   | [Webull](https://www.webull.com/quote/fx-jpyusd) |
+|         | 안전자산         | 금          |                   | [Webull](https://www.webull.com/quote/nysearca-iau) |
+|         |                | 은          |                   | [Webull](https://www.webull.com/quote/nysearca-slv) |
+|         | 농산물           | 옥수수       |                   | [Webull](https://www.webull.com/quote/nysearca-corn) |
 | | | | | |
-| 신흥     | 아시아         | 필리핀        |                   | https://www.webull.com/quote/nysearca-ephe |
-|         |               | 베트남        |                   | https://www.webull.com/quote/bats-vnm |
-|         |               | 인도네시아     |                   | https://www.webull.com/quote/nysearca-eido |
-|         |               | 인도          |                   | https://www.webull.com/quote/idxnse-nsei |
-|         | 기타           | 러시아         |                   | https://www.webull.com/quote/nysearca-erus |
-|         |               | 멕시코         |                   | https://www.webull.com/quote/nysearca-eww |
+| 신흥     | 아시아         | 필리핀        |                   | [Webull](https://www.webull.com/quote/nysearca-ephe) |
+|         |               | 베트남        |                   | [Webull](https://www.webull.com/quote/bats-vnm) |
+|         |               | 인도네시아     |                   | [Webull](https://www.webull.com/quote/nysearca-eido) |
+|         |               | 인도          |                   | [Webull](https://www.webull.com/quote/idxnse-nsei) |
+|         | 기타           | 러시아         |                   | [Webull](https://www.webull.com/quote/nysearca-erus) |
+|         |               | 멕시코         |                   | [Webull](https://www.webull.com/quote/nysearca-eww) |
 | | | | | |
-| 선진     | 일본           |             |                   | https://www.webullapp.com/ticker/tpe-00640l |
-|         | 영국           |             |                   | https://www.webull.com/quote/idxftse-ftse |
-|         | 유럽           |             |                   | https://www.webull.com/quote/nysearca-fez |
+| 선진     | 일본           |             |                   | [Webull](https://www.webullapp.com/ticker/tpe-00640l) |
+|         | 영국           |             |                   | [Webull](https://www.webull.com/quote/idxftse-ftse) |
+|         | 유럽           |             |                   | [Webull](https://www.webull.com/quote/nysearca-fez) |
 | | | | | |
-| 중국     | 홍콩           | HSCEI       |                   | https://www.webullapp.com/ticker/idxhkg-hsceil |
-|         |               | 항셍테크      |                   | https://www.webullapp.com/ticker/idxhkg-hstech |
-|         | 본토           | CSI300      |                   | https://www.webullapp.com/ticker/idxsha-000300 |
-|         |               | A50         |                   | https://www.webull.com/quote/idxsha-ftxin9 |
+| 중국     | 홍콩           | HSCEI       |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil) |
+|         |               | 항셍테크      |                   | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech) |
+|         | 본토           | CSI300      |                   | [Webull](https://www.webullapp.com/ticker/idxsha-000300) |
+|         |               | A50         |                   | [Webull](https://www.webull.com/quote/idxsha-ftxin9) |
 | | | | | |
-| 미국     | 지수          | 다우존스       |                   | https://www.webullapp.com/ticker/idxdjx-dji2mn |
-|         |              | 나스닥         |                   | https://www.webull.com/quote/idxnasdaq-ixic |
+| 미국     | 지수          | 다우존스       |                   | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn) |
+|         |              | 나스닥         |                   | [Webull](https://www.webull.com/quote/idxnasdaq-ixic) |
 |         |              | S&P500        |                   | |
-|         |              | VIX           |                   | https://www.webull.com/quote/bats-vixy |
-|         | 평가          | 성장주          |                   | https://www.webullapp.com/ticker/idxsp-sp500g |
-|         |              | 가치주          |                   | https://www.webullapp.com/ticker/idxsp-ivx |
-|         |              | ESG            |                   | https://www.webull.com/quote/nysearca-snpe |
-|         | 기술          |                 |                  | https://www.webull.com/quote/idxnasdaq-ndxt |
+|         |              | VIX           |                   | [Webull](https://www.webull.com/quote/bats-vixy) |
+|         | 평가          | 성장주          |                   | [Webull](https://www.webullapp.com/ticker/idxsp-sp500g) |
+|         |              | 가치주          |                   | [Webull](https://www.webullapp.com/ticker/idxsp-ivx) |
+|         |              | ESG            |                   | [Webull](https://www.webull.com/quote/nysearca-snpe) |
+|         | 기술          |                 |                  | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt) |
 | | | | | |
 | 한국     | 지수          | 코스닥150      |                   | |
 |         |              | 코스피200      |                   | |
