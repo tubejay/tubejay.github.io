@@ -3,6 +3,7 @@ title: "investment plan"
 date: 2021-10-16
 categories: arkiv
 published: true
+hidden: true
 ---
 
 ## 계획
@@ -15,6 +16,11 @@ published: true
 | V0 (진동 약함) | S+/V0         | 거래 대상 아님 | 인버스 거래 (S+/V0) |
 
 ### 대응
+
+| 분류      | 판단       | 행동         |
+| :-       | :-        | :-          |
+| S+<br>V+ | 위로 진동   | 부분 매도     |
+|          | 아래로 진동  | 추가 매수     |
 
 - S+/V+
   - 위로 진동 => 부분 매도
