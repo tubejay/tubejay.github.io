@@ -86,12 +86,12 @@ hidden: false
 
 ### 중국
 
-| 유형          | 대상          | 차트          |
-:-----------   | :---------   | :-           |
-| 홍콩           | HSCEI       | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil){:target="\_blank"} |
-|               | 항셍테크      | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech){:target="\_blank"} |
-| 본토           | CSI300      | [Webull](https://www.webullapp.com/ticker/idxsha-000300){:target="\_blank"} |
-|               | A50         | [Webull](https://www.webull.com/quote/idxsha-ftxin9){:target="\_blank"} |
+| 유형          | 대상          | 차트          | 종목         |
+:-----------   | :---------   | :-           | :-          |
+| 홍콩           | HSCEI       | [Webull](https://www.webullapp.com/ticker/idxhkg-hsceil){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530075){:target="\_blank"} <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530076){:target="\_blank"} |
+|               | 항셍테크      | [Webull](https://www.webullapp.com/ticker/idxhkg-hstech){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530081){:target="\_blank"} <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530082){:target="\_blank"} |
+| 본토           | CSI300      | [Webull](https://www.webullapp.com/ticker/idxsha-000300){:target="\_blank"} | [TIGER 레버리지](https://stockplus.com/m/stocks/KOREA-A204480){:target="\_blank"} <br> [TIGER 인버스](https://stockplus.com/m/stocks/KOREA-A217780){:target="\_blank"} |
+|               | A50         | [Webull](https://www.webull.com/quote/idxsha-ftxin9){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530023){:target="\_blank"} <br> [삼성 인버스](https://stockplus.com/m/stocks/KOREA-Q530002){:target="\_blank"} |
 
 ### 미국
 
