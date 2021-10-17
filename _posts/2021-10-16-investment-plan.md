@@ -53,7 +53,7 @@ hidden: false
 
 | 유형          | 대상          | 차트          | 종목          |
 :-----------   | :---------   | :-           | :-           |
-| 채권           | 한국 국채     | | [메리츠 30년 레버리지](https://stockplus.com/m/stocks/KOREA-Q610008) <br> [메리츠 30년 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q610010){:target="\_blank"} |
+| 채권           | 한국 국채     | | [메리츠 30년 레버리지](https://stockplus.com/m/stocks/KOREA-Q610008){:target="\_blank"} <br> [메리츠 30년 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q610010){:target="\_blank"} |
 |               | 미국 국채     | [Webull](https://www.webull.com/quote/nysearca-iltb){:target="\_blank"} | |
 | 통화           | 달러         | [Webull](https://www.webull.com/quote/fx-usdkrw){:target="\_blank"} | |
 |               | 유로         | [Webull](https://www.webull.com/quote/fx-eurkrw){:target="\_blank"} | |
