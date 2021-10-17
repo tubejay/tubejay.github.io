@@ -67,7 +67,7 @@ hidden: false
 | 유형          | 대상          | 차트          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 아시아         | 필리핀        | [Webull](https://www.webull.com/quote/nysearca-ephe){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A261920){:target="\_blank"} |
-|               | 베트남        | [Webull](https://www.webull.com/quote/bats-vnm){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A245710){:target="\_blank"} <br> [TRUE 레버리지](https://stockplus.com/m/stocks/KOREA-Q570065){:target="\_blank"} <br> TRUE 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q570066){:target="\_blank"} |
+|               | 베트남        | [Webull](https://www.webull.com/quote/bats-vnm){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A245710){:target="\_blank"} <br> [TRUE 레버리지](https://stockplus.com/m/stocks/KOREA-Q570065){:target="\_blank"} <br> [TRUE 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q570066){:target="\_blank"} |
 |               | 인도네시아      | [Webull](https://www.webull.com/quote/nysearca-eido){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A256440){:target="\_blank"} |
 |               | 인도           | [Webull](https://www.webull.com/quote/idxnse-nsei){:target="\_blank"} | [KOSEF](https://stockplus.com/m/stocks/KOREA-A200250){:target="\_blank"} <br> [TIGER 레버리지](https://stockplus.com/m/stocks/KOREA-A123320){:target="\_blank"} |
 | 기타           | 러시아          | [Webull](https://www.webull.com/quote/nysearca-erus){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A265690){:target="\_blank"} |
