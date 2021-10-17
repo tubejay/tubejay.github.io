@@ -1,8 +1,9 @@
 ---
 title: "investment plan"
 date: 2021-10-16
-categories: arkiv
+categories: investment
 published: true
+visible: false
 ---
 
 ## 계획
