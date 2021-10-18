@@ -95,22 +95,22 @@ hidden: false
 
 ### 미국
 
-| 유형          | 대상          | 벤치          |
-:-----------   | :---------   | :-           |
-| 지수          | 다우존스       | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn){:target="\_blank"} |
-|              | 나스닥         | [Webull](https://www.webull.com/quote/idxnasdaq-ixic){:target="\_blank"} |
-|              | S&P500        | [Investing](https://www.investing.com/indices/us-spx-500){:target="\_blank"} |
-|              | VIX           | [Webull](https://www.webull.com/quote/bats-vixy){:target="\_blank"} |
-| 평가          | 성장주          | [Webull](https://www.webullapp.com/ticker/idxsp-sp500g){:target="\_blank"} |
-|              | 가치주          | [Webull](https://www.webullapp.com/ticker/idxsp-ivx){:target="\_blank"} |
-|              | Wide Moat      | [Webull](https://www.webullapp.com/ticker/idxdjx-mwmf){:target="\_blank"} |
-|              | ESG            | [Webull](https://www.webull.com/quote/nysearca-snpe){:target="\_blank"} |
-| 기술          | 나스닥 기술주      | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt){:target="\_blank"} |
-|              | 미국테크 TOP10    | [Investing](https://m.investing.com/etfs/381170){:target="\_blank"} |
-|              | 미국 IT TOP5     | [Investing](https://m.investing.com/etfs/nh-qv-us-it-top5-etn-h-41){:target="\_blank"} |
-|              | 릭소디지털경제      | [Investing](https://m.investing.com/etfs/ebuy){:target="\_blank"} |
-|              | 클라우드컴퓨팅      | [Webull](https://www.webull.com/quote/nasdaq-clou){:target="\_blank"} |
-|              | 데이터센터리츠      | [Webull](https://www.webull.com/quote/nysearca-srvr){:target="\_blank"} |
+| 유형          | 대상          | 벤치          | 종목          |
+:-----------   | :---------   | :-           | :-           |
+| 지수          | 다우존스       | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500020){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500028){:target="\_blank"} |
+|              | 나스닥         | [Webull](https://www.webull.com/quote/idxnasdaq-ixic){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530070){:target="\_blank"} <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530071){:target="\_blank"} |
+|              | S&P500        | [Investing](https://www.investing.com/indices/us-spx-500){:target="\_blank"} | [KB 레버리지](https://stockplus.com/m/stocks/KOREA-Q580016){:target="\_blank"} <br> [KB 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q580017){:target="\_blank"} |
+|              | VIX           | [Webull](https://www.webull.com/quote/bats-vixy){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500058){:target="\_blank"} |
+| 평가          | 성장주          | [Webull](https://www.webullapp.com/ticker/idxsp-sp500g){:target="\_blank"} | [삼성](https://stockplus.com/m/stocks/KOREA-Q530019){:target="\_blank"} |
+|              | 가치주          | [Webull](https://www.webullapp.com/ticker/idxsp-ivx){:target="\_blank"} | [삼성](https://stockplus.com/m/stocks/KOREA-Q530020){:target="\_blank"} |
+|              | Wide Moat      | [Webull](https://www.webullapp.com/ticker/idxdjx-mwmf){:target="\_blank"} | [KINDEX](https://stockplus.com/m/stocks/KOREA-A309230){:target="\_blank"} |
+|              | ESG            | [Webull](https://www.webull.com/quote/nysearca-snpe){:target="\_blank"} | [SOL](https://stockplus.com/m/stocks/KOREA-A399110){:target="\_blank"} |
+| 기술          | 나스닥 기술주      | [Webull](https://www.webull.com/quote/idxnasdaq-ndxt){:target="\_blank"} | [ARIRANG](https://stockplus.com/m/stocks/KOREA-A287180){:target="\_blank"} |
+|              | 미국테크 TOP10    | [Investing](https://m.investing.com/etfs/381170){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A381170){:target="\_blank"} |
+|              | 미국 IT TOP5     | [Investing](https://m.investing.com/etfs/nh-qv-us-it-top5-etn-h-41){:target="\_blank"} | [QV](https://stockplus.com/m/stocks/KOREA-Q550041){:target="\_blank"} <br> [QV 인버스](https://stockplus.com/m/stocks/KOREA-Q550061){:target="\_blank"} |
+|              | 릭소디지털경제      | [Investing](https://m.investing.com/etfs/ebuy){:target="\_blank"} | [KOSEF](https://stockplus.com/m/stocks/KOREA-A394340){:target="\_blank"} |
+|              | 클라우드컴퓨팅      | [Webull](https://www.webull.com/quote/nasdaq-clou){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A371450){:target="\_blank"} |
+|              | 데이터센터리츠      | [Webull](https://www.webull.com/quote/nysearca-srvr){:target="\_blank"} | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A375270){:target="\_blank"} |
 
 ### 한국
 
