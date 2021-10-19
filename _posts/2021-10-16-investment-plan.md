@@ -99,7 +99,7 @@ hidden: false
 :-----------   | :---------   | :-           | :-           |
 | 지수          | 다우존스       | [Webull](https://www.webullapp.com/ticker/idxdjx-dji2mn){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500020){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500028){:target="\_blank"} |
 |              | 나스닥         | [Webull](https://www.webull.com/quote/idxnasdaq-ixic){:target="\_blank"} | [삼성 레버리지](https://stockplus.com/m/stocks/KOREA-Q530070){:target="\_blank"} <br> [삼성 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q530071){:target="\_blank"} |
-|              | S&P500        | [Investing](https://www.investing.com/indices/us-spx-500){:target="\_blank"} | [KB 레버리지](https://stockplus.com/m/stocks/KOREA-Q580016){:target="\_blank"} <br> [KB 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q580017){:target="\_blank"} |
+|              | S&P500        | [Webull](https://www.webull.com/quote/nysearca-spy){:target="\_blank"} | [KB 레버리지](https://stockplus.com/m/stocks/KOREA-Q580016){:target="\_blank"} <br> [KB 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q580017){:target="\_blank"} |
 |              | VIX           | [Webull](https://www.webull.com/quote/bats-vixy){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500058){:target="\_blank"} |
 | 평가          | 성장주          | [Webull](https://www.webullapp.com/ticker/idxsp-sp500g){:target="\_blank"} | [삼성](https://stockplus.com/m/stocks/KOREA-Q530019){:target="\_blank"} |
 |              | 가치주          | [Webull](https://www.webullapp.com/ticker/idxsp-ivx){:target="\_blank"} | [삼성](https://stockplus.com/m/stocks/KOREA-Q530020){:target="\_blank"} |
