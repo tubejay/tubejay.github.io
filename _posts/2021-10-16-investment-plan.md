@@ -53,6 +53,8 @@ hidden: false
 
 | 유형          | 대상          | 벤치          | 종목          |
 :-----------   | :---------   | :-           | :-           |
+| 인플레이션      | 한국          | | [메리츠 레버리지](https://stockplus.com/m/stocks/KOREA-Q610002){:target="\_blank"} |
+|               | 미국         | | [메리츠 레버리지](https://stockplus.com/m/stocks/KOREA-Q610004){:target="\_blank"} |
 | 채권           | 한국 국채     | | [메리츠 30년 레버리지](https://stockplus.com/m/stocks/KOREA-Q610008){:target="\_blank"} <br> [메리츠 30년 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q610010){:target="\_blank"} |
 |               | 미국 국채     | [Webull](https://www.webull.com/quote/nysearca-iltb){:target="\_blank"} | [KBSTAR 장기 레버리지](https://stockplus.com/m/stocks/KOREA-A267490){:target="\_blank"} <br> [KBSTAR 장기 인버스 2X](https://stockplus.com/m/stocks/KOREA-A267500){:target="\_blank"} |
 | 통화           | 달러         | [Webull](https://www.webull.com/quote/fx-usdkrw){:target="\_blank"} | [KOSEF 레버리지](https://stockplus.com/m/stocks/KOREA-A225800){:target="\_blank"} <br> [KOSEF 인버스 2X](https://stockplus.com/m/stocks/KOREA-A230480){:target="\_blank"} |
