@@ -35,7 +35,9 @@ hidden: false
 
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
-| 에너지         | 석유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500019){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500027){:target="\_blank"} |
+| 에너지         | WTI원유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500019){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500027){:target="\_blank"} |
+|               | 브렌트유      | [Webull](https://www.webull.com/quote/nysearca-bno){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500004){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500005){:target="\_blank"} |
+|               | 원유혼합      | [Webull](https://www.webull.com/quote/otcmkts-oilnf){:target="\_blank"} | [미래에셋 레버리지](https://stockplus.com/m/stocks/KOREA-Q520009){:target="\_blank"} <br> [미래에셋 인버스](https://stockplus.com/m/stocks/KOREA-Q520011){:target="\_blank"} |
 |               | 천연가스      | [Webull](https://www.webull.com/quote/nysearca-ung){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500053){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500054){:target="\_blank"} |
 | S&P           | 원유생산기업   | [Webull](https://www.webullapp.com/ticker/idxsp-sp500-10102020){:target="\_blank"} | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A219390){:target="\_blank"} |
 |               | 에너지        | [Webull](https://www.webull.com/quote/nysearca-xle){:target="\_blank"} | [KODEX](https://stockplus.com/m/stocks/KOREA-A218420){:target="\_blank"} |
@@ -64,6 +66,7 @@ hidden: false
 | 안전자산         | 금           | [Webull](https://www.webull.com/quote/nysearca-iau){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500037){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500038){:target="\_blank"} |
 |                | 은           | [Webull](https://www.webull.com/quote/nysearca-slv){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500029){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500030){:target="\_blank"} |
 | 농산물           | 옥수수        | [Webull](https://www.webull.com/quote/nysearca-corn){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500013){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500014){:target="\_blank"} |
+|                 | 콩          | [Webull](https://www.webull.com/quote/nysearca-soyb){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500023){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500024){:target="\_blank"} |
 
 ### 신흥
 
