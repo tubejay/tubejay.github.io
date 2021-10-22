@@ -32,7 +32,7 @@ hidden: false
 ## 포트폴리오
 
 <details>
-<summary>  </summary>
+<summary> 재료 </summary>
 <div markdown="1">
 
 | 유형          | 대상          | 벤치          | 종목         |
