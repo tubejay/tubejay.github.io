@@ -31,8 +31,7 @@ hidden: false
 
 ## 포트폴리오
 
-<details open markdown="1">
-<summary> 재료 </summary>
+### 재료
 
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
@@ -52,10 +51,7 @@ hidden: false
 | 종합           | 금속           | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A139310){:target="\_blank"} |
 |               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003){:target="\_blank"} |
 
-</details>
-
-<details open markdown="1">
-<summary> 자산 </summary>
+### 자산
 
 | 유형          | 대상          | 벤치          | 종목          |
 :-----------   | :---------   | :-           | :-           |
@@ -71,8 +67,6 @@ hidden: false
 |                | 은           | [Webull](https://www.webull.com/quote/nysearca-slv){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500029){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500030){:target="\_blank"} |
 | 농산물           | 옥수수        | [Webull](https://www.webull.com/quote/nysearca-corn){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500013){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500014){:target="\_blank"} |
 |                 | 콩          | [Webull](https://www.webull.com/quote/nysearca-soyb){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500023){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500024){:target="\_blank"} |
-
-</details>
   
 ### 신흥
 
