@@ -10,18 +10,10 @@ hidden: false
 
 | 분류     | 링크                               |
 | :-      | :-                                |
-| 해외 ||
-| Webull  | [quote](https://www.webull.com/quote){:target="\_blank"} |
-|         | [app](https://app.webull.com/stocks){:target="\_blank"} |
-| Investing.com | [Indices](https://m.investing.com/indices/){:target="\_blank"} |
-|               | [Forex](https://m.investing.com/currencies/){:target="\_blank"} |
-|               | [Commidities](https://m.investing.com/commodities/){:target="\_blank"} |
-|               | [Stocks](https://m.investing.com/equities/){:target="\_blank"} |
-|               | [Bonds](https://m.investing.com/rates-bonds/){:target="\_blank"} |
-|               | [ETFs](https://m.investing.com/etfs/){:target="\_blank"} |
-| 국내 ||
-|               | [증권플러스](https://stockplus.com/m){:target="\_blank"} |
-|               | [알파스퀘어](https://alphasquare.co.kr/){:target="\_blank"} |
+| 해외 | Webull <br> - [quote](https://www.webull.com/quote){:target="\_blank"} <br> - [app](https://app.webull.com/stocks){:target="\_blank"} |
+|     | Investing.com | [Indices](https://m.investing.com/indices/){:target="\_blank"} <br> [Forex](https://m.investing.com/currencies/){:target="\_blank"} <br> [Commidities](https://m.investing.com/commodities/){:target="\_blank"} <br> [Stocks](https://m.investing.com/equities/){:target="\_blank"} <br> [Bonds](https://m.investing.com/rates-bonds/){:target="\_blank"} <br> [ETFs](https://m.investing.com/etfs/){:target="\_blank"} |
+| 국내 | [증권플러스](https://stockplus.com/m){:target="\_blank"} |
+|     | [알파스퀘어](https://alphasquare.co.kr/){:target="\_blank"} |
 
 ***
 
