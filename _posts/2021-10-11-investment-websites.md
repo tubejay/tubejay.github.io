@@ -14,6 +14,7 @@ hidden: false
 |         | [Webull : app](https://app.webull.com/stocks){:target="\_blank"} |
 |         | [Investing.com](https://m.investing.com/markets/){:target="\_blank"} |
 |         | [증권플러스](https://stockplus.com/m){:target="\_blank"} |
+|         | [알파스퀘어](https://alphasquare.co.kr/){:target="\_blank"} |
 | 장전     | [골드래빗 : 경제기사로 여는 아침](https://brunch.co.kr/magazine/sinmorning){:target="\_blank"} |
 |         | [주식 투자 커뮤니티 : 미국증시 시황](https://usstockinfo.tistory.com/m/category/%EB%AF%B8%EA%B5%AD%EC%A6%9D%EC%8B%9C%20%EC%8B%9C%ED%99%A9){:target="\_blank"} |
 |         | [키움증권 : 시황&투자전략](https://m.post.naver.com/my/series/detail.naver?seriesNo=526982&memberNo=30473277){:target="\_blank"} |
