@@ -31,8 +31,8 @@ hidden: false
 
 ## 포트폴리오
 
-### 재료 <details>
-<summary> 펼치기/접기 </summary>
+<details>
+<summary>  </summary>
 <div markdown="1">
 
 | 유형          | 대상          | 벤치          | 종목         |
