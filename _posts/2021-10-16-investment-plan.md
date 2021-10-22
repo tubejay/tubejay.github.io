@@ -31,9 +31,10 @@ hidden: false
 
 ## 포트폴리오
 
+<h3>
 <details markdown="1">
-<summary><h2>재료</h2></summary>
-
+<summary>재료</summary>
+  
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 에너지         | WTI원유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500019){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500027){:target="\_blank"} |
@@ -53,7 +54,8 @@ hidden: false
 |               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003){:target="\_blank"} |
 
 </details>
-
+</h3>
+  
 ### 자산
 
 | 유형          | 대상          | 벤치          | 종목          |
