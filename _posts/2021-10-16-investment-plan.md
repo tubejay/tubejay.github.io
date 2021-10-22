@@ -31,10 +31,7 @@ hidden: false
 
 ## 포트폴리오
 
-### 재료
-
-<details markdown="1">
-<summary> ### 재료 </summary>
+### 재료 <details markdown="1"> <summary> 펼치기/접기 </summary>
 
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
