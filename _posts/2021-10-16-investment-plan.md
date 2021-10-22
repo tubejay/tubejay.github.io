@@ -34,8 +34,7 @@ hidden: false
 ### 재료
 
 <details>
-<summary> 재료 </summary>
-<div markdown="1">
+<summary> ### 재료 </summary>
 
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
@@ -55,7 +54,6 @@ hidden: false
 | 종합           | 금속           | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A139310){:target="\_blank"} |
 |               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003){:target="\_blank"} |
 
-</div>
 </details>
   
 ### 자산
