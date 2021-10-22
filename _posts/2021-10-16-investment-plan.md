@@ -34,6 +34,7 @@ hidden: false
 ### 재료
 
 <details markdown="1">
+  <summary markdown="1"> ### 재료 </summary>
 
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
