@@ -35,7 +35,7 @@ hidden: false
 
 <details>
 <summary> 펼치기/접기 </summary>
-<div>
+<div markdown="1">
 
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
