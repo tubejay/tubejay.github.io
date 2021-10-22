@@ -37,6 +37,7 @@ hidden: false
 <summary> 펼치기/접기 </summary>
 <div markdown="1">
 
+<br>
 | 유형          | 대상          | 벤치          | 종목         |
 :-----------   | :---------   | :-           | :-          |
 | 에너지         | WTI원유         | [Webull](https://www.webull.com/quote/nysearca-uso){:target="\_blank"} | [신한 레버리지](https://stockplus.com/m/stocks/KOREA-Q500019){:target="\_blank"} <br> [신한 인버스 2X](https://stockplus.com/m/stocks/KOREA-Q500027){:target="\_blank"} |
@@ -54,10 +55,11 @@ hidden: false
 |               | 팔라듐         | [Webull](https://www.webull.com/quote/nysearca-pall){:target="\_blank"} | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A334690){:target="\_blank"} <br> [KBSTAR 인버스](https://stockplus.com/m/stocks/KOREA-A334700){:target="\_blank"} |
 | 종합           | 금속           | [Webull](https://www.webull.com/quote/nysearca-gsg){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A139310){:target="\_blank"} |
 |               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003){:target="\_blank"} |
+<br>
 
 </div>
 </details>
-  
+
 ### 자산
 
 | 유형          | 대상          | 벤치          | 종목          |
