@@ -34,7 +34,7 @@ hidden: false
 ### 재료
 
 <details>
-<summary> 펼치기/접기 </summary>
+<summary> 재료<br> </summary>
 <div markdown="1">
 
 | 유형          | 대상          | 벤치          | 종목         |
