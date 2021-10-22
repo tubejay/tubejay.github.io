@@ -31,7 +31,6 @@ hidden: false
 
 ## 포트폴리오
 
-<h3>
 <details open markdown="1">
 <summary> 재료 </summary>
 
@@ -56,9 +55,7 @@ hidden: false
 |               | 원자재          | [Investing](https://www.investing.com/indices/dj-commodity){:target="\_blank"} | [미래에셋](https://stockplus.com/m/stocks/KOREA-Q520003){:target="\_blank"} |
 
 </details>
-</h3>
 
-<h3>
 <details open markdown="1">
 <summary> 자산 </summary>
   
@@ -80,7 +77,6 @@ hidden: false
 |                 | 콩          | [Webull](https://www.webull.com/quote/nysearca-soyb){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500023){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500024){:target="\_blank"} |
 
 </details>
-</h3>
   
 ### 신흥
 
