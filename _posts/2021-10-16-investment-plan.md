@@ -32,7 +32,7 @@ hidden: false
 ## 포트폴리오
 
 <h3>
-<details markdown="1">
+<details open markdown="1">
 <summary> 재료 </summary>
 
 <br>
@@ -57,8 +57,12 @@ hidden: false
 
 </details>
 </h3>
+
+<h3>
+<details open markdown="1">
+<summary> 자산 </summary>
   
-### 자산
+<br>
 
 | 유형          | 대상          | 벤치          | 종목          |
 :-----------   | :---------   | :-           | :-           |
@@ -75,6 +79,9 @@ hidden: false
 | 농산물           | 옥수수        | [Webull](https://www.webull.com/quote/nysearca-corn){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500013){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500014){:target="\_blank"} |
 |                 | 콩          | [Webull](https://www.webull.com/quote/nysearca-soyb){:target="\_blank"} | [신한](https://stockplus.com/m/stocks/KOREA-Q500023){:target="\_blank"} <br> [신한 인버스](https://stockplus.com/m/stocks/KOREA-Q500024){:target="\_blank"} |
 
+</details>
+</h3>
+  
 ### 신흥
 
 | 유형          | 대상          | 벤치          | 종목         |
