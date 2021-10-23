@@ -67,7 +67,6 @@ hidden: false
 |           | [주식 투자 커뮤니티 : 투자레터](https://usstockinfo.tistory.com/m/category/%ED%88%AC%EC%9E%90%EB%A0%88%ED%84%B0){:target="\_blank"} |
 |           | [E트렌드](https://brunch.co.kr/@e2c67f679a52441#articles){:target="\_blank"} |
 |           | [Hodolry의 블로그 : 산업이야기](https://m.blog.naver.com/hodolry?categoryNo=105){:target="\_blank"} |
-|           | [은퇴를 위한 재테크 공부 : 국내주식](https://m.blog.naver.com/ajuksaek?categoryNo=79){:target="\_blank"} |
 |           | [경제적 자유를 위한 공부 : 투자 생각/정리](https://m.blog.naver.com/djgkrrl1234?categoryNo=43){:target="\_blank"} |
 | 글로벌      | [미래에셋자산운용 : 글로벌 투자](https://m.blog.naver.com/m_invest?categoryNo=47){:target="\_blank"} |
 |            | [미래에셋증권 : 글로벌 투자](https://m.post.naver.com/my/series/detail.naver?seriesNo=230018&memberNo=5010025){:target="\_blank"} |
@@ -95,8 +94,9 @@ hidden: false
 |          | [09life : 상승 종목 분석](https://09life.tistory.com/m/category/%EC%9E%AC%ED%85%8C%ED%81%AC/%EC%83%81%EC%8A%B9%20%EC%A2%85%EB%AA%A9%20%EB%B6%84%EC%84%9D){:target="\_blank"} |
 |          | [Free Luck : 초보 투자자를 위한 종목 공부](https://free00life.tistory.com/m/category/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0/%EC%B4%88%EB%B3%B4%20%ED%88%AC%EC%9E%90%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%A2%85%EB%AA%A9%20%EA%B3%B5%EB%B6%80){:target="\_blank"} |
 |          | [미국주식으로 한강뷰 가기 : 미국주식 분석하기](https://m.blog.naver.com/tete2002?categoryNo=30){:target="\_blank"} |
-|          | [경기·물가·금리로 분석하는 투자 : 최일CFA 문답](https://m.blog.naver.com/choicfa?categoryNo=10){:target="\_blank"} |
+|          | [은퇴를 위한 재테크 공부 : 국내주식](https://m.blog.naver.com/ajuksaek?categoryNo=79){:target="\_blank"} |
 |          | [경제적 자유를 위한 공부 : 기업/주식 분석](https://m.blog.naver.com/djgkrrl1234?categoryNo=27){:target="\_blank"} |
+|          | [경기·물가·금리로 분석하는 투자 : 최일CFA 문답](https://m.blog.naver.com/choicfa?categoryNo=10){:target="\_blank"} |
 | 공모/상장  | [한국거래소 ETF : ETF 종목탐구](https://m.post.naver.com/my/series/detail.naver?seriesNo=574436&memberNo=32787516){:target="\_blank"} |
 |          | [한국거래소 : 신규상장](https://m.blog.naver.com/PostList.naver?blogId=happy_krx&categoryNo=104){:target="\_blank"} |
 |          | [삼성자산운용 : KODEX ETF 신규상장](https://m.blog.naver.com/kodex_r2?categoryNo=6){:target="\_blank"} |
