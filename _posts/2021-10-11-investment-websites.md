@@ -63,11 +63,16 @@ hidden: false
 |           | [키움투자자산운용 : 경제 트렌드](https://m.blog.naver.com/PostList.naver?blogId=kiwoomammkt&categoryNo=8){:target="\_blank"} |
 |           | [주식 투자 커뮤니티 : 투자레터](https://usstockinfo.tistory.com/m/category/%ED%88%AC%EC%9E%90%EB%A0%88%ED%84%B0){:target="\_blank"} |
 |           | [E트렌드](https://brunch.co.kr/@e2c67f679a52441#articles){:target="\_blank"} |
+|           | [Hodolry의 블로그 : 산업이야기](https://m.blog.naver.com/hodolry?categoryNo=105){:target="\_blank"} |
+|           | [은퇴를 위한 재테크 공부 : 국내주식](https://m.blog.naver.com/ajuksaek?categoryNo=79){:target="\_blank"} |
+|           | [경제적 자유를 위한 공부 : 투자 생각/정리](https://m.blog.naver.com/djgkrrl1234?categoryNo=43){:target="\_blank"} |
 | 글로벌      | [미래에셋자산운용 : 글로벌 투자](https://m.blog.naver.com/m_invest?categoryNo=47){:target="\_blank"} |
 |            | [미래에셋증권 : 글로벌 투자](https://m.post.naver.com/my/series/detail.naver?seriesNo=230018&memberNo=5010025){:target="\_blank"} |
 |            | [킴찹의 하루살이 : 미국주식](https://m.blog.naver.com/ssibar1188?categoryNo=38){:target="\_blank"} |
+|            | [미국주식으로 한강뷰 가기 : 미국주식 시황 정리](https://m.blog.naver.com/tete2002?categoryNo=32){:target="\_blank"} |
 | 전망        | [삼성자산운용 : 월간 전망](https://m.post.naver.com/my/series/detail.naver?seriesNo=300396&memberNo=3955693){:target="\_blank"} |
 |            | [삼성증권 : 2021 한국주식시장](https://m.post.naver.com/my/series/detail.naver?seriesNo=633668&memberNo=1553580){:target="\_blank"} |
+|            | [경기·물가·금리로 분석하는 투자 : 경기물가금리 뉴스](https://m.blog.naver.com/choicfa?categoryNo=6){:target="\_blank"} |
 
 ***
 
@@ -81,9 +86,13 @@ hidden: false
 |          | [킴찹의 하루살이 : 국내 ETF](https://m.blog.naver.com/ssibar1188?categoryNo=45){:target="\_blank"} |
 |          | [ETF연구소 : 국내 상장 ETF](https://m.blog.naver.com/just_do_etf?categoryNo=19){:target="\_blank"} |
 |          | [Free Luck : ETF 이야기](https://free00life.tistory.com/m/category/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0/ETF%20%EC%9D%B4%EC%95%BC%EA%B8%B0){:target="\_blank"} |
+|          | [미국주식으로 한강뷰 가기 : 미국 ETF 이야기](https://m.blog.naver.com/tete2002?categoryNo=27){:target="\_blank"} |
 | 분석      | [09life : 관련주 정리](https://09life.tistory.com/m/category/%EC%9E%AC%ED%85%8C%ED%81%AC/%EA%B4%80%EB%A0%A8%EC%A3%BC%20%EC%A0%95%EB%A6%AC){:target="\_blank"} |
 |          | [09life : 상승 종목 분석](https://09life.tistory.com/m/category/%EC%9E%AC%ED%85%8C%ED%81%AC/%EC%83%81%EC%8A%B9%20%EC%A2%85%EB%AA%A9%20%EB%B6%84%EC%84%9D){:target="\_blank"} |
 |          | [Free Luck : 초보 투자자를 위한 종목 공부](https://free00life.tistory.com/m/category/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0/%EC%B4%88%EB%B3%B4%20%ED%88%AC%EC%9E%90%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%A2%85%EB%AA%A9%20%EA%B3%B5%EB%B6%80){:target="\_blank"} |
+|          | [미국주식으로 한강뷰 가기 : 미국주식 분석하기](https://m.blog.naver.com/tete2002?categoryNo=30){:target="\_blank"} |
+|          | [경기·물가·금리로 분석하는 투자 : 최일CFA 문답](https://m.blog.naver.com/choicfa?categoryNo=10){:target="\_blank"} |
+|          | [경제적 자유를 위한 공부 : 기업/주식 분석](https://m.blog.naver.com/djgkrrl1234?categoryNo=27){:target="\_blank"} |
 | 공모/상장  | [한국거래소 ETF : ETF 종목탐구](https://m.post.naver.com/my/series/detail.naver?seriesNo=574436&memberNo=32787516){:target="\_blank"} |
 |          | [한국거래소 : 신규상장](https://m.blog.naver.com/PostList.naver?blogId=happy_krx&categoryNo=104){:target="\_blank"} |
 |          | [삼성자산운용 : KODEX ETF 신규상장](https://m.blog.naver.com/kodex_r2?categoryNo=6){:target="\_blank"} |
@@ -102,6 +111,7 @@ hidden: false
 |          | [킴찹의 하루살이 : 용어정리](https://m.blog.naver.com/ssibar1188?categoryNo=33){:target="\_blank"} |
 |          | [ETF연구소 : ETF 투자 필수 지식](https://m.blog.naver.com/just_do_etf?categoryNo=6){:target="\_blank"} |
 |          | [Free Luck : 투자를 위한 경제 상식](https://free00life.tistory.com/m/category/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0/%ED%88%AC%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EA%B2%BD%EC%A0%9C%20%EC%83%81%EC%8B%9D){:target="\_blank"} |
+|          | [미국주식으로 한강뷰 가기 : 미국주식 기초 뽀개기](https://m.blog.naver.com/tete2002?categoryNo=22){:target="\_blank"} |
 | 투자      | [윰기자 : 초보투자자를 위한 투자상식](https://brunch.co.kr/magazine/invest-ucast){:target="\_blank"} |
 |          | [킴찹의 하루살이 : 국내주식정보](https://m.blog.naver.com/ssibar1188?categoryNo=44){:target="\_blank"} |
 |          | [킴찹의 하루살이 : 재테크정보](https://m.blog.naver.com/ssibar1188?categoryNo=34){:target="\_blank"} |
