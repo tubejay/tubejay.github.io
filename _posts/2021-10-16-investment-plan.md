@@ -6,30 +6,7 @@ published: true
 hidden: false
 ---
 
-## 계획
-
-### 예측
-
-|                | S+ (기울기>0)   | S0 (기울기=0)   | S- (기울기<0)         |
-| :------------- | :------------ | :------------- | :------------------ |
-| V+ (진동 강함)   | S+/V+         | S0/V+          | 인버스 거래 (S+/V+)    |
-| V0 (진동 약함)   | S+/V0         | 거래 대상 아님    | 인버스 거래 (S+/V0)    |
-
-### 대응
-
-| 분류      | 판단          | 행동                      |
-| :-       | :-           | :-                       |
-| S+/V+    | 위로 진동      | 부분 매도                  |
-|          | 아래로 진동     | 추가 매수                 |
-| S0/V+    |              | 정방향/인버스 동시 보유       |
-|          | 위로 진동      | 정방향 매도 <br> 인버스 매수    |
-|          | 아래로 진동     | 정방향 매수 <br> 인버스 매도    |
-| S+/V0    | 기울기<0       | 매도                     |
-
-***
-***
-
-## 포트폴리오
+## 포트폴리오 ; 한국
 
 ### 재료
 
@@ -153,3 +130,49 @@ hidden: false
 |                 | 혁신기술          | [Webull](https://www.webull.com/quote/nasdaq-xt){:target="\_blank"} | [TIGER](https://stockplus.com/m/stocks/KOREA-A275980){:target="\_blank"} |
 |                 | IT              | | [KBSTAR](https://stockplus.com/m/stocks/KOREA-A276650){:target="\_blank"} |
 | 메타버스          |                 |  | [KODEX](https://stockplus.com/m/stocks/KOREA-A401470){:target="\_blank"} <br> [TIGER](https://stockplus.com/m/stocks/KOREA-A400970){:target="\_blank"} <br> [KBSTAR](https://stockplus.com/m/stocks/KOREA-A401170){:target="\_blank"} <br> [HANARO](https://stockplus.com/m/stocks/KOREA-A402460){:target="\_blank"} |
+
+***
+***
+
+## 포트폴리오 : 미국
+
+### 시장
+
+| 대상 | 배수 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| 신흥  | +3X | EDC    | |
+|      | -3X | EDZ    | |
+| 인도  | +3X | INDL   | |
+| 러시아 | +2X | RUSL   | |
+| 중국   | +3X | YINN   | |
+|       | -3X | YANG   | |
+| 한국   | +3X | KORU   | |
+| 라틴   | +3X | LBJ    | |
+| 멕시코  | +3X | MEXX   | |
+| 브라질  | +2X | UBR    | |
+|        | -2X | BZQ    | |
+| 유럽    | +3X | EURL   | |
+| EAFE   | +2X | EFO    | |
+|        | -2X | EFU
+
+### 지수
+
+
+
+### 테크
+
+
+
+### 에너지
+
+
+
+### 금속
+
+
+
+### 금융
+
+
+
+### 섹터
