@@ -140,105 +140,105 @@ hidden: false
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 신흥  | +3X | EDC    | |
-|      | -3X | EDZ    | |
-| 인도  | +3X | INDL   | |
-| 러시아 | +2X | RUSL   | |
-| 중국   | +3X | YINN   | |
-|       | -3X | YANG   | |
-| 한국   | +3X | KORU   | |
-| 라틴   | +3X | LBJ    | |
-| 멕시코  | +3X | MEXX   | |
-| 브라질  | +2X | UBR    | |
-|        | -2X | BZQ    | |
-| 유럽    | +3X | EURL   | |
-| EAFE   | +2X | EFO    | |
-|        | -2X | EFU
+| 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
+|      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} |
+| 인도  | +3X | INDL   | [](){:target="\_blank"} |
+| 러시아 | +2X | RUSL   | [](){:target="\_blank"} |
+| 중국   | +3X | YINN   | [](){:target="\_blank"} |
+|       | -3X | YANG   | [](){:target="\_blank"} |
+| 한국   | +3X | KORU   | [](){:target="\_blank"} |
+| 라틴   | +3X | LBJ    | [](){:target="\_blank"} |
+| 멕시코  | +3X | MEXX   | [](){:target="\_blank"} |
+| 브라질  | +2X | UBR    | [](){:target="\_blank"} |
+|        | -2X | BZQ    | [](){:target="\_blank"} |
+| 유럽    | +3X | EURL   | [](){:target="\_blank"} |
+| EAFE   | +2X | EFO    | [](){:target="\_blank"} |
+|        | -2X | EFU    | [](){:target="\_blank"} 
 
 ### 지수
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 다우존스 | +3X | SDOW | |
-|        | -3X | UDOW | |
-| 나스닥   | +3X | TQQQ | |
-|         | -3X | SQQQ | |
-| S&P500  | +3X | UPRO | |
-|         | -3X | SPXU | |
-| 중형     | +3X | MIDU | |
-| 러셀2000 | +3X | URTY | |
-|         | -3X | SRTY | |
-| 소형     | +3X | TNA  | |
-|         | -3X | TZA  | |
-| VIX     | -X  | SVXY | |
-|         | +X  | UVXY | |
+| 다우존스 | +3X | SDOW | [](){:target="\_blank"} |
+|        | -3X | UDOW | [](){:target="\_blank"} |
+| 나스닥   | +3X | TQQQ | [](){:target="\_blank"} |
+|         | -3X | SQQQ | [](){:target="\_blank"} |
+| S&P500  | +3X | UPRO | [](){:target="\_blank"} |
+|         | -3X | SPXU | [](){:target="\_blank"} |
+| 중형     | +3X | MIDU | [](){:target="\_blank"} |
+| 러셀2000 | +3X | URTY | [](){:target="\_blank"} |
+|         | -3X | SRTY | [](){:target="\_blank"} |
+| 소형     | +3X | TNA  | [](){:target="\_blank"} |
+|         | -3X | TZA  | [](){:target="\_blank"} |
+| VIX     | -X  | SVXY | [](){:target="\_blank"} |
+|         | +X  | UVXY | [](){:target="\_blank"} |
 
 ### 테크
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 테크 | +3X | TECL | |
-|     | -3X | TECS | |
-| FANG | +3X | FNGU | |
-|      | -3X | FNGD | |
-| 반도체 | +3X | SOXL | |
-|       | -3X | SOXS | |
-| 로봇/AI | +3X | UBOT | |
+| 테크 | +3X | TECL | [](){:target="\_blank"} |
+|     | -3X | TECS | [](){:target="\_blank"} |
+| FANG | +3X | FNGU | [](){:target="\_blank"} |
+|      | -3X | FNGD | [](){:target="\_blank"} |
+| 반도체 | +3X | SOXL | [](){:target="\_blank"} |
+|       | -3X | SOXS | [](){:target="\_blank"} |
+| 로봇/AI | +3X | UBOT | [](){:target="\_blank"} |
 
 ### 에너지
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 석유/가스 | +2X | GUSH | |
-|         | -2X | DRIP | |
-| 석유     | +3X | NRGU | |
-|         | -3X | NRGD | |
-| 가스     | +2X | BOIL | |
-|         | -2X | KOLD | |
-| 에너지    | +2X | ERX  | |
-|          | -2X | ERY  | |
-| 유틸리티   | +3X | UTSL  | |
-|          | +2X | UPW   | |
-|          | -2X | SDP   | |
+| 석유/가스 | +2X | GUSH | [](){:target="\_blank"} |
+|         | -2X | DRIP | [](){:target="\_blank"} |
+| 석유     | +3X | NRGU | [](){:target="\_blank"} |
+|         | -3X | NRGD | [](){:target="\_blank"} |
+| 가스     | +2X | BOIL | [](){:target="\_blank"} |
+|         | -2X | KOLD | [](){:target="\_blank"} |
+| 에너지    | +2X | ERX  | [](){:target="\_blank"} |
+|          | -2X | ERY  | [](){:target="\_blank"} |
+| 유틸리티   | +3X | UTSL  | [](){:target="\_blank"} |
+|          | +2X | UPW   | [](){:target="\_blank"} |
+|          | -2X | SDP   | [](){:target="\_blank"} |
 
 ### 금속
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 금 | +2X | UGL | |
-|    | -2X | GLL | |
-| 금광 | +2X | NUGT | |
-|     | -2X | DUST | |
-| 금광(jr) | +2X | JNUG | |
-|         | -2X | JDST | |
-| 은       | +2X | AGQ  | |
-|          | -2X | ZSL  | 
+| 금 | +2X | UGL | [](){:target="\_blank"} |
+|    | -2X | GLL | [](){:target="\_blank"} |
+| 금광 | +2X | NUGT | [](){:target="\_blank"} |
+|     | -2X | DUST | [](){:target="\_blank"} |
+| 금광(jr) | +2X | JNUG | [](){:target="\_blank"} |
+|         | -2X | JDST | [](){:target="\_blank"} |
+| 은       | +2X | AGQ  | [](){:target="\_blank"} |
+|          | -2X | ZSL  | [](){:target="\_blank"} |
 
 ### 금융
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 금융 | +3X | FAS | |
-|     | -3X | FAX | |
-| 대형은행 | +3X | BNKU | |
-|        | -3X | BNKD | |
-| 지역은행  | +3X | DPST | |
-| 채권(20y) | +3X | TMF | |
-|          | -3X | TMV | |
-| 채권(10y) | +3X | TYD | |
-|          | -3X | YTO | |
+| 금융 | +3X | FAS | [](){:target="\_blank"} |
+|     | -3X | FAX | [](){:target="\_blank"} |
+| 대형은행 | +3X | BNKU | [](){:target="\_blank"} |
+|        | -3X | BNKD | [](){:target="\_blank"} |
+| 지역은행  | +3X | DPST | [](){:target="\_blank"} |
+| 채권(20y) | +3X | TMF | [](){:target="\_blank"} |
+|          | -3X | TMV | [](){:target="\_blank"} |
+| 채권(10y) | +3X | TYD | [](){:target="\_blank"} |
+|          | -3X | YTO | [](){:target="\_blank"} |
 
 ### 섹터
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 항공/국방 | +3X | DFEN | |
-| 산업     | +3X | DUSL | |
-| 건축     | +3X | NAIL | |
-| 부동산    | +3X | DRN  | |
-|          | -3X | DRV  | |
-| 운송      | +3X | TPOR | |
-| 생필품     | +3X | RETL | |
-| 제약       | +3X | PILL | |
-| 바이오      | +3X | LABU | |
-|            | -3X | LABD | |
+| 항공/국방 | +3X | DFEN | [](){:target="\_blank"} |
+| 산업     | +3X | DUSL | [](){:target="\_blank"} |
+| 건축     | +3X | NAIL | [](){:target="\_blank"} |
+| 부동산    | +3X | DRN  | [](){:target="\_blank"} |
+|          | -3X | DRV  | [](){:target="\_blank"} |
+| 운송      | +3X | TPOR | [](){:target="\_blank"} |
+| 생필품     | +3X | RETL | [](){:target="\_blank"} |
+| 제약       | +3X | PILL | [](){:target="\_blank"} |
+| 바이오      | +3X | LABU | [](){:target="\_blank"} |
+|            | -3X | LABD | [](){:target="\_blank"} |
