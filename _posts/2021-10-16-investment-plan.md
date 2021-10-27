@@ -6,7 +6,7 @@ published: true
 hidden: false
 ---
 
-## 포트폴리오 ; 한국
+## 포트폴리오 : 한국
 
 ### 재료
 
@@ -157,7 +157,21 @@ hidden: false
 
 ### 지수
 
-
+| 대상 | 배수 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| 다우존스 | +3X | SDOW | |
+|        | -3X | UDOW | |
+| 나스닥   | +3X | TQQQ | |
+|         | -3X | SQQQ | |
+| S&P500  | +3X | UPRO | |
+|         | -3X | SPXU | |
+| 중형     | +3X | MIDU | |
+| 러셀2000 | +3X | URTY | |
+|         | -3X | SRTY | |
+| 소형     | +3X | TNA  | |
+|         | -3X | TZA  | |
+| VIX     | -X  | SVXY | |
+|         | +X  | UVXY | |
 
 ### 테크
 
