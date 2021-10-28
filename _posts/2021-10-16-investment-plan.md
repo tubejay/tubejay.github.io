@@ -201,6 +201,18 @@ hidden: false
 |          | +2X | UPW   | [](){:target="\_blank"} |
 |          | -2X | SDP   | [](){:target="\_blank"} |
 
+### 친환경
+
+| 대상 | 배수 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| 종합 | | ICLN | [](){:target="\_blank"} |
+|     | | QCLN | [](){:target="\_blank"} |
+|     | | PBW  | [](){:target="\_blank"} |
+| 태양 | | TAN  | [](){:target="\_blank"} |
+| 풍력 | | FAN  | [](){:target="\_blank"} |
+| 저탄소 | | CRBN | [](){:target="\_blank"} |
+| 배터리 | | LIT  | [](){:target="\_blank"} |
+
 ### 금속
 
 | 대상 | 배수 | Ticker | 차트 |
