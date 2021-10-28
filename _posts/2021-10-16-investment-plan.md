@@ -153,25 +153,25 @@ hidden: false
 |        | -2X | BZQ    | [ProShares](https://www.webull.com/quote/nysearca-bzq){:target="\_blank"} |
 | 유럽    | +3X | EURL   | [Direxion](https://www.webull.com/quote/nysearca-eurl){:target="\_blank"} |
 | EAFE   | +2X | EFO    | [ProShares](https://www.webull.com/quote/nysearca-efo){:target="\_blank"} |
-|        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} 
+|        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} |
 
 ### 지수
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 다우존스 | +3X | SDOW | [](){:target="\_blank"} |
-|        | -3X | UDOW | [](){:target="\_blank"} |
-| 나스닥   | +3X | TQQQ | [](){:target="\_blank"} |
-|         | -3X | SQQQ | [](){:target="\_blank"} |
-| S&P500  | +3X | UPRO | [](){:target="\_blank"} |
-|         | -3X | SPXU | [](){:target="\_blank"} |
-| 중형     | +3X | MIDU | [](){:target="\_blank"} |
-| 러셀2000 | +3X | URTY | [](){:target="\_blank"} |
-|         | -3X | SRTY | [](){:target="\_blank"} |
-| 소형     | +3X | TNA  | [](){:target="\_blank"} |
-|         | -3X | TZA  | [](){:target="\_blank"} |
-| VIX     | -X  | SVXY | [](){:target="\_blank"} |
-|         | +X  | UVXY | [](){:target="\_blank"} |
+| 다우존스 | +3X | SDOW | [ProShares](https://www.webull.com/quote/nysearca-sdow){:target="\_blank"} |
+|        | -3X | UDOW | [ProShares](https://www.webull.com/quote/nysearca-udow){:target="\_blank"} |
+| 나스닥   | +3X | TQQQ | [ProShares](https://www.webull.com/quote/nasdaq-tqqq){:target="\_blank"} |
+|         | -3X | SQQQ | [ProShares](https://www.webull.com/quote/nasdaq-sqqq){:target="\_blank"} |
+| S&P500  | +3X | UPRO | [ProShares](https://www.webull.com/quote/nysearca-upro){:target="\_blank"} |
+|         | -3X | SPXU | [ProShares](https://www.webull.com/quote/nysearca-spxu){:target="\_blank"} |
+| 중형     | +3X | MIDU | [Direxion](https://www.webull.com/quote/nysearca-midu){:target="\_blank"} |
+| 러셀2000 | +3X | URTY | [ProShares](https://www.webull.com/quote/nysearca-urty){:target="\_blank"} |
+|         | -3X | SRTY | [ProShares](https://www.webull.com/quote/nysearca-srty){:target="\_blank"} |
+| 소형     | +3X | TNA  | [Direxion](https://www.webull.com/quote/nysearca-tna){:target="\_blank"} |
+|         | -3X | TZA  | [Direxion](https://www.webull.com/quote/nysearca-tza){:target="\_blank"} |
+| VIX     | -X  | SVXY | [ProShares](https://www.webull.com/quote/bats-svxy){:target="\_blank"} |
+|         | +X  | UVXY | [ProShares](https://www.webull.com/quote/bats-uvxy){:target="\_blank"} |
 
 ### 테크
 
