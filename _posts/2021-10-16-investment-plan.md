@@ -240,7 +240,7 @@ hidden: false
 | 채권(10y) | +3X | TYD | [](){:target="\_blank"} |
 |          | -3X | YTO | [](){:target="\_blank"} |
 
-### 섹터
+### 산업
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
@@ -254,3 +254,14 @@ hidden: false
 | 제약       | +3X | PILL | [](){:target="\_blank"} |
 | 바이오      | +3X | LABU | [](){:target="\_blank"} |
 |            | -3X | LABD | [](){:target="\_blank"} |
+
+### ARK
+
+| 대상 | 배수 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| 혁신 | | ARKK | [](){:target="\_blank"} |
+| 자동화 | | ARKQ | [](){:target="\_blank"} |
+| 인터넷 | | ARKW | [](){:target="\_blank"} |
+| 핀테크 | | ARKF | [](){:target="\_blank"} |
+| 우주   | | ARKX | [](){:target="\_blank"} |
+| 유전   | | ARKG | [](){:target="\_blank"} |
