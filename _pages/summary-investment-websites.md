@@ -1,6 +1,7 @@
 ---
 title: "investment websites"
 layout: single
+categories: investment
 permalink: /summary/investment/websites
 published: true
 hidden: false
