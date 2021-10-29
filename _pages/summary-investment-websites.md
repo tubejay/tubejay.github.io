@@ -1,6 +1,6 @@
 ---
 title: "investment websites"
-layout: page
+layout: single
 permalink: /summary/investment/websites
 published: true
 hidden: false
