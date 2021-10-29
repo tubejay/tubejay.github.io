@@ -1,8 +1,8 @@
 ---
-title: "investment websites"
+title: "websites"
 layout: single
 categories: investment
-permalink: /summary/investment/websites
+permalink: /investment/websites
 published: true
 hidden: false
 ---
