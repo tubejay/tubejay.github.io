@@ -302,5 +302,8 @@ defaults:
     values:
       author_profile: false
       classes: wide
+      toc: true
+      toc_sticky: false
+      toc_label: "Table of Contents"
       sidebar:
         nav: "docs"
