@@ -5,7 +5,6 @@ docs:
 #      - title: "investment"
 #        url: /categories/investment/
   - title: investment
-    url: /investment/
     children:
       - title: websites
         url: /investment/websites
