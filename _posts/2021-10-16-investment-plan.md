@@ -2,7 +2,7 @@
 title: "investment plan"
 date: 2021-10-16
 categories: investment
-published: true
+published: false
 hidden: false
 ---
 
