@@ -1,6 +1,7 @@
 ---
 title: "websites"
-layout: single
+layout: splash
+toc: true
 permalink: /investment/websites
 published: true
 hidden: false
