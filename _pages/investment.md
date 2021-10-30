@@ -9,3 +9,7 @@ hidden: false
 ---
 
 ## [websites](/investment/websites)
+
+## [portfolio_KR](/investment/portfolio_KR)
+
+## [portfolio_US](/investment/portfolio_US)
