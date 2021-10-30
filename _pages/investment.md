@@ -1,10 +1,7 @@
 ---
 title: investment
-layout: splash
+layout: single
 toc: false
-sidebar:
-  nav: "docs"
-permalink: /investment/
 ---
 
 ## [websites](/investment/websites)
