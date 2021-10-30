@@ -1,7 +1,7 @@
 ---
 title: "investment"
 layout: single
-permalink: /investment/
+permalink: /investment
 toc: false
 published: true
 hidden: false
