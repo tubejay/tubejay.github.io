@@ -293,7 +293,7 @@ defaults:
       toc: false
       toc_sticky: true
       toc_label: "Table of Contents"
-      sidebar:
+      sidebar: false
   # _pages
   - scope:
       path: ""
@@ -304,4 +304,4 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Table of Contents"
-      sidebar:
+      sidebar: false
