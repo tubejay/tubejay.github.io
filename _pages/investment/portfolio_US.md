@@ -103,8 +103,6 @@ hidden: false
 |    | -2X | GLL | [ProShares](https://www.webull.com/quote/nysearca-gll){:target="\_blank"} |
 | 금광 | +2X | NUGT | [Direxion](https://www.webull.com/quote/nysearca-nugt){:target="\_blank"} |
 |     | -2X | DUST | [Direxion](https://www.webull.com/quote/nysearca-dust){:target="\_blank"} |
-| 금광(jr) | +2X | JNUG | [Direxion](https://www.webull.com/quote/nysearca-jnug){:target="\_blank"} |
-|         | -2X | JDST | [Direxion](https://www.webull.com/quote/nysearca-jdst){:target="\_blank"} |
 | 은       | +2X | AGQ  | [ProShares](https://www.webull.com/quote/nysearca-agq){:target="\_blank"} |
 |          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
 | 희토류 | | REMX | [VanEck](https://www.webull.com/quote/nysearca-remx){:target="\_blank"} |
