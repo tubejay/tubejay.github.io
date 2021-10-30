@@ -10,7 +10,7 @@ hidden: false
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 전세계 | | VT | [Vanguard](){:target="\_blank"} |
+| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} |
 | 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
 |      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} |
 | 인도  | +3X | INDL   | [Direxion](https://www.webull.com/quote/nysearca-indl){:target="\_blank"} |
@@ -48,10 +48,10 @@ hidden: false
 
 | 대상 | 분류 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 가치 | 종합 | AVUS | [Avantis](){:target="\_blank"} |
-|     | 대형 | VTV  | [Vanguard](){:target="\_blank"} |
-| 성장 | 저변동 | USMV | [iShares](){:target="\_blank"} |
-|     | 대형   | IWF | [iShares](){:target="\_blank"} |
+| 가치 | 종합 | AVUS | [Avantis](https://www.webull.com/quote/nysearca-avus){:target="\_blank"} |
+|     | 대형 | VTV  | [Vanguard](https://www.webull.com/quote/nysearca-vtv){:target="\_blank"} |
+| 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv){:target="\_blank"} |
+|     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf){:target="\_blank"} |
 
 ## 테크
 
@@ -85,15 +85,15 @@ hidden: false
 
 | 대상 | 분류 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 종합 | 세계 | ICLN | [iShares](){:target="\_blank"} |
-|     | 미국 | QCLN | [First Trust](){:target="\_blank"} |
-| 에너지 | 태양 | TAN | [Invesco](){:target="\_blank"} |
-|       | 풍력 | FAN | [First Trust](){:target="\_blank"} |
-|       | 수자원 | PHO | [Invesco](){:target="\_blank"} |
-| 탄소 | 저탄소 | CRBN | [iShares](){:target="\_blank"} |
-|     | 배출권 | KRBN | [KFA](){:target="\_blank"} |
-| 배터리 | 리튬 | LIT | [Global X](){:target="\_blank"} |
-|       | 그리드 | GRID | [First Trust](){:target="\_blank"} |
+| 종합 | 세계 | ICLN | [iShares](https://www.webull.com/quote/nasdaq-icln){:target="\_blank"} |
+|     | 미국 | QCLN | [First Trust](https://www.webull.com/quote/nasdaq-qcln){:target="\_blank"} |
+| 에너지 | 태양 | TAN | [Invesco](https://www.webull.com/quote/nysearca-tan){:target="\_blank"} |
+|       | 풍력 | FAN | [First Trust](https://www.webull.com/quote/nysearca-fan){:target="\_blank"} |
+|       | 수자원 | PHO | [Invesco](https://www.webull.com/quote/nasdaq-pho){:target="\_blank"} |
+| 탄소 | 저탄소 | CRBN | [iShares](https://www.webull.com/quote/nysearca-crbn){:target="\_blank"} |
+|     | 배출권 | KRBN | [KFA](https://www.webull.com/quote/nysearca-krbn){:target="\_blank"} |
+| 배터리 | 리튬 | LIT | [Global X](https://www.webull.com/quote/nysearca-lit){:target="\_blank"} |
+|       | 그리드 | GRID | [First Trust](https://www.webull.com/quote/nasdaq-grid){:target="\_blank"} |
 
 ## 금속
 
@@ -107,7 +107,7 @@ hidden: false
 |         | -2X | JDST | [Direxion](https://www.webull.com/quote/nysearca-jdst){:target="\_blank"} |
 | 은       | +2X | AGQ  | [ProShares](https://www.webull.com/quote/nysearca-agq){:target="\_blank"} |
 |          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
-| 희토류 | | REMX | [VanEck](){:target="\_blank"} |
+| 희토류 | | REMX | [VanEck](https://www.webull.com/quote/nysearca-remx){:target="\_blank"} |
 
 ## 금융
 
@@ -142,11 +142,8 @@ hidden: false
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
 | 생필품 | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
-| 필수소비재 | | XLP | [SPDR](){:target="\_blank"} |
-| 소비자 서비스 | | IYC | [iShares](){:target="\_blank"} |
-
-
-
+| 필수소비재 | | XLP | [SPDR](https://www.webull.com/quote/nysearca-xlp){:target="\_blank"} |
+| 소비자 서비스 | | IYC | [iShares](https://www.webull.com/quote/nysearca-iyc){:target="\_blank"} |
 
 ## ARK
 
