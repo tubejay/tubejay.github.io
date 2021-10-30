@@ -49,7 +49,7 @@ html {
   font-size: 17px;
 
   @include breakpoint($small)     { font-size: 15px; }
-  // @include breakpoint($medium)    { font-size: 15px; }
+  @include breakpoint($medium)    { font-size: 17px; }
   @include breakpoint($large)     { font-size: 19px; }
 
 }
