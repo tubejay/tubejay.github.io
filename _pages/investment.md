@@ -5,4 +5,6 @@ toc: false
 permalink: /investment/
 ---
 
-## [websites](https://tubejay.github.io/investment/websites)
+| link |
+| :- |
+| [websites](https://tubejay.github.io/investment/websites) |
