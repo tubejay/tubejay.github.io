@@ -1,4 +1,5 @@
 ---
+title: "investment"
 layout: single
 toc: false
 permalink: /investment
