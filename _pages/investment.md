@@ -1,6 +1,6 @@
 ---
 title: investment
-layout: single
+layout: splash
 permalink: /investment/
 ---
 
