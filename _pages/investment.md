@@ -1,7 +1,7 @@
 ---
-layout: splash
-permalink: /investment
+layout: single
 toc: false
+permalink: /investment
 published: true
 hidden: false
 ---
