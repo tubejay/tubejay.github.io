@@ -48,10 +48,10 @@ hidden: false
 
 | 대상 | 분류 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 가치 | 종합 | AVUS | [](){:target="\_blank"} |
-|     | 대형 | VTV  | [](){:target="\_blank"} |
-| 성장 | 저변동 | USMV | [](){:target="\_blank"} |
-|     | 대형   | IWF | [](){:target="\_blank"} |
+| 가치 | 종합 | AVUS | [Avantis](){:target="\_blank"} |
+|     | 대형 | VTV  | [Vanguard](){:target="\_blank"} |
+| 성장 | 저변동 | USMV | [iShares](){:target="\_blank"} |
+|     | 대형   | IWF | [iShares](){:target="\_blank"} |
 
 ## 테크
 
@@ -85,15 +85,15 @@ hidden: false
 
 | 대상 | 분류 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 종합 | 세계 | ICLN | [](){:target="\_blank"} |
-|     | 미국 | QCLN | [](){:target="\_blank"} |
-| 에너지 | 태양 | TAN | [](){:target="\_blank"} |
-|       | 풍력 | FAN | [](){:target="\_blank"} |
-|       | 수자원 | PHO | [](){:target="\_blank"} |
-| 탄소 | 저탄소 | CRBN | [](){:target="\_blank"} |
-|     | 배출권 | KRBN | [](){:target="\_blank"} |
-| 배터리 | 리튬 | LIT | [](){:target="\_blank"} |
-|       | 그리드 | GRID | [](){:target="\_blank"} |
+| 종합 | 세계 | ICLN | [iShares](){:target="\_blank"} |
+|     | 미국 | QCLN | [First Trust](){:target="\_blank"} |
+| 에너지 | 태양 | TAN | [Invesco](){:target="\_blank"} |
+|       | 풍력 | FAN | [First Trust](){:target="\_blank"} |
+|       | 수자원 | PHO | [Invesco](){:target="\_blank"} |
+| 탄소 | 저탄소 | CRBN | [iShares](){:target="\_blank"} |
+|     | 배출권 | KRBN | [KFA](){:target="\_blank"} |
+| 배터리 | 리튬 | LIT | [Global X](){:target="\_blank"} |
+|       | 그리드 | GRID | [First Trust](){:target="\_blank"} |
 
 ## 금속
 
@@ -107,7 +107,7 @@ hidden: false
 |         | -2X | JDST | [Direxion](https://www.webull.com/quote/nysearca-jdst){:target="\_blank"} |
 | 은       | +2X | AGQ  | [ProShares](https://www.webull.com/quote/nysearca-agq){:target="\_blank"} |
 |          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
-| 희토류 | | REMX | [](){:target="\_blank"} |
+| 희토류 | | REMX | [VanEck](){:target="\_blank"} |
 
 ## 금융
 
@@ -142,8 +142,8 @@ hidden: false
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
 | 생필품 | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
-| 필수소비재 | | XLP | [](){:target="\_blank"} |
-| 소비자 서비스 | | IYC | [](){:target="\_blank"} |
+| 필수소비재 | | XLP | [SPDR](){:target="\_blank"} |
+| 소비자 서비스 | | IYC | [iShares](){:target="\_blank"} |
 
 
 
