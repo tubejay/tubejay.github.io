@@ -75,63 +75,63 @@ hidden: false
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 종합 | | ICLN | [](){:target="\_blank"} |
-|     | | QCLN | [](){:target="\_blank"} |
-|     | | PBW  | [](){:target="\_blank"} |
-| 태양 | | TAN  | [](){:target="\_blank"} |
-| 풍력 | | FAN  | [](){:target="\_blank"} |
-| 저탄소 | | CRBN | [](){:target="\_blank"} |
-| 배터리 | | LIT  | [](){:target="\_blank"} |
+| 종합 | | ICLN | [iShares](https://www.webull.com/quote/nasdaq-icln){:target="\_blank"} |
+|     | | QCLN | [First Trust](https://www.webull.com/quote/nasdaq-qcln){:target="\_blank"} |
+|     | | PBW  | [Invesco](https://www.webull.com/quote/nysearca-pbw){:target="\_blank"} |
+| 태양 | | TAN  | [Invesco](https://www.webull.com/quote/nysearca-tan){:target="\_blank"} |
+| 풍력 | | FAN  | [First Trust](https://www.webull.com/quote/nysearca-fan){:target="\_blank"} |
+| 저탄소 | | CRBN | [iShares](https://www.webull.com/quote/nysearca-crbn){:target="\_blank"} |
+| 배터리 | | LIT  | [Global X](https://www.webull.com/quote/nysearca-lit){:target="\_blank"} |
 
 ## 금속
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 금 | +2X | UGL | [](){:target="\_blank"} |
-|    | -2X | GLL | [](){:target="\_blank"} |
-| 금광 | +2X | NUGT | [](){:target="\_blank"} |
-|     | -2X | DUST | [](){:target="\_blank"} |
-| 금광(jr) | +2X | JNUG | [](){:target="\_blank"} |
-|         | -2X | JDST | [](){:target="\_blank"} |
-| 은       | +2X | AGQ  | [](){:target="\_blank"} |
-|          | -2X | ZSL  | [](){:target="\_blank"} |
+| 금 | +2X | UGL | [ProShares](https://www.webull.com/quote/nysearca-ugl){:target="\_blank"} |
+|    | -2X | GLL | [ProShares](https://www.webull.com/quote/nysearca-gll){:target="\_blank"} |
+| 금광 | +2X | NUGT | [Direxion](https://www.webull.com/quote/nysearca-nugt){:target="\_blank"} |
+|     | -2X | DUST | [Direxion](https://www.webull.com/quote/nysearca-dust){:target="\_blank"} |
+| 금광(jr) | +2X | JNUG | [Direxion](https://www.webull.com/quote/nysearca-jnug){:target="\_blank"} |
+|         | -2X | JDST | [Direxion](https://www.webull.com/quote/nysearca-jdst){:target="\_blank"} |
+| 은       | +2X | AGQ  | [ProShares](https://www.webull.com/quote/nysearca-agq){:target="\_blank"} |
+|          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
 
 ## 금융
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 금융 | +3X | FAS | [](){:target="\_blank"} |
-|     | -3X | FAX | [](){:target="\_blank"} |
-| 대형은행 | +3X | BNKU | [](){:target="\_blank"} |
-|        | -3X | BNKD | [](){:target="\_blank"} |
-| 지역은행  | +3X | DPST | [](){:target="\_blank"} |
-| 채권(20y) | +3X | TMF | [](){:target="\_blank"} |
-|          | -3X | TMV | [](){:target="\_blank"} |
-| 채권(10y) | +3X | TYD | [](){:target="\_blank"} |
-|          | -3X | YTO | [](){:target="\_blank"} |
+| 금융 | +3X | FAS | [Direxion](https://www.webull.com/quote/nysearca-fas){:target="\_blank"} |
+|     | -3X | FAX | [Direxion](https://www.webull.com/quote/amex-fax){:target="\_blank"} |
+| 대형은행 | +3X | BNKU | [MicroSectors](https://www.webull.com/quote/nysearca-bnku){:target="\_blank"} |
+|        | -3X | BNKD | [MicroSectors](https://www.webull.com/quote/nysearca-bnkd){:target="\_blank"} |
+| 지역은행  | +3X | DPST | [Direxion](https://www.webull.com/quote/nysearca-dpst){:target="\_blank"} |
+| 채권(20y) | +3X | TMF | [Direxion](https://www.webull.com/quote/nysearca-tmf){:target="\_blank"} |
+|          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv){:target="\_blank"} |
+| 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd){:target="\_blank"} |
+|          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo){:target="\_blank"} |
 
 ## 산업
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 항공/국방 | +3X | DFEN | [](){:target="\_blank"} |
-| 산업     | +3X | DUSL | [](){:target="\_blank"} |
-| 건축     | +3X | NAIL | [](){:target="\_blank"} |
-| 부동산    | +3X | DRN  | [](){:target="\_blank"} |
-|          | -3X | DRV  | [](){:target="\_blank"} |
-| 운송      | +3X | TPOR | [](){:target="\_blank"} |
-| 생필품     | +3X | RETL | [](){:target="\_blank"} |
-| 제약       | +3X | PILL | [](){:target="\_blank"} |
-| 바이오      | +3X | LABU | [](){:target="\_blank"} |
-|            | -3X | LABD | [](){:target="\_blank"} |
+| 항공/국방 | +3X | DFEN | [Direxion](https://www.webull.com/quote/nysearca-dfen){:target="\_blank"} |
+| 산업     | +3X | DUSL | [Direxion](https://www.webull.com/quote/nysearca-dusl){:target="\_blank"} |
+| 건축     | +3X | NAIL | [Direxion](https://www.webull.com/quote/nysearca-nail){:target="\_blank"} |
+| 부동산    | +3X | DRN  | [Direxion](https://www.webull.com/quote/nysearca-drn){:target="\_blank"} |
+|          | -3X | DRV  | [Direxion](https://www.webull.com/quote/nysearca-drv){:target="\_blank"} |
+| 운송      | +3X | TPOR | [Direxion](https://www.webull.com/quote/nysearca-tpor){:target="\_blank"} |
+| 생필품     | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
+| 제약       | +3X | PILL | [Direxion](https://www.webull.com/quote/nysearca-pill){:target="\_blank"} |
+| 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu){:target="\_blank"} |
+|            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd){:target="\_blank"} |
 
 ## ARK
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 혁신 | | ARKK | [](){:target="\_blank"} |
-| 자동화 | | ARKQ | [](){:target="\_blank"} |
-| 인터넷 | | ARKW | [](){:target="\_blank"} |
-| 핀테크 | | ARKF | [](){:target="\_blank"} |
-| 우주   | | ARKX | [](){:target="\_blank"} |
-| 유전   | | ARKG | [](){:target="\_blank"} |
+| 혁신 | | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk){:target="\_blank"} |
+| 자동화 | | ARKQ | [ARK](https://www.webull.com/quote/bats-arkq){:target="\_blank"} |
+| 인터넷 | | ARKW | [ARK](https://www.webull.com/quote/nysearca-arkw){:target="\_blank"} |
+| 핀테크 | | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf){:target="\_blank"} |
+| 우주   | | ARKX | [ARK](https://www.webull.com/quote/bats-arkx){:target="\_blank"} |
+| 유전   | | ARKG | [ARK](https://www.webull.com/quote/bats-arkg){:target="\_blank"} 
