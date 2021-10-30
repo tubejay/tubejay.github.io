@@ -1,6 +1,6 @@
 ---
 title: investment
-layout: category
+layout: single
 permalink: /investment/
-taxonomy: investment
 ---
+
