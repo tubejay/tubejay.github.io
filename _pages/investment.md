@@ -1,6 +1,7 @@
 ---
 title: investment
-layout: splash
+layout: single
+toc: false
 permalink: /investment/
 ---
 
