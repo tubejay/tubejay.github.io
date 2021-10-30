@@ -48,12 +48,8 @@ html {
   
   font-size: 15px;
 
-  @include breakpoint($xx-small)  { font-size: 12px; }
-  @include breakpoint($x-small)   { font-size: 13px; }
   @include breakpoint($small)     { font-size: 14px; }
   // @include breakpoint($medium)    { font-size: 15px; }
   @include breakpoint($large)     { font-size: 16px; }
-  @include breakpoint($x-large)   { font-size: 17px; }
-  @include breakpoint($xx-large)  { font-size: 18px; }
-  
+
 }
