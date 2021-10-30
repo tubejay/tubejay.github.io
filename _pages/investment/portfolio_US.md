@@ -47,29 +47,29 @@ hidden: false
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 테크 | +3X | TECL | [](){:target="\_blank"} |
-|     | -3X | TECS | [](){:target="\_blank"} |
-| FANG | +3X | FNGU | [](){:target="\_blank"} |
-|      | -3X | FNGD | [](){:target="\_blank"} |
-| 반도체 | +3X | SOXL | [](){:target="\_blank"} |
-|       | -3X | SOXS | [](){:target="\_blank"} |
-| 로봇/AI | +3X | UBOT | [](){:target="\_blank"} |
+| 테크 | +3X | TECL | [Direxion](https://www.webull.com/quote/nysearca-tecl){:target="\_blank"} |
+|     | -3X | TECS | [Direxion](https://www.webull.com/quote/nysearca-tecs){:target="\_blank"} |
+| FANG | +3X | FNGU | [MicroSectors](https://www.webull.com/quote/nysearca-fngu){:target="\_blank"} |
+|      | -3X | FNGD | [MicroSectors](https://www.webull.com/quote/nysearca-fngd){:target="\_blank"} |
+| 반도체 | +3X | SOXL | [Direxion](https://www.webull.com/quote/nysearca-soxl){:target="\_blank"} |
+|       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs){:target="\_blank"} |
+| 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot){:target="\_blank"} |
 
 ## 에너지
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 석유/가스 | +2X | GUSH | [](){:target="\_blank"} |
-|         | -2X | DRIP | [](){:target="\_blank"} |
-| 석유     | +3X | NRGU | [](){:target="\_blank"} |
-|         | -3X | NRGD | [](){:target="\_blank"} |
-| 가스     | +2X | BOIL | [](){:target="\_blank"} |
-|         | -2X | KOLD | [](){:target="\_blank"} |
-| 에너지    | +2X | ERX  | [](){:target="\_blank"} |
-|          | -2X | ERY  | [](){:target="\_blank"} |
-| 유틸리티   | +3X | UTSL  | [](){:target="\_blank"} |
-|          | +2X | UPW   | [](){:target="\_blank"} |
-|          | -2X | SDP   | [](){:target="\_blank"} |
+| 석유/가스 | +2X | GUSH | [Direxion](https://www.webull.com/quote/nysearca-gush){:target="\_blank"} |
+|         | -2X | DRIP | [Direxion](https://www.webull.com/quote/nysearca-drip){:target="\_blank"} |
+| 석유     | +3X | NRGU | [MicroSectors](https://www.webull.com/quote/nysearca-nrgu){:target="\_blank"} |
+|         | -3X | NRGD | [MicroSector](https://www.webull.com/quote/nysearca-nrgd){:target="\_blank"} |
+| 가스     | +2X | BOIL | [ProShares](https://www.webull.com/quote/nysearca-boil){:target="\_blank"} |
+|         | -2X | KOLD | [ProShares](https://www.webull.com/quote/nysearca-kold){:target="\_blank"} |
+| 에너지    | +2X | ERX  | [Direxion](https://www.webull.com/quote/nysearca-erx){:target="\_blank"} |
+|          | -2X | ERY  | [Direxion](https://www.webull.com/quote/nysearca-ery){:target="\_blank"} |
+| 유틸리티   | +3X | UTSL  | [Direxion](https://www.webull.com/quote/nysearca-utsl){:target="\_blank"} |
+|          | +2X | UPW   | [ProShares](https://www.webull.com/quote/nysearca-upw){:target="\_blank"} |
+|          | -2X | SDP   | [ProShares](https://www.webull.com/quote/nysearca-sdp){:target="\_blank"} |
 
 ## 친환경
 
