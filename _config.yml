@@ -294,7 +294,6 @@ defaults:
       toc_sticky: true
       toc_label: "Table of Contents"
       sidebar:
-        nav: "docs"
   # _pages
   - scope:
       path: ""
@@ -306,4 +305,3 @@ defaults:
       toc_sticky: true
       toc_label: "Table of Contents"
       sidebar:
-        nav: "docs"
