@@ -1,10 +1,10 @@
 ---
 title: investment
-layout: single
+layout: splash
 toc: false
+sidebar:
+  nav: "docs"
 permalink: /investment/
 ---
 
-| link |
-| :- |
-| [websites](https://tubejay.github.io/investment/websites) |
+## [websites](/investment/websites)
