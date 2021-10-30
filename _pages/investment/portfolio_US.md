@@ -10,6 +10,7 @@ hidden: false
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
+| 전세계 | | VT | [Vanguard](){:target="\_blank"} |
 | 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
 |      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} |
 | 인도  | +3X | INDL   | [Direxion](https://www.webull.com/quote/nysearca-indl){:target="\_blank"} |
@@ -43,6 +44,15 @@ hidden: false
 | VIX     | -X  | SVXY | [ProShares](https://www.webull.com/quote/bats-svxy){:target="\_blank"} |
 |         | +X  | UVXY | [ProShares](https://www.webull.com/quote/bats-uvxy){:target="\_blank"} |
 
+## 평가
+
+| 대상 | 분류 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| 가치 | 종합 | AVUS | [](){:target="\_blank"} |
+|     | 대형 | VTV  | [](){:target="\_blank"} |
+| 성장 | 저변동 | USMV | [](){:target="\_blank"} |
+|     | 대형   | IWF | [](){:target="\_blank"} |
+
 ## 테크
 
 | 대상 | 배수 | Ticker | 차트 |
@@ -73,15 +83,17 @@ hidden: false
 
 ## 친환경
 
-| 대상 | 배수 | Ticker | 차트 |
+| 대상 | 분류 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 종합 | | ICLN | [iShares](https://www.webull.com/quote/nasdaq-icln){:target="\_blank"} |
-|     | | QCLN | [First Trust](https://www.webull.com/quote/nasdaq-qcln){:target="\_blank"} |
-|     | | PBW  | [Invesco](https://www.webull.com/quote/nysearca-pbw){:target="\_blank"} |
-| 태양 | | TAN  | [Invesco](https://www.webull.com/quote/nysearca-tan){:target="\_blank"} |
-| 풍력 | | FAN  | [First Trust](https://www.webull.com/quote/nysearca-fan){:target="\_blank"} |
-| 저탄소 | | CRBN | [iShares](https://www.webull.com/quote/nysearca-crbn){:target="\_blank"} |
-| 배터리 | | LIT  | [Global X](https://www.webull.com/quote/nysearca-lit){:target="\_blank"} |
+| 종합 | 세계 | ICLN | [](){:target="\_blank"} |
+|     | 미국 | QCLN | [](){:target="\_blank"} |
+| 에너지 | 태양 | TAN | [](){:target="\_blank"} |
+|       | 풍력 | FAN | [](){:target="\_blank"} |
+|       | 수자원 | PHO | [](){:target="\_blank"} |
+| 탄소 | 저탄소 | CRBN | [](){:target="\_blank"} |
+|     | 배출권 | KRBN | [](){:target="\_blank"} |
+| 배터리 | 리튬 | LIT | [](){:target="\_blank"} |
+|       | 그리드 | GRID | [](){:target="\_blank"} |
 
 ## 금속
 
@@ -95,6 +107,7 @@ hidden: false
 |         | -2X | JDST | [Direxion](https://www.webull.com/quote/nysearca-jdst){:target="\_blank"} |
 | 은       | +2X | AGQ  | [ProShares](https://www.webull.com/quote/nysearca-agq){:target="\_blank"} |
 |          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
+| 희토류 | | REMX | [](){:target="\_blank"} |
 
 ## 금융
 
@@ -120,18 +133,28 @@ hidden: false
 | 부동산    | +3X | DRN  | [Direxion](https://www.webull.com/quote/nysearca-drn){:target="\_blank"} |
 |          | -3X | DRV  | [Direxion](https://www.webull.com/quote/nysearca-drv){:target="\_blank"} |
 | 운송      | +3X | TPOR | [Direxion](https://www.webull.com/quote/nysearca-tpor){:target="\_blank"} |
-| 생필품     | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
 | 제약       | +3X | PILL | [Direxion](https://www.webull.com/quote/nysearca-pill){:target="\_blank"} |
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu){:target="\_blank"} |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd){:target="\_blank"} |
 
-## ARK
+## 소비
 
 | 대상 | 배수 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 혁신 | | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk){:target="\_blank"} |
-| 자동화 | | ARKQ | [ARK](https://www.webull.com/quote/bats-arkq){:target="\_blank"} |
-| 인터넷 | | ARKW | [ARK](https://www.webull.com/quote/nysearca-arkw){:target="\_blank"} |
-| 핀테크 | | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf){:target="\_blank"} |
-| 우주   | | ARKX | [ARK](https://www.webull.com/quote/bats-arkx){:target="\_blank"} |
-| 유전   | | ARKG | [ARK](https://www.webull.com/quote/bats-arkg){:target="\_blank"} 
+| 생필품 | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
+| 필수소비재 | | XLP | [](){:target="\_blank"} |
+| 소비자 서비스 | | IYC | [](){:target="\_blank"} |
+
+
+
+
+## ARK
+
+| 대상 | Ticker | 차트 |
+| :-  | :-     | :-  |
+| 혁신 | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk){:target="\_blank"} |
+| 자동화 | ARKQ | [ARK](https://www.webull.com/quote/bats-arkq){:target="\_blank"} |
+| 인터넷 | ARKW | [ARK](https://www.webull.com/quote/nysearca-arkw){:target="\_blank"} |
+| 핀테크 | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf){:target="\_blank"} |
+| 우주   | ARKX | [ARK](https://www.webull.com/quote/bats-arkx){:target="\_blank"} |
+| 유전   | ARKG | [ARK](https://www.webull.com/quote/bats-arkg){:target="\_blank"} 
