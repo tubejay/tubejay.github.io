@@ -290,10 +290,10 @@ defaults:
       share: false
       related: false
       show_date: false
-      toc: false
+      toc: true
       toc_sticky: true
       toc_label: "Table of Contents"
-      sidebar: false
+      #sidebar: false
   # _pages
   - scope:
       path: ""
@@ -304,4 +304,4 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Table of Contents"
-      sidebar: false
+      #sidebar: false
