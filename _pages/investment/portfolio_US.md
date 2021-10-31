@@ -145,9 +145,12 @@ hidden: false
 
 | 대상 | Ticker | 차트 |
 | :-  | :-     | :-  |
-| 블록체인 | BKCH | [Global X](https://www.webull.com/quote/nasdaq-bkch){:target="\_blank"} | #####
-| 암호화폐 | BITQ | [Bitwise](https://www.webull.com/quote/nysearca-bitq){:target="\_blank"} | #####
 | 비트코인 | BITO | [ProShares](https://www.webull.com/quote/nysearca-bito){:target="\_blank"} | #####
+| 암호화폐 기업 | BITQ | [Bitwise](https://www.webull.com/quote/nysearca-bitq){:target="\_blank"} | #####
+| 블록체인 기업 | BLOK | [Amplify](https://www.webull.com/quote/nysearca-blok){:target="\_blank"} | #####
+|              | BLCN | [Reality Shares](https://www.webull.com/quote/nasdaq-blcn){:target="\_blank"} | #####
+|              | LEGR | [First Trust](https://www.webull.com/quote/nasdaq-legr){:target="\_blank"} | #####
+|              | BKCH | [Global X](https://www.webull.com/quote/nasdaq-bkch){:target="\_blank"} | #####
 
 ## 산업
 
