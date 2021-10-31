@@ -2,7 +2,7 @@
 title: "portfolio_US"
 layout: single
 permalink: /investment/portfolio_US
-published: true
+published: false
 hidden: false
 ---
 
@@ -153,3 +153,55 @@ hidden: false
 | 핀테크 | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf){:target="\_blank"} |
 | 우주   | ARKX | [ARK](https://www.webull.com/quote/bats-arkx){:target="\_blank"} |
 | 유전   | ARKG | [ARK](https://www.webull.com/quote/bats-arkg){:target="\_blank"} 
+
+## 추가
+
+- 반도체 +2X USD https://etfdb.com/etf/USD/#etf-ticker-profile
+- 반도체 -2X SSG https://etfdb.com/etf/SSG/#etf-ticker-profile
+
+- 테크 +2X ROM https://etfdb.com/etf/ROM/#etf-ticker-profile
+- 테크 -2X REW https://etfdb.com/etf/REW/#etf-ticker-profile
+
+- 블록체인 BKCH https://etfdb.com/etf/BKCH/#etf-ticker-profile
+- 암호화폐 BITQ https://etfdb.com/etf/BITQ/#etf-ticker-profile
+
+- 헬스케어 +3X CURE https://etfdb.com/etf/CURE/#etf-ticker-profile
+- 헬스케어 -3X SICK https://etfdb.com/etf/SICK/#etf-ticker-profile
+
+- 금융 +2X UYG https://etfdb.com/etf/UYG/
+- 금융 -2X SKF https://etfdb.com/etf/SKF/#etf-ticker-profile
+
+- 우라늄 URNM https://etfdb.com/etf/URNM/#etf-ticker-profile
+
+- 금광 +3X GDXU https://etfdb.com/etf/GDXU/#etf-ticker-profile
+- 금광 -3X GDXD https://etfdb.com/etf/GDXD/#etf-ticker-profile
+
+- 자유소비재 WANT https://etfdb.com/etf/WANT/#etf-ticker-profile
+
+- 화물 BDRY https://etfdb.com/etf/BDRY/#etf-ticker-profile
+
+- 인프라 PAVE https://etfdb.com/etf/PAVE/#etf-ticker-profile
+
+- 소비재 +2X UGE https://etfdb.com/etf/UGE/#etf-ticker-profile
+- 소비재 -2X SZK https://etfdb.com/etf/SZK/#etf-ticker-profile
+
+- 통신 +2X LTL https://etfdb.com/etf/LTL/#etf-ticker-profile
+
+- 석유 +2X UCO https://etfdb.com/etf/UCO/#etf-ticker-profile
+- 석유 -2X SCO https://etfdb.com/etf/SCO/#etf-ticker-profile
+- 가솔린 UGA https://etfdb.com/etf/UGA/#etf-ticker-profile
+
+- 주석 JJT https://etfdb.com/etf/JJT/#etf-ticker-profile
+- 납 LD https://etfdb.com/etf/LD/#etf-ticker-profile
+
+- G10 통화 DBV https://etfdb.com/etf/DBV/#price-and-volume
+- 캐나다 달러 FXC https://etfdb.com/etf/FXC/#price-and-volume
+- 영국 파운드 FXB https://etfdb.com/etf/FXB/#price-and-volume
+- 스위스 프랑 FXF https://etfdb.com/etf/FXF/#price-and-volume
+- 호주 달러 FAX https://etfdb.com/etf/FXA/#price-and-volume
+
+- 에너지 생산 PXE https://etfdb.com/etf/PXE/#etf-ticker-profile
+- 에너지 모멘텀 PXI https://etfdb.com/etf/PXI/#etf-ticker-profile
+
+- S&P500 하이 베타 +3X HIBL https://etfdb.com/etf/HIBL/#etf-ticker-profile
+- S&P500 하이 베타 -3X HIBS https://etfdb.com/etf/HIBS/#etf-ticker-profile
