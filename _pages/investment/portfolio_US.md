@@ -160,7 +160,7 @@ hidden: false
 | :-  | :-  | :-     | :-  |
 | 항공/국방 | +3X | DFEN | [Direxion](https://www.webull.com/quote/nysearca-dfen){:target="\_blank"} |
 | 산업     | +3X | DUSL | [Direxion](https://www.webull.com/quote/nysearca-dusl){:target="\_blank"} |
-| 인프라 | | PAVE | [Global X](https://www.webull.com/quote/bats-pave){:target="\_blank"} | #####
+| 인프라 | | PAVE | [Global X](https://www.webull.com/quote/bats-pave){:target="\_blank"} |
 | 건축     | +3X | NAIL | [Direxion](https://www.webull.com/quote/nysearca-nail){:target="\_blank"} |
 | 부동산    | +3X | DRN  | [Direxion](https://www.webull.com/quote/nysearca-drn){:target="\_blank"} |
 |          | -3X | DRV  | [Direxion](https://www.webull.com/quote/nysearca-drv){:target="\_blank"} |
