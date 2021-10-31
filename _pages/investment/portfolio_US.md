@@ -2,7 +2,7 @@
 title: "portfolio_US"
 layout: single
 permalink: /investment/portfolio_US
-published: false
+published: true
 hidden: false
 ---
 
@@ -53,6 +53,11 @@ hidden: false
 | 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv){:target="\_blank"} |
 |     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf){:target="\_blank"} |
 
+### 확인/추가 필요
+
+- S&P500 하이 베타 +3X HIBL https://www.webull.com/quote/nysearca-hibl
+- S&P500 하이 베타 -3X HIBS https://www.webull.com/quote/nysearca-hibs
+
 ## 테크
 
 | 대상 | 배수 | Ticker | 차트 |
@@ -64,6 +69,14 @@ hidden: false
 | 반도체 | +3X | SOXL | [Direxion](https://www.webull.com/quote/nysearca-soxl){:target="\_blank"} |
 |       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs){:target="\_blank"} |
 | 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- 반도체 +2X USD https://www.webull.com/quote/nysearca-usd
+- 반도체 -2X SSG https://www.webull.com/quote/nysearca-ssg
+- 테크 +2X ROM https://www.webull.com/quote/nysearca-rom
+- 테크 -2X REW https://www.webull.com/quote/nysearca-rew
+- 통신 +2X LTL https://www.webull.com/quote/nysearca-ltl
 
 ## 에너지
 
@@ -80,6 +93,14 @@ hidden: false
 | 유틸리티   | +3X | UTSL  | [Direxion](https://www.webull.com/quote/nysearca-utsl){:target="\_blank"} |
 |          | +2X | UPW   | [ProShares](https://www.webull.com/quote/nysearca-upw){:target="\_blank"} |
 |          | -2X | SDP   | [ProShares](https://www.webull.com/quote/nysearca-sdp){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- 석유 +2X UCO https://www.webull.com/quote/nysearca-uco
+- 석유 -2X SCO https://www.webull.com/quote/nysearca-sco
+- 가솔린 UGA https://www.webull.com/quote/nysearca-uga
+- 에너지 생산 PXE https://www.webull.com/quote/nysearca-pxe
+- 에너지 모멘텀 PXI https://www.webull.com/quote/nasdaq-pxi
 
 ## 친환경
 
@@ -107,6 +128,14 @@ hidden: false
 |          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
 | 희토류 | | REMX | [VanEck](https://www.webull.com/quote/nysearca-remx){:target="\_blank"} |
 
+### 확인/추가 필요
+
+- 금광 +3X GDXU https://www.webull.com/quote/nysearca-gdxu
+- 금광 -3X GDXD https://www.webull.com/quote/nysearca-gdxd
+- 주석 JJT https://www.webull.com/quote/nysearca-jjt
+- 납 LD https://www.webull.com/quote/nysearca-ld
+- 우라늄 URNM https://www.webull.com/quote/nysearca-urnm
+
 ## 금융
 
 | 대상 | 배수 | Ticker | 차트 |
@@ -116,10 +145,34 @@ hidden: false
 | 대형은행 | +3X | BNKU | [MicroSectors](https://www.webull.com/quote/nysearca-bnku){:target="\_blank"} |
 |        | -3X | BNKD | [MicroSectors](https://www.webull.com/quote/nysearca-bnkd){:target="\_blank"} |
 | 지역은행  | +3X | DPST | [Direxion](https://www.webull.com/quote/nysearca-dpst){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- 금융 +2X UYG https://www.webull.com/quote/nysearca-uyg
+- 금융 -2X SKF https://www.webull.com/quote/nysearca-skf
+
+## 통화
+
+| 대상 | 배수 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
 | 채권(20y) | +3X | TMF | [Direxion](https://www.webull.com/quote/nysearca-tmf){:target="\_blank"} |
 |          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv){:target="\_blank"} |
 | 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd){:target="\_blank"} |
 |          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- G10 통화 DBV https://www.webull.com/quote/nysearca-dbv
+- 캐나다 달러 FXC https://www.webull.com/quote/nysearca-fxc
+- 영국 파운드 FXB https://www.webull.com/quote/nysearca-fxb
+- 스위스 프랑 FXF https://www.webull.com/quote/nysearca-fxf
+- 호주 달러 FXA https://www.webull.com/quote/nysearca-fxa
+
+## 핀테크
+
+- 블록체인 BKCH https://www.webull.com/quote/nasdaq-bkch
+- 암호화폐 BITQ https://www.webull.com/quote/nysearca-bitq
+- 비트코인 BITO https://www.webull.com/quote/nysearca-bito
 
 ## 산업
 
@@ -131,9 +184,24 @@ hidden: false
 | 부동산    | +3X | DRN  | [Direxion](https://www.webull.com/quote/nysearca-drn){:target="\_blank"} |
 |          | -3X | DRV  | [Direxion](https://www.webull.com/quote/nysearca-drv){:target="\_blank"} |
 | 운송      | +3X | TPOR | [Direxion](https://www.webull.com/quote/nysearca-tpor){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- 인프라 PAVE https://www.webull.com/quote/bats-pave
+- 화물 BDRY https://www.webull.com/quote/nysearca-bdry
+
+
+## 바이오
+
+| 대상 | 배수 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
 | 제약       | +3X | PILL | [Direxion](https://www.webull.com/quote/nysearca-pill){:target="\_blank"} |
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu){:target="\_blank"} |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- 헬스케어 +3X CURE https://www.webull.com/quote/nysearca-cure
 
 ## 소비
 
@@ -142,6 +210,12 @@ hidden: false
 | 생필품 | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
 | 필수소비재 | | XLP | [SPDR](https://www.webull.com/quote/nysearca-xlp){:target="\_blank"} |
 | 소비자 서비스 | | IYC | [iShares](https://www.webull.com/quote/nysearca-iyc){:target="\_blank"} |
+
+### 확인/추가 필요
+
+- 자유소비재 +3X WANT https://www.webull.com/quote/nysearca-want
+- 소비재 +2X UGE https://www.webull.com/quote/nysearca-uge
+- 소비재 -2X SZK https://www.webull.com/quote/nysearca-szk
 
 ## ARK
 
@@ -153,55 +227,3 @@ hidden: false
 | 핀테크 | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf){:target="\_blank"} |
 | 우주   | ARKX | [ARK](https://www.webull.com/quote/bats-arkx){:target="\_blank"} |
 | 유전   | ARKG | [ARK](https://www.webull.com/quote/bats-arkg){:target="\_blank"} 
-
-## 추가
-
-- 반도체 +2X USD https://etfdb.com/etf/USD/#etf-ticker-profile
-- 반도체 -2X SSG https://etfdb.com/etf/SSG/#etf-ticker-profile
-
-- 테크 +2X ROM https://etfdb.com/etf/ROM/#etf-ticker-profile
-- 테크 -2X REW https://etfdb.com/etf/REW/#etf-ticker-profile
-
-- 블록체인 BKCH https://etfdb.com/etf/BKCH/#etf-ticker-profile
-- 암호화폐 BITQ https://etfdb.com/etf/BITQ/#etf-ticker-profile
-
-- 헬스케어 +3X CURE https://etfdb.com/etf/CURE/#etf-ticker-profile
-- 헬스케어 -3X SICK https://etfdb.com/etf/SICK/#etf-ticker-profile
-
-- 금융 +2X UYG https://etfdb.com/etf/UYG/
-- 금융 -2X SKF https://etfdb.com/etf/SKF/#etf-ticker-profile
-
-- 우라늄 URNM https://etfdb.com/etf/URNM/#etf-ticker-profile
-
-- 금광 +3X GDXU https://etfdb.com/etf/GDXU/#etf-ticker-profile
-- 금광 -3X GDXD https://etfdb.com/etf/GDXD/#etf-ticker-profile
-
-- 자유소비재 WANT https://etfdb.com/etf/WANT/#etf-ticker-profile
-
-- 화물 BDRY https://etfdb.com/etf/BDRY/#etf-ticker-profile
-
-- 인프라 PAVE https://etfdb.com/etf/PAVE/#etf-ticker-profile
-
-- 소비재 +2X UGE https://etfdb.com/etf/UGE/#etf-ticker-profile
-- 소비재 -2X SZK https://etfdb.com/etf/SZK/#etf-ticker-profile
-
-- 통신 +2X LTL https://etfdb.com/etf/LTL/#etf-ticker-profile
-
-- 석유 +2X UCO https://etfdb.com/etf/UCO/#etf-ticker-profile
-- 석유 -2X SCO https://etfdb.com/etf/SCO/#etf-ticker-profile
-- 가솔린 UGA https://etfdb.com/etf/UGA/#etf-ticker-profile
-
-- 주석 JJT https://etfdb.com/etf/JJT/#etf-ticker-profile
-- 납 LD https://etfdb.com/etf/LD/#etf-ticker-profile
-
-- G10 통화 DBV https://etfdb.com/etf/DBV/#price-and-volume
-- 캐나다 달러 FXC https://etfdb.com/etf/FXC/#price-and-volume
-- 영국 파운드 FXB https://etfdb.com/etf/FXB/#price-and-volume
-- 스위스 프랑 FXF https://etfdb.com/etf/FXF/#price-and-volume
-- 호주 달러 FAX https://etfdb.com/etf/FXA/#price-and-volume
-
-- 에너지 생산 PXE https://etfdb.com/etf/PXE/#etf-ticker-profile
-- 에너지 모멘텀 PXI https://etfdb.com/etf/PXI/#etf-ticker-profile
-
-- S&P500 하이 베타 +3X HIBL https://etfdb.com/etf/HIBL/#etf-ticker-profile
-- S&P500 하이 베타 -3X HIBS https://etfdb.com/etf/HIBS/#etf-ticker-profile
