@@ -30,8 +30,8 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 다우존스 | +3X | SDOW | [ProShares](https://www.webull.com/quote/nysearca-sdow){:target="\_blank"} |
-|        | -3X | UDOW | [ProShares](https://www.webull.com/quote/nysearca-udow){:target="\_blank"} |
+| 다우존스 | +3X | UDOW | [ProShares](https://www.webull.com/quote/nysearca-udow){:target="\_blank"} |
+|        | -3X | SDOW | [ProShares](https://www.webull.com/quote/nysearca-sdow){:target="\_blank"} |
 | 나스닥   | +3X | TQQQ | [ProShares](https://www.webull.com/quote/nasdaq-tqqq){:target="\_blank"} |
 |         | -3X | SQQQ | [ProShares](https://www.webull.com/quote/nasdaq-sqqq){:target="\_blank"} |
 | S&P500  | +3X | UPRO | [ProShares](https://www.webull.com/quote/nysearca-upro){:target="\_blank"} |
