@@ -46,6 +46,8 @@ hidden: false
 | 미래에셋증권 | [글로벌 투자](https://m.post.naver.com/my/series/detail.naver?seriesNo=230018&memberNo=5010025){:target="\_blank"} |
 | 킴찹의 하루살이 | [미국주식](https://m.blog.naver.com/ssibar1188?categoryNo=38){:target="\_blank"} |
 | 미국주식으로 한강뷰 가기 | [미국주식 시황 정리](https://m.blog.naver.com/tete2002?categoryNo=32){:target="\_blank"} |
+| 지구별 생존기 | [투자 용어](https://lljjww.tistory.com/category/%ED%88%AC%EC%9E%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0/%ED%88%AC%EC%9E%90%20%EC%9A%A9%EC%96%B4){:target="\_blank"} |
+|              | [투자 공부](https://lljjww.tistory.com/category/%ED%88%AC%EC%9E%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0/%ED%88%AC%EC%9E%90%20%EA%B3%B5%EB%B6%80){:target="\_blank"} |
 
 ***
 ***
@@ -69,7 +71,9 @@ hidden: false
 |         | [ETF Finder](https://www.etf.com/etfanalytics/etf-finder){:target="\_blank"} |
 |         | [ETF Comparison Tool](https://www.etf.com/etfanalytics/etf-comparison-tool){:target="\_blank"} |
 | 기타 | [Linstock](https://linstock.us/){:target="\_blank"} |
+|      | [투자의 원리 - 해외 ETF](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/ETF){:target="\_blank"} |
 |      | [미국주식 X 미국개미 - 미국ETF](https://usant.tistory.com/category/%EB%AF%B8%EA%B5%ADETF){:target="\_blank"} |
+|      | [지구별 생존기 - ETF, 개별주식종목 정보](https://lljjww.tistory.com/category/%ED%88%AC%EC%9E%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0/ETF%2C%20%EA%B0%9C%EB%B3%84%EC%A3%BC%EC%8B%9D%EC%A2%85%EB%AA%A9%20%EC%A0%95%EB%B3%B4){:target="\_blank"} |
 
 ***
 ***
@@ -79,7 +83,6 @@ hidden: false
 | 분류 | 링크 |
 | :- | :- |
 | 추천 | [미국주식으로 한강뷰 가기 : 미국 ETF 이야기](https://m.blog.naver.com/tete2002?categoryNo=27){:target="\_blank"} |
-|     | [투자의 원리 - 해외 ETF](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/ETF){:target="\_blank"} |
 |     | [투자의 원리 - 해외 주식](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/%EC%A3%BC%EC%8B%9D){:target="\_blank"} |
 |     | [투자의 원리 - 해외 배당주](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/%EB%B0%B0%EB%8B%B9%EC%A3%BC){:target="\_blank"} |
 |     | [미국주식 X 미국개미 - 미국주식](https://usant.tistory.com/category/%EB%AF%B8%EA%B5%AD%EC%A3%BC%EC%8B%9D){:target="\_blank"} |
