@@ -131,15 +131,17 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
+| 외환 | G10 | DBV | [Invesco](https://www.webull.com/quote/nysearca-dbv){:target="\_blank"} | #####
+|      | 유로 | FXE | [Invesco](https://www.webull.com/quote/nysearca-fxe){:target="\_blank"} | #####
+|      | 캐나다 | FXC | [Invesco](https://www.webull.com/quote/nysearca-fxc){:target="\_blank"} | #####
+|      | 영국 | FXB | [Invesco](https://www.webull.com/quote/nysearca-fxb){:target="\_blank"} | #####
+|      | 스위스 | FXF | [Invesco](https://www.webull.com/quote/nysearca-fxf){:target="\_blank"} | #####
+|      | 호주 | FXA | [Invesco](https://www.webull.com/quote/nysearca-fxa){:target="\_blank"} | #####
+|      | 일본 | FXY | [Invesco](https://www.webull.com/quote/nysearca-fxy){:target="\_blank"} | #####
 | 채권(20y) | +3X | TMF | [Direxion](https://www.webull.com/quote/nysearca-tmf){:target="\_blank"} |
 |          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv){:target="\_blank"} |
 | 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd){:target="\_blank"} |
 |          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo){:target="\_blank"} |
-| 통화 | G10 | DBV | [Invesco](https://www.webull.com/quote/nysearca-dbv){:target="\_blank"} | #####
-|      | 캐나다 달러 | FXC | [Invesco](https://www.webull.com/quote/nysearca-fxc){:target="\_blank"} | #####
-|      | 영국 파운드 | FXB | [Invesco](https://www.webull.com/quote/nysearca-fxb){:target="\_blank"} | #####
-|      | 스위스 프랑 | FXF | [Invesco](https://www.webull.com/quote/nysearca-fxf){:target="\_blank"} | #####
-|      | 호주 달러 | FXA | [Invesco](https://www.webull.com/quote/nysearca-fxa){:target="\_blank"} | #####
 
 ## 암호화폐
 
