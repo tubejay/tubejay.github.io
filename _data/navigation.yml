@@ -1,11 +1,9 @@
 nav_side:
-#  - title: "investment"
-#    url: /categories/investment/
   - title: "investment"
     url: /investment
-#    children:
-#      - title: "websites"
-#        url: /investment/websites
+    children:
+      - title: "websites"
+        url: /investment/websites
 
 main:
   - title: "investment"
