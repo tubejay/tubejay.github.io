@@ -48,8 +48,8 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| S&P500 하이 베타 | +3X | HIBL | [Direxion](https://www.webull.com/quote/nysearca-hibl){:target="\_blank"} | --------------
-|                  | +3X | HIBS | [Direxion](https://www.webull.com/quote/nysearca-hibs){:target="\_blank"} | -------------
+| S&P500 하이 베타 | +3X | HIBL | [Direxion](https://www.webull.com/quote/nysearca-hibl){:target="\_blank"} | #####
+|                  | +3X | HIBS | [Direxion](https://www.webull.com/quote/nysearca-hibs){:target="\_blank"} | #####
 | 가치 | 종합 | AVUS | [Avantis](https://www.webull.com/quote/nysearca-avus){:target="\_blank"} |
 |     | 대형 | VTV  | [Vanguard](https://www.webull.com/quote/nysearca-vtv){:target="\_blank"} |
 | 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv){:target="\_blank"} |
@@ -66,7 +66,7 @@ hidden: false
 | 반도체 | +3X | SOXL | [Direxion](https://www.webull.com/quote/nysearca-soxl){:target="\_blank"} |
 |       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs){:target="\_blank"} |
 | 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot){:target="\_blank"} |
-| 통신 | +2X | LTL | [ProShares](https://www.webull.com/quote/nysearca-ltl){:target="\_blank"} | ----------------------
+| 통신 | +2X | LTL | [ProShares](https://www.webull.com/quote/nysearca-ltl){:target="\_blank"} | #####
 
 ## 에너지
 
@@ -74,16 +74,16 @@ hidden: false
 | :-  | :-  | :-     | :-  |
 | 석유/가스 | +2X | GUSH | [Direxion](https://www.webull.com/quote/nysearca-gush){:target="\_blank"} |
 |         | -2X | DRIP | [Direxion](https://www.webull.com/quote/nysearca-drip){:target="\_blank"} |
-| 석유 | +2X | UCO | [ProShares](https://www.webull.com/quote/nysearca-uco){:target="\_blank"} | ----------------------
-|      | -2X | SCO | [ProShares](https://www.webull.com/quote/nysearca-sco){:target="\_blank"} | ----------------------
-| 석유 업체     | +3X | NRGU | [MicroSectors](https://www.webull.com/quote/nysearca-nrgu){:target="\_blank"} | ---------------------
-|               | -3X | NRGD | [MicroSector](https://www.webull.com/quote/nysearca-nrgd){:target="\_blank"} | ---------------------
-| 가솔린 | | UGA | [US Commodity Funds](https://www.webull.com/quote/nysearca-uga){:target="\_blank"} | -----------------
+| 석유 | +2X | UCO | [ProShares](https://www.webull.com/quote/nysearca-uco){:target="\_blank"} | #####
+|      | -2X | SCO | [ProShares](https://www.webull.com/quote/nysearca-sco){:target="\_blank"} | #####
+| 석유 업체     | +3X | NRGU | [MicroSectors](https://www.webull.com/quote/nysearca-nrgu){:target="\_blank"} | #####
+|               | -3X | NRGD | [MicroSector](https://www.webull.com/quote/nysearca-nrgd){:target="\_blank"} | #####
+| 가솔린 | | UGA | [US Commodity Funds](https://www.webull.com/quote/nysearca-uga){:target="\_blank"} | #####
 | 가스     | +2X | BOIL | [ProShares](https://www.webull.com/quote/nysearca-boil){:target="\_blank"} |
 |         | -2X | KOLD | [ProShares](https://www.webull.com/quote/nysearca-kold){:target="\_blank"} |
 | 에너지    | +2X | ERX  | [Direxion](https://www.webull.com/quote/nysearca-erx){:target="\_blank"} |
 |          | -2X | ERY  | [Direxion](https://www.webull.com/quote/nysearca-ery){:target="\_blank"} |
-| 에너지 생산 | | PXE | [Invesco](https://www.webull.com/quote/nysearca-pxe){:target="\_blank"} | ----------------------
+| 에너지 생산 | | PXE | [Invesco](https://www.webull.com/quote/nysearca-pxe){:target="\_blank"} | #####
 | 유틸리티   | +3X | UTSL  | [Direxion](https://www.webull.com/quote/nysearca-utsl){:target="\_blank"} |
 |          | +2X | UPW   | [ProShares](https://www.webull.com/quote/nysearca-upw){:target="\_blank"} |
 |          | -2X | SDP   | [ProShares](https://www.webull.com/quote/nysearca-sdp){:target="\_blank"} |
@@ -112,9 +112,9 @@ hidden: false
 |     | -2X | DUST | [Direxion](https://www.webull.com/quote/nysearca-dust){:target="\_blank"} |
 | 은       | +2X | AGQ  | [ProShares](https://www.webull.com/quote/nysearca-agq){:target="\_blank"} |
 |          | -2X | ZSL  | [ProShares](https://www.webull.com/quote/nysearca-zsl){:target="\_blank"} |
-| 주석 | | JJT | [iPath Series B](https://www.webull.com/quote/nysearca-jjt){:target="\_blank"} | ---------
-| 납 | | LD | [iPath Series B](https://www.webull.com/quote/nysearca-ld){:target="\_blank"} | ----------
-| 우라늄 | | URNM | [Exchange Traded Concepts](https://www.webull.com/quote/nysearca-urnm){:target="\_blank"} | -------------
+| 주석 | | JJT | [iPath Series B](https://www.webull.com/quote/nysearca-jjt){:target="\_blank"} | #####
+| 납 | | LD | [iPath Series B](https://www.webull.com/quote/nysearca-ld){:target="\_blank"} | #####
+| 우라늄 | | URNM | [Exchange Traded Concepts](https://www.webull.com/quote/nysearca-urnm){:target="\_blank"} | #####
 | 희토류 | | REMX | [VanEck](https://www.webull.com/quote/nysearca-remx){:target="\_blank"} |
 
 ## 금융
@@ -135,19 +135,19 @@ hidden: false
 |          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv){:target="\_blank"} |
 | 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd){:target="\_blank"} |
 |          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo){:target="\_blank"} |
-| 통화 | G10 | DBV | [Invesco](https://www.webull.com/quote/nysearca-dbv){:target="\_blank"} | -------------
-|      | 캐나다 달러 | FXC | [Invesco](https://www.webull.com/quote/nysearca-fxc){:target="\_blank"} | --------------
-|      | 영국 파운드 | FXB | [Invesco](https://www.webull.com/quote/nysearca-fxb){:target="\_blank"} | ---------------
-|      | 스위스 프랑 | FXF | [Invesco](https://www.webull.com/quote/nysearca-fxf){:target="\_blank"} | -------------
-|      | 호주 달러 | FXA | [Invesco](https://www.webull.com/quote/nysearca-fxa){:target="\_blank"} | -------------
+| 통화 | G10 | DBV | [Invesco](https://www.webull.com/quote/nysearca-dbv){:target="\_blank"} | #####
+|      | 캐나다 달러 | FXC | [Invesco](https://www.webull.com/quote/nysearca-fxc){:target="\_blank"} | #####
+|      | 영국 파운드 | FXB | [Invesco](https://www.webull.com/quote/nysearca-fxb){:target="\_blank"} | #####
+|      | 스위스 프랑 | FXF | [Invesco](https://www.webull.com/quote/nysearca-fxf){:target="\_blank"} | #####
+|      | 호주 달러 | FXA | [Invesco](https://www.webull.com/quote/nysearca-fxa){:target="\_blank"} | #####
 
 ## 암호화폐
 
-| 대상 | 유형 | Ticker | 차트 |
-| :-  | :-  | :-     | :-  |
-| 블록체인 | BKCH | [Global X](https://www.webull.com/quote/nasdaq-bkch){:target="\_blank"} | -------------
-| 암호화폐 | BITQ | [Bitwise](https://www.webull.com/quote/nysearca-bitq){:target="\_blank"} | -------------
-| 비트코인 | BITO | [ProShares](https://www.webull.com/quote/nysearca-bito){:target="\_blank"} | -------------
+| 대상 | Ticker | 차트 |
+| :-  | :-     | :-  |
+| 블록체인 | BKCH | [Global X](https://www.webull.com/quote/nasdaq-bkch){:target="\_blank"} | #####
+| 암호화폐 | BITQ | [Bitwise](https://www.webull.com/quote/nysearca-bitq){:target="\_blank"} | #####
+| 비트코인 | BITO | [ProShares](https://www.webull.com/quote/nysearca-bito){:target="\_blank"} | #####
 
 ## 산업
 
@@ -155,12 +155,12 @@ hidden: false
 | :-  | :-  | :-     | :-  |
 | 항공/국방 | +3X | DFEN | [Direxion](https://www.webull.com/quote/nysearca-dfen){:target="\_blank"} |
 | 산업     | +3X | DUSL | [Direxion](https://www.webull.com/quote/nysearca-dusl){:target="\_blank"} |
-| 인프라 | | PAVE | [Global X](https://www.webull.com/quote/bats-pave){:target="\_blank"} | -------------------
+| 인프라 | | PAVE | [Global X](https://www.webull.com/quote/bats-pave){:target="\_blank"} | #####
 | 건축     | +3X | NAIL | [Direxion](https://www.webull.com/quote/nysearca-nail){:target="\_blank"} |
 | 부동산    | +3X | DRN  | [Direxion](https://www.webull.com/quote/nysearca-drn){:target="\_blank"} |
 |          | -3X | DRV  | [Direxion](https://www.webull.com/quote/nysearca-drv){:target="\_blank"} |
 | 운송      | +3X | TPOR | [Direxion](https://www.webull.com/quote/nysearca-tpor){:target="\_blank"} |
-| 벌크 화물 | | BDRY | [Breakwave](https://www.webull.com/quote/nysearca-bdry){:target="\_blank"} | ---------------
+| 벌크 화물 | | BDRY | [Breakwave](https://www.webull.com/quote/nysearca-bdry){:target="\_blank"} | #####
 
 ## 바이오
 
@@ -169,7 +169,7 @@ hidden: false
 | 제약       | +3X | PILL | [Direxion](https://www.webull.com/quote/nysearca-pill){:target="\_blank"} |
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu){:target="\_blank"} |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd){:target="\_blank"} |
-| 헬스케어 | +3X | CURE | [Direxion](https://www.webull.com/quote/nysearca-cure){:target="\_blank"} | -----------------
+| 헬스케어 | +3X | CURE | [Direxion](https://www.webull.com/quote/nysearca-cure){:target="\_blank"} | #####
 
 ## 소비
 
@@ -177,10 +177,10 @@ hidden: false
 | :-  | :-  | :-     | :-  |
 | 생필품 | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl){:target="\_blank"} |
 | 필수소비재 | | XLP | [SPDR](https://www.webull.com/quote/nysearca-xlp){:target="\_blank"} |
-| 자유소비재 | +3X | WANT | [Direxion](https://www.webull.com/quote/nysearca-want){:target="\_blank"} | -----------
+| 자유소비재 | +3X | WANT | [Direxion](https://www.webull.com/quote/nysearca-want){:target="\_blank"} | #####
 | 소비자 서비스 | | IYC | [iShares](https://www.webull.com/quote/nysearca-iyc){:target="\_blank"} |
-| 소비재 | +2X | UGE | [ProShares](https://www.webull.com/quote/nysearca-uge){:target="\_blank"} | ---------------
-|        | -2X | SZK | [ProShares](https://www.webull.com/quote/nysearca-szk){:target="\_blank"} | ---------------
+| 소비재 | +2X | UGE | [ProShares](https://www.webull.com/quote/nysearca-uge){:target="\_blank"} | #####
+|        | -2X | SZK | [ProShares](https://www.webull.com/quote/nysearca-szk){:target="\_blank"} | #####
 
 ## ARK
 
