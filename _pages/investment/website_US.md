@@ -69,6 +69,7 @@ hidden: false
 |         | [ETF Finder](https://www.etf.com/etfanalytics/etf-finder){:target="\_blank"} |
 |         | [ETF Comparison Tool](https://www.etf.com/etfanalytics/etf-comparison-tool){:target="\_blank"} |
 | 기타 | [Linstock](https://linstock.us/){:target="\_blank"} |
+|      | [미국주식 X 미국개미 - 미국ETF](https://usant.tistory.com/category/%EB%AF%B8%EA%B5%ADETF){:target="\_blank"} |
 
 ***
 ***
@@ -81,6 +82,7 @@ hidden: false
 |     | [투자의 원리 - 해외 ETF](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/ETF){:target="\_blank"} |
 |     | [투자의 원리 - 해외 주식](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/%EC%A3%BC%EC%8B%9D){:target="\_blank"} |
 |     | [투자의 원리 - 해외 배당주](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/%EB%B0%B0%EB%8B%B9%EC%A3%BC){:target="\_blank"} |
+|     | [미국주식 X 미국개미 - 미국주식](https://usant.tistory.com/category/%EB%AF%B8%EA%B5%AD%EC%A3%BC%EC%8B%9D){:target="\_blank"} |
 | 분석 | [미국주식으로 한강뷰 가기 : 미국주식 분석하기](https://m.blog.naver.com/tete2002?categoryNo=30){:target="\_blank"} |
 |      | [미국주식으로 한강뷰 가기 : 미국주식 기초 뽀개기](https://m.blog.naver.com/tete2002?categoryNo=22){:target="\_blank"} |
 |      | [투자의 원리 - 해외 기업 분석](https://whtjsrb211.tistory.com/m/category/%ED%95%B4%EC%99%B8%20%ED%88%AC%EC%9E%90/%EA%B8%B0%EC%97%85%20%EB%B6%84%EC%84%9D){:target="\_blank"} |
