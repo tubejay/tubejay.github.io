@@ -8,7 +8,7 @@ published: true
 hidden: false
 ---
 
-<font size="7"> **investment** </font>
+<font style='font-size:"7"; font-weight:bold'> investment </font>
 
 
 - [website_KR](/investment/website_KR)
