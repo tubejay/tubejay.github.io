@@ -8,12 +8,10 @@ published: true
 hidden: false
 ---
 
-<font style="font-size:large"> investment </font>
+<font style="font-size:5"> investment </font><br>
 
-[website_KR](/investment/website_KR)
+[website_KR](/investment/website_KR)<br>
+[website_US](/investment/website_US)<br>
 
-[website_US](/investment/website_US)
-
-[portfolio_KR](/investment/portfolio_KR)
-
+[portfolio_KR](/investment/portfolio_KR)<br>
 [portfolio_US](/investment/portfolio_US)
