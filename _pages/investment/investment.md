@@ -15,7 +15,6 @@ hidden: false
 <font size="5"> investment font size 5 </font><br>
 <font size="6"> investment font size 6 </font><br>
 <font size="7"> investment font size 7 </font><br>
-<font size="8"> investment font size 8 </font><br>
 
 [website_KR](/investment/website_KR)<br>
 [website_US](/investment/website_US)<br>
