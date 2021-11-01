@@ -13,8 +13,6 @@ hidden: false
 <font size="3"> font size 3 </font>font size
 <font size="4"> font size 4 </font>font size
 <font size="5"> font size 5 </font>font size
-<font size="6"> font size 6 </font>font size
-<font size="7"> font size 7 </font>font size
 
 [website_KR](/investment/website_KR)<br>
 [website_US](/investment/website_US)<br>
