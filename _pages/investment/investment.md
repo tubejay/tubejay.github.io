@@ -8,7 +8,7 @@ published: true
 hidden: false
 ---
 
-<font size="6"> **investment** </font>
+<font size="7"> **investment** </font>
 
 
 - [website_KR](/investment/website_KR)
