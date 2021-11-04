@@ -55,7 +55,7 @@ hidden: false
 | 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv){:target="\_blank"} |
 |     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf){:target="\_blank"} |
 | 방어 | 채권+옵션 | SWAN | [Amplify](https://www.webull.com/quote/nysearca-swan){:target="\_blank"} |
-|     | 주식+채권+현금 | DMRL | [DeltaShares]({:target="\_blank"} |){:target="\_blank"} |
+|     | 주식+채권+현금 | DMRL | [DeltaShares](https://www.webull.com/quote/nysearca-dmrl){:target="\_blank"} |
 |     | 주식+채권     | MTSX | [WisdomTree](https://www.webull.com/quote/nysearca-ntsx){:target="\_blank"} |
 
 ## 테크
