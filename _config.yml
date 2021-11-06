@@ -204,11 +204,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   syntax_highlighter_opts:
-    guess_lang: true
     block:
       line_numbers: true
+      guess_lang: true
     span:
       line_numbers: false
+      guess_lang: true
 
 
 # Sass/SCSS
