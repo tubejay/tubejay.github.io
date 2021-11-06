@@ -94,9 +94,9 @@ hidden: false
 ***
 
 ```text
-inline `code` syntax
+inline code `SELECT * FROM table`{:.sql} shown
 ```
-inline `code`{:.markdown} syntax
+inline code `SELECT * FROM table`{:.sql} shown
 
 ***
 ***
