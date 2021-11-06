@@ -204,7 +204,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   syntax_highlighter_opts:
-    line_numbers: true
+    block:
+      line_numbers: true
+    span:
+      line_numbers: false
 
 
 # Sass/SCSS
