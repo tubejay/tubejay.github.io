@@ -9,14 +9,16 @@ hidden: false
 
 ```text
 *italic*
+<i> italic </i>
 **bold**
-<b> weight='bold' </b>
+<b> bold </b>
 <U> underline </U>
 <s> strike </s>
 ```
 - *italic*
+- <i> italic </i>
 - **bold**
-- <b> weight='bold' </b>
+- <b> bold </b>
 - <U> underline </U>
 - <s> strike </s>
 
@@ -73,15 +75,15 @@ hidden: false
 
 ```text
 - AAA
+  - aaa
 - BBB
-  - bbb
   - [ ] to do
   - [x] done
 - CCC
 ```
 - AAA
+  - aaa
 - BBB
-  - bbb
   - [ ] to do
   - [x] done
 - CCC
@@ -121,13 +123,11 @@ print('two')
 
 ```text
 [GitHub][github_logo]
-![GitHub][github_logo]
-
+![GitHub][github_logo]{width=200}
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
-![GitHub][github_logo]{: width="100"}
-
+![GitHub][github_logo]{width=200}
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 
 ***
@@ -135,8 +135,8 @@ print('two')
 
 | syntax | symbol |
 | :- | :-: |
-| `:red_square:`{:.language-yaml .highlight} | 🟥 |
-| `:orange_square:`{:.language-yaml .highlight} | 🟧 |
+| `:red_square:` | 🟥 |
+| `:orange_square:` | 🟧 |
 | `:yellow_square:` | 🟨 |
 | `:green_square:` | 🟩 |
 | `:blue_square:` | 🟦 |
