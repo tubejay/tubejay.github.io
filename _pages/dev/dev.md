@@ -11,8 +11,6 @@ hidden: false
 <font size="6"><span style="font-weight:bold;"> dev </span></font>
 
 <br>
-<br>
-
 
 <font size="5"> share code </font>
 
