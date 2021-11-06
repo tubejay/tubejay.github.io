@@ -15,6 +15,7 @@ hidden: false
   </div>
 </font>
 <br>
+<br>
 
 <font size="3">
 <div markdown="1">
@@ -24,11 +25,14 @@ website
 - [website_KR](/investment/website_KR)
 - [website_US](/investment/website_US)
 <br>
+<br>
 
 portfolio
 
 - [portfolio_KR](/investment/portfolio_KR)
 - [portfolio_US](/investment/portfolio_US)
+<br>
+<br>
 
 </div>
 </font>
