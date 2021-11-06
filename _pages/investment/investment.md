@@ -9,16 +9,16 @@ hidden: false
 ---
 
 <br>
-<span style="font-weight:bold;"> investment </span>
+<font size="4"><span style="font-weight:bold;"> investment </span></font>
 <br>
 
-website
+<font size="2"> website </font>
 
 - [website_KR](/investment/website_KR)
 - [website_US](/investment/website_US)
 <br>
 
-portfolio
+<font size="2"> portfolio </font>
 
 - [portfolio_KR](/investment/portfolio_KR)
 - [portfolio_US](/investment/portfolio_US)
