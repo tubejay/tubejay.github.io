@@ -87,6 +87,12 @@ hidden: false
 ***
 ***
 
+```text
+| left | center | right |
+| :-   | :-:    | -:    |
+| left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
+```
+
 | left | center | right |
 | :-   | :-:    | -:    |
 | left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
