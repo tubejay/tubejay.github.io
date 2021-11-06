@@ -7,6 +7,7 @@ published: true
 hidden: false
 ---
 
+<br>
 ```markdown
 # level 1
 ## level 2
@@ -29,7 +30,7 @@ hidden: false
 **bold**  
 <font font-weight='bold'> weight='bold' </font>  
 <U> underline </U>  
-<s> strike </s>
+<s> strike </s>  
 
 ***
 
@@ -42,7 +43,8 @@ hidden: false
 
 ***
 
-```markdow<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
+```markdown
+<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 ```
 <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 
