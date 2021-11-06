@@ -9,14 +9,14 @@ hidden: false
 ---
 
 <br>
-<font size="4"> 
+<font size="5"> 
   <div style="font-weight:bold;">
     dev
   </div>
 </font>
 <br>
 
-<font size="2">
+<font size="3">
 <div markdown="1">
 
 vs code
