@@ -29,8 +29,14 @@ vs code
 
 markdown
 - syntax
-- [vs code](https://code.visualstudio.com/docs/languages/markdown){:target="_blank"}
-- [marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode){:target="_blank"}
+  - [basic syntax](https://www.markdownguide.org/basic-syntax/){:target="_blank"}
+  - [extended syntax](https://www.markdownguide.org/extended-syntax/){:target="_blank"}
+  - [cheat sheet](https://www.markdownguide.org/cheat-sheet/){:target="_blank"}
+  - [emoji](https://github.com/ikatyang/emoji-cheat-sheet){:target="_blank"}
+- editor
+  - [vs code](https://code.visualstudio.com/docs/languages/markdown){:target="_blank"}
+  - [marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode){:target="_blank"}
+  - [typora](https://typora.io/){:target="_blank"}
 <br>
 <br>
 
@@ -41,8 +47,15 @@ web publishing
 <br>
 
 font
-- cascadia code
-- ibm plex
+- recommended
+  - [Cascadia Code](https://github.com/microsoft/cascadia-code){:target="_blank"}
+  - [IBM Plex](https://www.ibm.com/plex/){:target="_blank"}
+- compare
+  - [Programming Fonts](https://www.programmingfonts.org/){:target="_blank"}
+  - [Dev Fonts](https://devfonts.gafi.dev/){:target="_blank"}
+- license
+  - [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?id=OFL){:target="_blank"}
+  - [Apache License](http://www.apache.org/licenses/LICENSE-2.0.html){:target="_blank"}
 <br>
 <br>
 
