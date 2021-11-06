@@ -17,7 +17,7 @@ hidden: false
 <br>
 
 <br>
-<font size="5" font-weight="bold"> 
+<font size="5" weight="bold"> 
   dev
 </font>
 <br>
