@@ -15,7 +15,7 @@ hidden: false
 <font size="5"> vs code </font>
 
 - [documentation](https://code.visualstudio.com/docs){:target="_blank"}
-- [keyboard shortcuts windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
+- [keyboard shortcuts - windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
 - [web](https://code.visualstudio.com/docs/editor/vscode-web){:target="_blank"}
 <br>
 
