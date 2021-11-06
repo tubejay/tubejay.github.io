@@ -98,6 +98,10 @@ inline code `SELECT * FROM t` shown
 ```
 inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 
+inline code `SELECT * FROM t`{:.highlight} shown
+
+inline code `SELECT * FROM t`{:.sql .highlight} shown
+
 ***
 ***
 
