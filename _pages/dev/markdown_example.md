@@ -9,13 +9,18 @@ hidden: false
 
 <div>
 # level 1
+  
 ## level 2
+
 ### level 3
 </div>
 # level 1
+
 ## level 2
+
 ### level 3
 
+***
 ***
 
 ```markdown
@@ -25,33 +30,26 @@ hidden: false
 <U> underline </U>
 <s> strike </s>
 ```
-*italic*
 
-**bold**
+- *italic*
+- **bold**
+- <em> weight='bold' </em>
+- <U> underline </U>
+- <s> strike </s>
 
-<em> weight='bold' </em>
-
-<U> underline </U>
-
-<s> strike </s>
-
+***
 ***
 
 ```markdown
 <font color='blue'> color='blue' </font>
-<font style='background-color:white'> background-color='white' </font>  
+<font style='background-color:brown'> background-color='brown' </font>  
+<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 ```
-<font color='blue'> color='blue' </font>
-
-<font style='background-color:white'> background-color='white' </font>  
+- <font color='blue'> color='blue' </font>
+- <font style='background-color:white'> background-color='white' </font>
+- <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 
 ***
-
-```markdown
-<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
-```
-<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
-
 ***
 
 ```markdown
@@ -64,6 +62,7 @@ hidden: false
 >>> level 3
 
 ***
+***
 
 ```markdown
 1. first
@@ -74,6 +73,7 @@ hidden: false
 3. second
 5. third
 
+***
 ***
 
 ```markdown
@@ -90,19 +90,16 @@ hidden: false
 - EEE
 
 ***
-
-```markdown
-inline `code` syntax
-```
-inline `code` syntax
-
 ***
 
 <div>
-```python
-print('one')
-print('two')
-```
+inline `code` syntax
+</div>
+inline `code` syntax
+
+***
+***
+
 </div>
 ```python
 print('one')
@@ -110,6 +107,7 @@ print('two')
 ```
 
 ***
+***
 
 ```markdown
 [GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
@@ -119,5 +117,6 @@ print('two')
 
 ![GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
 
+***
 ***
 
