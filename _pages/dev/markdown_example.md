@@ -39,11 +39,11 @@ hidden: false
 
 ```markdown
 <font color='blue'> color='blue' </font>
-<font style='background-color:brown'> background-color='brown' </font>  
+<font style='background-color:gray'> background-color='gray' </font>  
 <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 ```
 - <font color='blue'> color='blue' </font>
-- <font style='background-color:brown'> background-color='brown' </font>
+- <font style='background-color:gray'> background-color='gray' </font>
 - <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 
 ***
@@ -89,13 +89,6 @@ hidden: false
 ***
 ***
 
-```text
-  ```python
-  print('one')
-  print('two')
-  ```
-```
-
 ```python
 print('one')
 print('two')
@@ -105,11 +98,15 @@ print('two')
 ***
 
 ```markdown
-[GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
-![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
+[GitHub][github_logo]
+![GitHub][github_logo]
+
+[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
-[GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
-![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
+[GitHub][github_logo]
+![GitHub][github_logo]
+
+[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 
 ***
 ***
