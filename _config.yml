@@ -207,9 +207,11 @@ kramdown:
     block:
       line_numbers: true
       guess_lang: true
+      disable: false
     span:
       line_numbers: false
       guess_lang: true
+      disable: false
 
 
 # Sass/SCSS
