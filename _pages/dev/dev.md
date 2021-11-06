@@ -12,7 +12,7 @@ hidden: false
 <font size="5"><span style="font-weight:bold;"> dev </span></font>
 <br>
 
-<font size="2">
+<font size="2" markdown="1">
 
 vs code
 
