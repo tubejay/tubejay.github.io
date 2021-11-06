@@ -94,9 +94,9 @@ hidden: false
 ***
 
 ```text
-inline code `SELECT * FROM table`{:.sql} shown
+inline code `SELECT * FROM table` shown
 ```
-inline code `SELECT * FROM table`{:.sql} shown
+inline code `SELECT * FROM table` shown
 
 ***
 ***
