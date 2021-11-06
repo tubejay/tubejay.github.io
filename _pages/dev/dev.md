@@ -16,7 +16,8 @@ hidden: false
 </font>
 <br>
 
-<div size="2" markdown="1">
+<font size="2">
+<div markdown="1">
 
 vs code
 
@@ -52,3 +53,4 @@ share code
 <br>
 
 </div>
+</font>
