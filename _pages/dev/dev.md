@@ -12,7 +12,8 @@ hidden: false
 <font size="5"><span style="font-weight:bold;"> dev </span></font>
 <br>
 
-<font size="2" markdown="1">
+<font size="2">
+<div markdown="1">
 
 vs code
 
@@ -47,4 +48,5 @@ share code
 - [carbon](https://carbon.now.sh/){:target="_blank"}
 <br>
 
+</div>
 </font>
