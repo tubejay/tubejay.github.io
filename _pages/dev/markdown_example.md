@@ -1,6 +1,7 @@
 ---
 title: "markdown_example"
 layout: single
+toc: false
 permalink: /dev/markdown_example
 published: true
 hidden: false
@@ -11,14 +12,39 @@ hidden: false
 ## level 2
 ### level 3
 ```
+# level 1
+## level 2
+### level 3
+
+***
 
 ```markdown
 *italic*
 **bold**
+<font font-weight='bold'> weight='bold' </font>
 <U> underline </U>
 <s> strike </s>
-
-<font color='blue'> color='blue' </font>
-<font background-color='gray'> background-color='gray' </font>
 ```
+*italic*  
+**bold**  
+<font font-weight='bold'> weight='bold' </font>  
+<U> underline </U>  
+<s> strike </s>
+
+***
+
+```markdown
+<font color='blue'> color='blue' </font>
+<font background-color='white'> background-color='white' </font>
+```
+<font color='blue'> color='blue' </font>  
+<font background-color='white'> background-color='white' </font>  
+
+***
+
+```markdow<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
+```
+<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
+
+***
 
