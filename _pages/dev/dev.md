@@ -20,29 +20,29 @@ hidden: false
 <font size="3">
 <div markdown="1">
 
-vs code
+VS Code
 - [documentation](https://code.visualstudio.com/docs){:target="_blank"}
-- [keyboard shortcuts - windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
+- [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
 - [web version](https://code.visualstudio.com/docs/editor/vscode-web){:target="_blank"}
 <br>
 <br>
 
-markdown
+Markdown
 - syntax
   - [basic syntax](https://www.markdownguide.org/basic-syntax/){:target="_blank"}
   - [extended syntax](https://www.markdownguide.org/extended-syntax/){:target="_blank"}
   - [cheat sheet](https://www.markdownguide.org/cheat-sheet/){:target="_blank"}
   - [emoji](https://github.com/ikatyang/emoji-cheat-sheet){:target="_blank"}
 - editor
-  - [vs code](https://code.visualstudio.com/docs/languages/markdown){:target="_blank"}
-  - [marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode){:target="_blank"}
+  - [VS Code](https://code.visualstudio.com/docs/languages/markdown){:target="_blank"}
+  - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode){:target="_blank"}
   - [typora](https://typora.io/){:target="_blank"}
 <br>
 <br>
 
 web publishing
 - [ofcourse](https://ofcourse.kr/){:target="_blank"}
-- [codepen](https://codepen.io/pen/){:target="_blank"}
+- [CodePen](https://codepen.io/pen/){:target="_blank"}
 <br>
 <br>
 
@@ -60,8 +60,8 @@ font
 <br>
 
 share code
-- [color scripter](https://colorscripter.com/){:target="_blank"}
-- [github gist](https://gist.github.com/){:target="_blank"}
+- [Color Scripter](https://colorscripter.com/){:target="_blank"}
+- [Github Gist](https://gist.github.com/){:target="_blank"}
 - [carbon](https://carbon.now.sh/){:target="_blank"}
 <br>
 <br>
