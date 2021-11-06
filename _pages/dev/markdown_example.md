@@ -13,12 +13,14 @@ hidden: false
 | :-     | :-     | :-     |
 | italic | `*italic*` | *italic* |
 |        | `<i> italic </i>` | <i> italic </i> |
-|        | `<font style=italic> italic </font>` | <font style=italic> italic </font> |
+|        | `<font style="font-style:italic"> italic </font>` | <font style="font-style:italic"> italic </font> |
 | bold | `**bold**` | **bold** |
 |      | `<b> bold </b>` | <b> bold </b> |
-|      | <font style=bold> bold </font> | <font style=bold> bold </font> |
-| underline | <u> underline </u> | <u> underline </u> |
-| strike | <s> strike </s> | <s> strike </s> |
+|      | <font style="font-style:bold"> bold </font> | <font style="font-style:bold"> bold </font> |
+| underline | `<u> underline </u>` | <u> underline </u> |
+|           | `<font style="text-decoration:underline"> underline </font>` | <font style="text-decoration:underline"> underline </font> |
+| strike | `<s> strike </s>` | <s> strike </s> |
+|        | ` <font style="text-decoration:line-through"> strike </font>` | <font style="text-decoration:line-through"> strike </font> |
 
 ```text
 *italic*
