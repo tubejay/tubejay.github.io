@@ -7,17 +7,14 @@ published: true
 hidden: false
 ---
 
-<div>
+```text
 # level 1
-  
 ## level 2
-
 ### level 3
-</div>
+``
+
 # level 1
-
 ## level 2
-
 ### level 3
 
 ***
@@ -26,14 +23,14 @@ hidden: false
 ```markdown
 *italic*
 **bold**
-<span font-weight='bold'> weight='bold' </span>
+<b> weight='bold' </b>
 <U> underline </U>
 <s> strike </s>
 ```
 
 - *italic*
 - **bold**
-- <em> weight='bold' </em>
+- <b> weight='bold' </b>
 - <U> underline </U>
 - <s> strike </s>
 
@@ -46,7 +43,7 @@ hidden: false
 <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 ```
 - <font color='blue'> color='blue' </font>
-- <font style='background-color:white'> background-color='white' </font>
+- <font style='background-color:brown'> background-color='brown' </font>
 - <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
 
 ***
@@ -92,15 +89,13 @@ hidden: false
 ***
 ***
 
-<div>
-inline `code` syntax
-</div>
-inline `code` syntax
+```text
+  ```python
+  print('one')
+  print('two')
+  ```
+```
 
-***
-***
-
-</div>
 ```python
 print('one')
 print('two')
@@ -110,12 +105,11 @@ print('two')
 ***
 
 ```markdown
-[GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
-![GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
+[GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
+![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
 ```
-[GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
-
-![GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
+[GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
+![GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png)
 
 ***
 ***
