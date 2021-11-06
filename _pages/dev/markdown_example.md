@@ -8,26 +8,12 @@ hidden: false
 ---
 
 ```text
-# level 1
-## level 2
-### level 3
-```
-
-# level 1
-## level 2
-### level 3
-
-***
-***
-
-```markdown
 *italic*
 **bold**
 <b> weight='bold' </b>
 <U> underline </U>
 <s> strike </s>
 ```
-
 - *italic*
 - **bold**
 - <b> weight='bold' </b>
@@ -37,7 +23,7 @@ hidden: false
 ***
 ***
 
-```markdown
+```text
 <font color='blue'> color='blue' </font>
 <font style='background-color:gray'> background-color='gray' </font>  
 <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
@@ -49,7 +35,19 @@ hidden: false
 ***
 ***
 
-```markdown
+```text
+# level 1
+## level 2
+### level 3
+```
+# level 1
+## level 2
+### level 3
+
+***
+***
+
+```text
 > level 1
 >> level 2
 >>> level 3
@@ -61,7 +59,7 @@ hidden: false
 ***
 ***
 
-```markdown
+```text
 1. first
 3. second
 5. third
@@ -73,18 +71,26 @@ hidden: false
 ***
 ***
 
-```markdown
+```text
 - AAA
 - BBB
-  - ccc
-  - ddd
-- EEE
+  - [ ] to do
+  - [x] done
+- CCC
 ```
 - AAA
 - BBB
-  - ccc
-  - ddd
-- EEE
+  - [ ] to do
+  - [x] done
+- CCC
+
+***
+***
+
+| left | center | right |
+| :-   | :-:    | -:    |
+| left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
+| ^^ | cell ||
 
 ***
 ***
@@ -97,15 +103,13 @@ print('two')
 ***
 ***
 
-```markdown
+```text
 [GitHub][github_logo]
 ![GitHub][github_logo]
-
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
 ![GitHub][github_logo]
-
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 
 ***
