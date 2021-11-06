@@ -9,7 +9,11 @@ hidden: false
 ---
 
 <br>
-<font size="5" font-weight="bold"> dev </font>
+<font size="5" font-weight="bold"> 
+  <div style="font-weight:bold;">
+    dev
+  </div>
+</font>
 <br>
 
 <font size="2">
