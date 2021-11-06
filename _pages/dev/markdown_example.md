@@ -7,6 +7,19 @@ published: true
 hidden: false
 ---
 
+<br>
+
+| format | syntax | output |
+| :-     | :-     | :-     |
+| italic | `*italic*` | *italic* |
+|        | `<i> italic </i>` | <i> italic </i> |
+|        | `<font style=italic> italic </font>` | <font style=italic> italic </font> |
+| bold | `**bold**` | **bold** |
+|      | `<b> bold </b>` | <b> bold </b> |
+|      | <font style=bold> bold </font> | <font style=bold> bold </font> |
+| underline | <u> underline </u> | <u> underline </u> |
+| strike | <s> strike </s> | <s> strike </s> |
+
 ```text
 *italic*
 <i> italic </i>
