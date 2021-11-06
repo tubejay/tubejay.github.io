@@ -90,7 +90,13 @@ hidden: false
 | left | center | right |
 | :-   | :-:    | -:    |
 | left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
-| ^^ | cell ||
+
+***
+
+```text
+inline `code` syntax
+```
+inline `code` syntax
 
 ***
 ***
@@ -106,12 +112,40 @@ print('two')
 ```text
 [GitHub][github_logo]
 ![GitHub][github_logo]
+
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
 ![GitHub][github_logo]
+
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 
 ***
 ***
 
+| syntax | symbol |
+| :- | :-: |
+| `:red_square:` | 🟥 |
+| `:orange_square:` | 🟧 |
+| `:yellow_square:` | 🟨 |
+| `:green_square:` | 🟩 |
+| `:blue_square:` | 🟦 |
+| `:purple_square:` | 🟪 |
+| `:brown_square:` | 🟫 |
+| `:white_large_square:` | ⬜ |
+| `:black_large_square:` | ⬛ |
+
+***
+***
+
+| syntax | symbol |
+| :- | :-: |
+| `:red_circle:` | 🔴 |
+| `:orange_circle:` | 🟠 |
+| `:yellow_circle:` | 🟡 |
+| `:green_circle:` | 🟢 |
+| `:large_blue_circle:` | 🔵 |
+| `:purple_circle:` | 🟣 |
+| `:brown_circle:` | 🟤 |
+| `:white_circle:` | ⚪ |
+| `:black_circle:` | ⚫ |
