@@ -22,13 +22,13 @@ hidden: false
 ```markdown
 *italic*
 **bold**
-<font font-weight='bold'> weight='bold' </font>
+<span font-weight='bold'> weight='bold' </span>
 <U> underline </U>
 <s> strike </s>
 ```
 *italic*  
 **bold**  
-<font font-weight='bold'> weight='bold' </font>  
+<span font-weight='bold'> weight='bold' </span>  
 <U> underline </U>  
 <s> strike </s>  
 
@@ -36,10 +36,10 @@ hidden: false
 
 ```markdown
 <font color='blue'> color='blue' </font>
-<font background-color='white'> background-color='white' </font>
+<span background-color='white'> background-color='white' </span>
 ```
 <font color='blue'> color='blue' </font>  
-<font background-color='white'> background-color='white' </font>  
+<span background-color='white'> background-color='white' </span>  
 
 ***
 
