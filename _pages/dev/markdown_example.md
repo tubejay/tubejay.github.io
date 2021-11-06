@@ -74,12 +74,14 @@ hidden: false
 ```text
 - AAA
 - BBB
+  - bbb
   - [ ] to do
   - [x] done
 - CCC
 ```
 - AAA
 - BBB
+  - bbb
   - [ ] to do
   - [x] done
 - CCC
@@ -90,11 +92,13 @@ hidden: false
 ```text
 | left | center | right |
 | :-   | :-:    | -:    |
+| text | text   | text  |
 | left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
 ```
 
 | left | center | right |
 | :-   | :-:    | -:    |
+| text | text   | text  |
 | left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
 
 ***
@@ -122,7 +126,7 @@ print('two')
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
-![GitHub][github_logo]
+![GitHub][github_logo]{: width="100"}
 
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 
@@ -131,8 +135,8 @@ print('two')
 
 | syntax | symbol |
 | :- | :-: |
-| `:red_square:` | 🟥 |
-| `:orange_square:` | 🟧 |
+| `:red_square:`{:.language-yaml .highlight} | 🟥 |
+| `:orange_square:`{:.language-yaml .highlight} | 🟧 |
 | `:yellow_square:` | 🟨 |
 | `:green_square:` | 🟩 |
 | `:blue_square:` | 🟦 |
