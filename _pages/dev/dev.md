@@ -12,35 +12,39 @@ hidden: false
 <font size="5"><span style="font-weight:bold;"> dev </span></font>
 <br>
 
-<font size="2"> vs code </font>
+<font size="2">
+
+vs code
 
 - [documentation](https://code.visualstudio.com/docs){:target="_blank"}
 - [keyboard shortcuts - windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
 - [web](https://code.visualstudio.com/docs/editor/vscode-web){:target="_blank"}
 <br>
 
-<font size="2"> markdown </font>
+markdown
 
 - syntax
 - [vs code](https://code.visualstudio.com/docs/languages/markdown){:target="_blank"}
 - [marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode){:target="_blank"}
 <br>
 
-<font size="2"> web publishing </font>
+web publishing
 
 - [ofcourse](https://ofcourse.kr/){:target="_blank"}
 - [codepen](https://codepen.io/pen/){:target="_blank"}
 <br>
 
-<font size="2"> font </font>
+font
 
 - cascadia code
 - ibm plex
 <br>
 
-<font size="2"> share code </font>
+share code
 
 - [color scripter](https://colorscripter.com/){:target="_blank"}
 - [github gist](https://gist.github.com/){:target="_blank"}
 - [carbon](https://carbon.now.sh/){:target="_blank"}
 <br>
+
+</font>
