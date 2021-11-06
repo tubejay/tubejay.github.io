@@ -96,7 +96,7 @@ hidden: false
 ```text
 inline `code` syntax
 ```
-inline `code` syntax
+inline `code`{:.markdown} syntax
 
 ***
 ***
