@@ -9,7 +9,7 @@ hidden: false
 ---
 
 <br>
-<font size="4"><span style="font-weight:bold;"> investment </span></font>
+<span style="font-weight:bold;"> investment </span>
 <br>
 
 website
