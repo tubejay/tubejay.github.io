@@ -96,7 +96,7 @@ hidden: false
 ```text
 inline code `SELECT * FROM table` shown
 ```
-inline code `SELECT * FROM table`{:.language-yaml} shown
+inline code `SELECT * FROM table`{:.language-yaml .highlight} shown
 
 ***
 ***
