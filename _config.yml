@@ -203,15 +203,15 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
+    disable: false
+    default_lang: text
+    guess_lang: true
     block:
       line_numbers: true
-      guess_lang: true
-      disable: false
     span:
       line_numbers: false
-      guess_lang: true
-      disable: false
 
 
 # Sass/SCSS
