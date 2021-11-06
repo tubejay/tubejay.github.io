@@ -7,12 +7,11 @@ published: true
 hidden: false
 ---
 
-<br>
-```markdown
+<div>
 # level 1
 ## level 2
 ### level 3
-```
+</div>
 # level 1
 ## level 2
 ### level 3
@@ -26,11 +25,15 @@ hidden: false
 <U> underline </U>
 <s> strike </s>
 ```
-*italic*  
-**bold**  
-<em> weight='bold' </em>  
-<U> underline </U> 
-<s> strike </s>  
+*italic*
+
+**bold**
+
+<em> weight='bold' </em>
+
+<U> underline </U>
+
+<s> strike </s>
 
 ***
 
@@ -38,7 +41,8 @@ hidden: false
 <font color='blue'> color='blue' </font>
 <font style='background-color:white'> background-color='white' </font>  
 ```
-<font color='blue'> color='blue' </font>  
+<font color='blue'> color='blue' </font>
+
 <font style='background-color:white'> background-color='white' </font>  
 
 ***
@@ -73,13 +77,47 @@ hidden: false
 ***
 
 ```markdown
-```python
-print('one')
-print('two')
+- AAA
+- BBB
+  - ccc
+  - ddd
+- EEE
 ```
-```
-```python
-print('one')
-print('two')
-```
+- AAA
+- BBB
+  - ccc
+  - ddd
+- EEE
+
 ***
+
+```markdown
+inline `code` syntax
+```
+inline `code` syntax
+
+***
+
+<div>
+```python
+print('one')
+print('two')
+```
+</div>
+```python
+print('one')
+print('two')
+```
+
+***
+
+```markdown
+[GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
+![GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
+```
+[GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
+
+![GitHub](https://en.m.wikipedia.org/wiki/File:GitHub_logo_2013.svg)
+
+***
+
