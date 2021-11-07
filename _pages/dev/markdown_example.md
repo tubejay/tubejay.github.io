@@ -168,10 +168,10 @@ inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 </font>
 
 ```text
-```python
+`` ```python
 print('one')
 print('two')
-\```
+``` ``
 ```
 ```python
 print('one')
@@ -225,11 +225,11 @@ print('two')
 
 ```text
 [GitHub][github_logo]
-![GitHub][github_logo]{:width=50}
+![GitHub][github_logo]{:width="20%"}
 
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
-![GitHub][github_logo]{:width=50}
+![GitHub][github_logo]{:width="20%"}
 
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
