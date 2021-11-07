@@ -27,7 +27,7 @@ hidden: false
 | text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
 |      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
 | background | CSS | `<font style="background-color:purple"> purple </font>`{:.language-yaml .highlight} | <font style="background-color:purple"> purple </font> |
-| text+background | CSS | `<font style="color:black; background:white;"> text+background </font>`{:.language-yaml .highlight} | <font style="color:black; background:white;"> text+background </font> |
+| text+background | CSS | `<font style="color:black; background:white;"> black+white </font>`{:.language-yaml .highlight} | <font style="color:black; background:white;"> black+white </font> |
 
 ### line
 
