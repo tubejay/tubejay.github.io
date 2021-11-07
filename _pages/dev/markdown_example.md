@@ -7,11 +7,9 @@ published: true
 hidden: false
 ---
 
-<br>
+# text
 
-<font size="5">
-  <b> text : style </b>
-</font>
+## style
 
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
@@ -22,12 +20,7 @@ hidden: false
 |      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
 |      | CSS      | `<font style="font-weight:bold"> bold </font>`{:.language-yaml .highlight} | <font style="font-weight:bold"> bold </font> |
   
-***
-***
-
-<font size="5">
-  <b> text : line </b>
-</font>
+## line
 
 | line | language | syntax | output |
 | :-   | :-       | :-     | :-     |
@@ -38,12 +31,7 @@ hidden: false
 | overline | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
 | dotted | CSS | `<font style="text-decoration:underline dotted"> dotted </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dotted"> dotted </font> |
 
-***
-***
-
-<font size="5">
-  <b> text : color </b>
-</font>
+## color
 
 | color | language | syntax | output |
 | :-    | :-       | :-     | :-     |
@@ -51,12 +39,9 @@ hidden: false
 |      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
 | background | CSS | `<font style="background-color:darkgray"> darkgray </font>`{:.language-yaml .highlight} | <font style="background-color:darkgray"> darkgray </font> |
 
-***
-***
+# structure
 
-<font size="5">
-  <b> structure : heading </b>
-</font>
+## heading
 
 ```text
 # level 1
@@ -64,8 +49,7 @@ hidden: false
 ### level 3
 ```
 
-***
-***
+## blockquote
 
 <font size="5">
   <b> structure : blockquote </b>
@@ -80,12 +64,7 @@ hidden: false
 >> level 2
 >>> level 3
 
-***
-***
-
-<font size="5">
-  <b> structure : list </b>
-</font>
+## list
 
 ```text
 - unordered
@@ -128,12 +107,7 @@ hidden: false
   - [ ] unchecked
   - [x] checked
 
-***
-***
-
-<font size="5">
-  <b> structure : table </b>
-</font>
+## table
 
 ```text
 | left              | center               | right             |
@@ -149,23 +123,16 @@ hidden: false
 | left_left_left    | center_center_center | right_right_right |
 | first <br> second |                      |                   |
 
-***
+# code
 
-<font size="5">
-  <b> code : inline </b>
-</font>
+## inline
 
 ```text
 inline code `SELECT * FROM t` shown
 ```
 inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 
-***
-***
-
-<font size="5">
-  <b> code : block </b>
-</font>
+## block
 
 ````
 ```python
@@ -179,50 +146,23 @@ print('one')
 print('two')
 ```
 
-***
-***
+# insert
 
-<font size="5">
-  <b> emoji : square </b>
-</font>
+## emoji
 
-| syntax | symbol |
-| :- | :-: |
-| `:red_square:`{:.language-yaml .highlight} | 🟥 |
-| `:orange_square:`{:.language-yaml .highlight} | 🟧 |
-| `:yellow_square:`{:.language-yaml .highlight} | 🟨 |
-| `:green_square:`{:.language-yaml .highlight} | 🟩 |
-| `:blue_square:`{:.language-yaml .highlight} | 🟦 |
-| `:purple_square:`{:.language-yaml .highlight} | 🟪 |
-| `:brown_square:`{:.language-yaml .highlight} | 🟫 |
-| `:white_large_square:`{:.language-yaml .highlight} | ⬜ |
-| `:black_large_square:`{:.language-yaml .highlight} | ⬛ |
+| color  | square | circle |
+| :-     | :-     | :-     |
+| red    | 🟥 `:red_square:` | 🔴 `:red_circle:` | 
+| orange | 🟧 `:orange_square:` | 🟠 `:orange_circle:` | 
+| yellow | 🟨 `:yellow_square:` | 🟡 `:yellow_circle:` | 
+| green  | 🟩 `:green_square:` | 🟢 `:green_circle:` | 
+| blue   | 🟦 `:blue_square:` | 🔵 `:large_blue_circle:` | 
+| purple | 🟪 `:purple_square:` | 🟣 `:purple_circle:` | 
+| brown  | 🟫 `:brown_square:` | 🟤 `:brown_circle:` |
+| white  | ⬜ `:white_large_square:` | ⚪ `:white_circle:` | 
+| black  | ⬛ `:black_large_square:` | ⚫ `:black_circle:` | 
 
-***
-***
-
-<font size="5">
-  <b> emoji : circle </b>
-</font>
-
-| syntax | symbol |
-| :- | :-: |
-| `:red_circle:`{:.language-yaml .highlight} | 🔴 |
-| `:orange_circle:`{:.language-yaml .highlight} | 🟠 |
-| `:yellow_circle:`{:.language-yaml .highlight} | 🟡 |
-| `:green_circle:`{:.language-yaml .highlight} | 🟢 |
-| `:large_blue_circle:`{:.language-yaml .highlight} | 🔵 |
-| `:purple_circle:`{:.language-yaml .highlight} | 🟣 |
-| `:brown_circle:`{:.language-yaml .highlight} | 🟤 |
-| `:white_circle:`{:.language-yaml .highlight} | ⚪ |
-| `:black_circle:`{:.language-yaml .highlight} | ⚫ |
-
-***
-***
-
-<font size="5">
-  <b> image </b>
-</font>
+## image
 
 ```text
 [GitHub][github_mark]
