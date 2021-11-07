@@ -10,7 +10,7 @@ hidden: false
 <br>
 
 <font size="5">
-  <b> style </b>
+  <b> font : style </b>
 </font>
 <br>
 
@@ -26,8 +26,13 @@ hidden: false
 ***
 ***
 
-| style | language | syntax | output |
-| :-    | :-       | :-     | :-     |
+<font size="5">
+  <b> font : line </b>
+</font>
+<br>
+
+| line | language | syntax | output |
+| :-   | :-       | :-     | :-     |
 | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
 |           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
 | strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
@@ -36,6 +41,16 @@ hidden: false
 
 ***
 ***
+
+<font size="5">
+  <b> font : color </b>
+</font>
+<br>
+
+| color | language | syntax | output |
+| :-    | :-       | :-     | :-     |
+| text | HTML | `<font color="darkblue"> darkblue </font>` | <font color="darkblue"> darkblue </font> |
+|      | CSS  | `<font style="color:darkblue"> darkblue </font>` | <font style="color:darkblue"> darkblue </font> |
 
 ```text
 <font color='blue'> color='blue' </font>
