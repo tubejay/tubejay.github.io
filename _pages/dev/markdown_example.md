@@ -36,6 +36,7 @@ hidden: false
 | strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
 |        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
 | overline | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
+| dotted | CSS | `<font style="text-decoration:underline dotted"> dotted </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dotted"> dotted </font> |
 
 ***
 ***
@@ -48,7 +49,7 @@ hidden: false
 | :-    | :-       | :-     | :-     |
 | text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
 |      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
-| background | HTML | `<font bgcolor="gray"> gray </font>`{:.language-yaml .highlight} | <font bgcolor="gray"> gray </font> |
+| background | CSS | `<font style="background-color:gray"> gray </font>`{:.language-yaml .highlight} | <font style="background-color:gray"> gray </font> |
 
 ```text
 <font color='blue'> color='blue' </font>
