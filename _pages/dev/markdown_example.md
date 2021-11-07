@@ -9,6 +9,8 @@ hidden: false
 
 <br>
 
+<font style="size:5; font-weight:bold;"> style </font>
+
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
 | italic | Markdown | `*italic*`{:.language-yaml .highlight} | *italic* |
