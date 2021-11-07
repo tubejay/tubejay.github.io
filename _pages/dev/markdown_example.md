@@ -27,7 +27,7 @@ hidden: false
 |           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
 | strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
 |        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
-| overline | CSS | `<font style="text-decoration:overline"> overline </font>` | <font style="text-decoration:overline"> overline </font> |
+| overline | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
 
 ***
 ***
