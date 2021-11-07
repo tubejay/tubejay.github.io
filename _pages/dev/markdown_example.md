@@ -17,10 +17,17 @@ hidden: false
 | bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
 |      | CSS      | `<font style="font-weight:bold"> bold </font>`{:.language-yaml .highlight} | <font style="font-weight:bold"> bold </font> |
+
+***
+***
+
+| style | language | syntax | output |
+| :-    | :-       | :-     | :-     |
 | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
 |           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
 | strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
 |        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
+| overline | CSS | `<font style="text-decoration:overline"> overline </font>` | <font style="text-decoration:overline"> overline </font> |
 
 ***
 ***
