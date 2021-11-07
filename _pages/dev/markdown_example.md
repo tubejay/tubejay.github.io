@@ -225,11 +225,11 @@ print('two')
 
 ```text
 [GitHub][github_logo]
-![GitHub][github_logo]{:width="20%"}
+![GitHub][github_logo]{:width="50%"}
 
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
-![GitHub][github_logo]{:width="20%"}
+![GitHub][github_logo]{:width="50%"}
 
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
