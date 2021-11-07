@@ -9,9 +9,9 @@ hidden: false
 
 <br>
 
-<font style="size:5; font-weight:bold;"> style </font>
-
-style
+<font size="5">
+  <b> style </b>
+</font>
 
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
