@@ -27,7 +27,7 @@ hidden: false
 | text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
 |      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
 | background | CSS | `<font style="background-color:purple"> purple </font>`{:.language-yaml .highlight} | <font style="background-color:purple"> purple </font> |
-| text+background | CSS | `<font style="color:black; background:white;"> text+background </font>` | <font style="color:black; background:white;"> text+background </font> |
+| text+background | CSS | `<font style="color:black; background:white;"> text+background </font>`{:.language-yaml .highlight} | <font style="color:black; background:white;"> text+background </font> |
 
 ### line
 
@@ -35,9 +35,9 @@ hidden: false
 | :-       | :-   | :-       | :-     | :-     |
 | line | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
 |      |           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
-|      | strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
-|      |        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
-|      | overline | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
+|      | strike    | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
+|      |           | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
+|      | overline  | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
 | style | solid  | CSS | `<font style="text-decoration:underline solid"> solid </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline solid"> solid </font> |
 |       | double | CSS | `<font style="text-decoration:underline double"> double </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline double"> double </font> |
 |       | dotted | CSS | `<font style="text-decoration:underline dotted"> dotted </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dotted"> dotted </font> |
@@ -149,15 +149,15 @@ print('two')
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:` | 🔴 `:red_circle:` | 
-| orange | 🟧 `:orange_square:` | 🟠 `:orange_circle:` | 
-| yellow | 🟨 `:yellow_square:` | 🟡 `:yellow_circle:` | 
-| green  | 🟩 `:green_square:` | 🟢 `:green_circle:` | 
-| blue   | 🟦 `:blue_square:` | 🔵 `:large_blue_circle:` | 
-| purple | 🟪 `:purple_square:` | 🟣 `:purple_circle:` | 
-| brown  | 🟫 `:brown_square:` | 🟤 `:brown_circle:` |
-| white  | ⬜ `:white_large_square:` | ⚪ `:white_circle:` | 
-| black  | ⬛ `:black_large_square:` | ⚫ `:black_circle:` | 
+| red    | 🟥 `:red_square:`{:.language-yaml .highlight}         | 🔴 `:red_circle:`{:.language-yaml .highlight}        |
+| orange | 🟧 `:orange_square:`{:.language-yaml .highlight}      | 🟠 `:orange_circle:`{:.language-yaml .highlight}     |
+| yellow | 🟨 `:yellow_square:`{:.language-yaml .highlight}      | 🟡 `:yellow_circle:`{:.language-yaml .highlight}     |
+| green  | 🟩 `:green_square:`{:.language-yaml .highlight}       | 🟢 `:green_circle:`{:.language-yaml .highlight}      |
+| blue   | 🟦 `:blue_square:`{:.language-yaml .highlight}        | 🔵 `:large_blue_circle:`{:.language-yaml .highlight} |
+| purple | 🟪 `:purple_square:`{:.language-yaml .highlight}      | 🟣 `:purple_circle:`{:.language-yaml .highlight}     |
+| brown  | 🟫 `:brown_square:`{:.language-yaml .highlight}       | 🟤 `:brown_circle:`{:.language-yaml .highlight}      |
+| white  | ⬜ `:white_large_square:`{:.language-yaml .highlight} | ⚪ `:white_circle:`{:.language-yaml .highlight}      |
+| black  | ⬛ `:black_large_square:`{:.language-yaml .highlight} | ⚫ `:black_circle:`{:.language-yaml .highlight}      |
 
 ### image
 
