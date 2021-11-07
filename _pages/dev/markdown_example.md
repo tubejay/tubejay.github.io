@@ -63,9 +63,6 @@ hidden: false
 ## level 2
 ### level 3
 ```
-# level 1
-## level 2
-### level 3
 
 ***
 ***
@@ -83,8 +80,6 @@ hidden: false
 >> level 2
 >>> level 3
 
-inline > quote test
-
 ***
 ***
 
@@ -93,18 +88,45 @@ inline > quote test
 </font>
 
 ```text
-
-```
-- AAA
-  - aaa
-    - aaaaaa
-- BBB
+- unordered
+  - AAA
+    - aaa
+      - zzz
+      - yyy
+    - bbb
+    - ccc
+  - BBB
+  - CCC
+- ordered
   1. first
+    11. one
+    13. two
+    15. three
   3. second
   5. third
-- CCC
-  - [ ] to do
-  - [x] done
+- checkbox
+  - [ ] unchecked
+  - [x] checked
+```
+- unordered
+  - AAA
+    - aaa
+      - zzz
+      - yyy
+    - bbb
+    - ccc
+  - BBB
+  - CCC
+- ordered
+  1. first
+    11. one
+    13. two
+    15. three
+  3. second
+  5. third
+- checkbox
+  - [ ] unchecked
+  - [x] checked
 
 ***
 ***
@@ -117,13 +139,14 @@ inline > quote test
 | left | center | right |
 | :-   | :-:    | -:    |
 | text | text   | text  |
-| left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
+| left_left_left | center_center_center | right_right_right |
+| - first <br> - second |||
 ```
-
 | left | center | right |
 | :-   | :-:    | -:    |
 | text | text   | text  |
-| left<br>left_left_left | center<br>center_center_center | right<br>right_right_right |
+| left_left_left | center_center_center | right_right_right |
+| - first <br> - second |||
 
 ***
 
@@ -144,10 +167,10 @@ inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 </font>
 
 ```text
-\```python
-\print('one')
-\print('two')
-\```
+\`\`\`python
+print('one')
+print('two')
+\`\`\`
 ```
 ```python
 print('one')
@@ -202,8 +225,10 @@ print('two')
 ```text
 [GitHub][github_logo]
 ![GitHub][github_logo]{width=200}
+
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
 ```
 [GitHub][github_logo]
 ![GitHub][github_logo]{width=200}
+
 [github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
