@@ -10,7 +10,7 @@ hidden: false
 <br>
 
 <font size="5">
-  <b> font : style </b>
+  <b> text : style </b>
 </font>
 
 | style | language | syntax | output |
@@ -26,7 +26,7 @@ hidden: false
 ***
 
 <font size="5">
-  <b> font : line </b>
+  <b> text : line </b>
 </font>
 
 | line | language | syntax | output |
@@ -42,7 +42,7 @@ hidden: false
 ***
 
 <font size="5">
-  <b> font : color </b>
+  <b> text : color </b>
 </font>
 
 | color | language | syntax | output |
@@ -83,59 +83,28 @@ hidden: false
 >> level 2
 >>> level 3
 
-***
-***
-
-<font size="5">
-  <b> structure : ordered list </b>
-</font>
-
-```text
-1. first
-3. second
-  11. one
-  13. two
-  15. three
-5. third
-```
-1. first
-3. second
-  11. one
-  13. two
-  15. three
-5. third
+inline > quote test
 
 ***
 ***
 
 <font size="5">
-  <b> structure : unordered list </b>
+  <b> structure : list </b>
 </font>
 
 ```text
-- AAA
-  - aaa
-    - aaaaa
-- BBB
-  1. one
-  3. two
-  5. three
-- CCC
-  - [ ] to do
-  - [x] done
-- DDD
+
 ```
 - AAA
   - aaa
-    - aaaaa
+    - aaaaaa
 - BBB
-  1. one
-  3. two
-  5. three
+  1. first
+  3. second
+  5. third
 - CCC
   - [ ] to do
   - [x] done
-- DDD
 
 ***
 ***
@@ -158,6 +127,10 @@ hidden: false
 
 ***
 
+<font size="5">
+  <b> code : inline </b>
+</font>
+
 ```text
 inline code `SELECT * FROM t` shown
 ```
@@ -166,6 +139,16 @@ inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 ***
 ***
 
+<font size="5">
+  <b> code : block </b>
+</font>
+
+```text
+\```python
+\print('one')
+\print('two')
+\```
+```
 ```python
 print('one')
 print('two')
@@ -174,17 +157,9 @@ print('two')
 ***
 ***
 
-```text
-[GitHub][github_logo]
-![GitHub][github_logo]{width=200}
-[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
-```
-[GitHub][github_logo]
-![GitHub][github_logo]{width=200}
-[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
-
-***
-***
+<font size="5">
+  <b> emoji : square </b>
+</font>
 
 | syntax | symbol |
 | :- | :-: |
@@ -201,6 +176,10 @@ print('two')
 ***
 ***
 
+<font size="5">
+  <b> emoji : circle </b>
+</font>
+
 | syntax | symbol |
 | :- | :-: |
 | `:red_circle:`{:.language-yaml .highlight} | 🔴 |
@@ -212,3 +191,19 @@ print('two')
 | `:brown_circle:`{:.language-yaml .highlight} | 🟤 |
 | `:white_circle:`{:.language-yaml .highlight} | ⚪ |
 | `:black_circle:`{:.language-yaml .highlight} | ⚫ |
+
+***
+***
+
+<font size="5">
+  <b> image </b>
+</font>
+
+```text
+[GitHub][github_logo]
+![GitHub][github_logo]{width=200}
+[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
+```
+[GitHub][github_logo]
+![GitHub][github_logo]{width=200}
+[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
