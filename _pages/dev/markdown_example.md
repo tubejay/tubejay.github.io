@@ -12,6 +12,8 @@ hidden: false
 <font size="5">
   <b> style </b>
 </font>
+style
+<br>
 
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
