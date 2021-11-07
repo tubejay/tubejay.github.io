@@ -159,7 +159,7 @@ print('two')
 | white  | ⬜ `:white_large_square:`{:.language-yaml .highlight} | ⚪ `:white_circle:`{:.language-yaml .highlight}      |
 | black  | ⬛ `:black_large_square:`{:.language-yaml .highlight} | ⚫ `:black_circle:`{:.language-yaml .highlight}      |
 
-### image
+### link/image
 
 ```text
 [GitHub][github_mark]
