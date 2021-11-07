@@ -168,10 +168,10 @@ inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 </font>
 
 ```text
-  ```python
-  print('one')
-  print('two')
-  ```
+```python
+print('one')
+print('two')
+\```
 ```
 ```python
 print('one')
