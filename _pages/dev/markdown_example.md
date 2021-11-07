@@ -226,14 +226,14 @@ print('two')
 </font>
 
 ```text
-[GitHub][github_logo]
+[GitHub][github_mark]
 
-![GitHub][github_logo]{:width="50%"}
+![GitHub][github_mark]{:width="50%"}
 
-[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
+[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 ```
-[GitHub][github_logo]
+[GitHub][github_mark]
 
-![GitHub][github_logo]{:width="50%"}
+![GitHub][github_mark]{:width="50%"}
 
-[github_logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/1200px-GitHub_logo_2013.svg.png
+[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
