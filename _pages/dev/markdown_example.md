@@ -7,9 +7,9 @@ published: true
 hidden: false
 ---
 
-# text
+## text
 
-## style
+### style
 
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
@@ -19,29 +19,36 @@ hidden: false
 | bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
 |      | CSS      | `<font style="font-weight:bold"> bold </font>`{:.language-yaml .highlight} | <font style="font-weight:bold"> bold </font> |
-  
-## line
 
-| line | language | syntax | output |
-| :-   | :-       | :-     | :-     |
-| underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
-|           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
-| strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
-|        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
-| overline | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
-| dotted | CSS | `<font style="text-decoration:underline dotted"> dotted </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dotted"> dotted </font> |
-
-## color
+### color
 
 | color | language | syntax | output |
 | :-    | :-       | :-     | :-     |
 | text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
 |      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
-| background | CSS | `<font style="background-color:darkgray"> darkgray </font>`{:.language-yaml .highlight} | <font style="background-color:darkgray"> darkgray </font> |
+| background | CSS | `<font style="background-color:purple"> purple </font>`{:.language-yaml .highlight} | <font style="background-color:purple"> purple </font> |
+| text+background | CSS | `<font style="color:black; background:white;"> text+background </font>` | <font style="color:black; background:white;"> text+background </font> |
 
-# structure
+### line
 
-## heading
+| property | value | language | syntax | output |
+| :-       | :-   | :-       | :-     | :-     |
+| line | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
+|      |           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
+|      | strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
+|      |        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
+|      | overline | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
+| style | solid  | CSS | `<font style="text-decoration:underline solid"> solid </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline solid"> solid </font> |
+|       | double | CSS | `<font style="text-decoration:underline double"> double </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline double"> double </font> |
+|       | dotted | CSS | `<font style="text-decoration:underline dotted"> dotted </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dotted"> dotted </font> |
+|       | dashed | CSS | `<font style="text-decoration:underline dashed"> dashed </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dashed"> dashed </font> |
+|       | wavy   | CSS | `<font style="text-decoration:underline wavy"> wavy </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline wavy"> wavy </font> |
+| color | currentColor | CSS | `<font style="text-decoration:underline currentColor"> currentColor </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline currentColor"> currentColor </font> |
+|       | yellow       | CSS | `<font style="text-decoration:underline yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline yellow"> yellow </font> |
+
+## structure
+
+### heading
 
 ```text
 # level 1
@@ -49,11 +56,7 @@ hidden: false
 ### level 3
 ```
 
-## blockquote
-
-<font size="5">
-  <b> structure : blockquote </b>
-</font>
+### blockquote
 
 ```text
 > level 1
@@ -64,7 +67,7 @@ hidden: false
 >> level 2
 >>> level 3
 
-## list
+### list
 
 ```text
 - unordered
@@ -78,9 +81,6 @@ hidden: false
   - CCC
 - ordered
   1. first
-    11. one
-    13. two
-    15. three
   3. second
   5. third
 - checkbox
@@ -98,16 +98,13 @@ hidden: false
   - CCC
 - ordered
   1. first
-    11. one
-    13. two
-    15. three
   3. second
   5. third
 - checkbox
   - [ ] unchecked
   - [x] checked
 
-## table
+### table
 
 ```text
 | left              | center               | right             |
@@ -123,16 +120,16 @@ hidden: false
 | left_left_left    | center_center_center | right_right_right |
 | first <br> second |                      |                   |
 
-# code
+## code
 
-## inline
+### inline
 
 ```text
 inline code `SELECT * FROM t` shown
 ```
 inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
 
-## block
+### block
 
 ````
 ```python
@@ -146,9 +143,9 @@ print('one')
 print('two')
 ```
 
-# insert
+## insert
 
-## emoji
+### emoji
 
 | color  | square | circle |
 | :-     | :-     | :-     |
@@ -162,7 +159,7 @@ print('two')
 | white  | ⬜ `:white_large_square:` | ⚪ `:white_circle:` | 
 | black  | ⬛ `:black_large_square:` | ⚫ `:black_circle:` | 
 
-## image
+### image
 
 ```text
 [GitHub][github_mark]
