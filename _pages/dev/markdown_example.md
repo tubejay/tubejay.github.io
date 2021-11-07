@@ -12,9 +12,10 @@ hidden: false
 <font size="5">
   <b> style </b>
 </font>
-style
 <br>
 
+<font size="5">
+<div markdown="1">
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
 | italic | Markdown | `*italic*`{:.language-yaml .highlight} | *italic* |
@@ -23,7 +24,9 @@ style
 | bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
 |      | CSS      | `<font style="font-weight:bold"> bold </font>`{:.language-yaml .highlight} | <font style="font-weight:bold"> bold </font> |
-
+</div>
+</font>
+  
 ***
 ***
 
