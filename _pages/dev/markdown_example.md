@@ -12,7 +12,6 @@ hidden: false
 <font size="5">
   <b> font : style </b>
 </font>
-<br>
 
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
@@ -29,7 +28,6 @@ hidden: false
 <font size="5">
   <b> font : line </b>
 </font>
-<br>
 
 | line | language | syntax | output |
 | :-   | :-       | :-     | :-     |
@@ -45,12 +43,12 @@ hidden: false
 <font size="5">
   <b> font : color </b>
 </font>
-<br>
 
 | color | language | syntax | output |
 | :-    | :-       | :-     | :-     |
-| text | HTML | `<font color="darkblue"> darkblue </font>` | <font color="darkblue"> darkblue </font> |
-|      | CSS  | `<font style="color:darkblue"> darkblue </font>` | <font style="color:darkblue"> darkblue </font> |
+| text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
+|      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
+| background | HTML | `<font bgcolor="gray"> gray </font>`{:.language-yaml .highlight} | <font bgcolor="gray"> gray </font> |
 
 ```text
 <font color='blue'> color='blue' </font>
