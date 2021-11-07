@@ -136,17 +136,18 @@ hidden: false
 </font>
 
 ```text
-| left | center | right |
-| :-   | :-:    | -:    |
-| text | text   | text  |
-| left_left_left | center_center_center | right_right_right |
-| - first <br> - second |||
+| left              | center               | right             |
+| :-                | :-:                  | -:                |
+| text              | text                 | text              |
+| left_left_left    | center_center_center | right_right_right |
+| first <br> second |                      |                   |
 ```
-| left | center | right |
-| :-   | :-:    | -:    |
-| text | text   | text  |
-| left_left_left | center_center_center | right_right_right |
-| - first <br> - second |||
+
+| left              | center               | right             |
+| :-                | :-:                  | -:                |
+| text              | text                 | text              |
+| left_left_left    | center_center_center | right_right_right |
+| first <br> second |                      |                   |
 
 ***
 
