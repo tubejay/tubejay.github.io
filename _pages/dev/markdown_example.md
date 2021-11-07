@@ -49,19 +49,14 @@ hidden: false
 | :-    | :-       | :-     | :-     |
 | text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
 |      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
-| background | CSS | `<font style="background-color:gray"> gray </font>`{:.language-yaml .highlight} | <font style="background-color:gray"> gray </font> |
-
-```text
-<font color='blue'> color='blue' </font>
-<font style='background-color:gray'> background-color='gray' </font>  
-<font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
-```
-- <font color='blue'> color='blue' </font>
-- <font style='background-color:gray'> background-color='gray' </font>
-- <font style='color:blue; background-color:white; font-weight:bold'> style='color:blue; background-color:white; font-weight:bold' </font>
+| background | CSS | `<font style="background-color:darkgray"> darkgray </font>`{:.language-yaml .highlight} | <font style="background-color:darkgray"> darkgray </font> |
 
 ***
 ***
+
+<font size="5">
+  <b> structure : heading </b>
+</font>
 
 ```text
 # level 1
@@ -75,6 +70,10 @@ hidden: false
 ***
 ***
 
+<font size="5">
+  <b> structure : blockquote </b>
+</font>
+
 ```text
 > level 1
 >> level 2
@@ -87,35 +86,63 @@ hidden: false
 ***
 ***
 
+<font size="5">
+  <b> structure : ordered list </b>
+</font>
+
 ```text
 1. first
 3. second
+  11. one
+  13. two
+  15. three
 5. third
 ```
 1. first
 3. second
+  11. one
+  13. two
+  15. three
 5. third
 
 ***
 ***
 
+<font size="5">
+  <b> structure : unordered list </b>
+</font>
+
 ```text
 - AAA
   - aaa
+    - aaaaa
 - BBB
+  1. one
+  3. two
+  5. three
+- CCC
   - [ ] to do
   - [x] done
-- CCC
+- DDD
 ```
 - AAA
   - aaa
+    - aaaaa
 - BBB
+  1. one
+  3. two
+  5. three
+- CCC
   - [ ] to do
   - [x] done
-- CCC
+- DDD
 
 ***
 ***
+
+<font size="5">
+  <b> structure : table </b>
+</font>
 
 ```text
 | left | center | right |
