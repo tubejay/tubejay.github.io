@@ -11,16 +11,16 @@ hidden: false
 
 | style | language | syntax | output |
 | :-    | :-       | :-     | :-     |
-| italic | Markdown | `*italic*` | *italic* |
-|        | HTML     | `<i> italic </i>` | <i> italic </i> |
-|        | CSS      | `<font style="font-style:italic"> italic </font>` | <font style="font-style:italic"> italic </font> |
-| bold | Markdown | `**bold**` | **bold** |
-|      | HTML     | `<b> bold </b>` | <b> bold </b> |
-|      | CSS      | `<font style="font-weight:bold"> bold </font>` | <font style="font-weight:bold"> bold </font> |
-| underline | HTML | `<u> underline </u>` | <u> underline </u> |
-|           | CSS  | `<font style="text-decoration:underline"> underline </font>` | <font style="text-decoration:underline"> underline </font> |
-| strike | HTML | `<s> strike </s>` | <s> strike </s> |
-|        | CSS  | `<font style="text-decoration:line-through"> strike </font>` | <font style="text-decoration:line-through"> strike </font> |
+| italic | Markdown | `*italic*`{:.language-yaml .highlight} | *italic* |
+|        | HTML     | `<i> italic </i>`{:.language-yaml .highlight} | <i> italic </i> |
+|        | CSS      | `<font style="font-style:italic"> italic </font>`{:.language-yaml .highlight} | <font style="font-style:italic"> italic </font> |
+| bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
+|      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
+|      | CSS      | `<font style="font-weight:bold"> bold </font>`{:.language-yaml .highlight} | <font style="font-weight:bold"> bold </font> |
+| underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
+|           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
+| strike | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
+|        | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
 
 ***
 ***
@@ -135,27 +135,27 @@ print('two')
 
 | syntax | symbol |
 | :- | :-: |
-| `:red_square:` | 🟥 |
-| `:orange_square:` | 🟧 |
-| `:yellow_square:` | 🟨 |
-| `:green_square:` | 🟩 |
-| `:blue_square:` | 🟦 |
-| `:purple_square:` | 🟪 |
-| `:brown_square:` | 🟫 |
-| `:white_large_square:` | ⬜ |
-| `:black_large_square:` | ⬛ |
+| `:red_square:`{:.language-yaml .highlight} | 🟥 |
+| `:orange_square:`{:.language-yaml .highlight} | 🟧 |
+| `:yellow_square:`{:.language-yaml .highlight} | 🟨 |
+| `:green_square:`{:.language-yaml .highlight} | 🟩 |
+| `:blue_square:`{:.language-yaml .highlight} | 🟦 |
+| `:purple_square:`{:.language-yaml .highlight} | 🟪 |
+| `:brown_square:`{:.language-yaml .highlight} | 🟫 |
+| `:white_large_square:`{:.language-yaml .highlight} | ⬜ |
+| `:black_large_square:`{:.language-yaml .highlight} | ⬛ |
 
 ***
 ***
 
 | syntax | symbol |
 | :- | :-: |
-| `:red_circle:` | 🔴 |
-| `:orange_circle:` | 🟠 |
-| `:yellow_circle:` | 🟡 |
-| `:green_circle:` | 🟢 |
-| `:large_blue_circle:` | 🔵 |
-| `:purple_circle:` | 🟣 |
-| `:brown_circle:` | 🟤 |
-| `:white_circle:` | ⚪ |
-| `:black_circle:` | ⚫ |
+| `:red_circle:`{:.language-yaml .highlight} | 🔴 |
+| `:orange_circle:`{:.language-yaml .highlight} | 🟠 |
+| `:yellow_circle:`{:.language-yaml .highlight} | 🟡 |
+| `:green_circle:`{:.language-yaml .highlight} | 🟢 |
+| `:large_blue_circle:`{:.language-yaml .highlight} | 🔵 |
+| `:purple_circle:`{:.language-yaml .highlight} | 🟣 |
+| `:brown_circle:`{:.language-yaml .highlight} | 🟤 |
+| `:white_circle:`{:.language-yaml .highlight} | ⚪ |
+| `:black_circle:`{:.language-yaml .highlight} | ⚫ |
