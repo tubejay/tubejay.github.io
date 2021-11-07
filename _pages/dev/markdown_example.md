@@ -167,14 +167,13 @@ inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
   <b> code : block </b>
 </font>
 
-```text
-``
+````
 ```python
 print('one')
 print('two')
 ```
-``
-```
+````
+
 ```python
 print('one')
 print('two')
