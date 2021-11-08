@@ -161,6 +161,7 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
+| 항공/세계 | | JETS | [US Global Investors](https://www.webull.com/quote/nysearca-jets){:target="\_blank"} |
 | 항공/국방 | +3X | DFEN | [Direxion](https://www.webull.com/quote/nysearca-dfen){:target="\_blank"} |
 | 산업     | +3X | DUSL | [Direxion](https://www.webull.com/quote/nysearca-dusl){:target="\_blank"} |
 | 인프라 | | PAVE | [Global X](https://www.webull.com/quote/bats-pave){:target="\_blank"} |
