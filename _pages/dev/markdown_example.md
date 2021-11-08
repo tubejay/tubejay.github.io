@@ -9,16 +9,16 @@ hidden: false
 
 ## text
 
-### style
+### emphasis
 
-| style | language | syntax | output |
-| :-    | :-       | :-     | :-     |
+| emphasis | language | syntax | output |
+| :-       | :-       | :-     | :-     |
 | italic | Markdown | `*italic*`{:.language-yaml .highlight} | *italic* |
 |        | HTML     | `<i> italic </i>`{:.language-yaml .highlight} | <i> italic </i> |
-|        | CSS      | `<div style="font-style:italic"> italic </div>`{:.language-yaml .highlight} | <div style="font-style:italic"> italic </div> |
+|        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-yaml .highlight} | <span style="font-style:italic"> italic </span> |
 | bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
-|      | CSS      | `<div style="font-weight:bold"> bold </div>`{:.language-yaml .highlight} | <div style="font-weight:bold"> bold </div> |
+|      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-yaml .highlight} | <span style="font-weight:bold"> bold </span> |
 
 ### color
 
@@ -32,7 +32,7 @@ hidden: false
 ### line
 
 | property | value | language | syntax | output |
-| :-       | :-   | :-       | :-     | :-     |
+| :-       | :-    | :-       | :-     | :-     |
 | line | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
 |      |           | CSS  | `<div style="text-decoration:underline"> underline </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline"> underline </div> |
 |      | strike    | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
