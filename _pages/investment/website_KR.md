@@ -12,6 +12,9 @@ hidden: false
 | :- | :- | :- |
 | 국내 | 증권플러스 | [증권플러스](https://stockplus.com/m){:target="\_blank"} |
 |     | 알파스퀘어 | [알파스퀘어](https://alphasquare.co.kr/){:target="\_blank"} |
+| 해외 | Webull        | [Webull](https://www.webull.com/){:target="\_blank"} |
+|     | Investing.com | [Investing.com](https://m.investing.com/){:target="\_blank"} |
+|     | TradingView   | [TradingView](https://www.tradingview.com/){:target="\_blank"} |
 
 ***
 ***
