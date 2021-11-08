@@ -118,19 +118,19 @@ hidden: false
 
 ```text
 <details>
-  <summary>fold/unfold</summary>
-  <div markdown="1">
-    - hidden item 1
-    - hidden item 2
-  </div>
+<summary>fold/unfold</summary>
+<div markdown="1">
+- hidden item 1
+- hidden item 2
+</div>
 </details>
 ```
 <details>
-  <summary>fold/unfold</summary>
-  <div markdown="1">
-    - hidden item 1
-    - hidden item 2
-  </div>
+<summary>fold/unfold</summary>
+<div markdown="1">
+- hidden item 1
+- hidden item 2
+</div>
 </details>
 
 ## code
