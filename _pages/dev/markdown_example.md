@@ -114,6 +114,25 @@ hidden: false
 | left_left_left    | center_center_center | right_right_right |
 | first <br> second |                      |                   |
 
+### details
+
+```text
+<details>
+  <summary>fold/unfold</summary>
+  <div markdown="1">
+    - hidden item 1
+    - hidden item 2
+  </div>
+</details>
+```
+<details>
+  <summary>fold/unfold</summary>
+  <div markdown="1">
+    - hidden item 1
+    - hidden item 2
+  </div>
+</details>
+
 ## code
 
 ### inline
