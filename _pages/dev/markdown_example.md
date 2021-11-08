@@ -1,7 +1,7 @@
 ---
 title: "markdown_example"
 layout: single
-toc: false
+toc: true
 permalink: /dev/markdown_example
 published: true
 hidden: false
@@ -15,36 +15,36 @@ hidden: false
 | :-    | :-       | :-     | :-     |
 | italic | Markdown | `*italic*`{:.language-yaml .highlight} | *italic* |
 |        | HTML     | `<i> italic </i>`{:.language-yaml .highlight} | <i> italic </i> |
-|        | CSS      | `<font style="font-style:italic"> italic </font>`{:.language-yaml .highlight} | <font style="font-style:italic"> italic </font> |
+|        | CSS      | `<div style="font-style:italic"> italic </div>`{:.language-yaml .highlight} | <div style="font-style:italic"> italic </div> |
 | bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
-|      | CSS      | `<font style="font-weight:bold"> bold </font>`{:.language-yaml .highlight} | <font style="font-weight:bold"> bold </font> |
+|      | CSS      | `<div style="font-weight:bold"> bold </div>`{:.language-yaml .highlight} | <div style="font-weight:bold"> bold </div> |
 
 ### color
 
 | color | language | syntax | output |
 | :-    | :-       | :-     | :-     |
 | text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
-|      | CSS  | `<font style="color:yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="color:yellow"> yellow </font> |
-| background | CSS | `<font style="background-color:purple"> purple </font>`{:.language-yaml .highlight} | <font style="background-color:purple"> purple </font> |
-| text+background | CSS | `<font style="color:black; background:white;"> black+white </font>`{:.language-yaml .highlight} | <font style="color:black; background:white;"> black+white </font> |
+|      | CSS  | `<div style="color:yellow"> yellow </div>`{:.language-yaml .highlight} | <div style="color:yellow"> yellow </div> |
+| background | CSS | `<div style="background-color:purple"> purple </div>`{:.language-yaml .highlight} | <div style="background-color:purple"> purple </div> |
+| text+background | CSS | `<div style="color:black; background:white;"> black+white </div>`{:.language-yaml .highlight} | <div style="color:black; background:white;"> black+white </div> |
 
 ### line
 
 | property | value | language | syntax | output |
 | :-       | :-   | :-       | :-     | :-     |
 | line | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
-|      |           | CSS  | `<font style="text-decoration:underline"> underline </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline"> underline </font> |
+|      |           | CSS  | `<div style="text-decoration:underline"> underline </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline"> underline </div> |
 |      | strike    | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
-|      |           | CSS  | `<font style="text-decoration:line-through"> strike </font>`{:.language-yaml .highlight} | <font style="text-decoration:line-through"> strike </font> |
-|      | overline  | CSS | `<font style="text-decoration:overline"> overline </font>`{:.language-yaml .highlight} | <font style="text-decoration:overline"> overline </font> |
-| style | solid  | CSS | `<font style="text-decoration:underline solid"> solid </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline solid"> solid </font> |
-|       | double | CSS | `<font style="text-decoration:underline double"> double </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline double"> double </font> |
-|       | dotted | CSS | `<font style="text-decoration:underline dotted"> dotted </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dotted"> dotted </font> |
-|       | dashed | CSS | `<font style="text-decoration:underline dashed"> dashed </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline dashed"> dashed </font> |
-|       | wavy   | CSS | `<font style="text-decoration:underline wavy"> wavy </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline wavy"> wavy </font> |
-| color | currentColor | CSS | `<font style="text-decoration:underline currentColor"> currentColor </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline currentColor"> currentColor </font> |
-|       | yellow       | CSS | `<font style="text-decoration:underline yellow"> yellow </font>`{:.language-yaml .highlight} | <font style="text-decoration:underline yellow"> yellow </font> |
+|      |           | CSS  | `<div style="text-decoration:line-through"> strike </div>`{:.language-yaml .highlight} | <div style="text-decoration:line-through"> strike </div> |
+|      | overline  | CSS | `<div style="text-decoration:overline"> overline </div>`{:.language-yaml .highlight} | <div style="text-decoration:overline"> overline </div> |
+| style | solid  | CSS | `<div style="text-decoration:underline solid"> solid </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline solid"> solid </div> |
+|       | double | CSS | `<div style="text-decoration:underline double"> double </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline double"> double </div> |
+|       | dotted | CSS | `<div style="text-decoration:underline dotted"> dotted </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline dotted"> dotted </div> |
+|       | dashed | CSS | `<div style="text-decoration:underline dashed"> dashed </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline dashed"> dashed </div> |
+|       | wavy   | CSS | `<div style="text-decoration:underline wavy"> wavy </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline wavy"> wavy </div> |
+| color | currentColor | CSS | `<div style="text-decoration:underline currentColor"> currentColor </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline currentColor"> currentColor </div> |
+|       | yellow       | CSS | `<div style="text-decoration:underline yellow"> yellow </div>`{:.language-yaml .highlight} | <div style="text-decoration:underline yellow"> yellow </div> |
 
 ## structure
 
@@ -74,11 +74,8 @@ hidden: false
   - AAA
     - aaa
       - zzz
-      - yyy
     - bbb
-    - ccc
   - BBB
-  - CCC
 - ordered
   1. first
   3. second
@@ -91,11 +88,8 @@ hidden: false
   - AAA
     - aaa
       - zzz
-      - yyy
     - bbb
-    - ccc
   - BBB
-  - CCC
 - ordered
   1. first
   3. second
