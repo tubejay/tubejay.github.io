@@ -8,8 +8,8 @@ hidden: false
 
 ### 차트
 
-| 분류 | 사이트 | 링크 |
-| :- | :- | :- |
+| 분류 | 링크 |
+| :- | :- |
 | Webull       | [quote](https://www.webull.com/quote){:target="\_blank"} |
 |              | [app](https://app.webull.com/stocks){:target="\_blank"} |
 | Investing.com | [Indices](https://m.investing.com/indices/){:target="\_blank"} |
@@ -18,6 +18,7 @@ hidden: false
 |               | [Stocks](https://m.investing.com/equities/){:target="\_blank"} |
 |               | [Bonds](https://m.investing.com/rates-bonds/){:target="\_blank"} |
 |               | [ETFs](https://m.investing.com/etfs/){:target="\_blank"} |
+| TradingView | [widget](https://www.tradingview.com/widget/){:target="\_blank"} |
 
 ***
 ***
