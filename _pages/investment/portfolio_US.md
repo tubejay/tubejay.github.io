@@ -10,7 +10,7 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 | 위젯 |
 | :-  | :-  | :-     | :-  | :-: |
-| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>{"interval": "30m","width": "100%","isTransparent": true,"height": "100%","symbol": "AMEX:VT","showIntervalTabs": true,"locale": "en","colorTheme": "dark"} |
+| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:VT","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
 | 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EDC","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
 |      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EDZ","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
 | 인도  | +3X | INDL   | [Direxion](https://www.webull.com/quote/nysearca-indl){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:INDL","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
