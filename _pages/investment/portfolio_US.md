@@ -28,30 +28,30 @@ hidden: false
 |        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} |
 
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
     {
-        "symbols": 
-        [
-            {"description": "VT","proName": "AMEX:VT"},
-            {"description": "EDC","proName": "AMEX:EDC"},
-            {"description": "EDZ","proName": "AMEX:EDZ"},
-            {"description": "INDL","proName": "AMEX:INDL"},
-            {"description": "RUSL","proName": "AMEX:RUSL"},
-            {"description": "YINN","proName": "AMEX:YINN"},
-            {"description": "YANG","proName": "AMEX:YANG"},
-            {"description": "KORU","proName": "AMEX:KORU"},
-            {"description": "LBJ","proName": "AMEX:LBJ"},
-            {"description": "MEXX","proName": "AMEX:MEXX"},
-            {"description": "UBR","proName": "AMEX:UBR"},
-            {"description": "BZQ","proName": "AMEX:BZQ"},
-            {"description": "EURL","proName": "AMEX:EURL"},
-            {"description": "EFO","proName": "AMEX:EFO"},
-            {"description": "EFU","proName": "AMEX:EFU"}
-        ],
-        "colorTheme": "dark",
-        "isTransparent": true,
-        "showSymbolLogo": false,
-        "locale": "en"
+    "symbolsGroups": [
+        {
+            "name": "전세계",
+            "symbols": [
+                {"name":"AMEX:VT","displayName":"VT"},
+                {"name":"AMEX:VTI","displayName":"VTI"}
+            ]
+        },
+        {
+            "name": "신흥",
+            "symbols": [
+                {"name":"AMEX:EDC","displayName":"EDC"},
+                {"name":"AMEX:EDZ","displayName":"EDZ"}
+            ]
+        }
+    ],
+    "width": "100%",
+    "height": "100%",
+    "showSymbolLogo": false,
+    "colorTheme": "dark",
+    "isTransparent": true,
+    "locale": "en"
     }
 </script>
 
