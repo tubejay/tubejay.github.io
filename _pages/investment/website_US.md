@@ -6,12 +6,16 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
 ### 차트
 
 | 분류 | 링크 |
 | :- | :- |
-| Webull       | [quote](https://www.webull.com/quote){:target="\_blank"} |
-|              | [app](https://app.webull.com/stocks){:target="\_blank"} |
+| Webull       | [quote](https://www.webull.com/quote) |
+|              | [app](https://app.webull.com/stocks){:target="\_self"} |
 | Investing.com | [Indices](https://m.investing.com/indices/){:target="\_blank"} |
 |               | [Forex](https://m.investing.com/currencies/){:target="\_blank"} |
 |               | [Commidities](https://m.investing.com/commodities/){:target="\_blank"} |
