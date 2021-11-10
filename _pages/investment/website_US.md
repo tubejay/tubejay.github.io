@@ -7,8 +7,10 @@ hidden: false
 ---
 
 <head>
-  <base target="_blank">
+  <base target="_parent">
 </head>
+
+parent
 
 ### 차트
 
