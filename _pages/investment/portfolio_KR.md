@@ -6,6 +6,10 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
 ## 재료
 
 | 유형          | 대상          | 벤치          | 종목         |
