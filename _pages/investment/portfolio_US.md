@@ -39,6 +39,18 @@ hidden: false
 </div>
 
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js"
+          async>
+              {
+                  "symbol": "AMEX:VT",
+                      "width": "100%",
+                          "colorTheme": "dark",
+                              "isTransparent": false,
+                                  "locale": "en"
+              }
+          </script>
+
+
 ## 시장
 
 | 대상 | 유형 | Ticker | 차트 |
