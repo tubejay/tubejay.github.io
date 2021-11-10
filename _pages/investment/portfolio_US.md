@@ -8,26 +8,23 @@ hidden: false
 
 ## 시장
 
-| 대상 | 유형 | Ticker | 차트 | 위젯 |
-| :-  | :-  | :-     | :-  | :-: |
-| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:VT","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EDC","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-|      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EDZ","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 인도  | +3X | INDL   | [Direxion](https://www.webull.com/quote/nysearca-indl){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:INDL","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 러시아 | +2X | RUSL   | [Direxion](https://www.webull.com/quote/nysearca-rusl){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:RUSL","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 중국   | +3X | YINN   | [Direxion](https://www.webull.com/quote/nysearca-yinn){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:YINN","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-|       | -3X | YANG   | [Direxion](https://www.webull.com/quote/nysearca-yang){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:YANG","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 한국   | +3X | KORU   | [Direxion](https://www.webull.com/quote/nysearca-koru){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:KORU","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 라틴   | +3X | LBJ    | [Direxion](https://www.webull.com/quote/nysearca-lbj){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:LBJ","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 멕시코  | +3X | MEXX   | [Direxion](https://www.webull.com/quote/nysearca-mexx){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:MEXX","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 브라질  | +2X | UBR    | [ProShares](https://www.webull.com/quote/nysearca-ubr){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:UBR","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-|        | -2X | BZQ    | [ProShares](https://www.webull.com/quote/nysearca-bzq){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:BZQ","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| 유럽    | +3X | EURL   | [Direxion](https://www.webull.com/quote/nysearca-eurl){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EURL","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-| EAFE   | +2X | EFO    | [ProShares](https://www.webull.com/quote/nysearca-efo){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EFO","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-|        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol": "AMEX:EFU","width": "100%","colorTheme": "dark","isTransparent": true,"locale": "en"}</script> |
-
-
-
+| 대상 | 유형 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} |
+| 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
+|      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} |
+| 인도  | +3X | INDL   | [Direxion](https://www.webull.com/quote/nysearca-indl){:target="\_blank"} |
+| 러시아 | +2X | RUSL   | [Direxion](https://www.webull.com/quote/nysearca-rusl){:target="\_blank"} |
+| 중국   | +3X | YINN   | [Direxion](https://www.webull.com/quote/nysearca-yinn){:target="\_blank"} |
+|       | -3X | YANG   | [Direxion](https://www.webull.com/quote/nysearca-yang){:target="\_blank"} |
+| 한국   | +3X | KORU   | [Direxion](https://www.webull.com/quote/nysearca-koru){:target="\_blank"} |
+| 라틴   | +3X | LBJ    | [Direxion](https://www.webull.com/quote/nysearca-lbj){:target="\_blank"} |
+| 멕시코  | +3X | MEXX   | [Direxion](https://www.webull.com/quote/nysearca-mexx){:target="\_blank"} |
+| 브라질  | +2X | UBR    | [ProShares](https://www.webull.com/quote/nysearca-ubr){:target="\_blank"} |
+|        | -2X | BZQ    | [ProShares](https://www.webull.com/quote/nysearca-bzq){:target="\_blank"} |
+| 유럽    | +3X | EURL   | [Direxion](https://www.webull.com/quote/nysearca-eurl){:target="\_blank"} |
+| EAFE   | +2X | EFO    | [ProShares](https://www.webull.com/quote/nysearca-efo){:target="\_blank"} |
+|        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} |
 
 ## 지수
 
