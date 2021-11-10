@@ -8,6 +8,10 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
 <br>
 <font size="5"> 
   <div style="font-weight:bold;">
