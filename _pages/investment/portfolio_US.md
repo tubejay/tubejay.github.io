@@ -27,6 +27,35 @@ hidden: false
 | EAFE   | +2X | EFO    | [ProShares](https://www.webull.com/quote/nysearca-efo){:target="\_blank"} |
 |        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} |
 
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+    {
+        "symbols": 
+        [
+            {"description": "VT","proName": "AMEX:VT"},
+            {"description": "EDC","proName": "AMEX:EDC"},
+            {"description": "EDZ","proName": "AMEX:EDZ"},
+            {"description": "INDL","proName": "AMEX:INDL"},
+            {"description": "RUSL","proName": "AMEX:RUSL"},
+            {"description": "YINN","proName": "AMEX:YINN"},
+            {"description": "YANG","proName": "AMEX:YANG"},
+            {"description": "KORU","proName": "AMEX:KORU"},
+            {"description": "LBJ","proName": "AMEX:LBJ"},
+            {"description": "MEXX","proName": "AMEX:MEXX"},
+            {"description": "UBR","proName": "AMEX:UBR"},
+            {"description": "BZQ","proName": "AMEX:BZQ"},
+            {"description": "EURL","proName": "AMEX:EURL"},
+            {"description": "EFO","proName": "AMEX:EFO"},
+            {"description": "EFU","proName": "AMEX:EFU"}
+        ],
+        "colorTheme": "dark",
+        "isTransparent": true,
+        "showSymbolLogo": false,
+        "locale": "en"
+    }
+</script>
+
+
 ## 지수
 
 | 대상 | 유형 | Ticker | 차트 |
