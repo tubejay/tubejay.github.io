@@ -6,27 +6,27 @@ published: true
 hidden: false
 ---
 
-<!-- TradingView Widget BEGIN -->
+
 <div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AMEX-VT/" rel="noopener" target="_blank"><span class="blue-text">VT Quotes</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-  {
-  "symbol": "AMEX:VT",
-  "width": "100%",
-  "colorTheme": "dark",
-  "isTransparent": false,
-  "locale": "en"
-}
-  </script>
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js"
+        async>
+            {
+                "symbol": "AMEX:VT",
+                    "width": "100%",
+                        "colorTheme": "dark",
+                            "isTransparent": false,
+                                "locale": "en"
+            }
+        </script>
 </div>
-<!-- TradingView Widget END -->
+
 
 ## 시장
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} |
+| 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"}  |
 | 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
 |      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} |
 | 인도  | +3X | INDL   | [Direxion](https://www.webull.com/quote/nysearca-indl){:target="\_blank"} |
