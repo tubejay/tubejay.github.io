@@ -10,7 +10,7 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>{"symbols": [{"description": "edc","proName": "AMEX:EDC"},{"description": "edz","proName": "AMEX:EDZ"},{"description": "vt","proName": "AMEX:VT"}],"colorTheme": "dark","isTransparent": true,"showSymbolLogo": false,"locale": "en"}</script> |
+|||| <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>{"symbols": [{"description": "edc","proName": "AMEX:EDC"},{"description": "edz","proName": "AMEX:EDZ"},{"description": "vt","proName": "AMEX:VT"}],"colorTheme": "dark","isTransparent": true,"showSymbolLogo": false,"locale": "en"}</script> |
 | 전세계 | | VT | |
 | 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} |
 | 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
