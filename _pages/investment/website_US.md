@@ -7,7 +7,7 @@ hidden: false
 ---
 
 <head>
-  <base target="_blank">
+  <base target="_self">
 </head>
 
 ### 차트
