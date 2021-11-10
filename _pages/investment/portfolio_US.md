@@ -8,9 +8,10 @@ hidden: false
 
 ## 시장
 
-| 대상 | 유형 | Ticker | 차트 | 위젯 |
-| :-  | :-  | :-     | :-  | :- |
-| 전세계 | | VT | | <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async> {"symbol": "AMEX:VT","width": "100%","colorTheme": "dark","isTransparent":true,"locale": "en"} </script> |
+| 대상 | 유형 | Ticker | 차트 |
+| :-  | :-  | :-     | :-  |
+| <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>{"symbols": [{"description": "edc","proName": "AMEX:EDC"},{"description": "edz","proName": "AMEX:EDZ"},{"description": "vt","proName": "AMEX:VT"}],"colorTheme": "dark","isTransparent": true,"showSymbolLogo": false,"locale": "en"}</script> |
+| 전세계 | | VT | |
 | 전세계 | | VT | [Vanguard](https://www.webull.com/quote/nysearca-vt){:target="\_blank"} |
 | 신흥  | +3X | EDC    | [Direxion](https://www.webull.com/quote/nysearca-edc){:target="\_blank"} |
 |      | -3X | EDZ    | [Direxion](https://www.webull.com/quote/nysearca-edz){:target="\_blank"} |
@@ -28,34 +29,19 @@ hidden: false
 |        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} |
 
 
-<div class="tradingview-widget-container">
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
     {
-    "symbolsGroups": [
-        {
-            "name": "전세계",
-            "symbols": [
-                {"name":"AMEX:VT","displayName":"VT"},
-                {"name":"AMEX:VTI","displayName":"VTI"}
-            ]
-        },
-        {
-            "name": "신흥",
-            "symbols": [
-                {"name":"AMEX:EDC","displayName":"EDC"},
-                {"name":"AMEX:EDZ","displayName":"EDZ"}
-            ]
-        }
-    ],
-    "width": "100%",
-    "height": "500%",
-    "showSymbolLogo": false,
-    "colorTheme": "dark",
-    "isTransparent": true,
-    "locale": "en"
+        "symbols": [
+            {"description": "edc","proName": "AMEX:EDC"},
+            {"description": "edz","proName": "AMEX:EDZ"},
+            {"description": "vt","proName": "AMEX:VT"}
+        ],
+        "colorTheme": "dark",
+        "isTransparent": true,
+        "showSymbolLogo": false,
+        "locale": "en"
     }
 </script>
-</div>
 
 
 ## 지수
