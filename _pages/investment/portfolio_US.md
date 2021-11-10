@@ -28,6 +28,7 @@ hidden: false
 |        | -2X | EFU    | [ProShares](https://www.webull.com/quote/nysearca-efu){:target="\_blank"} |
 
 
+<div class="tradingview-widget-container">
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
     {
     "symbolsGroups": [
@@ -54,6 +55,7 @@ hidden: false
     "locale": "en"
     }
 </script>
+</div>
 
 
 ## 지수
