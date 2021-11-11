@@ -10,128 +10,24 @@ hidden: false
   <base target="_blank">
 </head>
 
-<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
   "width": "600",
-  "height": "300",
+  "height": "250",
   "symbolsGroups": [
     {
-      "name": "Indices",
-      "originalName": "Indices",
+      "name": "시장",
       "symbols": [
-        {
-          "name": "FOREXCOM:SPXUSD",
-          "displayName": "S&P 500"
-        },
-        {
-          "name": "FOREXCOM:NSXUSD",
-          "displayName": "US 100"
-        },
-        {
-          "name": "FOREXCOM:DJI",
-          "displayName": "Dow 30"
-        },
-        {
-          "name": "INDEX:NKY",
-          "displayName": "Nikkei 225"
-        },
-        {
-          "name": "INDEX:DEU40",
-          "displayName": "DAX Index"
-        },
-        {
-          "name": "FOREXCOM:UKXGBP",
-          "displayName": "UK 100"
-        }
+        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:EDC",  "displayName": "EDC"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
+        {"name": "AMEX:INDL", "displayName": "INDL"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL"},
+        {"name": "AMEX:YINN", "displayName": "YINN"}
       ]
     },
-    {
-      "name": "Futures",
-      "originalName": "Futures",
-      "symbols": [
-        {
-          "name": "CME_MINI:ES1!",
-          "displayName": "S&P 500"
-        },
-        {
-          "name": "CME:6E1!",
-          "displayName": "Euro"
-        },
-        {
-          "name": "COMEX:GC1!",
-          "displayName": "Gold"
-        },
-        {
-          "name": "NYMEX:CL1!",
-          "displayName": "Crude Oil"
-        },
-        {
-          "name": "NYMEX:NG1!",
-          "displayName": "Natural Gas"
-        },
-        {
-          "name": "CBOT:ZC1!",
-          "displayName": "Corn"
-        }
-      ]
-    },
-    {
-      "name": "Bonds",
-      "originalName": "Bonds",
-      "symbols": [
-        {
-          "name": "CME:GE1!",
-          "displayName": "Eurodollar"
-        },
-        {
-          "name": "CBOT:ZB1!",
-          "displayName": "T-Bond"
-        },
-        {
-          "name": "CBOT:UB1!",
-          "displayName": "Ultra T-Bond"
-        },
-        {
-          "name": "EUREX:FGBL1!",
-          "displayName": "Euro Bund"
-        },
-        {
-          "name": "EUREX:FBTP1!",
-          "displayName": "Euro BTP"
-        },
-        {
-          "name": "EUREX:FGBM1!",
-          "displayName": "Euro BOBL"
-        }
-      ]
-    },
-    {
-      "name": "Forex",
-      "originalName": "Forex",
-      "symbols": [
-        {
-          "name": "FX:EURUSD"
-        },
-        {
-          "name": "FX:GBPUSD"
-        },
-        {
-          "name": "FX:USDJPY"
-        },
-        {
-          "name": "FX:USDCHF"
-        },
-        {
-          "name": "FX:AUDUSD"
-        },
-        {
-          "name": "FX:USDCAD"
-        }
-      ]
-    }
   ],
   "showSymbolLogo": false,
   "colorTheme": "dark",
@@ -140,7 +36,6 @@ hidden: false
 }
   </script>
 </div>
-<!-- TradingView Widget END -->
 
 ## 시장
 
