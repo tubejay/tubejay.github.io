@@ -164,9 +164,9 @@ hidden: false
 ### inline
 
 ```markdown
-inline code `mtcars <- mtcars %>% arrange(mpg)`{:.language-R .highlight} shown
+inline code `print(os.getcwd()`{:.language-python .highlight} shown
 ```
-inline code `mtcars <- mtcars %>% arrange(mpg)`{:.language-R .highlight} shown
+inline code `print(os.getcwd()`{:.language-python .highlight} shown
 
 ### block
 
@@ -215,7 +215,7 @@ print(os.getcwd())
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:`{:language-text .highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
+| red    | 🟥 `:red_square:`{:language-yaml .highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
 | orange | 🟧 `:orange_square:`{:.language-markdown .highlight}      | 🟠 `:orange_circle:`{:.language-markdown .highlight}     |
 | yellow | 🟨 `:yellow_square:`{:.language-markdown .highlight}      | 🟡 `:yellow_circle:`{:.language-markdown .highlight}     |
 | green  | 🟩 `:green_square:`{:.language-markdown .highlight}       | 🟢 `:green_circle:`{:.language-markdown .highlight}      |
