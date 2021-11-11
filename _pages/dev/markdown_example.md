@@ -164,22 +164,22 @@ hidden: false
 ### inline
 
 ```markdown
-inline code "`SELECT * FROM t`{:.language-sql .highlight}" shown
+inline code `SELECT * FROM t;`{:.language-sql .highlight} shown
 ```
-inline code "`SELECT * FROM t`{:.language-sql .highlight}" shown
+inline code `SELECT * FROM t;`{:.language-sql .highlight} shown
 
 ### block
 
 ````markdown
 ```python
-print('one')
-print('two')
+import os
+os.getcwd()
 ```
 ````
 
 ```python
-print('one')
-print('two')
+import os
+os.getcwd()
 ```
 
 ## insert
@@ -215,7 +215,7 @@ print('two')
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:`{:.highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
+| red    | 🟥 `:red_square:`{:language-text .highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
 | orange | 🟧 `:orange_square:`{:.language-markdown .highlight}      | 🟠 `:orange_circle:`{:.language-markdown .highlight}     |
 | yellow | 🟨 `:yellow_square:`{:.language-markdown .highlight}      | 🟡 `:yellow_circle:`{:.language-markdown .highlight}     |
 | green  | 🟩 `:green_square:`{:.language-markdown .highlight}       | 🟢 `:green_circle:`{:.language-markdown .highlight}      |
@@ -228,6 +228,6 @@ print('two')
 ### image
 
 ```markdown
-![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png){:width="50%"}
+![GitHub](https://bit.ly/3kteNDj){:width="50%"}
 ```
-![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png){:width="50%"}
+![GitHub](https://bit.ly/3kteNDj){:width="50%"}
