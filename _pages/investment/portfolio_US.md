@@ -25,7 +25,13 @@ hidden: false
         {"name": "AMEX:EDZ",  "displayName": "EDZ"},
         {"name": "AMEX:INDL", "displayName": "INDL"},
         {"name": "AMEX:RUSL", "displayName": "RUSL"},
-        {"name": "AMEX:YINN", "displayName": "YINN"}
+        {"name": "AMEX:YINN", "displayName": "YINN"},
+        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:EDC",  "displayName": "EDC"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
+        {"name": "AMEX:INDL", "displayName": "INDL"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL"},
+        {"name": "AMEX:YINN", "displayName": "YINN"}        
       ]
     }
   ],
