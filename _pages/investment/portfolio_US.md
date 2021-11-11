@@ -18,8 +18,7 @@ hidden: false
   "height": "270",
   "symbolsGroups": [
     {
-      "name": "시장111",
-      "originalName": "Indices",
+      "name": "시장1",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
