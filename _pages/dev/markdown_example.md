@@ -22,33 +22,45 @@ hidden: false
 |        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-html .highlight} | <span style="font-style:italic"> italic </span> |
 | bold | Markdown | `**bold**`{:.language-markdown .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-html .highlight} | <b> bold </b> |
-|      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-css .highlight} | <span style="font-weight:bold"> bold </span> |
+|      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-html .highlight} | <span style="font-weight:bold"> bold </span> |
 
 ### color
 
 | color | language | syntax | output |
 | :-    | :-       | :-     | :-     |
-| text | HTML | `<font color="yellow"> yellow </font>`{:.language-yaml .highlight} | <font color="yellow"> yellow </font> |
-|      | CSS  | `<span style="color:yellow"> yellow </span>`{:.language-yaml .highlight} | <span style="color:yellow"> yellow </span> |
-| background | CSS | `<span style="background-color:purple"> purple </span>`{:.language-yaml .highlight} | <span style="background-color:purple"> purple </span> |
-| text+background | CSS | `<span style="color:black; background:white;"> black+white </span>`{:.language-yaml .highlight} | <span style="color:black; background:white;"> black+white </span> |
+| text | HTML | `<font color="yellow"> yellow </font>`{:.language-html .highlight} | <font color="yellow"> yellow </font> |
+|      | CSS  | `<span style="color:yellow"> yellow </span>`{:.language-html .highlight} | <span style="color:yellow"> yellow </span> |
+| background | CSS | `<span style="background-color:purple"> purple </span>`{:.language-html .highlight} | <span style="background-color:purple"> purple </span> |
+| text+background | CSS | `<span style="color:black; background:white;"> black+white </span>`{:.language-html .highlight} | <span style="color:black; background:white;"> black+white </span> |
 
-### line
+## decoration
 
-| property | value | language | syntax | output |
-| :-       | :-    | :-       | :-     | :-     |
-| line | underline | HTML | `<u> underline </u>`{:.language-yaml .highlight} | <u> underline </u> |
-|      |           | CSS  | `<span style="text-decoration:underline"> underline </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline"> underline </span> |
-|      | strike    | HTML | `<s> strike </s>`{:.language-yaml .highlight} | <s> strike </s> |
-|      |           | CSS  | `<span style="text-decoration:line-through"> strike </span>`{:.language-yaml .highlight} | <span style="text-decoration:line-through"> strike </span> |
-|      | overline  | CSS | `<span style="text-decoration:overline"> overline </span>`{:.language-yaml .highlight} | <span style="text-decoration:overline"> overline </span> |
-| style | solid  | CSS | `<span style="text-decoration:underline solid"> solid </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline solid"> solid </span> |
-|       | double | CSS | `<span style="text-decoration:underline double"> double </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline double"> double </span> |
-|       | dotted | CSS | `<span style="text-decoration:underline dotted"> dotted </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline dotted"> dotted </span> |
-|       | dashed | CSS | `<span style="text-decoration:underline dashed"> dashed </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline dashed"> dashed </span> |
-|       | wavy   | CSS | `<span style="text-decoration:underline wavy"> wavy </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline wavy"> wavy </span> |
-| color | currentColor | CSS | `<span style="text-decoration:underline currentColor"> currentColor </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline currentColor"> currentColor </span> |
-|       | yellow       | CSS | `<span style="text-decoration:underline yellow"> yellow </span>`{:.language-yaml .highlight} | <span style="text-decoration:underline yellow"> yellow </span> |
+### text
+
+| text | language | syntax | output |
+| :-   | :-       | :-     | :-     |
+| underline | HTML | `<u> underline </u>`{:.language-html .highlight} | <u> underline </u> |
+|           | CSS  | `<span style="text-decoration:underline"> underline </span>`{:.language-html .highlight} | <span style="text-decoration:underline"> underline </span> |
+| strike    | HTML | `<s> strike </s>`{:.language-html .highlight} | <s> strike </s> |
+|           | CSS  | `<span style="text-decoration:line-through"> strike </span>`{:.language-html .highlight} | <span style="text-decoration:line-through"> strike </span> |
+| overline  | CSS | `<span style="text-decoration:overline"> overline </span>`{:.language-html .highlight} | <span style="text-decoration:overline"> overline </span> |
+
+### style
+
+| style | language | syntax | output |
+| :-    | :-       | :-     | :-     |
+| solid  | CSS | `<span style="text-decoration:underline solid"> solid </span>`{:.language-html .highlight} | <span style="text-decoration:underline solid"> solid </span> |
+| double | CSS | `<span style="text-decoration:underline double"> double </span>`{:.language-html .highlight} | <span style="text-decoration:underline double"> double </span> |
+| dotted | CSS | `<span style="text-decoration:underline dotted"> dotted </span>`{:.language-html .highlight} | <span style="text-decoration:underline dotted"> dotted </span> |
+| dashed | CSS | `<span style="text-decoration:underline dashed"> dashed </span>`{:.language-html .highlight} | <span style="text-decoration:underline dashed"> dashed </span> |
+| wavy   | CSS | `<span style="text-decoration:underline wavy"> wavy </span>`{:.language-html .highlight} | <span style="text-decoration:underline wavy"> wavy </span> |
+
+### color
+       
+| color | language | syntax | output |
+| :-    | :-       | :-     | :-     |
+| currentColor | CSS | `<span style="text-decoration:underline currentColor"> currentColor </span>`{:.language-html .highlight} | <span style="text-decoration:underline currentColor"> currentColor </span> |
+| yellow       | CSS | `<span style="text-decoration:underline yellow"> yellow </span>`{:.language-html .highlight} | <span style="text-decoration:underline yellow"> yellow </span> |
 
 ## structure
 
@@ -154,7 +166,7 @@ hidden: false
 ```markdown
 inline code `SELECT * FROM t` shown
 ```
-inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
+inline code `SELECT * FROM t`{:.language-sql .highlight} shown
 
 ### block
 
