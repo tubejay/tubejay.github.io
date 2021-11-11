@@ -19,6 +19,7 @@ hidden: false
   "symbolsGroups": [
     {
       "name": "시장",
+      "originalName": "",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
