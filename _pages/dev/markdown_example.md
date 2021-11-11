@@ -7,6 +7,10 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
 ## text
 
 ### emphasis
@@ -50,7 +54,7 @@ hidden: false
 
 ### heading
 
-```text
+```markdown
 # level 1
 ## level 2
 ### level 3
@@ -58,7 +62,7 @@ hidden: false
 
 ### blockquote
 
-```text
+```markdown
 > level 1
 >> level 2
 >>> level 3
@@ -71,7 +75,7 @@ hidden: false
 
 #### unordered list
 
-```text
+```markdown
 - AAA
   - aaa
     - zzz
@@ -86,7 +90,7 @@ hidden: false
 
 #### ordered list
 
-```text
+```markdown
 1. first
 3. second
 5. third
@@ -97,7 +101,7 @@ hidden: false
 
 #### checkbox
 
-```text
+```markdown
 - [ ] unchecked
 - [x] checked
 ```
@@ -108,7 +112,7 @@ hidden: false
 
 #### alignment
 
-```text
+```markdown
 | left              | center               | right             |
 | :-                | :-:                  | -:                |
 | text              | text                 | text              |
@@ -126,7 +130,7 @@ hidden: false
 
 ### details
 
-```text
+```html
 <details>
 <summary>fold/unfold</summary>
 <div markdown="1">
@@ -147,7 +151,7 @@ hidden: false
 
 ### inline
 
-```text
+```markdown
 inline code `SELECT * FROM t` shown
 ```
 inline code `SELECT * FROM t`{:.language-yaml .highlight} shown
@@ -168,6 +172,37 @@ print('two')
 
 ## insert
 
+### link
+
+#### title
+
+| title | syntax | output |
+| :-    | :-     | :-     |
+| with title    | `[title](https://github.com/)`{:.language-yaml .highlight} | [title](https://github.com/) |
+| without title | `<https://github.com/>`{:.language-yaml .highlight} | <https://github.com/> |
+
+#### target
+
+| target | syntax | output |
+| :-     | :-     | :-     |
+| self  | `[self](https://github.com/){:target="_self"}`{:.language-yaml .highlight} | [self](https://github.com/){:target="\_self"} |
+| blank | `[blank][https://github.com/]{:target="_blank"}`{:.language-yaml .highlight} | [blank](https://github.com/){:target="\_blank"}
+
+#### url
+
+```markdown
+[inline](https://github.com/)
+
+[reference][github_mark]
+
+[github_mark]: https://github.com/
+```
+[inline](https://github.com/)
+
+[reference][github_mark]
+
+[github_mark]: https://github.com/
+
 ### emoji
 
 | color  | square | circle |
@@ -182,20 +217,9 @@ print('two')
 | white  | ⬜ `:white_large_square:`{:.language-yaml .highlight} | ⚪ `:white_circle:`{:.language-yaml .highlight}      |
 | black  | ⬛ `:black_large_square:`{:.language-yaml .highlight} | ⚫ `:black_circle:`{:.language-yaml .highlight}      |
 
-### link
-
-| property | value | syntax | output |
-| :-       | :-    | :-     | :-     |
-| title | with    | `[title](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)` | [title](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) |
-|       | without | `<https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png>` | <https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png> |
-| target | self  | `[self][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="_self"}` | [self][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="\_self"} |
-|        | blank | `[blank][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="_blank"}` | [blank][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="\_blank"}
-| url | inline    | `[inline](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)` | [inline](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) |
-|     | reference | `[reference][github_mark]<br>[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png` | [reference][github_mark]<br>[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png |
-
 ### image
 
-```text
+```markdown
 ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){:width="50%"}
 ```
 ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){:width="50%"}
