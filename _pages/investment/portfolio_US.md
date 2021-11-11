@@ -18,7 +18,7 @@ hidden: false
   "height": "270",
   "symbolsGroups": [
     {
-      "name": "시장1",
+      "name": "시장111",
       "originalName": "Indices",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
@@ -30,7 +30,7 @@ hidden: false
       ]
     },
     {
-      "name": "시장2",
+      "name": "시장222",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
@@ -41,7 +41,7 @@ hidden: false
       ]
     },
     {
-      "name": "시장3",
+      "name": "시장333",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
@@ -52,7 +52,7 @@ hidden: false
       ]
     },
     {
-      "name": "시장4",
+      "name": "시장444",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
