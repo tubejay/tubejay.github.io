@@ -31,7 +31,6 @@ hidden: false
     },
     {
       "name": "시장2",
-      "originalName": "Indices",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
@@ -43,7 +42,6 @@ hidden: false
     },
     {
       "name": "시장3",
-      "originalName": "Indices",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
@@ -55,7 +53,6 @@ hidden: false
     },
     {
       "name": "시장4",
-      "originalName": "Indices",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
