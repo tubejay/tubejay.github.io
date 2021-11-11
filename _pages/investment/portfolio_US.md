@@ -124,6 +124,32 @@ hidden: false
 |     | 주식+채권+현금 | DMRL | [DeltaShares](https://www.webull.com/quote/nysearca-dmrl) |
 |     | 주식+채권     | MTSX | [WisdomTree](https://www.webull.com/quote/nysearca-ntsx) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:HIBL",   "displayName": "HIBL"},
+        {"name": "AMEX:HIBS",   "displayName": "HIBS"},
+        {"name": "AMEX:AVUS",   "displayName": "AVUS"},
+        {"name": "AMEX:VTV",    "displayName": "VTV"},
+        {"name": "AMEX:USMV",   "displayName": "USMV"},
+        {"name": "AMEX:IWF",    "displayName": "IWF"},
+        {"name": "AMEX:SWAN",   "displayName": "SWAN"},
+        {"name": "AMEX:DMRL",   "displayName": "DMRL"},
+        {"name": "AMEX:MTSX",   "displayName": "MTSX"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## 테크
 
 | 대상 | 유형 | Ticker | 차트 |
@@ -136,6 +162,31 @@ hidden: false
 |       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs) |
 | 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot) |
 | 통신 | +2X | LTL | [ProShares](https://www.webull.com/quote/nysearca-ltl) |
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:TECL",   "displayName": "TECL"},
+        {"name": "AMEX:TECS",   "displayName": "TECS"},
+        {"name": "AMEX:FNGU",   "displayName": "FNGU"},
+        {"name": "AMEX:FNGD",   "displayName": "FNGD"},
+        {"name": "AMEX:SOXL",   "displayName": "SOXL"},
+        {"name": "AMEX:SOXS",   "displayName": "SOXS"},
+        {"name": "AMEX:UBOT",   "displayName": "UBOT"},
+        {"name": "AMEX:LTL",    "displayName": "LTL"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
 
 ## 에너지
 
@@ -156,6 +207,38 @@ hidden: false
 | 유틸리티   | +3X | UTSL  | [Direxion](https://www.webull.com/quote/nysearca-utsl) |
 |          | +2X | UPW   | [ProShares](https://www.webull.com/quote/nysearca-upw) |
 |          | -2X | SDP   | [ProShares](https://www.webull.com/quote/nysearca-sdp) |
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:GUSH",   "displayName": "GUSH"},
+        {"name": "AMEX:DRIP",   "displayName": "DRIP"},
+        {"name": "AMEX:UCO",    "displayName": "UCO"},
+        {"name": "AMEX:SCO",    "displayName": "SCO"},
+        {"name": "AMEX:NRGU",   "displayName": "NRGU"},
+        {"name": "AMEX:NRGD",   "displayName": "NRGD"},
+        {"name": "AMEX:UGA",    "displayName": "UGA"},
+        {"name": "AMEX:BOIL",   "displayName": "BOIL"},
+        {"name": "AMEX:KOLD",   "displayName": "KOLD"},
+        {"name": "AMEX:ERX",    "displayName": "ERX"},
+        {"name": "AMEX:ERY",    "displayName": "ERY"},
+        {"name": "AMEX:PXE",    "displayName": "PXE"},
+        {"name": "AMEX:UTSL",   "displayName": "UTSL"},
+        {"name": "AMEX:UPW",    "displayName": "UPW"},
+        {"name": "AMEX:SDP",    "displayName": "SDP"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
 
 ## 친환경
 
