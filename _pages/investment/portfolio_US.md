@@ -15,10 +15,46 @@ hidden: false
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
   "width": "600",
-  "height": "250",
+  "height": "270",
   "symbolsGroups": [
     {
-      "name": "시장",
+      "name": "시장1",
+      "originalName": "Indices",
+      "symbols": [
+        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:EDC",  "displayName": "EDC"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
+        {"name": "AMEX:INDL", "displayName": "INDL"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL"},
+        {"name": "AMEX:YINN", "displayName": "YINN"}
+      ]
+    },
+    {
+      "name": "시장2",
+      "originalName": "Indices",
+      "symbols": [
+        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:EDC",  "displayName": "EDC"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
+        {"name": "AMEX:INDL", "displayName": "INDL"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL"},
+        {"name": "AMEX:YINN", "displayName": "YINN"}
+      ]
+    },
+    {
+      "name": "시장3",
+      "originalName": "Indices",
+      "symbols": [
+        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:EDC",  "displayName": "EDC"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
+        {"name": "AMEX:INDL", "displayName": "INDL"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL"},
+        {"name": "AMEX:YINN", "displayName": "YINN"}
+      ]
+    },
+    {
+      "name": "시장4",
       "originalName": "Indices",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
