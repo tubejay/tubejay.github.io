@@ -186,7 +186,7 @@ print('two')
 | target | syntax | output |
 | :-     | :-     | :-     |
 | self  | `[self](https://github.com/){:target="_self"}`{:.language-yaml .highlight} | [self](https://github.com/){:target="\_self"} |
-| blank | `[blank][https://github.com/]{:target="_blank"}`{:.language-yaml .highlight} | [blank](https://github.com/){:target="\_blank"}
+| blank | `[blank](https://github.com/){:target="_blank"}`{:.language-markdown .highlight} | [blank](https://github.com/){:target="\_blank"} |
 
 #### url
 
