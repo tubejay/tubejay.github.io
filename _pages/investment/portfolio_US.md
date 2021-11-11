@@ -254,6 +254,32 @@ hidden: false
 | 배터리 | 리튬 | LIT | [Global X](https://www.webull.com/quote/nysearca-lit) |
 |       | 그리드 | GRID | [First Trust](https://www.webull.com/quote/nasdaq-grid) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:ICLN",     "displayName": "ICLN"},
+        {"name": "AMEX:QCLN",     "displayName": "QCLN"},
+        {"name": "AMEX:TAN",      "displayName": "TAN"},
+        {"name": "AMEX:FAN",      "displayName": "FAN"},
+        {"name": "AMEX:PHO",      "displayName": "PHO"},
+        {"name": "AMEX:CRBN",     "displayName": "CRBN"},
+        {"name": "AMEX:KRBN",     "displayName": "KRBN"},
+        {"name": "AMEX:LIT",      "displayName": "LIT"},
+        {"name": "AMEX:GRID",     "displayName": "GRID"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## 금속
 
 | 대상 | 유형 | Ticker | 차트 |
@@ -269,6 +295,33 @@ hidden: false
 | 우라늄 | | URNM | [Exchange Traded Concepts](https://www.webull.com/quote/nysearca-urnm) |
 | 희토류 | | REMX | [VanEck](https://www.webull.com/quote/nysearca-remx) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:UGL",     "displayName": "UGL"},
+        {"name": "AMEX:GLL",     "displayName": "GLL"},
+        {"name": "AMEX:NUGT",    "displayName": "NUGT"},
+        {"name": "AMEX:DUST",    "displayName": "DUST"},
+        {"name": "AMEX:AGQ",     "displayName": "AGQ"},
+        {"name": "AMEX:ZSL",     "displayName": "ZSL"},
+        {"name": "AMEX:JJT",     "displayName": "JJT"},
+        {"name": "AMEX:LD",      "displayName": "LD"},
+        {"name": "AMEX:URNM",    "displayName": "URNM"},
+        {"name": "AMEX:REMX",    "displayName": "REMX"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## 금융
 
 | 대상 | 유형 | Ticker | 차트 |
@@ -278,6 +331,28 @@ hidden: false
 | 대형은행 | +3X | BNKU | [MicroSectors](https://www.webull.com/quote/nysearca-bnku) |
 |        | -3X | BNKD | [MicroSectors](https://www.webull.com/quote/nysearca-bnkd) |
 | 지역은행  | +3X | DPST | [Direxion](https://www.webull.com/quote/nysearca-dpst) |
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:FAS",     "displayName": "FAS"},
+        {"name": "AMEX:FAX",     "displayName": "FAX"},
+        {"name": "AMEX:BNKU",    "displayName": "BNKU"},
+        {"name": "AMEX:BNKD",    "displayName": "BNKD"},
+        {"name": "AMEX:DPST",    "displayName": "DPST"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
 
 ## 통화
 
@@ -294,6 +369,34 @@ hidden: false
 |          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv) |
 | 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd) |
 |          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo) |
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:DBV",     "displayName": "DBV"},
+        {"name": "AMEX:FXE",     "displayName": "FXE"},
+        {"name": "AMEX:FXC",     "displayName": "FXC"},
+        {"name": "AMEX:FXB",     "displayName": "FXB"},
+        {"name": "AMEX:FXF",     "displayName": "FXF"},
+        {"name": "AMEX:FXA",     "displayName": "FXA"},
+        {"name": "AMEX:FXY",     "displayName": "FXY"},
+        {"name": "AMEX:TMF",     "displayName": "TMF"},
+        {"name": "AMEX:TMV",     "displayName": "TMV"},
+        {"name": "AMEX:TYD",     "displayName": "TYD"},
+        {"name": "AMEX:TYO",     "displayName": "TYO"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
 
 ## 암호화폐
 
