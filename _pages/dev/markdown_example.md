@@ -164,22 +164,22 @@ hidden: false
 ### inline
 
 ```markdown
-inline code `SELECT * FROM t;`{:.language-sql .highlight} shown
+inline code `mtcars <- mtcars %>% arrange(mpg)`{:.language-R .highlight} shown
 ```
-inline code `SELECT * FROM t;`{:.language-sql .highlight} shown
+inline code `mtcars <- mtcars %>% arrange(mpg)`{:.language-R .highlight} shown
 
 ### block
 
 ````markdown
 ```python
 import os
-os.getcwd()
+print(os.getcwd())
 ```
 ````
 
 ```python
 import os
-os.getcwd()
+print(os.getcwd())
 ```
 
 ## insert
