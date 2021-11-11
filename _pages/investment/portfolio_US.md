@@ -15,8 +15,8 @@ hidden: false
   <div class="tradingview-widget-container__widget"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
-  "width": "400",
-  "height": "600",
+  "width": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "name": "Indices",
