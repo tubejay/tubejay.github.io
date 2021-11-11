@@ -41,7 +41,7 @@ Markdown
   - [VS Code](https://code.visualstudio.com/docs/languages/markdown)
   - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
   - [typora](https://typora.io/)
-- [example](/dev/markdown_example)
+- [example](/dev/markdown_example){:target="_self"}
 <br>
 <br>
 
