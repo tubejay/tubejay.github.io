@@ -15,23 +15,25 @@ hidden: false
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
   {
   "width": "600",
-  "height": "270",
+  "height": "230",
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
         {"name": "AMEX:EDZ",  "displayName": "EDZ"},
         {"name": "AMEX:INDL", "displayName": "INDL"},
         {"name": "AMEX:RUSL", "displayName": "RUSL"},
         {"name": "AMEX:YINN", "displayName": "YINN"},
-        {"name": "AMEX:VT",   "displayName": "VT"},
-        {"name": "AMEX:EDC",  "displayName": "EDC"},
-        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
-        {"name": "AMEX:INDL", "displayName": "INDL"},
-        {"name": "AMEX:RUSL", "displayName": "RUSL"},
-        {"name": "AMEX:YINN", "displayName": "YINN"}
+        {"name": "AMEX:YANG", "displayName": "YANG"},
+        {"name": "AMEX:KORU", "displayName": "KORU"},
+        {"name": "AMEX:LBJ",  "displayName": "LBJ"},
+        {"name": "AMEX:MEXX", "displayName": "MEXX"},
+        {"name": "AMEX:UBR",  "displayName": "UBR"},
+        {"name": "AMEX:BZQ",  "displayName": "BZQ"},
+        {"name": "AMEX:EURL", "displayName": "EURL"},
+        {"name": "AMEX:EFO",  "displayName": "EFO"},
+        {"name": "AMEX:EFU",  "displayName": "EFU"}
       ]
     }
   ],
@@ -42,6 +44,38 @@ hidden: false
 }
   </script>
 </div>
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:EDC",  "displayName": "EDC"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
+        {"name": "AMEX:INDL", "displayName": "INDL"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL"},
+        {"name": "AMEX:YINN", "displayName": "YINN"},
+        {"name": "AMEX:YANG", "displayName": "YANG"},
+        {"name": "AMEX:KORU", "displayName": "KORU"},
+        {"name": "AMEX:LBJ",  "displayName": "LBJ"},
+        {"name": "AMEX:MEXX", "displayName": "MEXX"},
+        {"name": "AMEX:UBR",  "displayName": "UBR"},
+        {"name": "AMEX:BZQ",  "displayName": "BZQ"},
+        {"name": "AMEX:EURL", "displayName": "EURL"},
+        {"name": "AMEX:EFO",  "displayName": "EFO"},
+        {"name": "AMEX:EFU",  "displayName": "EFU"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
 
 ## 시장
 
