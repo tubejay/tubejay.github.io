@@ -17,12 +17,12 @@ hidden: false
 
 | emphasis | language | syntax | output |
 | :-       | :-       | :-     | :-     |
-| italic | Markdown | `*italic*`{:.language-yaml .highlight} | *italic* |
-|        | HTML     | `<i> italic </i>`{:.language-yaml .highlight} | <i> italic </i> |
-|        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-yaml .highlight} | <span style="font-style:italic"> italic </span> |
-| bold | Markdown | `**bold**`{:.language-yaml .highlight} | **bold** |
-|      | HTML     | `<b> bold </b>`{:.language-yaml .highlight} | <b> bold </b> |
-|      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-yaml .highlight} | <span style="font-weight:bold"> bold </span> |
+| italic | Markdown | `*italic*`{:.language-markdown .highlight} | *italic* |
+|        | HTML     | `<i> italic </i>`{:.language-html .highlight} | <i> italic </i> |
+|        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-css .highlight} | <span style="font-style:italic"> italic </span> |
+| bold | Markdown | `**bold**`{:.language-markdown .highlight} | **bold** |
+|      | HTML     | `<b> bold </b>`{:.language-html .highlight} | <b> bold </b> |
+|      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-css .highlight} | <span style="font-weight:bold"> bold </span> |
 
 ### color
 
