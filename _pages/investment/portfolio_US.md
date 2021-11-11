@@ -27,17 +27,6 @@ hidden: false
         {"name": "AMEX:RUSL", "displayName": "RUSL"},
         {"name": "AMEX:YINN", "displayName": "YINN"}
       ]
-    },
-    {
-      "name": "시장222",
-      "symbols": [
-        {"name": "AMEX:VT",   "displayName": "VT"},
-        {"name": "AMEX:EDC",  "displayName": "EDC"},
-        {"name": "AMEX:EDZ",  "displayName": "EDZ"},
-        {"name": "AMEX:INDL", "displayName": "INDL"},
-        {"name": "AMEX:RUSL", "displayName": "RUSL"},
-        {"name": "AMEX:YINN", "displayName": "YINN"}
-      ]
     }
   ],
   "showSymbolLogo": false,
