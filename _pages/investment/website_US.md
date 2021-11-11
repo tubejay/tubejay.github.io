@@ -10,7 +10,7 @@ hidden: false
   <base target="_blank">
 </head>
 
-### 차트
+### 차트/위젯
 
 | 분류 | 링크 |
 | :- | :- |
@@ -22,7 +22,9 @@ hidden: false
 |               | [Stocks](https://m.investing.com/equities/) |
 |               | [Bonds](https://m.investing.com/rates-bonds/) |
 |               | [ETFs](https://m.investing.com/etfs/) |
-| TradingView | [widget](https://www.tradingview.com/widget/) |
+| TradingView | [Market Data](https://www.tradingview.com/widget/market-quotes/) |
+|             | [Single Ticker](https://www.tradingview.com/widget/single-ticker/) |
+|             | [Technical Analysis](https://www.tradingview.com/widget/technical-analysis/) |
 
 ***
 ***
