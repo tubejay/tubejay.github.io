@@ -215,15 +215,15 @@ print(os.getcwd())
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:`{:language-yaml .highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
-| orange | 🟧 `:orange_square:`{:.language-markdown .highlight}      | 🟠 `:orange_circle:`{:.language-markdown .highlight}     |
-| yellow | 🟨 `:yellow_square:`{:.language-markdown .highlight}      | 🟡 `:yellow_circle:`{:.language-markdown .highlight}     |
-| green  | 🟩 `:green_square:`{:.language-markdown .highlight}       | 🟢 `:green_circle:`{:.language-markdown .highlight}      |
-| blue   | 🟦 `:blue_square:`{:.language-markdown .highlight}        | 🔵 `:large_blue_circle:`{:.language-markdown .highlight} |
-| purple | 🟪 `:purple_square:`{:.language-markdown .highlight}      | 🟣 `:purple_circle:`{:.language-markdown .highlight}     |
-| brown  | 🟫 `:brown_square:`{:.language-markdown .highlight}       | 🟤 `:brown_circle:`{:.language-markdown .highlight}      |
-| white  | ⬜ `:white_large_square:`{:.language-markdown .highlight} | ⚪ `:white_circle:`{:.language-markdown .highlight}      |
-| black  | ⬛ `:black_large_square:`{:.language-markdown .highlight} | ⚫ `:black_circle:`{:.language-markdown .highlight}      |
+| red    | 🟥 `:red_square:`{:language-yaml .highlight}         | 🔴 `:red_circle:`{:.language-yaml .highlight}        |
+| orange | 🟧 `:orange_square:`{:.language-yaml .highlight}      | 🟠 `:orange_circle:`{:.language-yaml .highlight}     |
+| yellow | 🟨 `:yellow_square:`{:.language-yaml .highlight}      | 🟡 `:yellow_circle:`{:.language-yaml .highlight}     |
+| green  | 🟩 `:green_square:`{:.language-yaml .highlight}       | 🟢 `:green_circle:`{:.language-yaml .highlight}      |
+| blue   | 🟦 `:blue_square:`{:.language-yaml .highlight}        | 🔵 `:large_blue_circle:`{:.language-yaml .highlight} |
+| purple | 🟪 `:purple_square:`{:.language-yaml .highlight}      | 🟣 `:purple_circle:`{:.language-yaml .highlight}     |
+| brown  | 🟫 `:brown_square:`{:.language-yaml .highlight}       | 🟤 `:brown_circle:`{:.language-yaml .highlight}      |
+| white  | ⬜ `:white_large_square:`{:.language-yaml .highlight} | ⚪ `:white_circle:`{:.language-yaml .highlight}      |
+| black  | ⬛ `:black_large_square:`{:.language-yaml .highlight} | ⚫ `:black_circle:`{:.language-yaml .highlight}      |
 
 ### image
 
