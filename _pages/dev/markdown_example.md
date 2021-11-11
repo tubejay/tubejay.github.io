@@ -69,50 +69,60 @@ hidden: false
 
 ### list
 
+#### unordered list
+
 ```text
-- unordered
-  - AAA
-    - aaa
-      - zzz
-    - bbb
-  - BBB
-- ordered
-  1. first
-  3. second
-  5. third
-- checkbox
-  - [ ] unchecked
-  - [x] checked
+- AAA
+  - aaa
+    - zzz
+  - bbb
+- BBB
 ```
-- unordered
-  - AAA
-    - aaa
-      - zzz
-    - bbb
-  - BBB
-- ordered
-  1. first
-  3. second
-  5. third
-- checkbox
-  - [ ] unchecked
-  - [x] checked
+- AAA
+  - aaa
+    - zzz
+  - bbb
+- BBB
+
+#### ordered list
+
+```text
+1. first
+3. second
+5. third
+```
+1. first
+3. second
+5. third
+
+#### checkbox
+
+```text
+- [ ] unchecked
+- [x] checked
+```
+- [ ] unchecked
+- [x] checked
 
 ### table
 
+#### alignment
+
 ```text
 | left              | center               | right             |
 | :-                | :-:                  | -:                |
 | text              | text                 | text              |
 | left_left_left    | center_center_center | right_right_right |
-| first <br> second |                      |                   |
 ```
 
 | left              | center               | right             |
 | :-                | :-:                  | -:                |
 | text              | text                 | text              |
 | left_left_left    | center_center_center | right_right_right |
-| first <br> second |                      |                   |
+
+#### more
+
+- [Tables Generator](https://www.tablesgenerator.com/html_tables){:target="\_blank"}
 
 ### details
 
@@ -172,17 +182,20 @@ print('two')
 | white  | ⬜ `:white_large_square:`{:.language-yaml .highlight} | ⚪ `:white_circle:`{:.language-yaml .highlight}      |
 | black  | ⬛ `:black_large_square:`{:.language-yaml .highlight} | ⚫ `:black_circle:`{:.language-yaml .highlight}      |
 
-### link/image
+### link
+
+| property | value | syntax | output |
+| :-       | :-    | :-     | :-     |
+| title | with    | `[title](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)` | [title](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) |
+|       | without | `<https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png>` | <https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png> |
+| target | self  | `[self][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="_self"}` | [self][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="\_self"} |
+|        | blank | `[blank][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="_blank"}` | [blank][https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png]{:target="\_blank"}
+| url | inline    | `[inline](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)` | [inline](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) |
+|     | reference | `[reference][github_mark]<br>[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png` | [reference][github_mark]<br>[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png |
+
+### image
 
 ```text
-[GitHub][github_mark]
-
-![GitHub][github_mark]{:width="50%"}
-
-[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){:width="50%"}
 ```
-[GitHub][github_mark]
-
-![GitHub][github_mark]{:width="50%"}
-
-[github_mark]: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){:width="50%"}
