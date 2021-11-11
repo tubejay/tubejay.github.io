@@ -17,10 +17,10 @@ hidden: false
 
 | emphasis | language | syntax | output |
 | :-       | :-       | :-     | :-     |
-| italic | Markdown | `*italic*`{:.language-markdown .highlight} | *italic* |
+| italic | Markdown | `*italic*`{:.language-text .highlight} | *italic* |
 |        | HTML     | `<i> italic </i>`{:.language-html .highlight} | <i> italic </i> |
 |        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-html .highlight} | <span style="font-style:italic"> italic </span> |
-| bold | Markdown | `**bold**`{:.language-markdown .highlight} | **bold** |
+| bold | Markdown | `**bold**`{:.language-text .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-html .highlight} | <b> bold </b> |
 |      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-html .highlight} | <span style="font-weight:bold"> bold </span> |
 
@@ -144,7 +144,7 @@ hidden: false
 
 ```html
 <details>
-<summary>fold/unfold</summary>
+<summary> fold/unfold </summary>
 <div markdown="1">
 - hidden item 1
 - hidden item 2
@@ -164,13 +164,13 @@ hidden: false
 ### inline
 
 ```markdown
-inline code `SELECT * FROM t` shown
+inline code "`SELECT * FROM t`{:.language-sql .highlight}" shown
 ```
-inline code `SELECT * FROM t`{:.language-sql .highlight} shown
+inline code "`SELECT * FROM t`{:.language-sql .highlight}" shown
 
 ### block
 
-````
+````markdown
 ```python
 print('one')
 print('two')
@@ -215,7 +215,7 @@ print('two')
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:`{:.language-markdown .highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
+| red    | 🟥 `:red_square:`{:.highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
 | orange | 🟧 `:orange_square:`{:.language-markdown .highlight}      | 🟠 `:orange_circle:`{:.language-markdown .highlight}     |
 | yellow | 🟨 `:yellow_square:`{:.language-markdown .highlight}      | 🟡 `:yellow_circle:`{:.language-markdown .highlight}     |
 | green  | 🟩 `:green_square:`{:.language-markdown .highlight}       | 🟢 `:green_circle:`{:.language-markdown .highlight}      |
@@ -228,6 +228,6 @@ print('two')
 ### image
 
 ```markdown
-![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){:width="50%"}
+![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png){:width="50%"}
 ```
-![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){:width="50%"}
+![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png){:width="50%"}
