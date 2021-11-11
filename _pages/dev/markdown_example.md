@@ -140,19 +140,19 @@ hidden: false
 
 ```html
 <details>
-<summary> fold/unfold </summary>
-<div markdown="1">
-- hidden item 1
-- hidden item 2
-</div>
+  <summary> fold/unfold </summary>
+  <div markdown="1">
+    - hidden item 1
+    - hidden item 2
+  </div>
 </details>
 ```
 <details>
-<summary>fold/unfold</summary>
-<div markdown="1">
-- hidden item 1
-- hidden item 2
-</div>
+  <summary> fold/unfold </summary>
+  <div markdown="1">
+    - hidden item 1
+    - hidden item 2
+  </div>
 </details>
 
 ## code
@@ -160,9 +160,9 @@ hidden: false
 ### inline
 
 ```markdown
-inline code `print(os.getcwd()`{:.language-python .highlight} shown
+inline code `print(os.getcwd())`{:.language-python .highlight} shown
 ```
-inline code `print(os.getcwd()`{:.language-python .highlight} shown
+inline code `print(os.getcwd())`{:.language-python .highlight} shown
 
 ### block
 
@@ -211,7 +211,7 @@ print(os.getcwd())
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:`{:language-yaml .highlight}         | 🔴 `:red_circle:`{:.language-yaml .highlight}        |
+| red    | 🟥 `:red_square:`{:language-yaml .highlight}          | 🔴 `:red_circle:`{:.language-yaml .highlight}        |
 | orange | 🟧 `:orange_square:`{:.language-yaml .highlight}      | 🟠 `:orange_circle:`{:.language-yaml .highlight}     |
 | yellow | 🟨 `:yellow_square:`{:.language-yaml .highlight}      | 🟡 `:yellow_circle:`{:.language-yaml .highlight}     |
 | green  | 🟩 `:green_square:`{:.language-yaml .highlight}       | 🟢 `:green_circle:`{:.language-yaml .highlight}      |
@@ -226,4 +226,4 @@ print(os.getcwd())
 ```markdown
 ![GitHub](https://bit.ly/3kteNDj){:width="50%"}
 ```
-![GitHub](https://bit.ly/3kteNDj){:width="50%"}{:target="\_blank"}
+![GitHub](https://bit.ly/3kteNDj){:width="50%"}
