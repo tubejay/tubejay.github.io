@@ -19,7 +19,7 @@ hidden: false
 | :-       | :-       | :-     | :-     |
 | italic | Markdown | `*italic*`{:.language-markdown .highlight} | *italic* |
 |        | HTML     | `<i> italic </i>`{:.language-html .highlight} | <i> italic </i> |
-|        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-css .highlight} | <span style="font-style:italic"> italic </span> |
+|        | CSS      | `<span style="font-style:italic"> italic </span>`{:.language-html .highlight} | <span style="font-style:italic"> italic </span> |
 | bold | Markdown | `**bold**`{:.language-markdown .highlight} | **bold** |
 |      | HTML     | `<b> bold </b>`{:.language-html .highlight} | <b> bold </b> |
 |      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-css .highlight} | <span style="font-weight:bold"> bold </span> |
@@ -178,28 +178,24 @@ print('two')
 
 | title | syntax | output |
 | :-    | :-     | :-     |
-| with title    | `[title](https://github.com/)`{:.language-yaml .highlight} | [title](https://github.com/) |
-| without title | `<https://github.com/>`{:.language-yaml .highlight} | <https://github.com/> |
+| with title    | `[title](https://github.com/)`{:.language-markdown .highlight} | [title](https://github.com/) |
+| without title | `<https://github.com/>`{:.language-markdown .highlight} | <https://github.com/> |
 
 #### target
 
 | target | syntax | output |
 | :-     | :-     | :-     |
-| self  | `[self](https://github.com/){:target="_self"}`{:.language-yaml .highlight} | [self](https://github.com/){:target="\_self"} |
+| self  | `[self](https://github.com/){:target="_self"}`{:.language-markdown .highlight} | [self](https://github.com/){:target="\_self"} |
 | blank | `[blank](https://github.com/){:target="_blank"}`{:.language-markdown .highlight} | [blank](https://github.com/){:target="\_blank"} |
 
 #### url
 
 ```markdown
-[inline](https://github.com/)
-
-[reference][github_mark]
+[inline](https://github.com/) | [reference][github_mark]
 
 [github_mark]: https://github.com/
 ```
-[inline](https://github.com/)
-
-[reference][github_mark]
+[inline](https://github.com/) | [reference][github_mark]
 
 [github_mark]: https://github.com/
 
@@ -207,15 +203,15 @@ print('two')
 
 | color  | square | circle |
 | :-     | :-     | :-     |
-| red    | 🟥 `:red_square:`{:.language-yaml .highlight}         | 🔴 `:red_circle:`{:.language-yaml .highlight}        |
-| orange | 🟧 `:orange_square:`{:.language-yaml .highlight}      | 🟠 `:orange_circle:`{:.language-yaml .highlight}     |
-| yellow | 🟨 `:yellow_square:`{:.language-yaml .highlight}      | 🟡 `:yellow_circle:`{:.language-yaml .highlight}     |
-| green  | 🟩 `:green_square:`{:.language-yaml .highlight}       | 🟢 `:green_circle:`{:.language-yaml .highlight}      |
-| blue   | 🟦 `:blue_square:`{:.language-yaml .highlight}        | 🔵 `:large_blue_circle:`{:.language-yaml .highlight} |
-| purple | 🟪 `:purple_square:`{:.language-yaml .highlight}      | 🟣 `:purple_circle:`{:.language-yaml .highlight}     |
-| brown  | 🟫 `:brown_square:`{:.language-yaml .highlight}       | 🟤 `:brown_circle:`{:.language-yaml .highlight}      |
-| white  | ⬜ `:white_large_square:`{:.language-yaml .highlight} | ⚪ `:white_circle:`{:.language-yaml .highlight}      |
-| black  | ⬛ `:black_large_square:`{:.language-yaml .highlight} | ⚫ `:black_circle:`{:.language-yaml .highlight}      |
+| red    | 🟥 `:red_square:`{:.language-markdown .highlight}         | 🔴 `:red_circle:`{:.language-markdown .highlight}        |
+| orange | 🟧 `:orange_square:`{:.language-markdown .highlight}      | 🟠 `:orange_circle:`{:.language-markdown .highlight}     |
+| yellow | 🟨 `:yellow_square:`{:.language-markdown .highlight}      | 🟡 `:yellow_circle:`{:.language-markdown .highlight}     |
+| green  | 🟩 `:green_square:`{:.language-markdown .highlight}       | 🟢 `:green_circle:`{:.language-markdown .highlight}      |
+| blue   | 🟦 `:blue_square:`{:.language-markdown .highlight}        | 🔵 `:large_blue_circle:`{:.language-markdown .highlight} |
+| purple | 🟪 `:purple_square:`{:.language-markdown .highlight}      | 🟣 `:purple_circle:`{:.language-markdown .highlight}     |
+| brown  | 🟫 `:brown_square:`{:.language-markdown .highlight}       | 🟤 `:brown_circle:`{:.language-markdown .highlight}      |
+| white  | ⬜ `:white_large_square:`{:.language-markdown .highlight} | ⚪ `:white_circle:`{:.language-markdown .highlight}      |
+| black  | ⬛ `:black_large_square:`{:.language-markdown .highlight} | ⚫ `:black_circle:`{:.language-markdown .highlight}      |
 
 ### image
 
