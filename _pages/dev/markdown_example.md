@@ -7,10 +7,6 @@ published: true
 hidden: false
 ---
 
-<head>
-  <base target="_blank">
-</head>
-
 ## text
 
 ### emphasis
@@ -190,8 +186,8 @@ print(os.getcwd())
 
 | title | syntax | output |
 | :-    | :-     | :-     |
-| with title    | `[title](https://github.com/)`{:.language-markdown .highlight} | [title](https://github.com/) |
-| without title | `<https://github.com/>`{:.language-markdown .highlight} | <https://github.com/> |
+| with title    | `[title](https://github.com/)`{:.language-markdown .highlight} | [title](https://github.com/){:target="\_blank"} |
+| without title | `<https://github.com/>`{:.language-markdown .highlight} | <https://github.com/>{:target="\_blank"} |
 
 #### target
 
@@ -207,7 +203,7 @@ print(os.getcwd())
 
 [github_mark]: https://github.com/
 ```
-[inline](https://github.com/) | [reference][github_mark]
+[inline](https://github.com/){:target="\_blank"} | [reference][github_mark]{:target="\_blank"}
 
 [github_mark]: https://github.com/
 
@@ -230,4 +226,4 @@ print(os.getcwd())
 ```markdown
 ![GitHub](https://bit.ly/3kteNDj){:width="50%"}
 ```
-![GitHub](https://bit.ly/3kteNDj){:width="50%"}
+![GitHub](https://bit.ly/3kteNDj){:width="50%"}{:target="\_blank"}
