@@ -19,7 +19,6 @@ hidden: false
   "symbolsGroups": [
     {
       "name": "시장",
-      "originalName": "Indices",
       "symbols": [
         {"name": "AMEX:VT",   "displayName": "VT"},
         {"name": "AMEX:EDC",  "displayName": "EDC"},
@@ -28,7 +27,7 @@ hidden: false
         {"name": "AMEX:RUSL", "displayName": "RUSL"},
         {"name": "AMEX:YINN", "displayName": "YINN"}
       ]
-    },
+    }
   ],
   "showSymbolLogo": false,
   "colorTheme": "dark",
