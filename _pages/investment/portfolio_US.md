@@ -80,6 +80,36 @@ hidden: false
 | VIX     | -X  | SVXY | [ProShares](https://www.webull.com/quote/bats-svxy) |
 |         | +X  | UVXY | [ProShares](https://www.webull.com/quote/bats-uvxy) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:UDOW",   "displayName": "UDOW"},
+        {"name": "AMEX:SDOW",   "displayName": "SDOW"},
+        {"name": "AMEX:TQQQ",   "displayName": "TQQQ"},
+        {"name": "AMEX:SQQQ",   "displayName": "SQQQ"},
+        {"name": "AMEX:UPRO",   "displayName": "UPRO"},
+        {"name": "AMEX:SPXU",   "displayName": "SPXU"},
+        {"name": "AMEX:MIDU",   "displayName": "MIDU"},
+        {"name": "AMEX:URTY",   "displayName": "URTY"},
+        {"name": "AMEX:SRTY",   "displayName": "SRTY"},
+        {"name": "AMEX:TNA",    "displayName": "TNA"},
+        {"name": "AMEX:TZA",    "displayName": "TZA"},
+        {"name": "AMEX:SVXY",   "displayName": "SVXY"},
+        {"name": "AMEX:UVXY",   "displayName": "UVXY"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## 평가
 
 | 대상 | 유형 | Ticker | 차트 |
