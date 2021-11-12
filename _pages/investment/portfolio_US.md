@@ -409,6 +409,29 @@ hidden: false
 |              | LEGR | [First Trust](https://www.webull.com/quote/nasdaq-legr) |
 |              | BKCH | [Global X](https://www.webull.com/quote/nasdaq-bkch) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:BITO",     "displayName": "BITO"},
+        {"name": "AMEX:BITQ",     "displayName": "BITQ"},
+        {"name": "AMEX:BLOK",     "displayName": "BLOK"},
+        {"name": "AMEX:BLCN",     "displayName": "BLCN"},
+        {"name": "AMEX:LEGR",     "displayName": "LEGR"},
+        {"name": "AMEX:BKCH",     "displayName": "BKCH"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## 산업
 
 | 대상 | 유형 | Ticker | 차트 |
@@ -423,6 +446,32 @@ hidden: false
 | 운송      | +3X | TPOR | [Direxion](https://www.webull.com/quote/nysearca-tpor) |
 | 벌크 화물 | | BDRY | [Breakwave](https://www.webull.com/quote/nysearca-bdry) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:JETS",     "displayName": "JETS"},
+        {"name": "AMEX:DFEN",     "displayName": "DFEN"},
+        {"name": "AMEX:DUSL",     "displayName": "DUSL"},
+        {"name": "AMEX:PAVE",     "displayName": "PAVE"},
+        {"name": "AMEX:NAIL",     "displayName": "NAIL"},
+        {"name": "AMEX:DRN",      "displayName": "DRN"},
+        {"name": "AMEX:DRV",      "displayName": "DRV"},
+        {"name": "AMEX:TPOR",     "displayName": "TPOR"},
+        {"name": "AMEX:BDRY",     "displayName": "BDRY"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## 바이오
 
 | 대상 | 유형 | Ticker | 차트 |
@@ -431,6 +480,28 @@ hidden: false
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu) |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd) |
 | 헬스케어 | +3X | CURE | [Direxion](https://www.webull.com/quote/nysearca-cure) |
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:PILL",     "displayName": "PILL"},
+        {"name": "AMEX:LABU",     "displayName": "LABU"},
+        {"name": "AMEX:LABD",     "displayName": "LABD"},
+        {"name": "AMEX:CURE",     "displayName": "CURE"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 
 ## 소비
 
@@ -443,6 +514,28 @@ hidden: false
 | 소비재 | +2X | UGE | [ProShares](https://www.webull.com/quote/nysearca-uge) |
 |        | -2X | SZK | [ProShares](https://www.webull.com/quote/nysearca-szk) |
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:SPDR",     "displayName": "SPDR"},
+        {"name": "AMEX:WANT",     "displayName": "WANT"},
+        {"name": "AMEX:IYC",     "displayName": "IYC"},
+        {"name": "AMEX:UGE",     "displayName": "UGE"},
+        {"name": "AMEX:SZK",     "displayName": "SZK"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
+
 ## ARK
 
 | 대상 | Ticker | 차트 |
@@ -453,3 +546,26 @@ hidden: false
 | 핀테크 | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf) |
 | 우주   | ARKX | [ARK](https://www.webull.com/quote/bats-arkx) |
 | 유전   | ARKG | [ARK](https://www.webull.com/quote/bats-arkg) 
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+  "width": "600",
+  "height": "230",
+  "symbolsGroups": [
+    {
+      "symbols": [
+        {"name": "AMEX:ARKK",     "displayName": "ARKK"},
+        {"name": "AMEX:ARKQ",     "displayName": "ARKQ"},
+        {"name": "AMEX:ARKW",     "displayName": "ARKW"},
+        {"name": "AMEX:ARKF",     "displayName": "ARKF"},
+        {"name": "AMEX:ARKX",     "displayName": "ARKX"},
+        {"name": "AMEX:ARKG",     "displayName": "ARKG"}
+      ]
+    }
+  ],
+  "showSymbolLogo": false,
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en"
+}
+</script>
