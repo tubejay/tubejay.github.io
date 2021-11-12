@@ -87,19 +87,19 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:UDOW",   "displayName": "UDOW"},
-        {"name": "AMEX:SDOW",   "displayName": "SDOW"},
-        {"name": "AMEX:TQQQ",   "displayName": "TQQQ"},
-        {"name": "AMEX:SQQQ",   "displayName": "SQQQ"},
-        {"name": "AMEX:UPRO",   "displayName": "UPRO"},
-        {"name": "AMEX:SPXU",   "displayName": "SPXU"},
-        {"name": "AMEX:MIDU",   "displayName": "MIDU"},
-        {"name": "AMEX:URTY",   "displayName": "URTY"},
-        {"name": "AMEX:SRTY",   "displayName": "SRTY"},
-        {"name": "AMEX:TNA",    "displayName": "TNA"},
-        {"name": "AMEX:TZA",    "displayName": "TZA"},
-        {"name": "AMEX:SVXY",   "displayName": "SVXY"},
-        {"name": "AMEX:UVXY",   "displayName": "UVXY"}
+        {"name": "AMEX:UDOW",     "displayName": "UDOW"},
+        {"name": "AMEX:SDOW",     "displayName": "SDOW"},
+        {"name": "NASDAQ:TQQQ",   "displayName": "TQQQ"},
+        {"name": "NASDAQ:SQQQ",   "displayName": "SQQQ"},
+        {"name": "AMEX:UPRO",     "displayName": "UPRO"},
+        {"name": "AMEX:SPXU",     "displayName": "SPXU"},
+        {"name": "AMEX:MIDU",     "displayName": "MIDU"},
+        {"name": "AMEX:URTY",     "displayName": "URTY"},
+        {"name": "AMEX:SRTY",     "displayName": "SRTY"},
+        {"name": "AMEX:TNA",      "displayName": "TNA"},
+        {"name": "AMEX:TZA",      "displayName": "TZA"},
+        {"name": "AMEX:SVXY",     "displayName": "SVXY"},
+        {"name": "AMEX:UVXY",     "displayName": "UVXY"}
       ]
     }
   ],
@@ -122,7 +122,7 @@ hidden: false
 |     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf) |
 | 방어 | 채권+옵션 | SWAN | [Amplify](https://www.webull.com/quote/nysearca-swan) |
 |     | 주식+채권+현금 | DMRL | [DeltaShares](https://www.webull.com/quote/nysearca-dmrl) |
-|     | 주식+채권     | MTSX | [WisdomTree](https://www.webull.com/quote/nysearca-ntsx) |
+|     | 주식+채권     | NTSX | [WisdomTree](https://www.webull.com/quote/nysearca-ntsx) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -139,7 +139,7 @@ hidden: false
         {"name": "AMEX:IWF",    "displayName": "IWF"},
         {"name": "AMEX:SWAN",   "displayName": "SWAN"},
         {"name": "AMEX:DMRL",   "displayName": "DMRL"},
-        {"name": "AMEX:MTSX",   "displayName": "MTSX"}
+        {"name": "AMEX:NTSX",   "displayName": "NTSX"}
       ]
     }
   ],
@@ -261,15 +261,15 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:ICLN",     "displayName": "ICLN"},
-        {"name": "AMEX:QCLN",     "displayName": "QCLN"},
-        {"name": "AMEX:TAN",      "displayName": "TAN"},
-        {"name": "AMEX:FAN",      "displayName": "FAN"},
-        {"name": "AMEX:PHO",      "displayName": "PHO"},
-        {"name": "AMEX:CRBN",     "displayName": "CRBN"},
-        {"name": "AMEX:KRBN",     "displayName": "KRBN"},
-        {"name": "AMEX:LIT",      "displayName": "LIT"},
-        {"name": "AMEX:GRID",     "displayName": "GRID"}
+        {"name": "NASDAQ:ICLN",     "displayName": "ICLN"},
+        {"name": "NASDAQ:QCLN",     "displayName": "QCLN"},
+        {"name": "AMEX:TAN",        "displayName": "TAN"},
+        {"name": "AMEX:FAN",        "displayName": "FAN"},
+        {"name": "NASDAQ:PHO",      "displayName": "PHO"},
+        {"name": "AMEX:CRBN",       "displayName": "CRBN"},
+        {"name": "AMEX:KRBN",       "displayName": "KRBN"},
+        {"name": "AMEX:LIT",        "displayName": "LIT"},
+        {"name": "NASDAQ:GRID",     "displayName": "GRID"}
       ]
     }
   ],
@@ -419,9 +419,9 @@ hidden: false
         {"name": "AMEX:BITO",     "displayName": "BITO"},
         {"name": "AMEX:BITQ",     "displayName": "BITQ"},
         {"name": "AMEX:BLOK",     "displayName": "BLOK"},
-        {"name": "AMEX:BLCN",     "displayName": "BLCN"},
-        {"name": "AMEX:LEGR",     "displayName": "LEGR"},
-        {"name": "AMEX:BKCH",     "displayName": "BKCH"}
+        {"name": "NASDAQ:BLCN",     "displayName": "BLCN"},
+        {"name": "NASDAQ:LEGR",     "displayName": "LEGR"},
+        {"name": "NASDAQ:BKCH",     "displayName": "BKCH"}
       ]
     }
   ],
@@ -521,11 +521,12 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:SPDR",     "displayName": "SPDR"},
+        {"name": "AMEX:RETL",     "displayName": "RETL"},
+        {"name": "AMEX:XLP",      "displayName": "XLP"},
         {"name": "AMEX:WANT",     "displayName": "WANT"},
-        {"name": "AMEX:IYC",     "displayName": "IYC"},
-        {"name": "AMEX:UGE",     "displayName": "UGE"},
-        {"name": "AMEX:SZK",     "displayName": "SZK"}
+        {"name": "AMEX:IYC",      "displayName": "IYC"},
+        {"name": "AMEX:UGE",      "displayName": "UGE"},
+        {"name": "AMEX:SZK",      "displayName": "SZK"}
       ]
     }
   ],
