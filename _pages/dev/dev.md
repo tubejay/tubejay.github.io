@@ -18,18 +18,18 @@ hidden: false
     Dev
   </div>
 </font>
-<br>
+
 <br>
 
 <font size="3">
 <div markdown="1">
 
-[VS Code](/dev/vs_code)
-<br>
+🟨 [VS Code](/dev/vs_code)
+
 <br>
 
-[Web Publishing](/dev/web_publishing)
-<br>
+🟨 [Web Publishing](/dev/web_publishing)
+
 <br>
 
 </div>
