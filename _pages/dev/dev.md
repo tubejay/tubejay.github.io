@@ -2,7 +2,7 @@
 title: "dev"
 layout: splash
 classes: wide
-toc: true
+toc: false
 permalink: /dev
 published: true
 hidden: false
