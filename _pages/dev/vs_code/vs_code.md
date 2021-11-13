@@ -7,22 +7,18 @@ published: true
 hidden: false
 ---
 
-## Microsoft
+<head>
+  <base target="_self">
+</head>
 
-<div target="_blank" markdown="1">
+## Microsoft
   
-  - [documentation](https://code.visualstudio.com/docs)
-  - [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
-  - [web version](https://code.visualstudio.com/docs/editor/vscode-web)
-  
-</div>
+- [documentation](https://code.visualstudio.com/docs){:target="_blank"}
+- [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
+- [web version](https://code.visualstudio.com/docs/editor/vscode-web){:target="_blank"}
 
 ## Personalize
 
-<div target="_self" markdown="1">
-  
-  - [Extension](/dev/vs_code/personalize/extension)
-  - [Color Theme](/dev/vs_code/personalize/color_theme)
-  - [Setting](/dev/vs_code/personalize/setting)
-  
-</div>
+- [Extension](/dev/vs_code/personalize/extension)
+- [Color Theme](/dev/vs_code/personalize/color_theme)
+- [Setting](/dev/vs_code/personalize/setting)
