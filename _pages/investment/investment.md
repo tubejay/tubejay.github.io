@@ -1,5 +1,5 @@
 ---
-title: "investment"
+title: "Investment"
 layout: splash
 classes: wide
 toc: false
@@ -15,7 +15,7 @@ hidden: false
 <br>
 <font size="5"> 
   <div style="font-weight:bold;">
-    investment
+    Investment
   </div>
 </font>
 <br>
