@@ -1,7 +1,6 @@
 ---
 title: "Dev"
-layout: splash
-classes: wide
+layout: single
 toc: false
 permalink: /dev
 published: true
