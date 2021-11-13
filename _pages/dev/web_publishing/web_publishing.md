@@ -28,7 +28,7 @@ hidden: false
 
 ### example
 
-- [example](/dev/markdown_example){:target="\_self"}
+- [example](/dev/web_publishing/markdown/example){:target="\_self"}
 
 ## Study
 
