@@ -17,4 +17,4 @@ hidden: false
 - [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [web version](https://code.visualstudio.com/docs/editor/vscode-web)
 
-## [Extension](/dev/vs_code/extension){:target="_self"}
+## [Personalize](/dev/vs_code/personalize){:target="_self"}
