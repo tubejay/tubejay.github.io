@@ -20,8 +20,6 @@ hidden: false
 |     | Investing.com | [Investing.com](https://m.investing.com/) |
 |     | TradingView   | [TradingView](https://www.tradingview.com/) |
 
-***
-***
 
 ### 시황
 
@@ -34,8 +32,6 @@ hidden: false
 | 수익률    | [한국거래소 ETF : 수익률](https://m.post.naver.com/my/series/detail.naver?seriesNo=212549&memberNo=32787516) |
 |          | [키움증권 : 마켓이슈&종목전략](https://m.post.naver.com/my/series/detail.naver?seriesNo=193543&memberNo=30473277) |
 
-***
-***
 
 ### 언론
 
@@ -46,8 +42,6 @@ hidden: false
 | 리서치/칼럼 | [네이버 증권 : 리서치](https://m.stock.naver.com/index.html#/research/invest) |
 |           | [다음 증권 : 증시칼럼](https://m.finance.daum.net/investment/stock_market) |
 
-***
-***
 
 ### 시장
 
@@ -65,8 +59,6 @@ hidden: false
 |            | [삼성증권 : 2021 한국주식시장](https://m.post.naver.com/my/series/detail.naver?seriesNo=633668&memberNo=1553580) |
 |            | [경기·물가·금리로 분석하는 투자 : 경기물가금리 뉴스](https://m.blog.naver.com/choicfa?categoryNo=6) |
 
-***
-***
 
 ### 종목
 
@@ -89,8 +81,6 @@ hidden: false
 |          | [삼성자산운용 : KODEX ETF 신규상장](https://m.blog.naver.com/kodex_r2?categoryNo=6) |
 |          | [킴찹의 하루살이 : 국내주식 공모주](https://m.blog.naver.com/ssibar1188?categoryNo=43) |
 
-***
-***
 
 ### 기초/투자/분석
 
