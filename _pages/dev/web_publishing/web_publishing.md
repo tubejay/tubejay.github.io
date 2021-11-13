@@ -11,9 +11,7 @@ hidden: false
   <base target="_blank">
 </head>
 
-## Markdown
-
-- [markdown](/dev/web_publishing/markdown){:target="_self"}
+## [markdown](/dev/web_publishing/markdown){:target="_self"}
 
 ## Study
 
