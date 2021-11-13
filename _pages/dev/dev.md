@@ -1,5 +1,5 @@
 ---
-title: "dev"
+title: "Dev"
 layout: splash
 classes: wide
 toc: false
@@ -15,7 +15,7 @@ hidden: false
 <br>
 <font size="5"> 
   <div style="font-weight:bold;">
-    dev
+    Dev
   </div>
 </font>
 <br>
