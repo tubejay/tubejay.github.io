@@ -37,20 +37,23 @@ hidden: false
 | | Match Rgb With No Function: No |
 | | Match Words: Yes |
 
-
 ## markdown
 
-### [Markdown Extended](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended)
-### [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
-### [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
-### [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
-### [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+| name | recommended settings |
+| :-   | :-                   |
+| [Markdown Extended](https://marketplace.visualstudio.com/items?itemName=jebbs.markdown-extended) | - |
+| [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji) | - |
+| [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath) | Enables: Yes |
+| [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) | Enable HTML: Yes |
 
 ## miscellaneous
 
-### [Change String Case](https://marketplace.visualstudio.com/items?itemName=maximus136.change-string-case)
-### [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
-### [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode)
+| name | recommended settings |
+| :-   | :-                   |
+| [Change String Case](https://marketplace.visualstudio.com/items?itemName=maximus136.change-string-case) | - |
+| [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter) | Dialect: pl/sql |
+| | Uppercase: Yes |
+| [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode) | - |
 
 ## color theme
 
