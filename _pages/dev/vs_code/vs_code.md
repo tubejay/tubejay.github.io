@@ -11,9 +11,6 @@ hidden: false
   <base target="_blank">
 </head>
 
-## VS Code
-
-VS Code
 - [documentation](https://code.visualstudio.com/docs)
 - [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [web version](https://code.visualstudio.com/docs/editor/vscode-web)
