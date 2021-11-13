@@ -11,6 +11,6 @@ hidden: false
   <base target="_self">
 </head>
 
-### [VS Code](/dev/vs_code)
+## [VS Code](/dev/vs_code)
 
-### [Web Publishing](/dev/web_publishing)
+## [Web Publishing](/dev/web_publishing)
