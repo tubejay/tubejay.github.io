@@ -18,7 +18,7 @@ hidden: false
     Investment
   </div>
 </font>
-<br>
+
 <br>
 
 <font size="3">
@@ -30,14 +30,12 @@ hidden: false
 - [website_US](/investment/website_US)
   
 <br>
-<br>
 
 🟨 portfolio
 
 - [portfolio_KR](/investment/portfolio_KR)
 - [portfolio_US](/investment/portfolio_US)
   
-<br>
 <br>
 
 </div>
