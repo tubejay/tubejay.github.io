@@ -26,8 +26,6 @@ hidden: false
 |             | [Single Ticker](https://www.tradingview.com/widget/single-ticker/) |
 |             | [Technical Analysis](https://www.tradingview.com/widget/technical-analysis/) |
 
-***
-***
 
 ### 시황
 
@@ -42,8 +40,6 @@ hidden: false
 |      | [Yahoo Finance : Latest Stock Market News](https://finance.yahoo.com/topic/stock-market-news) |
 |      | [ETF DATABASE : News](https://etfdb.com/news/) |
 
-***
-***
 
 ### 시장
 
@@ -56,8 +52,6 @@ hidden: false
 | 지구별 생존기 | [투자 용어](https://lljjww.tistory.com/category/%ED%88%AC%EC%9E%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0/%ED%88%AC%EC%9E%90%20%EC%9A%A9%EC%96%B4) |
 |              | [투자 공부](https://lljjww.tistory.com/category/%ED%88%AC%EC%9E%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0/%ED%88%AC%EC%9E%90%20%EA%B3%B5%EB%B6%80) |
 
-***
-***
 
 ### ETF
 
@@ -82,8 +76,6 @@ hidden: false
 |      | [미국주식 X 미국개미 - 미국ETF](https://usant.tistory.com/category/%EB%AF%B8%EA%B5%ADETF) |
 |      | [지구별 생존기 - ETF, 개별주식종목 정보](https://lljjww.tistory.com/category/%ED%88%AC%EC%9E%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0/ETF%2C%20%EA%B0%9C%EB%B3%84%EC%A3%BC%EC%8B%9D%EC%A2%85%EB%AA%A9%20%EC%A0%95%EB%B3%B4) |
 
-***
-***
 
 ### 종목
 
