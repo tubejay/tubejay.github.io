@@ -21,8 +21,11 @@ hidden: false
 
 ## bracket
 
-### [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
-### [Bracket Lens](https://marketplace.visualstudio.com/items?itemName=wraith13.bracket-lens)
+| name | recommended settings |
+| :-   | :-                   |
+| [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) | - |
+| [Bracket Lens](https://marketplace.visualstudio.com/items?itemName=wraith13.bracket-lens) | Min Bracket Header Length: 2 |
+| | Mode: 2 |
 
 ## highlight
 
