@@ -29,8 +29,14 @@ hidden: false
 
 ## highlight
 
-### [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-### [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+| name | recommended settings |
+| :-   | :-                   |
+| [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) | - |
+| [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | Marker Type: background |
+| | Mark Ruler: No |
+| | Match Rgb With No Function: No |
+| | Match Words: Yes |
+
 
 ## markdown
 
