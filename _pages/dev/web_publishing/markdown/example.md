@@ -1,8 +1,8 @@
 ---
-title: "markdown_example"
+title: "example"
 layout: single
 toc: true
-permalink: /dev/markdown_example
+permalink: /dev/web_publishing/markdown/example
 published: true
 hidden: false
 ---
