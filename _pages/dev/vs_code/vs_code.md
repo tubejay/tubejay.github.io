@@ -9,16 +9,20 @@ hidden: false
 
 ## Microsoft
 
-<div target="_blank">
-- [documentation](https://code.visualstudio.com/docs)
-- [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
-- [web version](https://code.visualstudio.com/docs/editor/vscode-web)
+<div target="_blank" markdown="1">
+  
+  - [documentation](https://code.visualstudio.com/docs)
+  - [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+  - [web version](https://code.visualstudio.com/docs/editor/vscode-web)
+  
 </div>
 
 ## Personalize
 
-<div target="_self">
-- [Extension](/dev/vs_code/personalize/extension)
-- [Color Theme](/dev/vs_code/personalize/color_theme)
-- [Setting](/dev/vs_code/personalize/setting)
+<div target="_self" markdown="1">
+  
+  - [Extension](/dev/vs_code/personalize/extension)
+  - [Color Theme](/dev/vs_code/personalize/color_theme)
+  - [Setting](/dev/vs_code/personalize/setting)
+  
 </div>
