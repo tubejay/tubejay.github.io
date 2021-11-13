@@ -1,6 +1,7 @@
 ---
 title: "example"
 layout: single
+classes: wide
 toc: true
 permalink: /dev/web_publishing/markdown/example
 published: true
