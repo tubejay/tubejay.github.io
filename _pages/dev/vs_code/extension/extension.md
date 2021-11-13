@@ -16,7 +16,7 @@ hidden: false
 | name | recommended settings |
 | :-   | :-                   |
 | [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | Update Delay: 0 |
-| [Indented Block Highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting) | Is Whole Line: - [x] |
+| [Indented Block Highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting) | Is Whole Line: Yes |
 | [Smart Column Indenter](https://marketplace.visualstudio.com/items?itemName=lmcarreiro.vscode-smart-column-indenter) | - |
 
 ## bracket
