@@ -1,1 +1,5 @@
-# [tubejay.github.io](http://tubejay.github.io/){:target="\_blank"}
+<head>
+  <base target="\_blank">
+</head>
+
+# [tubejay.github.io](http://tubejay.github.io/)
