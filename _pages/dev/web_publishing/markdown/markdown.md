@@ -24,6 +24,4 @@ hidden: false
 - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 - [typora](https://typora.io/)
 
-## example
-
-- [example](/dev/web_publishing/markdown/example)
+## [example](/dev/web_publishing/markdown/example)
