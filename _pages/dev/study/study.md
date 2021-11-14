@@ -20,6 +20,7 @@ hidden: true
 - [코딩도장](https://dojang.io/)
 - [IDRE](https://stats.idre.ucla.edu/)
 - [sololearn](https://www.sololearn.com/learning)
+- [Khan Academy](https://www.khanacademy.org/)
 
 ### Course
 
@@ -29,6 +30,9 @@ hidden: true
 - [edwith](https://www.edwith.org/)
 - [프로그래머스](https://programmers.co.kr/learn?tag=%EB%AA%A8%EB%93%A0%20%EC%BD%94%EC%8A%A4)
 - [coursera](https://www.coursera.org/)
+- [edX](https://www.edx.org/)
+- [Udacity](https://www.udacity.com/)
+- [udemy](https://www.udemy.com/)
 
 ## Python
 
