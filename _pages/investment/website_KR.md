@@ -12,13 +12,13 @@ hidden: false
 
 ### 차트
 
-| 분류 | 사이트 | 링크 |
-| :- | :- | :- |
-| 국내 | 증권플러스 | [증권플러스](https://stockplus.com/m) |
-|     | 알파스퀘어 | [알파스퀘어](https://alphasquare.co.kr/) |
-| 해외 | Webull        | [Webull](https://www.webull.com/) |
-|     | Investing.com | [Investing.com](https://m.investing.com/) |
-|     | TradingView   | [TradingView](https://www.tradingview.com/) |
+| 분류 | 링크 |
+| :- | :- |
+| 국내 | [증권플러스](https://stockplus.com/m) |
+|     | [알파스퀘어](https://alphasquare.co.kr/) |
+| 해외 | [Webull](https://www.webull.com/) |
+|     | [Investing.com](https://m.investing.com/) |
+|     | [TradingView](https://www.tradingview.com/) |
 
 
 ### 시황
