@@ -2,7 +2,7 @@
 title: "Data Analysis"
 layout: single
 toc: false
-permalink: /dev/data_analysis
+permalink: /dev/arkiv/data_analysis
 published: false
 hidden: true
 ---
