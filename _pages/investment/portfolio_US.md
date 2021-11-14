@@ -115,7 +115,7 @@ hidden: false
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
 | S&P500 하이 베타 | +3X | HIBL | [Direxion](https://www.webull.com/quote/nysearca-hibl) |
-|                  | +3X | HIBS | [Direxion](https://www.webull.com/quote/nysearca-hibs) |
+|                  | -3X | HIBS | [Direxion](https://www.webull.com/quote/nysearca-hibs) |
 | 가치 | 종합 | AVUS | [Avantis](https://www.webull.com/quote/nysearca-avus) |
 |     | 대형 | VTV  | [Vanguard](https://www.webull.com/quote/nysearca-vtv) |
 | 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv) |
