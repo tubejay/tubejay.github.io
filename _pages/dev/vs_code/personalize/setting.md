@@ -7,4 +7,3 @@ published: true
 hidden: false
 ---
 
-setting
