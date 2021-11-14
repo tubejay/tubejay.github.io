@@ -2,7 +2,7 @@
 title: Career
 layout: single
 toc: false
-permalink: /dev/career
+permalink: /dev/arkiv/career
 published: false
 hidden: true
 ---
