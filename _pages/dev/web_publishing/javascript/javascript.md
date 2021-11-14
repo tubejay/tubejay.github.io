@@ -24,7 +24,7 @@ hidden: false
 - Web
   - [웹브라우저 Javascript](https://www.inflearn.com/course/javascript-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%95%EC%A2%8C)
 - Programming/Web
-  - [ofcourse](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
+  - [ofcourse - JavaScript 입문](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
   - [WEB2 - JavaScript](https://www.inflearn.com/course/web2-javascript)
   - [try! helloworld 자바스크립트](https://thebook.io/006894/)
 
