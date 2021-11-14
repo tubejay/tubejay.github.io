@@ -15,21 +15,22 @@ hidden: false
 
 - [codepen](https://codepen.io/)
 
+## HTML
+
+- [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8)
+- [생활코딩 - HTML 기초](https://www.inflearn.com/course/html-%EA%B8%B0%EC%B4%88)
+- [기본을 확실히!! HTML의 모든 것](https://www.inflearn.com/course/html-%EA%B8%B0%EB%B3%B8)
+
+## CSS
+
+- [ofcourse](https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8)
+- [CSS 기본부터 활용까지](https://www.inflearn.com/course/css-%EA%B8%B0%EB%B3%B8%EB%B6%80%ED%84%B0-%ED%99%9C%EC%9A%A9%EA%B9%8C%EC%A7%80)
+- [WEB2 - CSS](https://www.inflearn.com/course/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9%EC%9D%98-web2%EC%8B%9C%EB%A6%AC%EC%A6%88)
+
 ## HTML/CSS
 
-- HTML
-  - [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8)
-- CSS
-  - [ofcourse](https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8)
-- HTML/CSS
-  - [모두의 HTML5 & CSS3](https://thebook.io/006943/)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
-
-## JavaScript
-
-- [ofcourse](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
-- [try! helloworld 자바스크립트](https://thebook.io/006894/)
-- [Let's Get IT 자바스크립트 프로그래밍](https://thebook.io/080270/)
+- [모두의 HTML5 & CSS3](https://thebook.io/006943/)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
 ## Python
 
