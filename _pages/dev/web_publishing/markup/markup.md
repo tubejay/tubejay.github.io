@@ -18,7 +18,8 @@ hidden: false
 ## HTML/CSS
 
 - HTML
-  - [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B- CSS
+  - [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B)
+- CSS
   - [ofcourse](https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8)
 - HTML/CSS
   - [모두의 HTML5 & CSS3](https://thebook.io/006943/)
@@ -28,7 +29,7 @@ hidden: false
 
 - [ofcourse](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
 - [try! helloworld 자바스크립트](https://thebook.io/006894/)
-- [Let's Get IT 자바스크립트 프로그래밍](https://thebook.io/08027
+- [Let's Get IT 자바스크립트 프로그래밍](https://thebook.io/08027)
 
 ## Python
 
