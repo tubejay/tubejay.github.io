@@ -69,6 +69,18 @@ hidden: true
 - [4. 파이썬을 이용한 데이터베이스 처리](https://www.edwith.org/python-databases/)
 - [5. 캡스톤 : 파이썬을 이용한 데이터 검색, 처리 및 시각화](https://www.edwith.org/python-capston/)
 
+## R
+
+- [R프로그래밍 기초 다지기](https://www.inflearn.com/course/R-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EC%B4%88)
+- R 프로그램
+  - [시즌 1](https://www.inflearn.com/course/r-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%9C%EC%A6%8C-1)
+  - [시즌 2](https://www.inflearn.com/course/r-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%9C%EC%A6%8C2)
+  - [시즌 2 YouTube](https://youtube.com/playlist?list=PLupRxDNsA2DROak0sPSReYyIInnEjuXxw)
+- [Statistics with R](https://www.coursera.org/specializations/statistics)
+- [R을 이용한 데이터 처리 & 분석 실무](https://thebook.io/006723/)
+- [Must Learning with R](https://wikidocs.net/book/4315)
+- [실무위주의 R](https://wikidocs.net/book/3792)
+
 ## Data Analysis
 
 ### Document
@@ -137,6 +149,8 @@ hidden: true
   - [Introductory Statistics with Randomization and Simulation](https://www.openintro.org/book/isrs/)
   - [Advanced High School Statistics](https://www.openintro.org/book/ahss/)
   - [Introductory Statistics for the Life and Biomedical Sciences](https://www.openintro.org/book/biostat/)
+- Udacity
+  - [Intro to Inferential Statistics](https://www.udacity.com/course/intro-to-inferential-statistics--ud201)
 - 류근관 경제통계학
   - [경제통계학 1부 : 그림과 수치를 이용한 자료의 정리](http://www.kmooc.kr/courses/course-v1:SNUk+SNU212_204_1k+2020_T2/video)
   - [경제통계학 2부 - 통계적 추론을 위한 개념, 도구, 사례](http://www.kmooc.kr/courses/course-v1:SNUk+SNU212.204.2k+2020_T2/video)
