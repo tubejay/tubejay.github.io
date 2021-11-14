@@ -36,10 +36,13 @@ hidden: true
 
 ## Python
 
-### Document
+### GitHub
 
 - [Best-of Python](https://github.com/ml-tooling/best-of-python)
 - [Best-of Python Developer Tools](https://github.com/ml-tooling/best-of-python-dev)
+
+### Document
+
 - [점프 투 파이썬](https://wikidocs.net/book/1)
 - [왕초보를 위한 Python](https://wikidocs.net/book/2)
 - [레벨업 파이썬](https://wikidocs.net/book/4170)
