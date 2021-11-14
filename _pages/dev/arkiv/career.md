@@ -21,3 +21,4 @@ hidden: true
 - [프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 - [백준](https://www.acmicpc.net/)
 - [SW Expert Academy](https://swexpertacademy.com/main/code/problem/problemList.do)
+- [코딩테스트 준비 사이트 모음집](https://velog.io/@jeon3029/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A4%80%EB%B9%84-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%AA%A8%EC%9D%8C%EC%A7%91%EB%8B%A8%EC%88%9C%EB%A7%81%ED%81%AC%EB%A7%8C)
