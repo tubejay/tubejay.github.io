@@ -15,6 +15,8 @@ hidden: false
 
 ## [Markup](/dev/web_publishing/markup){:target="_self"}
 
+## [JavaScript](/dev/web_publishing/javascript){:target="_self"}
+
 ## Miscellaneous
 
 ### Share Code
