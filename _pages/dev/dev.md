@@ -16,3 +16,5 @@ hidden: false
 ## [Web Publishing](/dev/web_publishing)
 
 ## [Font](/dev/font)
+
+## [GitHub Pages](/dev/github_pages)
