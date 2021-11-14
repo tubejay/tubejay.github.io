@@ -11,17 +11,17 @@ hidden: false
   <base target="_blank">
 </head>
 
-## recommended
+## Recommended
 
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 - [IBM Plex](https://www.ibm.com/plex/)
 
-## compare
+## Compare
 
 - [Programming Fonts](https://www.programmingfonts.org/)
 - [Dev Fonts](https://devfonts.gafi.dev/)
 
-## license
+## License
 
 - [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?id=OFL)
 - [Apache License](http://www.apache.org/licenses/LICENSE-2.0.html)
