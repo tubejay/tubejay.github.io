@@ -2,7 +2,7 @@
 title: Study
 layout: single
 toc: false
-permalink: /dev/study
+permalink: /dev/arkiv/study
 published: false
 hidden: true
 ---
