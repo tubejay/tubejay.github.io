@@ -44,23 +44,7 @@ hidden: true
 
 ### [Database](/dev/arkiv/study/database){:target="_self"}
 
-## Web
-
-### Web Publishing
-
-- [ofcourse](https://ofcourse.kr/)
-- [모두의 HTML5 & CSS3](https://thebook.io/006943/)
-- [codepen](https://codepen.io/)
-
-### Python
-
-- Web Publishing
-  - [점프 투 장고](https://wikidocs.net/book/4223)
-  - [점프 투 플라스크](https://wikidocs.net/book/4542)
-  - [Best-of Web Development with Python](https://github.com/ml-tooling/best-of-web-python)
-- Web Crawling
-  - [scrapy](https://docs.scrapy.org/en/latest/)
-  - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+### [Web Publishing](/dev/web_publishing){:target="_self"}
 
 ## Miscellaneous
 
