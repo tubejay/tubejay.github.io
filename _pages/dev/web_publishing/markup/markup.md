@@ -18,7 +18,7 @@ hidden: false
 ## HTML/CSS
 
 - HTML
-  - [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B)
+  - [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8)
 - CSS
   - [ofcourse](https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8)
 - HTML/CSS
