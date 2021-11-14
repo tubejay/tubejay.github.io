@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
 </head>
 
-## 블로그
+## Start
   - [jekyll remote theme](https://dreamgonfly.github.io/blog/jekyll-remote-theme/)
   - [같이 따라하기 시리즈](https://devinlife.com/howto/)
 
