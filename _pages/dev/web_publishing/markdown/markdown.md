@@ -23,5 +23,6 @@ hidden: false
 - [VS Code](https://code.visualstudio.com/docs/languages/markdown)
 - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 - [typora](https://typora.io/)
+  - [Math and Academic Functions](https://support.typora.io/Math/)
 
 ## [example](/dev/web_publishing/markdown/example)
