@@ -95,6 +95,7 @@ hidden: true
 - [BayesianOptimization](https://github.com/fmfn/BayesianOptimization)
 - [Bayesian Optimization](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=dpfkdlt&logNo=221678800067)
 - [Hyperparameter Tuning in Python: a Complete Guide 2021](https://neptune.ai/blog/hyperparameter-tuning-in-python-a-complete-guide-2020)
+- [AutoML](https://www.automl.org/)
 
 ### Information Theory
 
