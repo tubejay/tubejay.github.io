@@ -36,6 +36,7 @@ hidden: true
 
 - [scipy.fft](https://docs.scipy.org/doc/scipy/reference/tutorial/fft.html)
 - [librosa](https://librosa.org/doc/latest/core.html)
+- [Dynamic Time Wrap](https://dynamictimewarping.github.io/)
 
 ## [Visualization](/dev/arkiv/data_analysis/visualization){:target="_self"}
 
