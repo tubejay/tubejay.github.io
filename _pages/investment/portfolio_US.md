@@ -545,7 +545,7 @@ hidden: false
         {"name": "AMEX:IYC",      "displayName": "IYC"},
         {"name": "AMEX:UGE",      "displayName": "UGE"},
         {"name": "AMEX:SZK",      "displayName": "SZK"},
-        {"name": "AMEX:ESPO",     "displayName": "ESPO"}
+        {"name": "NASDAQ:ESPO",   "displayName": "ESPO"}
       ]
     }
   ],
