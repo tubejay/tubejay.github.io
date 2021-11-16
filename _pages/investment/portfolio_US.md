@@ -154,7 +154,8 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 테크 | +3X | TECL | [Direxion](https://www.webull.com/quote/nysearca-tecl) |
+| 테크 | +3X | BULZ | [MicroSectors](https://www.webull.com/quote/nysearca-bulz) |
+|     | +3X | TECL | [Direxion](https://www.webull.com/quote/nysearca-tecl) |
 |     | -3X | TECS | [Direxion](https://www.webull.com/quote/nysearca-tecs) |
 | FANG | +3X | FNGU | [MicroSectors](https://www.webull.com/quote/nysearca-fngu) |
 |      | -3X | FNGD | [MicroSectors](https://www.webull.com/quote/nysearca-fngd) |
@@ -162,6 +163,9 @@ hidden: false
 |       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs) |
 | 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot) |
 | 통신 | +2X | LTL | [ProShares](https://www.webull.com/quote/nysearca-ltl) |
+| 미래차 | 종합 | KARS | [KraneShares](https://www.webull.com/quote/nysearca-kars) |
+|       | 자율주행 | DRIV | [Global X](https://www.webull.com/quote/nasdaq-driv) |
+| 메타버스 | | META | [Roundhill](https://www.webull.com/quote/nysearca-meta) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -170,14 +174,18 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:TECL",   "displayName": "TECL"},
-        {"name": "AMEX:TECS",   "displayName": "TECS"},
-        {"name": "AMEX:FNGU",   "displayName": "FNGU"},
-        {"name": "AMEX:FNGD",   "displayName": "FNGD"},
-        {"name": "AMEX:SOXL",   "displayName": "SOXL"},
-        {"name": "AMEX:SOXS",   "displayName": "SOXS"},
-        {"name": "AMEX:UBOT",   "displayName": "UBOT"},
-        {"name": "AMEX:LTL",    "displayName": "LTL"}
+        {"name": "AMEX:BULZ",     "displayName": "BULZ"},
+        {"name": "AMEX:TECL",     "displayName": "TECL"},
+        {"name": "AMEX:TECS",     "displayName": "TECS"},
+        {"name": "AMEX:FNGU",     "displayName": "FNGU"},
+        {"name": "AMEX:FNGD",     "displayName": "FNGD"},
+        {"name": "AMEX:SOXL",     "displayName": "SOXL"},
+        {"name": "AMEX:SOXS",     "displayName": "SOXS"},
+        {"name": "AMEX:UBOT",     "displayName": "UBOT"},
+        {"name": "AMEX:LTL",      "displayName": "LTL"},
+        {"name": "AMEX:KARS",     "displayName": "KARS"},
+        {"name": "NASDAQ:DRIV",   "displayName": "DRIV"},
+        {"name": "AMEX:META",     "displayName": "META"}
       ]
     }
   ],
@@ -249,10 +257,12 @@ hidden: false
 | 에너지 | 태양 | TAN | [Invesco](https://www.webull.com/quote/nysearca-tan) |
 |       | 풍력 | FAN | [First Trust](https://www.webull.com/quote/nysearca-fan) |
 |       | 수자원 | PHO | [Invesco](https://www.webull.com/quote/nasdaq-pho) |
+|       | 수소   | HYDR | [Global X](https://www.webull.com/quote/nasdaq-hydr) |
 | 탄소 | 저탄소 | CRBN | [iShares](https://www.webull.com/quote/nysearca-crbn) |
 |     | 배출권 | KRBN | [KFA](https://www.webull.com/quote/nysearca-krbn) |
 | 배터리 | 리튬 | LIT | [Global X](https://www.webull.com/quote/nysearca-lit) |
 |       | 그리드 | GRID | [First Trust](https://www.webull.com/quote/nasdaq-grid) |
+|       | 
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -266,6 +276,7 @@ hidden: false
         {"name": "AMEX:TAN",        "displayName": "TAN"},
         {"name": "AMEX:FAN",        "displayName": "FAN"},
         {"name": "NASDAQ:PHO",      "displayName": "PHO"},
+        {"name": "NASDAQ:HYDR",     "displayName": "HYDR"},
         {"name": "AMEX:CRBN",       "displayName": "CRBN"},
         {"name": "AMEX:KRBN",       "displayName": "KRBN"},
         {"name": "AMEX:LIT",        "displayName": "LIT"},
@@ -280,7 +291,7 @@ hidden: false
 }
 </script>
 
-## 금속
+## 원자재
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
@@ -331,6 +342,8 @@ hidden: false
 | 대형은행 | +3X | BNKU | [MicroSectors](https://www.webull.com/quote/nysearca-bnku) |
 |        | -3X | BNKD | [MicroSectors](https://www.webull.com/quote/nysearca-bnkd) |
 | 지역은행  | +3X | DPST | [Direxion](https://www.webull.com/quote/nysearca-dpst) |
+| IPO | | IPO | [Renaissance](https://www.webull.com/quote/nysearca-ipo) |
+| 핀테크 | | FINX | [Global X](https://www.webull.com/quote/nasdaq-finx) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -339,11 +352,13 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:FAS",     "displayName": "FAS"},
-        {"name": "AMEX:FAX",     "displayName": "FAX"},
-        {"name": "AMEX:BNKU",    "displayName": "BNKU"},
-        {"name": "AMEX:BNKD",    "displayName": "BNKD"},
-        {"name": "AMEX:DPST",    "displayName": "DPST"}
+        {"name": "AMEX:FAS",        "displayName": "FAS"},
+        {"name": "AMEX:FAX",        "displayName": "FAX"},
+        {"name": "AMEX:BNKU",       "displayName": "BNKU"},
+        {"name": "AMEX:BNKD",       "displayName": "BNKD"},
+        {"name": "AMEX:DPST",       "displayName": "DPST"},
+        {"name": "AMEX:IPO",        "displayName": "IPO"},
+        {"name": "NASDAQ:FINX",     "displayName": "FINX"}
       ]
     }
   ],
@@ -510,9 +525,11 @@ hidden: false
 | 생필품 | +3X | RETL | [Direxion](https://www.webull.com/quote/nysearca-retl) |
 | 필수소비재 | | XLP | [SPDR](https://www.webull.com/quote/nysearca-xlp) |
 | 자유소비재 | +3X | WANT | [Direxion](https://www.webull.com/quote/nysearca-want) |
+| 명품 | | LUXE | [EMLS](https://www.webull.com/quote/bats-luxe) |
 | 소비자 서비스 | | IYC | [iShares](https://www.webull.com/quote/nysearca-iyc) |
 | 소비재 | +2X | UGE | [ProShares](https://www.webull.com/quote/nysearca-uge) |
 |        | -2X | SZK | [ProShares](https://www.webull.com/quote/nysearca-szk) |
+| 게임 | | ESPO | [VanEck](https://www.webull.com/quote/nasdaq-espo) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -524,9 +541,11 @@ hidden: false
         {"name": "AMEX:RETL",     "displayName": "RETL"},
         {"name": "AMEX:XLP",      "displayName": "XLP"},
         {"name": "AMEX:WANT",     "displayName": "WANT"},
+        {"name": "AMEX:LUXE",     "displayName": "LUXE"},
         {"name": "AMEX:IYC",      "displayName": "IYC"},
         {"name": "AMEX:UGE",      "displayName": "UGE"},
-        {"name": "AMEX:SZK",      "displayName": "SZK"}
+        {"name": "AMEX:SZK",      "displayName": "SZK"},
+        {"name": "AMEX:ESPO",     "displayName": "ESPO"}
       ]
     }
   ],
