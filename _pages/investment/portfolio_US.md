@@ -120,6 +120,7 @@ hidden: false
 |     | 대형 | VTV  | [Vanguard](https://www.webull.com/quote/nysearca-vtv) |
 | 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv) |
 |     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf) |
+|     | 혁신   | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk) |
 | 방어 | 채권+옵션 | SWAN | [Amplify](https://www.webull.com/quote/nysearca-swan) |
 |     | 주식+채권+현금 | DMRL | [DeltaShares](https://www.webull.com/quote/nysearca-dmrl) |
 |     | 주식+채권     | NTSX | [WisdomTree](https://www.webull.com/quote/nysearca-ntsx) |
@@ -137,6 +138,7 @@ hidden: false
         {"name": "AMEX:VTV",    "displayName": "VTV"},
         {"name": "AMEX:USMV",   "displayName": "USMV"},
         {"name": "AMEX:IWF",    "displayName": "IWF"},
+        {"name": "AMEX:ARKK",     "displayName": "ARKK"},
         {"name": "AMEX:SWAN",   "displayName": "SWAN"},
         {"name": "AMEX:DMRL",   "displayName": "DMRL"},
         {"name": "AMEX:NTSX",   "displayName": "NTSX"}
@@ -344,6 +346,8 @@ hidden: false
 | 지역은행  | +3X | DPST | [Direxion](https://www.webull.com/quote/nysearca-dpst) |
 | IPO | | IPO | [Renaissance](https://www.webull.com/quote/nysearca-ipo) |
 | 핀테크 | | FINX | [Global X](https://www.webull.com/quote/nasdaq-finx) |
+|       | | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf) |
+
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -358,7 +362,8 @@ hidden: false
         {"name": "AMEX:BNKD",       "displayName": "BNKD"},
         {"name": "AMEX:DPST",       "displayName": "DPST"},
         {"name": "AMEX:IPO",        "displayName": "IPO"},
-        {"name": "NASDAQ:FINX",     "displayName": "FINX"}
+        {"name": "NASDAQ:FINX",     "displayName": "FINX"},
+        {"name": "AMEX:ARKF",       "displayName": "ARKF"}
       ]
     }
   ],
@@ -451,6 +456,7 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
+| 항공/우주 | | ARKX | [ARK](https://www.webull.com/quote/bats-arkx) |
 | 항공/세계 | | JETS | [US Global Investors](https://www.webull.com/quote/nysearca-jets) |
 | 항공/국방 | +3X | DFEN | [Direxion](https://www.webull.com/quote/nysearca-dfen) |
 | 산업     | +3X | DUSL | [Direxion](https://www.webull.com/quote/nysearca-dusl) |
@@ -468,6 +474,7 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
+        {"name": "AMEX:ARKX",     "displayName": "ARKX"},
         {"name": "AMEX:JETS",     "displayName": "JETS"},
         {"name": "AMEX:DFEN",     "displayName": "DFEN"},
         {"name": "AMEX:DUSL",     "displayName": "DUSL"},
@@ -495,6 +502,7 @@ hidden: false
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu) |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd) |
 | 헬스케어 | +3X | CURE | [Direxion](https://www.webull.com/quote/nysearca-cure) |
+| 유전학   | | ARKG | [ARK](https://www.webull.com/quote/bats-arkg) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -506,7 +514,8 @@ hidden: false
         {"name": "AMEX:PILL",     "displayName": "PILL"},
         {"name": "AMEX:LABU",     "displayName": "LABU"},
         {"name": "AMEX:LABD",     "displayName": "LABD"},
-        {"name": "AMEX:CURE",     "displayName": "CURE"}
+        {"name": "AMEX:CURE",     "displayName": "CURE"},
+        {"name": "AMEX:ARKG",     "displayName": "ARKG"}
       ]
     }
   ],
@@ -546,40 +555,6 @@ hidden: false
         {"name": "AMEX:UGE",      "displayName": "UGE"},
         {"name": "AMEX:SZK",      "displayName": "SZK"},
         {"name": "NASDAQ:ESPO",   "displayName": "ESPO"}
-      ]
-    }
-  ],
-  "showSymbolLogo": false,
-  "colorTheme": "dark",
-  "isTransparent": true,
-  "locale": "en"
-}
-</script>
-
-## ARK
-
-| 대상 | Ticker | 차트 |
-| :-  | :-     | :-  |
-| 혁신 | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk) |
-| 자동화 | ARKQ | [ARK](https://www.webull.com/quote/bats-arkq) |
-| 인터넷 | ARKW | [ARK](https://www.webull.com/quote/nysearca-arkw) |
-| 핀테크 | ARKF | [ARK](https://www.webull.com/quote/nysearca-arkf) |
-| 우주   | ARKX | [ARK](https://www.webull.com/quote/bats-arkx) |
-| 유전   | ARKG | [ARK](https://www.webull.com/quote/bats-arkg) 
-
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
-{
-  "width": "600",
-  "height": "200",
-  "symbolsGroups": [
-    {
-      "symbols": [
-        {"name": "AMEX:ARKK",     "displayName": "ARKK"},
-        {"name": "AMEX:ARKQ",     "displayName": "ARKQ"},
-        {"name": "AMEX:ARKW",     "displayName": "ARKW"},
-        {"name": "AMEX:ARKF",     "displayName": "ARKF"},
-        {"name": "AMEX:ARKX",     "displayName": "ARKX"},
-        {"name": "AMEX:ARKG",     "displayName": "ARKG"}
       ]
     }
   ],
