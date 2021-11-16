@@ -502,7 +502,7 @@ hidden: false
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu) |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd) |
 | 헬스케어 | +3X | CURE | [Direxion](https://www.webull.com/quote/nysearca-cure) |
-| 유전학   | | ARKG | [ARK](https://www.webull.com/quote/bats-arkg) |
+| 유전공학 | | ARKG | [ARK](https://www.webull.com/quote/bats-arkg) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
