@@ -165,6 +165,7 @@ hidden: false
 |       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs) |
 | 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot) |
 | 통신 | +2X | LTL | [ProShares](https://www.webull.com/quote/nysearca-ltl) |
+|     |     | XLC | [SPDR](https://www.webull.com/quote/nysearca-xlc) |
 | 미래차 | 종합 | KARS | [KraneShares](https://www.webull.com/quote/nysearca-kars) |
 |       | 자율주행 | DRIV | [Global X](https://www.webull.com/quote/nasdaq-driv) |
 | 메타버스 | | META | [Roundhill](https://www.webull.com/quote/nysearca-meta) |
@@ -185,6 +186,7 @@ hidden: false
         {"name": "AMEX:SOXS",     "displayName": "SOXS"},
         {"name": "AMEX:UBOT",     "displayName": "UBOT"},
         {"name": "AMEX:LTL",      "displayName": "LTL"},
+        {"name": "AMEX:XLC",      "displayName": "XLC"},
         {"name": "AMEX:KARS",     "displayName": "KARS"},
         {"name": "NASDAQ:DRIV",   "displayName": "DRIV"},
         {"name": "AMEX:META",     "displayName": "META"}
