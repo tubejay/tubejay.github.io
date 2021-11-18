@@ -7,9 +7,7 @@ published: true
 hidden: false
 ---
 
-## text
-
-### emphasis
+## emphasis
 
 | emphasis | language | syntax | output |
 | :-       | :-       | :-     | :-     |
@@ -20,7 +18,7 @@ hidden: false
 |      | HTML     | `<b> bold </b>`{:.language-html .highlight} | <b> bold </b> |
 |      | CSS      | `<span style="font-weight:bold"> bold </span>`{:.language-html .highlight} | <span style="font-weight:bold"> bold </span> |
 
-### color
+## color
 
 | color | language | syntax | output |
 | :-    | :-       | :-     | :-     |
