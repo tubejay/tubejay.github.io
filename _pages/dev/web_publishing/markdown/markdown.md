@@ -25,4 +25,8 @@ hidden: false
 - [typora](https://typora.io/)
   - [Math and Academic Functions](https://support.typora.io/Math/)
 
-## [example](/dev/web_publishing/markdown/example)
+## example
+
+- [text](/dev/web_publishing/markdown/example/text)
+- [structure](/dev/web_publishing/markdown/example/structure)
+- [insert](/dev/web_publishing/markdown/example/insert)
