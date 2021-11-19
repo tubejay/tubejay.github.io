@@ -26,7 +26,3 @@ hidden: false
 - [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?id=OFL)
 - [Apache License](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-<div style="font-family:Courier">
-  Courier Courier Courier
-</div>
-Courier Courier Courier
