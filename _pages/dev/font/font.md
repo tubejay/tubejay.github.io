@@ -27,7 +27,6 @@ hidden: false
 - [Apache License](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 <div style="font-family:Courier">
-  <div markdown="1">
-    Courier
-  </div>
+  Courier Courier Courier
 </div>
+Courier Courier Courier
