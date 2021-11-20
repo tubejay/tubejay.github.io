@@ -18,7 +18,7 @@ hidden: false
   - x_train = x_train.reshape(60000, 784).astype("float32") / 255
   - x_test = x_test.reshape(10000, 784).astype("float32") / 255
 </div>
-<div style="font-family: 'Cascadia Code'" markdown="1">
+<div style="font-family: 'IBM Plex Mono'" markdown="1">
 - [IBM Plex](https://www.ibm.com/plex/)
   - x_train = x_train.reshape(60000, 784).astype("float32") / 255
   - x_test = x_test.reshape(10000, 784).astype("float32") / 255
