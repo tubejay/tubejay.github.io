@@ -17,17 +17,17 @@ hidden: false
 
 ## Recommended
 
-| text | [Cascadia Code](https://github.com/microsoft/cascadia-code) | [IBM Plex](https://www.ibm.com/plex/) |
-| :-        | :-   | :-   |
-| uppercase | <span class=""> ABCDEFGHIJKLMNOPQRSTUVWXYZ </span> | 
-| lowercase | <span class=""> abcdefghijklmnopqrstuvwxyz </span> | 
-| | <span class=""> " ' ` . , : ; ! ? </span> |
-| | <span class=""> ^ * & $ @ % # </span> |
-| | <span class=""> / // \ \\ &#124; &#124;&#124; _ - ~ </span> |
-| | <span class=""> + - * ** / // % %% </span> |
-| | <span class=""> = := <- ++ -\- += -= *= /= </span> |
-| | <span class=""> == === != <> < <= > >= && &#124;&#124; </span> |
-| | <span class=""> </ /> </> \<!-\- -\-> </span> |
+| [Cascadia Code](https://github.com/microsoft/cascadia-code) | [IBM Plex](https://www.ibm.com/plex/) |
+| :-   | :-   |
+| <span class=""> ABCDEFGHIJKLMNOPQRSTUVWXYZ </span> | 
+| <span class=""> abcdefghijklmnopqrstuvwxyz </span> | 
+| <span class=""> " ' ` . , : ; ! ? </span> |
+| <span class=""> ^ * & $ @ % # </span> |
+| <span class=""> / \ &#124; _ - ~ </span> |
+| <span class=""> + ++ - \-- * ** / // % %% </span> |
+| <span class=""> = := <- += -= *= /= </span> |
+| <span class=""> == === != <> < <= > >= && &#124;&#124; </span> |
+| <span class=""> </ /> </> \<!-\- -\-> </span> |
 
 ## Compare
 
