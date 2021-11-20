@@ -44,22 +44,25 @@ hidden: false
 
 | Cascadia Code | IBM Plex |
 | :-   | :-   |
-| <span class="msft"> " ' ` . , : ; ! ? </span>    | <span class="ibm"> " ' ` . , : ; ! ? </span>    |
+| <span class="msft"> " ' ` . , </span>            | <span class="ibm"> " ' ` . , </span>            |
+| <span class="msft"> : ; ! ? </span>              | <span class="ibm"> : ; ! ? </span>              |
 | <span class="msft"> [] {} () &lt;&gt; </span>    | <span class="ibm"> [] {} () &lt;&gt; </span>    |
   
 ### operation
 
 | Cascadia Code | IBM Plex |
 | :-   | :-   |
-| <span class="msft"> + ++ - \-- * ** / // % %% </span>                 | <span class="ibm"> + ++ - \-- * ** / // % %% </span>                 |
-| <span class="msft"> == === && &#124;&#124; </span>                    | <span class="ibm"> == === && &#124;&#124; </span>                    |
-| <span class="msft"> != !== =/= &lt;&gt; &lt; &lt;= &gt; &gt;= </span> | <span class="ibm"> != !== =/= &lt;&gt; &lt; &lt;= &gt; &gt;= </span> |
-| <span class="msft"> = := &lt;- += -= *= /= </span>                    | <span class="ibm"> = := &lt;- += -= *= /= </span>                    |
+| <span class="msft"> + - * / % </span>                      | <span class="ibm"> + - * / % </span>                      |
+| <span class="msft"> ++ \-- ** // %% </span>                | <span class="ibm"> ++ \-- ** // %% </span>                |
+| <span class="msft"> = := &lt;- </span>                     | <span class="ibm"> = := &lt;- </span>                     |
+| <span class="msft"> += -= *= /= </span>                    | <span class="ibm"> += -= *= /= </span>                    |
+| <span class="msft"> == === != !== =/= </span>              | <span class="ibm"> == === != !== =/= </span>              |
+| <span class="msft"> &lt;&gt; &lt; &lt;= &gt; &gt;= </span> | <span class="ibm"> &lt;&gt; &lt; &lt;= &gt; &gt;= </span> |
 
 ### miscellaneous
 
 | Cascadia Code | IBM Plex |
 | :-   | :-   |
-| <span class="msft"> ^ * & $ @ % # </span>                        | <span class="ibm"> ^ * & $ @ % # </span>                        |
-| <span class="msft"> / \ &#124; _ - ~ </span>                     | <span class="ibm"> / \ &#124; _ - ~ </span>                     |
-| <span class="msft"> &lt;/ /&gt; &lt;/&gt; &lt;!-- --&gt; </span> | <span class="ibm"> &lt;/ /&gt; &lt;/&gt; &lt;!-- --&gt; </span> |
+| <span class="msft"> ^ * & $ @ % # </span>                          | <span class="ibm"> ^ * & $ @ % # </span>                          |
+| <span class="msft"> / \ &#124; _ - ~ </span>                       | <span class="ibm"> / \ &#124; _ - ~ </span>                       |
+| <span class="msft"> &lt;/ /&gt; &lt;/&gt; &lt;!\-- \--&gt; </span> | <span class="ibm"> &lt;/ /&gt; &lt;/&gt; &lt;!\-- \--&gt; </span> |
