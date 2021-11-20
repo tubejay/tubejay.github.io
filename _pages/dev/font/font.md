@@ -11,11 +11,13 @@ hidden: false
   <base target="_blank">
 </head>
 
+<div style="font-family: 'Cascadia Code;'">
 ## Recommended
 
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 - [IBM Plex](https://www.ibm.com/plex/)
-
+</div>
+  
 ## Compare
 
 - [Programming Fonts](https://www.programmingfonts.org/)
