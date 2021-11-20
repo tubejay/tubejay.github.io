@@ -38,7 +38,7 @@ hidden: false
 | <span class="msft"> khbdpqg </span> | <span class="ibm"> khbdpqg </span> |
 | <span class="msft"> mnruwvy </span> | <span class="ibm"> mnruwvy </span> |
 | <span class="msft"> oceaszx </span> | <span class="ibm"> oceaszx </span> |
-| <span class="msft"> oceaszx </span> | <span class="ibm"> oceaszx </span> |
+| <span class="msft"> tfijl   </span> | <span class="ibm"> tfijl </span>   |
 
 ### punctuation
 
