@@ -7,6 +7,10 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
 ## [Recommended](/dev/font/recommended)
 
 ## Compare
