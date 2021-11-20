@@ -33,7 +33,8 @@ hidden: false
 
 ## Web
 
-- [Google Fonts](https://fonts.google.com/)
+- Google Fonts
+  - [Browse](https://fonts.google.com/)
   - [API](https://developers.google.com/fonts/docs/getting_started)
 - [xz/fonts](https://docs.xz.style/fonts/usage)
 
