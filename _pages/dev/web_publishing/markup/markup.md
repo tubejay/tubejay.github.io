@@ -32,12 +32,12 @@ hidden: false
 - [W3Schools](https://www.w3schools.com/css/default.asp)
 - [HTML.com](https://html.com/css/)
 
-## [Font](/dev/font)
-
 ## HTML/CSS
 
 - [모두의 HTML5 & CSS3](https://thebook.io/006943/)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+## [Font](/dev/font)
 
 ## Python
 
