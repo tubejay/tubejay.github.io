@@ -9,8 +9,10 @@ hidden: false
 
 <head>
   <base target="_blank">
-  .msft{font-family:'Cascadia Code'}
-  .ibm{font-family:'IBM Plex Mono'}
+  <style>
+    .msft{font-family:'Cascadia Code'}
+    .ibm{font-family:'IBM Plex Mono'}
+  </style>
 </head>
 
 ## Recommended
@@ -24,7 +26,7 @@ hidden: false
 | | <span class=""> + - * ** / // % %% </span> |
 | | <span class=""> = := <- ++ -- += -= *= /= </span> |
 | | <span class=""> == === != <> < <= > >= && &#124;&#124; </span> |
-| | <span class=""> </ /> </> <-- ￦<!-- --> </span> |
+| | <span class=""> </ /> </> \<!-- --> </span> |
 
 ## Compare
 
