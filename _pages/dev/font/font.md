@@ -15,17 +15,13 @@ hidden: false
 
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 <div style="font-family: 'Cascadia Code'" markdown="1">
-```
-x_train = x_train.reshape(60000, 784).astype("float32") / 255
+x_train = x_train.reshape(60000, 784).astype("float32") / 255 <br>
 x_test = x_test.reshape(10000, 784).astype("float32") / 255
-```
 </div>
 - [IBM Plex](https://www.ibm.com/plex/)
 <div style="font-family: 'IBM Plex Mono'" markdown="1">
-```
-x_train = x_train.reshape(60000, 784).astype("float32") / 255
+x_train = x_train.reshape(60000, 784).astype("float32") / 255 <br>
 x_test = x_test.reshape(10000, 784).astype("float32") / 255
-```
 </div>
   
 ## Compare
