@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
 </head>
 
-<div style="font-family: 'Cascadia Code;'">
+<div style="font-family: 'Cascadia Code;'" markdown="1">
 ## Recommended
 
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
