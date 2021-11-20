@@ -21,12 +21,13 @@ hidden: false
 | :-        | :-   | :-   |
 | uppercase | <span class=""> ABCDEFGHIJKLMNOPQRSTUVWXYZ </span> | 
 | lowercase | <span class=""> abcdefghijklmnopqrstuvwxyz </span> | 
-| | <span class=""> . , : ; ? ! ^ * & $ @ % # </span> |
-| | <span class=""> / // \ ￦￦ &#124; &#124;&#124; _ - ~ </span> |
+| | <span class=""> " ' ` . , : ; ! ? </span> |
+| | <span class=""> ^ * & $ @ % # </span> |
+| | <span class=""> / // \ \\ &#124; &#124;&#124; _ - ~ </span> |
 | | <span class=""> + - * ** / // % %% </span> |
-| | <span class=""> = := <- ++ -- += -= *= /= </span> |
+| | <span class=""> = := <- ++ -\- += -= *= /= </span> |
 | | <span class=""> == === != <> < <= > >= && &#124;&#124; </span> |
-| | <span class=""> </ /> </> \<!-- --> </span> |
+| | <span class=""> </ /> </> \<!-\- -\-> </span> |
 
 ## Compare
 
