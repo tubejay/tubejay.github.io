@@ -9,21 +9,23 @@ hidden: false
 
 <head>
   <base target="_blank">
+  .msft{font-family:'Cascadia Code'}
+  .ibm{font-family:'IBM Plex Mono'}
 </head>
 
 ## Recommended
 
-- [Cascadia Code](https://github.com/microsoft/cascadia-code)
-<div style="font-family: 'Cascadia Code'" markdown="1">
-x_train = x_train.reshape(60000, 784).astype("float32") / 255 <br>
-x_test = x_test.reshape(10000, 784).astype("float32") / 255
-</div>
-- [IBM Plex](https://www.ibm.com/plex/)
-<div style="font-family: 'IBM Plex Mono'" markdown="1">
-x_train = x_train.reshape(60000, 784).astype("float32") / 255 <br>
-x_test = x_test.reshape(10000, 784).astype("float32") / 255
-</div>
-  
+| text | [Cascadia Code](https://github.com/microsoft/cascadia-code) | [IBM Plex](https://www.ibm.com/plex/) |
+| :-        | :-   | :-   |
+| uppercase | <span class=""> ABCDEFGHIJKLMNOPQRSTUVWXYZ </span> | 
+| lowercase | <span class=""> abcdefghijklmnopqrstuvwxyz </span> | 
+| | <span class=""> . , : ; ? ! ^ * & $ @ % # </span> |
+| | <span class=""> / // \ ￦￦ | || _ - ~ </span> |
+| | <span class=""> + - * ** / // % %% </span> |
+| | <span class=""> = := <- ++ -- += -= *= /= </span> |
+| | <span class=""> == === != <> < <= > >= && || </span> |
+| | <span class=""> </ /> </> <-- <!-- --> </span> |
+
 ## Compare
 
 - [Programming Fonts](https://www.programmingfonts.org/)
