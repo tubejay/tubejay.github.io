@@ -19,15 +19,22 @@ hidden: false
 
 | [Cascadia Code](https://github.com/microsoft/cascadia-code) | [IBM Plex](https://www.ibm.com/plex/) |
 | :-   | :-   |
-| <span class="msft"> ABCDEFGHIJKLMNOPQRSTUVWXYZ </span>             | <span class="ibm"> ABCDEFGHIJKLMNOPQRSTUVWXYZ </span>             |
-| <span class="msft"> abcdefghijklmnopqrstuvwxyz </span>             | <span class="ibm"> abcdefghijklmnopqrstuvwxyz </span>             |
-| <span class="msft"> " ' ` . , : ; ! ? </span>                      | <span class="ibm"> " ' ` . , : ; ! ? </span>                      |
-| <span class="msft"> ^ * & $ @ % # </span>                          | <span class="ibm"> ^ * & $ @ % # </span>                          |
-| <span class="msft"> / \ &#124; _ - ~ </span>                       | <span class="ibm"> / \ &#124; _ - ~ </span>                       |
-| <span class="msft"> + ++ - \-- * ** / // % %% </span>              | <span class="ibm"> + ++ - \-- * ** / // % %% </span>              |
-| <span class="msft"> = := <- += -= *= /= </span>                    | <span class="ibm"> = := <- += -= *= /= </span>                    |
-| <span class="msft"> == === != <> < <= > >= && &#124;&#124; </span> | <span class="ibm"> == === != <> < <= > >= && &#124;&#124; </span> |
-| <span class="msft"> </ /> </> \<!-\- -\-> </span>                  | <span class="ibm"> </ /> </> \<!-\- -\-> </span>                  |
+| <span class="msft"> BDGCOQ </span>                     | <span class="ibm"> BDGCOQ </span>                     |
+| <span class="msft"> EFPRKL </span>                     | <span class="ibm"> EFPRKL </span>                     |
+| <span class="msft"> MNUVYWX </span>                    | <span class="ibm"> MNUVYWX </span>                    |
+| <span class="msft"> AHSZTIJ </span>                    | <span class="ibm"> AHSZTIJ </span>                    |
+| <span class="msft"> khbdpqg </span>                    | <span class="ibm"> khbdpqg </span>                    |
+| <span class="msft"> mnruwvy </span>                    | <span class="ibm"> mnruwvy </span>                    |
+| <span class="msft"> oceaszx </span>                    | <span class="ibm"> oceaszx </span>                    |
+| <span class="msft"> oceaszx </span>                    | <span class="ibm"> oceaszx </span>                    |
+| <span class="msft"> " ' ` . , : ; ! ? </span>          | <span class="ibm"> " ' ` . , : ; ! ? </span>          |
+| <span class="msft"> ^ * & $ @ % # </span>              | <span class="ibm"> ^ * & $ @ % # </span>              |
+| <span class="msft"> / \ &#124; _ - ~ </span>           | <span class="ibm"> / \ &#124; _ - ~ </span>           |
+| <span class="msft"> + ++ - \-- * ** / // % %% </span>  | <span class="ibm"> + ++ - \-- * ** / // % %% </span>  |
+| <span class="msft"> = := <- += -= *= /= </span>        | <span class="ibm"> = := <- += -= *= /= </span>        |
+| <span class="msft"> == === && &#124;&#124; </span>     | <span class="ibm"> == === && &#124;&#124; </span>     |
+| <span class="msft"> != !== =/= <> < <= > >= </span>    | <span class="ibm"> != !== =/= <> < <= > >= </span>    |
+| <span class="msft"> </ /> </> \<!-\- -\-> </span>      | <span class="ibm"> </ /> </> \<!-\- -\-> </span>      |
 
 ## Compare
 
