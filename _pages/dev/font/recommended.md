@@ -22,12 +22,7 @@ hidden: false
 
 ## Test
 
-| <span> <!-- --> |
-| :-   | :- | :- | :- | :- |
-| Cascadia Code | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
-| IBM Plex      | <span class="ibm"> BDGCOQ </span>   | <span class="ibm"> EFPRKL </span>   | <span class="ibm"> MNUVYWX </span>  | <span class="ibm"> AHSZTIJ </span> |
-
-| <td colspan=5> <!-- --> </td> |
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
 | :-   | :- | :- | :- | :- |
 | Cascadia Code | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
 | IBM Plex      | <span class="ibm"> BDGCOQ </span>   | <span class="ibm"> EFPRKL </span>   | <span class="ibm"> MNUVYWX </span>  | <span class="ibm"> AHSZTIJ </span> |
