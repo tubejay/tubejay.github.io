@@ -81,6 +81,8 @@ hidden: false
 
 ## miscellaneous
 
+### tag & comment
+
 | <!-- --> | <!-- --> | <!-- --> |
 | :-       | :-       | :-       |
 | Cascadia Code | <span class="msft"> &lt;/ /&gt; &lt;/&gt; </span> | <span class="msft"> &lt;!\-- comment \--&gt; </span> |
