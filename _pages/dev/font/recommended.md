@@ -10,8 +10,10 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    .msft{font-family:'Cascadia Code'}
-    .ibm{font-family:'IBM Plex Mono'}
+    .msft {font-family:'Cascadia Code'}
+    .ibm  {font-family:'IBM Plex Mono'}
+    th,td {border-left:0.01px solid blue}
+    th:first-child,td:first-child {border-left:0}
   </style>
 </head>
 
@@ -24,7 +26,7 @@ hidden: false
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
 | :-   | :- | :- | :- | :- |
-| <th> Cascadia Code </th> | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
+| Cascadia Code | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
 | IBM Plex      | <span class="ibm"> BDGCOQ </span>   | <span class="ibm"> EFPRKL </span>   | <span class="ibm"> MNUVYWX </span>  | <span class="ibm"> AHSZTIJ </span> |
 
 ## Print
