@@ -25,7 +25,7 @@ hidden: false
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 - [IBM Plex](https://www.ibm.com/plex/)
 
-## Print
+## Alphabet
 
 ### uppercase
 
@@ -41,7 +41,9 @@ hidden: false
 | Cascadia Code | <span class="msft"> khbdpqg </span> | <span class="msft"> mnruwvy </span> | <span class="msft"> oceaszx </span> | <span class="msft"> tfijl </span> |
 | IBM Plex      | <span class="ibm"> khbdpqg </span>  | <span class="ibm"> mnruwvy </span>  | <span class="ibm"> oceaszx </span>  | <span class="ibm"> tfijl </span>  |
 
-### punctuation
+## Punctuation
+
+### mark
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
 | :-       | :-       | :-       | :-       |
@@ -54,6 +56,8 @@ hidden: false
 | :-       | :-       | :-       |
 | Cascadia Code | <span class="msft"> ^ * & $ @ % # </span> | <span class="msft"> / \ &#124; _ - ~ </span> |
 | IBM Plex      | <span class="ibm"> ^ * & $ @ % # </span>  | <span class="ibm"> / \ &#124; _ - ~ </span>  |
+
+## Operator
 
 ### arithmetic
 
@@ -76,7 +80,7 @@ hidden: false
 | Cascadia Code | <span class="msft"> = := &lt;- </span> | <span class="msft"> += -= *= /= </span> |
 | IBM Plex      | <span class="ibm"> = := &lt;- </span>  | <span class="ibm"> += -= *= /= </span>  |
 
-### miscellaneous
+## miscellaneous
 
 | <!-- --> | <!-- --> | <!-- --> |
 | :-       | :-       | :-       |
