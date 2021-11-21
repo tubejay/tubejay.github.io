@@ -13,11 +13,13 @@ hidden: false
     .msft {font-family:'Cascadia Code'}
     .ibm  {font-family:'IBM Plex Mono'}
     th {min-height:0px; padding:0px; border:0px;}
-    td {border-right:0.5px solid #262626}
+    td {border-right:1px solid #262626}
     td:first-child {border-left :0px}
     td:last-child  {border-right:0px}
   </style>
 </head>
+
+test
 
 ## List
 
