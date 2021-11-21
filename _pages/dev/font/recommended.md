@@ -12,7 +12,7 @@ hidden: false
   <style>
     .msft{font-family:'Cascadia Code'}
     .ibm{font-family:'IBM Plex Mono'}
-    th, td{border:1px solid #FFFFFF}
+    table{border:0.1px solid #FFFFFF}
   </style>
 </head>
 
@@ -23,7 +23,7 @@ hidden: false
 
 ## Test
 
-| <th colspan="5"> <!-- --> </th>
+<th colspan="5"> - </th>
 | :-   | :- | :- | :- | :- |
 | Cascadia Code | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
 | IBM Plex      | <span class="ibm"> BDGCOQ </span>   | <span class="ibm"> EFPRKL </span>   | <span class="ibm"> MNUVYWX </span>  | <span class="ibm"> AHSZTIJ </span> |
