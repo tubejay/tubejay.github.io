@@ -12,10 +12,10 @@ hidden: false
   <style>
     .msft {font-family:'Cascadia Code'}
     .ibm  {font-family:'IBM Plex Mono'}
-    th {min-height:0; padding:0; border-bottom:0;}
+    th {min-height:0px; padding:0px; border:0px;}
     td {border-left :0.1px solid #262626; border-right:0.1px solid #262626}
-    td:first-child {border-left :0}
-    td:last-child  {border-right:0}
+    td:first-child {border-left :0px}
+    td:last-child  {border-right:0px}
   </style>
 </head>
 
