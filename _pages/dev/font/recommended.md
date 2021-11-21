@@ -12,7 +12,13 @@ hidden: false
   <style>
     .msft{font-family:'Cascadia Code'}
     .ibm{font-family:'IBM Plex Mono'}
-    table{border:0.1px solid #FFFFFF}
+    table, caption, thead, tbody, th, td {border:0.1px solid}
+    table {border:#FFFFFF}
+    caption {border:#FFFFFF}
+    thead {border:#FFFFFF}
+    tbody {border:#FFFFFF}
+    th {border:#FFFFFF}
+    td {border:#FFFFFF}
   </style>
 </head>
 
@@ -23,14 +29,9 @@ hidden: false
 
 ## Test
 
-<th colspan="5"> - </th>
-| :-   | :- | :- | :- | :- |
-| Cascadia Code | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
-| IBM Plex      | <span class="ibm"> BDGCOQ </span>   | <span class="ibm"> EFPRKL </span>   | <span class="ibm"> MNUVYWX </span>  | <span class="ibm"> AHSZTIJ </span> |
-
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> |
 | :-   | :- | :- | :- | :- |
-| Cascadia Code | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
+| <th> Cascadia Code </th> | <span class="msft"> BDGCOQ </span>  | <span class="msft"> EFPRKL </span>  | <span class="msft"> MNUVYWX </span> | <span class="msft"> AHSZTIJ </span> |
 | IBM Plex      | <span class="ibm"> BDGCOQ </span>   | <span class="ibm"> EFPRKL </span>   | <span class="ibm"> MNUVYWX </span>  | <span class="ibm"> AHSZTIJ </span> |
 
 ## Print
