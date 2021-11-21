@@ -12,13 +12,7 @@ hidden: false
   <style>
     .msft{font-family:'Cascadia Code'}
     .ibm{font-family:'IBM Plex Mono'}
-    table, caption, thead, tbody, th, td {border:0.1px solid}
-    table {border:#FFFFFF}
-    caption {border:#FFFFFF}
-    thead {border:#FFFFFF}
-    tbody {border:#FFFFFF}
-    th {border:#FFFFFF}
-    td {border:#FFFFFF}
+    table, caption, thead, tbody, th, td {border:0.1px solid #FFFFFF}
   </style>
 </head>
 
