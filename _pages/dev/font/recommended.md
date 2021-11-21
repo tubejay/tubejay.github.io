@@ -12,7 +12,7 @@ hidden: false
   <style>
     .msft {font-family:'Cascadia Code'}
     .ibm  {font-family:'IBM Plex Mono'}
-    th,td {border-left:0.1px solid #262626}
+    th,td {border-left:2px solid #262626}
     th:first-child,td:first-child {border-left:0}
   </style>
 </head>
