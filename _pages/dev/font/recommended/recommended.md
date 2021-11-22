@@ -18,8 +18,10 @@ hidden: false
 
 ## List
 
-- [Cascadia Code](https://github.com/microsoft/cascadia-code)
-- [IBM Plex](https://www.ibm.com/plex/)
+| <!-- --> | <!-- --> |
+| :-       | :-       |
+| [Cascadia Code](https://github.com/microsoft/cascadia-code) | SIL Open Font License |
+| [IBM Plex](https://www.ibm.com/plex/)                       | Apache License        |
 
 ## Alphabet
 
