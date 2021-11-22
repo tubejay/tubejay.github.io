@@ -15,14 +15,14 @@ test css in scss
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Select | select left editor     | <span class="kc_rd">Ctrl</span> PgUp |
+| Select | select left editor     | <span class="kc_rd">Ctrl</span> <span class="kc_mg">PgUp</span> |
 |        | select right editor    | Ctrl PgDn      |
 |        | select next editor     | Ctrl Tab       |
 |        | select previous editor | Ctrl Shift Tab |
 | Move | move editor left  | Ctrl Shift PgUp |
 |      | move editor right | Ctrl Shift PgDn |
 | Split | split editor | Ctrl \\ |
-| Open | Open editor          | Ctrl N       |
+| Open | Open editor          | <span class="kc_rd">Ctrl</span> <span class="kc_ol">N</span> |
 |      | Close editor         | Ctrl W       |
 |      | Reopen closed editor | Ctrl Shift T |
 
@@ -30,7 +30,7 @@ test css in scss
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Focus | focus into editor group 1 | Ctrl 1 |
+| Focus | focus into editor group 1 | <span class="kc_rd">Ctrl</span> <span class="kc_bl">1</span> |
 |       | focus into editor group 2 | Ctrl 2 |
 | Move | move current editor to right group | Ctrl Alt → |
 |      | move current editor to left group  | Ctrl Alt ← |
