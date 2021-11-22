@@ -11,7 +11,9 @@ hidden: false
   <base target="_blank">
 </head>
 
-## indent
+## edit/visualize
+
+### indent
 
 | name | recommended settings |
 | :-   | :-                   |
@@ -19,7 +21,7 @@ hidden: false
 | [Indented Block Highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting) | Is Whole Line: Yes |
 | [Smart Column Indenter](https://marketplace.visualstudio.com/items?itemName=lmcarreiro.vscode-smart-column-indenter) | - |
 
-## bracket
+### bracket
 
 | name | recommended settings |
 | :-   | :-                   |
@@ -27,7 +29,15 @@ hidden: false
 | [Bracket Lens](https://marketplace.visualstudio.com/items?itemName=wraith13.bracket-lens) | Min Bracket Header Length: 2 |
 | | Mode: 2 |
 
-## highlight
+### space
+
+| name | recommended settings |
+| :-   | :-                   |
+| [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces) | Highlight Current Line: Yes |
+| | Include Empty Lines: No |
+| | Trim On Save: No |
+
+### highlight
 
 | name | recommended settings |
 | :-   | :-                   |
@@ -37,7 +47,9 @@ hidden: false
 | | Match Rgb With No Function: No |
 | | Match Words: Yes |
 
-## markdown
+## language/syntax
+
+### markdown
 
 | name | recommended settings |
 | :-   | :-                   |
@@ -45,6 +57,15 @@ hidden: false
 | [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji) | - |
 | [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath) | Enables: Yes |
 | [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) | Enable HTML: Yes |
+
+### markup
+
+| name | recommended settings |
+| :-   | :-                   |
+| [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) | Enable Auto Close Self Closing Tag: Yes |
+| [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | - |
+| [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag) | Highlight From Content: Yes |
+| [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) | - |
 
 ## miscellaneous
 
