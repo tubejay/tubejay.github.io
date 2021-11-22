@@ -26,8 +26,8 @@ hidden: false
 
 ### editor group
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Focus | focus into editor group 1 | Ctrl 1 |
 |       | focus into editor group 2 | Ctrl 2 |
 | Move | move current editor to right group | Ctrl Alt → |
@@ -37,8 +37,8 @@ hidden: false
 
 ### display
   
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Mode | full screen | F11      |
 |      | zen Mode    | Ctrl K Z |
 | Zoom | zoom in  | Ctrl = |
@@ -51,8 +51,8 @@ hidden: false
 
 ### configuration
 
-| <!-- -->        | <!-- -->     |
-| :-              | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Command Palette | F1           |
 |                 | Ctrl Shift P |
 | User Settings   | Ctrl ,       |
