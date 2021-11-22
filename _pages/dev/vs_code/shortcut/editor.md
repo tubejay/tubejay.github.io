@@ -9,7 +9,7 @@ hidden: false
 
 <head>
   <style>
-    .keycap {background:skyblue}
+    .keycap {background:skyblue; padding:2px; border-radius:5px}
   </style>
 </head>
 
