@@ -15,25 +15,25 @@ test css in scss
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Select | select left editor     | <span class="kc_rd">Ctrl</span> <span class="kc_mg">PgUp</span> |
-|        | select right editor    | Ctrl PgDn      |
-|        | select next editor     | Ctrl Tab       |
-|        | select previous editor | Ctrl Shift Tab |
-| Move | move editor left  | Ctrl Shift PgUp |
-|      | move editor right | Ctrl Shift PgDn |
-| Split | split editor | Ctrl \\ |
-| Open | Open editor          | <span class="kc_rd">Ctrl</span> <span class="kc_ol">N</span> |
-|      | Close editor         | Ctrl W       |
-|      | Reopen closed editor | Ctrl Shift T |
+| Select | select left editor     | <span class="kc_rd">Ctrl</span> <span class="kc_gr">PgUp</span> |
+|        | select right editor    | <span class="kc_rd">Ctrl</span> <span class="kc_gr">PgDn</span> |
+|        | select next editor     | <span class="kc_rd">Ctrl</span> <span class="kc_gr">Tab</span>  |
+|        | select previous editor | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_gr">Tab</span> |
+| Move | move editor left  | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_gr">PgUp</span> |
+|      | move editor right | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_gr">PgDn</span> |
+| Split | split editor | <span class="kc_rd">Ctrl</span> <span class="kc_bl">\\</span> |
+| Open | Open editor          | <span class="kc_rd">Ctrl</span> <span class="kc_or">N</span> |
+|      | Close editor         | <span class="kc_rd">Ctrl</span> <span class="kc_or">W</span> |
+|      | Reopen closed editor | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">T</span> |
 
 ### editor group
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
 | Focus | focus into editor group 1 | <span class="kc_rd">Ctrl</span> <span class="kc_bl">1</span> |
-|       | focus into editor group 2 | Ctrl 2 |
-| Move | move current editor to right group | Ctrl Alt → |
-|      | move current editor to left group  | Ctrl Alt ← |
+|       | focus into editor group 2 | <span class="kc_rd">Ctrl</span> <span class="kc_bl">2</span> |
+| Move | move current editor to right group | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Alt</span> <span class="kc_bl">→</span> |
+|      | move current editor to left group  | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Alt</span> <span class="kc_bl">←</span> |
 
 ## General
 
@@ -41,20 +41,20 @@ test css in scss
   
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Mode | full screen | F11      |
-|      | zen Mode    | Ctrl K Z |
-| Zoom | zoom in  | Ctrl = |
-|      | zoom out | Ctrl - |
-| Sidebar | toggle sidebar | Ctrl B       |
-|         | show explorer  | Ctrl Shift E |
-|         | show extension | Ctrl Shift X |
-| Markdown | open markdown preview             | Ctrl Shift V |
-|          | open markdown preview to the side | Ctrl K V     |
+| Mode | full screen | <span class="kc_gr">F11</span>      |
+|      | zen Mode    | <span class="kc_rd">Ctrl</span> <span class="kc_or">K</span> <span class="kc_or">Z</span> |
+| Zoom | zoom in  | <span class="kc_rd">Ctrl</span> <span class="kc_bl">=</span> |
+|      | zoom out | <span class="kc_rd">Ctrl</span> <span class="kc_bl">-</span> |
+| Sidebar | toggle sidebar | <span class="kc_rd">Ctrl</span> <span class="kc_or">B</span>       |
+|         | show explorer  | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">E</span> |
+|         | show extension | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">X</span> |
+| Markdown | open markdown preview             | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">V</span> |
+|          | open markdown preview to the side | <span class="kc_rd">Ctrl</span> <span class="kc_or">K</span> <span class="kc_or">V</span>     |
 
 ### configuration
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
 | Command Palette | F1           |
-|                 | Ctrl Shift P |
-| User Settings   | Ctrl ,       |
+|                 | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">P</span> |
+| User Settings   | <span class="kc_rd">Ctrl</span> <span class="kc_bl">,</span>       |
