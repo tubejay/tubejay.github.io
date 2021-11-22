@@ -15,7 +15,7 @@ test css in scss
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Select | select left editor     | <span class="keycap">Ctrl</span> PgUp |
+| Select | select left editor     | <span class="kc_rd">Ctrl</span> PgUp |
 |        | select right editor    | Ctrl PgDn      |
 |        | select next editor     | Ctrl Tab       |
 |        | select previous editor | Ctrl Shift Tab |
