@@ -7,12 +7,6 @@ published: true
 hidden: false
 ---
 
-<head>
-  <style>
-    .keycap {background:darkblue; padding:3px; border-radius:5px}
-  </style>
-</head>
-
 ## Control
 
 ### editor
