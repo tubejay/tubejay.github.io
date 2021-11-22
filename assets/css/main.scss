@@ -15,7 +15,11 @@ $masthead-link-color          : #dbfffd;
 $masthead-link-color-hover    : #FFFDDB;
 
 // keycap
-.keycap {background:darkblue; padding:3px; border-radius:5px}
+.kc {padding:3px; border-radius:5px}
+.kc_bl {@extend .kc; background:darkblue}
+.kc_mg {@extend .kc; background:darkmagenta}
+.kc_rd {@extend .kc; background:darkred}
+.kc_ol {@extend .kc; background:olive}
 
 // table
 th,td {border-right:1px solid #262626}
