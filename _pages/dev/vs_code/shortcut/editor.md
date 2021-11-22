@@ -9,7 +9,7 @@ hidden: false
 
 <head>
   <style>
-    .keycap {background:skyblue; padding:2px; border-radius:5px}
+    .keycap {background:darkblue; padding:3px; border-radius:5px}
   </style>
 </head>
 
@@ -19,7 +19,7 @@ hidden: false
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Select | select left editor     | <span class="keycap">Ctrl</span> PgUp      |
+| Select | select left editor     | <span class="keycap">Ctrl</span> PgUp |
 |        | select right editor    | Ctrl PgDn      |
 |        | select next editor     | Ctrl Tab       |
 |        | select previous editor | Ctrl Shift Tab |
