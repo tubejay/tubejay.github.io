@@ -7,13 +7,19 @@ published: true
 hidden: false
 ---
 
+<head>
+  <style>
+    .keycap {background:skyblue}
+  </style>
+</head>
+
 ## Control
 
 ### editor
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Select | select left editor     | Ctrl PgUp      |
+| Select | select left editor     | <span class="keycap">Ctrl</span> PgUp      |
 |        | select right editor    | Ctrl PgDn      |
 |        | select next editor     | Ctrl Tab       |
 |        | select previous editor | Ctrl Shift Tab |
