@@ -53,6 +53,6 @@ hidden: false
 
 | type | action | shortcut |
 | :-   | :-     | :-       |
-| Command Palette | <span class="kc_gr">F1</span> |
-|                 | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">P</span> |
-| User Settings   | <span class="kc_rd">Ctrl</span> <span class="kc_bl">,</span> |
+| Palette | command palette | <span class="kc_gr">F1</span> |
+|         |                 | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_or">P</span> |
+| Setting | user settings   | <span class="kc_rd">Ctrl</span> <span class="kc_bl">,</span> |
