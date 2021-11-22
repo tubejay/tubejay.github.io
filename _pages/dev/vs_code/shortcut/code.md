@@ -7,12 +7,6 @@ published: true
 hidden: false
 ---
 
-<head>
-  <style>
-    th {min-height:0px; padding:0px; border:0px;}
-  </style>
-</head>
-
 ## Edit
 
 ### select
