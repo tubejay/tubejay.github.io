@@ -62,8 +62,8 @@ hidden: false
 | type | action | shortcut |
 | :-   | :-     | :-       |
 | Wrap | toggle word wrap | <span class="kc_rd">Alt</span> <span class="kc_or">Z</span> |
-| Fold | fold code   | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift <span class="kc_bl">\[</span> |
-|      | unfold code | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift <span class="kc_bl">\]</span> |
+| Fold | fold code   | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_bl">\[</span> |
+|      | unfold code | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Shift</span> <span class="kc_bl">\]</span> |
 
 ### language
 
