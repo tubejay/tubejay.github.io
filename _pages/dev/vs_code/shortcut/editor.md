@@ -11,8 +11,6 @@ hidden: false
 
 ### editor
 
-test css in scss
-
 | type | action | shortcut |
 | :-   | :-     | :-       |
 | Select | select left editor     | <span class="kc_rd">Ctrl</span> <span class="kc_gr">PgUp</span> |
