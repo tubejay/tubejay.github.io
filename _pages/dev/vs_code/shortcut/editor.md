@@ -7,18 +7,12 @@ published: true
 hidden: false
 ---
 
-<head>
-  <style>
-    th {min-height:0px; padding:0px; border:0px;}
-  </style>
-</head>
-
 ## Control
 
 ### editor
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Select | select left editor     | Ctrl PgUp      |
 |        | select right editor    | Ctrl PgDn      |
 |        | select next editor     | Ctrl Tab       |
