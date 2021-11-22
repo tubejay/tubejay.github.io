@@ -11,16 +11,16 @@ hidden: false
 
 ### select
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Line | select current line | Ctrl L |
 | Multi-cursor | insert cursor above | Ctrl Alt ↑ |
 |              | insert cursor below | Ctrl Alt ↓ |
 
 ### format
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Move code | move code up   | Alt ↑      |
 |           | move code down | Alt ↓      |
 | Indentation | indent code  | Ctrl \]   |
@@ -32,8 +32,8 @@ hidden: false
 
 ### find/replace
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-|          | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Find | open find | Ctrl F |
 |      | find next | F3    |
 |      |           | Enter |
@@ -48,8 +48,8 @@ hidden: false
 
 ### move/scroll
 
-| <!-- -->     | <!-- -->     |
-| :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Move | go to beginning of file | Ctrl Home |
 |      | go to end of file       | Ctrl End  |
 | Scroll | scroll line up   | Ctrl ↑ |
@@ -59,16 +59,16 @@ hidden: false
 
 ### wrap/fold
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Wrap | toggle word wrap | Alt Z |
 | Fold | fold code   | Ctrl Shift \[ |
 |      | unfold code | Ctrl Shift \] |
 
 ### language
 
-| <!-- --> | <!-- -->     | <!-- -->     |
-| :-       | :-           | :-           |
+| type | action | shortcut |
+| :-   | :-     | :-       |
 | Language | change file language | Ctrl K M |
 | Trigger | trigger suggestion      | Ctrl Space       |
 |         | trigger parameter hints | Ctrl Shift Space |
