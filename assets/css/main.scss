@@ -17,9 +17,9 @@ $masthead-link-color-hover    : #FFFDDB;
 // keycap
 .kc {padding:3px; border-radius:5px}
 .kc_bl {@extend .kc; background:blue}
-.kc_mg {@extend .kc; background:forestgreen}
+.kc_gr {@extend .kc; background:forestgreen}
 .kc_rd {@extend .kc; background:darkred}
-.kc_ol {@extend .kc; background:darkorange}
+.kc_or {@extend .kc; background:darkorange}
 
 // table
 th,td {border-right:1px solid #262626}
