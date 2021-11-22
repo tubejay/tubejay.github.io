@@ -8,19 +8,19 @@ hidden: false
 ---
 
 <head>
-  <base target="_self">
+  <base target="_blank">
 </head>
 
 ## Official
   
-- [documentation](https://code.visualstudio.com/docs){:target="_blank"}
-- [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
-- [web version](https://code.visualstudio.com/docs/editor/vscode-web){:target="_blank"}
+- [documentation](https://code.visualstudio.com/docs)
+- [keyboard shortcuts - Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [web version](https://code.visualstudio.com/docs/editor/vscode-web)
 
 ## Shortcut
 
-- [Code](/dev/vs_code/shortcut/code){:target="_blank"}
-- [Editor](/dev/vs_code/shortcut/editor){:target="_blank"}
+- [Code](/dev/vs_code/shortcut/code)
+- [Editor](/dev/vs_code/shortcut/editor)
 
 ## Personalize
 
