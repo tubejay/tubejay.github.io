@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
 </head>
 
-## edit/visualize
+## Edit
 
 ### indent
 
@@ -47,7 +47,7 @@ hidden: false
 | | Match Rgb With No Function: No |
 | | Match Words: Yes |
 
-## language/syntax
+## Syntax
 
 ### markdown
 
@@ -67,7 +67,7 @@ hidden: false
 | [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag) | Highlight From Content: Yes |
 | [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) | - |
 
-## miscellaneous
+## Miscellaneous
 
 | name | recommended settings |
 | :-   | :-                   |
