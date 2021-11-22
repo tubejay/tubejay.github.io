@@ -11,6 +11,8 @@ hidden: false
 
 ### editor
 
+test css in scss
+
 | type | action | shortcut |
 | :-   | :-     | :-       |
 | Select | select left editor     | <span class="keycap">Ctrl</span> PgUp |
