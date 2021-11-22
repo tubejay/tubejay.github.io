@@ -15,7 +15,7 @@ $masthead-link-color          : #dbfffd;
 $masthead-link-color-hover    : #FFFDDB;
 
 // keycap
-.kc {padding:3px; border-radius:5px}
+.kc {padding:3px; border-radius:3px}
 .kc_bl {@extend .kc; background:blue}
 .kc_gr {@extend .kc; background:forestgreen}
 .kc_rd {@extend .kc; background:darkred}
