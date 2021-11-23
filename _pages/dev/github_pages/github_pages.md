@@ -34,3 +34,4 @@ hidden: false
 ## Example
 
 - [repository](/dev/github_pages/example/repository)
+- [structure](/dev/github_pages/example/structure)
