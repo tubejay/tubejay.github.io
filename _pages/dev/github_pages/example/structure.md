@@ -64,3 +64,4 @@ hidden: false
 - <https://mmistakes.github.io/minimal-mistakes/docs/configuration/>
 - <https://mmistakes.github.io/minimal-mistakes/docs/navigation/>
 - <https://devinlife.com/howto%20github%20pages/toc-table/>
+- <https://jekyllrb.com/docs/configuration/front-matter-defaults/>
