@@ -11,6 +11,18 @@ hidden: false
   <base target="_blank">
 </head>
 
+## Example
+
+### goal
+
+- [types of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) : project
+- [remote theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme) : [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+
+### instruction
+
+- [repository](/dev/github_pages/example/repository)
+- [structure](/dev/github_pages/example/structure)
+
 ## Reference
 
 ### Start
@@ -32,15 +44,3 @@ hidden: false
 
 - [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
 - [Jekyll Docs](https://jekyllrb.com/docs/)
-
-## Example
-
-### goal
-
-- [types of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) : project
-- [remote theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme) : [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
-
-### instruction
-
-- [repository](/dev/github_pages/example/repository)
-- [structure](/dev/github_pages/example/structure)
