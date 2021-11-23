@@ -46,10 +46,21 @@ hidden: false
 
 ## navigation.yml
 
+### elements
 
+- `main`
+- `nav_side`
+
+### saved
+
+![image](https://user-images.githubusercontent.com/92285528/143062653-ed8819b8-fdd8-4662-a54b-1ff0ea80555a.png)
 
 ## references
 
+- <https://dreamgonfly.github.io/blog/jekyll-remote-theme/>
+- <https://devinlife.com/howto%20github%20pages/blog-config/#9-_posts-_pages-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EC%A0%95>
+- <https://devinlife.com/howto%20github%20pages/blog-menu/>
 - <https://mmistakes.github.io/minimal-mistakes/docs/structure/>
 - <https://mmistakes.github.io/minimal-mistakes/docs/configuration/>
 - <https://mmistakes.github.io/minimal-mistakes/docs/navigation/>
+- <https://devinlife.com/howto%20github%20pages/toc-table/>
