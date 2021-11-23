@@ -1,7 +1,7 @@
 ---
 title: Repository
 layout: single
-toc: false
+toc: true
 permalink: /dev/github_pages/example/repository
 published: true
 hidden: false
