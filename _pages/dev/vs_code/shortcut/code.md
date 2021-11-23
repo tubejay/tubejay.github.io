@@ -14,7 +14,7 @@ hidden: false
 | type | action | shortcut |
 | :-   | :-     | :-       |
 | Line | select current line | <span class="kc_rd">Ctrl</span> <span class="kc_or">L</span> |
-| Multi-cursor | insert cursor above | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Alt</span> <span class="kc_bl">↑</span> |
+| Multi cursor | insert cursor above | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Alt</span> <span class="kc_bl">↑</span> |
 |              | insert cursor below | <span class="kc_rd">Ctrl</span> <span class="kc_rd">Alt</span> <span class="kc_bl">↓</span> |
 
 ### format
