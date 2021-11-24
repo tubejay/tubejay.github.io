@@ -27,7 +27,7 @@ hidden: false
   - [create](/dev/github_pages/example/config/create)
   - [setting](/dev/github_pages/example/config/setting)
     - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
-    - organize : outputting / archives / breadcrumbs
+    - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
     - front matter defaults -> view
     - theme -> style
     - tool : comments / search
