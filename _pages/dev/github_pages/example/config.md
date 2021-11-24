@@ -21,7 +21,7 @@ hidden: false
 
 ### set `remote_theme : "mmistakes/minimal-mistakes"`
 
-- <https://dreamgonfly.github.io/blog/jekyll-remote-theme/>
+- [Dreamgonfly's blog](https://dreamgonfly.github.io/blog/jekyll-remote-theme/)
 
 ![image](https://user-images.githubusercontent.com/92285528/143049894-ba643360-5ec5-49d4-9bd7-5a72eab51383.png)
 
@@ -56,7 +56,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 - `name`
 - `description`
 - `breadcrumbs`
-  - <https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta>
+  - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
 ```yml
 # Site Settings
@@ -119,7 +119,7 @@ search_provider          : # lunr (default), algolia, google
 - `bio`
 - `location`
 - `email`
-- <https://devinlife.com/howto%20github%20pages/blog-config/#6-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%80%EC%9E%90-%EC%86%8C%EA%B0%9C>
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-config/#6-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%80%EC%9E%90-%EC%86%8C%EA%B0%9C)
 
 ```yml
 # Site Author
