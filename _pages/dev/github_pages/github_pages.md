@@ -25,7 +25,7 @@ hidden: false
 - [structure](/dev/github_pages/example/structure)
 - config
   - [create](/dev/github_pages/example/config/create)
-  - [setting](/dev/github_pages/example/config/setting)
+  - setting
     - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
     - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
     - [front matter defaults -> view](/dev/github_pages/example/config/setting/front_matter_defaults_view)
