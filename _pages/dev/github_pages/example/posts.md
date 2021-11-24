@@ -3,8 +3,8 @@ title: Posts
 layout: single
 toc: true
 permalink: /dev/github_pages/example/posts
-published: false
-hidden: true
+published: true
+hidden: false
 ---
 
 ## categories
