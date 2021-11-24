@@ -26,7 +26,7 @@ hidden: false
 - config
   - [create](/dev/github_pages/example/config/create)
   - [setting](/dev/github_pages/example/config/setting)
-    - info : site setting / site author
+    - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
     - organize : outputting / archives / breadcrumbs
     - front matter defaults -> view
     - theme -> style
