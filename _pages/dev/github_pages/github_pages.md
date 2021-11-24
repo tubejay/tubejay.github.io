@@ -23,8 +23,8 @@ hidden: false
 
 - [repository](/dev/github_pages/example/repository)
 - [structure](/dev/github_pages/example/structure)
-- [config](/dev/github_pages/example/config)
-  - [create \_config.yml](/dev/github_pages/example/config/create)
+- config
+  - [create](/dev/github_pages/example/config/create)
   - [setting](/dev/github_pages/example/config/setting)
     - info : site setting / site author
     - organize : outputting / archives / breadcrumbs
