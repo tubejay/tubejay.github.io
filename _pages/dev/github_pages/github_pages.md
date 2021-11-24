@@ -24,10 +24,36 @@ hidden: false
 - [repository](/dev/github_pages/example/repository)
 - [structure](/dev/github_pages/example/structure)
 - [config](/dev/github_pages/example/config)
-- [layouts](/dev/github_pages/example/layouts)
-- [navigation](/dev/github_pages/example/navigation)
-- [pages](/dev/github_pages/example/pages)
-- [posts](/dev/github_pages/example/posts)
+  - [create \_config.yml](/dev/github_pages/example/config/create)
+  - [setting](/dev/github_pages/example/config/setting)
+    - info : site setting / site author
+    - organize : outputting / archives / breadcrumbs
+    - front matter defaults -> view
+    - theme -> style
+    - tool : comments / search
+    - build : reading files / plugins / conversion / markdown processing
+- view
+  - front matter
+    - default / document
+    - info : author_profile / show_date / read_time / share / related
+    - toc : toc / toc_sticky / toc_label
+    - comments -> config
+    - layout
+    - navigation
+  - [layouts](/dev/github_pages/example/layouts)
+    - home
+    - single
+    - splash
+    - wide
+    - categories
+    - category
+  - [navigation](/dev/github_pages/example/navigation)
+    - create navigation.yml
+    - masthead
+    - nav_side
+- document
+  - [pages](/dev/github_pages/example/pages)
+  - [posts](/dev/github_pages/example/posts)
 - style
 
 ## Reference
