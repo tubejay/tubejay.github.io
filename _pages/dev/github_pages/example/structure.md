@@ -9,7 +9,7 @@ hidden: false
 
 
 
-[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/structure/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/structure/)
 
 
 ```
