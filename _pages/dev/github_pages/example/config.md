@@ -37,6 +37,19 @@ hidden: false
 
 - `remote_theme : "mmistakes/minimal-mistakes"`
 - `minimal_mistakes_skin`
+  - light
+    - [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air)
+    - [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast)
+    - [dirt](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dirt-skin-dirt)
+    - [mint](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#mint-skin-mint)
+  - dark
+    - [dark](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dark-skin-dark)
+    - [neon](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-neon)
+  - color
+    - [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
+    - [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum)
+    - [sunrise](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#sunrise-skin-sunrise)
+
 
 ```yml
 # Theme Settings
@@ -77,6 +90,8 @@ words_per_minute         : 200
 ```
 
 ### comments
+
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-disqus/)
 
 ```yml
 comments:
@@ -228,6 +243,8 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ```
 
 ### plugins
+
+- [dependency](https://pages.github.com/versions/)
 
 ```yml
 # Plugins (previously gems:)
