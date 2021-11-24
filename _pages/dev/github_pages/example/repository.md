@@ -7,19 +7,29 @@ published: true
 hidden: false
 ---
 
+
+
 ## Create repository
 
 ![image](https://user-images.githubusercontent.com/92285528/143036832-10561e5b-e8a2-4735-8da6-0f148f6f72a9.png)
 
+
+
 ## Create main branch
 
-### create README.md
+### create `README.md`
 
 ![image](https://user-images.githubusercontent.com/92285528/143038046-ff1cd7d3-2ab6-480b-8825-67c03d40b5e5.png)
 
 ### check main branch
 
 ![image](https://user-images.githubusercontent.com/92285528/143038242-03118778-f531-4a08-85ba-081c3b897fa3.png)
+
+### create `index.html`
+
+![image](https://user-images.githubusercontent.com/92285528/143045010-98639fc5-1bbb-4cd5-999c-66bef51c1030.png)
+
+
 
 ## Set pages
 
