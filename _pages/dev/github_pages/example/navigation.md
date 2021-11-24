@@ -14,10 +14,10 @@ hidden: false
 ### elements
 
 - `main`
-  - <https://devinlife.com/howto%20github%20pages/blog-menu/>
-  - <https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead>
+  - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
+  - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
 - `nav_side`
-  - <https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu>
+  - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu)
 
 ### saved
 
