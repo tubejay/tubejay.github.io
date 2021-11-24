@@ -7,9 +7,13 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
 
 
-## Create `_config.yml`
+
+## Create ￦_config.yml
 
 ### copy raw contents from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
@@ -19,7 +23,7 @@ hidden: false
 
 ![image](https://user-images.githubusercontent.com/92285528/143049485-a2ee1efb-2563-4b29-939b-39545e52ad16.png)
 
-### set `remote_theme : "mmistakes/minimal-mistakes"`
+### set remote_theme : "mmistakes/minimal-mistakes"
 
 - [Dreamgonfly's blog](https://dreamgonfly.github.io/blog/jekyll-remote-theme/)
 
@@ -35,8 +39,8 @@ hidden: false
 
 ### theme
 
-- `remote_theme : "mmistakes/minimal-mistakes"`
-- `minimal_mistakes_skin`
+- remote_theme : "mmistakes/minimal-mistakes"
+- minimal_mistakes_skin
   - light
     - [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air)
     - [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast)
@@ -64,11 +68,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 ### site settings
 
-- `title`
-- `subtitle`
-- `name`
-- `description`
-- `breadcrumbs`
+- title
+- subtitle
+- name
+- description
+- breadcrumbs
   - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
 ```yml
@@ -130,10 +134,10 @@ search_provider          : # lunr (default), algolia, google
 
 ### site author
 
-- `name`
-- `bio`
-- `location`
-- `email`
+- name
+- bio
+- location
+- email
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-config/#6-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%80%EC%9E%90-%EC%86%8C%EA%B0%9C)
 
 ```yml
