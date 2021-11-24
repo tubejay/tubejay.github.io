@@ -7,7 +7,7 @@ published: true
 hidden: false
 ---
 
-## references
+## Create page
 
-- <https://devinlife.com/howto%20github%20pages/new-pages/>
-- <https://mmistakes.github.io/minimal-mistakes/docs/pages/>
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/new-pages/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/pages/)
