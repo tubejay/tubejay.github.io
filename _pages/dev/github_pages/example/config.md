@@ -58,7 +58,6 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
   - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
 ```yml
-# Site Settings
 locale                   : "en-US"
 title                    : "Site Settings - title"
 title_separator          : "-"
@@ -87,7 +86,6 @@ comments:
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -258,7 +256,6 @@ tag_archive:
 - [layouts](/dev/github_pages/example/layouts)
 
 ```yml
-# Defaults
 defaults:
   # global
   - scope:
