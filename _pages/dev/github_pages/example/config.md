@@ -41,37 +41,19 @@ hidden: false
 
 - remote_theme : "mmistakes/minimal-mistakes"
 - minimal_mistakes_skin
-  - light
-    - [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air)
-    - [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast)
-    - [dirt](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dirt-skin-dirt)
-    - [mint](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#mint-skin-mint)
-  - dark
-    - [dark](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dark-skin-dark)
-    - [neon](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-neon)
-  - color
-    - [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
-    - [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum)
-    - [sunrise](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#sunrise-skin-sunrise)
-
+  - light : [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air) / [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast) / [dirt](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dirt-skin-dirt) / [mint](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#mint-skin-mint)
+  - dark : [dark](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dark-skin-dark) / [neon](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-neon)
+  - color : [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua) / [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum) / [sunrise](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#sunrise-skin-sunrise)
 
 ```yml
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 ```
 
 ### site settings
 
-- title
-- subtitle
-- name
-- description
+- title / subtitle
+- name / description
 - breadcrumbs
   - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
@@ -141,7 +123,6 @@ search_provider          : # lunr (default), algolia, google
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-config/#6-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%80%EC%9E%90-%EC%86%8C%EA%B0%9C)
 
 ```yml
-# Site Author
 author:
   name             : "Site Author - name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
@@ -172,7 +153,6 @@ author:
 ### reading files
 
 ```yml
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -213,7 +193,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 ### conversion
 
 ```yml
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -224,7 +203,6 @@ incremental: false
 ### markdown processing
 
 ```yml
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -239,7 +217,6 @@ kramdown:
 ### outputting
 
 ```yml
-# Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
@@ -251,15 +228,12 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 - [dependency](https://pages.github.com/versions/)
 
 ```yml
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -271,33 +245,12 @@ whitelist:
 ### archives
 
 ```yml
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 ```
 
 ### front matter defaults
