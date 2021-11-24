@@ -23,9 +23,11 @@ hidden: false
 
 - [repository](/dev/github_pages/example/repository)
 - [structure](/dev/github_pages/example/structure)
-- layouts
-- pages
-- posts
+- [config](/dev/github_pages/example/config)
+- [layouts](/dev/github_pages/example/layouts)
+- [navigation](/dev/github_pages/example/navigation)
+- [pages](/dev/github_pages/example/pages)
+- [posts](/dev/github_pages/example/posts)
 - style
 
 ## Reference
