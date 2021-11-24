@@ -13,7 +13,7 @@ hidden: false
 
 
 
-## Create ￦_config.yml
+## Create _config.yml
 
 ### copy raw contents from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
