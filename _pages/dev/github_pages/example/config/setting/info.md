@@ -9,7 +9,7 @@ hidden: false
 
 
 
-### site settings
+## site settings
 
 - title / subtitle
 - name / description
@@ -30,7 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 ```
 
-### site author
+
+
+## site author
 
 - name / bio
 - location / email
