@@ -15,7 +15,7 @@ hidden: false
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults)
 - [Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
 
-## table of contents
+### table of contents
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents)
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/toc-table/)
