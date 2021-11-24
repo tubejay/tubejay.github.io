@@ -1,5 +1,5 @@
 ---
-title: "Create \_config.yml"
+title: "Create"
 layout: single
 toc: true
 permalink: /dev/github_pages/example/config/create
