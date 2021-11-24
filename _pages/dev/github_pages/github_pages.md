@@ -28,10 +28,10 @@ hidden: false
   - [setting](/dev/github_pages/example/config/setting)
     - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
     - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
-    - front matter defaults -> view
-    - theme -> style
-    - tool : comments / search
-    - build : reading files / plugins / conversion / markdown processing
+    - [front matter defaults -> view](/dev/github_pages/example/config/setting/front_matter_defaults_view)
+    - [theme -> style](/dev/github_pages/example/config/setting/theme_style)
+    - [tool : comments / search](/dev/github_pages/example/config/setting/tool)
+    - [build : reading files / plugins / conversion / markdown processing](/dev/github_pages/example/config/setting/build)
 - view
   - front matter
     - default / document
