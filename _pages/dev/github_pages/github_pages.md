@@ -19,36 +19,43 @@ hidden: false
 
 ## Example
 
-- [repository](/dev/github_pages/example/repository)
-- [structure](/dev/github_pages/example/structure)
-- config
-  - [create](/dev/github_pages/example/config/create)
-  - setting
-    - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
-    - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
-    - [front matter defaults -> view](/dev/github_pages/example/config/setting/front_matter_defaults_view)
-    - [theme -> style](/dev/github_pages/example/config/setting/theme_style)
-    - [tool : comments / search](/dev/github_pages/example/config/setting/tool)
-    - [build : reading files / plugins / conversion / markdown processing](/dev/github_pages/example/config/setting/build)
-- view
-  - front matter
-    - default / document
-    - info : author_profile / show_date / read_time / share / related
-    - toc : toc / toc_sticky / toc_label
-    - comments -> config
-    - layout
-    - navigation
-  - [layouts](/dev/github_pages/example/layouts)
-    - home
-    - single
-    - splash
-    - wide
-    - categories
-    - category
-  - [navigation](/dev/github_pages/example/navigation)
-    - create navigation.yml
-    - masthead
-    - nav_side
+### start
+
+- [repository](/dev/github_pages/example/start/repository)
+- [structure](/dev/github_pages/example/start/structure)
+
+### config
+
+- [create](/dev/github_pages/example/config/create)
+- setting
+  - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
+  - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
+  - [front matter defaults -> view](/dev/github_pages/example/config/setting/front_matter_defaults_view)
+  - [theme -> style](/dev/github_pages/example/config/setting/theme_style)
+  - [tool : comments / search](/dev/github_pages/example/config/setting/tool)
+  - [build : reading files / plugins / conversion / markdown processing](/dev/github_pages/example/config/setting/build)
+
+### view
+
+- front matter
+  - default / document
+  - info : author_profile / show_date / read_time / share / related
+  - toc : toc / toc_sticky / toc_label
+  - comments -> config
+  - layout
+  - navigation
+- [layouts](/dev/github_pages/example/layouts)
+  - home
+  - single
+  - splash
+  - wide
+  - categories
+  - category
+- [navigation](/dev/github_pages/example/navigation)
+  - create navigation.yml
+  - masthead
+  - nav_side
+
 - document
   - [pages](/dev/github_pages/example/pages)
   - [posts](/dev/github_pages/example/posts)
