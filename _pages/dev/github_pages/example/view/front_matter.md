@@ -72,7 +72,7 @@ hidden: false
 
 ### read_time
 
-words_per_minute in config
+- words_per_minute in config
 
 ### share
 
@@ -107,9 +107,8 @@ words_per_minute in config
 
 ## comments
 
+- true/false
 - [config](/dev/github_pages/example/config/setting/tool)
-
-
 
 ## in document
 
