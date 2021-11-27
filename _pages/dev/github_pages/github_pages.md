@@ -11,15 +11,13 @@ hidden: false
   <base target="_blank">
 </head>
 
-## Example
-
-### goal
+## Goal
 
 - 100% on GitHub : no local development
 - [types of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) : project
 - [remote theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme) : [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-### material
+## Example
 
 - [repository](/dev/github_pages/example/repository)
 - [structure](/dev/github_pages/example/structure)
