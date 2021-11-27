@@ -2,7 +2,7 @@
 title: Navigation
 layout: single
 toc: true
-permalink: /dev/github_pages/example/navigation
+permalink: /dev/github_pages/example/view/navigation
 published: true
 hidden: false
 ---
