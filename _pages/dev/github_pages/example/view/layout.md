@@ -1,8 +1,8 @@
 ---
-title: Layouts
+title: Layout
 layout: single
 toc: true
-permalink: /dev/github_pages/example/layouts
+permalink: /dev/github_pages/example/view/layout
 published: true
 hidden: false
 ---
