@@ -37,7 +37,9 @@ hidden: false
 
 ### view
 
-- [front matter](/dev/github_pages/example/config/setting/front_matter_defaults_view)
+- [front matter](/dev/github_pages/example/view/front_matter)
+- [layout](/dev/github_pages/example/view/layout)
+- [navigation](/dev/github_pages/example/view/navigation)
 
 ### document
 
