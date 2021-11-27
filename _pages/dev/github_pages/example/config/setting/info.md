@@ -36,7 +36,6 @@ words_per_minute         : 200
 
 - name / bio
 - location / email
-- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-config/#6-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%80%EC%9E%90-%EC%86%8C%EA%B0%9C)
 
 ```yml
 author:
