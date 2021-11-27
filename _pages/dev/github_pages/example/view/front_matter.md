@@ -1,8 +1,8 @@
 ---
 title: "front matter"
 layout: single
-toc: false
-permalink: /dev/github_pages/example/config/setting/front_matter_defaults_view
+toc: true
+permalink: /dev/github_pages/example/view/front_matter
 published: true
 hidden: false
 ---
@@ -90,7 +90,7 @@ hidden: false
 
 
 
-## [layout](/dev/github_pages/example/layouts)
+## [layout](/dev/github_pages/example/view/layout)
 
 - home
 - single
@@ -99,7 +99,7 @@ hidden: false
 - categories
 - category
 
-## [navigation](/dev/github_pages/example/navigation)
+## [navigation](/dev/github_pages/example/view/navigation)
 
 - create navigation.yml
 - masthead
