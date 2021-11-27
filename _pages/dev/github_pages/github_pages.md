@@ -38,25 +38,6 @@ hidden: false
 ### view
 
 - [front matter](/dev/github_pages/example/config/setting/front_matter_defaults_view)
-  - default / document
-  - info : author_profile / show_date / read_time / share / related
-  - toc : toc / toc_sticky / toc_label
-  - [layout](/dev/github_pages/example/layouts)
-    - home
-    - single
-    - splash
-    - wide
-    - categories
-    - category
-  - [navigation](/dev/github_pages/example/navigation)
-    - create navigation.yml
-    - masthead
-    - nav_side
-  - comments -> [config](#view)
-  - in document
-    - date / title
-    - categories / permalink
-    - published / hidden
 
 ### document
 
