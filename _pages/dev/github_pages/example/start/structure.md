@@ -2,7 +2,7 @@
 title: Structure
 layout: single
 toc: true
-permalink: /dev/github_pages/example/structure
+permalink: /dev/github_pages/example/start/structure
 published: true
 hidden: false
 ---
