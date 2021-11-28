@@ -45,6 +45,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 ### [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
 
+![image](https://user-images.githubusercontent.com/92285528/143727199-dd40986b-a777-4c67-aa6b-7eccd0467bd0.png)
+
 ### [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum)
 
 ![image](https://user-images.githubusercontent.com/92285528/143726726-ffff992f-b44c-4edb-8ea7-de211650f11e.png)
