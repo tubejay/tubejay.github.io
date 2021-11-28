@@ -1,5 +1,5 @@
 ---
-title: build
+title: Build
 layout: single
 toc: true
 permalink: /dev/github_pages/example/config/setting/build
