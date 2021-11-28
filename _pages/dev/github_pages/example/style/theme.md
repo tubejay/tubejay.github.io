@@ -9,7 +9,7 @@ hidden: false
 
 
 
-## in [config](/dev/github_pages#config)
+## In [config](/dev/github_pages#config)
 
 ```yml
 remote_theme             : "mmistakes/minimal-mistakes"
@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 
 
-## light
+## Light
 
 ### [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air)
 
@@ -38,7 +38,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 
 
-## dark
+## Dark
 
 ### [dark](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dark-skin-dark)
 
@@ -50,7 +50,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 
 
-## color
+## Color
 
 ### [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
 
