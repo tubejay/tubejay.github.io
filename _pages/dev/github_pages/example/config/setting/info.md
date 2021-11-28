@@ -11,9 +11,6 @@ hidden: false
 
 ## site settings
 
-- title / subtitle
-- name / description
-
 ```yml
 locale                   : "en-US"
 title                    : "Site Settings - title"
@@ -34,8 +31,6 @@ words_per_minute         : 200
 
 ## site author
 
-- name / bio
-- location / email
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ```yml
