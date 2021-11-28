@@ -1,8 +1,8 @@
 ---
-title: "theme -> style"
+title: theme
 layout: single
 toc: false
-permalink: /dev/github_pages/example/config/setting/theme_style
+permalink: /dev/github_pages/example/config/setting/style/theme
 published: true
 hidden: false
 ---
