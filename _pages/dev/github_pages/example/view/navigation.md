@@ -15,7 +15,7 @@ hidden: false
 
 
 
-## masthead
+## masthead : in [navigation.yml](/dev/github_pages/example/view/navigation#create)
 
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
@@ -36,6 +36,8 @@ main:
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu)
 
+### in [navigation.yml](/dev/github_pages/example/view/navigation#create)
+
 ```yml
 nav_side:
   - title: Categories
@@ -45,4 +47,11 @@ nav_side:
         url: /categories/cat_A/
       - title: cat_B
         url: /categories/cat_B/
+```
+
+### in [front matter](/dev/github_pages/example/view/front_matter)
+
+```yml
+sidebar:
+  nav: nav_side
 ```
