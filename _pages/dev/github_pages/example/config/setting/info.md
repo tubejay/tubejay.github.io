@@ -36,6 +36,7 @@ words_per_minute         : 200
 
 - name / bio
 - location / email
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ```yml
 author:
