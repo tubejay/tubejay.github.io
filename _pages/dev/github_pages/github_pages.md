@@ -31,7 +31,7 @@ hidden: false
   - [info : site setting / site author](/dev/github_pages/example/config/setting/info)
   - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
   - front matter -> [view](#view)
-  - [theme -> style](/dev/github_pages/example/config/setting/theme_style)
+  - theme -> [style](#style)
   - [tool : comments / search](/dev/github_pages/example/config/setting/tool)
   - [build : reading files / plugins / conversion / markdown processing](/dev/github_pages/example/config/setting/build)
 
