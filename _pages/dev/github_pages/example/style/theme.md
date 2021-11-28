@@ -39,6 +39,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 ### [neon](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-neon)
 
+![image](https://user-images.githubusercontent.com/92285528/143727474-9e0c369a-c587-41ef-8906-79bd31df095a.png)
+
 
 
 ## color
