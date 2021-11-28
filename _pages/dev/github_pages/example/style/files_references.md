@@ -1,8 +1,8 @@
 ---
-title: Style
+title: "files_references"
 layout: single
 toc: true
-permalink: /dev/github_pages/example/style
+permalink: /dev/github_pages/example/style/files_references
 published: false
 hidden: true
 ---
