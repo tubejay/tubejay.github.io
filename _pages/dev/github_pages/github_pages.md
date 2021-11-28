@@ -48,7 +48,7 @@ hidden: false
 
 ### style
 
-- theme
+- [theme](/dev/github_pages/example/style/theme)
 - color
 - syntax highlight
 - font
