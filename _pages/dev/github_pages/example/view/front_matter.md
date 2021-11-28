@@ -75,31 +75,50 @@ hidden: false
 
 ### author_profile
 
-- true/false
 - in [site author](/dev/github_pages/example/config/setting/info#site-author)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
+```yml
+author_profile: true
+author_profile: false
+```
+
 ### show_date
 
-- true/false
+```yml
+show_date: true
+show_date: false
+```
 
 ### read_time
 
-- true/false
 - words_per_minute in [site settings](/dev/github_pages/example/config/setting/info#site-settings)
+```yml
+read_time: true
+read_time: false
+```
 
 ### share
 
-- true/false
+```yml
+share: true
+share: false
+```
 
 ### related
 
-- true/false
+```yml
+related: true
+related: false
+```
 
 ### comments
 
-- true/false
 - in [comments](/dev/github_pages/example/config/setting/tool#comments)
+```yml
+comments: true
+comments: false
+```
 
 
 
@@ -110,15 +129,23 @@ hidden: false
 
 ### toc
 
-- true/false
+```yml
+toc: true
+toc: false
+```
 
 ### toc_sticky
 
-- true/false
+```yml
+toc_sticky: true
+toc_sticky: false
+```yml
 
 ### toc_label
 
-- toc_label: "Table of Contents"
+```yml
+toc_label: "Table of Contents"
+```
 
 
 
@@ -126,23 +153,51 @@ hidden: false
 
 ### date
 
-- YYYY-MM-DD
+```yml
+---
+date: YYYY-MM-DD
+---
+```
 
 ### title
 
-- word
-- "two or more words"
+```yml
+---
+title: word
+title: "two or more words"
+---
+```
 
 ### categories
 
-- category_name
+```yml
+---
+categories: category_name
+---
+```
 
 ### permalink
 
+```yml
+---
+permalink: "/category_name/post_name"
+---
+```
+
 ### published
 
-- true/false
+```yml
+---
+published: true
+published: false
+---
+```
 
 ### hidden
 
-- true/false
+```yml
+---
+hidden: true
+hidden: false
+---
+```
