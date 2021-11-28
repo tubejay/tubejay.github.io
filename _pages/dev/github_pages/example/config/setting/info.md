@@ -1,5 +1,5 @@
 ---
-title: info
+title: Info
 layout: single
 toc: true
 permalink: /dev/github_pages/example/config/setting/info
