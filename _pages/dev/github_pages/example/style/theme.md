@@ -11,9 +11,6 @@ hidden: false
 
 ## in [config](/dev/github_pages#config)
 
-- remote_theme : "mmistakes/minimal-mistakes"
-- minimal_mistakes_skin
-
 ```yml
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
