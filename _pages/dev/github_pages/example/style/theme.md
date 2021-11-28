@@ -48,3 +48,5 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 ### [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum)
 
 ### [sunrise](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#sunrise-skin-sunrise)
+
+![image](https://user-images.githubusercontent.com/92285528/143726371-bf3f2224-85fd-4f48-ab39-46200945bb32.png)
