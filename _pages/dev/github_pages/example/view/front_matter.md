@@ -9,11 +9,15 @@ hidden: false
 
 
 
-## default / document
+## type
 
 ### default
 
 - in [config](/dev/github_pages#config)
+- scope
+  - global
+  - posts
+  - pages
 
 ```yml
 defaults:
@@ -78,7 +82,7 @@ hidden: false
 ### read_time
 
 - true/false
-- `words_per_minute` in [site settings](/dev/github_pages/example/config/setting/info#site-settings)
+- words_per_minute in [site settings](/dev/github_pages/example/config/setting/info#site-settings)
 
 ### share
 
@@ -111,26 +115,28 @@ hidden: false
 
 
 
-## [layout](/dev/github_pages/example/view/layout)
+## document
 
-- home
-- single
-- splash
-- wide
-- categories
-- category
+### date
 
-## [navigation](/dev/github_pages/example/view/navigation)
+- YYYY-MM-DD
 
-- create navigation.yml
-- masthead
-- nav_side
+### title
 
-## in document
+- word
+- "two or more words"
 
-- date / title
-- categories / permalink
-- published / hidden
+### categories
 
+- category_name
 
+### permalink
+
+### published
+
+- true/false
+
+### hidden
+
+- true/false
 
