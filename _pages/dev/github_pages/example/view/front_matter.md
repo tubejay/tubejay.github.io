@@ -93,6 +93,7 @@ show_date: false
 ### read_time
 
 - words_per_minute in [site settings](/dev/github_pages/example/config/setting/info#site-settings)
+
 ```yml
 read_time: true
 read_time: false
@@ -115,6 +116,7 @@ related: false
 ### comments
 
 - in [comments](/dev/github_pages/example/config/setting/tool#comments)
+
 ```yml
 comments: true
 comments: false
