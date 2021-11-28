@@ -28,12 +28,23 @@ hidden: false
 
 - [create](/dev/github_pages/example/config/create)
 - setting
-  - [info : site settings / site author](/dev/github_pages/example/config/setting/info)
-  - [organize : outputting / archives / breadcrumbs](/dev/github_pages/example/config/setting/organize)
+  - [info](/dev/github_pages/example/config/setting/info)
+    - site settings
+    - site author
+  - [organize](/dev/github_pages/example/config/setting/organize)
+    - outputting
+    - archives
+    - breadcrumbs
   - front matter -> [view](#view)
   - theme -> [style](#style)
-  - [tool : comments / search](/dev/github_pages/example/config/setting/tool)
-  - [build : reading files / plugins / conversion / markdown processing](/dev/github_pages/example/config/setting/build)
+  - [tool](/dev/github_pages/example/config/setting/tool)
+    - comments
+    - search
+  - [build](/dev/github_pages/example/config/setting/build)
+    - reading files
+    - plugins
+    - conversion
+    - markdown processing
 
 ### view
 
