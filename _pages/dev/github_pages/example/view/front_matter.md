@@ -1,5 +1,5 @@
 ---
-title: "front matter"
+title: "Front Matter"
 layout: single
 toc: true
 permalink: /dev/github_pages/example/view/front_matter
@@ -9,7 +9,7 @@ hidden: false
 
 
 
-## type
+## Type
 
 ### default
 
@@ -71,7 +71,7 @@ hidden: false
 
 
 
-## info
+## Info
 
 ### author_profile
 
@@ -124,7 +124,7 @@ comments: false
 
 
 
-## table of contents
+## Table of contents
 
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/toc-table/)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents)
@@ -151,7 +151,7 @@ toc_label: "Table of Contents"
 
 
 
-## document
+## Document
 
 ### date
 
