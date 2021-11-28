@@ -28,13 +28,13 @@ defaults:
   - scope:
       path: ""
     values:
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      show_date: false
-      toc_sticky: true
-      toc_label: "Table of Contents"
+      read_time  : false
+      comments   : false
+      share      : false
+      related    : false
+      show_date  : false
+      toc_sticky : true
+      toc_label  : "Table of Contents"
       sidebar:
         nav: nav_side
   # _posts
@@ -42,17 +42,17 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: false
-      toc: true
+      layout         : single
+      author_profile : false
+      toc            : true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: splash
-      author_profile: true
-      toc: false
+      layout         : splash
+      author_profile : true
+      toc            : false
 ```
 
 ### document
