@@ -43,8 +43,8 @@ hidden: false
 
 ### document
 
-- [pages](/dev/github_pages/example/pages)
-- [posts](/dev/github_pages/example/posts)
+- [pages](/dev/github_pages/example/document/pages)
+- [posts](/dev/github_pages/example/document/posts)
 
 ### style
 
