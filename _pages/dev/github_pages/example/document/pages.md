@@ -2,7 +2,7 @@
 title: Pages
 layout: single
 toc: true
-permalink: /dev/github_pages/example/pages
+permalink: /dev/github_pages/example/document/pages
 published: true
 hidden: false
 ---
