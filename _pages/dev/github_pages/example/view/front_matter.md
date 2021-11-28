@@ -50,7 +50,7 @@ defaults:
 
 ### document
 
-- in document
+- in [document](/dev/github_pages#document)
 
 ```yml
 ---
@@ -66,17 +66,32 @@ hidden: false
 
 ## info
 
-### author profile
+### author_profile
+
+- true/false
+- in [site author](/dev/github_pages/example/config/setting/info#site-author)
 
 ### show_date
 
+- true/false
+
 ### read_time
 
-- words_per_minute in config
+- true/false
+- `words_per_minute` in [site settings](/dev/github_pages/example/config/setting/info#site-settings)
 
 ### share
 
+- true/false
+
 ### related
+
+- true/false
+
+### comments
+
+- true/false
+- in [comments](/dev/github_pages/example/config/setting/tool#comments)
 
 
 
@@ -84,9 +99,15 @@ hidden: false
 
 ### toc
 
+- true/false
+
 ### toc_sticky
 
+- true/false
+
 ### toc_label
+
+- toc_label: "Table of Contents"
 
 
 
@@ -104,11 +125,6 @@ hidden: false
 - create navigation.yml
 - masthead
 - nav_side
-
-## comments
-
-- true/false
-- [config](/dev/github_pages/example/config/setting/tool)
 
 ## in document
 
