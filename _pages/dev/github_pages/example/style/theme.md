@@ -27,6 +27,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 ### [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast)
 
+![image](https://user-images.githubusercontent.com/92285528/143729299-9d45de54-236c-4e78-a662-2bfbb7e66afc.png)
+
 ### [dirt](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dirt-skin-dirt)
 
 ![image](https://user-images.githubusercontent.com/92285528/143728994-ea411fa2-df21-4947-b323-0f28249b7b3d.png)
