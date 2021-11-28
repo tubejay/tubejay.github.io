@@ -1,5 +1,5 @@
 ---
-title: theme
+title: Theme
 layout: single
 toc: true
 permalink: /dev/github_pages/example/style/theme
