@@ -43,6 +43,8 @@ comments:
 
 ## search
 
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#exclusions)
+
 ```yml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
