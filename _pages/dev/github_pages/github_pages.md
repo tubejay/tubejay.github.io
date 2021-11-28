@@ -49,8 +49,21 @@ hidden: false
 ### view
 
 - [front matter](/dev/github_pages/example/view/front_matter)
+  - type
+  - info
+  - table of contents
+  - document
 - [layout](/dev/github_pages/example/view/layout)
+  - home
+  - single
+  - splash
+  - wide
+  - categories
+  - category
 - [navigation](/dev/github_pages/example/view/navigation)
+  - create
+  - masthead
+  - nav_side
 
 ### document
 
