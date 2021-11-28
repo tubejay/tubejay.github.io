@@ -9,7 +9,7 @@ hidden: false
 
 
 
-## in [front matter](/dev/github_pages/example/view/front_matter)
+## In [front matter](/dev/github_pages/example/view/front_matter)
 
 - layout
 - classes
@@ -21,7 +21,7 @@ classes : #
 
 
 
-## home
+## Home
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#home-page-layout)
 
@@ -31,7 +31,7 @@ layout: home
 
 
 
-## single
+## Single
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#single-layout)
 
@@ -41,7 +41,7 @@ layout: single
 
 
 
-## splash
+## Splash
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout)
 
@@ -51,7 +51,7 @@ layout: splash
 
 
 
-## wide
+## Wide
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#wide-page)
 
@@ -61,7 +61,7 @@ classes: wide
 
 
 
-## categories
+## Categories
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-categories)
 
@@ -71,7 +71,7 @@ layout: categories
 
 
 
-## category
+## Category
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-category)
 
