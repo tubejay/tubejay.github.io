@@ -18,6 +18,9 @@ hidden: false
   - global
   - posts
   - pages
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-config/#9-_posts-_pages-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EC%A0%95)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults)
+- [Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
 
 ```yml
 defaults:
@@ -74,6 +77,7 @@ hidden: false
 
 - true/false
 - in [site author](/dev/github_pages/example/config/setting/info#site-author)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ### show_date
 
@@ -100,6 +104,9 @@ hidden: false
 
 
 ## table of contents
+
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/toc-table/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents)
 
 ### toc
 
@@ -139,4 +146,3 @@ hidden: false
 ### hidden
 
 - true/false
-
