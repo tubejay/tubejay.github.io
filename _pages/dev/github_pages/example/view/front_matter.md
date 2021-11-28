@@ -141,7 +141,7 @@ toc: false
 ```yml
 toc_sticky: true
 toc_sticky: false
-```yml
+```
 
 ### toc_label
 
@@ -156,50 +156,38 @@ toc_label: "Table of Contents"
 ### date
 
 ```yml
----
 date: YYYY-MM-DD
----
 ```
 
 ### title
 
 ```yml
----
 title: word
 title: "two or more words"
----
 ```
 
 ### categories
 
 ```yml
----
 categories: category_name
----
 ```
 
 ### permalink
 
 ```yml
----
 permalink: "/category_name/post_name"
----
 ```
 
 ### published
 
 ```yml
----
 published: true
 published: false
----
 ```
 
 ### hidden
 
 ```yml
----
 hidden: true
 hidden: false
----
 ```
