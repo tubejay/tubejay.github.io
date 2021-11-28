@@ -21,28 +21,30 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 
 
-## skin
+## light
 
-### light
+### [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air)
 
-#### [air](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#air-skin-air)
+### [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast)
 
-#### [contrast](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#contrast-skin-contrast)
+### [dirt](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dirt-skin-dirt)
 
-#### [dirt](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dirt-skin-dirt)
+### [mint](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#mint-skin-mint)
 
-#### [mint](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#mint-skin-mint)
 
-### dark
 
-#### [dark](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dark-skin-dark)
+## dark
 
-#### [neon](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-neon)
+### [dark](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#dark-skin-dark)
 
-### color
+### [neon](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-neon)
 
-#### [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
 
-#### [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum)
 
-#### [sunrise](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#sunrise-skin-sunrise)
+## color
+
+### [aqua](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
+
+### [plum](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#neon-skin-plum)
+
+### [sunrise](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#sunrise-skin-sunrise)
