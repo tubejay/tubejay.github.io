@@ -9,16 +9,40 @@ hidden: false
 
 
 
-## Create `navigation.yml`
+## Create
 
-### elements
+![image](https://user-images.githubusercontent.com/92285528/143728088-5d60a93d-4768-44ca-b048-9618a1d8d33c.png)
 
-- `main`
-  - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
-  - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
-- `nav_side`
-  - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu)
 
-### saved
 
-![image](https://user-images.githubusercontent.com/92285528/143074318-1654873d-f8f3-449a-815b-a142cd1dc815.png)
+## masthead
+
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
+
+```yml
+main:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /categories/
+  - title: GitHub
+    url: https://github.com/
+```
+
+
+
+## nav_side
+
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu)
+
+```yml
+nav_side:
+  - title: Categories
+    url: /categories/
+    children:
+      - title: cat_A
+        url: /categories/cat_A/
+      - title: cat_B
+        url: /categories/cat_B/
+```
