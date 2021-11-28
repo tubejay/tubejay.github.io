@@ -2,7 +2,7 @@
 title: theme
 layout: single
 toc: false
-permalink: /dev/github_pages/example/config/setting/style/theme
+permalink: /dev/github_pages/example/style/theme
 published: true
 hidden: false
 ---
