@@ -9,14 +9,13 @@ hidden: false
 
 
 
-## In [front matter](/dev/github_pages/example/view/front_matter)
+## Setting
 
-- layout
-- classes
+- in [front matter](/dev/github_pages/example/view/front_matter)
 
 ```yml
-layout  : #
-classes : #
+layout  : single
+classes : wide
 ```
 
 
