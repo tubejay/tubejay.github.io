@@ -67,9 +67,6 @@ $masthead-link-color-hover    : #FFFDDB;
 ## code
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#syntax-highlighting)
-
-### base16
-
 - [base16](http://chriskempson.com/projects/base16/)
 
 ### background
