@@ -2,7 +2,7 @@
 title: "Table of Contents"
 layout: single
 toc: true
-permalink: /dev/github_pages/dev/example/view/front_matter/table_of_contents
+permalink: /dev/github_pages/example/view/front_matter/table_of_contents
 published: true
 hidden: false
 ---
