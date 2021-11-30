@@ -53,8 +53,8 @@ hidden: false
   - info
   - table of contents
   - document
-  - layout -> [layout](#layout)
-  - nav_side -> [navigation](#navigation)
+  - layout -> [layout](/dev/github_pages#layout)
+  - nav_side -> [navigation](/dev/github_pages#navigation)
 - [layout](/dev/github_pages/example/view/layout)
   - home
   - single
