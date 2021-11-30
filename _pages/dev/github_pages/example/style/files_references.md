@@ -16,7 +16,7 @@ hidden: true
 
 - Minimal Mistakes
   - [stylesheets](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/)
-  - [font size](https://github.com/mmistakes/minimal-mistakes/discussions/1219)
+  - [font size](https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172827)
 - Color
   - [base16](http://chriskempson.com/projects/base16/)
 - 취미로 코딩하는 개발자
