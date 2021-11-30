@@ -20,6 +20,7 @@ hidden: false
 ## paste
 
 - paste and create
+- `/_config.yml`
 
 ![image](https://user-images.githubusercontent.com/92285528/143049485-a2ee1efb-2563-4b29-939b-39545e52ad16.png)
 
