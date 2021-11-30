@@ -1,0 +1,52 @@
+---
+title: "Table of Contents"
+layout: single
+toc: true
+permalink: /dev/github_pages/dev/example/view/front_matter/table_of_contents
+published: true
+hidden: false
+---
+
+<head>
+  <base target="_blank">
+</head>
+
+
+
+## setting
+
+### toc
+
+```yml
+toc: true
+toc: false
+```
+
+### toc_sticky
+
+```yml
+toc_sticky: true
+toc_sticky: false
+```
+
+### toc_label
+
+```yml
+toc_label: "Table of Contents"
+```
+
+### toc_icon
+
+- [fontawesome](https://fontawesome.com/v5.15/icons?d=listing&p=2&s=solid&m=free)
+
+```yml
+toc_icon: file-alt
+toc_icon: list-alt
+```
+
+
+
+## Reference
+
+- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/toc-table/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents)
