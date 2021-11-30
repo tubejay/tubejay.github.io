@@ -7,9 +7,15 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
 
 
-## In [config](/dev/github_pages#config)
+
+## Setting
+
+- in [config](/dev/github_pages#config)
 
 ```yml
 remote_theme             : "mmistakes/minimal-mistakes"
