@@ -58,7 +58,7 @@ hidden: false
 
 ## view
 
-### [front matter](/dev/github_pages/example/view/front_matter)
+### front matter
 
 - [scope](/dev/github_pages/example/view/front_matter/scope)
   - default
