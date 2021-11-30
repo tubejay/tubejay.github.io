@@ -117,9 +117,16 @@ hidden: false
 - dark
 - color
 
-### color
+### [customization](/dev/github_pages/example/style/customization)
 
-### syntax highlight
+- structure
+- main.scss
+- custom.html
+
+### [color](/dev/github_pages/example/style/color)
+
+- basic
+- code
 
 ### font
 
