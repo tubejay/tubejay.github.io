@@ -13,29 +13,33 @@ hidden: false
 
 
 
-## setting
-
-### toc
+## toc
 
 ```yml
 toc: true
 toc: false
 ```
 
-### toc_sticky
+
+
+## toc_sticky
 
 ```yml
 toc_sticky: true
 toc_sticky: false
 ```
 
-### toc_label
+
+
+## toc_label
 
 ```yml
 toc_label: "Table of Contents"
 ```
 
-### toc_icon
+
+
+## toc_icon
 
 - [fontawesome](https://fontawesome.com/v5.15/icons?d=listing&p=2&s=solid&m=free)
 
