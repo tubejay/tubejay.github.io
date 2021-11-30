@@ -15,10 +15,12 @@ hidden: false
 
 
 
-## Masthead : in [navigation.yml](/dev/github_pages/example/view/navigation#create)
+## Masthead
 
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
+
+### in [navigation.yml](/dev/github_pages/example/view/navigation#create)
 
 ```yml
 main:
