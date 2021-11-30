@@ -128,9 +128,17 @@ hidden: false
 - basic
 - code
 
-### font
+### [font](/dev/github_pages/example/style/font)
 
-### animation
+- font-family
+- font-size
+
+### [miscellaneous](/dev/github_pages/example/style/miscellaneous)
+
+- animation
+- table
+- masthead
+- link
 
 
 
