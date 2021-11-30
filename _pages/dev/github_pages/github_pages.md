@@ -111,11 +111,19 @@ hidden: false
 
 ## Style
 
-- [theme](/dev/github_pages/example/style/theme)
+### [theme](/dev/github_pages/example/style/theme)
+
+- light
+- dark
 - color
-- syntax highlight
-- font
-- animation
+
+### color
+
+### syntax highlight
+
+### font
+
+### animation
 
 
 
