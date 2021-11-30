@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages"
 layout: single
-toc: false
+toc: true
 permalink: /dev/github_pages
 published: true
 hidden: false
@@ -11,68 +11,105 @@ hidden: false
   <base target="_blank">
 </head>
 
+
+
 ## Goal
 
 - 100% on GitHub : no local development
 - [types of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) : project
 - [remote theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme) : [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-## Example
 
-### start
+
+## start
 
 - [repository](/dev/github_pages/example/start/repository)
 - [structure](/dev/github_pages/example/start/structure)
 
-### config
+
+
+## config
+
+### create
 
 - [create](/dev/github_pages/example/config/create)
-- setting
-  - [info](/dev/github_pages/example/config/setting/info)
-    - site settings
-    - site author
-  - [organize](/dev/github_pages/example/config/setting/organize)
-    - outputting
-    - archives
-    - breadcrumbs
-  - front matter -> [view](#view)
-  - theme -> [style](#style)
-  - [tool](/dev/github_pages/example/config/setting/tool)
-    - comments
-    - search
-  - [build](/dev/github_pages/example/config/setting/build)
-    - reading files
-    - plugins
-    - conversion
-    - markdown processing
 
-### view
+### setting
 
-- [front matter](/dev/github_pages/example/view/front_matter)
-  - type
-  - info
-  - table of contents
+- [info](/dev/github_pages/example/config/setting/info)
+  - site settings
+  - site author
+- [organize](/dev/github_pages/example/config/setting/organize)
+  - outputting
+  - archives
+  - breadcrumbs
+- front matter -> [view](#view)
+- theme -> [style](#style)
+- [tool](/dev/github_pages/example/config/setting/tool)
+  - comments
+  - search
+- [build](/dev/github_pages/example/config/setting/build)
+  - reading files
+  - plugins
+  - conversion
+  - markdown processing
+
+
+
+## view
+
+### [front matter](/dev/github_pages/example/view/front_matter)
+
+- [scope](/dev/github_pages/example/view/front_matter/scope)
+  - default
   - document
-  - layout
-  - nav_side
-- [layout](/dev/github_pages/example/view/layout)
-  - home
-  - single
-  - splash
-  - wide
+- [info](/dev/github_pages/example/view/front_matter/info)
+  - author_profile
+  - show_date
+  - read_time
+  - share
+  - related
+  - comments
+- [table of contents](/dev/github_pages/example/view/front_matter/table_of_contents)
+  - toc
+  - toc_sticky
+  - toc_label
+  - toc_icon
+- [document](/dev/github_pages/example/view/front_matter/document)
+  - date
+  - title
   - categories
-  - category
-- [navigation](/dev/github_pages/example/view/navigation)
-  - create
-  - masthead
-  - nav_side
+  - permalink
+  - published
+  - hidden
+- layout -> [layout](#layout)
+- nav_side -> [navigation](#navigation)
 
-### document
+### [layout](/dev/github_pages/example/view/layout)
+
+- home
+- single
+- splash
+- wide
+- categories
+- category
+
+### [navigation](/dev/github_pages/example/view/navigation)
+
+- create
+- masthead
+- nav_side
+
+
+
+## document
 
 - [pages](/dev/github_pages/example/document/pages)
 - [posts](/dev/github_pages/example/document/posts)
 
-### style
+
+
+## style
 
 - [theme](/dev/github_pages/example/style/theme)
 - color
