@@ -30,9 +30,7 @@ hidden: false
 
 ## Config
 
-### create
-
-- [create](/dev/github_pages/example/config/create)
+### [create](/dev/github_pages/example/config/create)
 
 ### setting
 
@@ -104,7 +102,11 @@ hidden: false
 
 ## Document
 
-- [pages](/dev/github_pages/example/document/pages)
+- pages
+  - [create](/dev/github_pages/example/document/pages/create)
+  - [page not found](/dev/github_pages/example/document/pages/page_not_found)
+  - [categories](/dev/github_pages/example/document/pages/categories)
+  - [category](/dev/github_pages/example/document/pages/category)
 - [posts](/dev/github_pages/example/document/posts)
 
 
