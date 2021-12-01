@@ -107,7 +107,9 @@ hidden: false
   - [page not found](/dev/github_pages/example/document/pages/page_not_found)
   - [categories](/dev/github_pages/example/document/pages/categories)
   - [category](/dev/github_pages/example/document/pages/category)
-- [posts](/dev/github_pages/example/document/posts)
+- posts
+  - [create](/dev/github_pages/example/document/posts/create)
+  - [visibility](/dev/github_pages/example/document/posts/visibility)
 
 
 
