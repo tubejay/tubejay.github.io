@@ -2,7 +2,7 @@
 title: "files_references"
 layout: single
 toc: true
-permalink: /dev/github_pages/example/style/files_references
+permalink: /dev/github_pages/style/files_references
 published: false
 hidden: true
 ---
