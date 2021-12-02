@@ -11,7 +11,7 @@ hidden: false
 
 ## Setting
 
-- in [front matter](/dev/github_pages/view/front_matter)
+- in [front matter](/dev/github_pages#front-matter)
 
 ```yml
 layout  : single
