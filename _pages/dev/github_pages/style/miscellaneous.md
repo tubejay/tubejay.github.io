@@ -11,6 +11,7 @@ hidden: false
 
 ## animation
 
+- in [`main.scss`](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#disabling-animations)
 
 ```scss
@@ -21,6 +22,8 @@ $global-transition : none;
 
 
 ## table
+
+- in [`main.scss`](/dev/github_pages/style/customization#mainscss)
 
 ```scss
 th,td {border-right:1px solid #262626}
