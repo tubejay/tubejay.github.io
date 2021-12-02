@@ -23,30 +23,30 @@ hidden: false
 
 ## Start
 
-- [repository](/dev/github_pages/example/start/repository)
-- [structure](/dev/github_pages/example/start/structure)
+- [repository](/dev/github_pages/start/repository)
+- [structure](/dev/github_pages/start/structure)
 
 
 
 ## Config
 
-### [create](/dev/github_pages/example/config/create)
+### [create](/dev/github_pages/config/create)
 
 ### setting
 
-- [info](/dev/github_pages/example/config/setting/info)
+- [info](/dev/github_pages/config/setting/info)
   - site settings
   - site author
-- [organize](/dev/github_pages/example/config/setting/organize)
+- [organize](/dev/github_pages/config/setting/organize)
   - outputting
   - archives
   - breadcrumbs
 - front matter -> [view](#view)
 - theme -> [style](#style)
-- [tool](/dev/github_pages/example/config/setting/tool)
+- [tool](/dev/github_pages/config/setting/tool)
   - comments
   - search
-- [build](/dev/github_pages/example/config/setting/build)
+- [build](/dev/github_pages/config/setting/build)
   - reading files
   - plugins
   - conversion
@@ -58,22 +58,22 @@ hidden: false
 
 ### front matter
 
-- [scope](/dev/github_pages/example/view/front_matter/scope)
+- [scope](/dev/github_pages/view/front_matter/scope)
   - default
   - document
-- [info](/dev/github_pages/example/view/front_matter/info)
+- [info](/dev/github_pages/view/front_matter/info)
   - author_profile
   - show_date
   - read_time
   - share
   - related
   - comments
-- [table of contents](/dev/github_pages/example/view/front_matter/table_of_contents)
+- [table of contents](/dev/github_pages/view/front_matter/table_of_contents)
   - toc
   - toc_sticky
   - toc_label
   - toc_icon
-- [document](/dev/github_pages/example/view/front_matter/document)
+- [document](/dev/github_pages/view/front_matter/document)
   - date
   - title
   - categories
@@ -83,7 +83,7 @@ hidden: false
 - layout -> [layout](#layout)
 - nav_side -> [navigation](#navigation)
 
-### [layout](/dev/github_pages/example/view/layout)
+### [layout](/dev/github_pages/view/layout)
 
 - home
 - single
@@ -92,7 +92,7 @@ hidden: false
 - categories
 - category
 
-### [navigation](/dev/github_pages/example/view/navigation)
+### [navigation](/dev/github_pages/view/navigation)
 
 - create
 - masthead
@@ -103,41 +103,41 @@ hidden: false
 ## Document
 
 - pages
-  - [create](/dev/github_pages/example/document/pages/create)
-  - [page not found](/dev/github_pages/example/document/pages/page_not_found)
-  - [categories](/dev/github_pages/example/document/pages/categories)
-  - [category](/dev/github_pages/example/document/pages/category)
+  - [create](/dev/github_pages/document/pages/create)
+  - [page not found](/dev/github_pages/document/pages/page_not_found)
+  - [categories](/dev/github_pages/document/pages/categories)
+  - [category](/dev/github_pages/document/pages/category)
 - posts
-  - [create](/dev/github_pages/example/document/posts/create)
-  - [visibility](/dev/github_pages/example/document/posts/visibility)
+  - [create](/dev/github_pages/document/posts/create)
+  - [visibility](/dev/github_pages/document/posts/visibility)
 
 
 
 ## Style
 
-### [theme](/dev/github_pages/example/style/theme)
+### [theme](/dev/github_pages/style/theme)
 
 - light
 - dark
 - color
 
-### [customization](/dev/github_pages/example/style/customization)
+### [customization](/dev/github_pages/style/customization)
 
 - structure
 - main.scss
 - custom.html
 
-### [color](/dev/github_pages/example/style/color)
+### [color](/dev/github_pages/style/color)
 
 - basic
 - code
 
-### [font](/dev/github_pages/example/style/font)
+### [font](/dev/github_pages/style/font)
 
 - font-family
 - font-size
 
-### [miscellaneous](/dev/github_pages/example/style/miscellaneous)
+### [miscellaneous](/dev/github_pages/style/miscellaneous)
 
 - animation
 - table
