@@ -65,10 +65,10 @@ defaults:
 
 ```yml
 ---
-date: 2021-01-01
-title: post_A_1
-categories: cat_A
-published: true
-hidden: false
+date        : 2021-01-01
+title       : post_A_1
+categories  : cat_A
+published   : true
+hidden      : false
 ---
 ```
