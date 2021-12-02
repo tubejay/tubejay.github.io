@@ -40,7 +40,7 @@ $primary-color
 
 ## basic
 
-- in [`main.scss`](/dev/github_pages/style/customization#mainscss)
+- in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors)
 
 ### background
@@ -67,7 +67,7 @@ $masthead-link-color-hover    : #FFFDDB;
 
 ## code
 
-- in [`main.scss`](/dev/github_pages/style/customization#mainscss)
+- in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#syntax-highlighting)
 - [base16](http://chriskempson.com/projects/base16/)
 
