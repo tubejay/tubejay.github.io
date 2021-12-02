@@ -2,7 +2,7 @@
 title: Font
 layout: single
 toc: true
-permalink: /dev/github_pages/example/style/font
+permalink: /dev/github_pages/style/font
 published: true
 hidden: false
 ---
