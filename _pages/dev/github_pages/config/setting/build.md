@@ -2,7 +2,7 @@
 title: Build
 layout: single
 toc: true
-permalink: /dev/github_pages/example/config/setting/build
+permalink: /dev/github_pages/config/setting/build
 published: true
 hidden: false
 ---
