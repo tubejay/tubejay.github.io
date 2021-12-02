@@ -26,12 +26,12 @@ hidden: false
 
 ```yml
 main:
-  - title: Home
-    url: /
-  - title: Categories
-    url: /categories/
-  - title: GitHub
-    url: https://github.com/
+  - title : Home
+    url   : /
+  - title : Categories
+    url   : /categories/
+  - title : GitHub
+    url   : https://github.com/
 ```
 
 
@@ -44,13 +44,13 @@ main:
 
 ```yml
 nav_side:
-  - title: Categories
-    url: /categories/
+  - title : Categories
+    url   : /categories/
     children:
-      - title: cat_A
-        url: /categories/cat_A/
-      - title: cat_B
-        url: /categories/cat_B/
+      - title : cat_A
+        url   : /categories/cat_A/
+      - title : cat_B
+        url   : /categories/cat_B/
 ```
 
 ### in [front matter](/dev/github_pages#front-matter)
