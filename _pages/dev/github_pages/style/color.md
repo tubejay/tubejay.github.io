@@ -46,21 +46,21 @@ $primary-color
 ### background
 
 ```scss
-$body-color                   : black;
-$background-color             : black;
+$body-color       : black;
+$background-color : black;
 ```
 
 ### text
 
 ```scss
-$text-color                   : white;
+$text-color                : white;
 
-$link-color                   : #dbfffd;
-$link-color-hover             : #FFFDDB;
-$link-color-visited           : #FFDBFD;
+$link-color                : #dbfffd;
+$link-color-hover          : #FFFDDB;
+$link-color-visited        : #FFDBFD;
 
-$masthead-link-color          : #dbfffd;
-$masthead-link-color-hover    : #FFFDDB;
+$masthead-link-color       : #dbfffd;
+$masthead-link-color-hover : #FFFDDB;
 ```
 
 
