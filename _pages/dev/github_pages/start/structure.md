@@ -7,10 +7,15 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
 
+
+
+## all
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/structure/)
-
 
 ```
 minimal-mistakes
@@ -60,3 +65,12 @@ minimal-mistakes
 ├── index.html                 # paginated home page showing recent posts
 └── package.json               # NPM build scripts
 ```
+
+
+
+## selected
+
+- [`/_config.yml`](/dev/github_pages/config/create)
+- [`/_data/navigation.yml`](/dev/github_pages/view/navigation)
+- [`/assets/css/main.scss`](/dev/github_pages/style/customization)
+- [`/_includes/head/custom.html`](/dev/github_pages/style/customization)
