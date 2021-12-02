@@ -75,11 +75,11 @@ whitelist:
 ## conversion
 
 ```yml
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+markdown          : kramdown
+highlighter       : rouge
+lsi               : false
+excerpt_separator : "\n\n"
+incremental       : false
 ```
 
 
@@ -88,12 +88,12 @@ incremental: false
 
 ```yml
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input           : GFM
+  hard_wrap       : false
+  auto_ids        : true
+  footnote_nr     : 1
+  entity_output   : as_char
+  toc_levels      : 1..6
+  smart_quotes    : lsquo,rsquo,ldquo,rdquo
+  enable_coderay  : false
 ```
