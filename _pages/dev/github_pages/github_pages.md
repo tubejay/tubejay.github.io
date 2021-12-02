@@ -102,14 +102,17 @@ hidden: false
 
 ## Document
 
-- pages
-  - [create](/dev/github_pages/document/pages/create)
-  - [page not found](/dev/github_pages/document/pages/page_not_found)
-  - [categories](/dev/github_pages/document/pages/categories)
-  - [category](/dev/github_pages/document/pages/category)
-- posts
-  - [create](/dev/github_pages/document/posts/create)
-  - [visibility](/dev/github_pages/document/posts/visibility)
+### pages
+
+- [create](/dev/github_pages/document/pages/create)
+- [page not found](/dev/github_pages/document/pages/page_not_found)
+- [categories](/dev/github_pages/document/pages/categories)
+- [category](/dev/github_pages/document/pages/category)
+
+### posts
+
+- [create](/dev/github_pages/document/posts/create)
+- [visibility](/dev/github_pages/document/posts/visibility)
 
 
 
