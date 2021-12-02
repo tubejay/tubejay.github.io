@@ -12,10 +12,10 @@ hidden: false
 ## outputting
 
 ```yml
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink     : /:categories/:title/
+paginate      : 5 # amount of posts to show
+paginate_path : /page:num/
+timezone      : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ```
 
 
@@ -38,5 +38,5 @@ tag_archive:
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
 ```yml
-# breadcrumbs            : false # true, false (default)
+breadcrumbs : false # true, false (default)
 ```
