@@ -20,10 +20,10 @@ hidden: false
 ### front matter
 
 ```yml
-title: cat_A
-layout: category
-permalink: /categories/cat_A/
-taxonomy: cat_A
+title     : cat_A
+layout    : category
+permalink : /categories/cat_A/
+taxonomy  : cat_A
 ```
 
 ### saved
