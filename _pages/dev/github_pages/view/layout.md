@@ -2,7 +2,7 @@
 title: Layout
 layout: single
 toc: true
-permalink: /dev/github_pages/example/view/layout
+permalink: /dev/github_pages/view/layout
 published: true
 hidden: false
 ---
@@ -11,7 +11,7 @@ hidden: false
 
 ## Setting
 
-- in [front matter](/dev/github_pages/example/view/front_matter)
+- in [front matter](/dev/github_pages/view/front_matter)
 
 ```yml
 layout  : single
