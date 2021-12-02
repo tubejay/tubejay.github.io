@@ -2,7 +2,7 @@
 title: Category
 layout: single
 toc: true
-permalink: /dev/github_pages/example/document/pages/category
+permalink: /dev/github_pages/document/pages/category
 published: true
 hidden: false
 ---
