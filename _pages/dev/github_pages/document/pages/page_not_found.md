@@ -2,7 +2,7 @@
 title: "Page Not Found"
 layout: single
 toc: true
-permalink: /dev/github_pages/example/document/pages/page_not_found
+permalink: /dev/github_pages/document/pages/page_not_found
 published: true
 hidden: false
 ---
