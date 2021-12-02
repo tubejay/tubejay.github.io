@@ -20,9 +20,9 @@ hidden: false
 ### front matter
 
 ```yml
-title: Categories
-layout: categories
-permalink: /categories/
+title     : Categories
+layout    : categories
+permalink : /categories/
 ```
 
 ### saved
