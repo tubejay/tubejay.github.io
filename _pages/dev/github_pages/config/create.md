@@ -2,7 +2,7 @@
 title: "Create"
 layout: single
 toc: true
-permalink: /dev/github_pages/example/config/create
+permalink: /dev/github_pages/config/create
 published: true
 hidden: false
 ---
