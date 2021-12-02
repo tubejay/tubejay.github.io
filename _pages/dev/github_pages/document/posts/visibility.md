@@ -2,7 +2,7 @@
 title: Visibility
 layout: single
 toc: true
-permalink: /dev/github_pages/example/document/posts/visibility
+permalink: /dev/github_pages/document/posts/visibility
 published: true
 hidden: false
 ---
