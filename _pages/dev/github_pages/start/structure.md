@@ -72,5 +72,5 @@ minimal-mistakes
 
 - [`/_config.yml`](/dev/github_pages/config/create)
 - [`/_data/navigation.yml`](/dev/github_pages/view/navigation)
-- [`/assets/css/main.scss`](/dev/github_pages/style/customization)
-- [`/_includes/head/custom.html`](/dev/github_pages/style/customization)
+- [`/assets/css/main.scss`](/dev/github_pages/style/customization#mainscss)
+- [`/_includes/head/custom.html`](/dev/github_pages/style/customization#customhtml)
