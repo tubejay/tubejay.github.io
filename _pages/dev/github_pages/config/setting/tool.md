@@ -2,7 +2,7 @@
 title: Tool
 layout: single
 toc: true
-permalink: /dev/github_pages/example/config/setting/tool
+permalink: /dev/github_pages/config/setting/tool
 published: true
 hidden: false
 ---
