@@ -2,7 +2,7 @@
 title: Miscellaneous
 layout: single
 toc: true
-permalink: /dev/github_pages/example/style/miscellaneous
+permalink: /dev/github_pages/style/miscellaneous
 published: true
 hidden: false
 ---
