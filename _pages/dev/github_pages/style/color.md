@@ -2,7 +2,7 @@
 title: Color
 layout: single
 toc: true
-permalink: /dev/github_pages/example/style/color
+permalink: /dev/github_pages/style/color
 published: true
 hidden: false
 ---
