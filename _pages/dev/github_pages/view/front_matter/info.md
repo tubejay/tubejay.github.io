@@ -2,7 +2,7 @@
 title: Info
 layout: single
 toc: true
-permalink: /dev/github_pages/example/view/front_matter/info
+permalink: /dev/github_pages/view/front_matter/info
 published: true
 hidden: false
 ---
@@ -15,7 +15,7 @@ hidden: false
 
 ## author_profile
 
-- in [site author](/dev/github_pages/example/config/setting/info#site-author)
+- in [site author](/dev/github_pages/config/setting/info#site-author)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ```yml
@@ -36,7 +36,7 @@ show_date: false
 
 ## read_time
 
-- words_per_minute in [site settings](/dev/github_pages/example/config/setting/info#site-settings)
+- words_per_minute in [site settings](/dev/github_pages/config/setting/info#site-settings)
 
 ```yml
 read_time: true
@@ -65,7 +65,7 @@ related: false
 
 ## comments
 
-- in [comments](/dev/github_pages/example/config/setting/tool#comments)
+- in [comments](/dev/github_pages/config/setting/tool#comments)
 
 ```yml
 comments: true
