@@ -2,7 +2,7 @@
 title: Navigation
 layout: single
 toc: true
-permalink: /dev/github_pages/example/view/navigation
+permalink: /dev/github_pages/view/navigation
 published: true
 hidden: false
 ---
@@ -22,7 +22,7 @@ hidden: false
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
 
-### in [navigation.yml](/dev/github_pages/example/view/navigation#create)
+### in [navigation.yml](#create)
 
 ```yml
 main:
@@ -40,7 +40,7 @@ main:
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu)
 
-### in [navigation.yml](/dev/github_pages/example/view/navigation#create)
+### in [navigation.yml](#create)
 
 ```yml
 nav_side:
@@ -53,7 +53,7 @@ nav_side:
         url: /categories/cat_B/
 ```
 
-### in [front matter](/dev/github_pages/example/view/front_matter)
+### in [front matter](/dev/github_pages/view/front_matter)
 
 ```yml
 sidebar:
