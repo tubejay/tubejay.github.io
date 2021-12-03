@@ -57,14 +57,18 @@ minimal-mistakes
 
 - copy raw contents from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss)
 
+![image](https://user-images.githubusercontent.com/92285528/144621536-4e184df1-7c53-4d81-a2ca-75ac9c555f0c.png)
+
 ### paste
 
-- paste and create
-- `/assets/css/main/scss`
+- `/assets/css/main.scss`
+
+![image](https://user-images.githubusercontent.com/92285528/144621773-4cba7d6f-d78c-4397-82c7-517864ec91f5.png)
 
 
 
 ## custom.html
 
-- create
 - `/_includes/head/custom.html`
+
+![image](https://user-images.githubusercontent.com/92285528/144621920-31884fef-9e0e-487c-b2e3-e7e1cf8a30d5.png)
