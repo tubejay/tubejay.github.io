@@ -27,9 +27,9 @@ th:first-child, td:first-child {border-left :0px}
 th:last-child,  td:last-child  {border-right:0px}
 
 // font
-$sans-serif : "IBM Plex Mono", "IBM Plex Sans KR", sans-serif;
-$serif      : "IBM Plex Mono", "IBM Plex Sans KR", serif;
-$monospace  : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
+$sans-serif : "IBM Plex Serif", "IBM Plex Sans KR", sans-serif;
+$serif      : "IBM Plex Serif", "IBM Plex Sans KR", serif;
+$monospace  : "IBM Plex Serif", "IBM Plex Sans KR", monospace;
 
 // http://chriskempson.com/projects/base16/
 $base00: #1d1f21; // base00 - Default Background
