@@ -166,6 +166,7 @@ hidden: false
 
 - [Jekyll Github 블로그에 MathJax로 수학식 표시하기](https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/)
 - [github blog와 latex](https://eeeuns.github.io/2020/12/10/githubblog/)
+- $f(x)=\sin{x^2}$
 
 ### docs
 
