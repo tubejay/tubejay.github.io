@@ -47,10 +47,3 @@ toc_label: "Table of Contents"
 toc_icon: file-alt
 toc_icon: list-alt
 ```
-
-
-
-## Reference
-
-- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/toc-table/)
-- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents)
