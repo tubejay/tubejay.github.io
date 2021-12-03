@@ -11,9 +11,6 @@ hidden: false
   <base target="_blank">
 </head>
 
-c
-nanum myeongjo
-
 
 
 ## Goal
