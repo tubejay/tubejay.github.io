@@ -171,6 +171,3 @@ hidden: false
 
 - [GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages)
 - [Jekyll Docs](https://jekyllrb.com/docs/)
-
-
-$f(x)=x^2$
