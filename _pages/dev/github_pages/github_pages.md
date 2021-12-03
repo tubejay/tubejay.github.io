@@ -87,8 +87,8 @@ hidden: false
 
 - home
 - single
-- splash
 - wide
+- splash
 - categories
 - category
 
