@@ -5,6 +5,7 @@ toc: true
 permalink: /dev/github_pages
 published: true
 hidden: false
+use_math: true
 ---
 
 <head>
