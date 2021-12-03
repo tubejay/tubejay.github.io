@@ -11,6 +11,10 @@ hidden: false
   <base target="_blank">
 </head>
 
+## test
+
+$f(x)=\sin_{x^2}$
+
 
 
 ## Goal
