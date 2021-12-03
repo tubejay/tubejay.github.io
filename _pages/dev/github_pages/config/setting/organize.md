@@ -7,6 +7,10 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
 
 
 ## outputting
@@ -37,6 +41,18 @@ tag_archive:
   
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
+### in [config.yml](/dev/github_pages#config)
+
 ```yml
-breadcrumbs : false # true, false (default)
+breadcrumbs : true
+breadcrumbs : false
+```
+
+### in [ui-text.yml](/dev/github_pages/start/structure)
+
+```yml
+breadcrumb_home_label : "Home"
+breadcrumb_home_label : "Start"
+breadcrumb_separator  : "/"
+breadcrumb_separator  : ">"
 ```
