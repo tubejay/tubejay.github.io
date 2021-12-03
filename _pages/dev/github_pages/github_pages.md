@@ -13,7 +13,7 @@ hidden: false
 
 ## test
 
-$f(x)=\sin{x^4}$
+$f(x)=\sin{x^5}$
 
 
 
