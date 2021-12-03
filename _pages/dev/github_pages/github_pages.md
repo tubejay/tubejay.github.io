@@ -147,3 +147,4 @@ hidden: false
 - table
 - masthead
 - link
+- mathjax
