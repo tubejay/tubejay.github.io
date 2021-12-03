@@ -74,6 +74,7 @@ layout: splash
 
 ## Categories
 
+- in [pages](/dev/github_pages#pages)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-categories)
 
 ```yml
@@ -86,6 +87,7 @@ layout: categories
 
 ## Category
 
+- in [pages](/dev/github_pages#pages)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-category)
 
 ```yml
@@ -93,5 +95,3 @@ layout: category
 ```
 
 ![image](https://user-images.githubusercontent.com/92285528/144614261-fd851385-5cef-4aa9-896e-fd06355d4c62.png)
-
-
