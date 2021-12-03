@@ -52,7 +52,5 @@ breadcrumbs : false
 
 ```yml
 breadcrumb_home_label : "Home"
-breadcrumb_home_label : "Start"
 breadcrumb_separator  : "/"
-breadcrumb_separator  : ">"
 ```
