@@ -5,7 +5,6 @@ toc: true
 permalink: /dev/github_pages
 published: true
 hidden: false
-use_math: true
 ---
 
 <head>
@@ -167,7 +166,6 @@ use_math: true
 
 - [Jekyll Github 블로그에 MathJax로 수학식 표시하기](https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/)
 - [github blog와 latex](https://eeeuns.github.io/2020/12/10/githubblog/)
-- $f(x)=\sin_{x^2}$ test
 
 ### docs
 
