@@ -1,3 +1,5 @@
 <head>
-  {% include mathjax_support.html %}
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% end if %}
 </head>
