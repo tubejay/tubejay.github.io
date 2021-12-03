@@ -13,7 +13,7 @@ hidden: false
 
 ## test
 
-$f(x)=\sin{x^2}$
+$f(x)=\sin{x^3}$
 
 
 
