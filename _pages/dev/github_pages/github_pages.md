@@ -11,10 +11,6 @@ hidden: false
   <base target="_blank">
 </head>
 
-## test
-
-$f(x)=\sin{x^5}$
-
 
 
 ## Goal
