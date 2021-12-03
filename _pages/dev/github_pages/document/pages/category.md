@@ -29,3 +29,7 @@ taxonomy  : cat_A
 ### saved
 
 ![image](https://user-images.githubusercontent.com/92285528/143070554-1f1b6e95-87bb-4d5a-a2b7-5ed649875b03.png)
+
+### view
+
+![image](https://user-images.githubusercontent.com/92285528/144614261-fd851385-5cef-4aa9-896e-fd06355d4c62.png)
