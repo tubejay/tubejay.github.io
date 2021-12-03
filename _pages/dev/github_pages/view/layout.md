@@ -32,6 +32,8 @@ classes : wide
 layout: home
 ```
 
+![image](https://user-images.githubusercontent.com/92285528/144614012-c2509855-3056-4d9d-8cfe-71a482cfbc26.png)
+
 
 
 ## Single
@@ -42,15 +44,7 @@ layout: home
 layout: single
 ```
 
-
-
-## Splash
-
-- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout)
-
-```yml
-layout: splash
-```
+![image](https://user-images.githubusercontent.com/92285528/144615437-f3dca10f-32fc-4ee8-9620-fee6f6ea17d8.png)
 
 
 
@@ -62,6 +56,20 @@ layout: splash
 classes: wide
 ```
 
+![image](https://user-images.githubusercontent.com/92285528/144615762-7f3f5b2b-063b-4ab4-a4b9-985cc494e127.png)
+
+
+
+## Splash
+
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout)
+
+```yml
+layout: splash
+```
+
+![image](https://user-images.githubusercontent.com/92285528/144615611-d2beb36e-592b-4c60-9b51-20aeb47c2135.png)
+
 
 
 ## Categories
@@ -72,6 +80,8 @@ classes: wide
 layout: categories
 ```
 
+![image](https://user-images.githubusercontent.com/92285528/144614316-2ed37e84-1250-4b4d-8f7a-f92b30fbbc41.png)
+
 
 
 ## Category
@@ -81,3 +91,7 @@ layout: categories
 ```yml
 layout: category
 ```
+
+![image](https://user-images.githubusercontent.com/92285528/144614261-fd851385-5cef-4aa9-896e-fd06355d4c62.png)
+
+
