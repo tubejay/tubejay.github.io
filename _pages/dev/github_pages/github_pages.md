@@ -11,8 +11,6 @@ hidden: false
   <base target="_blank">
 </head>
 
-test
-
 
 
 ## Goal
