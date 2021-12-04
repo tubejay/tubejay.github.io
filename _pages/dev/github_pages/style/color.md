@@ -13,7 +13,7 @@ hidden: false
 
 
 
-## skins
+## skin
 
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/tree/master/_sass/minimal-mistakes/skins)
 
