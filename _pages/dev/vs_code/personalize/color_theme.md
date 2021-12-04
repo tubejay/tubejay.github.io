@@ -11,9 +11,35 @@ hidden: false
   <base target="_blank">
 </head>
 
+
+
 ## Note
 
 Use [code sample](https://www.tensorflow.org/guide/keras/functional#training_evaluation_and_inference).
+
+```python
+from tensorflow import keras
+from tensorflow.keras import model
+
+(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
+
+x_train = x_train.reshape(60000, 784).astype("float32") / 255
+x_test = x_test.reshape(10000, 784).astype("float32") / 255
+
+model.compile(
+    loss=keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+    optimizer=keras.optimizers.RMSprop(),
+    metrics=["accuracy"],
+)
+
+history = model.fit(x_train, y_train, batch_size=64, epochs=2, validation_split=0.2)
+
+test_scores = model.evaluate(x_test, y_test, verbose=2)
+print("Test loss:", test_scores[0])
+print("Test accuracy:", test_scores[1])
+```
+
+
 
 ## Dark
 
@@ -31,6 +57,8 @@ Use [code sample](https://www.tensorflow.org/guide/keras/functional#training_eva
 
 ### [Monokai Vibrant](https://marketplace.visualstudio.com/items?itemName=s3gf4ult.monokai-vibrant)
 ![image](https://user-images.githubusercontent.com/92285528/141643018-6c60a8d2-70ba-4092-910a-7224a4737cd5.png)
+
+
 
 ## Black
 
