@@ -70,9 +70,20 @@ minimal-mistakes
 
 ## selected
 
+### root
+
 - [`/_config.yml`](/dev/github_pages/config/create)
+
+### data
+
 - [`/_data/ui-text.yml`](/dev/github_pages/config/setting/organize#breadcrumbs)
 - [`/_data/navigation.yml`](/dev/github_pages/view/navigation)
+
+### assets
+
 - [`/assets/css/main.scss`](/dev/github_pages/style/customization#mainscss)
+
+### includes
+
 - [`/_includes/head/custom.html`](/dev/github_pages/style/customization#customhtml)
 - [`/_includes/scripts.html`](/dev/github_pages/style/customization#scriptshtml)
