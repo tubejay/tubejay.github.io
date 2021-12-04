@@ -140,6 +140,13 @@ hidden: false
 - font-family
 - font-size
 
+### [code](/dev/github_pages/style/code)
+
+- type
+- setting
+- fenced code block
+- inline code span
+
 ### [miscellaneous](/dev/github_pages/style/miscellaneous)
 
 - animation
