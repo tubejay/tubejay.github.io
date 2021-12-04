@@ -1,8 +1,8 @@
 ---
-title: Theme
+title: Skin
 layout: single
 toc: true
-permalink: /dev/github_pages/style/theme
+permalink: /dev/github_pages/style/skin
 published: true
 hidden: false
 ---
