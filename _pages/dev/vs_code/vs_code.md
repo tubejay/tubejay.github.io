@@ -28,6 +28,8 @@ hidden: false
 
 ## Personalize
 
-- [extension](/dev/vs_code/personalize/extension)
+- extension
+  - [edit](/dev/vs_code/personalize/extension/edit)
+  - [syntax](/dev/vs_code/personalize/extension/syntax)
 - [color theme](/dev/vs_code/personalize/color_theme)
 - [setting](/dev/vs_code/personalize/setting)
