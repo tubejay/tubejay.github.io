@@ -41,3 +41,9 @@ hidden: false
 
 - in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219)
+
+
+
+## code
+
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/#gfm-code-blocks)
