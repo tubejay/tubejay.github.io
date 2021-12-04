@@ -21,21 +21,31 @@ hidden: false
 ### background
 
 ```scss
-$body-color       : black;
-$background-color : black;
+$background-color           : antiquewhite;
+$footer-background-color    : darkred;
+$border-color               : darkred;
 ```
 
 ### text
 
 ```scss
-$text-color                : white;
+$text-color                 : black;
+$muted-text-color           : darkslategray;
+```
 
-$link-color                : #dbfffd;
-$link-color-hover          : #FFFDDB;
-$link-color-visited        : #FFDBFD;
+### link
 
-$masthead-link-color       : #dbfffd;
-$masthead-link-color-hover : #FFFDDB;
+```scss
+$link-color                 : mediumblue;
+$link-color-hover           : deepskyblue;
+$link-color-visited         : darkred;
+```
+
+### masthead
+
+```scss
+$masthead-link-color        : navy;
+$masthead-link-color-hover  : deepskyblue;
 ```
 
 
@@ -46,28 +56,31 @@ $masthead-link-color-hover : #FFFDDB;
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#syntax-highlighting)
 - [base16](http://chriskempson.com/projects/base16/)
 
-### background
+### selected
 
 ```scss
-$base00: #1d1f21; // base00 - Default Background
-$base01: #282a2e; // base01 - Lighter Background (Used for status bars, line number and folding marks)
-$base02: #3b3e44; // base02 - Selection Background
-$base03: #999999; // base03 - Comments, Invisibles, Line Highlighting
-$base04: #999999; // base04 - Dark Foreground (Used for status bars)
-$base05: #ffffff; // base05 - Default Foreground, Caret, Delimiters, Operators
-$base06: #ffffff; // base06 - Light Foreground (Not often used)
-$base07: #ffffff; // base07 - Light Background (Not often used)
+$base00: white;           // background
+$base05: black;           // foreground
+
+$base0c: purple;          // import, tag
+$base0e: forestgreen;     // keyword
+
+$base04: darkgreen;       // line number, comment
+$base09: orangered;       // integer
+$base0b: darkred;         // string
+
+$base0a: crimson;         // class
+$base0d: mediumblue;      // function, method
 ```
 
-### text
+### not in use
 
 ```scss
-$base08: #009900; // base08 - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
-$base09: #ff9933; // base09 - Integers, Boolean, Constants, XML Attributes, Markup Link Url
-$base0a: #ffff66; // base0A - Classes, Markup Bold, Search Text Background
-$base0b: #ff6666; // base0B - Strings, Inherited Class, Markup Code, Diff Inserted
-$base0c: #00cc66; // base0C - Support, Regular Expressions, Escape Characters, Markup Quotes
-$base0d: #33ccff; // base0D - Functions, Methods, Attribute IDs, Headings
-$base0e: #66ffff; // base0E - Keywords, Storage, Selector, Markup Italic, Diff Changed
-$base0f: #a3685a; // base0F - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+// $base01: ;
+// $base02: ;
+// $base03: ;
+// $base06: ;
+// $base07: ;
+// $base08: ;
+// $base0f: ;
 ```
