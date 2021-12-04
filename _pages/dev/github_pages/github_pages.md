@@ -42,7 +42,7 @@ hidden: false
   - archives
   - breadcrumbs
 - front matter -> [view](#view)
-- theme -> [style](#style)
+- skin -> [style](#skin)
 - [tool](/dev/github_pages/config/setting/tool)
   - comments
   - search
@@ -118,7 +118,7 @@ hidden: false
 
 ## Style
 
-### [theme](/dev/github_pages/style/theme)
+### [skin](/dev/github_pages/style/skin)
 
 - light
 - dark
