@@ -13,38 +13,6 @@ hidden: false
 
 
 
-## skin
-
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/tree/master/_sass/minimal-mistakes/skins)
-
-```scss
-$background-color
-$form-background-color
-$footer-background-color
-
-$body-color
-$border-color
-
-$code-background-color
-$code-background-color-dark
-
-$text-color
-$muted-text-color
-
-$link-color
-$link-color-hover
-$link-color-visited
-
-$masthead-link-color
-$masthead-link-color-hover
-
-$navicon-link-color-hover
-
-$primary-color
-```
-
-
-
 ## basic
 
 - in [main.scss](/dev/github_pages/style/customization#mainscss)
