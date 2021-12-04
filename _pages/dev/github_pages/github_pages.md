@@ -132,7 +132,6 @@ hidden: false
 
 ### [color](/dev/github_pages/style/color)
 
-- skin
 - basic
 - code
 
