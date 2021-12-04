@@ -36,7 +36,7 @@ hidden: false
 | | Font Weight | bold |
 | | Gutter Icons Enabled | true |
 | | Gutter Icon Set | defaultOutline |
-| | Message Template | \# \$severity by \$source : \$message |
+| | Message Template | # `$`severity by `$`source : `$`message |
 
 
 
