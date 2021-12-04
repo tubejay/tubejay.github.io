@@ -19,11 +19,15 @@ hidden: false
 
 ## Shortcut
 
-- [Code](/dev/vs_code/shortcut/code)
-- [Editor](/dev/vs_code/shortcut/editor)
+- code
+  - [view](/dev/vs_code/shortcut/code/view)
+  - [edit](/dev/vs_code/shortcut/code/edit)
+- editor
+  - [control](/dev/vs_code/shortcut/editor/control)
+  - [general](/dev/vs_code/shortcut/editor/general)
 
 ## Personalize
 
-- [Extension](/dev/vs_code/personalize/extension)
-- [Color Theme](/dev/vs_code/personalize/color_theme)
-- [Setting](/dev/vs_code/personalize/setting)
+- [extension](/dev/vs_code/personalize/extension)
+- [color theme](/dev/vs_code/personalize/color_theme)
+- [setting](/dev/vs_code/personalize/setting)
