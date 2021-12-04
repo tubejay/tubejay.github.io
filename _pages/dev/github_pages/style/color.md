@@ -7,6 +7,12 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
+
+
 ## skins
 
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/tree/master/_sass/minimal-mistakes/skins)
@@ -16,6 +22,7 @@ $background-color
 $form-background-color
 $footer-background-color
 
+$body-color
 $border-color
 
 $code-background-color
