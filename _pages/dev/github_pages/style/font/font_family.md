@@ -2,7 +2,7 @@
 title     : "Font family"
 layout    : single
 toc       : true
-permalink : /dev/github_pages/style/font_family
+permalink : /dev/github_pages/style/font/font_family
 published : true
 hidden    : false
 ---
