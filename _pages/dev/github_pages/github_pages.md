@@ -58,26 +58,24 @@ hidden: false
 
 
 
-## View
+## Front matter
 
-### front matter
-
-- [scope](/dev/github_pages/view/front_matter/scope)
+- [scope](/dev/github_pages/front_matter/scope)
   - default
   - document
-- [info](/dev/github_pages/view/front_matter/info)
+- [info](/dev/github_pages/front_matter/info)
   - author_profile
   - show_date
   - read_time
   - share
   - related
   - comments
-- [table of contents](/dev/github_pages/view/front_matter/table_of_contents)
+- [table of contents](/dev/github_pages/front_matter/table_of_contents)
   - toc
   - toc_sticky
   - toc_label
   - toc_icon
-- [document](/dev/github_pages/view/front_matter/document)
+- [document](/dev/github_pages/front_matter/document)
   - date
   - title
   - categories
@@ -86,6 +84,10 @@ hidden: false
   - hidden
 - layout -> [layout](#layout)
 - nav_side -> [navigation](#navigation)
+
+
+
+## View
 
 ### [layout](/dev/github_pages/view/layout)
 
