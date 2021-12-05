@@ -13,12 +13,15 @@ hidden: false
 
 
 
-## setting
+## reference
 
-- in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors)
 
-### background
+
+
+## background
+
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $background-color           : mistyrose;
@@ -26,14 +29,22 @@ $footer-background-color    : darkred;
 $border-color               : darkred;
 ```
 
-### text
+
+
+## text
+
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $text-color                 : black;
 $muted-text-color           : darkslategray;
 ```
 
-### link
+
+
+## link
+
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $link-color                 : mediumblue;
@@ -41,7 +52,11 @@ $link-color-hover           : deepskyblue;
 $link-color-visited         : darkred;
 ```
 
-### masthead
+
+
+## masthead
+
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $masthead-link-color        : navy;
