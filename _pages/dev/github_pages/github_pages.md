@@ -19,7 +19,7 @@ hidden: false
 - [types of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) : project
 - [remote theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll#adding-a-theme) : [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-
+<br>
 
 ## Start
 
@@ -39,7 +39,7 @@ hidden: false
 - [custom.html](/dev/github_pages/start/setting/custom_html)
 - [scripts.html](/dev/github_pages/start/setting/scripts_html)
 
-
+<br>
 
 ## Config
 
@@ -70,7 +70,7 @@ hidden: false
 
 ### skin -> [🔽](#skin)
 
-
+<br>
 
 ## Front matter
 
@@ -106,7 +106,7 @@ hidden: false
 
 ### view -> [🔽](#view)
 
-
+<br>
 
 ## View
 
@@ -125,7 +125,7 @@ hidden: false
 - masthead
 - nav_side
 
-
+<br>
 
 ## Document
 
@@ -141,7 +141,7 @@ hidden: false
 - [create](/dev/github_pages/document/posts/create)
 - [visibility](/dev/github_pages/document/posts/visibility)
 
-
+<br>
 
 ## Style
 
@@ -170,7 +170,7 @@ hidden: false
 - masthead
 - link
 
-
+<br>
 
 ## insert
 
