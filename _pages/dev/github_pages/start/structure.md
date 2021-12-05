@@ -70,26 +70,9 @@ minimal-mistakes
 
 ## selected
 
-### config.yml
-
-- [`/_config.yml`](/dev/github_pages/config/create)
-
-### ui-text.yml
-
-- [`/_data/ui-text.yml`](/dev/github_pages/config/setting/organize#breadcrumbs)
-
-### navigation.yml
-
-- [`/_data/navigation.yml`](/dev/github_pages/view/navigation)
-
-### main.scss
-
-- [`/assets/css/main.scss`](/dev/github_pages/style/customization#mainscss)
-
-### custom.html
-
-- [`/_includes/head/custom.html`](/dev/github_pages/style/customization#customhtml)
-
-### scripts.html
-
-- [`/_includes/scripts.html`](/dev/github_pages/style/customization#scriptshtml)
+- `/_config.yml`
+- `/_data/ui-text.yml`
+- `/_data/navigation.yml`
+- `/assets/css/main.scss`
+- `/_includes/head/custom.html`
+- `/_includes/scripts.html`
