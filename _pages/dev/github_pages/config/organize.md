@@ -2,7 +2,7 @@
 title: Organize
 layout: single
 toc: true
-permalink: /dev/github_pages/config/setting/organize
+permalink: /dev/github_pages/config/organize
 published: true
 hidden: false
 ---
