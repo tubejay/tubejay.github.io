@@ -146,17 +146,24 @@ hidden: false
 - font-family
 - font-size
 
-### [code](/dev/github_pages/style/code)
-
-- type
-- setting
-- fenced code block
-- inline code span
-
 ### [miscellaneous](/dev/github_pages/style/miscellaneous)
 
 - animation
 - table
 - masthead
 - link
-- mathjax
+
+
+
+## insert
+
+### code
+
+- [type](/dev/github_pages/insert/code/type)
+- [build](/dev/github_pages/insert/code/build)
+- [color](/dev/github_pages/insert/code/color)
+- [font](/dev/github_pages/insert/code/font)
+
+### math
+
+- [MathJax](/dev/github_pages/insert/math/mathjax)
