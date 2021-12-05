@@ -13,3 +13,6 @@ hidden    : false
 
 
 
+## path
+
+- `/_includes/scripts.html`
