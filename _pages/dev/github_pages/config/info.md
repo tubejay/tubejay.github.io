@@ -15,7 +15,8 @@ hidden: false
 
 ## site settings
 
-- words_per_minute -> [read_time](/dev/github_pages/view/front_matter/info#read_time)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+- `words_per_minute` ▶️ [read_time](/dev/github_pages/front_matter/info#read_time)
 
 ```yml
 locale           : "en-US"
@@ -37,7 +38,8 @@ words_per_minute : 200
 
 ## site author
 
-- author -> [author_profile](/dev/github_pages/view/front_matter/info#author_profile)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+- author -> [author_profile](/dev/github_pages/front_matter/info#author_profile)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ```yml
