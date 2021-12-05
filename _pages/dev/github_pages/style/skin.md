@@ -15,7 +15,7 @@ hidden: false
 
 ## Setting
 
-- in [config](/dev/github_pages#config)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 remote_theme          : "mmistakes/minimal-mistakes"
