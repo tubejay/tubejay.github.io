@@ -24,6 +24,9 @@ hidden: false
 $serif      : Georgia
 $sans-serif : Roboto
 $monospace  : Consolas
+
+$global-font-family : $sans-serif;
+$header-font-family : $sans-serif;
 ```
 
 ### web font
@@ -57,6 +60,17 @@ $sans-serif : "IBM Plex Mono"
 
 - in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#type-scale)
+
+```scss
+$type-size-1 : 2.00em;
+$type-size-2 : 1.75em;
+$type-size-3 : 1.50em;
+$type-size-4 : 1.25em; 
+$type-size-5 : 1.00em;    
+$type-size-6 : 0.80em; 
+$type-size-7 : 0.60em;
+$type-size-8 : 0.40em;
+```
 
 ### x-large
 
