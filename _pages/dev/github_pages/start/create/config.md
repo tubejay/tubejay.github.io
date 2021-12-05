@@ -1,8 +1,8 @@
 ---
-title: "Create"
+title: Config
 layout: single
 toc: true
-permalink: /dev/github_pages/config/create
+permalink: /dev/github_pages/start/create/config
 published: true
 hidden: false
 ---
