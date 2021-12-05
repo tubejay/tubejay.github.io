@@ -23,16 +23,20 @@ hidden: false
 
 ## Start
 
-- create
-  - [repository](/dev/github_pages/start/create/repository)
-  - [config](/dev/github_pages/start/create/config)
-- [structure](/dev/github_pages/start/structure)
-  - config.yml
-  - ui-text.yml
-  - navigation.yml
-  - main.scss
-  - custom.html
-  - scripts.html
+### create
+
+- [repository](/dev/github_pages/start/create/repository)
+- [config](/dev/github_pages/start/create/config)
+
+### setting
+
+- [structure](/dev/github_pages/start/setting/structure)
+- [config.yml](/dev/github_pages/start/setting/config_yml)
+- [navigation.yml](navigation_yml)
+- [main.scss](/dev/github_pages/start/setting/main_scss)
+- [custom.html](/dev/github_pages/start/setting/custom_html)
+- [scripts.html](/dev/github_pages/start/setting/scripts_html)
+- [ui-text.yml](/dev/github_pages/start/setting/ui_text_yml)
 
 
 
@@ -82,6 +86,7 @@ hidden: false
   - permalink
   - published
   - hidden
+- [view](#view)
 
 
 
