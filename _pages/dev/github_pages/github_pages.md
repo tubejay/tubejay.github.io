@@ -160,14 +160,13 @@ hidden: false
 
 ### font
 
-- [font family](/dev/github_pages/style/font_family)
-- [font size](/dev/github_pages/style/font_size)
+- [font family](/dev/github_pages/style/font/font_family)
+- [font size](/dev/github_pages/style/font/font_size)
 
 ### [miscellaneous](/dev/github_pages/style/miscellaneous)
 
 - animation
 - table
-- masthead
 - link
 
 <br>
