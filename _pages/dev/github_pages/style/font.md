@@ -1,10 +1,10 @@
 ---
-title: Font
-layout: single
-toc: true
-permalink: /dev/github_pages/style/font
-published: true
-hidden: false
+title     : Font
+layout    : single
+toc       : true
+permalink : /dev/github_pages/style/font
+published : true
+hidden    : false
 ---
 
 <head>
@@ -55,8 +55,11 @@ $sans-serif : "IBM Plex Mono"
 
 ## font-size
 
-### type-size-8
+### type
 
+- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172829)
+
+### type-size-x
 
 - in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#type-scale)
@@ -72,13 +75,16 @@ $type-size-7 : 0.60em;
 $type-size-8 : 0.40em;
 ```
 
-### x-large
+### medium/large/x-large
 
 - in [main.scss](/dev/github_pages/style/customization#mainscss)
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219)
+- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172827)
 
-
-
-## code
-
-- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/#gfm-code-blocks)
+```scss
+html {
+  font-size: 15px;
+  @include breakpoint($medium)  { font-size: 15px; }
+  @include breakpoint($large)   { font-size: 16px; }
+  @include breakpoint($x-large) { font-size: 17px; }
+}
+```
