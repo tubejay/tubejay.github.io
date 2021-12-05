@@ -26,7 +26,8 @@ hidden: false
 ### create
 
 - [repository](/dev/github_pages/start/create/repository)
-- [config](/dev/github_pages/start/create/config)
+- [branch](/dev/github_pages/start/create/branch)
+- [pages](/dev/github_pages/start/create/pages)
 
 ### setting
 
