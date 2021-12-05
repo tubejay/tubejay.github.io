@@ -2,7 +2,7 @@
 title: Repository
 layout: single
 toc: true
-permalink: /dev/github_pages/start/repository
+permalink: /dev/github_pages/start/create/repository
 published: true
 hidden: false
 ---
