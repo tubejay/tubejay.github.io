@@ -131,12 +131,6 @@ hidden: false
 - dark
 - color
 
-### [customization](/dev/github_pages/style/customization)
-
-- structure
-- main.scss
-- custom.html
-
 ### [color](/dev/github_pages/style/color)
 
 - background
