@@ -25,6 +25,12 @@ hidden: false
 
 - [repository](/dev/github_pages/start/repository)
 - [structure](/dev/github_pages/start/structure)
+  - config.yml
+  - ui-text.yml
+  - navigation.yml
+  - main.scss
+  - custom.html
+  - scripts.html
 
 
 
