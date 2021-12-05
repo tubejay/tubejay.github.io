@@ -15,7 +15,7 @@ hidden    : false
 
 ## font stack
 
-- in [main.scss](/dev/github_pages/style/customization#mainscss)
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks)
 
 ```scss
@@ -35,13 +35,13 @@ $header-font-family : $sans-serif;
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#typography-from-older-versions)
 - [Google Fonts - IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono?query=ibm+plex+mono)
 
-### in [custom.html](/dev/github_pages/style/customization#customhtml)
+### in [custom.html](/dev/github_pages/start/setting/custom_html)
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
 ```
 
-### in [main.scss](/dev/github_pages/style/customization#mainscss)
+### in [main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $sans-serif : "IBM Plex Mono"
