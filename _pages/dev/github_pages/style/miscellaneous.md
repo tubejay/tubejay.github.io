@@ -37,12 +37,6 @@ th:last-child,  td:last-child  {border-right:0px}
 
 
 
-## masthead
-
-- [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/github-pages-settings/#2-%EB%A9%94%EB%89%B4%EB%B0%94-%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%A1%B0%EC%A0%95)
-
-
-
 ## link
 
 - in [main.scss](/dev/github_pages/start/setting/main_scss)
