@@ -15,6 +15,7 @@ hidden: false
 
 ## comments
 
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-disqus/)
 
 ```yml
@@ -47,6 +48,7 @@ comments:
 
 ## search
 
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#exclusions)
 
 ```yml
