@@ -1,10 +1,10 @@
 ---
-title: Type
-layout: single
-toc: true
-permalink: /dev/github_pages/insert/code/type
-published: true
-hidden: false
+title     : Type
+layout    : single
+toc       : true
+permalink : /dev/github_pages/insert/code/type
+published : true
+hidden    : false
 ---
 
 <head>
