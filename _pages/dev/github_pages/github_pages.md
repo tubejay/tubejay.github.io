@@ -138,13 +138,15 @@ hidden: false
 
 ### [color](/dev/github_pages/style/color)
 
-- basic
-- code
+- background
+- text
+- link
+- masthead
 
-### [font](/dev/github_pages/style/font)
+### font
 
-- font-family
-- font-size
+- [font family](/dev/github_pages/style/font_family)
+- [font size](/dev/github_pages/style/font_size)
 
 ### [miscellaneous](/dev/github_pages/style/miscellaneous)
 
