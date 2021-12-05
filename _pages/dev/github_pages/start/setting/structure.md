@@ -2,7 +2,7 @@
 title: Structure
 layout: single
 toc: true
-permalink: /dev/github_pages/start/structure
+permalink: /dev/github_pages/start/setting/structure
 published: true
 hidden: false
 ---
@@ -13,9 +13,13 @@ hidden: false
 
 
 
-## all
+## reference
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/structure/)
+
+
+
+## tree
 
 ```
 minimal-mistakes
@@ -65,16 +69,3 @@ minimal-mistakes
 ├── index.html                 # paginated home page showing recent posts
 └── package.json               # NPM build scripts
 ```
-
-
-
-## selected
-
-| name | path |
-| :-   | :-   |
-| config.yml     | `/_config.yml`                |
-| ui-text.yml    | `/_data/ui-text.yml`          |
-| navigation.yml | `/_data/navigation.yml`       |
-| main.scss      | `/assets/css/main.scss`       |
-| custom.html    | `/_includes/head/custom.html` |
-| scripts.html   | `/_includes/scripts.html`     |
