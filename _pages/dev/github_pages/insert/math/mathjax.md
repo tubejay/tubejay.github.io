@@ -2,7 +2,7 @@
 title     : MathJax
 layout    : single
 toc       : true
-permalink : /dev/github_pages/insert/mathjax
+permalink : /dev/github_pages/insert/math/mathjax
 published : true
 hidden    : false
 ---
