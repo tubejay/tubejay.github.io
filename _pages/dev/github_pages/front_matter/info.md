@@ -15,7 +15,8 @@ hidden: false
 
 ## author_profile
 
-- in [site author](/dev/github_pages/config/setting/info#site-author)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+- author_profile ⬅️ [author](/dev/github_pages/config/info#site-author)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ```yml
@@ -27,6 +28,8 @@ author_profile: false
 
 ## show_date
 
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+
 ```yml
 show_date: true
 show_date: false
@@ -36,7 +39,8 @@ show_date: false
 
 ## read_time
 
-- words_per_minute in [site settings](/dev/github_pages/config/setting/info#site-settings)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+- read_time ⬅️ [words_per_minute](/dev/github_pages/config/info#site-settings)
 
 ```yml
 read_time: true
@@ -47,6 +51,8 @@ read_time: false
 
 ## share
 
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+
 ```yml
 share: true
 share: false
@@ -55,6 +61,8 @@ share: false
 
 
 ## related
+
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 related: true
@@ -65,7 +73,8 @@ related: false
 
 ## comments
 
-- in [comments](/dev/github_pages/config/setting/tool#comments)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+- comments ⬅️ [comments](/dev/github_pages/config/tool#comments)
 
 ```yml
 comments: true
