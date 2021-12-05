@@ -23,7 +23,9 @@ hidden: false
 
 ## Start
 
-- [repository](/dev/github_pages/start/repository)
+- create
+  - [repository](/dev/github_pages/start/create/repository)
+  - [config](/dev/github_pages/start/create/config)
 - [structure](/dev/github_pages/start/structure)
   - config.yml
   - ui-text.yml
@@ -35,8 +37,6 @@ hidden: false
 
 
 ## Config
-
-### [create](/dev/github_pages/config/create)
 
 ### setting
 
