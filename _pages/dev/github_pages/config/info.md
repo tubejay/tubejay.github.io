@@ -16,7 +16,7 @@ hidden: false
 ## site settings
 
 - in [config.yml](/dev/github_pages/start/setting/config_yml)
-- `words_per_minute` ➡️ [read_time](/dev/github_pages/front_matter/info#read_time)
+- words_per_minute ➡️ [read_time](/dev/github_pages/front_matter/info#read_time)
 
 ```yml
 locale           : "en-US"
