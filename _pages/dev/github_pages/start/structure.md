@@ -70,9 +70,11 @@ minimal-mistakes
 
 ## selected
 
-- `/_config.yml`
-- `/_data/ui-text.yml`
-- `/_data/navigation.yml`
-- `/assets/css/main.scss`
-- `/_includes/head/custom.html`
-- `/_includes/scripts.html`
+| name | path |
+| :-   | :-   |
+| config.yml     | `/_config.yml`                |
+| ui-text.yml    | `/_data/ui-text.yml`          |
+| navigation.yml | `/_data/navigation.yml`       |
+| main.scss      | `/assets/css/main.scss`       |
+| custom.html    | `/_includes/head/custom.html` |
+| scripts.html   | `/_includes/scripts.html`     |
