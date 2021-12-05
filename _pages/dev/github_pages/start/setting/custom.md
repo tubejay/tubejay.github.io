@@ -21,6 +21,4 @@ hidden    : false
 
 ## create
 
-- `/_includes/head/custom.html`
-
 ![image](https://user-images.githubusercontent.com/92285528/144621920-31884fef-9e0e-487c-b2e3-e7e1cf8a30d5.png)
