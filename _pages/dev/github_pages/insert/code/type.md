@@ -13,13 +13,10 @@ hidden    : false
 
 
 
-## Type
-
-- [GitHub Docs](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code)
-
-### fenced code block
+## fenced code block
 
 - [code sample](https://www.tensorflow.org/guide/keras/functional#training_evaluation_and_inference)
+- [GitHub Docs](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code)
 - [GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks#syntax-highlighting)
 - [all Languages known to GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
@@ -69,12 +66,14 @@ print("Test loss:", test_scores[0])
 print("Test accuracy:", test_scores[1])
 ```
 
-### inline code span
+
+
+## inline code span
 
 - [Stack Overflow](https://stackoverflow.com/questions/23226224/inline-code-syntax-highlighting-in-github-markdown)
 
-```
+```markdown
 Inline code \`from tensorflow import keras\`{:.language-python .highlight} is shown.
 ```
 
-Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
+> Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
