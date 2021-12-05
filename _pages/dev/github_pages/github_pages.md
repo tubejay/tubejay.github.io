@@ -53,7 +53,7 @@ hidden: false
   - plugins
   - conversion
   - markdown processing
-- [front matter](/dev/github_pages#front-matter)
+- [front matter](#front-matter)
 - [skin](#skin)
 
 
