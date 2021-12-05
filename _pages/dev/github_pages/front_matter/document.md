@@ -2,7 +2,7 @@
 title: Document
 layout: single
 toc: true
-permalink: /dev/github_pages/view/front_matter/document
+permalink: /dev/github_pages/front_matter/document
 published: true
 hidden: false
 ---
