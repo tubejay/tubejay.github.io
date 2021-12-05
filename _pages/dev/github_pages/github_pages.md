@@ -38,19 +38,19 @@ hidden: false
 
 ## Config
 
-- [info](/dev/github_pages/config/setting/info)
+- [info](/dev/github_pages/config/info)
   - site settings
   - site author
-- [organize](/dev/github_pages/config/setting/organize)
+- [organize](/dev/github_pages/config/organize)
   - outputting
   - archives
   - breadcrumbs
 - front matter -> [view](#view)
 - skin -> [style](#skin)
-- [tool](/dev/github_pages/config/setting/tool)
+- [tool](/dev/github_pages/config/tool)
   - comments
   - search
-- [build](/dev/github_pages/config/setting/build)
+- [build](/dev/github_pages/config/build)
   - reading files
   - plugins
   - conversion
