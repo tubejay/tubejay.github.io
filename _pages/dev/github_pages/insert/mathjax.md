@@ -1,8 +1,8 @@
 ---
-title     : Math
+title     : Mathjax
 layout    : single
 toc       : true
-permalink : /dev/github_pages/insert/math
+permalink : /dev/github_pages/insert/mathjax
 published : true
 hidden    : false
 ---
@@ -13,18 +13,18 @@ hidden    : false
 
 
 
-## mathjax
+## reference
 
 - [How to add Latex to Minimal Mistakes](https://www.janmeppe.com/blog/How-to-add-mathjax-to-minimal-mistakes/)
 - [GitHub 블로그에 mathjax 추가하기](https://sanglee325.github.io/blog/mathjax-github-io/#minimal-mistakes-theme)
 
-### in [config.yml](/dev/github_pages/config/setting/build#conversion)
+## in [config.yml](/dev/github_pages/config/setting/build#conversion)
 
 ```yml
 markdown: kramdown
 ```
 
-### in [scripts.html](/dev/github_pages/style/customization#scriptshtml)
+## in [scripts.html](/dev/github_pages/style/customization#scriptshtml)
 
 ```html
 <script type="text/javascript" async
