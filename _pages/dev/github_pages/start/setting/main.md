@@ -31,6 +31,4 @@ hidden    : false
 
 ### paste
 
-- `/assets/css/main.scss`
-
 ![image](https://user-images.githubusercontent.com/92285528/144621773-4cba7d6f-d78c-4397-82c7-517864ec91f5.png)
