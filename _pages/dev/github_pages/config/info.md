@@ -2,7 +2,7 @@
 title: Info
 layout: single
 toc: true
-permalink: /dev/github_pages/config/setting/info
+permalink: /dev/github_pages/config/info
 published: true
 hidden: false
 ---
