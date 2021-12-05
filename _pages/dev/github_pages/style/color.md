@@ -13,7 +13,7 @@ hidden: false
 
 
 
-## basic
+## setting
 
 - in [main.scss](/dev/github_pages/style/customization#mainscss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors)
