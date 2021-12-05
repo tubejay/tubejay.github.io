@@ -38,8 +38,6 @@ hidden: false
 
 ## Config
 
-### setting
-
 - [info](/dev/github_pages/config/setting/info)
   - site settings
   - site author
