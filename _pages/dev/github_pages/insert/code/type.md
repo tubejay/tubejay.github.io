@@ -22,7 +22,7 @@ hidden    : false
 
 ### syntax
 
-````markdown
+````
 ```python
 from tensorflow import keras
 from tensorflow.keras import model
@@ -78,8 +78,8 @@ print("Test accuracy:", test_scores[1])
 
 ### syntax
 
-```markdown
-Inline code \`from tensorflow import keras\`{:.language-python .highlight} is shown.
+```
+Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
 ```
 
 ### output
