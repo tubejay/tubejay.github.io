@@ -31,6 +31,7 @@ hidden: false
 | [Bracket Lens](https://marketplace.visualstudio.com/items?itemName=wraith13.bracket-lens) | Min Bracket Header Length | 2 |
 | | Mode | auto |
 | [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) | Delay | 0 |
+| | Enabled Diagnostic Levels | error/warning/info/hint |
 | | Follow Cursor | allLines |
 | | Font Style Italic | true |
 | | Font Weight | bold |
