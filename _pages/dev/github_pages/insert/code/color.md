@@ -1,10 +1,10 @@
 ---
-title: Color
-layout: single
-toc: true
-permalink: /dev/github_pages/insert/code/color
-published: true
-hidden: false
+title     : Color
+layout    : single
+toc       : true
+permalink : /dev/github_pages/insert/code/color
+published : true
+hidden    : false
 ---
 
 <head>
