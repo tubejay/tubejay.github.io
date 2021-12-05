@@ -15,7 +15,7 @@ hidden: false
 
 ## default
 
-- in [config](/dev/github_pages#config)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 - scope
   - global
   - posts
@@ -71,7 +71,7 @@ defaults:
 
 ## document
 
-- in [document](/dev/github_pages#document)
+- in [document](/dev/github_pages#document-1)
 
 ```yml
 ---
