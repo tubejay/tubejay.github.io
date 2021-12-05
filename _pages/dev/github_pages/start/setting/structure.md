@@ -1,7 +1,7 @@
 ---
 title     : Structure
 layout    : single
-toc       : true
+toc       : false
 permalink : /dev/github_pages/start/setting/structure
 published : true
 hidden    : false
