@@ -1,5 +1,5 @@
 ---
-title     : Mathjax
+title     : MathJax
 layout    : single
 toc       : true
 permalink : /dev/github_pages/insert/mathjax
