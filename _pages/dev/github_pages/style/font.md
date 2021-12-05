@@ -81,6 +81,9 @@ $type-size-8 : 0.40em;
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172827)
 
 ```scss
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
 html {
   font-size: 15px;
   @include breakpoint($medium)  { font-size: 15px; }
