@@ -20,6 +20,8 @@ hidden    : false
 - [GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks#syntax-highlighting)
 - [all Languages known to GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
+### syntax
+
 ````
 ```python
 from tensorflow import keras
@@ -43,6 +45,8 @@ print("Test loss:", test_scores[0])
 print("Test accuracy:", test_scores[1])
 ```
 ````
+
+### output
 
 ```python
 from tensorflow import keras
@@ -72,8 +76,12 @@ print("Test accuracy:", test_scores[1])
 
 - [Stack Overflow](https://stackoverflow.com/questions/23226224/inline-code-syntax-highlighting-in-github-markdown)
 
+### syntax
+
 ```markdown
 Inline code \`from tensorflow import keras\`{:.language-python .highlight} is shown.
 ```
 
-> Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
+### output
+
+Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
