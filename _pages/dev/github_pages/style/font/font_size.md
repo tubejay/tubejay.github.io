@@ -2,7 +2,7 @@
 title     : "Font size"
 layout    : single
 toc       : true
-permalink : /dev/github_pages/style/font_size
+permalink : /dev/github_pages/style/font/font_size
 published : true
 hidden    : false
 ---
