@@ -9,14 +9,6 @@ hidden: false
 
 
 
-## Create
-
-- `/_data/navigation.yml`
-
-![image](https://user-images.githubusercontent.com/92285528/143728088-5d60a93d-4768-44ca-b048-9618a1d8d33c.png)
-
-
-
 ## Masthead
 
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
