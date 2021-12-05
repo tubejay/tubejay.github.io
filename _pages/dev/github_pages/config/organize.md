@@ -15,6 +15,8 @@ hidden: false
 
 ## outputting
 
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
+
 ```yml
 permalink     : /:categories/:title/
 paginate      : 5 # amount of posts to show
@@ -25,6 +27,8 @@ timezone      : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 ## archives
+
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 category_archive:
@@ -41,7 +45,7 @@ tag_archive:
   
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#breadcrumbs-beta)
 
-### in [config.yml](/dev/github_pages#config)
+### in [config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 breadcrumbs : true
