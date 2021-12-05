@@ -17,6 +17,8 @@ hidden: false
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/#gfm-code-blocks)
 
+```scss
 .highlight{
   font-family: $monospace;
 }
+```
