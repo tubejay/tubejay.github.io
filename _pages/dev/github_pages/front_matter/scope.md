@@ -30,13 +30,17 @@ defaults:
   - scope:
       path: ""
     values:
-      read_time  : false
-      comments   : false
-      share      : false
-      related    : false
-      show_date  : false
+      # info
+      show_date : false
+      read_time : false
+      share     : false
+      related   : false
+      comments  : false
+      # table of contents
       toc_sticky : true
       toc_label  : "Table of Contents"
+      toc_icon   : list-alt
+      # view
       sidebar:
         nav: nav_side
   # _posts
@@ -44,17 +48,23 @@ defaults:
       path: ""
       type: posts
     values:
-      layout         : single
+      # info
       author_profile : false
-      toc            : true
+      # table of contents
+      toc : true
+      # view
+      layout : single
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout         : splash
+      # info
       author_profile : true
-      toc            : false
+      # table of contents
+      toc : false
+      # view
+      layout : splash
 ```
 
 
@@ -65,10 +75,11 @@ defaults:
 
 ```yml
 ---
-date        : 2021-01-01
-title       : post_A_1
-categories  : cat_A
-published   : true
-hidden      : false
+date       : 2021-01-01
+title      : post_A_1
+categories : cat_A
+permalink  : 
+published  : true
+hidden     : false
 ---
 ```
