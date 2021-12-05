@@ -13,7 +13,7 @@ hidden    : false
 
 
 
-## type
+## reference
 
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172829)
 
