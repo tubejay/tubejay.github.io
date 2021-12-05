@@ -45,8 +45,8 @@ hidden: false
   - outputting
   - archives
   - breadcrumbs
-- front matter -> [view](#view)
-- skin -> [style](#skin)
+- [front matter](#front-matter)
+- [skin](#skin)
 - [tool](/dev/github_pages/config/tool)
   - comments
   - search
