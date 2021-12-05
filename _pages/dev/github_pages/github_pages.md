@@ -82,8 +82,6 @@ hidden: false
   - permalink
   - published
   - hidden
-- layout -> [layout](#layout)
-- nav_side -> [navigation](#navigation)
 
 
 
