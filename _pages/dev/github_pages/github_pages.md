@@ -45,8 +45,6 @@ hidden: false
   - outputting
   - archives
   - breadcrumbs
-- [front matter](#front-matter)
-- [skin](#skin)
 - [tool](/dev/github_pages/config/tool)
   - comments
   - search
@@ -55,6 +53,8 @@ hidden: false
   - plugins
   - conversion
   - markdown processing
+- [front matter](/dev/github_pages#front-matter)
+- [skin](#skin)
 
 
 
