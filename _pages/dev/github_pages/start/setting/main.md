@@ -13,3 +13,6 @@ hidden    : false
 
 
 
+## path
+
+- `/assets/css/main.scss`
