@@ -43,67 +43,87 @@ hidden: false
 
 ## Config
 
-- [info](/dev/github_pages/config/info)
-  - site settings
-  - site author
-- [organize](/dev/github_pages/config/organize)
-  - outputting
-  - archives
-  - breadcrumbs
-- [tool](/dev/github_pages/config/tool)
-  - comments
-  - search
-- [build](/dev/github_pages/config/build)
-  - reading files
-  - plugins
-  - conversion
-  - markdown processing
-- front matter -> [🔽](#front-matter)
-- skin -> [🔽](#skin)
+### [info](/dev/github_pages/config/info)
+
+- site settings
+- site author
+
+### [organize](/dev/github_pages/config/organize)
+
+- outputting
+- archives
+- breadcrumbs
+
+### [tool](/dev/github_pages/config/tool)
+
+- comments
+- search
+
+### [build](/dev/github_pages/config/build)
+
+- reading files
+- plugins
+- conversion
+- markdown processing
+
+### front matter -> [🔽](#front-matter)
+
+### skin -> [🔽](#skin)
 
 
 
 ## Front matter
 
-- [scope](/dev/github_pages/front_matter/scope)
-  - default
-  - document
-- [info](/dev/github_pages/front_matter/info)
-  - author_profile
-  - show_date
-  - read_time
-  - share
-  - related
-  - comments
-- [table of contents](/dev/github_pages/front_matter/table_of_contents)
-  - toc
-  - toc_sticky
-  - toc_label
-  - toc_icon
-- [document](/dev/github_pages/front_matter/document)
-  - date
-  - title
-  - categories
-  - permalink
-  - published
-  - hidden
-- view -> [🔽](#view)
+### [scope](/dev/github_pages/front_matter/scope)
+
+- default
+- document
+
+### [info](/dev/github_pages/front_matter/info)
+
+- author_profile
+- show_date
+- read_time
+- share
+- related
+- comments
+
+### [table of contents](/dev/github_pages/front_matter/table_of_contents)
+
+- toc
+- toc_sticky
+- toc_label
+- toc_icon
+
+### [document](/dev/github_pages/front_matter/document)
+
+- date
+- title
+- categories
+- permalink
+- published
+- hidden
+
+### view -> [🔽](#view)
 
 
 
 ## View
 
-- [layout](/dev/github_pages/view/layout)
-  - home
-  - single
-  - wide
-  - splash
-  - categories
-  - category
-- [navigation](/dev/github_pages/view/navigation)
-  - create
-  - masthead
-  - nav_side
+### [layout](/dev/github_pages/view/layout)
+
+- home
+- single
+- wide
+- splash
+- categories
+- category
+
+### [navigation](/dev/github_pages/view/navigation)
+
+- create
+- masthead
+- nav_side
 
 
 
