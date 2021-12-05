@@ -22,7 +22,7 @@ hidden    : false
 
 ### syntax
 
-````
+````markdown
 ```python
 from tensorflow import keras
 from tensorflow.keras import model
@@ -84,4 +84,4 @@ Inline code \`from tensorflow import keras\`{:.language-python .highlight} is sh
 
 ### output
 
-Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
+- Inline code `from tensorflow import keras`{:.language-python .highlight} is shown.
