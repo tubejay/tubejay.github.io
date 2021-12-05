@@ -24,6 +24,14 @@ minimal_mistakes_skin : "default" # "air", "aqua", "contrast", "dark", "dirt", "
 
 
 
+## mint
+
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#mint-skin-mint)
+
+![image](https://user-images.githubusercontent.com/92285528/143728646-c1feba20-65d5-4777-b775-afa537f8712d.png)
+
+
+
 ## aqua
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#aqua-skin-aqua)
