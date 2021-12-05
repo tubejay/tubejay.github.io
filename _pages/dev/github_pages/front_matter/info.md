@@ -2,7 +2,7 @@
 title: Info
 layout: single
 toc: true
-permalink: /dev/github_pages/view/front_matter/info
+permalink: /dev/github_pages/front_matter/info
 published: true
 hidden: false
 ---
