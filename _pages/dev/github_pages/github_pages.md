@@ -57,8 +57,8 @@ hidden: false
   - plugins
   - conversion
   - markdown processing
-- front matter -> [below](#front-matter)
-- skin -> [below](#skin)
+- front matter -> [⬇️](#front-matter) 
+- skin -> [⬇️](#skin)
 
 
 
@@ -86,7 +86,7 @@ hidden: false
   - permalink
   - published
   - hidden
-- view -> [below](#view)
+- view -> [⬇️](#view)
 
 
 
