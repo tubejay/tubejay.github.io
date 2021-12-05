@@ -21,7 +21,7 @@ hidden    : false
 
 ## type-size-x
 
-- in [main.scss](/dev/github_pages/style/customization#mainscss)
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#type-scale)
 
 ```scss
@@ -39,7 +39,7 @@ $type-size-8 : 0.40em;
 
 ## medium/large/x-large
 
-- in [main.scss](/dev/github_pages/style/customization#mainscss)
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 - [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/discussions/1219#discussioncomment-172827)
 
 ```scss
