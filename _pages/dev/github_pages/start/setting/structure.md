@@ -1,10 +1,10 @@
 ---
-title: Structure
-layout: single
-toc: true
-permalink: /dev/github_pages/start/setting/structure
-published: true
-hidden: false
+title     : Structure
+layout    : single
+toc       : true
+permalink : /dev/github_pages/start/setting/structure
+published : true
+hidden    : false
 ---
 
 <head>
