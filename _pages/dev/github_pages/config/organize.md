@@ -48,7 +48,7 @@ breadcrumbs : true
 breadcrumbs : false
 ```
 
-### in [ui-text.yml](/dev/github_pages/start/structure)
+### in [ui-text.yml](/dev/github_pages/start/setting/ui_text_yml)
 
 ```yml
 breadcrumb_home_label : "Home"
