@@ -21,7 +21,7 @@ hidden: false
 ### background
 
 ```scss
-$background-color           : mintcream;
+$background-color           : mistyrose;
 $footer-background-color    : darkred;
 $border-color               : darkred;
 ```
