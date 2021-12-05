@@ -87,20 +87,17 @@ hidden: false
 
 ## View
 
-### [layout](/dev/github_pages/view/layout)
-
-- home
-- single
-- wide
-- splash
-- categories
-- category
-
-### [navigation](/dev/github_pages/view/navigation)
-
-- create
-- masthead
-- nav_side
+- [layout](/dev/github_pages/view/layout)
+  - home
+  - single
+  - wide
+  - splash
+  - categories
+  - category
+- [navigation](/dev/github_pages/view/navigation)
+  - create
+  - masthead
+  - nav_side
 
 
 
