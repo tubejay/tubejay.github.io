@@ -15,7 +15,7 @@ hidden    : false
 
 ## setting
 
-- in [main.scss](/dev/github_pages/style/customization#mainscss)
+- in [config.yml](/dev/github_pages/start/setting/config_yml)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#syntax-highlighting)
 - [base16](http://chriskempson.com/projects/base16/)
 
