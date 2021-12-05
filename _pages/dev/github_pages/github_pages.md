@@ -145,11 +145,11 @@ hidden: false
 
 ## Style
 
-### [skin](/dev/github_pages/style/skin)
+### skin
 
-- light
-- dark
-- color
+- [light](/dev/github_pages/style/skin/light)
+- [dark](/dev/github_pages/style/skin/dark)
+- [color](/dev/github_pages/style/skin/color)
 
 ### [color](/dev/github_pages/style/color)
 
