@@ -2,7 +2,7 @@
 title: Scope
 layout: single
 toc: true
-permalink: /dev/github_pages/view/front_matter/scope
+permalink: /dev/github_pages/front_matter/scope
 published: true
 hidden: false
 ---
