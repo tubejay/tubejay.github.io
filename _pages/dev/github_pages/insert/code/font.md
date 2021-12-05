@@ -15,6 +15,7 @@ hidden: false
 
 ## setting
 
+- in [main.scss](/dev/github_pages/start/setting/main_scss)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/#gfm-code-blocks)
 
 ```scss
