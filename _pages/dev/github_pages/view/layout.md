@@ -13,9 +13,9 @@ hidden: false
 
 
 
-## Setting
+## setting
 
-- in [front matter](/dev/github_pages#front-matter)
+- in [front matter](/dev/github_pages/front_matter/scope)
 
 ```yml
 layout  : single
@@ -24,7 +24,7 @@ classes : wide
 
 
 
-## Home
+## home
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#home-page-layout)
 
@@ -36,7 +36,7 @@ layout: home
 
 
 
-## Single
+## single
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#single-layout)
 
@@ -48,7 +48,7 @@ layout: single
 
 
 
-## Wide
+## wide
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#wide-page)
 
@@ -60,7 +60,7 @@ classes: wide
 
 
 
-## Splash
+## splash
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout)
 
@@ -72,9 +72,9 @@ layout: splash
 
 
 
-## Categories
+## categories
 
-- in [pages](/dev/github_pages#pages)
+- categories ➡️ [categories](/dev/github_pages/document/pages/categories)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-categories)
 
 ```yml
@@ -85,9 +85,9 @@ layout: categories
 
 
 
-## Category
+## category
 
-- in [pages](/dev/github_pages#pages)
+- category ➡️ [category](/dev/github_pages/document/pages/category)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-category)
 
 ```yml
