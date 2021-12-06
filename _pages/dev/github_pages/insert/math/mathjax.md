@@ -63,15 +63,15 @@ for every positive $x,y \in \mathbb{R}$, there is an integer $n$ with $nx > y$
 ```
 $$
 \begin{align*}
-  & \forall \epsilon > 0, \exists \delta > 0 \text{ such that} \\
-  & \forall x \in \mathbb{R} \text{ with } 0 < |x-p| < \delta, |f(x)-L| < \epsilon
+  & \forall \epsilon > 0, \exists \delta > 0 \\
+  & \text{such that } \forall x \in \mathbb{R} \text{ with } 0 < |x-p| < \delta, |f(x)-L| < \epsilon
 \end{align*}
 $$
 ```
 
 $$
 \begin{align*}
-  & \forall \epsilon > 0, \exists \delta > 0 \text{ such that} \\
-  & \forall x \in \mathbb{R} \text{ with } 0 < |x-p| < \delta, |f(x)-L| < \epsilon
+  & \forall \epsilon > 0, \exists \delta > 0 \\
+  & \text{such that } \forall x \in \mathbb{R} \text{ with } 0 < |x-p| < \delta, |f(x)-L| < \epsilon
 \end{align*}
 $$
