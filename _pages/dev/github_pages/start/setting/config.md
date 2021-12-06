@@ -23,7 +23,7 @@ hidden    : false
 
 ### copy
 
-- copy raw contents from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+- copy raw contents from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml)
 
 ![image](https://user-images.githubusercontent.com/92285528/143048850-9d6d5a16-d76f-45a7-9716-0d59bc64a836.png)
 
