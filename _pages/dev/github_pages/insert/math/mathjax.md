@@ -53,26 +53,25 @@ markdown: kramdown
 
 - [Archimedean property](https://en.m.wikipedia.org/wiki/Archimedean_property)
 
-```tex
+```
 for every positive $x,y \in \mathbb{R}$, there is an integer $n$ with $nx > y$
 ```
 for every positive $x,y \in \mathbb{R}$, there is an integer $n$ with $nx > y$
 
-
 ### displayed
 
-```tex
+```
 $$
 \begin{align*}
-  \forall \epsilon > 0, \exists \delta > 0 such that \\
-  \forall x \in \mathbb{R} with 0 < |x-p| < \delta, |f(x)-L| < \epsilon
+  & \forall \epsilon > 0, \exists \delta > 0 \text{such that} \\
+  & \forall x \in \mathbb{R} \text{with} 0 < |x-p| < \delta, |f(x)-L| < \epsilon
 \end{align*}
 $$
 ```
 
 $$
 \begin{align*}
-  \forall \epsilon > 0, \exists \delta > 0 such that \\
-  \forall x \in \mathbb{R} with 0 < |x-p| < \delta, |f(x)-L| < \epsilon
+  & \forall \epsilon > 0, \exists \delta > 0 \text{such that} \\
+  & \forall x \in \mathbb{R} \text{with} 0 < |x-p| < \delta, |f(x)-L| < \epsilon
 \end{align*}
 $$
