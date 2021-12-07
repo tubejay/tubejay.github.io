@@ -36,7 +36,7 @@ $base0a: crimson;         // class
 $base0d: mediumblue;      // function, method
 ```
 
-### not in use
+### unselected
 
 ```scss
 // $base01: ;
