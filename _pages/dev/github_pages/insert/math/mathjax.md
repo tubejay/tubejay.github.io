@@ -60,6 +60,8 @@ for every positive $x,y \in \mathbb{R}$, there is an integer $n$ with $nx > y$
 
 ### displayed
 
+- [epsilon-delta](https://en.m.wikipedia.org/wiki/Limit_of_a_function#(%CE%B5,_%CE%B4)-definition_of_limit)
+
 ```
 $$
 \begin{align*}
