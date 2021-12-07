@@ -121,7 +121,6 @@ hidden: false
 
 ### [navigation](/dev/github_pages/view/navigation)
 
-- create
 - masthead
 - nav_side
 
