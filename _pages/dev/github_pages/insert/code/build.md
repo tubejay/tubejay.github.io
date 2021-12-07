@@ -22,12 +22,12 @@ hidden    : true
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    default_lang  : text
-    guess_lang    : true
+    default_lang : text
+    guess_lang   : true
     block:
-      disable       : false
-      line_numbers  : true
+      disable      : false
+      line_numbers : true
     span:
-      disable       : false
-      line_numbers  : false
+      disable      : false
+      line_numbers : false
 ```
