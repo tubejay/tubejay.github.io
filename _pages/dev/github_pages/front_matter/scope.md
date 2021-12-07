@@ -78,7 +78,7 @@ defaults:
 date       : 2021-01-01
 title      : post_A_1
 categories : cat_A
-permalink  : 
+permalink  : /cat_A/post_A_1
 published  : true
 hidden     : false
 ---
