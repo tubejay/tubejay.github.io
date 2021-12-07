@@ -60,7 +60,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 ## plugins
 
 - in [config.yml](/dev/github_pages/start/setting/config_yml)
-- [dependency](https://pages.github.com/versions/)
+- [dependency versions](https://pages.github.com/versions/)
 
 ```yml
 plugins:
