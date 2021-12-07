@@ -57,8 +57,8 @@ markdown: kramdown
 for every positive $x,y \in \mathbb{R}$,
 there is an integer $n$ with $nx > y$
 ```
-> for every positive $x,y \in \mathbb{R}$,
-> there is an integer $n$ with $nx > y$
+for every positive $x,y \in \mathbb{R}$, <br>
+there is an integer $n$ with $nx > y$
 
 ### displayed
 
