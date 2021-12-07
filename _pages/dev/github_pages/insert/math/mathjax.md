@@ -54,9 +54,11 @@ markdown: kramdown
 - [Archimedean property](https://en.m.wikipedia.org/wiki/Archimedean_property)
 
 ```
-for every positive $x,y \in \mathbb{R}$, there is an integer $n$ with $nx > y$
+for every positive $x,y \in \mathbb{R}$,
+there is an integer $n$ with $nx > y$
 ```
-for every positive $x,y \in \mathbb{R}$, there is an integer $n$ with $nx > y$
+> for every positive $x,y \in \mathbb{R}$,
+> there is an integer $n$ with $nx > y$
 
 ### displayed
 
