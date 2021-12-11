@@ -31,13 +31,13 @@ hidden: false
 
 ### setting
 
-- [structure](/dev/github_pages/start/setting/structure)
-- [config.yml](/dev/github_pages/start/setting/config_yml)
-- [ui-text.yml](/dev/github_pages/start/setting/ui_text_yml)
-- [navigation.yml](/dev/github_pages/start/setting/navigation_yml)
-- [main.scss](/dev/github_pages/start/setting/main_scss)
-- [custom.html](/dev/github_pages/start/setting/custom_html)
-- [scripts.html](/dev/github_pages/start/setting/scripts_html)
+- 🧱 [structure](/dev/github_pages/start/setting/structure)
+- ⚙️ [config.yml](/dev/github_pages/start/setting/config_yml)
+- 🗂️ [ui-text.yml](/dev/github_pages/start/setting/ui_text_yml)
+- 🔗 [navigation.yml](/dev/github_pages/start/setting/navigation_yml)
+- 🖌️ [main.scss](/dev/github_pages/start/setting/main_scss)
+- ✏️ [custom.html](/dev/github_pages/start/setting/custom_html)
+- 📐 [scripts.html](/dev/github_pages/start/setting/scripts_html)
 
 <br>
 
