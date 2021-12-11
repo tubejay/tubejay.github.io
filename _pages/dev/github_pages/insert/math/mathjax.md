@@ -27,7 +27,8 @@ markdown: kramdown
 ### in [scripts.html](/dev/github_pages/start/setting/scripts_html)
 
 ```html
-<script type="text/javascript" async
+<script
+    type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
 </script>
 
@@ -53,7 +54,7 @@ markdown: kramdown
 
 - [Archimedean property](https://en.m.wikipedia.org/wiki/Archimedean_property)
 
-```
+```TeX
 for every positive $x,y \in \mathbb{R}$,
 there is an integer $n$ with $nx > y$
 ```
@@ -64,7 +65,7 @@ there is an integer $n$ with $nx > y$
 
 - [epsilon-delta](https://en.m.wikipedia.org/wiki/Limit_of_a_function#(%CE%B5,_%CE%B4)-definition_of_limit)
 
-```
+```TeX
 $$
 \begin{align*}
   & \forall \epsilon > 0, \exists \delta > 0 \\
