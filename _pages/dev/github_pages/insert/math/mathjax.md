@@ -54,7 +54,7 @@ markdown: kramdown
 
 - [Archimedean property](https://en.m.wikipedia.org/wiki/Archimedean_property)
 
-```TeX
+```markdown
 for every positive $x,y \in \mathbb{R}$,
 there is an integer $n$ with $nx > y$
 ```
@@ -65,7 +65,7 @@ there is an integer $n$ with $nx > y$
 
 - [epsilon-delta](https://en.m.wikipedia.org/wiki/Limit_of_a_function#(%CE%B5,_%CE%B4)-definition_of_limit)
 
-```TeX
+```markdown
 $$
 \begin{align*}
   & \forall \epsilon > 0, \exists \delta > 0 \\
