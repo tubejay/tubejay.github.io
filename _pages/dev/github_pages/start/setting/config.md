@@ -21,6 +21,8 @@ hidden    : false
 
 ## create
 
+- [Dreamgonfly's blog](https://dreamgonfly.github.io/blog/jekyll-remote-theme/#3-_configyml-%ED%8C%8C%EC%9D%BC-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)
+
 ### copy
 
 - copy raw contents from [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml)
@@ -34,7 +36,6 @@ hidden    : false
 ### theme
 
 - set remote_theme : "mmistakes/minimal-mistakes"
-- [Dreamgonfly's blog](https://dreamgonfly.github.io/blog/jekyll-remote-theme/)
 
 ![image](https://user-images.githubusercontent.com/92285528/143049894-ba643360-5ec5-49d4-9bd7-5a72eab51383.png)
 
