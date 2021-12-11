@@ -7,6 +7,16 @@ published: true
 hidden: false
 ---
 
+<head>
+  <base target="_blank">
+</head>
+
+
+
+## reference
+
+- [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
+
 
 
 ## select branch
@@ -15,6 +25,6 @@ hidden: false
 
 
 
-## saved
+## save
 
 ![image](https://user-images.githubusercontent.com/92285528/143039209-acb86847-6414-44df-88dc-9491f31e3b98.png)
