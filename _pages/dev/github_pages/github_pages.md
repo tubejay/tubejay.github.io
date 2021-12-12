@@ -104,7 +104,7 @@ hidden: false
 - published
 - hidden
 
-### [🔻 view](#view)
+### [🔻 view](#🖼️-view)
 
 <br>
 
