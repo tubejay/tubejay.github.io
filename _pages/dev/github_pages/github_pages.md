@@ -41,7 +41,7 @@ hidden: false
 
 <br>
 
-## ⚙️ Config
+## 🔨 Config
 
 ### [info](/dev/github_pages/config/info)
 
