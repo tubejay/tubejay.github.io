@@ -15,7 +15,7 @@ hidden    : true
 
 ## setting
 
-- in [config.yml](/dev/github_pages/start/setting/config_yml)
+- in [⚙️config.yml](/dev/github_pages/start/setting/config_yml)
 - [syntax highlight with Rouge](https://kramdown.gettalong.org/syntax_highlighter/rouge.html)
 
 ```yml
