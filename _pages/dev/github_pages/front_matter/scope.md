@@ -71,7 +71,7 @@ defaults:
 
 ## document
 
-- in [document](/dev/github_pages/front_matter/document)
+- in [📄document](/dev/github_pages/front_matter/document)
 
 ```yml
 ---
