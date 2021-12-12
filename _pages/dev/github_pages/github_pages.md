@@ -66,7 +66,7 @@ hidden: false
 - conversion
 - markdown processing
 
-### 🏷️ front matter [⬇️](#front-matter)
+### front matter [⬇️](#front-matter)
 
 ### skin [⬇️](#skin)
 
