@@ -18,7 +18,7 @@ hidden: false
 - [취미로 코딩하는 개발자](https://devinlife.com/howto%20github%20pages/blog-menu/)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/navigation/#masthead)
 
-### in [navigation.yml](/dev/github_pages/start/setting/navigation_yml)
+### in [🗂️navigation.yml](/dev/github_pages/start/setting/navigation_yml)
 
 ```yml
 main:
@@ -40,7 +40,7 @@ main:
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu)
 
-### in [navigation.yml](/dev/github_pages/start/setting/navigation_yml)
+### in [🗂️navigation.yml](/dev/github_pages/start/setting/navigation_yml)
 
 ```yml
 nav_side:
