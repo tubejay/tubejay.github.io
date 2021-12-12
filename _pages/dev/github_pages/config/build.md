@@ -15,7 +15,7 @@ hidden: false
 
 ## reading files
 
-- in 🧱 [config.yml](/dev/github_pages/start/setting/config_yml)
+- in 🧱[config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 include:
