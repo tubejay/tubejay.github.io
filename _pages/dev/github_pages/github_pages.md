@@ -13,7 +13,7 @@ hidden: false
 
 
 
-## Goal
+## 🎯 Goal
 
 - 100% on GitHub : no local development
 - [types of GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) : project
@@ -21,7 +21,7 @@ hidden: false
 
 <br>
 
-## Start
+## 🚀 Start
 
 ### create
 
@@ -41,7 +41,7 @@ hidden: false
 
 <br>
 
-## Config
+## ⚙️ Config
 
 ### [info](/dev/github_pages/config/info)
 
@@ -66,9 +66,9 @@ hidden: false
 - conversion
 - markdown processing
 
-### [🔻 front matter](#front-matter)
+### [⤵️ front matter](#front-matter)
 
-### [🔻 skin](#skin)
+### [⤵️ skin](#skin)
 
 <br>
 
@@ -104,7 +104,7 @@ hidden: false
 - published
 - hidden
 
-### [🔻 view](#view)
+### [⤵️ view](#view)
 
 <br>
 
@@ -142,7 +142,7 @@ hidden: false
 
 <br>
 
-## Style
+## 🎨 Style
 
 ### skin
 
@@ -170,7 +170,7 @@ hidden: false
 
 <br>
 
-## insert
+## 🧰 insert
 
 ### code
 
