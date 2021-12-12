@@ -66,9 +66,9 @@ hidden: false
 - conversion
 - markdown processing
 
-### front matter [⬇️](#front-matter)
+### front matter [🔻](#front-matter)
 
-### skin [⬇️](#skin)
+### skin [🔻](#skin)
 
 <br>
 
@@ -104,7 +104,7 @@ hidden: false
 - published
 - hidden
 
-### view [⬇️](#view)
+### view [🔻](#view)
 
 <br>
 
