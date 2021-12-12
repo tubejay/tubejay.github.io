@@ -66,13 +66,13 @@ hidden: false
 - conversion
 - markdown processing
 
-### [🔻 front matter](#ℹ️-front-matter)
+### [🔻 front matter](#front-matter)
 
 ### [🔻 skin](#skin)
 
 <br>
 
-## ℹ️ Front matter
+## ℹ️ Front matter {#front-matter}
 
 ### [scope](/dev/github_pages/front_matter/scope)
 
@@ -104,11 +104,11 @@ hidden: false
 - published
 - hidden
 
-### [🔻 view](#🖼️-view)
+### [🔻 view](#view)
 
 <br>
 
-## 🖼️ View
+## 🖼️ View {#view}
 
 ### [layout](/dev/github_pages/view/layout)
 
