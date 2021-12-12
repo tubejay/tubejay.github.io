@@ -15,7 +15,7 @@ hidden: false
 
 ## published
 
-- in [front matter](/dev/github_pages/front_matter/scope)
+- in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 - [Stack Overflow](https://stackoverflow.com/a/27799716)
 
 ```yml
@@ -27,7 +27,7 @@ published: false  # invisible in GitHub Pages
 
 ## hidden
 
-- in [front matter](/dev/github_pages/front_matter/scope)
+- in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 - [Stack Overflow](https://stackoverflow.com/a/39693665)
 
 ```yml
