@@ -66,13 +66,13 @@ hidden: false
 - conversion
 - markdown processing
 
-### front matter [⬇️](#front-matter)
+### 🏷️ front matter [⬇️](#front-matter)
 
 ### skin [⬇️](#skin)
 
 <br>
 
-## Front matter
+## 🏷️ Front matter
 
 ### [scope](/dev/github_pages/front_matter/scope)
 
