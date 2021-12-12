@@ -16,7 +16,7 @@ hidden: false
 ## author_profile
 
 - in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
-- author_profile ⬅️ [author](/dev/github_pages/config/info#site-author)
+- author_profile ↩️ [author](/dev/github_pages/config/info#site-author)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#author-profile)
 
 ```yml
@@ -40,7 +40,7 @@ show_date: false
 ## read_time
 
 - in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
-- read_time ⬅️ [words_per_minute](/dev/github_pages/config/info#site-settings)
+- read_time ↩️ [words_per_minute](/dev/github_pages/config/info#site-settings)
 
 ```yml
 read_time: true
@@ -74,7 +74,7 @@ related: false
 ## comments
 
 - in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
-- comments ⬅️ [comments](/dev/github_pages/config/tool#comments)
+- comments ↩️ [comments](/dev/github_pages/config/tool#comments)
 
 ```yml
 comments: true
