@@ -21,7 +21,7 @@ hidden: false
 
 ## in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
-- categories ⬅️ [categories](/dev/github_pages/view/layout#categories)
+- categories ↩️ [categories](/dev/github_pages/view/layout#categories)
 
 ```yml
 title     : Categories
