@@ -53,7 +53,7 @@ nav_side:
         url   : /categories/cat_B/
 ```
 
-### in [front matter](/dev/github_pages/front_matter/scope)
+### in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
 ```yml
 sidebar:
