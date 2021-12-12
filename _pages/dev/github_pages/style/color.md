@@ -21,7 +21,7 @@ hidden: false
 
 ## background
 
-- in [main.scss](/dev/github_pages/start/setting/main_scss)
+- in [🖌️main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $background-color           : mistyrose;
@@ -33,7 +33,7 @@ $border-color               : darkred;
 
 ## text
 
-- in [main.scss](/dev/github_pages/start/setting/main_scss)
+- in [🖌️main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $text-color                 : black;
@@ -44,7 +44,7 @@ $muted-text-color           : darkslategray;
 
 ## link
 
-- in [main.scss](/dev/github_pages/start/setting/main_scss)
+- in [🖌️main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $link-color                 : mediumblue;
@@ -56,7 +56,7 @@ $link-color-visited         : darkred;
 
 ## masthead
 
-- in [main.scss](/dev/github_pages/start/setting/main_scss)
+- in [🖌️main.scss](/dev/github_pages/start/setting/main_scss)
 
 ```scss
 $masthead-link-color        : navy;
