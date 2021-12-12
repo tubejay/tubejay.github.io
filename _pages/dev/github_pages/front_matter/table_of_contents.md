@@ -15,7 +15,7 @@ hidden: false
 
 ## toc
 
-- in [🏷️ front matter](/dev/github_pages/front_matter/scope)
+- in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
 ```yml
 toc: true
@@ -26,7 +26,7 @@ toc: false
 
 ## toc_sticky
 
-- in [🏷️ front matter](/dev/github_pages/front_matter/scope)
+- in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
 ```yml
 toc_sticky: true
@@ -37,7 +37,7 @@ toc_sticky: false
 
 ## toc_label
 
-- in [🏷️ front matter](/dev/github_pages/front_matter/scope)
+- in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
 ```yml
 toc_label: "Table of Contents"
@@ -47,7 +47,7 @@ toc_label: "Table of Contents"
 
 ## toc_icon
 
-- in [🏷️ front matter](/dev/github_pages/front_matter/scope)
+- in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 - [fontawesome](https://fontawesome.com/v5.15/icons?d=listing&p=2&s=solid&m=free)
 
 ```yml
