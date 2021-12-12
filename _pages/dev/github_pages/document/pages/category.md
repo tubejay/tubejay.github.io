@@ -21,7 +21,7 @@ hidden: false
 
 ## in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
-- category ⬅️ [category](/dev/github_pages/view/layout#category)
+- category ↩️ [category](/dev/github_pages/view/layout#category)
 
 ```yml
 title     : cat_A
