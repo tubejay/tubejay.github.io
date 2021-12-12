@@ -66,7 +66,7 @@ hidden: false
 - conversion
 - markdown processing
 
-### [🔻](#front-matter) front matter
+### [🔻](#ℹ️-front-matter) front matter
 
 ### [🔻](#skin) skin
 
@@ -126,7 +126,7 @@ hidden: false
 
 <br>
 
-## Document
+## 📄 Document
 
 ### pages
 
