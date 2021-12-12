@@ -72,7 +72,7 @@ hidden: false
 
 <br>
 
-## 🏷️ Front matter
+## ℹ️ Front matter
 
 ### [scope](/dev/github_pages/front_matter/scope)
 
