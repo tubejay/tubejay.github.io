@@ -19,7 +19,7 @@ hidden: false
 
 
 
-## front matter
+## in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
 
 - category ⬅️ [category](/dev/github_pages/view/layout#category)
 
