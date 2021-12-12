@@ -18,13 +18,13 @@ hidden    : false
 - [How to add Latex to Minimal Mistakes](https://www.janmeppe.com/blog/How-to-add-mathjax-to-minimal-mistakes/)
 - [GitHub 블로그에 mathjax 추가하기](https://sanglee325.github.io/blog/mathjax-github-io/#minimal-mistakes-theme)
 
-### in [config.yml](/dev/github_pages/start/setting/config_yml)
+### in [⚙️config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 markdown: kramdown
 ```
 
-### in [scripts.html](/dev/github_pages/start/setting/scripts_html)
+### in [📐scripts.html](/dev/github_pages/start/setting/scripts_html)
 
 ```html
 <script
@@ -52,7 +52,7 @@ markdown: kramdown
 
 ### inline
 
-- [Archimedean property](https://en.m.wikipedia.org/wiki/Archimedean_property)
+- example : [Archimedean property](https://en.m.wikipedia.org/wiki/Archimedean_property)
 
 ```
 for every positive $x,y \in \mathbb{R}$,
@@ -64,7 +64,7 @@ there is an integer $n$ with $nx > y$
 
 ### displayed
 
-- [epsilon-delta](https://en.m.wikipedia.org/wiki/Limit_of_a_function#(%CE%B5,_%CE%B4)-definition_of_limit)
+- example : [epsilon-delta](https://en.m.wikipedia.org/wiki/Limit_of_a_function#(%CE%B5,_%CE%B4)-definition_of_limit)
 
 ```
 $$
