@@ -59,7 +59,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 ## plugins
 
-- in 🧱 [config.yml](/dev/github_pages/start/setting/config_yml)
+- in [🧱config.yml](/dev/github_pages/start/setting/config_yml)
 - [dependency versions](https://pages.github.com/versions/)
 
 ```yml
@@ -81,7 +81,7 @@ whitelist:
 
 ## conversion
 
-- in 🧱 [config.yml](/dev/github_pages/start/setting/config_yml)
+- in [🧱config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 markdown          : kramdown
@@ -95,7 +95,7 @@ incremental       : false
 
 ## markdown processing
 
-- in 🧱 [config.yml](/dev/github_pages/start/setting/config_yml)
+- in [🧱config.yml](/dev/github_pages/start/setting/config_yml)
 
 ```yml
 kramdown:
