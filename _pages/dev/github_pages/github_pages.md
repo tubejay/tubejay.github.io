@@ -21,6 +21,31 @@ hidden: false
 
 <br>
 
+## 📚 Reference
+
+### document
+
+- [GitHub Docs](https://docs.github.com/en/pages)
+- [Jekyll](https://jekyllrb.com/docs/)
+- [kramdown](https://kramdown.gettalong.org/documentation.html)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+
+### blog
+
+- [취미로 코딩하는 개발자](https://devinlife.com/howto/)
+- [Dreamgonfly's blog](https://dreamgonfly.github.io/tags/blog/)
+- [Jan Meppe](https://www.janmeppe.com/posts-grid/)
+
+### miscellaneous
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [Font Awesome](https://fontawesome.com/v5.15/icons)
+- [Google Fonts](https://fonts.google.com/)
+- [base16](http://chriskempson.com/projects/base16/)
+- [TensorFlow](https://www.tensorflow.org/guide)
+
+<br>
+
 ## 🚀 Start
 
 ### create
