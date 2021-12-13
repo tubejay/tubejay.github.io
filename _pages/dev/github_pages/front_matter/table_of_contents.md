@@ -48,7 +48,7 @@ toc_label: "Table of Contents"
 ## toc_icon
 
 - in [ℹ️ front matter](/dev/github_pages/front_matter/scope)
-- [fontawesome](https://fontawesome.com/v5.15/icons?d=listing&p=2&s=solid&m=free)
+- [Font Awesome](https://fontawesome.com/v5.15/icons?d=listing&p=2&s=solid&m=free)
 
 ```yml
 toc_icon: file-alt
