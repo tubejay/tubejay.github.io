@@ -34,4 +34,5 @@ hidden: false
 - color theme
   - [dark](/dev/vs_code/personalize/color_theme/dark)
   - [black](/dev/vs_code/personalize/color_theme/black)
-- [setting](/dev/vs_code/personalize/setting)
+  - [terminal color](/dev/vs_code/personalize/color_theme/terminal_color)
+- setting
