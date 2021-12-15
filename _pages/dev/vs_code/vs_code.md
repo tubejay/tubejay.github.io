@@ -32,4 +32,6 @@ hidden: false
   - [edit](/dev/vs_code/personalize/extension/edit)
   - [syntax](/dev/vs_code/personalize/extension/syntax)
 - [color theme](/dev/vs_code/personalize/color_theme)
+  - [dark](/dev/vs_code/personalize/color_theme/dark)
+  - [black](/dev/vs_code/personalize/color_theme/black)
 - [setting](/dev/vs_code/personalize/setting)
