@@ -1,8 +1,8 @@
 ---
-title: Setting
+title: "Terminal color"
 layout: single
 toc: true
-permalink: /dev/vs_code/personalize/setting
+permalink: /dev/vs_code/personalize/color_theme/terminal_color
 published: true
 hidden: false
 ---
@@ -13,13 +13,15 @@ hidden: false
 
 
 
-## terminal color
+## reference
 
 - [documentation](https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors)
 - [frhyme.code](https://frhyme.github.io/vs-code/vs_code_terminal_theme/)
 - [Base16 Terminal Colors for Visual Studio Code](https://glitchbone.github.io/vscode-base16-term/#/)
 
-### in setting.json
+
+
+## in setting.json
 
 ```json
 {
@@ -48,7 +50,9 @@ hidden: false
 }
 ```
 
-### colors
+
+
+## colors
 
 ```
 terminal.tab.activeBorder       : Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder.
