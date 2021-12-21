@@ -27,6 +27,8 @@ hidden: false
 - [IDRE](https://stats.idre.ucla.edu/)
 - [sololearn](https://www.sololearn.com/learning)
 - [Khan Academy](https://www.khanacademy.org/)
+- [소년코딩](https://boycoding.tistory.com/category)
+- [devhints](https://devhints.io/)
 
 ### Course
 
@@ -494,17 +496,92 @@ hidden: false
 
 <br><br>
 
+## Web
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
+
+### Document
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Learn)
+
+### Vue
+
+- Vue 2
+  - [Vue.js](https://vuejs.org/v2/guide/)
+  - [Opentutorials.org](https://opentutorials.org/course/4091)
+  - [Cracking Vue.js](https://joshua1988.github.io/vue-camp/textbook.html)
+  - [웹 게임을 만들며 배우는 Vue](https://www.inflearn.com/course/web-game-vue)
+- Vue 3
+  - [Vue.js](https://v3.vuejs.org/guide/introduction.html)
+
+### React
+
+- [웹 게임을 만들며 배우는 React](https://www.inflearn.com/course/web-game-React)
+
+### css
+
+- grid
+  - [CSS flex, grid 속성 쉽게 이해하기](https://wisesilver.tistory.com/25#grid)
+  - [이번에야말로 CSS Grid를 익혀보자](https://studiomeal.com/archives/533)
+  - [CSS Grid 완벽 가이드](https://heropy.blog/2019/08/17/css-grid/)
+- flex
+  - [CSS flex, grid 속성 쉽게 이해하기](https://wisesilver.tistory.com/25#flex)
+  - [이번에야말로 CSS Flex를 익혀보자](https://studiomeal.com/archives/197)
+
+### javascript
+
+- [modern javascript tutorial](https://javascript.info/)
+- [velopert](https://learnjs.vlpt.us/)
+- [doncolmi](https://doncolmi.github.io/tags/)
+- [렛츠기릿 자바스크립트](https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+
+### online development environment
+
+- [replit](https://replit.com/)
+- [codepen](https://codepen.io/)
+- [CodeSandbox](https://codesandbox.io/)
+- [StackBlitz](https://stackblitz.com/)
+- [jsfiddle](https://jsfiddle.net/)
+- [Liveweave](https://liveweave.com/)
+- [CSSdeck](https://cssdeck.com/labs)
+- [dabblet](https://dabblet.com/)
+
+</div>
+</details>
+
+<br><br>
+
 ## Miscellaneous
 
 <details>
 <summary>fold/unfold</summary>
 <div markdown="1">
 
+### vs code
+
+- [sql formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
+- [markdown preview vscode code highlight](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-shiki)
+- [better comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [live preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+
+### chrome
+
+- [super dark mode](https://chrome.google.com/webstore/detail/super-dark-mode/nlgphodeccebbcnkgmokeegopgpnjfkc)
+- [fonts changer](https://chrome.google.com/webstore/detail/fonts-changer/phkenomnahhgjnmpignadbeandfanbil)
+
 ### git
 
 - [버전 관리 시스템 Git](https://www.inflearn.com/course/git-2#)
 - [GITn](https://opentutorials.org/course/3838)
 - [Git 교과서](https://thebook.io/080212/)
+  
+### GitHub Pages
+
+- [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship)
+- [jeffreytse/jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action)
+- [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
 
 ### regular expression
 
