@@ -15,6 +15,10 @@ hidden: false
 
 ## Study
 
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
+
 ### Document
 
 - [위키독스](https://wikidocs.net/)
@@ -36,9 +40,16 @@ hidden: false
 - [Udacity](https://www.udacity.com/)
 - [udemy](https://www.udemy.com/)
 
+</div>
+</details>
+
 <br><br>
 
 ## Career
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Information
 
@@ -56,9 +67,16 @@ hidden: false
 - [SW Expert Academy](https://swexpertacademy.com/main/code/problem/problemList.do)
 - [코딩테스트 준비 사이트 모음집](https://velog.io/@jeon3029/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A4%80%EB%B9%84-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%AA%A8%EC%9D%8C%EC%A7%91%EB%8B%A8%EC%88%9C%EB%A7%81%ED%81%AC%EB%A7%8C)
 
+</div>
+</details>
+
 <br><br>
 
 ## Data Analysis
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Dataset
 
@@ -87,9 +105,16 @@ hidden: false
 - [librosa](https://librosa.org/doc/latest/core.html)
 - [Dynamic Time Wrap](https://dynamictimewarping.github.io/)
 
+</div>
+</details>
+
 <br><br>
 
 ## Visualization
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Python
 
@@ -117,9 +142,16 @@ hidden: false
   - [Bryan J. Choi](https://public.tableau.com/profile/bryan.jungmin.choi#!/)
   - [Tableau 학습자료 URL List](http://www.datavisualization.co.kr/tableau-%ED%95%99%EC%8A%B5-%EC%9E%90%EB%A3%8C-url-list/)
 
+</div>
+</details>
+
 <br><br>
 
 ## Statistics
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Document
 
@@ -152,11 +184,13 @@ hidden: false
   - [경제통계학 2부 - 통계적 추론을 위한 개념, 도구, 사례](http://www.kmooc.kr/courses/course-v1:SNUk+SNU212.204.2k+2020_T2/video)
   - [경제통계학 3부 - 표본조사와 통계적 추론](http://www.kmooc.kr/courses/course-v1:SNUk+SNU212_204_3k+2020_T2/video)
 
+</div>
+</details>
+
 <br><br>
 
 ## Machine Learning
 
-<br>
 <details>
 <summary>fold/unfold</summary>
 <div markdown="1">
@@ -354,6 +388,10 @@ hidden: false
 
 ## Python
 
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
+
 ### GitHub
 
 - [Best-of Python](https://github.com/ml-tooling/best-of-python)
@@ -390,9 +428,16 @@ hidden: false
 - [4. 파이썬을 이용한 데이터베이스 처리](https://www.edwith.org/python-databases/)
 - [5. 캡스톤 : 파이썬을 이용한 데이터 검색, 처리 및 시각화](https://www.edwith.org/python-capston/)
 
+</div>
+</details>
+
 <br><br>
 
 ## R
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Document
 
@@ -409,9 +454,16 @@ hidden: false
   - [시즌 2 YouTube](https://youtube.com/playlist?list=PLupRxDNsA2DROak0sPSReYyIInnEjuXxw)
 - [Statistics with R](https://www.coursera.org/specializations/statistics)
 
+</div>
+</details>
+
 <br><br>
 
 ## Database
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Big Data
 
@@ -437,9 +489,16 @@ hidden: false
   - [SQL Join](https://www.opentutorials.org/course/3884)
   - [관계형 데이터 모델링](https://www.opentutorials.org/course/3883)
 
+</div>
+</details>
+
 <br><br>
 
 ## Miscellaneous
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### git
 
@@ -494,3 +553,6 @@ hidden: false
 ### algorithm
 
 - [알고리즘 산책 : 수학에서 제네릭프로그래밍까지](https://twinparadox.tistory.com/507)
+
+</div>
+</details>
