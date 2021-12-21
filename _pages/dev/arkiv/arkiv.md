@@ -156,6 +156,10 @@ hidden: false
 
 ## Machine Learning
 
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
+
 ### Document
 
 - ML
@@ -270,9 +274,16 @@ hidden: false
 - dimension reduction
   - [Unsupervised dimensionality reduction](https://scikit-learn.org/stable/modules/unsupervised_reduction.html)
 
+</div>
+</details>
+
 <br><br>
 
 ## Deep Learning
+
+<details>
+<summary>fold/unfold</summary>
+<div markdown="1">
 
 ### Document
 
@@ -343,7 +354,10 @@ hidden: false
 - [딥러닝 3단계: 머신러닝 프로젝트 구조화하기](https://www.edwith.org/deeplearningai3)
 - [딥러닝 4단계: 합성곱 신경망 네트워크 (CNN)](https://www.edwith.org/deeplearningai4)
 
-<br>
+</div>
+</details>
+
+<br><br>
 
 ## Python
 
