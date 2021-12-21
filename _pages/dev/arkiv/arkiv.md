@@ -156,8 +156,9 @@ hidden: false
 
 ## Machine Learning
 
+<br>
 <details>
-<summary><h2>Machine Learning</h2></summary>
+<summary>fold/unfold</summary>
 <div markdown="1">
 
 ### Document
