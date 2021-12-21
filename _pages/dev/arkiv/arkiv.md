@@ -13,6 +13,31 @@ hidden: false
 
 
 
+## Study
+
+### Document
+
+- [위키독스](https://wikidocs.net/)
+- [더북](https://thebook.io/)
+- [코딩도장](https://dojang.io/)
+- [IDRE](https://stats.idre.ucla.edu/)
+- [sololearn](https://www.sololearn.com/learning)
+- [Khan Academy](https://www.khanacademy.org/)
+
+### Course
+
+- [인프런](https://www.inflearn.com/)
+- [생활코딩](https://www.opentutorials.org/course/1)
+- [SW Expert Academy](https://swexpertacademy.com/main/learn/course/courseList.do)
+- [edwith](https://www.edwith.org/)
+- [프로그래머스](https://programmers.co.kr/learn?tag=%EB%AA%A8%EB%93%A0%20%EC%BD%94%EC%8A%A4)
+- [coursera](https://www.coursera.org/)
+- [edX](https://www.edx.org/)
+- [Udacity](https://www.udacity.com/)
+- [udemy](https://www.udemy.com/)
+
+<br><br>
+
 ## Career
 
 ### Information
@@ -31,7 +56,7 @@ hidden: false
 - [SW Expert Academy](https://swexpertacademy.com/main/code/problem/problemList.do)
 - [코딩테스트 준비 사이트 모음집](https://velog.io/@jeon3029/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A4%80%EB%B9%84-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%AA%A8%EC%9D%8C%EC%A7%91%EB%8B%A8%EC%88%9C%EB%A7%81%ED%81%AC%EB%A7%8C)
 
-
+<br><br>
 
 ## Data Analysis
 
@@ -62,7 +87,7 @@ hidden: false
 - [librosa](https://librosa.org/doc/latest/core.html)
 - [Dynamic Time Wrap](https://dynamictimewarping.github.io/)
 
-
+<br><br>
 
 ## Visualization
 
@@ -92,7 +117,7 @@ hidden: false
   - [Bryan J. Choi](https://public.tableau.com/profile/bryan.jungmin.choi#!/)
   - [Tableau 학습자료 URL List](http://www.datavisualization.co.kr/tableau-%ED%95%99%EC%8A%B5-%EC%9E%90%EB%A3%8C-url-list/)
 
-
+<br><br>
 
 ## Statistics
 
@@ -127,7 +152,7 @@ hidden: false
   - [경제통계학 2부 - 통계적 추론을 위한 개념, 도구, 사례](http://www.kmooc.kr/courses/course-v1:SNUk+SNU212.204.2k+2020_T2/video)
   - [경제통계학 3부 - 표본조사와 통계적 추론](http://www.kmooc.kr/courses/course-v1:SNUk+SNU212_204_3k+2020_T2/video)
 
-
+<br><br>
 
 ## Machine Learning
 
@@ -245,7 +270,7 @@ hidden: false
 - dimension reduction
   - [Unsupervised dimensionality reduction](https://scikit-learn.org/stable/modules/unsupervised_reduction.html)
 
-
+<br><br>
 
 ## Deep Learning
 
@@ -318,43 +343,16 @@ hidden: false
 - [딥러닝 3단계: 머신러닝 프로젝트 구조화하기](https://www.edwith.org/deeplearningai3)
 - [딥러닝 4단계: 합성곱 신경망 네트워크 (CNN)](https://www.edwith.org/deeplearningai4)
 
+<br>
 
+## Python
 
-## Study
-
-### Website
-
-#### Document
-
-- [위키독스](https://wikidocs.net/)
-- [더북](https://thebook.io/)
-- [코딩도장](https://dojang.io/)
-- [IDRE](https://stats.idre.ucla.edu/)
-- [sololearn](https://www.sololearn.com/learning)
-- [Khan Academy](https://www.khanacademy.org/)
-
-#### Course
-
-- [인프런](https://www.inflearn.com/)
-- [생활코딩](https://www.opentutorials.org/course/1)
-- [SW Expert Academy](https://swexpertacademy.com/main/learn/course/courseList.do)
-- [edwith](https://www.edwith.org/)
-- [프로그래머스](https://programmers.co.kr/learn?tag=%EB%AA%A8%EB%93%A0%20%EC%BD%94%EC%8A%A4)
-- [coursera](https://www.coursera.org/)
-- [edX](https://www.edx.org/)
-- [Udacity](https://www.udacity.com/)
-- [udemy](https://www.udemy.com/)
-
-### Subject
-
-#### Python
-
-##### GitHub
+### GitHub
 
 - [Best-of Python](https://github.com/ml-tooling/best-of-python)
 - [Best-of Python Developer Tools](https://github.com/ml-tooling/best-of-python-dev)
 
-##### Document
+### Document
 
 - [점프 투 파이썬](https://wikidocs.net/book/1)
 - [왕초보를 위한 Python](https://wikidocs.net/book/2)
@@ -364,20 +362,20 @@ hidden: false
 - [모두의 알고리즘 with 파이썬](https://thebook.io/006935/)
 - [Try! helloworld 파이썬](https://thebook.io/006888/)
 
-##### Course
+### Course
 
 - [입문자를 위한 파이썬 기초 따라잡기](https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88#)
 - [파이썬 입문](https://programmers.co.kr/learn/courses/2)
 - [파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
 
-##### SW Expert Academy
+### SW Expert Academy
 
 - [Beginner](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDAe6AATw5UW6)
 - [Intermediate](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDN86AAXw5UW6)
 - [Advanced](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDYSqAAbw5UW6)
 - [Professional](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDj5qAAfw5UW6)
 
-##### PY4E
+### PY4E
 
 - [1. 모두를 위한 프로그래밍 : 파이썬](https://www.edwith.org/pythonforeverybody)
 - [2. 파이썬 자료구조](https://www.edwith.org/python-data/)
@@ -385,15 +383,17 @@ hidden: false
 - [4. 파이썬을 이용한 데이터베이스 처리](https://www.edwith.org/python-databases/)
 - [5. 캡스톤 : 파이썬을 이용한 데이터 검색, 처리 및 시각화](https://www.edwith.org/python-capston/)
 
-#### [R](/dev/arkiv/study/r){:target="_self"}
+<br><br>
 
-##### Document
+## R
+
+### Document
 
 - [R을 이용한 데이터 처리 & 분석 실무](https://thebook.io/006723/)
 - [Must Learning with R](https://wikidocs.net/book/4315)
 - [실무위주의 R](https://wikidocs.net/book/3792)
 
-##### Course
+### Course
 
 - [R프로그래밍 기초 다지기](https://www.inflearn.com/course/R-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EC%B4%88)
 - R 프로그램
@@ -402,14 +402,16 @@ hidden: false
   - [시즌 2 YouTube](https://youtube.com/playlist?list=PLupRxDNsA2DROak0sPSReYyIInnEjuXxw)
 - [Statistics with R](https://www.coursera.org/specializations/statistics)
 
-#### [Database](/dev/arkiv/study/database){:target="_self"}
+<br><br>
 
-##### Big Data
+## Database
+
+### Big Data
 
 - [빅데이터 - 하둡, 하이브로 시작하기](https://wikidocs.net/book/2203)
 - [빅데이터 - 스칼라(scala), 스파크(spark)로 시작하기](https://wikidocs.net/book/2350)
 
-##### SQL
+### SQL
 
 - Practice
   - [sqlzoo](https://sqlzoo.net/)
@@ -428,21 +430,23 @@ hidden: false
   - [SQL Join](https://www.opentutorials.org/course/3884)
   - [관계형 데이터 모델링](https://www.opentutorials.org/course/3883)
 
-### Miscellaneous
+<br><br>
 
-#### git
+## Miscellaneous
+
+### git
 
 - [버전 관리 시스템 Git](https://www.inflearn.com/course/git-2#)
 - [GITn](https://opentutorials.org/course/3838)
 - [Git 교과서](https://thebook.io/080212/)
 
-#### regular expression
+### regular expression
 
 - [정규표현식](https://opentutorials.org/course/909/5142)
 - [정규 표현식 시작하기](https://wikidocs.net/4308)
 - [강력한 정규 표현식의 세계로](https://wikidocs.net/4309)
 
-#### diagram
+### diagram
 
 - document
   - [sourcemaking](https://sourcemaking.com/uml)
@@ -455,7 +459,7 @@ hidden: false
 - miscellaneous
   - [[Visual Studio Code] PlantUML 설치 하기](https://jungwoong.tistory.com/94)
 
-#### software architecture
+### software architecture
 
 - design patterns
   - [guru](https://refactoring.guru/design-patterns)
@@ -466,20 +470,20 @@ hidden: false
 - anti patterns
   - [sourcemaking](https://sourcemaking.com/antipatterns)
 
-#### IT
+### IT
 
 - [IT 기술 노트](https://wikidocs.net/book/2184)
 - [컴퓨터 사이언스 부트캠프 with 파이썬](https://thebook.io/006950/)
 
-#### blog
+### blog
 
 - [TechBlogPosts](https://techblogposts.com/)
 - [velog](https://velog.io/)
 
-#### compare software
+### compare software
 
 - [G2](https://www.g2.com/compare)
 
-#### algorithm
+### algorithm
 
 - [알고리즘 산책 : 수학에서 제네릭프로그래밍까지](https://twinparadox.tistory.com/507)
