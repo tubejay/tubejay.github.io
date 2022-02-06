@@ -154,8 +154,7 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 테크 | +3X | BULZ | [MicroSectors](https://www.webull.com/quote/nysearca-bulz) |
-|     | +3X | TECL | [Direxion](https://www.webull.com/quote/nysearca-tecl) |
+| 테크 | +3X | TECL | [Direxion](https://www.webull.com/quote/nysearca-tecl) |
 |     | -3X | TECS | [Direxion](https://www.webull.com/quote/nysearca-tecs) |
 | FANG | +3X | FNGU | [MicroSectors](https://www.webull.com/quote/nysearca-fngu) |
 |      | -3X | FNGD | [MicroSectors](https://www.webull.com/quote/nysearca-fngd) |
@@ -175,7 +174,6 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:BULZ",     "displayName": "BULZ"},
         {"name": "AMEX:TECL",     "displayName": "TECL"},
         {"name": "AMEX:TECS",     "displayName": "TECS"},
         {"name": "AMEX:FNGU",     "displayName": "FNGU"},
