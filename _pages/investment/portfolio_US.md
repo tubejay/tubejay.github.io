@@ -374,6 +374,10 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
+| 채권(20y) | +3X | TMF | [Direxion](https://www.webull.com/quote/nysearca-tmf) |
+|          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv) |
+| 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd) |
+|          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo) |
 | 외환 | G10 | DBV | [Invesco](https://www.webull.com/quote/nysearca-dbv) |
 |      | 유로 | FXE | [Invesco](https://www.webull.com/quote/nysearca-fxe) |
 |      | 캐나다 | FXC | [Invesco](https://www.webull.com/quote/nysearca-fxc) |
@@ -381,10 +385,6 @@ hidden: false
 |      | 스위스 | FXF | [Invesco](https://www.webull.com/quote/nysearca-fxf) |
 |      | 호주 | FXA | [Invesco](https://www.webull.com/quote/nysearca-fxa) |
 |      | 일본 | FXY | [Invesco](https://www.webull.com/quote/nysearca-fxy) |
-| 채권(20y) | +3X | TMF | [Direxion](https://www.webull.com/quote/nysearca-tmf) |
-|          | -3X | TMV | [Direxion](https://www.webull.com/quote/nysearca-tmv) |
-| 채권(10y) | +3X | TYD | [Direxion](https://www.webull.com/quote/nysearca-tyd) |
-|          | -3X | TYO | [Direxion](https://www.webull.com/quote/nysearca-tyo) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -393,17 +393,17 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
+        {"name": "AMEX:TMF",     "displayName": "TMF"},
+        {"name": "AMEX:TMV",     "displayName": "TMV"},
+        {"name": "AMEX:TYD",     "displayName": "TYD"},
+        {"name": "AMEX:TYO",     "displayName": "TYO"},
         {"name": "AMEX:DBV",     "displayName": "DBV"},
         {"name": "AMEX:FXE",     "displayName": "FXE"},
         {"name": "AMEX:FXC",     "displayName": "FXC"},
         {"name": "AMEX:FXB",     "displayName": "FXB"},
         {"name": "AMEX:FXF",     "displayName": "FXF"},
         {"name": "AMEX:FXA",     "displayName": "FXA"},
-        {"name": "AMEX:FXY",     "displayName": "FXY"},
-        {"name": "AMEX:TMF",     "displayName": "TMF"},
-        {"name": "AMEX:TMV",     "displayName": "TMV"},
-        {"name": "AMEX:TYD",     "displayName": "TYD"},
-        {"name": "AMEX:TYO",     "displayName": "TYO"}
+        {"name": "AMEX:FXY",     "displayName": "FXY"}
       ]
     }
   ],
