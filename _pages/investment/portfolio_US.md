@@ -22,7 +22,6 @@ hidden: false
 | 중국   | +3X | YINN   | [Direxion](https://www.webull.com/quote/nysearca-yinn) |
 |       | -3X | YANG   | [Direxion](https://www.webull.com/quote/nysearca-yang) |
 | 한국   | +3X | KORU   | [Direxion](https://www.webull.com/quote/nysearca-koru) |
-| 라틴   | +3X | LBJ    | [Direxion](https://www.webull.com/quote/nysearca-lbj) |
 | 멕시코  | +3X | MEXX   | [Direxion](https://www.webull.com/quote/nysearca-mexx) |
 | 브라질  | +2X | UBR    | [ProShares](https://www.webull.com/quote/nysearca-ubr) |
 |        | -2X | BZQ    | [ProShares](https://www.webull.com/quote/nysearca-bzq) |
@@ -45,7 +44,6 @@ hidden: false
         {"name": "AMEX:YINN", "displayName": "YINN"},
         {"name": "AMEX:YANG", "displayName": "YANG"},
         {"name": "AMEX:KORU", "displayName": "KORU"},
-        {"name": "AMEX:LBJ",  "displayName": "LBJ"},
         {"name": "AMEX:MEXX", "displayName": "MEXX"},
         {"name": "AMEX:UBR",  "displayName": "UBR"},
         {"name": "AMEX:BZQ",  "displayName": "BZQ"},
