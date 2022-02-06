@@ -494,9 +494,9 @@ hidden: false
 
 | 대상 | 유형 | Ticker | 차트 |
 | :-  | :-  | :-     | :-  |
-| 제약       | +3X | PILL | [Direxion](https://www.webull.com/quote/nysearca-pill) |
 | 바이오      | +3X | LABU | [Direxion](https://www.webull.com/quote/nysearca-labu) |
 |            | -3X | LABD | [Direxion](https://www.webull.com/quote/nysearca-labd) |
+| 제약       | +3X | PILL | [Direxion](https://www.webull.com/quote/nysearca-pill) |
 | 헬스케어 | +3X | CURE | [Direxion](https://www.webull.com/quote/nysearca-cure) |
 | 유전공학 | | ARKG | [ARK](https://www.webull.com/quote/bats-arkg) |
 
@@ -507,9 +507,9 @@ hidden: false
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:PILL",     "displayName": "PILL"},
         {"name": "AMEX:LABU",     "displayName": "LABU"},
         {"name": "AMEX:LABD",     "displayName": "LABD"},
+        {"name": "AMEX:PILL",     "displayName": "PILL"},
         {"name": "AMEX:CURE",     "displayName": "CURE"},
         {"name": "AMEX:ARKG",     "displayName": "ARKG"}
       ]
