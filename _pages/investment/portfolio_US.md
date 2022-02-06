@@ -212,8 +212,7 @@ hidden: false
 | 에너지    | +2X | ERX  | [Direxion](https://www.webull.com/quote/nysearca-erx) |
 |          | -2X | ERY  | [Direxion](https://www.webull.com/quote/nysearca-ery) |
 | 에너지 생산 | | PXE | [Invesco](https://www.webull.com/quote/nysearca-pxe) |
-| 유틸리티   | +3X | UTSL  | [Direxion](https://www.webull.com/quote/nysearca-utsl) |
-|          | +2X | UPW   | [ProShares](https://www.webull.com/quote/nysearca-upw) |
+| 유틸리티   | +2X | UPW   | [ProShares](https://www.webull.com/quote/nysearca-upw) |
 |          | -2X | SDP   | [ProShares](https://www.webull.com/quote/nysearca-sdp) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
@@ -235,7 +234,6 @@ hidden: false
         {"name": "AMEX:ERX",    "displayName": "ERX"},
         {"name": "AMEX:ERY",    "displayName": "ERY"},
         {"name": "AMEX:PXE",    "displayName": "PXE"},
-        {"name": "AMEX:UTSL",   "displayName": "UTSL"},
         {"name": "AMEX:UPW",    "displayName": "UPW"},
         {"name": "AMEX:SDP",    "displayName": "SDP"}
       ]
