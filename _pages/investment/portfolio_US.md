@@ -303,6 +303,7 @@ hidden: false
 | 납 | | LD | [iPath Series B](https://www.webull.com/quote/nysearca-ld) |
 | 우라늄 | | URNM | [Exchange Traded Concepts](https://www.webull.com/quote/nysearca-urnm) |
 | 희토류 | | REMX | [VanEck](https://www.webull.com/quote/nysearca-remx) |
+| 커피  |  | JO  | [iPath Series B](https://www.webull.com/quote/nysearca-jo) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -320,7 +321,8 @@ hidden: false
         {"name": "AMEX:JJT",     "displayName": "JJT"},
         {"name": "AMEX:LD",      "displayName": "LD"},
         {"name": "AMEX:URNM",    "displayName": "URNM"},
-        {"name": "AMEX:REMX",    "displayName": "REMX"}
+        {"name": "AMEX:REMX",    "displayName": "REMX"},
+        {"name": "AMEX:JO",      "displayName": "JO"}
       ]
     }
   ],
