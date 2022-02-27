@@ -32,24 +32,24 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
-        {"name": "AMEX:VT",   "displayName": "VT : 전세계"},
-        {"name": "AMEX:EDC",  "displayName": "EDC : 신흥 +3X"},
-        {"name": "AMEX:EDZ",  "displayName": "EDZ : 신흥 -3X"},
-        {"name": "AMEX:INDL", "displayName": "INDL : 인도 +3X"},
-        {"name": "AMEX:RUSL", "displayName": "RUSL : 러시아 +2X"},
-        {"name": "AMEX:YINN", "displayName": "YINN : 중국 +3X"},
-        {"name": "AMEX:YANG", "displayName": "YANG : 중국 -3X"},
-        {"name": "AMEX:KORU", "displayName": "KORU : 한국 +3X"},
-        {"name": "AMEX:MEXX", "displayName": "MEXX : 멕시코 +3X"},
-        {"name": "AMEX:UBR",  "displayName": "UBR : 브라질 +2X"},
-        {"name": "AMEX:BZQ",  "displayName": "BZQ : 브라질 -2X"},
-        {"name": "AMEX:EURL", "displayName": "EURL 유럽 +3X"},
-        {"name": "AMEX:EFO",  "displayName": "EFO : EAFE +2X"},
-        {"name": "AMEX:EFU",  "displayName": "EFU : EAFE -2X"}
+        {"name": "AMEX:VT",   "displayName": "VT   | 전세계"},
+        {"name": "AMEX:EDC",  "displayName": "EDC  | 신흥   | +3X"},
+        {"name": "AMEX:EDZ",  "displayName": "EDZ  | 신흥   | -3X"},
+        {"name": "AMEX:INDL", "displayName": "INDL | 인도   | +3X"},
+        {"name": "AMEX:RUSL", "displayName": "RUSL | 러시아  | +2X"},
+        {"name": "AMEX:YINN", "displayName": "YINN | 중국   | +3X"},
+        {"name": "AMEX:YANG", "displayName": "YANG | 중국   | -3X"},
+        {"name": "AMEX:KORU", "displayName": "KORU | 한국   | +3X"},
+        {"name": "AMEX:MEXX", "displayName": "MEXX | 멕시코  | +3X"},
+        {"name": "AMEX:UBR",  "displayName": "UBR  | 브라질  | +2X"},
+        {"name": "AMEX:BZQ",  "displayName": "BZQ  | 브라질  | -2X"},
+        {"name": "AMEX:EURL", "displayName": "EURL | 유럽   | +3X"},
+        {"name": "AMEX:EFO",  "displayName": "EFO  | EAFE  | +2X"},
+        {"name": "AMEX:EFU",  "displayName": "EFU  | EAFE  | -2X"}
       ]
     }
   ],
@@ -80,7 +80,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -125,7 +125,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -169,7 +169,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -215,7 +215,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -261,7 +261,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -304,7 +304,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -346,7 +346,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -387,7 +387,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -426,7 +426,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -464,7 +464,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -501,7 +501,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
@@ -537,7 +537,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "400",
   "symbolsGroups": [
     {
       "symbols": [
