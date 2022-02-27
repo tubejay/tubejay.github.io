@@ -32,7 +32,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "200",
+  "height": "1000",
   "symbolsGroups": [
     {
       "name": "전세계",
@@ -61,7 +61,7 @@ hidden: false
   ],
   "showSymbolLogo": false,
   "colorTheme": "dark",
-  "isTransparent": false,
+  "isTransparent": true,
   "locale": "en"
 }
 </script>
