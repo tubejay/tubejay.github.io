@@ -15,7 +15,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "500",
   "symbolsGroups": [
     {
       "symbols": [
@@ -48,7 +48,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "500",
   "symbolsGroups": [
     {
       "symbols": [
@@ -79,7 +79,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -109,7 +109,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -139,7 +139,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -171,7 +171,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -200,7 +200,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -257,7 +257,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -287,7 +287,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "350",
+  "height": "300",
   "symbolsGroups": [
     {
       "symbols": [
@@ -312,7 +312,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "450",
   "symbolsGroups": [
     {
       "symbols": [
@@ -341,7 +341,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "350",
+  "height": "300",
   "symbolsGroups": [
     {
       "symbols": [
