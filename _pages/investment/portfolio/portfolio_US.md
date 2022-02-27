@@ -132,7 +132,7 @@ hidden: false
         {"name": "AMEX:HIBL",   "displayName": "HIBL"},
         {"name": "AMEX:HIBS",   "displayName": "HIBS"},
         {"name": "AMEX:ARKK",   "displayName": "ARKK"},
-        {"name": "AMEX:SARK",   "displayName": "SARK"},
+        {"name": "NASDAQ:SARK", "displayName": "SARK"},
         {"name": "AMEX:IWF",    "displayName": "IWF"},
         {"name": "AMEX:USMV",   "displayName": "USMV"},
         {"name": "AMEX:AVUS",   "displayName": "AVUS"},
