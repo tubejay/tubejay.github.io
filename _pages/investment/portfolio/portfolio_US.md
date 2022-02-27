@@ -32,7 +32,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "400",
+  "height": "700",
   "symbolsGroups": [
     {
       "symbols": [
