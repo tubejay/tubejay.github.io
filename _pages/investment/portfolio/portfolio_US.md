@@ -10,7 +10,7 @@ hidden: false
   <base target="_blank">
 </head>
 
-a
+b
 
 ## 시장
 
@@ -21,7 +21,7 @@ a
   "symbolsGroups": [
 	{
 	  "symbols": [
-		{"name": "AMEX:VT",   "displayName": "VT   | 전세계"        },
+		{"name": "AMEX:VT",   "displayName": "VT	\t\t| 전세계"        },
 		{"name": "AMEX:EDC",  "displayName": "EDC  | 신흥   | +3X" },
 		{"name": "AMEX:EDZ",  "displayName": "EDZ  | 신흥   | -3X" },
 		{"name": "AMEX:INDL", "displayName": "INDL | 인도   | +3X" },
