@@ -108,314 +108,476 @@ hidden: false
 
 ## 평가
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "500",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:HIBL",   "displayName": "HIBL | S&P500 하이 베타 | +3X"         },
-				{"name": "AMEX:HIBS",   "displayName": "HIBS | S&P500 하이 베타 | -3X"         },
-				{"name": "AMEX:ARKK",   "displayName": "ARKK | 혁신            | +X"          },
-				{"name": "NASDAQ:SARK", "displayName": "SARK | 혁신            | -X"          },
-				{"name": "AMEX:IWF",    "displayName": "IWF  | 성장            | 대형"         },
-				{"name": "AMEX:USMV",   "displayName": "USMV | 성장            | 저변동"        },
-				{"name": "AMEX:AVUS",   "displayName": "AVUS | 가치            | 종합"         },
-				{"name": "AMEX:VTV",    "displayName": "VTV  | 가치            | 대형"         },
-				{"name": "AMEX:SWAN",   "displayName": "SWAN | 방어            | 채권+옵션"     },
-				{"name": "AMEX:DMRL",   "displayName": "DMRL | 방어            | 주식+채권+현금" },
-				{"name": "AMEX:NTSX",   "displayName": "NTSX | 방어            | 주식+채권"     }
+				{	"s": "AMEX:HIBL"	,"d": "S&P500 하이 베타 | +3X"				},
+				{	"s": "AMEX:HIBS"	,"d": "S&P500 하이 베타 | -3X"				},
+				{	"s": "AMEX:ARKK"	,"d": "혁신            | +X"				},
+				{	"s": "NASDAQ:SARK"	,"d": "혁신            | -X"				},
+				{	"s": "AMEX:IWF"		,"d": "성장            | 대형"				},
+				{	"s": "AMEX:USMV"	,"d": "성장            | 저변동"			},
+				{	"s": "AMEX:AVUS"	,"d": "가치            | 종합"				},
+				{	"s": "AMEX:VTV"		,"d": "가치            | 대형"				},
+				{	"s": "AMEX:SWAN"	,"d": "방어            | 채권+옵션"			},
+				{	"s": "AMEX:DMRL"	,"d": "방어            | 주식+채권+현금"	},
+				{	"s": "AMEX:NTSX"	,"d": "방어            | 주식+채권"			}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 테크
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "500",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:TECL",     "displayName": "TECL | 테크   | +3X"    },
-				{"name": "AMEX:TECS",     "displayName": "TECS | 테크   | -3X"    },
-				{"name": "AMEX:FNGU",     "displayName": "FNGU | FANG  | +3X"    },
-				{"name": "AMEX:FNGD",     "displayName": "FNGD | FANG  | -3X"    },
-				{"name": "AMEX:SOXL",     "displayName": "SOXL | 반도체  | +3X"   },
-				{"name": "AMEX:SOXS",     "displayName": "SOXS | 반도체  | -3X"   },
-				{"name": "AMEX:UBOT",     "displayName": "UBOT | 로봇/AI"         },
-				{"name": "AMEX:XLC",      "displayName": "XLC  | 통신"            },
-				{"name": "AMEX:KARS",     "displayName": "KARS | 미래차 | 종합"    },
-				{"name": "NASDAQ:DRIV",   "displayName": "DRIV | 미래차 | 자율주행" },
-				{"name": "AMEX:METV",     "displayName": "METV | 메타버스"         }
+				{	"s": "AMEX:TECL"	,"d": "테크   | +3X"		},
+				{	"s": "AMEX:TECS"	,"d": "테크   | -3X"		},
+				{	"s": "AMEX:FNGU"	,"d": "FANG  | +3X"			},
+				{	"s": "AMEX:FNGD"	,"d": "FANG  | -3X"			},
+				{	"s": "AMEX:SOXL"	,"d": "반도체  | +3X"		},
+				{	"s": "AMEX:SOXS"	,"d": "반도체  | -3X"		},
+				{	"s": "AMEX:UBOT"	,"d": "로봇/AI"				},
+				{	"s": "AMEX:XLC"		,"d": "통신"				},
+				{	"s": "AMEX:KARS"	,"d": "미래차 | 종합"			},
+				{	"s": "NASDAQ:DRIV"	,"d": "미래차 | 자율주행"		},
+				{	"s": "AMEX:METV"	,"d": "메타버스"			}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 에너지
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "550",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:GUSH",   "displayName": "GUSH | 석유/가스 | +2X" },
-				{"name": "AMEX:DRIP",   "displayName": "DRIP | 석유/가스 | -2X" },
-				{"name": "AMEX:UCO",    "displayName": "UCO  | 석유     | +2X" },
-				{"name": "AMEX:SCO",    "displayName": "SCO  | 석유     | -2X" },
-				{"name": "AMEX:NRGU",   "displayName": "NRGU | 석유 업체 | +3X" },
-				{"name": "AMEX:NRGD",   "displayName": "NRGD | 석유 업체 | -3X" },
-				{"name": "AMEX:BOIL",   "displayName": "BOIL | 가스     | +2X" },
-				{"name": "AMEX:KOLD",   "displayName": "KOLD | 가스     | -2X" },
-				{"name": "AMEX:ERX",    "displayName": "ERX  | 에너지    | +2X" },
-				{"name": "AMEX:ERY",    "displayName": "ERY  | 에너지    | -2X" },
-				{"name": "AMEX:PXE",    "displayName": "PXE  | 에너지 생산"      },
-				{"name": "AMEX:UPW",    "displayName": "UPW  | 유틸리티  | +2X" },
-				{"name": "AMEX:SDP",    "displayName": "SDP  | 유틸리티  | -2X" }
+				{	"s": "AMEX:GUSH"	,"d": "석유/가스 | +2X"		},
+				{	"s": "AMEX:DRIP"	,"d": "석유/가스 | -2X"		},
+				{	"s": "AMEX:UCO"		,"d": "석유     | +2X"		},
+				{	"s": "AMEX:SCO"		,"d": "석유     | -2X"		},
+				{	"s": "AMEX:NRGU"	,"d": "석유 업체 | +3X"		},
+				{	"s": "AMEX:NRGD"	,"d": "석유 업체 | -3X"		},
+				{	"s": "AMEX:BOIL"	,"d": "가스     | +2X"		},
+				{	"s": "AMEX:KOLD"	,"d": "가스     | -2X"		},
+				{	"s": "AMEX:ERX"		,"d": "에너지    | +2X"		},
+				{	"s": "AMEX:ERY"		,"d": "에너지    | -2X"		},
+				{	"s": "AMEX:PXE"		,"d": "에너지 생산"			},
+				{	"s": "AMEX:UPW"		,"d": "유틸리티  | +2X"		},
+				{	"s": "AMEX:SDP"		,"d": "유틸리티  | -2X"		}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 친환경
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "450",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "NASDAQ:ICLN",     "displayName": "ICLN | 종합   | 세계"   },
-				{"name": "NASDAQ:QCLN",     "displayName": "QCLN | 종합   | 미국"   },
-				{"name": "AMEX:TAN",        "displayName": "TAN  | 에너지 | 태양"   },
-				{"name": "AMEX:FAN",        "displayName": "FAN  | 에너지 | 풍력"   },
-				{"name": "NASDAQ:PHO",      "displayName": "PHO  | 에너지 | 수자원" },
-				{"name": "NASDAQ:HYDR",     "displayName": "HYDR | 에너지 | 수소"   },
-				{"name": "AMEX:CRBN",       "displayName": "CRBN | 탄소   | 저탄소" },
-				{"name": "AMEX:KRBN",       "displayName": "KRBN | 탄소   | 배출권" },
-				{"name": "AMEX:LIT",        "displayName": "LIT  | 배터리 | 리튬"   },
-				{"name": "NASDAQ:GRID",     "displayName": "GRID | 배터리 | 그리드" }
+				{	"s": "NASDAQ:ICLN"		,"d": "종합   | 세계"		},
+				{	"s": "NASDAQ:QCLN"		,"d": "종합   | 미국"		},
+				{	"s": "AMEX:TAN"			,"d": "에너지 | 태양"		},
+				{	"s": "AMEX:FAN"			,"d": "에너지 | 풍력"		},
+				{	"s": "NASDAQ:PHO"		,"d": "에너지 | 수자원"		},
+				{	"s": "NASDAQ:HYDR"		,"d": "에너지 | 수소"		},
+				{	"s": "AMEX:CRBN"		,"d": "탄소   | 저탄소"		},
+				{	"s": "AMEX:KRBN"		,"d": "탄소   | 배출권"		},
+				{	"s": "AMEX:LIT"			,"d": "배터리 | 리튬"		},
+				{	"s": "NASDAQ:GRID"		,"d": "배터리 | 그리드"		}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 원자재
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "500",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:UGL",     "displayName": "UGL  | 금   | +2X" },
-				{"name": "AMEX:GLL",     "displayName": "GLL  | 금   | -2X" },
-				{"name": "AMEX:NUGT",    "displayName": "NUGT | 금광 | +2X" },
-				{"name": "AMEX:DUST",    "displayName": "DUST | 금광 | -2X" },
-				{"name": "AMEX:AGQ",     "displayName": "AGQ  | 은   | +2X" },
-				{"name": "AMEX:ZSL",     "displayName": "ZSL  | 은   | -2X" },
-				{"name": "AMEX:JJT",     "displayName": "JJT  | 주석"       },
-				{"name": "AMEX:LD",      "displayName": "LD   | 납"         },
-				{"name": "AMEX:URNM",    "displayName": "URNM | 우라늄"      },
-				{"name": "AMEX:REMX",    "displayName": "REMX | 희토류"      },
-				{"name": "AMEX:JO",      "displayName": "JO   | 커피"       }
+				{	"s": "AMEX:UGL"		,"d": "금   | +2X"		},
+				{	"s": "AMEX:GLL"		,"d": "금   | -2X"		},
+				{	"s": "AMEX:NUGT"	,"d": "금광 | +2X"		},
+				{	"s": "AMEX:DUST"	,"d": "금광 | -2X"		},
+				{	"s": "AMEX:AGQ"		,"d": "은   | +2X"		},
+				{	"s": "AMEX:ZSL"		,"d": "은   | -2X"		},
+				{	"s": "AMEX:JJT"		,"d": "주석"			},
+				{	"s": "AMEX:LD"		,"d": "납"				},
+				{	"s": "AMEX:URNM"	,"d": "우라늄"			},
+				{	"s": "AMEX:REMX"	,"d": "희토류"			},
+				{	"s": "AMEX:JO"		,"d": "커피"			}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 금융
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "350",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:FAS",        "displayName": "FAS  | 금융    | +3X" },
-				{"name": "AMEX:FAX",        "displayName": "FAX  | 금융    | -3X" },
-				{"name": "AMEX:BNKU",       "displayName": "BNKU | 대형은행 | +3X" },
-				{"name": "AMEX:BNKD",       "displayName": "BNKD | 대형은행 | -3X" },
-				{"name": "AMEX:DPST",       "displayName": "DPST | 지역은행 | +3X" },
-				{"name": "AMEX:IPO",        "displayName": "IPO  | IPO"          },
-				{"name": "NASDAQ:FINX",     "displayName": "FINX | 핀테크"         },
-				{"name": "AMEX:ARKF",       "displayName": "ARKF | 핀테크"         }
+				{	"s": "AMEX:FAS"			,"d": "금융    | +3X"		},
+				{	"s": "AMEX:FAX"			,"d": "금융    | -3X"		},
+				{	"s": "AMEX:BNKU"		,"d": "대형은행 | +3X"		},
+				{	"s": "AMEX:BNKD"		,"d": "대형은행 | -3X"		},
+				{	"s": "AMEX:DPST"		,"d": "지역은행 | +3X"		},
+				{	"s": "AMEX:IPO"			,"d": "IPO"					},
+				{	"s": "NASDAQ:FINX"		,"d": "핀테크"				},
+				{	"s": "AMEX:ARKF"		,"d": "핀테크"				}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 통화
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "500",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:TMF",     "displayName": "TMF | 채권(20y) | +3X"   },
-				{"name": "AMEX:TMV",     "displayName": "TMV | 채권(20y) | -3X"   },
-				{"name": "AMEX:TYD",     "displayName": "TYD | 채권(10y) | +3X"   },
-				{"name": "AMEX:TYO",     "displayName": "TYO | 채권(10y) | -3X"   },
-				{"name": "AMEX:DBV",     "displayName": "DBV | 외환      | G10"   },
-				{"name": "AMEX:FXE",     "displayName": "FXE | 외환      | 유로"   },
-				{"name": "AMEX:FXC",     "displayName": "FXC | 외환      | 캐나다" },
-				{"name": "AMEX:FXB",     "displayName": "FXB | 외환      | 영국"   },
-				{"name": "AMEX:FXF",     "displayName": "FXF | 외환      | 스위스" },
-				{"name": "AMEX:FXA",     "displayName": "FXA | 외환      | 호주"   },
-				{"name": "AMEX:FXY",     "displayName": "FXY | 외환      | 일본"   }
+				{	"s": "AMEX:TMF"		,"d": "채권(20y) | +3X"			},
+				{	"s": "AMEX:TMV"		,"d": "채권(20y) | -3X"			},
+				{	"s": "AMEX:TYD"		,"d": "채권(10y) | +3X"			},
+				{	"s": "AMEX:TYO"		,"d": "채권(10y) | -3X"			},
+				{	"s": "AMEX:DBV"		,"d": "외환      | G10"			},
+				{	"s": "AMEX:FXE"		,"d": "외환      | 유로"		},
+				{	"s": "AMEX:FXC"		,"d": "외환      | 캐나다"		},
+				{	"s": "AMEX:FXB"		,"d": "외환      | 영국"		},
+				{	"s": "AMEX:FXF"		,"d": "외환      | 스위스"		},
+				{	"s": "AMEX:FXA"		,"d": "외환      | 호주"		},
+				{	"s": "AMEX:FXY"		,"d": "외환      | 일본"		}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 암호화폐
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "300",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:BITO",     "displayName": "BITO | 비트코인"     },
-				{"name": "AMEX:BITQ",     "displayName": "BITQ | 암호화폐 기업" },
-				{"name": "AMEX:BLOK",     "displayName": "BLOK | 블록체인 기업" },
-				{"name": "NASDAQ:BLCN",   "displayName": "BLCN | 블록체인 기업" },
-				{"name": "NASDAQ:LEGR",   "displayName": "LEGR | 블록체인 기업" },
-				{"name": "NASDAQ:BKCH",   "displayName": "BKCH | 블록체인 기업" }
+				{	"s": "AMEX:BITO"		,"d": "비트코인"			},
+				{	"s": "AMEX:BITQ"		,"d": "암호화폐 기업"		},
+				{	"s": "AMEX:BLOK"		,"d": "블록체인 기업"		},
+				{	"s": "NASDAQ:BLCN"		,"d": "블록체인 기업"		},
+				{	"s": "NASDAQ:LEGR"		,"d": "블록체인 기업"		},
+				{	"s": "NASDAQ:BKCH"		,"d": "블록체인 기업"		}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 산업
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "450",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:ARKX",     "displayName": "ARKX | 항공/우주"       },
-				{"name": "AMEX:JETS",     "displayName": "JETS | 항공/세계"       },
-				{"name": "AMEX:DFEN",     "displayName": "DFEN | 항공/국방 | +3X" },
-				{"name": "AMEX:DUSL",     "displayName": "DUSL | 산업     | +3X" },
-				{"name": "AMEX:PAVE",     "displayName": "PAVE | 인프라"          },
-				{"name": "AMEX:NAIL",     "displayName": "NAIL | 건축     | +3X" },
-				{"name": "AMEX:DRN",      "displayName": "DRN  | 부동산    | +3X" },
-				{"name": "AMEX:DRV",      "displayName": "DRV  | 부동산    | -3X" },
-				{"name": "AMEX:TPOR",     "displayName": "TPOR | 운송     | +3X" },
-				{"name": "AMEX:BDRY",     "displayName": "BDRY | 벌크 화물"       }
+				{	"s": "AMEX:ARKX"	,"d": "항공/우주"			},
+				{	"s": "AMEX:JETS"	,"d": "항공/세계"			},
+				{	"s": "AMEX:DFEN"	,"d": "항공/국방 | +3X"		},
+				{	"s": "AMEX:DUSL"	,"d": "산업     | +3X"		},
+				{	"s": "AMEX:PAVE"	,"d": "인프라"				},
+				{	"s": "AMEX:NAIL"	,"d": "건축     | +3X"		},
+				{	"s": "AMEX:DRN"		,"d": "부동산    | +3X"		},
+				{	"s": "AMEX:DRV"		,"d": "부동산    | -3X"		},
+				{	"s": "AMEX:TPOR"	,"d": "운송     | +3X"		},
+				{	"s": "AMEX:BDRY"	,"d": "벌크 화물"			}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 바이오
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "250",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:LABU",     "displayName": "LABU | 바이오   | +3X" },
-				{"name": "AMEX:LABD",     "displayName": "LABD | 바이오   | -3X" },
-				{"name": "AMEX:PILL",     "displayName": "PILL | 제약    | +3X" },
-				{"name": "AMEX:CURE",     "displayName": "CURE | 헬스케어 | +3X" },
-				{"name": "AMEX:ARKG",     "displayName": "ARKG | 유전공학"       }
+				{	"s": "AMEX:LABU"	,"d": "바이오   | +3X"		},
+				{	"s": "AMEX:LABD"	,"d": "바이오   | -3X"		},
+				{	"s": "AMEX:PILL"	,"d": "제약    | +3X"		},
+				{	"s": "AMEX:CURE"	,"d": "헬스케어 | +3X"		},
+				{	"s": "AMEX:ARKG"	,"d": "유전공학"			}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
 
 
 ## 소비
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "350",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:RETL",     "displayName": "RETL | 생필품    | +3X" },
-				{"name": "AMEX:XLP",      "displayName": "XLP  | 필수소비재"       },
-				{"name": "AMEX:WANT",     "displayName": "WANT | 자유소비재 | +3X" },
-				{"name": "AMEX:LUXE",     "displayName": "LUXE | 명품"            },
-				{"name": "AMEX:IYC",      "displayName": "IYC  | 소비자 서비스"     },
-				{"name": "AMEX:UGE",      "displayName": "UGE  | 소비재 | +2X"    },
-				{"name": "AMEX:SZK",      "displayName": "SZK  | 소비재 | -2X"    },
-				{"name": "NASDAQ:ESPO",   "displayName": "ESPO | 게임"            }
+				{	"s": "AMEX:RETL"		,"d": "생필품    | +3X"		},
+				{	"s": "AMEX:XLP"			,"d": "필수소비재"			},
+				{	"s": "AMEX:WANT"		,"d": "자유소비재 | +3X"	},
+				{	"s": "AMEX:LUXE"		,"d": "명품"				},
+				{	"s": "AMEX:IYC"			,"d": "소비자 서비스"		},
+				{	"s": "AMEX:UGE"			,"d": "소비재 | +2X"		},
+				{	"s": "AMEX:SZK"			,"d": "소비재 | -2X"		},
+				{	"s": "NASDAQ:ESPO"		,"d": "게임"				}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
