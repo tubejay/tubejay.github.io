@@ -22,7 +22,7 @@ hidden: false
 	"isTransparent"			: true,
 	"showSymbolLogo"		: false,
 	"showFloatingTooltip"	: false,
-	"width"					: "600",
+	"width"					: "300",
 	"height"				: "1050",
 	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
 	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
