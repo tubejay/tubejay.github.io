@@ -10,6 +10,8 @@ hidden: false
   <base target="_blank">
 </head>
 
+## 시장
+
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
 	"colorTheme"			: "dark",
@@ -21,7 +23,7 @@ hidden: false
 	"showSymbolLogo"		: false,
 	"showFloatingTooltip"	: false,
 	"width"					: "600",
-	"height"				: "1000",
+	"height"				: "1050",
 	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
 	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
 	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
@@ -53,9 +55,6 @@ hidden: false
 	]
 }
 </script>
-
-
-## 시장
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
