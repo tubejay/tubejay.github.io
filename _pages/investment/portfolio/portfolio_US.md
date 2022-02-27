@@ -38,7 +38,7 @@ hidden: false
   ],
   "showSymbolLogo": false,
   "colorTheme": "dark",
-  "isTransparent": false,
+  "isTransparent": true,
   "locale": "en"
 }
 </script>
