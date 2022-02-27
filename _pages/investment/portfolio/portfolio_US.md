@@ -35,8 +35,14 @@ hidden: false
   "height": "200",
   "symbolsGroups": [
     {
+      "name": "전세계",
       "symbols": [
-        {"name": "AMEX:VT",   "displayName": "VT"},
+        {"name": "AMEX:VT",   "displayName": "VT"}
+      ]
+    },
+    {
+      "name": "신흥",
+      "symbols": [
         {"name": "AMEX:EDC",  "displayName": "EDC"},
         {"name": "AMEX:EDZ",  "displayName": "EDZ"},
         {"name": "AMEX:INDL", "displayName": "INDL"},
@@ -55,7 +61,7 @@ hidden: false
   ],
   "showSymbolLogo": false,
   "colorTheme": "dark",
-  "isTransparent": true,
+  "isTransparent": false,
   "locale": "en"
 }
 </script>
