@@ -112,9 +112,9 @@ hidden: false
 | :-  | :-  | :-     | :-  |
 | S&P500 하이 베타 | +3X | HIBL | [Direxion](https://www.webull.com/quote/nysearca-hibl) |
 |                  | -3X | HIBS | [Direxion](https://www.webull.com/quote/nysearca-hibs) |
-| 성장 | 혁신 + | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk) |
-|     | 혁신 - | SARK | [Turtle](https://www.webull.com/quote/nasdaq-sark) |
-|     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf) |
+| 혁신 | + | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk) |
+|     | - | SARK | [Turtle](https://www.webull.com/quote/nasdaq-sark) |
+| 성장 | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf) |
 |     | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv) |
 | 가치 | 종합 | AVUS | [Avantis](https://www.webull.com/quote/nysearca-avus) |
 |     | 대형 | VTV  | [Vanguard](https://www.webull.com/quote/nysearca-vtv) |
