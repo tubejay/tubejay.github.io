@@ -10,16 +10,18 @@ hidden: false
   <base target="_blank">
 </head>
 
+a
+
 ## 시장
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "550",
+  "height": "600",
   "symbolsGroups": [
 	{
 	  "symbols": [
-		{"name": "AMEX:VT",   "displayName": "VT\t\t| 전세계"        },
+		{"name": "AMEX:VT",   "displayName": "VT   | 전세계"        },
 		{"name": "AMEX:EDC",  "displayName": "EDC  | 신흥   | +3X" },
 		{"name": "AMEX:EDZ",  "displayName": "EDZ  | 신흥   | -3X" },
 		{"name": "AMEX:INDL", "displayName": "INDL | 인도   | +3X" },
@@ -139,7 +141,7 @@ hidden: false
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
   "width": "600",
-  "height": "500",
+  "height": "550",
   "symbolsGroups": [
 	{
 	  "symbols": [
@@ -154,8 +156,8 @@ hidden: false
 		{"name": "AMEX:ERX",    "displayName": "ERX  | 에너지    | +2X" },
 		{"name": "AMEX:ERY",    "displayName": "ERY  | 에너지    | -2X" },
 		{"name": "AMEX:PXE",    "displayName": "PXE  | 에너지 생산"      },
-		{"name": "AMEX:UPW",    "displayName": "UPW  | 유티릴티  | +2X" },
-		{"name": "AMEX:SDP",    "displayName": "SDP  | 유티릴티  | -2X" }
+		{"name": "AMEX:UPW",    "displayName": "UPW  | 유틸리티  | +2X" },
+		{"name": "AMEX:SDP",    "displayName": "SDP  | 유틸리티  | -2X" }
 	  ]
 	}
   ],
