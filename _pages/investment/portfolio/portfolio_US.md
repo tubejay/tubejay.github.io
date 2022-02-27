@@ -28,22 +28,26 @@ hidden: false
 	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
 	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
 	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
-	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.5  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
 	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
-	"symbolActiveColor"					: "rgba( 255 ,255 ,255 ,0.1  )",
+	"symbolActiveColor"					: "rgba( 32  ,32  ,32  ,1    )",
 	"tabs": [
 		{
-			"title": "시장",
 			"symbols": [
-				{	"s": "AMEX:EDC",		"d": "신흥   | +3X"	},
-				{	"s": "AMEX:EDZ",		"d": "신흥   | -3X"	}
-			]
-		},
-		{
-			"title": "지수",
-			"symbols": [
-				{	"s": "AMEX:UDOW",		"d": "다우존스  | +3X"	},
-				{	"s": "AMEX:SDOW",		"d": "다우존스  | -3X"	}
+				{	"s": "AMEX:VT"		,"d": "VT   | 전세계"			},
+				{	"s": "AMEX:EDC"		,"d": "EDC  | 신흥   | +3X"		},
+				{	"s": "AMEX:EDZ"		,"d": "EDZ  | 신흥   | -3X"		},
+				{	"s": "AMEX:INDL"	,"d": "INDL | 인도   | +3X"		},
+				{	"s": "AMEX:RUSL"	,"d": "RUSL | 러시아  | +2X"	},
+				{	"s": "AMEX:YINN"	,"d": "YINN | 중국   | +3X"		},
+				{	"s": "AMEX:YANG"	,"d": "YANG | 중국   | -3X"		},
+				{	"s": "AMEX:KORU"	,"d": "KORU | 한국   | +3X"		},
+				{	"s": "AMEX:MEXX"	,"d": "MEXX | 멕시코  | +3X"	},
+				{	"s": "AMEX:UBR"		,"d": "UBR  | 브라질  | +2X"	},
+				{	"s": "AMEX:BZQ"		,"d": "BZQ  | 브라질  | -2X"	},
+				{	"s": "AMEX:EFO"		,"d": "EFO  | EAFE  | +2X"		},
+				{	"s": "AMEX:EURL"	,"d": "EURL | 유럽   | +3X"		},
+				{	"s": "AMEX:EFU"		,"d": "EFU  | EAFE  | -2X"		}
 			]
 		}
 	]
