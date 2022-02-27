@@ -22,7 +22,7 @@ hidden: false
 	"isTransparent"			: true,
 	"showSymbolLogo"		: false,
 	"showFloatingTooltip"	: false,
-	"width"					: "300",
+	"width"					: "400",
 	"height"				: "1050",
 	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
 	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
@@ -32,7 +32,7 @@ hidden: false
 	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
 	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
 	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
-	"symbolActiveColor"					: "rgba( 32  ,32  ,32  ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
 	"tabs": [
 		{
 			"symbols": [
