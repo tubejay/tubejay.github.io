@@ -70,7 +70,6 @@ hidden: false
 |         | -3X | SQQQ | [ProShares](https://www.webull.com/quote/nasdaq-sqqq) |
 | S&P500  | +3X | UPRO | [ProShares](https://www.webull.com/quote/nysearca-upro) |
 |         | -3X | SPXU | [ProShares](https://www.webull.com/quote/nysearca-spxu) |
-| 중형     | +3X | MIDU | [Direxion](https://www.webull.com/quote/nysearca-midu) |
 | 러셀2000 | +3X | URTY | [ProShares](https://www.webull.com/quote/nysearca-urty) |
 |         | -3X | SRTY | [ProShares](https://www.webull.com/quote/nysearca-srty) |
 | 소형     | +3X | TNA  | [Direxion](https://www.webull.com/quote/nysearca-tna) |
@@ -91,7 +90,6 @@ hidden: false
         {"name": "NASDAQ:SQQQ",   "displayName": "SQQQ"},
         {"name": "AMEX:UPRO",     "displayName": "UPRO"},
         {"name": "AMEX:SPXU",     "displayName": "SPXU"},
-        {"name": "AMEX:MIDU",     "displayName": "MIDU"},
         {"name": "AMEX:URTY",     "displayName": "URTY"},
         {"name": "AMEX:SRTY",     "displayName": "SRTY"},
         {"name": "AMEX:TNA",      "displayName": "TNA"},
@@ -114,11 +112,12 @@ hidden: false
 | :-  | :-  | :-     | :-  |
 | S&P500 하이 베타 | +3X | HIBL | [Direxion](https://www.webull.com/quote/nysearca-hibl) |
 |                  | -3X | HIBS | [Direxion](https://www.webull.com/quote/nysearca-hibs) |
+| 성장 | 혁신 + | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk) |
+|     | 혁신 - | SARK | [Turtle](https://www.webull.com/quote/nasdaq-sark) |
+|     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf) |
+|     | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv) |
 | 가치 | 종합 | AVUS | [Avantis](https://www.webull.com/quote/nysearca-avus) |
 |     | 대형 | VTV  | [Vanguard](https://www.webull.com/quote/nysearca-vtv) |
-| 성장 | 저변동 | USMV | [iShares](https://www.webull.com/quote/bats-usmv) |
-|     | 대형   | IWF | [iShares](https://www.webull.com/quote/nysearca-iwf) |
-|     | 혁신   | ARKK | [ARK](https://www.webull.com/quote/nysearca-arkk) |
 | 방어 | 채권+옵션 | SWAN | [Amplify](https://www.webull.com/quote/nysearca-swan) |
 |     | 주식+채권+현금 | DMRL | [DeltaShares](https://www.webull.com/quote/nysearca-dmrl) |
 |     | 주식+채권     | NTSX | [WisdomTree](https://www.webull.com/quote/nysearca-ntsx) |
@@ -132,11 +131,12 @@ hidden: false
       "symbols": [
         {"name": "AMEX:HIBL",   "displayName": "HIBL"},
         {"name": "AMEX:HIBS",   "displayName": "HIBS"},
+        {"name": "AMEX:ARKK",   "displayName": "ARKK"},
+        {"name": "AMEX:SARK",   "displayName": "SARK"},
+        {"name": "AMEX:IWF",    "displayName": "IWF"},
+        {"name": "AMEX:USMV",   "displayName": "USMV"},
         {"name": "AMEX:AVUS",   "displayName": "AVUS"},
         {"name": "AMEX:VTV",    "displayName": "VTV"},
-        {"name": "AMEX:USMV",   "displayName": "USMV"},
-        {"name": "AMEX:IWF",    "displayName": "IWF"},
-        {"name": "AMEX:ARKK",     "displayName": "ARKK"},
         {"name": "AMEX:SWAN",   "displayName": "SWAN"},
         {"name": "AMEX:DMRL",   "displayName": "DMRL"},
         {"name": "AMEX:NTSX",   "displayName": "NTSX"}
@@ -161,8 +161,7 @@ hidden: false
 | 반도체 | +3X | SOXL | [Direxion](https://www.webull.com/quote/nysearca-soxl) |
 |       | -3X | SOXS | [Direxion](https://www.webull.com/quote/nysearca-soxs) |
 | 로봇/AI | +3X | UBOT | [Direxion](https://www.webull.com/quote/nysearca-ubot) |
-| 통신 | +2X | LTL | [ProShares](https://www.webull.com/quote/nysearca-ltl) |
-|     |     | XLC | [SPDR](https://www.webull.com/quote/nysearca-xlc) |
+| 통신 |     | XLC | [SPDR](https://www.webull.com/quote/nysearca-xlc) |
 | 미래차 | 종합 | KARS | [KraneShares](https://www.webull.com/quote/nysearca-kars) |
 |       | 자율주행 | DRIV | [Global X](https://www.webull.com/quote/nasdaq-driv) |
 | 메타버스 | | META | [Roundhill](https://www.webull.com/quote/nysearca-meta) |
@@ -181,7 +180,6 @@ hidden: false
         {"name": "AMEX:SOXL",     "displayName": "SOXL"},
         {"name": "AMEX:SOXS",     "displayName": "SOXS"},
         {"name": "AMEX:UBOT",     "displayName": "UBOT"},
-        {"name": "AMEX:LTL",      "displayName": "LTL"},
         {"name": "AMEX:XLC",      "displayName": "XLC"},
         {"name": "AMEX:KARS",     "displayName": "KARS"},
         {"name": "NASDAQ:DRIV",   "displayName": "DRIV"},
@@ -206,7 +204,6 @@ hidden: false
 |      | -2X | SCO | [ProShares](https://www.webull.com/quote/nysearca-sco) |
 | 석유 업체     | +3X | NRGU | [MicroSectors](https://www.webull.com/quote/nysearca-nrgu) |
 |               | -3X | NRGD | [MicroSector](https://www.webull.com/quote/nysearca-nrgd) |
-| 가솔린 | | UGA | [US Commodity Funds](https://www.webull.com/quote/nysearca-uga) |
 | 가스     | +2X | BOIL | [ProShares](https://www.webull.com/quote/nysearca-boil) |
 |         | -2X | KOLD | [ProShares](https://www.webull.com/quote/nysearca-kold) |
 | 에너지    | +2X | ERX  | [Direxion](https://www.webull.com/quote/nysearca-erx) |
@@ -228,7 +225,6 @@ hidden: false
         {"name": "AMEX:SCO",    "displayName": "SCO"},
         {"name": "AMEX:NRGU",   "displayName": "NRGU"},
         {"name": "AMEX:NRGD",   "displayName": "NRGD"},
-        {"name": "AMEX:UGA",    "displayName": "UGA"},
         {"name": "AMEX:BOIL",   "displayName": "BOIL"},
         {"name": "AMEX:KOLD",   "displayName": "KOLD"},
         {"name": "AMEX:ERX",    "displayName": "ERX"},
