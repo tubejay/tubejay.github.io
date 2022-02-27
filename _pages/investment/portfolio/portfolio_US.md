@@ -164,7 +164,7 @@ hidden: false
 | 통신 |     | XLC | [SPDR](https://www.webull.com/quote/nysearca-xlc) |
 | 미래차 | 종합 | KARS | [KraneShares](https://www.webull.com/quote/nysearca-kars) |
 |       | 자율주행 | DRIV | [Global X](https://www.webull.com/quote/nasdaq-driv) |
-| 메타버스 | | META | [Roundhill](https://www.webull.com/quote/nysearca-meta) |
+| 메타버스 | | METV | [Roundhill](https://www.webull.com/quote/nysearca-metv) |
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
 {
@@ -183,7 +183,7 @@ hidden: false
         {"name": "AMEX:XLC",      "displayName": "XLC"},
         {"name": "AMEX:KARS",     "displayName": "KARS"},
         {"name": "NASDAQ:DRIV",   "displayName": "DRIV"},
-        {"name": "AMEX:META",     "displayName": "META"}
+        {"name": "AMEX:METV",     "displayName": "METV"}
       ]
     }
   ],
