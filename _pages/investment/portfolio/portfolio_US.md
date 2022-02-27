@@ -10,6 +10,8 @@ hidden: false
   <base target="_blank">
 </head>
 
+
+
 ## 시장
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
@@ -22,7 +24,7 @@ hidden: false
 	"isTransparent"			: true,
 	"showSymbolLogo"		: false,
 	"showFloatingTooltip"	: false,
-	"width"					: "400",
+	"width"					: "350",
 	"height"				: "1050",
 	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
 	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
@@ -56,67 +58,53 @@ hidden: false
 }
 </script>
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
-{
-	"width": "600",
-	"height": "600",
-	"symbolsGroups": [
-		{
-			"symbols": [
-				{"name": "AMEX:VT",   "displayName": "VT   | 전세계"        },
-				{"name": "AMEX:EDC",  "displayName": "EDC  | 신흥   | +3X" },
-				{"name": "AMEX:EDZ",  "displayName": "EDZ  | 신흥   | -3X" },
-				{"name": "AMEX:INDL", "displayName": "INDL | 인도   | +3X" },
-				{"name": "AMEX:RUSL", "displayName": "RUSL | 러시아  | +2X" },
-				{"name": "AMEX:YINN", "displayName": "YINN | 중국   | +3X" },
-				{"name": "AMEX:YANG", "displayName": "YANG | 중국   | -3X" },
-				{"name": "AMEX:KORU", "displayName": "KORU | 한국   | +3X" },
-				{"name": "AMEX:MEXX", "displayName": "MEXX | 멕시코  | +3X" },
-				{"name": "AMEX:UBR",  "displayName": "UBR  | 브라질  | +2X" },
-				{"name": "AMEX:BZQ",  "displayName": "BZQ  | 브라질  | -2X" },
-				{"name": "AMEX:EURL", "displayName": "EURL | 유럽   | +3X" },
-				{"name": "AMEX:EFO",  "displayName": "EFO  | EAFE  | +2X" },
-				{"name": "AMEX:EFU",  "displayName": "EFU  | EAFE  | -2X" }
-			]
-		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
-}
-</script>
+
 
 ## 지수
 
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 {
-	"width": "600",
-	"height": "500",
-	"symbolsGroups": [
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "1050",
+	"plotLineColorGrowing"				: "rgba( 0   ,0   ,255 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 0   ,0   ,255 ,0.25 )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 0   ,0   ,255 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 255 ,0   ,0   ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 255 ,0   ,0   ,0.25 )",
+	"belowLineFillColorFallingBottom"	: "rgba( 255 ,0   ,0   ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
 		{
 			"symbols": [
-				{"name": "AMEX:UDOW",     "displayName": "UDOW | 다우존스  | +3X" },
-				{"name": "AMEX:SDOW",     "displayName": "SDOW | 다우존스  | -3X" },
-				{"name": "NASDAQ:TQQQ",   "displayName": "TQQQ | 나스닥    | +3X" },
-				{"name": "NASDAQ:SQQQ",   "displayName": "SQQQ | 나스닥    | -3X" },
-				{"name": "AMEX:UPRO",     "displayName": "UPRO | S&P500  | +3X" },
-				{"name": "AMEX:SPXU",     "displayName": "SPXU | S&P500  | -3X" },
-				{"name": "AMEX:URTY",     "displayName": "URTY | 러셀2000 | +3X" },
-				{"name": "AMEX:SRTY",     "displayName": "SRTY | 러셀2000 | -3X" },
-				{"name": "AMEX:TNA",      "displayName": "TNA  | 소형     | +3X" },
-				{"name": "AMEX:TZA",      "displayName": "TZA  | 소형     | -3X" },
-				{"name": "AMEX:SVXY",     "displayName": "SVXY | VIX     | -X"  },
-				{"name": "AMEX:UVXY",     "displayName": "UVXY | VIX     | +X"  }
+				{	"s": "AMEX:UDOW"	,"d": "다우존스  | +3X"		},
+				{	"s": "AMEX:SDOW"	,"d": "다우존스  | -3X"		},
+				{	"s": "NASDAQ:TQQQ"	,"d": "나스닥    | +3X"		},
+				{	"s": "NASDAQ:SQQQ"	,"d": "나스닥    | -3X"		},
+				{	"s": "AMEX:UPRO"	,"d": "S&P500  | +3X"		},
+				{	"s": "AMEX:SPXU"	,"d": "S&P500  | -3X"		},
+				{	"s": "AMEX:URTY"	,"d": "러셀2000 | +3X"		},
+				{	"s": "AMEX:SRTY"	,"d": "러셀2000 | -3X"		},
+				{	"s": "AMEX:TNA"		,"d": "소형     | +3X"		},
+				{	"s": "AMEX:TZA"		,"d": "소형     | -3X"		},
+				{	"s": "AMEX:SVXY"	,"d": "VIX     | -X"		},
+				{	"s": "AMEX:UVXY"	,"d": "VIX     | +X"		}
 			]
 		}
-	],
-	"showSymbolLogo": false,
-	"colorTheme": "dark",
-	"isTransparent": true,
-	"locale": "en"
+	]
 }
 </script>
+
+
 
 ## 평가
 
