@@ -11,6 +11,8 @@ hidden: false
   <base target="_self">
 </head>
 
+
+
 ## website
 
 - [website_KR](/investment/website_KR)
@@ -18,5 +20,4 @@ hidden: false
   
 ## portfolio
 
-- [portfolio_KR](/investment/portfolio_KR)
 - [portfolio_US](/investment/portfolio_US)
