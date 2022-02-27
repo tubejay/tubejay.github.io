@@ -10,6 +10,47 @@ hidden: false
   <base target="_blank">
 </head>
 
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+{
+	"colorTheme": "dark",
+	"dateRange": "1D",
+	"showChart": true,
+	"locale": "en",
+	"largeChartUrl": "",
+	"isTransparent": true,
+	"showSymbolLogo": false,
+	"showFloatingTooltip": false,
+	"width": "600",
+	"height": "700",
+	"plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+	"plotLineColorFalling": "rgba(41, 98, 255, 1)",
+	"gridLineColor": "rgba(240, 243, 250, 0)",
+	"scaleFontColor": "rgba(120, 123, 134, 1)",
+	"belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+	"belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+	"belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+	"belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+	"symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+	"tabs": [
+		{
+			"title": "지수",
+			"symbols": [
+				{	"s": "FOREXCOM:SPXUSD",		"d": "S&P 500"	},
+				{	"s": "FOREXCOM:NSXUSD",		"d": "US 100"	}
+			]
+		},
+		{
+			"title": "선물",
+			"symbols": [
+				{	"s": "CME_MINI:ES1!",		"d": "S&P 500"	},
+				{	"s": "CME:6E1!",			"d": "Euro"		}
+			]
+		}
+	]
+}
+</script>
+
+
 ## 시장
 
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
