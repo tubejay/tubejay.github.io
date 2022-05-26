@@ -308,17 +308,58 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
+				{	"s": "AMEX:UYM"		,"d": "금속   | +2X"		},
+				{	"s": "AMEX:SMN"		,"d": "금속   | -2X"		},
+				{	"s": "AMEX:JJU"		,"d": "알루미늄"		},
+				{	"s": "AMEX:CPER"	,"d": "구리"		},
+				{	"s": "AMEX:JJN"		,"d": "니켈"		},
+				{	"s": "AMEX:PPLT"	,"d": "백금"		},
+				{	"s": "AMEX:PALL"	,"d": "팔라듐"		},
+				{	"s": "AMEX:REMX"	,"d": "희토류"		}
+			]
+		}
+	]
+}
+</script>
+
+
+
+## 자산
+
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+{
+	"colorTheme"			: "dark",
+	"dateRange"				: "1D",
+	"showChart"				: true,
+	"locale"				: "en",
+	"largeChartUrl"			: "",
+	"isTransparent"			: true,
+	"showSymbolLogo"		: false,
+	"showFloatingTooltip"	: false,
+	"width"					: "350",
+	"height"				: "850",
+	"plotLineColorGrowing"				: "rgba( 34  ,171 ,148 ,1    )",
+	"belowLineFillColorGrowing"			: "rgba( 34  ,171 ,148 ,0.5  )",
+	"belowLineFillColorGrowingBottom"	: "rgba( 34  ,171 ,148 ,0.1  )",
+	"plotLineColorFalling"				: "rgba( 247 ,82  ,95  ,1    )",
+	"belowLineFillColorFalling"			: "rgba( 247 ,82  ,95  ,0.5  )",
+	"belowLineFillColorFallingBottom"	: "rgba( 247 ,82  ,95  ,0.1  )",
+	"gridLineColor"						: "rgba( 255 ,255 ,255 ,0.25 )",
+	"scaleFontColor"					: "rgba( 255 ,255 ,255 ,1    )",
+	"symbolActiveColor"					: "rgba( 16  ,16  ,16  ,1    )",
+	"tabs": [
+		{
+			"symbols": [
 				{	"s": "AMEX:UGL"		,"d": "금   | +2X"		},
 				{	"s": "AMEX:GLL"		,"d": "금   | -2X"		},
 				{	"s": "AMEX:NUGT"	,"d": "금광 | +2X"		},
 				{	"s": "AMEX:DUST"	,"d": "금광 | -2X"		},
 				{	"s": "AMEX:AGQ"		,"d": "은   | +2X"		},
 				{	"s": "AMEX:ZSL"		,"d": "은   | -2X"		},
-				{	"s": "AMEX:JJT"		,"d": "주석"			},
-				{	"s": "AMEX:LD"		,"d": "납"				},
-				{	"s": "AMEX:URNM"	,"d": "우라늄"			},
-				{	"s": "AMEX:REMX"	,"d": "희토류"			},
-				{	"s": "AMEX:JO"		,"d": "커피"			}
+				{	"s": "AMEX:SOYB"	,"d": "콩"		},
+				{	"s": "AMEX:CORN"	,"d": "옥수수"		},
+				{	"s": "AMEX:WEST"	,"d": "밀"		},
+				{	"s": "AMEX:JJA"		,"d": "농산물"		}
 			]
 		}
 	]
@@ -357,9 +398,7 @@ hidden: false
 				{	"s": "AMEX:FAX"			,"d": "금융    | -3X"		},
 				{	"s": "AMEX:BNKU"		,"d": "대형은행 | +3X"		},
 				{	"s": "AMEX:BNKD"		,"d": "대형은행 | -3X"		},
-				{	"s": "AMEX:DPST"		,"d": "지역은행 | +3X"		},
 				{	"s": "AMEX:IPO"			,"d": "IPO"					},
-				{	"s": "NASDAQ:FINX"		,"d": "핀테크"				},
 				{	"s": "AMEX:ARKF"		,"d": "핀테크"				}
 			]
 		}
@@ -395,17 +434,18 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:TMF"		,"d": "채권(20y) | +3X"			},
-				{	"s": "AMEX:TMV"		,"d": "채권(20y) | -3X"			},
-				{	"s": "AMEX:TYD"		,"d": "채권(10y) | +3X"			},
-				{	"s": "AMEX:TYO"		,"d": "채권(10y) | -3X"			},
-				{	"s": "AMEX:DBV"		,"d": "외환      | G10"			},
-				{	"s": "AMEX:FXE"		,"d": "외환      | 유로"		},
-				{	"s": "AMEX:FXC"		,"d": "외환      | 캐나다"		},
-				{	"s": "AMEX:FXB"		,"d": "외환      | 영국"		},
-				{	"s": "AMEX:FXF"		,"d": "외환      | 스위스"		},
-				{	"s": "AMEX:FXA"		,"d": "외환      | 호주"		},
-				{	"s": "AMEX:FXY"		,"d": "외환      | 일본"		}
+				{	"s": "AMEX:TIPL"	,"d": "채권/TIPS | +2X"			},
+				{	"s": "AMEX:TIPD"	,"d": "채권/TIPS | -2X"			},
+				{	"s": "AMEX:TMF"		,"d": "채권/20y | +3X"			},
+				{	"s": "AMEX:TMV"		,"d": "채권/20y | -3X"			},
+				{	"s": "AMEX:TYD"		,"d": "채권/10y | +3X"			},
+				{	"s": "AMEX:TYO"		,"d": "채권/10y | -3X"			},
+				{	"s": "AMEX:UUP"		,"d": "외환/달러인덱스 | +1X"			},
+				{	"s": "AMEX:UDN"		,"d": "외환/달러인덱스 | -1X"			},
+				{	"s": "AMEX:ULE"		,"d": "외환/유로 | +2X"			},
+				{	"s": "AMEX:EUO"		,"d": "외환/유로 | -2X"			},
+				{	"s": "AMEX:YCL"		,"d": "외환/일본 | +2X"			},
+				{	"s": "AMEX:YCS"		,"d": "외환/일본 | -2X"			},
 			]
 		}
 	]
@@ -526,8 +566,9 @@ hidden: false
 			"symbols": [
 				{	"s": "AMEX:LABU"	,"d": "바이오   | +3X"		},
 				{	"s": "AMEX:LABD"	,"d": "바이오   | -3X"		},
+				{	"s": "AMEX:RXL"		,"d": "헬스케어   | +2X"		},
+				{	"s": "AMEX:RXD"		,"d": "헬스케어   | -2X"		},
 				{	"s": "AMEX:PILL"	,"d": "제약    | +3X"		},
-				{	"s": "AMEX:CURE"	,"d": "헬스케어 | +3X"		},
 				{	"s": "AMEX:ARKG"	,"d": "유전공학"			}
 			]
 		}
@@ -563,14 +604,13 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:RETL"		,"d": "생필품    | +3X"		},
-				{	"s": "AMEX:XLP"			,"d": "필수소비재"			},
-				{	"s": "AMEX:WANT"		,"d": "자유소비재 | +3X"	},
-				{	"s": "AMEX:LUXE"		,"d": "명품"				},
-				{	"s": "AMEX:IYC"			,"d": "소비자 서비스"		},
 				{	"s": "AMEX:UGE"			,"d": "소비재 | +2X"		},
 				{	"s": "AMEX:SZK"			,"d": "소비재 | -2X"		},
-				{	"s": "NASDAQ:ESPO"		,"d": "게임"				}
+				{	"s": "AMEX:UCC"			,"d": "소비자 서비스 | +2X"		},
+				{	"s": "AMEX:SCC"			,"d": "소비자 서비스 | -2X"		},
+				{	"s": "AMEX:RETL"		,"d": "생필품    | +3X"		},
+				{	"s": "AMEX:XLP"			,"d": "필수소비재"			},
+				{	"s": "AMEX:WANT"		,"d": "자유소비재 | +3X"	}
 			]
 		}
 	]
