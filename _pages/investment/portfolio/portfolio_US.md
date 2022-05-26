@@ -44,6 +44,12 @@ hidden: false
 				{	"s": "AMEX:BZQ"		,"d": "브라질  | -2X"	},
 				{	"s": "AMEX:EDC"		,"d": "신흥  | +3X"	},
 				{	"s": "AMEX:EDZ"		,"d": "신흥  | -3X"	},
+				{	"s": "AMEX:EZJ"		,"d": "일본  | +2X"	},
+				{	"s": "AMEX:EWV"		,"d": "일본  | -2X"	},
+				{	"s": "AMEX:UPV"		,"d": "유럽  | +2X"	},
+				{	"s": "AMEX:EPV"		,"d": "유럽  | -2X"	},
+				{	"s": "AMEX:EFO"		,"d": "EAFE  | +2X"	},
+				{	"s": "AMEX:EFU"		,"d": "EAFE  | -2X"	}
 			]
 		}
 	]
