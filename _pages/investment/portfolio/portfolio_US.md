@@ -25,7 +25,7 @@ hidden: false
 	"showSymbolLogo"		: false,
 	"showFloatingTooltip"	: false,
 	"width"					: "350",
-	"height"				: "850",
+	"height"				: "750",
 	"plotLineColorGrowing"				: "rgba( 34  ,171 ,148 ,1    )",
 	"belowLineFillColorGrowing"			: "rgba( 34  ,171 ,148 ,0.5  )",
 	"belowLineFillColorGrowingBottom"	: "rgba( 34  ,171 ,148 ,0.1  )",
