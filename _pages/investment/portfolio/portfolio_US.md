@@ -90,10 +90,10 @@ hidden: false
 				{	"s": "NASDAQ:SQQQ"	,"d": "나스닥    | -3X"		},
 				{	"s": "AMEX:UPRO"	,"d": "S&P500  | +3X"		},
 				{	"s": "AMEX:SPXU"	,"d": "S&P500  | -3X"		},
+				{	"s": "AMEX:HIBL"	,"d": "S&P500 하이 베타  | +3X"		},
+				{	"s": "AMEX:HIBS"	,"d": "S&P500 하이 베타  | -3X"		},
 				{	"s": "AMEX:URTY"	,"d": "러셀2000 | +3X"		},
 				{	"s": "AMEX:SRTY"	,"d": "러셀2000 | -3X"		},
-				{	"s": "AMEX:TNA"		,"d": "소형     | +3X"		},
-				{	"s": "AMEX:TZA"		,"d": "소형     | -3X"		},
 				{	"s": "AMEX:SVXY"	,"d": "VIX     | -X"		},
 				{	"s": "AMEX:UVXY"	,"d": "VIX     | +X"		}
 			]
