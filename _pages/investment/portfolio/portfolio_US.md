@@ -38,20 +38,12 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:VT"		,"d": "전세계"			},
-				{	"s": "AMEX:EDC"		,"d": "신흥   | +3X"	},
-				{	"s": "AMEX:EDZ"		,"d": "신흥   | -3X"	},
-				{	"s": "AMEX:INDL"	,"d": "인도   | +3X"	},
-				{	"s": "AMEX:RUSL"	,"d": "러시아  | +2X"	},
 				{	"s": "AMEX:YINN"	,"d": "중국   | +3X"	},
 				{	"s": "AMEX:YANG"	,"d": "중국   | -3X"	},
-				{	"s": "AMEX:KORU"	,"d": "한국   | +3X"	},
-				{	"s": "AMEX:MEXX"	,"d": "멕시코  | +3X"	},
 				{	"s": "AMEX:UBR"		,"d": "브라질  | +2X"	},
 				{	"s": "AMEX:BZQ"		,"d": "브라질  | -2X"	},
-				{	"s": "AMEX:EFO"		,"d": "EAFE  | +2X"		},
-				{	"s": "AMEX:EURL"	,"d": "유럽   | +3X"	},
-				{	"s": "AMEX:EFU"		,"d": "EAFE  | -2X"		}
+				{	"s": "AMEX:EDC"		,"d": "신흥  | +3X"	},
+				{	"s": "AMEX:EDZ"		,"d": "신흥  | -3X"	},
 			]
 		}
 	]
