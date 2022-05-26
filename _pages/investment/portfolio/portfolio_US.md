@@ -130,8 +130,6 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:HIBL"	,"d": "S&P500 하이 베타 | +3X"				},
-				{	"s": "AMEX:HIBS"	,"d": "S&P500 하이 베타 | -3X"				},
 				{	"s": "AMEX:ARKK"	,"d": "혁신            | +X"				},
 				{	"s": "NASDAQ:SARK"	,"d": "혁신            | -X"				},
 				{	"s": "AMEX:IWF"		,"d": "성장            | 대형"				},
@@ -139,7 +137,6 @@ hidden: false
 				{	"s": "AMEX:AVUS"	,"d": "가치            | 종합"				},
 				{	"s": "AMEX:VTV"		,"d": "가치            | 대형"				},
 				{	"s": "AMEX:SWAN"	,"d": "방어            | 채권+옵션"			},
-				{	"s": "AMEX:DMRL"	,"d": "방어            | 주식+채권+현금"	},
 				{	"s": "AMEX:NTSX"	,"d": "방어            | 주식+채권"			}
 			]
 		}
@@ -181,11 +178,10 @@ hidden: false
 				{	"s": "AMEX:FNGD"	,"d": "FANG  | -3X"			},
 				{	"s": "AMEX:SOXL"	,"d": "반도체  | +3X"		},
 				{	"s": "AMEX:SOXS"	,"d": "반도체  | -3X"		},
-				{	"s": "AMEX:UBOT"	,"d": "로봇/AI"				},
-				{	"s": "AMEX:XLC"		,"d": "통신"				},
+				{	"s": "AMEX:CLDL"	,"d": "클라우드  | +2X"		},
+				{	"s": "AMEX:CLDS"	,"d": "클라우드  | -2X"		},
 				{	"s": "AMEX:KARS"	,"d": "미래차 | 종합"			},
-				{	"s": "NASDAQ:DRIV"	,"d": "미래차 | 자율주행"		},
-				{	"s": "AMEX:METV"	,"d": "메타버스"			}
+				{	"s": "NASDAQ:DRIV"	,"d": "미래차 | 자율주행"		}
 			]
 		}
 	]
@@ -220,17 +216,18 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:GUSH"	,"d": "석유/가스 | +2X"		},
-				{	"s": "AMEX:DRIP"	,"d": "석유/가스 | -2X"		},
 				{	"s": "AMEX:UCO"		,"d": "석유     | +2X"		},
 				{	"s": "AMEX:SCO"		,"d": "석유     | -2X"		},
-				{	"s": "AMEX:NRGU"	,"d": "석유 업체 | +3X"		},
-				{	"s": "AMEX:NRGD"	,"d": "석유 업체 | -3X"		},
 				{	"s": "AMEX:BOIL"	,"d": "가스     | +2X"		},
 				{	"s": "AMEX:KOLD"	,"d": "가스     | -2X"		},
+				{	"s": "AMEX:NRGU"	,"d": "석유 업체 | +3X"		},
+				{	"s": "AMEX:NRGD"	,"d": "석유 업체 | -3X"		},
+				{	"s": "AMEX:GUSH"	,"d": "석유/가스 | +2X"		},
+				{	"s": "AMEX:DRIP"	,"d": "석유/가스 | -2X"		},
+				{	"s": "AMEX:OILU"	,"d": "석유/가스 | +3X"		},
+				{	"s": "AMEX:OILD"	,"d": "석유/가스 | -3X"		},
 				{	"s": "AMEX:ERX"		,"d": "에너지    | +2X"		},
 				{	"s": "AMEX:ERY"		,"d": "에너지    | -2X"		},
-				{	"s": "AMEX:PXE"		,"d": "에너지 생산"			},
 				{	"s": "AMEX:UPW"		,"d": "유틸리티  | +2X"		},
 				{	"s": "AMEX:SDP"		,"d": "유틸리티  | -2X"		}
 			]
