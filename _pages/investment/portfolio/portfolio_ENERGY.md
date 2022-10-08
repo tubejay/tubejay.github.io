@@ -23,9 +23,14 @@ hidden: true
 |        | [US Crude Oil Stocks WoW](https://ycharts.com/indicators/us_crude_oil_inventories_wow) |
 |        | [US Crude Oil in the Strategic Petroleum Reserve Stocks](https://ycharts.com/indicators/us_ending_stocks_of_crude_oil_in_the_strategic_petroleum_reserve) |
 | Production | [US Crude Oil Field Production](https://ycharts.com/indicators/us_crude_oil_field_production) |
+|            | [US Crude Oil Production](https://ycharts.com/indicators/us_crude_oil_production) |
+|            | [OPEC Crude Oil Production](https://ycharts.com/indicators/opec_crude_oil_production) |
+|            | [World Crude Oil Production](https://ycharts.com/indicators/world_crude_oil_production) |
+| Rig | [US Oil Rig Count](https://ycharts.com/indicators/us_oil_rotary_rigs) |
+|     | [World Oil Rig Count](https://ycharts.com/indicators/world_oil_rotary_rigs) |
 | Trade | [US Crude Oil Imports](https://ycharts.com/indicators/us_crude_oil_imports_wps) |
 |       | [US Crude Oil Exports](https://ycharts.com/indicators/us_crude_oil_exports_wie) |
-|       | [US Net Imports of Crude Oil](https://ycharts.com/indicators/us_crude_oil_net_imports                      ) |
+|       | [US Net Imports of Crude Oil](https://ycharts.com/indicators/us_crude_oil_net_imports) |
 
 
 
