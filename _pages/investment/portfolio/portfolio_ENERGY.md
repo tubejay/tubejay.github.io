@@ -12,20 +12,20 @@ hidden: true
 
 
 
-### Crude Oil WTI
+### Crude Oil
 
 | 분류 | 링크 |
 | :- | :- |
-| Futures | [TradingView](https://www.tradingview.com/symbols/NYMEX-CL1%21/) |
-|         | [Investing.com](https://www.investing.com/commodities/crude-oil) |
-| Positions | [Long](https://ycharts.com/indicators/nymex_light_sweet_crude_oil_combined_managed_money_long_positions) |
-|           | [Short](https://ycharts.com/indicators/nymex_light_sweet_crude_oil_futures_managed_money_short_positions) |
-| Inventories | [US Crude Oil Inventories](https://www.investing.com/economic-calendar/eia-crude-oil-inventories-75) |
+| Futures | [Light Crude Oil Futures](https://www.tradingview.com/symbols/NYMEX-CL1%21/) |
+| Positions | [NYMEX Light Sweet Crude Oil Futures Managed Money Long Positions](https://ycharts.com/indicators/nymex_light_sweet_crude_oil_futures_managed_money_long_positions) |
+|           | [NYMEX Light Sweet Crude Oil Futures Managed Money Short Positions](https://ycharts.com/indicators/nymex_light_sweet_crude_oil_futures_managed_money_short_positions) |
 | Stocks | [US Crude Oil Stocks](https://ycharts.com/indicators/us_stocks_of_crude_oil) |
+|        | [US Crude Oil Stocks WoW](https://ycharts.com/indicators/us_crude_oil_inventories_wow) |
 |        | [US Crude Oil in the Strategic Petroleum Reserve Stocks](https://ycharts.com/indicators/us_ending_stocks_of_crude_oil_in_the_strategic_petroleum_reserve) |
 | Production | [US Crude Oil Field Production](https://ycharts.com/indicators/us_crude_oil_field_production) |
-| Trade | [US Crude Oil Exports](https://ycharts.com/indicators/us_crude_oil_exports_wie) |
-|       | [US Crude Oil Imports](https://ycharts.com/indicators/us_crude_oil_imports_wps) |
+| Trade | [US Crude Oil Imports](https://ycharts.com/indicators/us_crude_oil_imports_wps) |
+|       | [US Crude Oil Exports](https://ycharts.com/indicators/us_crude_oil_exports_wie) |
+|       | [US Net Imports of Crude Oil](https://ycharts.com/indicators/us_crude_oil_net_imports                      ) |
 
 
 
