@@ -38,16 +38,14 @@ hidden: true
 
 | 분류 | 링크 |
 | :- | :- |
-| eia | [Weekly Update](https://www.eia.gov/naturalgas/weekly/) |
-|     | [Storage Dashboard](https://www.eia.gov/naturalgas/storage/dashboard/) |
-|     | [Storage Report](https://ir.eia.gov/ngs/ngs.html) |
-| Futures | [TradingView](https://www.tradingview.com/symbols/NYMEX-NG1!/) |
-|         | [Investing.com](https://www.investing.com/commodities/natural-gas) |
-| Positions | [Long](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_long_positions) |
-|           | [Short](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_short_positions) |
-| Storage | [US Natural Gas Storage](https://www.investing.com/economic-calendar/natural-gas-storage-386) |
-|         | [US Natural Gas Underground Storage Volume](https://ycharts.com/indicators/us_natural_gas_underground_storage_volume) |
-|         | [Weekly Natural Gas Storage](https://ycharts.com/indicators/reports/weekly_natural_gas_storage) |
-| Count | [US Natural Gas Rig Count](https://ycharts.com/indicators/us_gas_rotary_rigs) |
-| Trade | [US Natural Gas Exports](https://ycharts.com/indicators/us_natural_gas_exports) |
-|       | [US Natural Gas Imports](https://ycharts.com/indicators/us_natural_gas_imports) |
+| eia | [Natural Gas Weekly Update](https://www.eia.gov/naturalgas/weekly/) |
+|     | [Natural Gas Storage Dashboard](https://www.eia.gov/naturalgas/storage/dashboard/) |
+|     | [Weekly Natural Gas Storage Report](https://ir.eia.gov/ngs/ngs.html) |
+| Futures | [Natural Gas Futures](https://www.tradingview.com/symbols/NYMEX-NG1!/) |
+| Positions | [NYMEX Natural Gas Futures Managed Money Long Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_long_positions) |
+|           | [NYMEX Natural Gas Futures Managed Money Short Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_short_positions) |
+| Storage | [US Natural Gas Underground Storage Volume](https://ycharts.com/indicators/us_natural_gas_underground_storage_volume) |
+| Rig | [US Natural Gas Rig Count](https://ycharts.com/indicators/us_gas_rotary_rigs) |
+| Trade | [US Natural Gas Imports](https://ycharts.com/indicators/us_natural_gas_imports) |
+|       | [US Natural Gas Exports](https://ycharts.com/indicators/us_natural_gas_exports) |
+|       | [US Natural Gas Net Imports](https://ycharts.com/indicators/us_natural_gas_net_imports) |
