@@ -44,7 +44,7 @@ hidden: true
 | Futures | [Natural Gas Futures](https://www.tradingview.com/symbols/NYMEX-NG1!/) |
 | Positions | [NYMEX Natural Gas Futures Managed Money Long Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_long_positions) |
 |           | [NYMEX Natural Gas Futures Managed Money Short Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_short_positions) |
-| Storage | [US Natural Gas Underground Storage Volume](https://ycharts.com/indicators/us_natural_gas_underground_storage_volume) |
+| Storage | [Natural Gas Storage Change](https://ycharts.com/indicators/natural_gas_storage_change) |
 | Rig | [US Natural Gas Rig Count](https://ycharts.com/indicators/us_gas_rotary_rigs) |
 | Trade | [US Natural Gas Imports](https://ycharts.com/indicators/us_natural_gas_imports) |
 |       | [US Natural Gas Exports](https://ycharts.com/indicators/us_natural_gas_exports) |
