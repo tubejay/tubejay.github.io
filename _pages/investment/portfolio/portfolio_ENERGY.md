@@ -14,7 +14,7 @@ hidden: false
 
 ### Crude Oil
 
-44
+55
 
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js">
 </script>
@@ -40,6 +40,7 @@ hidden: false
   "scaleMode": "Normal",
   "fontFamily": "sans-serif",
   "noTimeScale": false,
+  "valuesTracking": "1",
   "chartType": "line",
   "lineWidth": 1,
   "color" : "rgba( 34 ,171 ,148 ,1 )"
