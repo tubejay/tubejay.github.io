@@ -178,8 +178,6 @@ hidden: false
 				{	"s": "AMEX:FNGD"	,"d": "FANG  | -3X"			},
 				{	"s": "AMEX:SOXL"	,"d": "반도체  | +3X"		},
 				{	"s": "AMEX:SOXS"	,"d": "반도체  | -3X"		},
-				{	"s": "AMEX:CLDL"	,"d": "클라우드  | +2X"		},
-				{	"s": "AMEX:CLDS"	,"d": "클라우드  | -2X"		},
 				{	"s": "AMEX:KARS"	,"d": "미래차 | 종합"			},
 				{	"s": "NASDAQ:DRIV"	,"d": "미래차 | 자율주행"		}
 			]
