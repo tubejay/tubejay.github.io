@@ -26,23 +26,26 @@ hidden: false
   "symbols": [
     [
       "Crude Oil Futures",
-      "NYMEX:CL1!|12M"
+      "NYMEX:CL1!|1M"
     ]
   ],
-  "chartOnly": true,
-  "width": 350,
+  "chartOnly": false,
+  "width": 700,
   "height": 500,
   "locale": "en",
   "colorTheme": "dark",
   "autosize": false,
   "showVolume": false,
   "hideDateRanges": false,
-  "scalePosition": "right",
+  "scalePosition": "left",
   "scaleMode": "Normal",
   "fontFamily": "sans-serif",
   "noTimeScale": false,
   "valuesTracking": "1",
-  "chartType": "line"
+  "chartType": "line",
+  "lineWidth": 1,
+  "plotLineColorGrowing" : "rgba( 34 ,171 ,148 ,1 )",
+  "plotLineColorFalling" : "rgba( 247 ,82 ,95 ,1 )"
   }
   );
 </script>
