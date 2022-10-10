@@ -14,10 +14,11 @@ hidden: false
 
 ### Crude Oil
 
-22
+33
 
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js">
-{
+</script>
+<script type="text/javascript">
   new TradingView.MediumWidget(
   {
   "symbols": [
@@ -44,7 +45,6 @@ hidden: false
   "color" : "rgba( 34 ,171 ,148 ,1 )"
   }
   );
-}
 </script>
 
 | 분류 | 링크 |
