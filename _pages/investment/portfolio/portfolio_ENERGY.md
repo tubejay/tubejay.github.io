@@ -42,7 +42,7 @@ hidden: false
   "valuesTracking": "1",
   "chartType": "line",
   "lineWidth": 1,
-  "Color" : "rgba( 34 ,171 ,148 ,1 )"
+  "color" : "rgba( 34 ,171 ,148 ,1 )"
   }
   );
 </script>
