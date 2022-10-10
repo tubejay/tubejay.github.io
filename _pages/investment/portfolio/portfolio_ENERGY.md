@@ -23,7 +23,7 @@ hidden: false
   "symbols": [
     [
       "Crude Oil Futures",
-      "NYMEX:CL1!|1D"
+      "NYMEX:CL1!|1M"
     ]
   ],
   "chartOnly": false,
