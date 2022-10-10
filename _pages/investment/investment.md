@@ -21,3 +21,4 @@ hidden: false
 ## portfolio
 
 - [portfolio_US](/investment/portfolio_US)
+- [portfolio_ENERGY](/investment/portfolio_ENERGY)
