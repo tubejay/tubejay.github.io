@@ -14,7 +14,7 @@ hidden: false
 
 ### Crude Oil
 
-66
+77
 
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js">
 </script>
@@ -25,7 +25,7 @@ hidden: false
   "symbols": [
     [
       "Crude Oil Futures",
-      "NYMEX:CL1!"
+      "NYMEX:CL1!|1D"
     ]
   ],
   "chartOnly": false,
@@ -40,7 +40,7 @@ hidden: false
   "scaleMode": "Normal",
   "fontFamily": "sans-serif",
   "noTimeScale": false,
-  "valuesTracking": "1",
+  "valuesTracking": "4",
   "chartType": "line",
   "lineWidth": 1,
   "color" : "rgba( 34 ,171 ,148 ,1 )"
