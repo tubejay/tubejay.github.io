@@ -214,16 +214,16 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:UCO"		,"d": "석유     | +2X"		},
-				{	"s": "AMEX:SCO"		,"d": "석유     | -2X"		},
 				{	"s": "AMEX:BOIL"	,"d": "가스     | +2X"		},
 				{	"s": "AMEX:KOLD"	,"d": "가스     | -2X"		},
+				{	"s": "AMEX:UCO"		,"d": "석유     | +2X"		},
+				{	"s": "AMEX:SCO"		,"d": "석유     | -2X"		},
 				{	"s": "AMEX:NRGU"	,"d": "석유 업체 | +3X"		},
 				{	"s": "AMEX:NRGD"	,"d": "석유 업체 | -3X"		},
-				{	"s": "AMEX:GUSH"	,"d": "석유/가스 | +2X"		},
-				{	"s": "AMEX:DRIP"	,"d": "석유/가스 | -2X"		},
 				{	"s": "AMEX:OILU"	,"d": "석유/가스 | +3X"		},
 				{	"s": "AMEX:OILD"	,"d": "석유/가스 | -3X"		},
+				{	"s": "AMEX:GUSH"	,"d": "석유/가스 | +2X"		},
+				{	"s": "AMEX:DRIP"	,"d": "석유/가스 | -2X"		},
 				{	"s": "AMEX:ERX"		,"d": "에너지    | +2X"		},
 				{	"s": "AMEX:ERY"		,"d": "에너지    | -2X"		},
 				{	"s": "AMEX:UPW"		,"d": "유틸리티  | +2X"		},
