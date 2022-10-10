@@ -2,8 +2,8 @@
 title: "portfolio_ENERGY"
 layout: single
 permalink: /investment/portfolio_ENERGY
-published: false
-hidden: true
+published: true
+hidden: false
 ---
 
 <head>
