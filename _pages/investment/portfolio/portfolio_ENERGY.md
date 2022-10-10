@@ -12,10 +12,6 @@ hidden: false
 
 
 
-### [Widgets](https://www.eia.gov/opendata/widgets.php)
-
-
-
 ### Crude Oil
 
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js">
@@ -24,7 +20,7 @@ hidden: false
   "symbols": [
     [
       "Crude Oil Futures",
-      "NYMEX:CL1!|1D"
+      "NYMEX:CL1!"
     ]
   ],
   "chartOnly": false,
