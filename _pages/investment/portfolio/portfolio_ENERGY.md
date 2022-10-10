@@ -48,6 +48,7 @@ hidden: true
 | Production | [US Natural Gas Marketed Production](https://ycharts.com/indicators/us_natural_gas_marketed_production_ngm) |
 |            | [US Natural Gas Production (Dry)](https://ycharts.com/indicators/us_natural_gas_production_dry_mer_cubic_feet) |
 | Rig | [US Natural Gas Rig Count](https://ycharts.com/indicators/us_gas_rotary_rigs) |
+|     | [World Gas Rig Count](https://ycharts.com/indicators/world_gas_rotary_rigs) |
 | Consumption | [US Natural Gas Consumption](https://ycharts.com/indicators/us_natural_gas_consumption_mer) |
 |             | [NATURAL GAS STORAGE DASHBOARD](https://www.eia.gov/naturalgas/storage/dashboard/) |
 | Trade | [US Natural Gas Imports](https://ycharts.com/indicators/us_natural_gas_imports) |
