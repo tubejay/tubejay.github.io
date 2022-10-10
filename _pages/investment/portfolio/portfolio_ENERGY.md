@@ -14,6 +14,8 @@ hidden: false
 
 ### Crude Oil
 
+11
+
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js">
   new TradingView.MediumWidget(
   {
