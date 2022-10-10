@@ -35,7 +35,7 @@ hidden: false
   "autosize": false,
   "showVolume": false,
   "hideDateRanges": false,
-  "scalePosition": "left",
+  "scalePosition": "right",
   "scaleMode": "Normal",
   "fontFamily": "sans-serif",
   "noTimeScale": false,
