@@ -38,9 +38,6 @@ hidden: true
 
 | 분류 | 링크 |
 | :- | :- |
-| eia | [Natural Gas Weekly Update](https://www.eia.gov/naturalgas/weekly/) |
-|     | [Natural Gas Storage Dashboard](https://www.eia.gov/naturalgas/storage/dashboard/) |
-|     | [Weekly Natural Gas Storage Report](https://ir.eia.gov/ngs/ngs.html) |
 | Futures | [Natural Gas Futures](https://www.tradingview.com/symbols/NYMEX-NG1!/) |
 | Positions | [NYMEX Natural Gas Futures Managed Money Long Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_long_positions) |
 |           | [NYMEX Natural Gas Futures Managed Money Short Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_short_positions) |
