@@ -478,7 +478,8 @@ hidden: false
 	"tabs": [
 		{
 			"symbols": [
-				{	"s": "AMEX:BITO"		,"d": "비트코인"			},
+				{	"s": "AMEX:BITO"		,"d": "비트코인 | +1X"		},
+				{	"s": "AMEX:BITI"		,"d": "비트코인 | -1X"		},
 				{	"s": "AMEX:BITQ"		,"d": "암호화폐 기업"		},
 				{	"s": "AMEX:BLOK"		,"d": "블록체인 기업"		},
 				{	"s": "NASDAQ:BLCN"		,"d": "블록체인 기업"		},
