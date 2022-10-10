@@ -18,6 +18,35 @@ hidden: false
 
 ### Crude Oil
 
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js">
+</script>
+<script type="text/javascript">
+  new TradingView.MediumWidget(
+  {
+  "symbols": [
+    [
+      "Crude Oil Futures",
+      "NYMEX:CL1!|12M"
+    ]
+  ],
+  "chartOnly": true,
+  "width": 350,
+  "height": 500,
+  "locale": "en",
+  "colorTheme": "dark",
+  "autosize": false,
+  "showVolume": false,
+  "hideDateRanges": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "sans-serif",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "chartType": "line"
+  }
+  );
+</script>
+
 | 분류 | 링크 |
 | :- | :- |
 | Futures | [Light Crude Oil Futures](https://www.tradingview.com/symbols/NYMEX-CL1%21/) |
