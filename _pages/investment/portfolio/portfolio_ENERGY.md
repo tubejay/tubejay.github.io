@@ -19,14 +19,12 @@ hidden: false
 ### Crude Oil
 
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js">
-</script>
-<script type="text/javascript">
   new TradingView.MediumWidget(
   {
   "symbols": [
     [
       "Crude Oil Futures",
-      "NYMEX:CL1!|1M"
+      "NYMEX:CL1!"
     ]
   ],
   "chartOnly": false,
@@ -44,8 +42,7 @@ hidden: false
   "valuesTracking": "1",
   "chartType": "line",
   "lineWidth": 1,
-  "plotLineColorGrowing" : "rgba( 34 ,171 ,148 ,1 )",
-  "plotLineColorFalling" : "rgba( 247 ,82 ,95 ,1 )"
+  "Color" : "rgba( 34 ,171 ,148 ,1 )"
   }
   );
 </script>
