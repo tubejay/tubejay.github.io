@@ -80,7 +80,7 @@ hidden: false
   "symbols": [
     [
       "Natural Gas Futures",
-      "NYMEX:CL1!|1M"
+      "NYMEX:NG1!|1M"
     ]
   ],
   "chartOnly": false,
