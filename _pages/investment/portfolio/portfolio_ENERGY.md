@@ -54,12 +54,32 @@ hidden: false
 	new TradingView.MediumWidget({
 		"symbols": [
 			[
-				"Managed Money Positions Long",
-				"067651_F_MMP_L"
+				"Positions Long",
+				"067651_F_MMP_L|1M"
 			],
 			[
-				"Managed Money Positions Short",
-				"067651_F_MMP_S"
+				"Positions Short",
+				"067651_F_MMP_S|1M"
+			],
+			[
+				"Stocks Change",
+				"USCOSC|1M"
+			],
+			[
+				"Production",
+				"USCOP|1M"
+			],
+			[
+				"Rigs",
+				"USCOR|1M"
+			],
+			[
+				"Imports",
+				"USCOI|1M"
+			],
+			[
+				"Exports",
+				"USOE|1M"
 			]
 		],
 		"chartOnly"			  	: false,
