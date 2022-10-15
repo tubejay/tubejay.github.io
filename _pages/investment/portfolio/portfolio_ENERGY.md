@@ -18,12 +18,48 @@ hidden: false
 ### Crude Oil
 
 <br>
+
 <script type="text/javascript">
 	new TradingView.MediumWidget({
 		"symbols": [
 			[
 				"Crude Oil Futures",
 				"NYMEX:CL1!|1M"
+			]
+		],
+		"chartOnly"			  	: false,
+		"width"				    	: 350,
+		"height"				    : 500,
+		"locale"	  		  	: "en",
+		"colorTheme"		  	: "dark",
+		"autosize"			  	: false,
+		"showVolume"		  	: false,
+		"hideDateRanges"		: false,
+		"scalePosition"			: "right",
+		"scaleMode"			  	: "Normal",
+		"fontFamily"		  	: "sans-serif",
+		"noTimeScale"		  	: false,
+		"valuesTracking"		: "1",
+		"chartType"			  	: "line",
+		"lineWidth"			  	: 1,
+		"color"					    : "rgba( 34 ,171 ,148 ,1 )",
+		"fontColor"			  	: "rgba( 255 ,255 ,255 ,1 )",
+		"backgroundColor"		: "rgba( 0 ,0 ,0 ,1 )",
+		"gridLineColor"			: "rgba( 255 ,255 ,255 ,0.25 )",
+		"widgetFontColor"		: "rgba( 255 ,255 ,255 ,1 )"
+	});
+</script>
+
+<script type="text/javascript">
+	new TradingView.MediumWidget({
+		"symbols": [
+			[
+				"Managed Money Positions Long",
+				"067651_F_MMP_L"
+			],
+			[
+				"Managed Money Positions Short",
+				"067651_F_MMP_S"
 			]
 		],
 		"chartOnly"			  	: false,
@@ -79,6 +115,7 @@ hidden: false
 ### Natural Gas
 
 <br>
+
 <script type="text/javascript">
 	new TradingView.MediumWidget({
 		"symbols": [
