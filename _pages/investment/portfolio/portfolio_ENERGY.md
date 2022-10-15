@@ -85,7 +85,7 @@ hidden: false
 		"height"				    : 500,
 		"locale"	  		  	: "en",
 		"colorTheme"		  	: "dark",
-		"autosize"			  	: false,
+		"autosize"			  	: true,
 		"showVolume"		  	: false,
 		"hideDateRanges"		: false,
 		"scalePosition"			: "right",
