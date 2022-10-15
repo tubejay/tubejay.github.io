@@ -213,7 +213,7 @@ hidden: false
 |       	  	| YCharts     | [Natural Gas Storage Change](https://ycharts.com/indicators/natural_gas_storage_change) |
 |				      |             | [US Natural Gas Underground Storage Volume](https://ycharts.com/indicators/us_natural_gas_underground_storage_volume) |
 |				      |             | [US Natural Gas Storage Withdrawals](https://ycharts.com/indicators/us_natural_gas_storage_activity_withdrawals) |
-|				      |             | [Weekly Natural Gas Storage Report](https://ir.eia.gov/ngs/ngs.html) |
+|				      | U.S. Energy Information Administration | [Weekly Natural Gas Storage Report](https://ir.eia.gov/ngs/ngs.html) |
 | Production	| YCharts     | [US Natural Gas Marketed Production](https://ycharts.com/indicators/us_natural_gas_marketed_production_ngm) |
 |				      |             | [US Natural Gas Production (Dry)](https://ycharts.com/indicators/us_natural_gas_production_dry_mer_cubic_feet) |
 | Rig			    | YCharts     | [US Natural Gas Rig Count](https://ycharts.com/indicators/us_gas_rotary_rigs) |
