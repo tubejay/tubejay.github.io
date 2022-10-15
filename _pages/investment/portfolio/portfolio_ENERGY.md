@@ -209,11 +209,11 @@ hidden: false
 |             |             | [Natural Gas - NYMEX - Futures - Managed Money Positions Short (ALL)](https://www.tradingview.com/symbols/COT2-023651_F_MMP_S/) |
 |         		| YCharts     | [NYMEX Natural Gas Futures Managed Money Long Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_long_positions) |
 |				      |             | [NYMEX Natural Gas Futures Managed Money Short Positions](https://ycharts.com/indicators/nymex_natural_gas_futures_managed_money_short_positions) |
-| Storage     | TradingView | [United States Natural Gas Stocks Change](https://www.tradingview.com/symbols/ECONOMICS-USNGSC/) |
+|	Storage    | U.S. Energy Information Administration | [Weekly Natural Gas Storage Report](https://ir.eia.gov/ngs/ngs.html) |
+|             | TradingView | [United States Natural Gas Stocks Change](https://www.tradingview.com/symbols/ECONOMICS-USNGSC/) |
 |       	  	| YCharts     | [Natural Gas Storage Change](https://ycharts.com/indicators/natural_gas_storage_change) |
 |				      |             | [US Natural Gas Underground Storage Volume](https://ycharts.com/indicators/us_natural_gas_underground_storage_volume) |
 |				      |             | [US Natural Gas Storage Withdrawals](https://ycharts.com/indicators/us_natural_gas_storage_activity_withdrawals) |
-|				      | U.S. Energy Information Administration | [Weekly Natural Gas Storage Report](https://ir.eia.gov/ngs/ngs.html) |
 | Production	| YCharts     | [US Natural Gas Marketed Production](https://ycharts.com/indicators/us_natural_gas_marketed_production_ngm) |
 |				      |             | [US Natural Gas Production (Dry)](https://ycharts.com/indicators/us_natural_gas_production_dry_mer_cubic_feet) |
 | Rig			    | YCharts     | [US Natural Gas Rig Count](https://ycharts.com/indicators/us_gas_rotary_rigs) |
