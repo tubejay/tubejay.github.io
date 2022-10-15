@@ -167,6 +167,45 @@ hidden: false
 	});
 </script>
 
+<script type="text/javascript">
+	new TradingView.MediumWidget({
+		"symbols": [
+			[
+				"Positions Long",
+				"023651_F_MMP_L|1M"
+			],
+			[
+				"Positions Short",
+				"023651_F_MMP_S|1M"
+			],
+			[
+				"Stocks Change",
+				"USNGSC|1M"
+			]
+		],
+		"chartOnly"			  	: false,
+		"width"				    	: 350,
+		"height"				    : 500,
+		"locale"	  		  	: "en",
+		"colorTheme"		  	: "dark",
+		"autosize"			  	: false,
+		"showVolume"		  	: false,
+		"hideDateRanges"		: false,
+		"scalePosition"			: "right",
+		"scaleMode"			  	: "Normal",
+		"fontFamily"		  	: "sans-serif",
+		"noTimeScale"		  	: false,
+		"valuesTracking"		: "1",
+		"chartType"			  	: "line",
+		"lineWidth"			  	: 1,
+		"color"					    : "rgba( 34 ,171 ,148 ,1 )",
+		"fontColor"			  	: "rgba( 255 ,255 ,255 ,1 )",
+		"backgroundColor"		: "rgba( 0 ,0 ,0 ,1 )",
+		"gridLineColor"			: "rgba( 255 ,255 ,255 ,0.25 )",
+		"widgetFontColor"		: "rgba( 255 ,255 ,255 ,1 )"
+	});
+</script>
+
 | 분류 | 출처 | 링크 |
 | :- | :- | :- |
 | Futures		  | TradingView | [Natural Gas Futures](https://www.tradingview.com/symbols/NYMEX-NG1!/) |
