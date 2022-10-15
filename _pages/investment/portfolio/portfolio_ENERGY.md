@@ -52,15 +52,15 @@ hidden: false
 	new TradingView.MediumWidget({
 		"symbols": [
 			[
-				"Positions Long",
+				"Long",
 				"067651_F_MMP_L|1M"
 			],
 			[
-				"Positions Short",
+				"Short",
 				"067651_F_MMP_S|1M"
 			],
 			[
-				"Stocks Change",
+				"Stocks",
 				"USCOSC|1M"
 			],
 			[
@@ -167,15 +167,15 @@ hidden: false
 	new TradingView.MediumWidget({
 		"symbols": [
 			[
-				"Positions Long",
+				"Long",
 				"023651_F_MMP_L|1M"
 			],
 			[
-				"Positions Short",
+				"Short",
 				"023651_F_MMP_S|1M"
 			],
 			[
-				"Stocks Change",
+				"Stocks",
 				"USNGSC|1M"
 			]
 		],
