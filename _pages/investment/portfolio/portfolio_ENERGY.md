@@ -17,8 +17,6 @@ hidden: false
 
 ### Crude Oil
 
-<br>
-
 <script type="text/javascript">
 	new TradingView.MediumWidget({
 		"symbols": [
@@ -133,8 +131,6 @@ hidden: false
 
 
 ### Natural Gas
-
-<br>
 
 <script type="text/javascript">
 	new TradingView.MediumWidget({
