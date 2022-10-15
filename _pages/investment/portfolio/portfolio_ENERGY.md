@@ -81,7 +81,7 @@ hidden: false
 			]
 		],
 		"chartOnly"			  	: false,
-		"width"				    	: 350,
+		"width"				    	: "100%",
 		"height"				    : 500,
 		"locale"	  		  	: "en",
 		"colorTheme"		  	: "dark",
