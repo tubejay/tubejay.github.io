@@ -17,13 +17,35 @@ hidden: false
 
 - FL(First Layer) ➡️ OLL(Orientation of the Last Layer) ➡️ PLL(Permutation of the Last Layer)
 - FL(First Layer) ➡️ PLL(Permutation of the Last Layer) ➡️ OLL(Orientation of the Last Layer)
-- Ortega : FF(First Face) ➡️ OF(Opposite Face) ➡️ PBL(Permutation of Both Layers)
+- Ortega
+  - FF(First Face)
+  - OF(Opposite Face)
+  - PBL(Permutation of Both Layers)
 
 ## 3x3x3
 
-- CFOP : Cross ➡️ F2L(First Two Layers) ➡️ 2-Look OLL(Orientation of the Last Layer) ➡️ 2-Look PLL(Permutation of the Last Layer)
-- Cross - F2L(First Two Layers) ➡️ EOLL(Edge Orientation of the Last Layer) ➡️ EPLL(Edge Permutation of the Last Layer) ➡️ CPLL(Corner Permutation of the Last Layer) ➡️ COLL(Corner Orientation of the Last Layer)
-- Roux : F2B(First Two Blocks) ➡️ CMLL(Corner of the Last Layer, M-slice edges) ➡️ EO(Edge Orientation) ➡️ UR/UL Edges ➡️ M slice
+- CFOP
+  - Cross
+  - F2L(First Two Layers)
+  - 2-Look OLL(Orientation of the Last Layer)
+  - 2-Look PLL(Permutation of the Last Layer)
+- CFEC
+  - Cross
+  - F2L(First Two Layers)
+  - ELL(Edges of the Last Layer)
+    - EOLL(Edge Orientation of the Last Layer)
+    - EPLL(Edge Permutation of the Last Layer)
+  - CLL(Corners of the Last Layer)
+    - CPLL(Corner Permutation of the Last Layer)
+    - COLL(Corner Orientation of the Last Layer)
+- Roux
+  - F2B(First Two Blocks)
+  - L10P(Last 10 Pieces)
+    - CMLL(Corner of the Last Layer / M-slice edges)
+    - LSE(Last Six Edges)
+      - EO(Edge Orientation)
+      - UR/UL edges
+      - M slice
 
 ## 4x4x4
 
