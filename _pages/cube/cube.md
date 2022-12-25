@@ -13,8 +13,6 @@ hidden: false
 
 
 
-## information
-
-
+## [information](/cube/information)
 
 ## method
