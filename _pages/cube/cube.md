@@ -15,4 +15,4 @@ hidden: false
 
 ## [information](/cube/information)
 
-## method
+## [method](/cube/method)
