@@ -34,11 +34,12 @@ hidden: false
 
 ## notation
 
+- [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/Category:Puzzle_notations)
 - [J Perm](https://jperm.net/3x3/moves)
 - [iamzoone](https://youtu.be/Ct9XeePKamw)
 - [iamzoone](https://youtu.be/CMkWteCTojM)
 - [iamzoone](https://youtu.be/iF8TqcpMs9w)
-- [vincent](https://m.blog.naver.com/vincentcube/222652121250)
+- [vincent](https://m.blog.naver.com/vincentcube?categoryName=%EB%AA%85%EC%B9%AD%EA%B3%BC%20%EA%B8%B0%ED%98%B8&categoryNo=10)
 
 ## buy
 
