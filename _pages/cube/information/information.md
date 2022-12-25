@@ -15,6 +15,7 @@ hidden: false
 
 ## website
 
+- [Twisty Puzzles](https://www.twistypuzzles.com/)
 - [SpeedCubeDB](https://speedcubedb.com/)
 - [Speedsolving Wiki](https://www.speedsolving.com/wiki)
 - [AlgDb](http://algdb.net/)
