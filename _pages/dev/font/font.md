@@ -17,7 +17,6 @@ hidden: false
 
 - [Programming Fonts](https://www.programmingfonts.org/)
 - [Dev Fonts](https://devfonts.gafi.dev/)
-- [Coding Fonts](https://coding-fonts.css-tricks.com/)
 - [Font Tournament](https://www.codingfont.com/)
 
 ## Web
