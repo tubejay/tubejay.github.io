@@ -15,8 +15,14 @@ hidden: false
 
 ## 2x2x2
 
-- FL(First Layer) ➡️ OLL(Orientation of the Last Layer) ➡️ PLL(Permutation of the Last Layer)
-- FL(First Layer) ➡️ PLL(Permutation of the Last Layer) ➡️ OLL(Orientation of the Last Layer)
+- FOP
+  - FL(First Layer)
+  - OLL(Orientation of the Last Layer)
+  - PLL(Permutation of the Last Layer)
+- FPO
+  - FL(First Layer)
+  - PLL(Permutation of the Last Layer)
+  - OLL(Orientation of the Last Layer)
 - Ortega
   - FF(First Face)
   - OF(Opposite Face)
