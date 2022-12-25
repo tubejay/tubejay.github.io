@@ -10,3 +10,5 @@ main:
     url: /investment
   - title: "Dev"
     url: /dev
+  - title: "Cube"
+    url: /cube
