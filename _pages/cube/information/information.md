@@ -13,10 +13,12 @@ hidden: false
 
 
 
-## website
+## reference
+
+### website
 
 - [Twisty Puzzles](https://www.twistypuzzles.com/)
-- [SpeedCubeDB](https://speedcubedb.com/)
+- [Speed Cube DB](https://speedcubedb.com/)
 - [Speedsolving Wiki](https://www.speedsolving.com/wiki)
 - [AlgDb](http://algdb.net/)
 - [CubeSkills](https://www.cubeskills.com/)
@@ -24,7 +26,7 @@ hidden: false
 - [vincent](https://m.blog.naver.com/vincentcube)
 - [csTimer](https://cstimer.net/)
 
-## YouTube
+### YouTube
 
 - [J Perm](https://youtube.com/@JPerm)
 - [iamzoone](https://youtube.com/@iamzoone)
@@ -32,7 +34,11 @@ hidden: false
 - [듀나메스](https://youtube.com/@user-nd7lp2vh8m)
 - [굿맨](https://youtube.com/@goodmancube)
 
-## notation
+
+
+## solution
+
+### notation
 
 - [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/Category:Puzzle_notations)
 - [J Perm](https://jperm.net/3x3/moves)
@@ -41,7 +47,22 @@ hidden: false
 - [iamzoone](https://youtu.be/iF8TqcpMs9w)
 - [vincent](https://m.blog.naver.com/vincentcube?categoryName=%EB%AA%85%EC%B9%AD%EA%B3%BC%20%EA%B8%B0%ED%98%B8&categoryNo=10)
 
-## buy
+### method
+
+- [Speed Cube DB - Algorithms](https://speedcubedb.com/a/3x3)
+- [Speedsolving Wiki - List of methods](https://www.speedsolving.com/wiki/index.php/List_of_methods)
+- [AlgDb - Puzzles](http://algdb.net/)
+- [CubeSkills - Tutorials](https://www.cubeskills.com/tutorials)
+
+
+
+## puzzle
+
+### type
+
+- [Twisty Puzzles - Museum](https://www.twistypuzzles.com/app/museum/museum_search.php)
+
+### buy
 
 - [큐브난나](https://naver.me/GOuMpvlz)
 - [큐브릭샵](https://naver.me/GEQma8JB)
