@@ -30,7 +30,6 @@ hidden: false
 - [Happy Cubing](https://youtube.com/@HappyCubing333)
 - [듀나메스](https://youtube.com/@user-nd7lp2vh8m)
 - [굿맨](https://youtube.com/@goodmancube)
-- [풍월이](https://youtube.com/@cube1)
 
 ## notation
 
