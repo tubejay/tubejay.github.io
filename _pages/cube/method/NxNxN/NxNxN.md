@@ -62,13 +62,20 @@ hidden: false
       - UR/UL edges
       - M slice
 
-## 4x4x4
+## NxNxN with N$\geq$4
 
-## 5x5x5
-
-## 6x6x6
-
-## 7x7x7
+- center
+  - reference : [아이엠준](https://youtu.be/4ViuGBx14zg)
+- N=4
+  - reference : [아이엠준](https://youtu.be/jqSLBR38hUA)
+  - Yau : [아이엠준](https://youtu.be/jcEelDhL7KU)
+  - Mayer : [아이엠준](https://youtu.be/iBbqL0v3naI)
+- N=5
+  - reference : [아이엠준](https://youtu.be/wU1Gj2ruEIQ)
+- N=6
+  - reference : [아이엠준](https://youtu.be/ZUyDa2_dVFU)
+- N=7
+  - reference : [아이엠준](https://youtu.be/3wynYMk4eZk)
 
 ## modification
 
