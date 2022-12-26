@@ -32,9 +32,17 @@ hidden: false
 
 - CFOP
   - Cross
+    - reference : [해피 큐빙](https://youtu.be/UQbHf8tmbp4)
   - F2L(First Two Layers)
+    - reference : [아이엠준](https://youtu.be/OMbs-nR8ID0)
+    - reference : [해피 큐빙](https://youtu.be/npoWOTF-BKg)
+    - reference : [해피 큐빙](https://youtu.be/qZ6bxsxMcQM)
   - 2-Look OLL(Orientation of the Last Layer)
+    - reference : [아이엠준](https://youtu.be/Jt2yRE_HdrE)
+    - reference : [해피 큐빙](https://youtu.be/YNM1n7Ej6HM)
   - 2-Look PLL(Permutation of the Last Layer)
+    - reference : [아이엠준](https://youtu.be/HVIEiMsfFk0)
+    - reference : [해피 큐빙](https://youtu.be/YWV21l52liA)
 - CFEC
   - Cross
   - F2L(First Two Layers)
