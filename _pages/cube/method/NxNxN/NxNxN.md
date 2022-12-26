@@ -82,9 +82,9 @@ hidden: false
 
 ## modification
 
-- Fisher
+- Fisher/Windmill
   - reference : [아이엠준](https://youtu.be/x9SySGU_iqE)
-- Windmill
+  - reference : [굿맨](https://youtu.be/gELuvKW2Itw)
 - Axis
   - reference : [아이엠준](https://youtu.be/fFtSgap-zeo)
 - Mirror
