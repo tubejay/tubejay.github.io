@@ -20,10 +20,13 @@ hidden: false
   - OLL(Orientation of the Last Layer)
   - PLL(Permutation of the Last Layer)
 - FPO
+  - reference : [아이엠준](https://youtu.be/3UtuDW2THL4)
   - FL(First Layer)
   - PLL(Permutation of the Last Layer)
   - OLL(Orientation of the Last Layer)
 - Ortega
+  - reference : [아이엠준](https://youtu.be/BNmOS69maw4)
+  - reference : [해피 큐빙](https://youtu.be/3d1IKL6HMUs)
   - FF(First Face)
   - OF(Opposite Face)
   - PBL(Permutation of Both Layers)
