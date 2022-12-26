@@ -45,6 +45,7 @@ hidden: false
     - CPLL(Corner Permutation of the Last Layer)
     - COLL(Corner Orientation of the Last Layer)
 - Roux
+  - reference : [아이엠준](https://youtu.be/_yLfgnEx3ao)
   - F2B(First Two Blocks)
   - L10P(Last 10 Pieces)
     - CMLL(Corner of the Last Layer / M-slice edges)
@@ -64,6 +65,9 @@ hidden: false
 ## modification
 
 - Fisher
+  - reference : [아이엠준](https://youtu.be/x9SySGU_iqE)
 - Windmill
 - Axis
+  - reference : [아이엠준](https://youtu.be/fFtSgap-zeo)
 - Mirror
+  - reference : [아이엠준](https://youtu.be/5BFRk7amyvk)
