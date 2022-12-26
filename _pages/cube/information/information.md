@@ -28,11 +28,12 @@ hidden: false
 
 ### YouTube
 
-- [J Perm](https://youtube.com/@JPerm)
-- [iamzoone](https://youtube.com/@iamzoone)
-- [Happy Cubing](https://youtube.com/@HappyCubing333)
+- [아이엠준](https://youtube.com/@iamzoone)
+- [해피 큐빙](https://youtube.com/@HappyCubing333)
 - [듀나메스](https://youtube.com/@user-nd7lp2vh8m)
 - [굿맨](https://youtube.com/@goodmancube)
+- [큐브놀이터](https://youtube.com/@user-ty9xq9hd8i)
+- [투마이](https://youtube.com/@toumai)
 
 
 
