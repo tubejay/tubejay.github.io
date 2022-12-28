@@ -21,3 +21,11 @@ hidden: false
 - Face Turning Octahedron
   - reference : [듀나메스](https://youtu.be/BqZJcTec904)
   - reference : [굿맨](https://youtu.be/7HLGrcSPpZE)
+
+
+
+## corner turning
+
+- 4x4 Octahedron
+  - reference : <https://youtu.be/dpjr6714r24>
+  - reference : <https://youtu.be/kr9XNulhS18>
