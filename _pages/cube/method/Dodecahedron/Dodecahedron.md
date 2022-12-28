@@ -23,3 +23,33 @@ hidden: false
 - 4x4 / Master Kilominx
 - 5x5 / Gigaminx
 - 6x6 / Elite Kilominx
+
+
+
+## dodecahedron
+
+- 2x2 Dodecahedron
+  - reference : <https://youtu.be/4M2a0_rPuZg>
+- 4-Axis Dodecahedron
+  - reference : <https://youtu.be/DopCJWlSDe8>
+
+
+## face turning
+
+- 12-Axis Dodecahedron Diamond
+  - reference : [듀나메스](https://youtu.be/jexonAM9sc8)
+  - reference : <https://youtu.be/TPD3xXSsnKg>
+- 12-Axis Rhombic Dodecahedron
+  - reference : [듀나메스](https://youtu.be/rgcy8xsUVIw)
+  - reference : [굿맨](https://youtu.be/c6BFwOWII-E)
+  - reference : [굿맨](https://youtu.be/-pyMeXo-DA0)
+  - reference : [굿맨](https://youtu.be/jaVQJ6CAjME)
+
+
+
+## corner turning
+
+- Rhombic Dodecahedron
+  - reference : <https://youtu.be/_KGGrfL9djI>
+- 4x4 Rhombic Dodecahedron
+  - reference : <https://youtu.be/c8aK9DTzfWg>
