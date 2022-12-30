@@ -13,7 +13,7 @@ hidden: false
 
 
 
-## 2x2x2
+## [2x2x2](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=20)
 
 - FOP
   - FL(First Layer)
@@ -31,7 +31,7 @@ hidden: false
   - OF(Opposite Face)
   - PBL(Permutation of Both Layers)
 
-## 3x3x3
+## [3x3x3](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2968)
 
 - CFOP
   - Cross
@@ -69,23 +69,23 @@ hidden: false
 
 - center
   - reference : [아이엠준](https://youtu.be/4ViuGBx14zg)
-- N=4
+- [N=4](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=265)
   - reference : [아이엠준](https://youtu.be/jqSLBR38hUA)
   - Yau : [아이엠준](https://youtu.be/jcEelDhL7KU)
   - Mayer : [아이엠준](https://youtu.be/iBbqL0v3naI)
-- N=5
+- [N=5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=268)
   - reference : [아이엠준](https://youtu.be/wU1Gj2ruEIQ)
-- N=6
+- [N=6](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1485)
   - reference : [아이엠준](https://youtu.be/ZUyDa2_dVFU)
-- N=7
+- [N=7](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1486)
   - reference : [아이엠준](https://youtu.be/3wynYMk4eZk)
 
 ## modification
 
-- Fisher / Windmill
+- [Fisher](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=624) / [Windmill](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1358)
   - reference : [아이엠준](https://youtu.be/x9SySGU_iqE)
   - reference : [굿맨](https://youtu.be/gELuvKW2Itw)
-- Axis
+- [Axis](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1598)
   - reference : [아이엠준](https://youtu.be/fFtSgap-zeo)
-- Mirror
+- [Mirror / Bump](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1579)
   - reference : [아이엠준](https://youtu.be/5BFRk7amyvk)
