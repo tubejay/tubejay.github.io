@@ -82,7 +82,10 @@ hidden: false
 
 ## modification
 
-- [Fisher](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=624) / [Windmill](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1358)
+- [Fisher](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=624)
+  - reference : [아이엠준](https://youtu.be/x9SySGU_iqE)
+  - reference : [굿맨](https://youtu.be/gELuvKW2Itw)
+- [Windmill](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1358)
   - reference : [아이엠준](https://youtu.be/x9SySGU_iqE)
   - reference : [굿맨](https://youtu.be/gELuvKW2Itw)
 - [Axis](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1598)
