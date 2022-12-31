@@ -24,4 +24,5 @@ hidden: false
 ## Method
 
 - reference
+  - [굿맨](https://youtu.be/j03rjmXctRQ)
   - [큐브놀이터](https://youtu.be/WIy5ZvTXsOY)
