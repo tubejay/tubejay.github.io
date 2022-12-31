@@ -15,21 +15,13 @@ hidden: false
 
 ## Face Turning
 
-- [2x2 / Jing Pyraminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1578)
-  - reference : [굿맨](https://youtu.be/Zw-J5DfFHzU)
-  - reference : [투마이](https://youtu.be/vG2l_-JorCQ)
-- [3x3 / Pyraminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=540)
-  - reference : [아이엠준](https://youtu.be/mO3excjvvoA)
-  - reference : [큐브놀이터](https://youtu.be/Vrc7lw_z5-8)
-  - reference : [투마이](https://youtu.be/5L4vhS1rqeE)
-- [4x4 / Master Pyraminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1352)
-  - reference : [듀나메스](https://youtu.be/7_c3Tq3HXXw)
-  - reference : [큐브놀이터](https://youtu.be/_8BFbOnrjPg)
-  - reference : [투마이](https://youtu.be/i1o5SqqKBlg)
+- [2x2 / Jing Pyraminx](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
+- [3x3 / Pyraminx](/cube/method/tetrahedron/3x3_pyraminx)
+- [4x4 / Master Pyraminx](/cube/method/tetrahedron/4x4_master_pyraminx)
 
 
 
-## edge turning
+## Edge Turning
 
 - [Mastermorphix](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=675)
   - reference : [듀나메스](https://youtu.be/yKW48BaE91M)
@@ -41,7 +33,7 @@ hidden: false
 
 
 
-## corner turning
+## Corner Turning
 
 - [Coin Tetrahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=6748)
   - reference : <https://youtu.be/xBOYU2loer0>
