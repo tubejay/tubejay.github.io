@@ -18,13 +18,12 @@ hidden: false
 - [2x2x2](/cube/method/NxNxN/2x2x2)
 - [3x3x3](/cube/method/NxNxN/3x3x3)
 - [4x4x4](/cube/method/NxNxN/4x4x4)
+- [5x5x5](/cube/method/NxNxN/5x5x5)
 
 
 
 ## NxNxN with N$\geq$4
 
-- [N=5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=268)
-  - reference : [아이엠준](https://youtu.be/wU1Gj2ruEIQ)
 - [N=6](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1485)
   - reference : [아이엠준](https://youtu.be/ZUyDa2_dVFU)
 - [N=7](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1486)
