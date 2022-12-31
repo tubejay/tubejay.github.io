@@ -15,6 +15,8 @@ hidden: false
 
 ## [NxNxN](/cube/method/NxNxN)
 
+## [LxMxN](/cube/method/LxMxN)
+
 ## [Tetrahedron](/cube/method/tetrahedron)
 
 ## [Hexahedron](/cube/method/hexahedron)
