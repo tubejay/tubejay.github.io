@@ -25,19 +25,14 @@ hidden: false
 
 ## Rhombic Dodecahedron
 
-- [Skewb Rhombic Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=653)
-- [3x3x3 Rhombic Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=485)
-- [4x4x4 Rhombic Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1601)
-- [Rua](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1684)
+- [Skewb Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/skewb_rhombic_dodecahedron)
+- [3x3x3 Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/3x3x3_rhombic_dodecahedron)
+- [4x4x4 Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/4x4x4_rhombic_dodecahedron)
+- [Face Turning Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron)
 
 
 
 ## Miscellaneous
 
-- [2x2x2 Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=771)
-  - reference : <https://youtu.be/4M2a0_rPuZg>
-- [Crazy Comet](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1523)
-  - reference : [듀나메스](https://youtu.be/rgcy8xsUVIw)
-  - reference : [굿맨](https://youtu.be/c6BFwOWII-E)
-  - reference : [굿맨](https://youtu.be/-pyMeXo-DA0)
-  - reference : [굿맨](https://youtu.be/jaVQJ6CAjME)
+- [2x2x2 Dodecahedron](/cube/method/dodecahedron/miscellaneous/2x2x2_dodecahedron)
+- [Crazy Comet](/cube/method/dodecahedron/miscellaneous/crazy_comet)
