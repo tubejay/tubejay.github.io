@@ -15,9 +15,9 @@ hidden: false
 
 ## Face Turning
 
-- [2x2 / Jing Pyraminx](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
-- [3x3 / Pyraminx](/cube/method/tetrahedron/3x3_pyraminx)
-- [4x4 / Master Pyraminx](/cube/method/tetrahedron/4x4_master_pyraminx)
+- [2x2 Jing Pyraminx](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
+- [3x3 Pyraminx](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
+- [4x4 Master Pyraminx](/cube/method/tetrahedron/face_turning/4x4_master_pyraminx)
 
 
 
