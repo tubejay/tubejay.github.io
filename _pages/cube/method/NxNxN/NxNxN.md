@@ -16,6 +16,7 @@ hidden: false
 ## [2x2x2](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=20)
 
 - FOP
+  - reference : [굿맨](https://youtu.be/byZU8_inqSU)
   - FL(First Layer)
   - OLL(Orientation of the Last Layer)
   - PLL(Permutation of the Last Layer)
