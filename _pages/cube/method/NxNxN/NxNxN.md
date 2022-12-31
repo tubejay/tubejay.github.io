@@ -17,17 +17,12 @@ hidden: false
 
 - [2x2x2](/cube/method/NxNxN/2x2x2)
 - [3x3x3](/cube/method/NxNxN/3x3x3)
+- [4x4x4](/cube/method/NxNxN/4x4x4)
 
 
 
 ## NxNxN with N$\geq$4
 
-- center
-  - reference : [아이엠준](https://youtu.be/4ViuGBx14zg)
-- [N=4](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=265)
-  - reference : [아이엠준](https://youtu.be/jqSLBR38hUA)
-  - Yau : [아이엠준](https://youtu.be/jcEelDhL7KU)
-  - Mayer : [아이엠준](https://youtu.be/iBbqL0v3naI)
 - [N=5](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=268)
   - reference : [아이엠준](https://youtu.be/wU1Gj2ruEIQ)
 - [N=6](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1485)
