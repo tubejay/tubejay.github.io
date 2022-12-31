@@ -15,12 +15,12 @@ hidden: false
 
 ## 1xMxN
 
-- [1x2x3](/cube/method/1xMxN/1x2x3)
-- [1x3x3](/cube/method/1xMxN/1x3x3)
+- [1x2x3](/cube/method/LxMxN/1xMxN/1x2x3)
+- [1x3x3](/cube/method/LxMxN/1xMxN/1x3x3)
 
 
 
 ## 2xMxN
 
-- [2x2x3](/cube/method/2xMxN/2x2x3)
-- [2x3x3](/cube/method/2xMxN/2x3x3)
+- [2x2x3](/cube/method/LxMxN/2xMxN/2x2x3)
+- [2x3x3](/cube/method/LxMxN/2xMxN/2x3x3)
