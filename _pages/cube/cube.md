@@ -13,6 +13,6 @@ hidden: false
 
 
 
-## [information](/cube/information)
+## [Information](/cube/information)
 
-## [method](/cube/method)
+## [Method](/cube/method)
