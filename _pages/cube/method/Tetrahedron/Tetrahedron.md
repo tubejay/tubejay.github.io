@@ -31,6 +31,4 @@ hidden: false
 
 ## Corner Turning
 
-- [Coin Tetrahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=6748)
-  - reference : <https://youtu.be/xBOYU2loer0>
-  - reference : <https://youtu.be/2WrDNfcfpAg>
+- [Coin Tetrahedron](/cube/method/tetrahedron/corner_turning/coin_tetrahedron)
