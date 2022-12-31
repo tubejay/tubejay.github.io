@@ -1,5 +1,5 @@
 ---
-title: "method"
+title: "Method"
 layout: single
 toc: false
 permalink: /cube/method
