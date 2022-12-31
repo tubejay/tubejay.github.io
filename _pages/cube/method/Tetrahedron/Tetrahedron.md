@@ -8,12 +8,12 @@ hidden: false
 ---
 
 <head>
-  <base target="_blank">
+  <base target="_self">
 </head>
 
 
 
-## face turning
+## Face Turning
 
 - [2x2 / Jing Pyraminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1578)
   - reference : [굿맨](https://youtu.be/Zw-J5DfFHzU)
