@@ -1,5 +1,5 @@
 ---
-title: "information"
+title: "Information"
 layout: single
 toc: false
 permalink: /cube/information
@@ -13,7 +13,7 @@ hidden: false
 
 
 
-## reference
+## Reference
 
 ### website
 
@@ -37,7 +37,7 @@ hidden: false
 
 
 
-## solution
+## Solution
 
 ### notation
 
@@ -57,7 +57,7 @@ hidden: false
 
 
 
-## puzzle
+## Puzzle
 
 ### type
 
