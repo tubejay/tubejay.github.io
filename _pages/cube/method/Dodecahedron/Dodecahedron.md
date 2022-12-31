@@ -23,17 +23,12 @@ hidden: false
 
 
 
-## Rhombic
+## Rhombic Dodecahedron
 
 - [Skewb Rhombic Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=653)
-  - reference : <https://youtu.be/DopCJWlSDe8>
 - [3x3x3 Rhombic Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=485)
-  - reference : <https://youtu.be/_KGGrfL9djI>
 - [4x4x4 Rhombic Dodecahedron](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1601)
-  - reference : <https://youtu.be/c8aK9DTzfWg>
 - [Rua](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1684)
-  - reference : [듀나메스](https://youtu.be/jexonAM9sc8)
-  - reference : <https://youtu.be/TPD3xXSsnKg>
 
 
 
