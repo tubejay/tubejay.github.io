@@ -23,13 +23,9 @@ hidden: false
 
 ## Edge Turning
 
-- [Mastermorphix](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=675)
-  - reference : [듀나메스](https://youtu.be/yKW48BaE91M)
-  - reference : [큐브놀이터](https://youtu.be/VW-CvVZkRzQ)
-- [Pyramorphix](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=542)
-  - reference : [큐브놀이터](https://youtu.be/WIy5ZvTXsOY)
-- [Clover Pyraminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=7135)
-  - reference : [큐브놀이터](https://youtu.be/85_Zb7q5K70)
+- [Mastermorphix](/cube/method/tetrahedron/edge_turning/mastermorphix)
+- [Pyramorphix](/cube/method/tetrahedron/edge_turning/pyramorphix)
+- [Clover Pyraminx](/cube/method/tetrahedron/edge_turning/clover_pyraminx)
 
 
 
