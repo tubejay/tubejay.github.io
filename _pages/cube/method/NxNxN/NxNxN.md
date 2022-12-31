@@ -15,10 +15,10 @@ hidden: false
 
 ## Original
 
-- [2x2x2](/cube/method/NxNxN/2x2x2)
-- [3x3x3](/cube/method/NxNxN/3x3x3)
-- [4x4x4](/cube/method/NxNxN/4x4x4)
-- [5x5x5](/cube/method/NxNxN/5x5x5)
+- [2x2x2](/cube/method/NxNxN/original/2x2x2)
+- [3x3x3](/cube/method/NxNxN/original/3x3x3)
+- [4x4x4](/cube/method/NxNxN/original/4x4x4)
+- [5x5x5](/cube/method/NxNxN/original/5x5x5)
 
 
 
