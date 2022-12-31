@@ -25,3 +25,5 @@ hidden: false
 
 - reference
   - [아이엠준](https://youtu.be/fFtSgap-zeo)
+  - [듀나메스](https://youtu.be/8KjHoNOGWLE)
+  - [굿맨](https://youtu.be/UiMSYt-SRs8)
