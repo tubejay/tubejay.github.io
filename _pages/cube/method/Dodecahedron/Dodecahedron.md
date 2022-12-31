@@ -15,17 +15,11 @@ hidden: false
 
 ## NxN megaminx
 
-- [2x2 / Kilominx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=5723)
-  - reference : [큐브놀이터](https://youtu.be/8-X4GhQnE5I)
-  - reference : <https://youtu.be/uJj7tO6cc4w>
-- [3x3 / Megaminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=650)
-  - reference : [아이엠준](https://youtu.be/2NUsMclrD-0)
-  - reference : [큐브놀이터](https://youtu.be/51_Iv6DU8r8)
-- [4x4 / Master Kilominx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2325)
-  - reference : <https://youtu.be/VAnzC2SYVc4>
-- [5x5 / Gigaminx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1475)
-  - reference : <https://youtu.be/dQ71W9znIHY>
-- [6x6 / Elite Kilominx](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2377)
+- [2x2 Kilominx](/cube/method/dodecahedron/NxN_megaminx/2x2_kilominx)
+- [3x3 Megaminx](/cube/method/dodecahedron/NxN_megaminx/3x3_megaminx)
+- [4x4 Master Kilominx](/cube/method/dodecahedron/NxN_megaminx/4x4_master_kilominx)
+- [5x5 Gigaminx](/cube/method/dodecahedron/NxN_megaminx/5x5_gigaminx)
+- [6x6 Elite Kilominx](/cube/method/dodecahedron/NxN_megaminx/6x6_elite_kilominx)
 
 
 
