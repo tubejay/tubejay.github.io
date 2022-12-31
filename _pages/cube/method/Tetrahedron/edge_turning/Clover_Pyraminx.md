@@ -2,7 +2,7 @@
 title: "Clover Pyramorphix"
 layout: single
 toc: false
-permalink: /cube/method/tetrahedron/edge_turning/clover_pyramorphix
+permalink: /cube/method/tetrahedron/edge_turning/clover_pyraminx
 published: true
 hidden: false
 ---
