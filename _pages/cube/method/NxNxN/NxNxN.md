@@ -26,17 +26,7 @@ hidden: false
 
 ## Modification
 
-- [Fisher](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=624)
-  - reference
-    - [아이엠준](https://youtu.be/x9SySGU_iqE)
-    - [굿맨](https://youtu.be/gELuvKW2Itw)
-- [Windmill](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1358)
-  - reference
-    - [아이엠준](https://youtu.be/x9SySGU_iqE)
-    - [굿맨](https://youtu.be/gELuvKW2Itw)
-- [Axis](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1598)
-    - reference
-      - [아이엠준](https://youtu.be/fFtSgap-zeo)
-- [Mirror / Bump](https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1579)
-  - reference
-    - [아이엠준](https://youtu.be/5BFRk7amyvk)
+- [Fisher](/cube/method/NxNxN/modification/fisher)
+- [Windmill](/cube/method/NxNxN/modification/windmill)
+- [Axis](/cube/method/NxNxN/modification/axis)
+- [Mirror / Bump](/cube/method/NxNxN/modification/mirror_bump)
