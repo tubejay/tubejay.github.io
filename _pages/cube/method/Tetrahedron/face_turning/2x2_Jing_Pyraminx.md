@@ -21,7 +21,7 @@ hidden: false
 
 
 
-## Reduction
+## Method
 
 - reference
   - [굿맨](https://youtu.be/Zw-J5DfFHzU)
