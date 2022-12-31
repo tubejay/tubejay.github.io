@@ -13,13 +13,13 @@ hidden: false
 
 
 
-## face turning
+## Face Turning
 
 - [Skewb Diamond](/cube/method/octahedron/face_turning/skewb_diamond)
 - [Face Turning Octahedron](/cube/method/octahedron/face_turning/face_turning_octahedron)
 
 
 
-## corner turning
+## Corner Turning
 
 - [4x4 Octahedron](/cube/method/octahedron/corner_turning/4x4_octahedron)
