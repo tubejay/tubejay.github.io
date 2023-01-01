@@ -57,5 +57,5 @@ hidden: false
 - [Pentacle Cube](/cube/method/hexahedron/hybrid/pentacle_cube)
 - [Coin Cube](/cube/method/hexahedron/hybrid/coin_cube)
 - [Clover Plus](/cube/method/hexahedron/hybrid/clover_plus)
-- [Butterflower / Shell](/cube/method/hexahedron/hybrid/butterflow_shell)
+- [Butterflower / Shell](/cube/method/hexahedron/hybrid/butterflower_shell)
 - [Flower Copter](/cube/method/hexahedron/hybrid/flower_copter)
