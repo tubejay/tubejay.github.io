@@ -34,6 +34,7 @@ hidden: false
 - [굿맨](https://youtube.com/@goodmancube)
 - [큐브놀이터](https://youtube.com/@user-ty9xq9hd8i)
 - [투마이](https://youtube.com/@toumai)
+- [정유비](https://youtube.com/@duke_jeong)
 
 
 
