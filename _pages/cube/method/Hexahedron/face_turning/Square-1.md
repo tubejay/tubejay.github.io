@@ -2,7 +2,7 @@
 title: "Square-1"
 layout: single
 toc: false
-permalink: /cube/method/tetrahedron/corner_turning/square-1
+permalink: /cube/method/hexahedron/face_turning/square-1
 published: true
 hidden: false
 ---
