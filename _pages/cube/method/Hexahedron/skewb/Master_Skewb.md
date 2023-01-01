@@ -25,20 +25,14 @@ hidden: false
 
 - reference
   - 듀나메스
-    - 1
+    - 1st method
       - <https://youtu.be/mEkF9kW1gN8>
       - <https://youtu.be/mhaSpT4Tfdk>
-    - 2
-      - <https://youtu.be/8-I1EzFtX08>
-    - 3
-      - <https://youtu.be/ycR-WmXJCG0>
+    - [2nd method](https://youtu.be/8-I1EzFtX08)
+    - [3rd method](https://youtu.be/ycR-WmXJCG0)
   - 굿맨
-    - 1
-      - <https://youtu.be/hXcXt_KVvwg>
-    - 2
-      - <https://youtu.be/e5BqiNnKWp4>
-    - 3
-      - <https://youtu.be/HhfVdfthMb4>
-    - 4
-      - <https://youtu.be/dNyAtURRjiQ>
+    - [beginner](https://youtu.be/hXcXt_KVvwg)
+    - [intermediate](https://youtu.be/e5BqiNnKWp4)
+    - [advanced](https://youtu.be/HhfVdfthMb4)
+    - [expert](https://youtu.be/dNyAtURRjiQ)
   - [정유비](https://youtu.be/4pz60TlYRkA)
