@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=6467">
-  <img alt="Six Spot Cube" src="https://twistypuzzles.com/museum/small/06467-08.gif">
+  <img alt="Six Spot Cube" src="https://twistypuzzles.com/museum/large/06467-01.jpg">
 </a>
 
 
