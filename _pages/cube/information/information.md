@@ -44,9 +44,10 @@ hidden: false
 
 - [Speedsolving Wiki - Puzzle notations](https://www.speedsolving.com/wiki/index.php/Category:Puzzle_notations)
 - [J Perm - Move Notation](https://jperm.net/3x3/moves)
-- [iamzoone - 333큐브 회전기호](https://youtu.be/Ct9XeePKamw)
-- [iamzoone - 큐브 기호](https://youtu.be/CMkWteCTojM)
-- [iamzoone - 큐브 용어들](https://youtu.be/iF8TqcpMs9w)
+- 아이엠준
+  - [333큐브 회전기호](https://youtu.be/Ct9XeePKamw)
+  - [큐브 기호](https://youtu.be/CMkWteCTojM)
+  - [큐브 용어들](https://youtu.be/iF8TqcpMs9w)
 - [vincent - 명칭과 기호](https://m.blog.naver.com/vincentcube?categoryName=%EB%AA%85%EC%B9%AD%EA%B3%BC%20%EA%B8%B0%ED%98%B8&categoryNo=10)
 
 ### method
