@@ -23,7 +23,7 @@ hidden: false
 
 ## Method
 
-- step : [Fisher method](/cube/method/NxNxN/modification/Fisher)
+- step : [Fisher method](/cube/method/NxNxN/modification/fisher)
 - reference
   - [아이엠준](https://youtu.be/fFtSgap-zeo)
   - [듀나메스](https://youtu.be/8KjHoNOGWLE)
