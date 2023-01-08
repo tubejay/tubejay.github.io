@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
+- step : [Fisher method](/cube/method/NxNxN/modification/fisher)
 - reference
   - [아이엠준](https://youtu.be/x9SySGU_iqE)
-  - [굿맨](https://youtu.be/gELuvKW2Itw)
+  - 굿맨
+    - [method](https://youtu.be/gELuvKW2Itw)
+    - [OLL parity](https://youtu.be/EaX0xLmwDzM)
