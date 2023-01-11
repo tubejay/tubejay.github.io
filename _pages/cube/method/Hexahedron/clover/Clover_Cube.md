@@ -2,7 +2,7 @@
 title: "Clover Cube"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/edge_turning/clover_cube
+permalink: /cube/method/hexahedron/clover/clover_cube
 published: true
 hidden: false
 ---
