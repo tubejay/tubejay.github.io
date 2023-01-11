@@ -19,13 +19,6 @@ hidden: false
 
 
 
-## Edge Turning
-
-- [Helicopter Cube](/cube/method/hexahedron/edge_turning/helicopter_cube)
-- [Curvy Copter](/cube/method/hexahedron/edge_turning/curvy_copter)
-
-
-
 ## Corner Turning
 
 - [Dino Cube](/cube/method/hexahedron/corner_turning/dino_cube)
@@ -52,6 +45,14 @@ hidden: false
 
 
 
+## Copter
+
+- [Helicopter Cube](/cube/method/hexahedron/copter/helicopter_cube)
+- [Curvy Copter](/cube/method/hexahedron/copter/curvy_copter)
+- [Flower Copter](/cube/method/hexahedron/hybrid/flower_copter)
+
+
+
 ## Skewb
 
 - [Skewb](/cube/method/hexahedron/skewb/skewb)
@@ -65,4 +66,3 @@ hidden: false
 - [Pentacle Cube](/cube/method/hexahedron/hybrid/pentacle_cube)
 - [Coin Cube](/cube/method/hexahedron/hybrid/coin_cube)
 - [Butterflower / Shell](/cube/method/hexahedron/hybrid/butterflower_shell)
-- [Flower Copter](/cube/method/hexahedron/hybrid/flower_copter)
