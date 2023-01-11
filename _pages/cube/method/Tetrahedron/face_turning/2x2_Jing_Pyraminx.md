@@ -24,7 +24,8 @@ hidden: false
 ## Method
 
 - step
-  - corner & edge : [Pyraminx method](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
+  - corner
+  - edge : [Pyraminx method](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
   - center : ( R' L R L' ) ( B ) ( L R' L' R ) ( B' )
 - reference
   - [굿맨](https://youtu.be/Zw-J5DfFHzU)
