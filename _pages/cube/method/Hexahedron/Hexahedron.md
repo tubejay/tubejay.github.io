@@ -49,7 +49,7 @@ hidden: false
 
 - [Helicopter Cube](/cube/method/hexahedron/copter/helicopter_cube)
 - [Curvy Copter](/cube/method/hexahedron/copter/curvy_copter)
-- [Flower Copter](/cube/method/hexahedron/hybrid/flower_copter)
+- [Flower Copter](/cube/method/hexahedron/copter/flower_copter)
 
 
 
