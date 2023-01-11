@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
+- step
+  - corner
+  - center : ( R U' ) ( R' U )
 - reference
   - [투마이](https://youtu.be/e-FgTsVoQZo)
