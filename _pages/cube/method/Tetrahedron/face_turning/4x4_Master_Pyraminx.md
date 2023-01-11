@@ -23,6 +23,11 @@ hidden: false
 
 ## Method
 
+- step
+  - corner
+  - inner edge : [Pyraminx method](/cube/method/tetrahedron/face_turning/pyraminx)
+  - center : [Jing Pyraminx method](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
+  - outer edge
 - reference
   - [듀나메스](https://youtu.be/7_c3Tq3HXXw)
   - [큐브놀이터](https://youtu.be/_8BFbOnrjPg)
