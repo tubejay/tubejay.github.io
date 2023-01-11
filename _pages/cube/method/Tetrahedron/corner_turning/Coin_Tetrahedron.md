@@ -23,6 +23,8 @@ hidden: false
 
 ## Method
 
+- step
+  - corner
+  - edge
 - reference
-  - <https://youtu.be/xBOYU2loer0>
   - <https://youtu.be/2WrDNfcfpAg>
