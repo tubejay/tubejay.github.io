@@ -2,7 +2,7 @@
 title: "Clover Plus"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/hybrid/clover_plus
+permalink: /cube/method/hexahedron/clover/clover_plus
 published: true
 hidden: false
 ---
