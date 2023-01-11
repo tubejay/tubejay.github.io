@@ -2,7 +2,7 @@
 title: "Helicopter Cube"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/edge_turning/helicopter_cube
+permalink: /cube/method/hexahedron/copter/helicopter_cube
 published: true
 hidden: false
 ---
