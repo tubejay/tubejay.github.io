@@ -23,9 +23,10 @@ hidden: false
 
 ## Edge Turning
 
-- [Mastermorphix](/cube/method/tetrahedron/edge_turning/mastermorphix)
 - [Pyramorphix](/cube/method/tetrahedron/edge_turning/pyramorphix)
+- [Mastermorphix](/cube/method/tetrahedron/edge_turning/mastermorphix)
 - [Clover Pyraminx](/cube/method/tetrahedron/edge_turning/clover_pyraminx)
+- [Curvy Clover Pyraminx](/cube/method/tetrahedron/edge_turning/curvy_clover_pyraminx)
 
 
 
