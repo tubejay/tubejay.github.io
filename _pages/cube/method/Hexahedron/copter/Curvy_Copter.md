@@ -2,7 +2,7 @@
 title: "Curvy Copter"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/edge_turning/curvy_copter
+permalink: /cube/method/hexahedron/copter/curvy_copter
 published: true
 hidden: false
 ---
