@@ -25,7 +25,7 @@ hidden: false
 
 - step
   - corner
-  - inner edge : [Pyraminx method](/cube/method/tetrahedron/face_turning/pyraminx)
+  - inner edge : [Pyraminx method](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
   - center : [Jing Pyraminx method](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
   - outer edge
 - reference
