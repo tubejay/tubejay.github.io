@@ -2,7 +2,7 @@
 title: "Polaris Cube"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/corner_turning/polaris_cube
+permalink: /cube/method/hexahedron/hybrid/polaris_cube
 published: true
 hidden: false
 ---
