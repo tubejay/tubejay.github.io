@@ -2,7 +2,7 @@
 title: "Flower Copter"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/hybrid/flower_copter
+permalink: /cube/method/hexahedron/copter/flower_copter
 published: true
 hidden: false
 ---
