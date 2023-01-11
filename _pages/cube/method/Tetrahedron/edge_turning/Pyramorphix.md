@@ -23,6 +23,7 @@ hidden: false
 
 ## Method
 
+- step : [2x2x2 method](/cube/method/NxNxN/original/2x2x2)
 - reference
   - [굿맨](https://youtu.be/j03rjmXctRQ)
   - [큐브놀이터](https://youtu.be/WIy5ZvTXsOY)
