@@ -65,5 +65,5 @@ hidden: false
 
 - [Pentacle Cube](/cube/method/hexahedron/hybrid/pentacle_cube)
 - [Coin Cube](/cube/method/hexahedron/hybrid/coin_cube)
-- [Polaris Cube](/cube/method/hexahedron/corner_turning/polaris_cube)
+- [Polaris Cube](/cube/method/hexahedron/hybrid/polaris_cube)
 - [Butterflower / Shell](/cube/method/hexahedron/hybrid/butterflower_shell)
