@@ -23,5 +23,6 @@ hidden: false
 
 ## Method
 
+- step : [2x2x2 method](/cube/method/NxNxN/original/2x2x2)
 - reference
   - <https://youtu.be/4M2a0_rPuZg>
