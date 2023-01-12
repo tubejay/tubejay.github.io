@@ -1,8 +1,8 @@
 ---
-title: "Eye Skewb / Ivy Cube"
+title: "Ivy Cube / Eye Skewb"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/ivy/eye_skewb_ivy_cube
+permalink: /cube/method/hexahedron/ivy/ivy_cube_eye_skewb
 published: true
 hidden: false
 ---
@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1855">
-  <img alt="Eye Skewb / Ivy Cube" src="https://twistypuzzles.com/museum/large/01855-01.jpg">
+  <img alt="Ivy Cube / Eye Skewb" src="https://twistypuzzles.com/museum/large/01855-01.jpg">
 </a>
 
 
