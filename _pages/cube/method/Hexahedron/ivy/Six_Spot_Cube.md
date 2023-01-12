@@ -23,5 +23,6 @@ hidden: false
 
 ## Method
 
+- step : [Ivy Cube method](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb)
 - reference
   - <https://youtu.be/KFrOpMGMgr0>
