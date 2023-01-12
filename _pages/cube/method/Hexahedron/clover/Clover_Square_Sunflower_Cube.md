@@ -1,8 +1,8 @@
 ---
-title: "Sunflower Cube / Clover Square"
+title: "Clover Square / Sunflower Cube"
 layout: single
 toc: false
-permalink: /cube/method/hexahedron/clover/sunflower_cube_clover_square
+permalink: /cube/method/hexahedron/clover/clover_square_sunflower_cube
 published: true
 hidden: false
 ---
@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=8229">
-  <img alt="Sunflower Cube / Clover Square" src="https://twistypuzzles.com/museum/large/08229-01.jpg">
+  <img alt="Clover Square / Sunflower Cube" src="https://twistypuzzles.com/museum/large/08229-01.jpg">
 </a>
 
 
