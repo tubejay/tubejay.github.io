@@ -25,6 +25,9 @@ hidden: false
 
 - step
   - corner
-  - center : ( R U' ) ( R' U )
+  - center
+    - swap front center & right center
+    - swap left center & bottom center
+    - ( R U' ) ( R' U )
 - reference
   - [투마이](https://youtu.be/e-FgTsVoQZo)
