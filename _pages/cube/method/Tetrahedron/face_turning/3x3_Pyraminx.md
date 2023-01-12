@@ -27,12 +27,12 @@ hidden: false
   - corner
   - edge
     - bottom layer
-      - from right : ( R' L ) ( R L' )
-      - from left : ( L R' ) ( L' R )
+      - move front right edge to front bottom edge : ( R' L ) ( R L' )
+      - move front left edge to front bottom edge : ( L R' ) ( L' R )
     - middle layer
       - permute 3 edges
         - clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
         - counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
-      - flip 2 edges : ( R' L ) ( R L' ) ( U L' ) ( U' L )
+      - flip 2 front edges : ( R' L ) ( R L' ) ( U L' ) ( U' L )
 - reference
   - [아이엠준](https://youtu.be/mO3excjvvoA)
