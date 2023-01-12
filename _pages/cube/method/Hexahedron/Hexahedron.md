@@ -41,7 +41,7 @@ hidden: false
 - [Clover Cube](/cube/method/hexahedron/clover/clover_cube)
 - [Clover Plus](/cube/method/hexahedron/clover/clover_plus)
 - [Master Clover Cube](/cube/method/hexahedron/clover/master_clover_cube)
-- [Sunflower Cube / Clover Square](/cube/method/hexahedron/clover/sunflower_cube_clover_square)
+- [Clover Square / Sunflower Cube](/cube/method/hexahedron/clover/clover_square_sunflower_cube)
 
 
 
