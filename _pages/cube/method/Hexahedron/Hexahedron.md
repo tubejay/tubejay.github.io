@@ -30,7 +30,7 @@ hidden: false
 
 ## Ivy
 
-- [Eye Skewb / Ivy Cube](/cube/method/hexahedron/ivy/eye_skewb_ivy_cube)
+- [Ivy Cube / Eye Skewb](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb)
 - [Six Spot Cube](/cube/method/hexahedron/ivy/six_spot_cube)
 - [Super Ivy / Rex Cube](/cube/method/hexahedron/ivy/super_ivy_rex_cube)
 
