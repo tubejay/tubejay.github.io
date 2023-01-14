@@ -18,6 +18,7 @@ hidden: false
 ### website
 
 - [Twisty Puzzles](https://www.twistypuzzles.com/)
+- [Ruwix](https://ruwix.com/)
 - [Speed Cube DB](https://speedcubedb.com/)
 - [Speedsolving Wiki](https://www.speedsolving.com/wiki)
 - [AlgDb](http://algdb.net/)
@@ -43,6 +44,9 @@ hidden: false
 ### notation
 
 - [Speedsolving Wiki - Puzzle notations](https://www.speedsolving.com/wiki/index.php/Category:Puzzle_notations)
+- Ruwix
+  - [Advanced Rubik's Cube notation](https://ruwix.com/the-rubiks-cube/notation/advanced/)
+  - [3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)
 - [J Perm - Move Notation](https://jperm.net/3x3/moves)
 - 아이엠준
   - [333큐브 회전기호](https://youtu.be/Ct9XeePKamw)
@@ -53,6 +57,7 @@ hidden: false
 ### method
 
 - [Speed Cube DB - Algorithms](https://speedcubedb.com/a/3x3)
+- [Ruwix - Rubik's Cube Algorithms](https://ruwix.com/the-rubiks-cube/algorithm/)
 - [Speedsolving Wiki - List of methods](https://www.speedsolving.com/wiki/index.php/List_of_methods)
 - [AlgDb - Puzzles](http://algdb.net/)
 - [CubeSkills - Tutorials](https://www.cubeskills.com/tutorials)
@@ -64,6 +69,7 @@ hidden: false
 ### type
 
 - [Twisty Puzzles - Museum](https://www.twistypuzzles.com/app/museum/museum_search.php)
+- [Ruwix - Twisty Puzzles](https://ruwix.com/twisty-puzzles/)
 
 ### buy
 
