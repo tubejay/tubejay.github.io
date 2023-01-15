@@ -19,6 +19,7 @@ hidden: false
 
 - [Twisty Puzzles](https://www.twistypuzzles.com/)
 - [Ruwix](https://ruwix.com/)
+- [cubing.net](https://cubing.net/)
 - [Speed Cube DB](https://speedcubedb.com/)
 - [Speedsolving Wiki](https://www.speedsolving.com/wiki)
 - [AlgDb](http://algdb.net/)
@@ -44,15 +45,22 @@ hidden: false
 ### notation
 
 - [Speedsolving Wiki - Puzzle notations](https://www.speedsolving.com/wiki/index.php/Category:Puzzle_notations)
-- Ruwix
-  - [Advanced Rubik's Cube notation](https://ruwix.com/the-rubiks-cube/notation/advanced/)
-  - [3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)
+- [Ruwix - Advanced Rubik's Cube notation](https://ruwix.com/the-rubiks-cube/notation/advanced/)
 - [J Perm - Move Notation](https://jperm.net/3x3/moves)
 - 아이엠준
   - [333큐브 회전기호](https://youtu.be/Ct9XeePKamw)
   - [큐브 기호](https://youtu.be/CMkWteCTojM)
   - [큐브 용어들](https://youtu.be/iF8TqcpMs9w)
 - [vincent - 명칭과 기호](https://m.blog.naver.com/vincentcube?categoryName=%EB%AA%85%EC%B9%AD%EA%B3%BC%20%EA%B8%B0%ED%98%B8&categoryNo=10)
+
+### animation
+
+- [Ruwix - 3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)
+- cubing.net
+  - [Twizzle](https://alpha.twizzle.net/)
+    - [Editor](https://alpha.twizzle.net/edit/)
+    - [Explorer](https://alpha.twizzle.net/explore/)
+  - [Alg](https://alg.cubing.net/)
 
 ### method
 
