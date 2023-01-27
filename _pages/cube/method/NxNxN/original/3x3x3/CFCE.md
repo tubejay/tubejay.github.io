@@ -32,7 +32,7 @@ hidden: false
 
 
 
-## CLL : Corners of the Last Layer {#cll}
+## 2-Look CLL : Corners of the Last Layer {#cll}
 
 ### COLL : Corner Orientation of the Last Layer {#coll}
 
@@ -93,7 +93,7 @@ hidden: false
 
 
 
-## ELL : Edges of the Last Layer {#ell}
+## 2-Look ELL : Edges of the Last Layer {#ell}
 
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
