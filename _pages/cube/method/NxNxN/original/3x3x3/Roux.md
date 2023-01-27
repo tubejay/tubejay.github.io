@@ -34,19 +34,25 @@ hidden: false
 
 ### LSE : Last Six Edges
 
-- EO : Edge Orientation
-- UR/UL edges
-- M slice
+#### EO : Edge Orientation
+
+#### UR/UL edges
+
+#### M slice
 
 
 
 ## reference
 
-- [Ruwix](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/)
-- Speedsolving Wiki
-  - [F2B](https://www.speedsolving.com/wiki/index.php/F2B)
-  - [L10P](https://www.speedsolving.com/wiki/index.php/L10P)
-    - [CMLL](https://www.speedsolving.com/wiki/index.php/CMLL)
-    - [LSE](https://www.speedsolving.com/wiki/index.php/LSE)
-- [아이엠준](https://youtu.be/_yLfgnEx3ao)
-- [굿맨](https://youtu.be/rNmTFNgFSeI)
+### [Ruwix](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/)
+
+### Speedsolving Wiki
+
+- [F2B](https://www.speedsolving.com/wiki/index.php/F2B)
+- [L10P](https://www.speedsolving.com/wiki/index.php/L10P)
+  - [CMLL](https://www.speedsolving.com/wiki/index.php/CMLL)
+  - [LSE](https://www.speedsolving.com/wiki/index.php/LSE)
+
+### [아이엠준](https://youtu.be/_yLfgnEx3ao)
+
+### [굿맨](https://youtu.be/rNmTFNgFSeI)
