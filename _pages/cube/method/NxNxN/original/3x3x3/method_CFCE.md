@@ -28,13 +28,13 @@ hidden: false
 
 
 
-## F2L : First Two Layers
+## F2L : First Two Layers {#f2l}
 
 
 
-## CLL : Corners of the Last Layer
+## CLL : Corners of the Last Layer {#cll}
 
-### COLL : Corner Orientation of the Last Layer
+### COLL : Corner Orientation of the Last Layer {#coll}
 
 - Sune : ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -86,15 +86,15 @@ hidden: false
     ></iframe>
   </div>
 
-### CPLL : Corner Permutation of the Last Layer
+### CPLL : Corner Permutation of the Last Layer {#cpll}
 
-- [3x3x3 / CFOP / CPLL](#cfop)
+- [3x3x3 / CFOP / CPLL](/cube/method/NxNxN/original/3x3x3/cfop#cpll)
 
 
 
-## ELL : Edges of the Last Layer
+## ELL : Edges of the Last Layer {#ell}
 
-### EOLL : Edge Orientation of the Last Layer
+### EOLL : Edge Orientation of the Last Layer {#eoll}
 
 - adjacent 2-flip : ( M' U' ) ( M U2 ) ( M' U' ) x 2 ( M' U2 ) ( M U' ) ( M2 )
   <div class="iframe-wrapper">
@@ -118,9 +118,9 @@ hidden: false
     ></iframe>
   </div>
 
-### EPLL : Edge Permutation of the Last Layer
+### EPLL : Edge Permutation of the Last Layer {#epll}
 
-- [3x3x3 / CFOP / EPLL](#cfop)
+- [3x3x3 / CFOP / EPLL](/cube/method/NxNxN/original/3x3x3/cfop#epll)
 
 
 
