@@ -28,17 +28,17 @@ hidden: false
 
 
 
-## F2L : First Two Layers
+## F2L : First Two Layers {#f2l}
 
 
 
-## ELL : Edges of the Last Layer
+## ELL : Edges of the Last Layer {#ell}
 
-### EOLL : Edge Orientation of the Last Layer
+### EOLL : Edge Orientation of the Last Layer {#eoll}
 
-- [3x3x3 / CFOP / EOLL](/cube/method/NxNxN/original/3x3x3/cfop)
+- [3x3x3 / CFOP / EOLL](/cube/method/NxNxN/original/3x3x3/cfop#eoll)
 
-### EPLL : Edge Permutation of the Last Layer
+### EPLL : Edge Permutation of the Last Layer {#epll}
 
 - permute 3 edges
   - clockwise except back edge : ( R' U' ) ( R U' ) ( R' U2 ) ( R )
@@ -58,9 +58,9 @@ hidden: false
 
 
 
-## CLL : Corners of the Last Layer
+## CLL : Corners of the Last Layer {#cll}
 
-### CPLL : Corner Permutation of the Last Layer
+### CPLL : Corner Permutation of the Last Layer {#cpll}
 
 - permute 3 corners
   - clockwise except front left corner : ( U’ L’ ) ( U R ) ( U’ L ) ( U R’ )
@@ -78,14 +78,15 @@ hidden: false
       ></iframe>
     </div>
 
-### COLL : Corner Orientation of the Last Layer
+### COLL : Corner Orientation of the Last Layer {#coll}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+- orient front right corner : ( R' D' R D ) x 2
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
 
 
