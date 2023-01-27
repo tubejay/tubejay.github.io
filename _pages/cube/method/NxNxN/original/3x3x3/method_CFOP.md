@@ -28,13 +28,13 @@ hidden: false
 
 
 
-## F2L : First Two Layers
+## F2L : First Two Layers {#f2l}
 
 
 
-## 2-Look OLL : Orientation of the Last Layer
+## 2-Look OLL : Orientation of the Last Layer {#oll}
 
-### EOLL : Edge Orientation of the Last Layer
+### EOLL : Edge Orientation of the Last Layer {#eoll}
 
 - L : ( F ) ( U R U' R' ) ( F )
   <div class="iframe-wrapper">
@@ -58,7 +58,7 @@ hidden: false
     ></iframe>
   </div>
 
-### OCLL : Orient Corners of the Last Layer
+### OCLL : Orient Corners of the Last Layer {#ocll}
 
 - Sune : ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -112,9 +112,9 @@ hidden: false
 
 
 
-## 2-Look PLL : Permutation of the Last Layer
+## 2-Look PLL : Permutation of the Last Layer {#pll}
 
-### CPLL : Corner Permutation of the Last Layer
+### CPLL : Corner Permutation of the Last Layer {#cpll}
 
 - Jb Perm : ( R U R' F' ) ( R U R' U' ) ( R' F ) ( R2 U' R' )
   <div class="iframe-wrapper">
@@ -131,7 +131,7 @@ hidden: false
     ></iframe>
   </div>
 
-### EPLL : Edge Permutation of the Last Layer
+### EPLL : Edge Permutation of the Last Layer {#epll}
 
 - Ua Perm : ( M2 U ) ( M' U2 ) ( M U ) ( M2 )
   <div class="iframe-wrapper">
