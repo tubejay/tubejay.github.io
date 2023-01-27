@@ -92,7 +92,9 @@ hidden: false
 
 ## reference
 
-- Speedsolving Wiki
-  - [ELL](https://www.speedsolving.com/wiki/index.php/LLEF)
-  - [CLL](https://www.speedsolving.com/wiki/index.php/Last_Four_Corners)
-- [J Perm](https://jperm.net/3x3)
+### Speedsolving Wiki
+
+- [ELL](https://www.speedsolving.com/wiki/index.php/LLEF)
+- [CLL](https://www.speedsolving.com/wiki/index.php/Last_Four_Corners)
+
+### [J Perm](https://jperm.net/3x3)
