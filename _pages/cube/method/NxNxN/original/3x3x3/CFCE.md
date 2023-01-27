@@ -79,11 +79,11 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R%20F'&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-  - Bowtie : ( F' ) ( R U R' U' ) ( R' F R )
+  - Bowtie : ( F' ) ( r U R' U' ) ( r' F R )
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=F'%20R%20U%20R'%20U'%20R'%20F%20R&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
+        src="https://ruwix.com/widget/3d/?alg=F'%20r%20U%20R'%20U'%20r'%20F%20R&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
 
