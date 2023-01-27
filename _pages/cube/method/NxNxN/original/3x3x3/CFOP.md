@@ -24,10 +24,6 @@ hidden: false
 
 
 
-# step
-
-
-
 ## Cross
 
 
@@ -168,52 +164,67 @@ hidden: false
 
 
 
-# reference
+## reference
 
-- Ruwix
-  - [Cross](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/)
-  - [F2L](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/first-two-layers-f2l/)
-  - [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
-  - [PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
-- Speed Cube DB
-  - [F2L](https://speedcubedb.com/a/3x3/F2L)
-  - [2-Look OLL](https://speedcubedb.com/a/3x3/2LookOLL)
-  - [2-Look PLL](https://speedcubedb.com/a/3x3/2LookPLL)
-- Speedsolving Wiki
-  - [F2L](https://www.speedsolving.com/wiki/index.php/First_Two_Layers)
-  - [2-Look OLL](https://www.speedsolving.com/wiki/index.php/2-Look_OLL)
-    - [EOLL](https://www.speedsolving.com/wiki/index.php/EOLL)
-    - [OCLL](https://www.speedsolving.com/wiki/index.php/OCLL)
-  - [2-Look PLL](https://www.speedsolving.com/wiki/index.php/2-Look_PLL)
-    - [EPLL](https://www.speedsolving.com/wiki/index.php/EPLL)
-- AlgDb
-  - [F2L](http://algdb.net/puzzle/333/f2l)
-  - [OLL](http://algdb.net/puzzle/333/oll)
-  - [PLL](http://algdb.net/puzzle/333/pll)
-- CubeSkills
-  - F2L
-    - [Basic](https://www.cubeskills.com/tutorials/f2l)
-    - [Intermediate](https://www.cubeskills.com/tutorials/intermediate-cross-and-f2l)
-    - [Advanced](https://www.cubeskills.com/tutorials/advanced-f2l)
-  - [2-Look OLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-oll)
-  - [2-Look PLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-pll)
-- J Perm
-  - [Cross](https://jperm.net/3x3/cfop/cross)
-  - [F2L](https://jperm.net/3x3/cfop/f2l)
-  - [2-Look OLL](https://jperm.net/algs/2lookoll)
-  - [2-Look PLL](https://jperm.net/algs/2lookpll)
-- 아이엠준
-  - [F2L](https://youtu.be/OMbs-nR8ID0)
-  - [2-Look OLL](https://youtu.be/Jt2yRE_HdrE)
-  - [2-Look PLL](https://youtu.be/HVIEiMsfFk0)
-- 해피 큐빙
-  - [Cross](https://youtu.be/UQbHf8tmbp4)
-  - F2L
-    - <https://youtu.be/npoWOTF-BKg>
-    - <https://youtu.be/qZ6bxsxMcQM>
-  - 2-Look OLL
-    - <https://youtu.be/YNM1n7Ej6HM>
-    - <https://youtu.be/K_vbxkmVZg4>
-  - 2-Look PLL
-    - <https://youtu.be/YWV21l52liA>
-    - <https://youtu.be/FhgoXSbQ8yk>
+### Ruwix
+
+- [Cross](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/)
+- [F2L](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/first-two-layers-f2l/)
+- [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
+- [PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
+
+### Speed Cube DB
+
+- [F2L](https://speedcubedb.com/a/3x3/F2L)
+- [2-Look OLL](https://speedcubedb.com/a/3x3/2LookOLL)
+- [2-Look PLL](https://speedcubedb.com/a/3x3/2LookPLL)
+
+### Speedsolving Wiki
+
+- [F2L](https://www.speedsolving.com/wiki/index.php/First_Two_Layers)
+- [2-Look OLL](https://www.speedsolving.com/wiki/index.php/2-Look_OLL)
+  - [EOLL](https://www.speedsolving.com/wiki/index.php/EOLL)
+  - [OCLL](https://www.speedsolving.com/wiki/index.php/OCLL)
+- [2-Look PLL](https://www.speedsolving.com/wiki/index.php/2-Look_PLL)
+  - [EPLL](https://www.speedsolving.com/wiki/index.php/EPLL)
+
+### AlgDb
+
+- [F2L](http://algdb.net/puzzle/333/f2l)
+- [OLL](http://algdb.net/puzzle/333/oll)
+- [PLL](http://algdb.net/puzzle/333/pll)
+
+### CubeSkills
+
+- F2L
+  - [Basic](https://www.cubeskills.com/tutorials/f2l)
+  - [Intermediate](https://www.cubeskills.com/tutorials/intermediate-cross-and-f2l)
+  - [Advanced](https://www.cubeskills.com/tutorials/advanced-f2l)
+- [2-Look OLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-oll)
+- [2-Look PLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-pll)
+
+### J Perm
+
+- [Cross](https://jperm.net/3x3/cfop/cross)
+- [F2L](https://jperm.net/3x3/cfop/f2l)
+- [2-Look OLL](https://jperm.net/algs/2lookoll)
+- [2-Look PLL](https://jperm.net/algs/2lookpll)
+
+### 아이엠준
+
+- [F2L](https://youtu.be/OMbs-nR8ID0)
+- [2-Look OLL](https://youtu.be/Jt2yRE_HdrE)
+- [2-Look PLL](https://youtu.be/HVIEiMsfFk0)
+
+### 해피 큐빙
+
+- [Cross](https://youtu.be/UQbHf8tmbp4)
+- F2L
+  - <https://youtu.be/npoWOTF-BKg>
+  - <https://youtu.be/qZ6bxsxMcQM>
+- 2-Look OLL
+  - <https://youtu.be/YNM1n7Ej6HM>
+  - <https://youtu.be/K_vbxkmVZg4>
+- 2-Look PLL
+  - <https://youtu.be/YWV21l52liA>
+  - <https://youtu.be/FhgoXSbQ8yk>
