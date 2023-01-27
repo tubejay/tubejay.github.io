@@ -24,6 +24,10 @@ hidden: false
 
 
 
+# step
+
+
+
 ## Cross
 
 
@@ -164,7 +168,7 @@ hidden: false
 
 
 
-## reference
+# reference
 
 - Ruwix
   - [Cross](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/)
