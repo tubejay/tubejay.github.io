@@ -127,6 +127,7 @@ hidden: false
 
 ## reference
 
-- [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/CFCE)
-  - [CLL](https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3))
-  - [ELL](https://www.speedsolving.com/wiki/index.php/ELL)
+### [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/CFCE)
+
+- [CLL](https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3))
+- [ELL](https://www.speedsolving.com/wiki/index.php/ELL)
