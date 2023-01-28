@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=8362">
-  <img alt="Gear Cube" src="https://twistypuzzles.com/museum/large/08362-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/08362-01.jpg">
 </a>
 
 
