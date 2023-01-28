@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=771">
-  <img alt="2x2x2 Dodecahedron" src="https://twistypuzzles.com/museum/large/00771-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00771-01.jpg">
 </a>
 
 
