@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1601">
-  <img alt="4x4x4 Rhombic Dodecahedron" src="https://twistypuzzles.com/museum/large/01601-04.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01601-04.jpg">
 </a>
 
 
