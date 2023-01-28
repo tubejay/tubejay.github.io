@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1723">
-  <img alt="F-Skewb" src="https://twistypuzzles.com/museum/large/01723-03.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01723-03.jpg">
 </a>
 
 
