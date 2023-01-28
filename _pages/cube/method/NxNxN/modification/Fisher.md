@@ -24,16 +24,9 @@ hidden: false
 ## Method
 
 - step
-  - cross
-  - F2L : First Two Layers
+  - [3x3x3 / Beginner](/cube/method/NxNxN/original/3x3x3/beginner)
   - parity
     - OLL parity
-  - ELL : Edges of the Last Layer
-    - EOLL : Edge Orientation of the Last Layer
-    - EPLL : Edge Permutation of the Last Layer
-  - CLL : Corners of the Last Layer
-    - CPLL : Corner Permutation of the Last Layer
-    - COLL : Corner Orientation of the Last Layer
 - reference
   - [아이엠준](https://youtu.be/x9SySGU_iqE)
   - [듀나메스](https://youtu.be/F5cDzoSU280)
