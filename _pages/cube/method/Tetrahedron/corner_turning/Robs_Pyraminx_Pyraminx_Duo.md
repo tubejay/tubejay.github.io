@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=4714">
-  <img alt="Rob's Pyraminx / Pyraminx Duo" src="https://twistypuzzles.com/museum/large/04714-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/04714-01.jpg">
 </a>
 
 
