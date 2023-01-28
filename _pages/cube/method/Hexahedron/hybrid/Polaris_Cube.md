@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=7803">
-  <img alt="Polaris Cube" src="https://twistypuzzles.com/museum/large/07803-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/07803-01.jpg">
 </a>
 
 
