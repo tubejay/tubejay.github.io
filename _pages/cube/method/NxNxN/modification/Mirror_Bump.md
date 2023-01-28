@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1579">
-  <img alt="Mirror / Bump" src="https://twistypuzzles.com/museum/large/01579-02.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01579-02.jpg">
 </a>
 
 
