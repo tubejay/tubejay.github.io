@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=653">
-  <img alt="Skewb Rhombic Dodecahedron" src="https://twistypuzzles.com/museum/large/00653-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00653-01.jpg">
 </a>
 
 
