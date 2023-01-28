@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=5793">
-  <img alt="Pisces Cube / 4 Corners Cube" src="https://twistypuzzles.com/museum/large/05793-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/05793-01.jpg">
 </a>
 
 
