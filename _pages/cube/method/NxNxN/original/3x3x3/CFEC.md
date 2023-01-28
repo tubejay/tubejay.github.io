@@ -48,7 +48,7 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=L%20U%20L'%20U%20L%20U2%20L'&colored=U*/em&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-  - opposite swap : ( adjacent swap ) U' ( adjacent swap )
+  - opposite swap : ( adjacent swap ) ( U' ) ( adjacent swap )
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
@@ -83,7 +83,7 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=R2%20D%20R'%20U2'%20R%20D'%20R'%20U2'%20R'&colored=U*/em%20u/c&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Pi : ( R' U L U' R U L' ) ( U2' ) ( R' U L U' R U L' )
+- Pi : ( Anti-Sune ) ( U2' ) ( Anti-Sune )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -113,6 +113,35 @@ hidden: false
   </div>
 
 ### CPLL : Corner Permutation of the Last Layer {#cpll}
+
+- Aa Perm : ( x ) ( R' U R' D2' ) ( R U' R' D2' ) ( R2' x' )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=x%20R'%20U%20R'%20D2'%20R%20U'%20R'%20D2'%20R2'%20x'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- Ab Perm : ( x' ) ( R U' R D2' ) ( R' U R D2' ) ( R2 x )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=x'%20R%20U'%20R%20D2'%20R'%20U%20R%20D2'%20R2"
+    ></iframe>
+  </div>
+- X Perm : ( M2 U' ) ( M2 U2 ) ( M2 U' ) ( M2 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U2'%20M2'%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- E Perm : ( R2 U F' ) ( R' U R U' ) x 3 ( F U' R2 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R2%20U%20F'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20F%20U'%20R2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
 
 
