@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2763">
-  <img alt="Flower Copter" src="https://twistypuzzles.com/museum/large/02763-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/02763-01.jpg">
 </a>
 
 
