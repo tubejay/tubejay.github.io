@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1353">
-  <img alt="Master Skewb" src="https://twistypuzzles.com/museum/large/01353-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01353-01.jpg">
 </a>
 
 
