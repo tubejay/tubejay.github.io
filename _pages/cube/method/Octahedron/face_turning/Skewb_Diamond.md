@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=393">
-  <img alt="Skewb Diamond" src="https://twistypuzzles.com/museum/large/00393-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00393-01.jpg">
 </a>
 
 
