@@ -32,7 +32,7 @@ hidden: false
 
 
 
-## ELL : Edges of the Last Layer {#ell}
+## 2-Look ELL : Edges of the Last Layer {#ell}
 
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
@@ -58,7 +58,7 @@ hidden: false
 
 
 
-## CLL : Corners of the Last Layer {#cll}
+## 2-Look CLL : Corners of the Last Layer {#cll}
 
 ### COLL : Corner Orientation of the Last Layer {#coll}
 
@@ -77,5 +77,5 @@ hidden: false
 
 ### Mike
 
-- [ELL](https://logiqx.github.io/cubing-algs/html/2lllef.html)
-- [CLL](https://logiqx.github.io/cubing-algs/html/2ll4c.html)
+- [2-Look ELL](https://logiqx.github.io/cubing-algs/html/2lllef.html)
+- [2-Look CLL](https://logiqx.github.io/cubing-algs/html/2ll4c.html)
