@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=6748">
-  <img alt="Coin Tetrahedron" src="https://twistypuzzles.com/museum/large/06748-09.jpg">
+  <img src="https://twistypuzzles.com/museum/large/06748-09.jpg">
 </a>
 
 
