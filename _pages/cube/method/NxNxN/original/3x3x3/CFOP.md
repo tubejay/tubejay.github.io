@@ -173,12 +173,6 @@ hidden: false
 - [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
 - [PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
 
-### Speed Cube DB
-
-- [F2L](https://speedcubedb.com/a/3x3/F2L)
-- [2-Look OLL](https://speedcubedb.com/a/3x3/2LookOLL)
-- [2-Look PLL](https://speedcubedb.com/a/3x3/2LookPLL)
-
 ### Speedsolving Wiki
 
 - [F2L](https://www.speedsolving.com/wiki/index.php/First_Two_Layers)
@@ -187,6 +181,25 @@ hidden: false
   - [OCLL](https://www.speedsolving.com/wiki/index.php/OCLL)
 - [2-Look PLL](https://www.speedsolving.com/wiki/index.php/2-Look_PLL)
   - [EPLL](https://www.speedsolving.com/wiki/index.php/EPLL)
+
+### Speed Cube DB
+
+- [F2L](https://speedcubedb.com/a/3x3/F2L)
+- [2-Look OLL](https://speedcubedb.com/a/3x3/2LookOLL)
+- [2-Look PLL](https://speedcubedb.com/a/3x3/2LookPLL)
+
+### Mike
+
+- [F2L](https://logiqx.github.io/cubing-algs/html/if2l.html)
+- [2-Look OLL](https://logiqx.github.io/cubing-algs/html/2loll.html)
+- [2-Look PLL](https://logiqx.github.io/cubing-algs/html/2lpll.html)
+
+### J Perm
+
+- [Cross](https://jperm.net/3x3/cfop/cross)
+- [F2L](https://jperm.net/3x3/cfop/f2l)
+- [2-Look OLL](https://jperm.net/algs/2lookoll)
+- [2-Look PLL](https://jperm.net/algs/2lookpll)
 
 ### AlgDb
 
@@ -202,13 +215,6 @@ hidden: false
   - [Advanced](https://www.cubeskills.com/tutorials/advanced-f2l)
 - [2-Look OLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-oll)
 - [2-Look PLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-pll)
-
-### J Perm
-
-- [Cross](https://jperm.net/3x3/cfop/cross)
-- [F2L](https://jperm.net/3x3/cfop/f2l)
-- [2-Look OLL](https://jperm.net/algs/2lookoll)
-- [2-Look PLL](https://jperm.net/algs/2lookpll)
 
 ### 아이엠준
 
