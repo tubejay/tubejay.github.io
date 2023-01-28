@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=485">
-  <img alt="3x3x3 Rhombic Dodecahedron" src="https://twistypuzzles.com/museum/large/00485-03.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00485-03.jpg">
 </a>
 
 
