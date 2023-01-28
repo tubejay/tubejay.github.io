@@ -42,6 +42,12 @@ hidden: false
 - Speedsolving Wiki
   - [OLL](https://www.speedsolving.com/wiki/index.php/OLL_(2x2x2))
   - [PLL](https://www.speedsolving.com/wiki/index.php/PLL_(2x2x2))
+- Speed Cube DB
+  - [OLL](https://speedcubedb.com/a/2x2/OrtegaOLL)
+- AlgDb
+  - [OLL](http://algdb.net/puzzle/222/ortegaoll)
+- J Perm
+  - [OLL](https://jperm.net/algs/2x2oll)
 - vincent
   - [OLL](https://m.blog.naver.com/vincentcube/60134585079)
   - [PLL](https://m.blog.naver.com/vincentcube/60134585117)
