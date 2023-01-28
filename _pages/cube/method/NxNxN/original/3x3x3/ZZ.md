@@ -24,7 +24,7 @@ hidden: false
 
 
 
-## EO : Edge Orientation
+## EO : Edge Orientation {#eo}
 
 
 
@@ -32,11 +32,11 @@ hidden: false
 
 
 
-## F2L : First Two Layers
+## F2L : First Two Layers {#f2l}
 
 
 
-## LL : Last Layer
+## LL : Last Layer {#ll}
 
 - method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
 - skip : EOLL
