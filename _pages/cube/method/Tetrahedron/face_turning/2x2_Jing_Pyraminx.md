@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1578">
-  <img alt="2x2 Jing Pyraminx" src="https://twistypuzzles.com/museum/large/01578-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01578-01.jpg">
 </a>
 
 
