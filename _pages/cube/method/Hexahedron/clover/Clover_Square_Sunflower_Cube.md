@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=8229">
-  <img alt="Clover Square / Sunflower Cube" src="https://twistypuzzles.com/museum/large/08229-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/08229-01.jpg">
 </a>
 
 
