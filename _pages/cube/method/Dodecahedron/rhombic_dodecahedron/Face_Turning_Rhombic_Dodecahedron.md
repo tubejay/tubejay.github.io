@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1684">
-  <img alt="Face Turning Rhombic Dodecahedron" src="https://twistypuzzles.com/museum/large/01684-09.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01684-09.jpg">
 </a>
 
 
