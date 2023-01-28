@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=5723">
-  <img alt="2x2 Kilominx" src="https://twistypuzzles.com/museum/large/05723-02.jpg">
+  <img src="https://twistypuzzles.com/museum/large/05723-02.jpg">
 </a>
 
 
