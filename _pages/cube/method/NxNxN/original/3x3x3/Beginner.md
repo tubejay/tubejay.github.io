@@ -96,4 +96,18 @@ hidden: false
 
 ## reference
 
+### Ruwix
+
+- [Beginner's Solution](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/)
+  - [Cross](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-1-first-layer-edges/)
+  - [FL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-2-first-layer-corners/)
+  - [SL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step3-second-layer-f2l/)
+  - ELL
+    - [EPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-5-swap-yellow-edges/)
+  - CLL
+    - [CPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-6-position-yellow-corners/)
+    - [COLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/orient-yellow-corners-how-to-solve-last-layer-corner/)
+
 ### [J Perm](https://jperm.net/3x3)
+
+### [CubeSkills](https://www.cubeskills.com/tutorials/the-beginners-method-for-solving-the-rubiks-cube)
