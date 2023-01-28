@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2325">
-  <img alt="4x4 Master Kilominx" src="https://twistypuzzles.com/museum/large/02325-05.jpg">
+  <img src="https://twistypuzzles.com/museum/large/02325-05.jpg">
 </a>
 
 
