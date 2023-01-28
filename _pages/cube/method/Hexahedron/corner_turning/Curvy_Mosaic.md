@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=6882">
-  <img alt="Curvy Mosaic" src="https://twistypuzzles.com/museum/large/06882-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/06882-01.jpg">
 </a>
 
 
