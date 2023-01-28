@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1520">
-  <img alt="Redi Cube" src="https://twistypuzzles.com/museum/large/01520-04.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01520-04.jpg">
 </a>
 
 
