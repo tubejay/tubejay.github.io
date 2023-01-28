@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=618">
-  <img alt="Square-1" src="https://twistypuzzles.com/museum/large/00618-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00618-01.jpg">
 </a>
 
 
