@@ -131,3 +131,8 @@ hidden: false
 
 - [CLL](https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3))
 - [ELL](https://www.speedsolving.com/wiki/index.php/ELL)
+
+### Mike
+
+- [2-Look CLL](https://logiqx.github.io/cubing-algs/html/2lcll.html)
+- [2-Look ELL](https://logiqx.github.io/cubing-algs/html/2lell.html)
