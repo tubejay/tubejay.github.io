@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=675">
-  <img alt="Mastermorphix" src="https://twistypuzzles.com/museum/large/00675-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00675-01.jpg">
 </a>
 
 
