@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=605">
-  <img alt="Dino Cube" src="https://twistypuzzles.com/museum/large/00605-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/00605-01.jpg">
 </a>
 
 
