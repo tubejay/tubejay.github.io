@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1663">
-  <img alt="Face Turning Octahedron" src="https://twistypuzzles.com/museum/large/01663-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01663-01.jpg">
 </a>
 
 
