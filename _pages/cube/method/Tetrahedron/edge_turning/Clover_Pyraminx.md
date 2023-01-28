@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=7135">
-  <img alt="Clover Pyraminx" src="https://twistypuzzles.com/museum/large/07135-08.jpg">
+  <img src="https://twistypuzzles.com/museum/large/07135-08.jpg">
 </a>
 
 
