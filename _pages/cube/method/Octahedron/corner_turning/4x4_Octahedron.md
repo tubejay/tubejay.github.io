@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1629">
-  <img alt="4x4 Octahedron" src="https://twistypuzzles.com/museum/large/01629-01.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01629-01.jpg">
 </a>
 
 
