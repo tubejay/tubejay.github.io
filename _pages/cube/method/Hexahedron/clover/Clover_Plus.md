@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=5804">
-  <img alt="Clover Plus" src="https://twistypuzzles.com/museum/large/05804-05.jpg">
+  <img src="https://twistypuzzles.com/museum/large/05804-05.jpg">
 </a>
 
 
