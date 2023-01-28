@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=1523">
-  <img alt="Crazy Comet" src="https://twistypuzzles.com/museum/large/01523-05.jpg">
+  <img src="https://twistypuzzles.com/museum/large/01523-05.jpg">
 </a>
 
 
