@@ -24,21 +24,21 @@ hidden: false
 
 
 
-## F2B : First Two Blocks
+## F2B : First Two Blocks {#f2b}
 
 
 
-## L10P : Last 10 Pieces
+## L10P : Last 10 Pieces {#l10p}
 
-### CMLL : Corner of the Last Layer / M-slice edges
+### CMLL : Corner of the Last Layer / M-slice edges {#cmll}
 
-### LSE : Last Six Edges
+### L6E : Last Six Edges {#l6e}
 
-#### EO : Edge Orientation
+#### EO : Edge Orientation {#eo}
 
-#### UR/UL edges
+#### UR/UL edges {#urul}
 
-#### M slice
+#### M slice {#m}
 
 
 
@@ -51,7 +51,7 @@ hidden: false
 - [F2B](https://www.speedsolving.com/wiki/index.php/F2B)
 - [L10P](https://www.speedsolving.com/wiki/index.php/L10P)
   - [CMLL](https://www.speedsolving.com/wiki/index.php/CMLL)
-  - [LSE](https://www.speedsolving.com/wiki/index.php/LSE)
+  - [L6E](https://www.speedsolving.com/wiki/index.php/LSE)
 
 ### [아이엠준](https://youtu.be/_yLfgnEx3ao)
 
