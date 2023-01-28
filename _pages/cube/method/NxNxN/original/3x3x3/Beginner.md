@@ -30,9 +30,13 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
+- 
+
 
 
 ## SL : Second Layer {#sl}
+
+- 
 
 
 
@@ -111,3 +115,7 @@ hidden: false
 ### [J Perm](https://jperm.net/3x3)
 
 ### [CubeSkills](https://www.cubeskills.com/tutorials/the-beginners-method-for-solving-the-rubiks-cube)
+
+### [아이엠준](https://youtu.be/8vRG9hCtyiI)
+
+### [해피 큐빙](https://youtu.be/HgEySd_N-6w)
