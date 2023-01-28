@@ -16,7 +16,7 @@ hidden: false
 ## Twisty Puzzles - Museum
 
 <a href="https://twistypuzzles.com/app/museum/museum_showitem.php?pkey=2377">
-  <img alt="6x6 Elite Kilominx" src="https://twistypuzzles.com/museum/large/02377-03.jpg">
+  <img src="https://twistypuzzles.com/museum/large/02377-03.jpg">
 </a>
 
 
