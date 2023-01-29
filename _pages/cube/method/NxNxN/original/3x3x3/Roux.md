@@ -62,7 +62,7 @@ hidden: false
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=x&colored=U*/em%20D*&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+    src="https://ruwix.com/widget/3d/?alg=x&colored=U*/e%20DF%20DB&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
 
