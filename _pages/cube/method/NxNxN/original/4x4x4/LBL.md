@@ -2,7 +2,7 @@
 title: "4x4x4 / LBL"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/4x4x4/LBL
+permalink: /cube/method/NxNxN/original/4x4x4/lbl
 published: true
 hidden: false
 ---
