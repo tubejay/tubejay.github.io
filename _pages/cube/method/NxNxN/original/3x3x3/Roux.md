@@ -26,25 +26,78 @@ hidden: false
 
 ## F2B : First Two Blocks {#f2b}
 
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
 
 
 ## L10P : Last 10 Pieces {#l10p}
 
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?colored=U*/ec%20DF%20DB&solved=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
 ### CMLL : Corner of the Last Layer / M-slice edges {#cmll}
+
+- [3x3x3 / CFCE / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/cfce#cll)
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?colored=U*/c&solved=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 ### L6E : Last Six Edges {#l6e}
 
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=x&colored=U*/em%20D*&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
 #### EO : Edge Orientation {#eo}
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=x&colored=u/em%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 #### UR/UL edges {#urul}
 
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?colored=UL%20UR&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
 #### M slice {#m}
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=x&colored=UF%20U%20UB%20DF%20D%20DB%20F%20B&solved=L*%20R*&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 
 
 ## reference
 
-### [Ruwix](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/)
+### Ruwix
+
+- [Roux](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/)
 
 ### Speedsolving Wiki
 
@@ -53,6 +106,10 @@ hidden: false
   - [CMLL](https://www.speedsolving.com/wiki/index.php/CMLL)
   - [L6E](https://www.speedsolving.com/wiki/index.php/LSE)
 
-### [아이엠준](https://youtu.be/_yLfgnEx3ao)
+### 아이엠준
 
-### [굿맨](https://youtu.be/rNmTFNgFSeI)
+- [Roux](https://youtu.be/_yLfgnEx3ao)
+
+### 굿맨
+
+- [Roux](https://youtu.be/rNmTFNgFSeI)
