@@ -26,19 +26,20 @@ hidden: false
 
 ## F2B : First Two Blocks {#f2b}
 
-- [Twizzle - Editor](https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas)
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas)
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 
 
 
 ## L10P : Last 10 Pieces {#l10p}
 
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?alg=x&colored=U*/ec%20DF%20DB&solved=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas)
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
@@ -50,6 +51,7 @@ hidden: false
 
 - [3x3x3 / CFCE / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/cfce#cll)
 
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?colored=U*/c&solved=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas)
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
@@ -59,6 +61,7 @@ hidden: false
 
 ### L6E : Last Six Edges {#l6e}
 
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?alg=x&colored=U*/e%20DF%20DB&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas)
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
@@ -68,6 +71,7 @@ hidden: false
 
 #### EO : Edge Orientation {#eo}
 
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?alg=x&colored=u/em%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas)
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
@@ -77,6 +81,7 @@ hidden: false
 
 #### UR/UL edges {#urul}
 
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?colored=UL%20UR&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas)
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
@@ -86,6 +91,7 @@ hidden: false
 
 #### M slice {#m}
 
+[Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?alg=x&colored=UF%20U%20UB%20DF%20D%20DB%20F%20B&solved=L*%20R*&hover=9&speed=500&flags=canvas)
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
