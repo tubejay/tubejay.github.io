@@ -33,5 +33,10 @@ hidden: false
 
 ## reference
 
-### [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/Hoya_method)
-### [굿맨](https://youtu.be/k9dNU6h8g5o)
+### Speedsolving Wiki
+
+- [Hoya](https://www.speedsolving.com/wiki/index.php/Hoya_method)
+
+### 굿맨
+
+- [Hoya](https://youtu.be/k9dNU6h8g5o)
