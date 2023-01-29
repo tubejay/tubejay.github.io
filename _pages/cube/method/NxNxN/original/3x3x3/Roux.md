@@ -26,12 +26,14 @@ hidden: false
 
 ## F2B : First Two Blocks {#f2b}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<a target="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas">
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+</a>
 
 
 
@@ -40,7 +42,7 @@ hidden: false
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=U*/ec%20DF%20DB&solved=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+    src="https://ruwix.com/widget/3d/?alg=x&colored=U*/ec%20DF%20DB&solved=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
 
