@@ -39,5 +39,10 @@ hidden: false
 
 ## reference
 
-### [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/Meyer_method)
-### [아이엠준](https://youtu.be/iBbqL0v3naI)
+### Speedsolving Wiki
+
+- [Meyer](https://www.speedsolving.com/wiki/index.php/Meyer_method)
+
+### 아이엠준
+
+- [Meyer](https://youtu.be/iBbqL0v3naI)
