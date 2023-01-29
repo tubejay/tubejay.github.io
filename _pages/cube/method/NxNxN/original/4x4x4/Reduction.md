@@ -50,7 +50,7 @@ hidden: false
 
 ### PLL parity
 
-- [( 2R2 U2 ) ( 2R2 Uw2 ) x 2](https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=PLL&setup-anchor=end&alg=%282R2+U2%27%29+%282R2+Uw2%27%292)
+- ( 2R2 U2 ) ( 2R2 Uw2 ) x 2
 
   <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=PLL&setup-anchor=end&alg=%282R2+U2%27%29+%282R2+Uw2%27%292">
     <img src="https://user-images.githubusercontent.com/92285528/215300193-87553706-defe-4a6b-b94a-a1c142e2ecfc.png">
