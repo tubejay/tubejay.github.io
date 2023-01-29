@@ -63,4 +63,6 @@ hidden: false
 - [reduction](https://youtu.be/jqSLBR38hUA)
 - [center](https://youtu.be/4ViuGBx14zg)
 
-### [굿맨](https://youtu.be/rNE9o1YTh0g)
+### 굿맨
+
+- [reduction](https://youtu.be/rNE9o1YTh0g)
