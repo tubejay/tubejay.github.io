@@ -44,9 +44,26 @@ hidden: false
 
 ## reference
 
-### [Speedsolving Wiki](https://www.speedsolving.com/wiki/index.php/Yau_method)
-### [CubeSkills](https://www.cubeskills.com/tutorials/intermediate-tips-and-yau-method)
-### [J Perm](https://jperm.net/4x4)
-### [vincent](https://m.blog.naver.com/vincentcube?categoryNo=58)
-### [아이엠준](https://youtu.be/jcEelDhL7KU)
-### [굿맨](https://youtu.be/0slUBFL3F-g)
+### Speedsolving Wiki
+
+- [Yau](https://www.speedsolving.com/wiki/index.php/Yau_method)
+
+### CubeSkills
+
+- [Yau](https://www.cubeskills.com/tutorials/intermediate-tips-and-yau-method)
+
+### J Perm
+
+- [Yau](https://jperm.net/4x4)
+
+### vincent
+
+- [Yau](https://m.blog.naver.com/vincentcube?categoryNo=58)
+
+### 아이엠준
+
+- [Yau](https://youtu.be/jcEelDhL7KU)
+
+### 굿맨
+
+- [Yau](https://youtu.be/0slUBFL3F-g)
