@@ -31,7 +31,7 @@ hidden: false
 
 ## [3x3x3 / Roux](/cube/method/NxNxN/original/3x3x3/roux)
   
-- skip : first block
+- skip : one block of [F2B](/cube/method/NxNxN/original/3x3x3/roux#f2b)
 
 ## [4x4x4 / Reduction / parity](/cube/method/NxNxN/original/4x4x4/reduction#parity)
 
