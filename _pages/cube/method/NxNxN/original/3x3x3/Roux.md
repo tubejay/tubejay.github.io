@@ -26,7 +26,7 @@ hidden: false
 
 ## F2B : First Two Blocks {#f2b}
 
-<a target="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas">
+<a href="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas">
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
