@@ -19,12 +19,19 @@ hidden: false
       margin-top  : -20px;
       border      : none;
     }
+    img {
+      max-width:250px;
+    }
   </style>
 </head>
 
 
 
 ## F2B : First Two Blocks {#f2b}
+
+<a href="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas">
+  <img src="https://user-images.githubusercontent.com/92285528/215524306-1f84ec72-9b86-41e6-93ad-e6bde81d665a.png">
+</a>
 
 - [Ruwix - 3D Interactive Rubik’s Cube Widget](https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas)
   <div class="iframe-wrapper">
@@ -33,18 +40,6 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-
-- test
-
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
-  ></iframe>
-  <a href="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas">
-  </a>
-</div>
-
 
 
 
