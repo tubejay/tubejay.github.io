@@ -61,6 +61,22 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215528007-716188aa-e2e6-4f2b-912f-41def4a1dc1d.png">
 </a>
 
+- flipped edges on U face / D face
+  - 1 / 1
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+  - 2 / 0
+     <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20M'%20U'%20M'%20U'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+
 #### UR/UL edges {#urul}
 
 <a href="https://ruwix.com/widget/3d/?colored=UL%20UR&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas">
