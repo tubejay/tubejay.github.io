@@ -34,6 +34,17 @@ hidden: false
     ></iframe>
   </div>
 
+- test
+
+<div class="iframe-wrapper">
+  <a href="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=x&colored=DFL%20DL%20DBL%20FL%20L%20BL%20DFR%20DR%20DBR%20FR%20R%20BR&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </a>
+</div>
+
 
 
 
