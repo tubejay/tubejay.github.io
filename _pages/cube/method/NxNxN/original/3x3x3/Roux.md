@@ -125,6 +125,13 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215528420-4f27f2cf-ad40-4bc4-beda-d3bbd6a69ba7.png">
 </a>
 
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'%20M'%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+
 #### M slice {#m}
 
 <a href="https://ruwix.com/widget/3d/?alg=x&colored=UF%20U%20UB%20DF%20D%20DB%20F%20B&solved=L*%20R*&hover=9&speed=500&flags=canvas">
