@@ -121,7 +121,7 @@ hidden: false
 
 #### UR/UL edges {#urul}
 
-<a href="https://ruwix.com/widget/3d/?colored=UL%20UR&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas">
+<a href="https://ruwix.com/widget/3d/?colored=UL%20ULF%20ULB%20UR%20URF%20URB&solved=L%20R%20FL%20FR%20BL%20BR%20DL%20DR%20FLD%20FRD%20BLD%20BRD&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/215528420-4f27f2cf-ad40-4bc4-beda-d3bbd6a69ba7.png">
 </a>
 
