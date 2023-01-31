@@ -125,7 +125,7 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215528420-4f27f2cf-ad40-4bc4-beda-d3bbd6a69ba7.png">
 </a>
 
-- U2 M' U2 M' AUF M2 AUF
+- ( U2 M' ) x 2 ( U layer ) ( M2 ) ( U layer )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -133,7 +133,7 @@ hidden: false
     ></iframe>
   </div>
 
-- M2 U' M' U2 M AUF M2 AUF
+- ( M2 U' ) ( M' U2 ) ( M ) ( U layer ) ( M2 ) ( U layer )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
