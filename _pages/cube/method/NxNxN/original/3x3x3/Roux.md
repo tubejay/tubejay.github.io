@@ -121,12 +121,9 @@ hidden: false
 
 #### UR/UL edges {#urul}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=UL%20ULF%20ULB%20UR%20URF%20URB&solved=L%20R%20FL%20FR%20BL%20BR%20DL%20DR%20FLD%20FRD%20BLD%20BRD&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<a href="https://ruwix.com/widget/3d/?colored=UL%20ULF%20ULB%20UR%20URF%20URB&solved=L%20R%20FL%20FR%20BL%20BR%20DL%20DR%20FLD%20FRD%20BLD%20BRD&hover=9&speed=500&flags=canvas">
+  <img src="https://user-images.githubusercontent.com/92285528/215762670-cefe6406-042d-41db-8ff7-d2e709b16207.png">
+</a>
 
 - ( U2 M' ) x 2 ( U layer ) ( M2 ) ( U layer )
   <div class="iframe-wrapper">
