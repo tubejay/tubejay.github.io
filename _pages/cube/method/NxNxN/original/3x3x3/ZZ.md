@@ -32,7 +32,7 @@ hidden: false
 
 
 
-## F2L : First Two Layers {#f2l}
+## [F2L : First Two Layers](/cube/method/NxNxN/original/3x3x3/f2l) {#f2l}
 
 
 
