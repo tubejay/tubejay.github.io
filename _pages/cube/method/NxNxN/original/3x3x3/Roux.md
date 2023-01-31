@@ -104,6 +104,20 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=U2%20M%20U2%20M&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
+  - 2(opposite) / 2 : ( U' M2 ) ( 4 / 0 )
+     <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=U'%20M2'%20M'%20U'%20M'%20M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+  - 4 / 2 : ( M' U' M' ) ( U' ) ( 1 / 1 )
+     <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U'%20M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=U2%20M%20U2%20M&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
 
 #### UR/UL edges {#urul}
 
