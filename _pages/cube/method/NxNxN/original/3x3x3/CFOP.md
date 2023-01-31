@@ -234,6 +234,57 @@ hidden: false
     ></iframe>
   </div>
 
+### case 12
+
+- right : ( R U R' ) ( U2 ) ( R U2 R' ) ( U ) ( case 1 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U2'%20R%20U2'%20R'%20U%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- left : ( F' U' F ) ( U2 ) ( F' U2 F ) ( U' ) ( case 1 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U2%20F'%20U2%20F%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+### case 13
+
+- right : ( R U' R' ) ( U' ) ( case 2 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U'%20R%20U%20R'%20U2%20%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- left : ( F' U F ) ( U ) ( case 2 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U%20F'%20U'%20F%20U2%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+### case 14
+
+- right : ( R U' R' ) ( U2 ) ( case 3 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20F'%20U'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- left : ( F' U F ) ( U2 ) ( case 3 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U2%20R%20U%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
 
 
 ## 2-Look OLL : Orientation of the Last Layer {#oll}
