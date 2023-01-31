@@ -147,6 +147,38 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215528755-26c83ef5-96fa-4874-bf81-b45ed45933dc.png">
 </a>
 
+- U2 M' U2
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'&colored=*&solved=L*%20R*&setupmoves=x'&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- U2 M U2
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=U2'%20M%20U2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- U2 M2 U2
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=U2'%20M2'%20U2'&colored=*&solved=L*%20R*&setupmoves=x2&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- E2 M' E2
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=E2'%20M'%20E2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
 
 
 ## reference
