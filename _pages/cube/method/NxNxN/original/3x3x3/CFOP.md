@@ -28,262 +28,7 @@ hidden: false
 
 
 
-## F2L : First Two Layers {#f2l}
-
-### case 0
-
-- left to right : R U' R'
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- right to left : F' U F
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 1
-
-- right to left : R U R'
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left to right : F' U' F
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 2
-
-- right : ( R U R' ) ( U2 ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U2'%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U' F ) ( U2 ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U2%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 3
-
-- right : ( R U R' ) ( U ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U' F ) ( U' ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 4
-
-- right : ( R U' R' ) ( U2 ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U F ) ( U2 ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U2%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 5
-
-- right : ( R U2 R' ) ( U' ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U2 F ) ( U ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U2%20F%20U%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 6
-
-- right : ( R U R' ) ( U' ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U' F ) ( U ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 7
-
-- right : ( R U' R' ) ( U ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U F ) ( U' ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 8
-
-- right : ( F' U F ) ( U ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( R U' R' ) ( U' ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 9
-
-- right : ( R U R' U' ) ( case 3 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R%20U%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U' F U ) ( case 3 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U%20F'%20U'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 10
-
-- right : ( R U' R' ) ( U2 ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U F ) ( U2 ) ( case 0 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U2%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 11
-
-- right : ( F' U' F ) ( U2 ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U2%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( R U R' ) ( U2 ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U2'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 12
-
-- right : ( R U R' ) ( U2 ) ( R U2 R' ) ( U ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U2'%20R%20U2'%20R'%20U%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U' F ) ( U2 ) ( F' U2 F ) ( U' ) ( case 1 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U2%20F'%20U2%20F%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 13
-
-- right : ( R U' R' ) ( U' ) ( case 2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U'%20R%20U%20R'%20U2%20%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U F ) ( U ) ( case 2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U%20F'%20U'%20F%20U2%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 14
-
-- right : ( R U' R' ) ( U2 ) ( case 3 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20F'%20U'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-- left : ( F' U F ) ( U2 ) ( case 3 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U2%20R%20U%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+## [F2L : First Two Layers](/cube/method/NxNxN/original/3x3x3/f2l) {#f2l}
 
 
 
@@ -424,13 +169,11 @@ hidden: false
 ### Ruwix
 
 - [Cross](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/)
-- [F2L](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/first-two-layers-f2l/)
 - [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
 - [PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
 
 ### Speedsolving Wiki
 
-- [F2L](https://www.speedsolving.com/wiki/index.php/First_Two_Layers)
 - [2-Look OLL](https://www.speedsolving.com/wiki/index.php/2-Look_OLL)
   - [EOLL](https://www.speedsolving.com/wiki/index.php/EOLL)
   - [OCLL](https://www.speedsolving.com/wiki/index.php/OCLL)
@@ -439,50 +182,38 @@ hidden: false
 
 ### Speed Cube DB
 
-- [F2L](https://speedcubedb.com/a/3x3/F2L)
 - [2-Look OLL](https://speedcubedb.com/a/3x3/2LookOLL)
 - [2-Look PLL](https://speedcubedb.com/a/3x3/2LookPLL)
 
 ### Mike
 
-- [F2L](https://logiqx.github.io/cubing-algs/html/if2l.html)
 - [2-Look OLL](https://logiqx.github.io/cubing-algs/html/2loll.html)
 - [2-Look PLL](https://logiqx.github.io/cubing-algs/html/2lpll.html)
 
 ### J Perm
 
 - [Cross](https://jperm.net/3x3/cfop/cross)
-- [F2L](https://jperm.net/3x3/cfop/f2l)
 - [2-Look OLL](https://jperm.net/algs/2lookoll)
 - [2-Look PLL](https://jperm.net/algs/2lookpll)
 
 ### AlgDb
 
-- [F2L](http://algdb.net/puzzle/333/f2l)
 - [OLL](http://algdb.net/puzzle/333/oll)
 - [PLL](http://algdb.net/puzzle/333/pll)
 
 ### CubeSkills
 
-- F2L
-  - [Basic](https://www.cubeskills.com/tutorials/f2l)
-  - [Intermediate](https://www.cubeskills.com/tutorials/intermediate-cross-and-f2l)
-  - [Advanced](https://www.cubeskills.com/tutorials/advanced-f2l)
 - [2-Look OLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-oll)
 - [2-Look PLL](https://www.cubeskills.com/tutorials/4-look-last-layer/2-look-pll)
 
 ### 아이엠준
 
-- [F2L](https://youtu.be/OMbs-nR8ID0)
 - [2-Look OLL](https://youtu.be/Jt2yRE_HdrE)
 - [2-Look PLL](https://youtu.be/HVIEiMsfFk0)
 
 ### 해피 큐빙
 
 - [Cross](https://youtu.be/UQbHf8tmbp4)
-- F2L
-  - <https://youtu.be/npoWOTF-BKg>
-  - <https://youtu.be/qZ6bxsxMcQM>
 - 2-Look OLL
   - <https://youtu.be/YNM1n7Ej6HM>
   - <https://youtu.be/K_vbxkmVZg4>
