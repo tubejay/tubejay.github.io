@@ -8,7 +8,7 @@ hidden: false
 ---
 
 <head>
-  <base target="_self">
+  <base target="_blank">
   <style>
     .iframe-wrapper {
       overflow    : hidden;
