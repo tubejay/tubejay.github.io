@@ -337,6 +337,5 @@ hidden: false
 
 ### 해피 큐빙
 
-- F2L
-  - <https://youtu.be/npoWOTF-BKg>
-  - <https://youtu.be/qZ6bxsxMcQM>
+- <https://youtu.be/npoWOTF-BKg>
+- <https://youtu.be/qZ6bxsxMcQM>
