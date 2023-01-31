@@ -30,23 +30,43 @@ hidden: false
 
 ## F2L : First Two Layers {#f2l}
 
-- case 0 : R U' R'
+### case 0
+
+- left to right : R U' R'
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+- right to left : F' U F
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
-- case 1 : R U R'
+### case 1
+
+- right to left : R U R'
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+- left to right : F' U' F
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
-- case 2 : ( R U R' ) ( U2 ) ( case 0 )
+### case 2
+
+- right : ( R U R' ) ( U2 ) ( case 0 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -54,7 +74,9 @@ hidden: false
     ></iframe>
   </div>
 
-- case 3 : ( R U R' ) ( U ) ( case 0 )
+### case 3
+
+- right : ( R U R' ) ( U ) ( case 0 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
