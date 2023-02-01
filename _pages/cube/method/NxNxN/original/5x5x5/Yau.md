@@ -31,7 +31,7 @@ hidden: false
 
 ## 8 edges
 
-### edge parity : [Reduction / edge parity](#reduction)
+### edge parity : [5x5x5 / Reduction / edge parity](/cube/method/NxNxN/original/5x5x5/reduction#edge-parity)
 
 
 
