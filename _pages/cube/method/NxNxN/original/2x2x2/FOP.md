@@ -22,9 +22,9 @@ hidden: false
 
 ### [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
 
-- R U R'
-- F' U' F
-- ( R U’ R’ U ) ( F’ U F )
+- R U R' : https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27
+- F' U' F : https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U%27+F
+- ( R U’ R’ U ) ( F’ U F ) : https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U%27+R%27+U+F%27+U+F
 
 
 
