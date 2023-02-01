@@ -20,7 +20,7 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
-### [2x2x2 / FOP / FL](/cube/method/NxNxN/original/2x2x2/FOP#fl)
+### [2x2x2 / FOP / FL](/cube/method/NxNxN/original/2x2x2/fop#fl)
 
 
 
