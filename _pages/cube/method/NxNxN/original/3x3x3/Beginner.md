@@ -39,6 +39,7 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+
 - left : F' U' F
   <div class="iframe-wrapper">
     <iframe
@@ -69,14 +70,15 @@ hidden: false
 
 ## SL : Second Layer {#sl}
 
-- ( U R U' R' ) ( F R' F' R )
+- left to right : ( U R U' R' ) ( F R' F' R )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=U%20R%20U'%20R'%20F%20R'%20F'%20R&colored=DF%20DR%20DFR%20F%20R%20FR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- ( U' F' U F ) ( R' F R F' )
+
+- right to left : ( U' F' U F ) ( R' F R F' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
