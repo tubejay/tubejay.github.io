@@ -9,6 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <style>
+    img {
+      max-width:150px;
+    }
+  </style>
 </head>
 
 
@@ -24,6 +29,25 @@ hidden: false
 
 
 ## PBL : Permutation of Both Layers {#pbl}
+
+### U layer swap
+
+- [2x2x2 / FOP / PLL](/cube/method/NxNxN/original/2x2x2/fop#pll)
+
+### U layer swap / D layer swap
+
+- adjacent / adjacent : ( R2 U' ) ( R2 U2 ) ( F2 U' ) ( R2 )
+  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PBL&alg=R2+U%27+R2+U2%27+F2+U%27+R2">
+    <img src="https://user-images.githubusercontent.com/92285528/216036832-b6fca7df-1701-49f1-8f3c-4703bc8b8872.png">
+  </a>
+- adjacent / diagonal : ( R U' R ) ( F2 ) ( R' U R' )
+  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PBL&alg=R+U%27+R+F2+R%27+U+R%27">
+    <img src="https://user-images.githubusercontent.com/92285528/216038283-1278eb68-e58a-4133-8b7a-1d811af8cbdc.png">
+  </a>
+- diagonal / diagonal : R2 F2 R2
+  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PBL&alg=R2+F2+R2">
+    <img src="https://user-images.githubusercontent.com/92285528/216038610-81181650-572a-459d-a720-32d21d28cf17.png">
+  </a>
 
 
 
