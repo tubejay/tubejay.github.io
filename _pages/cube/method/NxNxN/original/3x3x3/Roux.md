@@ -20,7 +20,7 @@ hidden: false
       border      : none;
     }
     img {
-      max-width:350px;
+      max-width:300px;
     }
   </style>
 </head>
