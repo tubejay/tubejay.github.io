@@ -29,16 +29,38 @@ hidden: false
 
 ## reference
 
-- Speedsolving Wiki
-  - [PBL](https://www.speedsolving.com/wiki/index.php/PBL)
-- Speed Cube DB
-  - [PBL](https://speedcubedb.com/a/2x2/OrtegaPBL)
-- AlgDb
-  - [PBL](http://algdb.net/puzzle/222/ortegapbl)
-- J Perm
-  - [PBL](https://jperm.net/algs/2x2pbl)
-- vincent
-  - [PBL](https://m.blog.naver.com/vincentcube/60134828872)
-- [아이엠준](https://youtu.be/BNmOS69maw4)
-- [해피 큐빙](https://youtu.be/3d1IKL6HMUs)
-- [굿맨](https://youtu.be/zcihyvuCvMQ)
+### Speedsolving Wiki
+
+- [PBL](https://www.speedsolving.com/wiki/index.php/PBL)
+
+### Speed Cube DB
+
+- [PBL](https://speedcubedb.com/a/2x2/OrtegaPBL)
+
+### Mike
+
+- [PBL](https://logiqx.github.io/cubing-algs/html/pbl.html)
+
+### AlgDb
+
+- [PBL](http://algdb.net/puzzle/222/ortegapbl)
+
+### J Perm
+
+- [PBL](https://jperm.net/algs/2x2pbl)
+
+### vincent
+
+- [PBL](https://m.blog.naver.com/vincentcube/60134828872)
+
+### 아이엠준
+
+- [Ortega](https://youtu.be/BNmOS69maw4)
+
+### 해피 큐빙
+
+- [Ortega](https://youtu.be/3d1IKL6HMUs)
+
+### 굿맨
+
+- [Ortega](https://youtu.be/zcihyvuCvMQ)
