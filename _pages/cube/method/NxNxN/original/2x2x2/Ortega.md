@@ -20,6 +20,10 @@ hidden: false
 
 ## FF : First Face {#ff}
 
+<a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&setup-alg=R+U+F%27+R%27+y+F%27+U%27+F+U+F%27+U%27+F&alg=y+y+y">
+  <img src="https://user-images.githubusercontent.com/92285528/216042648-dfa6d4a8-4551-48b2-a400-c773a64ea456.png">
+</a>
+
 
 
 ## OLL : Orientation of the Last Layer {#oll}
