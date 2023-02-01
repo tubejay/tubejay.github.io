@@ -25,7 +25,7 @@ hidden: false
 
 
 
-## [5x5x5 / Yau](#yau)
+## [5x5x5 / Yau](/cube/method/NxNxN/original/5x5x5/yau)
 
 - start : 8 edges
 
