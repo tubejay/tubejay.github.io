@@ -33,37 +33,29 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/216020510-914c1467-ab22-44ce-a864-407eb993e19b.png">
 </a>
 
-
-
-## Cross
-
-### use
+### rotation : orientation preserved {#preserved}
 
 - U layer
 - D layer
 - L layer
 - R layer
 
-### do not use
+### rotation : orientation reversed {#reversed}
 
 - F layer
 - B layer
+
+
+
+## Cross
+
+- do not use : [rotation : orientation reversed](#reversed)
 
 
 
 ## [F2L : First Two Layers](/cube/method/NxNxN/original/3x3x3/f2l) {#f2l}
 
-### use
-
-- U layer
-- D layer
-- L layer
-- R layer
-
-### do not use
-
-- F layer
-- B layer
+- do not use : [rotation : orientation reversed](#reversed)
 
 
 
@@ -72,6 +64,9 @@ hidden: false
 <a href="https://ruwix.com/widget/3d/?colored=U-%20u/em&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/216024030-11bb872b-081a-4ed9-ad7d-fde0e5301785.png">
 </a>
+
+- method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
+- skip : EOLL
 
 
 
