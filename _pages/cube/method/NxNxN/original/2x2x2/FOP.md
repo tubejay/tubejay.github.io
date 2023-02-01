@@ -20,6 +20,12 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
+### [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
+
+- R U R'
+- F' U' F
+- ( R U’ R’ U ) ( F’ U F )
+
 
 
 ## OLL : Orientation of the Last Layer {#oll}
