@@ -47,7 +47,7 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215526985-573e87a1-d224-4533-b397-5065d6ca261e.png">
 </a>
 
-- [3x3x3 / CFCE / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/cfce#cll)
+#### [3x3x3 / CFCE / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/cfce#cll)
 
 ### L6E : Last Six Edges {#l6e}
 
