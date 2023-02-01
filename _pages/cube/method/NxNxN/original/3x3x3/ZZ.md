@@ -19,6 +19,9 @@ hidden: false
       margin-top  : -20px;
       border      : none;
     }
+    img {
+      max-width:250px;
+    }
   </style>
 </head>
 
@@ -26,12 +29,9 @@ hidden: false
 
 ## EO : Edge Orientation {#eo}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=u/e%20d/e%20Fl%20Fr%20Bl%20Br&setupmoves=L%20U%20R%20D%20L&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<a href="https://ruwix.com/widget/3d/?colored=u/e%20d/e%20Fl%20Fr%20Bl%20Br&solved=undefined&setupmoves=L%20U%20R%20D%20L&hover=9&speed=500&flags=canvas">
+  <img src="https://user-images.githubusercontent.com/92285528/216020510-914c1467-ab22-44ce-a864-407eb993e19b.png">
+</a>
 
 
 
@@ -69,15 +69,9 @@ hidden: false
 
 ## LL : Last Layer {#ll}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=U-%20u/em&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
-
-- method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
-- skip : EOLL
+<a href="https://ruwix.com/widget/3d/?colored=U-%20u/em&hover=9&speed=500&flags=canvas">
+  <img src="https://user-images.githubusercontent.com/92285528/216024030-11bb872b-081a-4ed9-ad7d-fde0e5301785.png">
+</a>
 
 
 
