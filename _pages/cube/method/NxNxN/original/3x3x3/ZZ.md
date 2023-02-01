@@ -37,6 +37,18 @@ hidden: false
 
 ## Cross
 
+### use
+
+- U layer
+- D layer
+- L layer
+- R layer
+
+### do not use
+
+- F layer
+- B layer
+
 
 
 ## [F2L : First Two Layers](/cube/method/NxNxN/original/3x3x3/f2l) {#f2l}
