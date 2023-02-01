@@ -19,7 +19,7 @@ hidden: false
 
 ## OLL : Orientation of the Last Layer {#oll}
 
-- [2x2x2 / FOP / OLL](/cube/method/NxNxN/original/2x2x2/fop#oll)
+### [2x2x2 / FOP / OLL](/cube/method/NxNxN/original/2x2x2/fop#oll)
 
 
 
