@@ -30,25 +30,38 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
-- R U R'
+### case 1
+
+- right : R U R'
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- F' U' F
+- left : F' U' F
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- ( R U' R' U ) ( F' U F )
+
+### case 2
+
+- right : ( R U' R' U ) ( F' U F )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- left : ( F' U F U' ) ( R U' R' )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20R%20U'%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -135,7 +148,7 @@ hidden: false
 
 ### Ruwix
 
-- [Beginner's Solution](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/)
+- [Beginner](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/)
   - [Cross](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-1-first-layer-edges/)
   - [FL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-2-first-layer-corners/)
   - [SL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step3-second-layer-f2l/)
@@ -145,10 +158,18 @@ hidden: false
     - [CPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-6-position-yellow-corners/)
     - [COLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/orient-yellow-corners-how-to-solve-last-layer-corner/)
 
-### [J Perm](https://jperm.net/3x3)
+### J Perm
 
-### [CubeSkills](https://www.cubeskills.com/tutorials/the-beginners-method-for-solving-the-rubiks-cube)
+- [Beginner](https://jperm.net/3x3)
 
-### [아이엠준](https://youtu.be/8vRG9hCtyiI)
+### CubeSkills
 
-### [해피 큐빙](https://youtu.be/HgEySd_N-6w)
+- [Beginner](https://www.cubeskills.com/tutorials/the-beginners-method-for-solving-the-rubiks-cube)
+
+### 아이엠준
+
+- [Beginner](https://youtu.be/8vRG9hCtyiI)
+
+### 해피 큐빙
+
+- [Beginner](https://youtu.be/HgEySd_N-6w)
