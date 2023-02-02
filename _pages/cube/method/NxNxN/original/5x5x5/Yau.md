@@ -9,6 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <style>
+    img {
+      max-width:350px;
+    }
+  </style>
 </head>
 
 
