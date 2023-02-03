@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
   <style>
     img {
-      max-width:400px;
+      max-width:450px;
     }
   </style>
 </head>
