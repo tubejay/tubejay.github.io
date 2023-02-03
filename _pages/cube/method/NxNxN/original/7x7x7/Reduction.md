@@ -40,6 +40,6 @@ hidden: false
 - [reduction](https://youtu.be/3wynYMk4eZk)
 - [center](https://youtu.be/4ViuGBx14zg)
 
-### [굿맨]
+### 굿맨
 
 - [Reduction](https://youtu.be/cA-YbPc2VZs)
