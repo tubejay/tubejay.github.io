@@ -15,9 +15,13 @@ hidden: false
 
 ## center
 
+- <https://alpha.twizzle.net/edit/?puzzle=7x7x7&setup-anchor=end&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R&stickering=centers-only>
+
 
 
 ## edge
+
+- <https://alpha.twizzle.net/edit/?puzzle=7x7x7&setup-anchor=end&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R>
 
 ### edge parity 2-1-2
 
