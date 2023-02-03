@@ -21,7 +21,7 @@ hidden: false
 ## 2 centers
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw">
-  <img src="https://user-images.githubusercontent.com/92285528/215300866-07da1cb9-40e0-43ec-9e0a-407285b1a259.png">
+  <img src="https://user-images.githubusercontent.com/92285528/216596335-0ba22a5c-682c-4890-9f7d-0f0523ddbd7c.png">
 </a>
 
 
@@ -29,7 +29,7 @@ hidden: false
 ## 3 cross edges
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw">
-  <img src="https://user-images.githubusercontent.com/92285528/215301361-8bbfe6df-f4fd-46f6-937c-96aefa592a1e.png">
+  <img src="https://user-images.githubusercontent.com/92285528/216596765-1ada85dc-1b22-414c-8095-f408822896ed.png">
 </a>
 
 
