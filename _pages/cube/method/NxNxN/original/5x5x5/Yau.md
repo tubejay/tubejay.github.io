@@ -37,7 +37,7 @@ hidden: false
 ## 4 centers
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=5x5x5&setup-anchor=end&stickering=Cross&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R+B+R%27+U%27+3R+U2+3R%27+U2+F">
-  <img src="https://user-images.githubusercontent.com/92285528/216598161-2f225caf-6f15-4af3-896c-e045863aeb6b.png">
+  <img src="https://user-images.githubusercontent.com/92285528/216599636-9c6b86dd-9c79-4168-bd3b-1b3328f3bf01.png">
 </a>
 
 
@@ -45,7 +45,7 @@ hidden: false
 ## 1 cross edge
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=5x5x5&setup-anchor=end&stickering=Cross&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R+B+R%27+U%27+F2">
-  <img src="https://user-images.githubusercontent.com/92285528/216317136-5b3710cc-2ac2-44d0-aae8-5ecdb4329e59.png">
+  <img src="https://user-images.githubusercontent.com/92285528/216600121-0ab21dc5-01bc-41bd-8ac9-5c109887fc93.png">
 </a>
 
 
