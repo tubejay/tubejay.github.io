@@ -24,7 +24,9 @@ hidden: false
 
 
 
-## case 0
+## edge move
+
+### case 1
 
 - right : ( R U R' ) ( U ) ( BASIC / case 1 )
 
@@ -44,9 +46,7 @@ hidden: false
     ></iframe>
   </div>
 
-
-
-## case 1
+### case 2
 
 - right : ( R U' R' ) ( U ) ( BASIC / case 1 )
 
@@ -66,7 +66,7 @@ hidden: false
     ></iframe>
   </div>
 
-## case 2
+### case 3
 
 - right : ( R U2 R' ) ( U ) ( BASIC / case 1 )
 
@@ -88,7 +88,9 @@ hidden: false
 
 
 
-## case 3
+## corner flip
+
+### case 4
 
 - right : ( R U' R' ) ( U2 ) ( BASIC / case 1 )
 
@@ -108,31 +110,7 @@ hidden: false
     ></iframe>
   </div>
 
-
-
-## case 4
-
-- right : ( R U2 R' ) ( U ) ( BASIC / case 0 )
-
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-- left : ( F' U2' F ) ( U' ) ( BASIC / case 0 )
-
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-
-
-## case 5
+### case 5
 
 - right : ( R U2 R' ) ( U' ) ( BASIC / case 1 )
 
@@ -152,9 +130,7 @@ hidden: false
     ></iframe>
   </div>
 
-
-
-## case 6
+### case 6
 
 - right : ( R' F R F' ) ( U' ) ( BASIC / case 1 )
 
@@ -174,5 +150,22 @@ hidden: false
     ></iframe>
   </div>
 
+### case 7
 
+- right : ( R U2 R' ) ( U ) ( BASIC / case 0 )
 
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- left : ( F' U2' F ) ( U' ) ( BASIC / case 0 )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
