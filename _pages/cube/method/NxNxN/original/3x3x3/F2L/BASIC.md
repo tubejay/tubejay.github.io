@@ -70,6 +70,8 @@ hidden: false
 
 ## case 2
 
+### case 2-1
+
 - right : ( R U R' ) ( U2 ) ( BASIC / case 0 )
 
   <div class="iframe-wrapper">
@@ -88,9 +90,31 @@ hidden: false
     ></iframe>
   </div>
 
+### case 2-2
+
+- right : ( R U2 R' ) ( U2 ) ( BASIC / case 0 )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20U2'%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- left : ( F' U2' F ) ( U2 ) ( BASIC / case 0 )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20U2%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
 
 
 ## case 3
+
+### case 3-1
 
 - right : ( R U R' ) ( U ) ( BASIC / case 0 )
 
@@ -107,5 +131,25 @@ hidden: false
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+### case 3-2
+
+- right : ( R U2 R' ) ( U ) ( BASIC / case 0 )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- left : ( F' U2 F ) ( U' ) ( BASIC / case 0 )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
