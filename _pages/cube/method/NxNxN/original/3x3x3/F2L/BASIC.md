@@ -26,7 +26,7 @@ hidden: false
 
 ## case 0
 
-## case 0-a
+### case 0-a
 
 - left to right : R U' R'
 
@@ -46,7 +46,7 @@ hidden: false
     ></iframe>
   </div>
 
-## case 0-b
+### case 0-b
 
 - right to left : ( R' F ) ( R F' )
 
