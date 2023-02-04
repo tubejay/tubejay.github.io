@@ -26,6 +26,8 @@ hidden: false
 
 ## case 0
 
+## case 0-a
+
 - left to right : R U' R'
 
   <div class="iframe-wrapper">
@@ -41,6 +43,26 @@ hidden: false
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+## case 0-b
+
+- right to left : ( R' F ) ( R F' )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+- left to right : ( F R' ) ( F' R )
+
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -70,9 +92,9 @@ hidden: false
 
 ## case 2
 
-### case 2-1
+### case 2-a
 
-- right : ( R U R' ) ( U2 ) ( BASIC / case 0 )
+- right : ( R U R' ) ( U2 ) ( BASIC / case 0-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -81,7 +103,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( U2 ) ( BASIC / case 0 )
+- left : ( F' U' F ) ( U2 ) ( BASIC / case 0-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -90,9 +112,9 @@ hidden: false
     ></iframe>
   </div>
 
-### case 2-2
+### case 2-b
 
-- right : ( R U2 R' ) ( U2 ) ( BASIC / case 0 )
+- right : ( R U2 R' ) ( U2 ) ( BASIC / case 0-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -101,7 +123,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U2' F ) ( U2 ) ( BASIC / case 0 )
+- left : ( F' U2' F ) ( U2 ) ( BASIC / case 0-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -114,42 +136,42 @@ hidden: false
 
 ## case 3
 
-### case 3-1
+### case 3-a
 
-- right : ( R U R' ) ( U ) ( BASIC / case 0 )
+- right : ( R U R' ) ( BASIC / case 0-b )
 
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20R'%20F%20R%20F'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( U' ) ( BASIC / case 0 )
+- left : ( F' U' F ) ( BASIC / case 0-b )
 
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20F%20R'%20F'%20R&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
-### case 3-2
+### case 3-b
 
-- right : ( R U2 R' ) ( U ) ( BASIC / case 0 )
+- right : ( R U2 R' ) ( BASIC / case 0-b )
 
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20R'%20F%20R%20F'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
-- left : ( F' U2 F ) ( U' ) ( BASIC / case 0 )
+- left : ( F' U2 F ) ( BASIC / case 0-b )
 
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20F%20R'%20F'%20R&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
