@@ -28,7 +28,7 @@ hidden: false
 
 ### case 0
 
-- right : ( R U' R' ) ( U ) ( BASIC / case 0-a )
+- right : ( R U' R' ) ( U ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -37,7 +37,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U F ) ( U' ) ( BASIC / case 0-a )
+- left : ( F' U F ) ( U' ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -50,7 +50,7 @@ hidden: false
 
 ### case 1
 
-- right : ( R U R' ) ( F U F' ) ( BASIC / case 0-a )
+- right : ( R U R' ) ( F U F' ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -59,7 +59,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( R' U' R ) ( BASIC / case 0-a )
+- left : ( F' U' F ) ( R' U' R ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -74,7 +74,7 @@ hidden: false
 
 ### case 2
 
-- right : ( R U' R' ) ( U2 ) ( BASIC / case 0-a )
+- right : ( R U' R' ) ( U2 ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -83,7 +83,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U F ) ( U2 ) ( BASIC / case 0-a )
+- left : ( F' U F ) ( U2 ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -96,7 +96,7 @@ hidden: false
 
 ### case 3
 
-- right : ( R U R' ) ( U ) ( BASIC / case 1 )
+- right : ( R U R' ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <div class="iframe-wrapper">
     <iframe
@@ -105,7 +105,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( U' ) ( BASIC / case 1 )
+- left : ( F' U' F ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <div class="iframe-wrapper">
     <iframe
