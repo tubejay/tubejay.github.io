@@ -28,7 +28,7 @@ hidden: false
 
 ### case 1
 
-- right : ( F' U F ) ( BASIC / case 0-b )
+- right : ( F' U F ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -37,7 +37,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( R U' R' ) ( BASIC / case 0-b )
+- left : ( R U' R' ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -52,7 +52,7 @@ hidden: false
 
 ### case 2
 
-- right : ( R U' R' ) ( BASIC / case 0-b )
+- right : ( R U' R' ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -61,7 +61,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U F ) ( BASIC / case 0-b )
+- left : ( F' U F ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -72,7 +72,7 @@ hidden: false
 
 ### case 3
 
-- right : ( R U R' ) ( U' ) ( BASIC / case 1 )
+- right : ( R U R' ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <div class="iframe-wrapper">
     <iframe
@@ -81,7 +81,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( U ) ( BASIC / case 1 )
+- left : ( F' U' F ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <div class="iframe-wrapper">
     <iframe
