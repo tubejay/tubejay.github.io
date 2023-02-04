@@ -48,7 +48,7 @@ hidden: false
 
 
 
-## corner flipper 90°
+## corner flipped 90°
 
 ### case 2
 
