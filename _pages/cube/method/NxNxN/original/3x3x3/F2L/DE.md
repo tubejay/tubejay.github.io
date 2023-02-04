@@ -24,9 +24,11 @@ hidden: false
 
 
 
-## case 1
+## corner flipped 0°
 
-- right : ( R U R' ) ( U2 ) ( R U2 R' ) ( U ) ( BASIC / case 1 )
+### case 1
+
+- right : ( R U R' ) ( U2 ) ( UU / case 3 )
 
   <div class="iframe-wrapper">
     <iframe
@@ -35,7 +37,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( U2 ) ( F' U2 F ) ( U' ) ( BASIC / case 1 )
+- left : ( F' U' F ) ( U2 ) ( UU / case 3 )
 
   <div class="iframe-wrapper">
     <iframe
@@ -46,9 +48,11 @@ hidden: false
 
 
 
-## case 2
+## corner flipper 90°
 
-- right : ( R U' R' ) ( U' ) ( BASIC / case 2 )
+### case 2
+
+- right : ( R U' R' ) ( U' ) ( BASIC / case 2-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -57,7 +61,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U F ) ( U ) ( BASIC / case 2 )
+- left : ( F' U F ) ( U ) ( BASIC / case 2-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -66,11 +70,9 @@ hidden: false
     ></iframe>
   </div>
 
+### case 3
 
-
-## case 3
-
-- right : ( R U' R' ) ( U2 ) ( BASIC / case 3 )
+- right : ( R U' R' ) ( U2 ) ( BASIC / case 3-a )
 
   <div class="iframe-wrapper">
     <iframe
@@ -79,7 +81,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U F ) ( U2 ) ( BASIC / case 3 )
+- left : ( F' U F ) ( U2 ) ( BASIC / case 3-a )
 
   <div class="iframe-wrapper">
     <iframe
