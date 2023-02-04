@@ -24,7 +24,9 @@ hidden: false
 
 
 
-## case 0
+## corner flipped 180°
+
+### case 0
 
 - right : ( R U' R' ) ( U ) ( BASIC / case 0-a )
 
@@ -46,7 +48,7 @@ hidden: false
 
 
 
-## case 1
+### case 1
 
 - right : ( R U R' ) ( F U F' ) ( BASIC / case 0-a )
 
@@ -68,7 +70,9 @@ hidden: false
 
 
 
-## case 2
+## corner flipped 90°
+
+### case 2
 
 - right : ( R U' R' ) ( U2 ) ( BASIC / case 0-a )
 
@@ -90,7 +94,7 @@ hidden: false
 
 
 
-## case 3
+### case 3
 
 - right : ( R U R' ) ( U ) ( BASIC / case 1 )
 
