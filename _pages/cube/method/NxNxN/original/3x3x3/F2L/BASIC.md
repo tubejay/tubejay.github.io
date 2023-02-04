@@ -123,7 +123,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U2' F ) ( U2 ) ( BASIC / case 0-a )
+- left : ( F' U2 F ) ( U2 ) ( BASIC / case 0-a )
 
   <div class="iframe-wrapper">
     <iframe
