@@ -149,23 +149,3 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-
-### case 7
-
-- right : ( R U2 R' ) ( U ) ( BASIC / case 0 )
-
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U2%20R'%20U%20R%20U'%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-- left : ( F' U2' F ) ( U' ) ( BASIC / case 0 )
-
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U2'%20F%20U'%20F'%20U%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
