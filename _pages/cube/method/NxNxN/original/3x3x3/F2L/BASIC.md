@@ -94,7 +94,7 @@ hidden: false
 
 ### case 2-a
 
-- right : ( R U R' ) ( U2 ) ( BASIC / case 0-a )
+- right : ( R U R' ) ( U2 ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -103,7 +103,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( U2 ) ( BASIC / case 0-a )
+- left : ( F' U' F ) ( U2 ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -114,7 +114,7 @@ hidden: false
 
 ### case 2-b
 
-- right : ( R U2 R' ) ( U2 ) ( BASIC / case 0-a )
+- right : ( R U2 R' ) ( U2 ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -123,7 +123,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U2 F ) ( U2 ) ( BASIC / case 0-a )
+- left : ( F' U2 F ) ( U2 ) [( F2L / BASIC / case 0-a )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-a)
 
   <div class="iframe-wrapper">
     <iframe
@@ -138,7 +138,7 @@ hidden: false
 
 ### case 3-a
 
-- right : ( R U R' ) ( BASIC / case 0-b )
+- right : ( R U R' ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -147,7 +147,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U' F ) ( BASIC / case 0-b )
+- left : ( F' U' F ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -158,7 +158,7 @@ hidden: false
 
 ### case 3-b
 
-- right : ( R U2 R' ) ( BASIC / case 0-b )
+- right : ( R U2 R' ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
@@ -167,7 +167,7 @@ hidden: false
     ></iframe>
   </div>
 
-- left : ( F' U2 F ) ( BASIC / case 0-b )
+- left : ( F' U2 F ) [( F2L / BASIC / case 0-b )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-0-b)
 
   <div class="iframe-wrapper">
     <iframe
