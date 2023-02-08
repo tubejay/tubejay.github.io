@@ -24,7 +24,7 @@ hidden: false
 
 
 
-## 2 Edges
+## UE : U layer & E layer
 
 ### case 1
 
@@ -44,9 +44,18 @@ hidden: false
   ></iframe>
 </div>
 
+### case 3
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20D2%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 
-## 1 Edge + 1 Edge
+
+## ED : E layer & D layer
 
 ### case 1
 
@@ -62,6 +71,6 @@ hidden: false
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=R'%20u2%20F'&colored=U%20FD%20RD&setupmoves=y2&hover=9&speed=500&flags=canvas"
+    src="https://ruwix.com/widget/3d/?alg=R%20D%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
