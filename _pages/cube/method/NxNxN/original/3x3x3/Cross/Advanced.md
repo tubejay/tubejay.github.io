@@ -74,3 +74,12 @@ hidden: false
     src="https://ruwix.com/widget/3d/?alg=R%20D%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
+
+### case 3
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R%20D2%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
