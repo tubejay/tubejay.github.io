@@ -24,9 +24,9 @@ hidden: false
 
 
 
-## U face
+## U face {#u}
 
-### case 1
+### case 1 {#u-case-1}
 
 <div class="iframe-wrapper">
   <iframe
@@ -35,7 +35,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 2
+### case 2 {#u-case-2}
 
 <div class="iframe-wrapper">
   <iframe
@@ -44,7 +44,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 3
+### case 3 {#u-case-3}
 
 <div class="iframe-wrapper">
   <iframe
@@ -55,9 +55,9 @@ hidden: false
 
 
 
-## D face
+## D face {#d}
 
-### case 1
+### case 1 {#d-case-1}
 
 <div class="iframe-wrapper">
   <iframe
@@ -66,7 +66,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 2
+### case 2 {#d-case-2}
 
 <div class="iframe-wrapper">
   <iframe
