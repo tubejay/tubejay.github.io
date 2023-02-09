@@ -30,7 +30,7 @@ hidden: false
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R&colored=U%20FD%20RD&setupmoves=F'%20R'%20D'%20R'%20U%20F%20R'%20F'%20R&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20F&colored=U%20FD%20RD&setupmoves=y&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -42,7 +42,7 @@ hidden: false
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R&colored=U%20FD%20BD&setupmoves=F'%20R%20U%20F2%20B%20R%20R&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20D%20F&colored=U%20FD%20BD&setupmoves=y&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -54,6 +54,6 @@ hidden: false
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R&colored=U%20FD%20LD&setupmoves=L%20B'%20F'%20R'%20B2%20D'%20R&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20D2%20F&colored=U%20FD%20LD&setupmoves=y&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
