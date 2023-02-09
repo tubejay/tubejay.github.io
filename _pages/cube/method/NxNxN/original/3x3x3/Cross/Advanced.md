@@ -13,24 +13,32 @@ hidden: false
 
 
 
-## [UU : U layer & U layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/uu) {#uu}
+## algorithm
+
+### [UU : U layer & U layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/uu) {#uu}
+
+### [UE : U layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#ue}
+
+### [UD : U layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ud) {#ud}
+
+### [EE : E layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee) {#ee}
+
+### [ED : E layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed) {#ed}
+
+### [DD : D layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/dd) {#dd}
 
 
 
-## [UE : U layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#ue}
+## reference
 
+### Ruwix
 
+- [Cross](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/)
 
-## [UD : U layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ud) {#ud}
+### J Perm
 
+- [Cross](https://jperm.net/3x3/cfop/cross)
 
+### 해피 큐빙
 
-## [EE : E layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee) {#ee}
-
-
-
-## [ED : E layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed) {#ed}
-
-
-
-## [DD : D layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/dd) {#dd}
+- [Cross](https://youtu.be/UQbHf8tmbp4)
