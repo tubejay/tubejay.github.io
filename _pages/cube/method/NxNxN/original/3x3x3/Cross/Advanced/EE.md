@@ -26,22 +26,73 @@ hidden: false
 
 ## case 1
 
-- E layer
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=L&colored=U%20FD%20RD&setupmoves=F%20R%20L&hover=9&speed=500&flags=canvas&colors=F:white%20D:cyan%20R:cyan"
-    ></iframe>
-  </div>
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20R&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20D'%20R&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20D2'%20R&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 
 
 ## case 2
 
-- U layer
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F&colored=U%20FD%20RD&setupmoves=F%20R%20F&hover=9&speed=500&flags=canvas&colors=F:cyan%20D:cyan%20R:white"
-    ></iframe>
-  </div>
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=B'%20D'%20F&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=B'%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=B'%20D%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+
+
+## case 3
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R'%20D'%20R2'&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R'%20D2'%20R2'&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
