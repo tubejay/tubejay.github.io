@@ -24,32 +24,9 @@ hidden: false
 
 
 
-## case 1
+## 2 white : same
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=F%20R&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
-
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=F%20D'%20R&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
-
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=F%20D2'%20R&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
-
-
-
-## case 2
+### case 1
 
 <div class="iframe-wrapper">
   <iframe
@@ -58,12 +35,16 @@ hidden: false
   ></iframe>
 </div>
 
+### case 2
+
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
     src="https://ruwix.com/widget/3d/?alg=B'%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
+
+### case 3
 
 <div class="iframe-wrapper">
   <iframe
@@ -74,7 +55,40 @@ hidden: false
 
 
 
-## case 3
+## 2 white : adjacent
+
+### case 4
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20R&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+### case 5
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20D'%20R&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+### case 6
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F%20D2'%20R&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+
+
+## 2 white : opposite
+
+### case 7
 
 <div class="iframe-wrapper">
   <iframe
@@ -83,16 +97,20 @@ hidden: false
   ></iframe>
 </div>
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+### case 8
 
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
     src="https://ruwix.com/widget/3d/?alg=R'%20D2'%20R2'&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+### case 9
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
