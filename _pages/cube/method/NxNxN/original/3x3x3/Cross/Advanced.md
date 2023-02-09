@@ -24,7 +24,7 @@ hidden: false
 
 
 
-## UE : U layer & E layer {#ue}
+## [UE : U layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#ue}
 
 ### case 1 {#ue-case-1}
 
@@ -55,7 +55,7 @@ hidden: false
 
 
 
-## ED : E layer & D layer {#ed}
+## [ED : E layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed) {#ed}
 
 ### case 1 {#ed-case-1}
 
@@ -86,7 +86,7 @@ hidden: false
 
 
 
-## UU : U layer & U layer {#uu}
+## [UU : U layer & U layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/uu) {#uu}
 
 ### case 1 ➡️ [UE](#ue) {#uu-case-1}
 
@@ -108,7 +108,7 @@ hidden: false
 
 
 
-## UD : U layer & D layer {#ud}
+## [UD : U layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ud) {#ud}
 
 ### case 1 ➡️ [ED](#ed) {#ud-case-1}
 
@@ -139,7 +139,7 @@ hidden: false
 
 
 
-## EE : E layer & E layer {#ee}
+## [EE : E layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee) {#ee}
 
 ### case 1 ➡️ E layer {#ee-case-1}
 
@@ -161,7 +161,7 @@ hidden: false
 
 
 
-## DD : D layer & D layer {#dd}
+## [DD : D layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/dd) {#dd}
 
 ### case 1 ➡️ [ED / case 1](#ed-case-1) {#dd-case-1}
 
