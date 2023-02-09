@@ -24,36 +24,62 @@ hidden: false
 
 
 
-## case 1
+## 2 edges : adjacent
 
-- [ED / case 1](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-1)
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20F&colored=U%20FD%20RD&setupmoves=y&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+### case 1 -> [ED / case 1](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-1)
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20F&colored=U%20FD%20RD&setupmoves=y&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+### case 2 -> [ED / case 2](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-2)
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20D%20F&colored=U%20FD%20BD&setupmoves=y&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
+### case 3 -> [ED / case 3](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-3)
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20D2%20F&colored=U%20FD%20LD&setupmoves=y&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 
 
-## case 2
+## 2 edges : opposite
 
-- [ED / case 2](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-2)
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20D%20F&colored=U%20FD%20BD&setupmoves=y&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+### case 4 -> [EE / case 7](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-7)
 
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F'%20B%20R'%20D'%20R2'&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
+### case 5 -> [EE / case 8](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-8)
 
-## case 3
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F'%20B%20R'%20D2'%20R2'&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
-- [ED / case 3](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-3)
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20y'%20R%20D2%20F&colored=U%20FD%20LD&setupmoves=y&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+### case 6 -> [EE / case 9](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-9)
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F'%20B%20R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
