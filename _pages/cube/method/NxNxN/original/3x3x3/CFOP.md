@@ -36,7 +36,7 @@ hidden: false
 
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
-- L : ( F ) ( U R U' R' ) ( F )
+- L : ( F ) ( U R U' R' ) ( F' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
