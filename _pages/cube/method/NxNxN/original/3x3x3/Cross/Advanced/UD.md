@@ -26,7 +26,7 @@ hidden: false
 
 ## case 1
 
-- ➡️ [ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
+- [ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -38,7 +38,7 @@ hidden: false
 
 ## case 2
 
-- ➡️ [ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
+- [ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -50,7 +50,7 @@ hidden: false
 
 ## case 3
 
-- ➡️ [ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
+- [ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
