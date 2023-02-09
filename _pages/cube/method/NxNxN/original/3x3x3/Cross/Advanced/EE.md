@@ -26,7 +26,7 @@ hidden: false
 
 ## case 1
 
-- ➡️ E layer
+- E layer
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -38,7 +38,7 @@ hidden: false
 
 ## case 2
 
-- ➡️ U layer
+- U layer
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
