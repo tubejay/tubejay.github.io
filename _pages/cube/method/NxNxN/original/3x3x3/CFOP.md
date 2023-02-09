@@ -168,7 +168,6 @@ hidden: false
 
 ### Ruwix
 
-- [Cross](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/white-cross/)
 - [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
 - [PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
 
@@ -192,7 +191,6 @@ hidden: false
 
 ### J Perm
 
-- [Cross](https://jperm.net/3x3/cfop/cross)
 - [2-Look OLL](https://jperm.net/algs/2lookoll)
 - [2-Look PLL](https://jperm.net/algs/2lookpll)
 
@@ -213,7 +211,6 @@ hidden: false
 
 ### 해피 큐빙
 
-- [Cross](https://youtu.be/UQbHf8tmbp4)
 - 2-Look OLL
   - <https://youtu.be/YNM1n7Ej6HM>
   - <https://youtu.be/K_vbxkmVZg4>
