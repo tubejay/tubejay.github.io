@@ -21,7 +21,9 @@ hidden: false
 ## FL : First Layer {#fl}
 
 - [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
+
   - case 1
+
     - right : R U R'
 
       <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27">
@@ -35,6 +37,7 @@ hidden: false
       </a>
 
   - case 2
+
     - right : ( R U’ R’ U ) ( F’ U F )
 
       <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U%27+R%27+U+F%27+U+F">
@@ -100,6 +103,7 @@ hidden: false
 ## PLL : Permutation of the Last Layer {#pll}
 
 - [3x3x3 / CFOP / CPLL](/cube/method/NxNxN/original/3x3x3/cfop#cpll)
+
   - Jb Perm : ( R U R' F' ) ( R U R' U' ) ( R' F ) ( R2 U' R' )
 
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R2+U%27+R%27">
