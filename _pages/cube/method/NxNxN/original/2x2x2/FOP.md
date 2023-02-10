@@ -20,35 +20,25 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
-### [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
-
-#### case 1
-
-- right : R U R'
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27">
-    <img src="https://user-images.githubusercontent.com/92285528/216001643-95d5f999-acdf-45a2-9c33-bea7b66f13d1.png">
-  </a>
-
-- left : F' U' F
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U%27+F">
-    <img src="https://user-images.githubusercontent.com/92285528/216001918-b9f48c9d-000c-4f9a-ba33-a207ccb8cb26.png">
-  </a>
-
-#### case 2
-
-- right : ( R U’ R’ U ) ( F’ U F )
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U%27+R%27+U+F%27+U+F">
-    <img src="https://user-images.githubusercontent.com/92285528/216002226-196b3313-f391-4132-af83-25d5e591e427.png">
-  </a>
-
-- left : ( F' U F U' ) ( R U' R' )
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U+F+U%27+R+U%27+R%27">
-    <img src="https://user-images.githubusercontent.com/92285528/216002752-49161da8-37a6-47ab-a7cf-49146937724f.png">
-  </a>
+- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
+  - case 1
+    - right : R U R'
+      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27">
+        <img src="https://user-images.githubusercontent.com/92285528/216001643-95d5f999-acdf-45a2-9c33-bea7b66f13d1.png">
+      </a>
+    - left : F' U' F
+      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U%27+F">
+        <img src="https://user-images.githubusercontent.com/92285528/216001918-b9f48c9d-000c-4f9a-ba33-a207ccb8cb26.png">
+      </a>
+  - case 2
+    - right : ( R U’ R’ U ) ( F’ U F )
+      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U%27+R%27+U+F%27+U+F">
+        <img src="https://user-images.githubusercontent.com/92285528/216002226-196b3313-f391-4132-af83-25d5e591e427.png">
+      </a>
+    - left : ( F' U F U' ) ( R U' R' )
+      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U+F+U%27+R+U%27+R%27">
+        <img src="https://user-images.githubusercontent.com/92285528/216002752-49161da8-37a6-47ab-a7cf-49146937724f.png">
+      </a>
 
 
 
@@ -100,19 +90,15 @@ hidden: false
 
 ## PLL : Permutation of the Last Layer {#pll}
 
-### [3x3x3 / CFOP / CPLL](/cube/method/NxNxN/original/3x3x3/cfop#cpll)
-
-- Jb Perm : ( R U R' F' ) ( R U R' U' ) ( R' F ) ( R2 U' R' )
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R2+U%27+R%27">
-    <img src="https://user-images.githubusercontent.com/92285528/215316506-cb35216a-50e5-4c45-bf76-6dceb9a9c517.png">
-  </a>
-
-- Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=F+R+U%27+R%27+U%27+R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R+F%27">
-    <img src="https://user-images.githubusercontent.com/92285528/215316575-3bec725d-ab4a-49ff-beec-76f3e268a27b.png">
-  </a>
+- [3x3x3 / CFOP / CPLL](/cube/method/NxNxN/original/3x3x3/cfop#cpll)
+  - Jb Perm : ( R U R' F' ) ( R U R' U' ) ( R' F ) ( R2 U' R' )
+    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R2+U%27+R%27">
+      <img src="https://user-images.githubusercontent.com/92285528/215316506-cb35216a-50e5-4c45-bf76-6dceb9a9c517.png">
+    </a>
+  - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
+    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=F+R+U%27+R%27+U%27+R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R+F%27">
+      <img src="https://user-images.githubusercontent.com/92285528/215316575-3bec725d-ab4a-49ff-beec-76f3e268a27b.png">
+    </a>
 
 
 
