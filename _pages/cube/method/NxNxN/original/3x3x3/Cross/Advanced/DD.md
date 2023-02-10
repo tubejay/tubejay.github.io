@@ -25,9 +25,9 @@ hidden: false
 
 
 
-## 2 edges : adjacent
+## 2 edges : adjacent {#adjacent}
 
-### case 1 -> [ED / case 4](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-4)
+### case 1 -> [Cross / Advanced / ED / case 4](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-4) {#case-1}
 
 <div class="iframe-wrapper">
   <iframe
@@ -36,7 +36,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 2 -> [ED / case 5](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-5)
+### case 2 -> [Cross / Advanced / ED / case 5](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-5) {#case-2}
 
 <div class="iframe-wrapper">
   <iframe
@@ -45,7 +45,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 3 -> [ED / case 6](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-6)
+### case 3 -> [Cross / Advanced / ED / case 6](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-6) {#case-3}
 
 <div class="iframe-wrapper">
   <iframe
@@ -56,9 +56,9 @@ hidden: false
 
 
 
-## 2 edges : opposite
+## 2 edges : opposite {#opposite}
 
-### case 4 -> [EE / case 7](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-7)
+### case 4 -> [Cross / Advanced / EE / case 7](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-7) {#case-4}
 
 <div class="iframe-wrapper">
   <iframe
@@ -67,7 +67,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 5 -> [EE / case 8](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-8)
+### case 5 -> [Cross / Advanced / EE / case 8](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-8) {#case-5}
 
 <div class="iframe-wrapper">
   <iframe
@@ -76,7 +76,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 6 -> [EE / case 9](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-9)
+### case 6 -> [Cross / Advanced / EE / case 9](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee#case-9) {#case-6}
 
 <div class="iframe-wrapper">
   <iframe
