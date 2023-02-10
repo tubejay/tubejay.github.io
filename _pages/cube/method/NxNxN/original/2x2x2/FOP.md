@@ -14,7 +14,7 @@ hidden: false
       max-width:150px;
     }
     .img-wrapper {
-      margin: 10px 0px;
+      margin: 20px 0px;
     }
   </style>
 </head>
