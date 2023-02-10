@@ -36,12 +36,9 @@ hidden: false
 
 ### rotation : orientation preserved {#preserved}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=l%20r%20u%20d&solved=undefined&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<a href="https://ruwix.com/widget/3d/?colored=l%20r%20u%20d&solved=undefined&hover=9&speed=500&flags=canvas">
+  <img src="https://user-images.githubusercontent.com/92285528/218125053-168d48f0-9ae9-4fa8-8f53-1d67272a75df.png">
+</a>
 
 - U layer
 - D layer
@@ -50,12 +47,9 @@ hidden: false
 
 ### rotation : orientation reversed {#reversed}
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?colored=f%20b&solved=undefined&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<a href="https://ruwix.com/widget/3d/?colored=f%20b&solved=undefined&hover=9&speed=500&flags=canvas">
+  <img src="https://user-images.githubusercontent.com/92285528/218125521-d2f8ad9b-f572-45be-a534-3a831b9223b6.png">
+</a>
 
 - F layer
 - B layer
