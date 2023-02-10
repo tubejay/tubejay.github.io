@@ -23,9 +23,11 @@ hidden: false
 - [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
   - case 1
     - right : R U R'
-      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27">
-        <img src="https://user-images.githubusercontent.com/92285528/216001643-95d5f999-acdf-45a2-9c33-bea7b66f13d1.png">
-      </a>
+      <div>
+        <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27">
+          <img src="https://user-images.githubusercontent.com/92285528/216001643-95d5f999-acdf-45a2-9c33-bea7b66f13d1.png">
+        </a>
+      </div>
     - left : F' U' F
       <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U%27+F">
         <img src="https://user-images.githubusercontent.com/92285528/216001918-b9f48c9d-000c-4f9a-ba33-a207ccb8cb26.png">
