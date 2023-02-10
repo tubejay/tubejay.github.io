@@ -12,7 +12,7 @@ hidden: false
   <style>
     .iframe-wrapper {
       overflow      : hidden;
-      margin-bottom : -40px;
+      margin-bottom : -35px;
     }
     iframe {
       width         : 250px;
