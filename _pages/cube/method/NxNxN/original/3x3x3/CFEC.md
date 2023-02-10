@@ -32,11 +32,11 @@ hidden: false
 
 
 
-## 2-Look ELL : Edges of the Last Layer {#ell}
+## 2-Look LLEF : Last Layer Edges First {#llef}
 
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
-#### [3x3x3 / CFOP / EOLL](/cube/method/NxNxN/original/3x3x3/cfop#eoll)
+- [3x3x3 / CFOP / EOLL](/cube/method/NxNxN/original/3x3x3/cfop#eoll)
 
 ### EPLL : Edge Permutation of the Last Layer {#epll}
 
@@ -58,9 +58,9 @@ hidden: false
 
 
 
-## 2-Look CLL : Corners of the Last Layer {#cll}
+## 2-Look L4C : Last 4 Corners {#l4c}
 
-### COLL : Corner Orientation of the Last Layer {#coll}
+### OCLL-EPP : Orient Corners of the Last Layer - Edges Permutation Preserved {#ocll-epp}
 
 - Sune : ( L U' ) ( R' U ) ( L' U' ) ( R )
   <div class="iframe-wrapper">
@@ -158,12 +158,12 @@ hidden: false
 
 ### Speedsolving Wiki
 
-- [ELL](https://www.speedsolving.com/wiki/index.php/LLEF)
-- [CLL](https://www.speedsolving.com/wiki/index.php/Last_Four_Corners)
-  - [COLL](https://www.speedsolving.com/wiki/index.php/Corner_Orientation#OCLL-EPP)
+- [LLEF](https://www.speedsolving.com/wiki/index.php/LLEF)
+- [L4C](https://www.speedsolving.com/wiki/index.php/Last_Four_Corners)
+  - [OCLL-EPP](https://www.speedsolving.com/wiki/index.php/Corner_Orientation#OCLL-EPP)
   - [CPLL](https://www.speedsolving.com/wiki/index.php/Corner_Permutation_of_the_Last_Layer)
 
 ### Mike
 
-- [2-Look ELL](https://logiqx.github.io/cubing-algs/html/2lllef.html)
-- [2-Look CLL](https://logiqx.github.io/cubing-algs/html/2ll4c.html)
+- [2-Look LLEF](https://logiqx.github.io/cubing-algs/html/2lllef.html)
+- [2-Look L4C](https://logiqx.github.io/cubing-algs/html/2ll4c.html)
