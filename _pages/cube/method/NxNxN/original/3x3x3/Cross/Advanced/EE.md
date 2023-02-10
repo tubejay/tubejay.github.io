@@ -25,7 +25,7 @@ hidden: false
 
 
 
-## 2 white : same
+## 2 white : same {#same}
 
 ### case 1
 
@@ -56,7 +56,7 @@ hidden: false
 
 
 
-## 2 white : adjacent
+## 2 white : adjacent {#adjacent}
 
 ### case 4
 
@@ -87,7 +87,7 @@ hidden: false
 
 
 
-## 2 white : opposite
+## 2 white : opposite {#opposite}
 
 ### case 7
 
