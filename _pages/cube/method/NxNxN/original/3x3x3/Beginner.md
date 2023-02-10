@@ -24,7 +24,7 @@ hidden: false
 
 
 
-## [Cross](/cube/method/NxNxN/original/3x3x3/cross/beginner)
+## [Cross / Beginner](/cube/method/NxNxN/original/3x3x3/cross/beginner)
 
 
 
