@@ -30,41 +30,36 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
-### case 1
-
-- right : R U R'
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-- left : F' U' F
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-### case 2
-
-- right : ( R U' R' U ) ( F' U F )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-- left : ( F' U F U' ) ( R U' R' )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20R%20U'%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+- case 1
+  - right : R U R'
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+  - left : F' U' F
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+- case 2
+  - right : ( R U' R' U ) ( F' U F )
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
+  - left : ( F' U F U' ) ( R U' R' )
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20R%20U'%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
 
 
 
