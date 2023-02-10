@@ -11,13 +11,14 @@ hidden: false
   <base target="_blank">
   <style>
     .iframe-wrapper {
-      overflow    : hidden;
+      overflow      : hidden;
+      margin-bottom : -35px;
     }
     iframe {
-      width       : 250px;
-      height      : 330px;
-      margin-top  : -20px;
-      border      : none;
+      width         : 250px;
+      height        : 330px;
+      margin-top    : -20px;
+      border        : none;
     }
   </style>
 </head>
@@ -37,7 +38,6 @@ hidden: false
 ### OCLL : Orient Corners of the Last Layer {#ocll}
 
 - [2x2x2 / FOP / OLL](/cube/method/NxNxN/original/2x2x2/fop#oll)
-
   - Sune : ( L U ) ( L' U ) ( L U2 ) ( L' )
     <div class="iframe-wrapper">
       <iframe
@@ -45,7 +45,6 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=L%20U%20L'%20U%20L%20U2%20L'&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-
   - Anti-Sune : ( R' U' ) ( R U' ) ( R' U2 ) ( R )
     <div class="iframe-wrapper">
       <iframe
@@ -53,7 +52,6 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R'%20U2'%20R&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-
   - Headlights : ( F ) ( R U R' U' ) ( F' )
     <div class="iframe-wrapper">
       <iframe
@@ -61,7 +59,6 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=F%20R%20U%20R'%20U'%20F'&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-
   - Pi : ( F ) ( R U R' U' ) x 2 ( F' )
     <div class="iframe-wrapper">
       <iframe
@@ -69,7 +66,6 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=F%20R%20U%20R'%20U'%20R%20U%20R'%20U'%20F'&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-
   - H : ( F ) ( R U R' U' ) x 3 ( F' )
     <div class="iframe-wrapper">
       <iframe
@@ -77,7 +73,6 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=F%20R%20U%20R'%20U'%20R%20U%20R'%20U'%20R%20U%20R'%20U'%20F'&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-
   - T : ( R U ) ( R' U' ) ( R' F ) ( R F' )
     <div class="iframe-wrapper">
       <iframe
@@ -85,7 +80,6 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R%20F'&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-
   - Bowtie : ( F' ) ( r U R' U' ) ( r' F R )
     <div class="iframe-wrapper">
       <iframe
