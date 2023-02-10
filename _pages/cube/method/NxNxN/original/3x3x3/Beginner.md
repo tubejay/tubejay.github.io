@@ -11,13 +11,14 @@ hidden: false
   <base target="_blank">
   <style>
     .iframe-wrapper {
-      overflow    : hidden;
+      overflow      : hidden;
+      margin-bottom : -30px;
     }
     iframe {
-      width       : 250px;
-      height      : 330px;
-      margin-top  : -20px;
-      border      : none;
+      width         : 250px;
+      height        : 330px;
+      margin-top    : -20px;
+      border        : none;
     }
   </style>
 </head>
