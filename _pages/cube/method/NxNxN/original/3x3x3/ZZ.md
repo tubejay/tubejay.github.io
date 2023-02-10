@@ -11,13 +11,14 @@ hidden: false
   <base target="_blank">
   <style>
     .iframe-wrapper {
-      overflow    : hidden;
+      overflow      : hidden;
+      margin-bottom : -35px;
     }
     iframe {
-      width       : 250px;
-      height      : 330px;
-      margin-top  : -20px;
-      border      : none;
+      width         : 250px;
+      height        : 330px;
+      margin-top    : -20px;
+      border        : none;
     }
     img {
       max-width:250px;
@@ -35,12 +36,26 @@ hidden: false
 
 ### rotation : orientation preserved {#preserved}
 
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?colored=l%20r%20u%20d&solved=undefined&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
+
 - U layer
 - D layer
 - L layer
 - R layer
 
 ### rotation : orientation reversed {#reversed}
+
+<div class="iframe-wrapper">
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?colored=f%20b&solved=undefined&hover=9&speed=500&flags=canvas"
+  ></iframe>
+</div>
 
 - F layer
 - B layer
