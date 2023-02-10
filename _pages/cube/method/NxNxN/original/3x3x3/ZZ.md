@@ -47,7 +47,7 @@ hidden: false
 
 
 
-# [Cross / Advanced](/cube/method/NxNxN/original/3x3x3/cross/advanced)
+## [Cross / Advanced](/cube/method/NxNxN/original/3x3x3/cross/advanced)
 
 - do not use : [rotation / orientation reversed](#reversed)
 
