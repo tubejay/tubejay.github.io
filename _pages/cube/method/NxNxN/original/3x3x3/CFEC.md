@@ -47,6 +47,7 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=L%20U%20L'%20U%20L%20U2%20L'&colored=U*/em&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+
 - opposite swap : ( adjacent swap ) ( U' ) ( adjacent swap )
   <div class="iframe-wrapper">
     <iframe
