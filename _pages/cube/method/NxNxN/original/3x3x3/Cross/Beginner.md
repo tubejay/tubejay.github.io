@@ -11,13 +11,14 @@ hidden: false
   <base target="_blank">
   <style>
     .iframe-wrapper {
-      overflow    : hidden;
+      overflow      : hidden;
+      margin-bottom : -35px;
     }
     iframe {
-      width       : 250px;
-      height      : 330px;
-      margin-top  : -20px;
-      border      : none;
+      width         : 250px;
+      height        : 330px;
+      margin-top    : -20px;
+      border        : none;
     }
   </style>
 </head>
@@ -29,16 +30,13 @@ hidden: false
 ### U face
 
 - case 1
-
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-
 - case 2
-
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -49,16 +47,13 @@ hidden: false
 ### D face
 
 - case 1
-
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-
 - case 2
-
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
