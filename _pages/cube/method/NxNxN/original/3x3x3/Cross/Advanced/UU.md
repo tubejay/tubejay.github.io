@@ -25,7 +25,7 @@ hidden: false
 
 
 
-## case 1 -> [UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#case-1}
+## case 1 -> [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#case-1}
 
 <div class="iframe-wrapper">
   <iframe
@@ -34,7 +34,7 @@ hidden: false
   ></iframe>
 </div>
 
-## case 2 -> [UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#case-2}
+## case 2 -> [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#case-2}
 
 <div class="iframe-wrapper">
   <iframe
