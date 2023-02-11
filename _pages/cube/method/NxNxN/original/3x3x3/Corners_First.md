@@ -42,7 +42,7 @@ hidden: false
 <div class="iframe-wrapper">
   <iframe
     scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=M2%20E&colored=U*/cm%20D*/cm%20F%20B%20L%20R&setupmoves=x2&hover=9&speed=500&flags=canvas"
+    src="https://ruwix.com/widget/3d/?alg=M2%20E2&colored=U*/cm%20D*/cm%20F%20B%20L%20R&setupmoves=x2%20y2&hover=9&speed=500&flags=canvas"
   ></iframe>
 </div>
 
@@ -64,7 +64,7 @@ hidden: false
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=M%20L'%20U'%20M'%20U%20L&colored=F%20U%20FDL%20FDR%20FL&hover=9&speed=500&flags=canvas"
+        src="https://ruwix.com/widget/3d/?alg=S%20F'%20U'%20S'%20U%20F&colored=U%20R%20RFD%20RBD%20RF&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
 - D layer
@@ -79,7 +79,7 @@ hidden: false
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=L'%20U'%20M'%20U%20L%20M&colored=F%20U%20FDL%20FDR%20FL&hover=9&speed=500&flags=canvas"
+        src="https://ruwix.com/widget/3d/?alg=F'%20U'%20S'%20U%20F%20S&colored=U%20R%20RFD%20RBD%20RF&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
 - E layer
@@ -94,36 +94,36 @@ hidden: false
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=L'%20U'%20M%20U%20L%20M'%20d'%20M%20L'%20U'%20M'%20U%20L&colored=U%20F%20L%20FL%20FDL%20FDR%20BDL&setupmoves=d&hover=9&speed=500&flags=canvas"
+        src="https://ruwix.com/widget/3d/?alg=F'%20U'%20S%20U%20F%20S'%20d'%20S%20F'%20U'%20S'%20U%20F&colored=U%20R%20F%20RF%20RDF%20RDB%20FDL&setupmoves=d&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
 
 ### EFL : Edges of the First Layer {#efl}
 
 - U layer
-  - case 1
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=M'%20U%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-  - case 2
+  - white on U face
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
         src="https://ruwix.com/widget/3d/?alg=M'%20U2'%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
+  - white not on U face
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=M'%20U%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
 - D layer
-  - case 3
+  - white on D face
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
         src="https://ruwix.com/widget/3d/?alg=M'%20U'%20M%20d%20M'%20U%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20R%20RB%20RBD%20U&setupmoves=d'&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-  - case 4
+  - white not on D face
     <div class="iframe-wrapper">
       <iframe
         scrolling="no"
