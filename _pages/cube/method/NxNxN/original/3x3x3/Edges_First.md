@@ -74,7 +74,7 @@ hidden: false
 
 ### CFL : Corners of the First Layer {#cfl}
 
-- white on U face
+- white not on U face
   - right
     <div class="iframe-wrapper">
       <iframe
@@ -89,7 +89,7 @@ hidden: false
         src="https://ruwix.com/widget/3d/?alg=x%20U'%20L'%20U%20R%20U'%20L%20U%20R'%20x'&colored=F*/em%20R*/em%20FRD%20U%20UF%20UR&hover=9&speed=500&flags=canvas"
       ></iframe>
     </div>
-- white not on U face
+- white on U face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
