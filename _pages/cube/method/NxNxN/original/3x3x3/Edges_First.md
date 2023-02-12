@@ -90,20 +90,12 @@ hidden: false
       ></iframe>
     </div>
 - white not on U face
-  - right
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=r%20U%20R'%20U'%20r'%20F%20R%20F'%20U'%20z'%20U%20B%20U'%20F'%20U%20B'%20U'%20F%20z&colored=F*/em%20R*/em%20FRD%20U%20UF%20UR&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-  - left
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=r%20U%20R'%20U'%20r'%20F%20R%20F'%20U%20x%20U'%20L'%20U%20R%20U'%20L%20U%20R'%20x'&colored=F*/em%20R*/em%20FRD%20U%20UF%20UR&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=r%20U%20R'%20U'%20r'%20F%20R%20F'%20U'%20z'%20U%20B%20U'%20F'%20U%20B'%20U'%20F%20z&colored=F*/em%20R*/em%20FRD%20U%20UF%20UR&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
 ### CLL : Corners of the Last Layer {#cll}
 
