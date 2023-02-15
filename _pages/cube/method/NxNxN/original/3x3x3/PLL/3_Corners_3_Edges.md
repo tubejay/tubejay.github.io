@@ -1,5 +1,5 @@
 ---
-title: "3x3x3 / F2L / 3 Corners & 3 Edges"
+title: "3x3x3 / PLL / 3 Corners & 3 Edges"
 layout: single
 toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/pll/3_corners_3_edges
