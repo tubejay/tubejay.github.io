@@ -58,14 +58,14 @@ hidden: false
 
 ## R Perm
 
-- Ra Perm : ( R U R' F' ) ( R U2' R' U2' ) ( R' F R U ) ( R U2' R' U' )
+- Ra Perm : ( R U R' F' ) ( R U2 R' U2 ) ( R' F R U ) ( R U2 R' U' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F%20R%20U%20R%20U2'%20R'%20U'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Rb Perm : ( R2 F ) ( R U R U' ) ( R' F' ) ( R U2' R' U2' ) ( R U )
+- Rb Perm : ( R2 F ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R U )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
