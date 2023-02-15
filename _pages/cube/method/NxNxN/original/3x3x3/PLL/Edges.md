@@ -27,18 +27,18 @@ hidden: false
 
 ## U Perm
 
-- Ua Perm : (  ) (  ) (  ) (  ) (  ) (  )
+- Ua Perm : ( M2 U ) ( M' U2 ) ( M U ) ( M2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=M2'%20U%20M'%20U2%20M%20U%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Ub Perm : (  ) (  ) (  ) (  ) (  ) (  )
+- Ub Perm : ( M2 U' ) ( M' U2 ) ( M U' ) ( M2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -46,11 +46,11 @@ hidden: false
 
 ## H Perm
 
-- (  ) (  ) (  ) (  ) (  ) (  )
+- ( M2 U' ) ( M2 U2 ) ( M2 U' ) ( M2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U2'%20M2'%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -58,10 +58,10 @@ hidden: false
 
 ## Z Perm
 
-- (  ) (  ) (  ) (  ) (  ) (  )
+- ( M2 U' ) x 2 ( M' U2 ) ( M2 U2 ) ( M' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U'%20M'%20U2'%20M2'%20U2'%20M'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
