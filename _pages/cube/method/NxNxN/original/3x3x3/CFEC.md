@@ -128,13 +128,6 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=x'%20R%20U'%20R%20D2'%20R'%20U%20R%20D2'%20R2%20x&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- X Perm : ( M2 U' ) ( M2 U2 ) ( M2 U' ) ( M2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U2'%20M2'%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
 - E Perm : ( R2 U F' ) ( R' U R U' ) x 3 ( F U' R2 )
   <div class="iframe-wrapper">
     <iframe
