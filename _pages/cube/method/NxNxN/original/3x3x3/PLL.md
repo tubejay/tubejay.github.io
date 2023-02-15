@@ -15,9 +15,9 @@ hidden: false
 
 ## algorithm
 
-### Corners
+### [Corners](/cube/method/NxNxN/original/3x3x3/pll/corners)
 
-### Edges
+### [Edges](/cube/method/NxNxN/original/3x3x3/pll/edges)
 
 ### [2 Adjacent Corners & 2 Edges](/cube/method/NxNxN/original/3x3x3/pll/2_adjacent_corners_2_edges)
 
