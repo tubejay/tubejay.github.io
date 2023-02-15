@@ -27,18 +27,18 @@ hidden: false
 
 ## A Perm
 
-- Aa Perm : (  ) (  ) (  ) (  ) (  ) (  )
+- Aa Perm : ( x ) ( R' U R' D2 ) ( R U' R' D2 ) ( R2 x' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=x%20R'%20U%20R'%20D2'%20R%20U'%20R'%20D2'%20R2'%20x'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Ab Perm : (  ) (  ) (  ) (  ) (  ) (  )
+- Ab Perm : ( x' ) ( R U' R D2 ) ( R' U R D2 ) ( R2 x )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=x'%20R%20U'%20R%20D2'%20R'%20U%20R%20D2'%20R2%20x&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -46,10 +46,10 @@ hidden: false
 
 ## E Perm
 
-- (  ) (  ) (  ) (  ) (  ) (  )
+- ( R2 U F' ) ( R' U R U' ) x 3 ( F U' R2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src=""
+      src="https://ruwix.com/widget/3d/?alg=R2%20U%20F'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20F%20U'%20R2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
