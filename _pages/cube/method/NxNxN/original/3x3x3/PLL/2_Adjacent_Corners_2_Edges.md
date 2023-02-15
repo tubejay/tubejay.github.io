@@ -63,12 +63,13 @@ hidden: false
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F%20R%20U%20R%20U2'%20R'%20U'&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
   </div>
-- Rb Perm : ( U' R' ) ( U2' R U2' R' ) ( F R ) ( U R' U' R' ) ( F' R2 )
+- Rb Perm : ( R2 F ) ( R U R U' ) ( R' F' ) ( R U2' R' U2' ) ( R U )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U'%20R'%20U2'%20R%20U2'%20R'%20F%20R%20U%20R'%20U'%20R'%20F'%20R2&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R2%20F%20R%20U%20R%20U'%20R'%20F'%20R%20U2'%20R'%20U2'%20R%20U&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
