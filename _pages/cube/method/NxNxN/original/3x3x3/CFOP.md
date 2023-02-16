@@ -170,7 +170,6 @@ hidden: false
 ### Ruwix
 
 - [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
-- [PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
 
 ### Speedsolving Wiki
 
@@ -198,7 +197,6 @@ hidden: false
 ### AlgDb
 
 - [OLL](http://algdb.net/puzzle/333/oll)
-- [PLL](http://algdb.net/puzzle/333/pll)
 
 ### CubeSkills
 
