@@ -51,7 +51,7 @@ hidden: false
 
 ## V Perm
 
-- ( R' U R' U' ) ( R D' R' D ) ( R' U D' R2' ) ( U' R2 D R2 )
+- ( R' U R' U' ) ( R D' R' D ) ( R' U D' R2 ) ( U' R2 D R2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
