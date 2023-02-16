@@ -27,11 +27,11 @@ hidden: false
 
 ## Na Perm
 
-- ( F' ) ( R U R' U' ) ( R' F R2 F ) ( U' R' U' R ) ( U F' R' )
+- ( L' ) ( F U F' U' ) ( F' L F2 L ) ( U' F' U' F ) ( U L' F' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F'%20R%20U%20R'%20U'%20R'%20F%20R2%20F%20U'%20R'%20U'%20R%20U%20F'%20R'&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=L'%20F%20U%20F'%20U'%20F'%20L%20F2%20L%20U'%20F'%20U'%20F%20U%20L'%20F'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -55,7 +55,7 @@ hidden: false
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R'%20U%20R'%20d'%20R'%20F'%20R2%20U'%20R'%20U%20R'%20F%20R%20F%20U'&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R'%20U%20R'%20d'%20R'%20F'%20R2%20U'%20R'%20U%20R'%20F%20R%20F%20U'&solved=U-&setupmoves=y'&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
