@@ -63,10 +63,10 @@ hidden: false
 
 ## Z Perm
 
-- ( M2 U' ) x 2 ( M' U2 ) ( M2 U2 ) ( M' )
+- ( M2 U' ) x 2 ( M' U2 ) ( M2 U2 ) ( M' U2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U'%20M'%20U2'%20M2'%20U2'%20M'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U'%20M'%20U2'%20M2'%20U2'%20M'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
