@@ -25,16 +25,21 @@ hidden: false
 
 
 
-## N Perm
+## Na Perm
 
-- Na Perm : ( F' ) ( R U R' U' ) ( R' F R2 F ) ( U' R' U' R ) ( U F' R' )
+- ( F' ) ( R U R' U' ) ( R' F R2 F ) ( U' R' U' R ) ( U F' R' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F'%20R%20U%20R'%20U'%20R'%20F%20R2%20F%20U'%20R'%20U'%20R%20U%20F'%20R'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Nb Perm : ( R' U R U' ) ( R' F' U' F ) ( R U ) ( R' F R' F' ) ( R U' R )
+
+
+
+## Nb Perm
+
+- ( R' U R U' ) ( R' F' U' F ) ( R U ) ( R' F R' F' ) ( R U' R )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -62,6 +67,6 @@ hidden: false
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F%20R%20U%27%20R%27%20U%27%20R%20U%20R%27%20F%27%20R%20U%20R%27%20U%27%20R%27%20F%20R%20F%27&colored=U*/c%20u&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
