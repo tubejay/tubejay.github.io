@@ -27,7 +27,7 @@ hidden: false
 
 ## Ga Perm
 
-- ( L2' F2 ) ( L' U2 L' U2 ) ( L F' ) ( L' U' L U ) ( L F' L2 )
+- ( L2 F2 ) ( L' U2 L' U2 ) ( L F' ) ( L' U' L U ) ( L F' L2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -43,7 +43,7 @@ hidden: false
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=L2'%20F%20L'%20U'%20L'%20U%20L%20F%20L'%20U2%20L%20U2%20L%20F2%20L2&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=L2'%20F%20L'%20U'%20L'%20U%20L%20F%20L'%20U2%20L%20U2%20L%20F2%20L2'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -63,10 +63,10 @@ hidden: false
 
 ## Gd Perm
 
-- ( R2 F' ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R' F2' R2' )
+- ( R2 F' ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R' F2 R2 )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R2%20F'%20R%20U%20R%20U'%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F2'%20R2'&solved=U-&hover=9&speed=500&flags=canvas"
+      src="https://ruwix.com/widget/3d/?alg=R2%20F'%20R%20U%20R%20U'%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F2'%20R2&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
