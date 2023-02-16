@@ -25,6 +25,18 @@ hidden: false
 
 
 
+## T Perm
+
+- ( R U R' U' ) ( R' F R2 ) ( U' R' U' R ) ( U R' F' )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20F'&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+
+
+
 ## F Perm
 
 - ( R' U' F' ) ( R U R' U' ) ( R' F R2 ) ( U' R' U' R ) ( U R' U R )
@@ -37,16 +49,21 @@ hidden: false
 
 
 
-## J Perm
+## Ja Perm
 
-- Ja Perm : ( R' U2 R U ) ( R' U2 L U' ) ( R U L' )
+- ( R' U2 R U ) ( R' U2 L U' ) ( R U L' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R'%20U2%20R%20U%20R'%20U2'%20L%20U'%20R%20U%20L'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Jb Perm : ( R U R' F' ) ( R U R' U' ) ( R' F R2 ) ( U' R' U' )
+
+
+
+## Jb Perm
+
+- ( R U R' F' ) ( R U R' U' ) ( R' F R2 ) ( U' R' U' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -56,31 +73,24 @@ hidden: false
 
 
 
-## R Perm
+## Ra Perm
 
-- Ra Perm : ( R U R' F' ) ( R U2 R' U2 ) ( R' F R U ) ( R U2 R' U' )
+- ( R U R' F' ) ( R U2 R' U2 ) ( R' F R U ) ( R U2 R' U' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F%20R%20U%20R%20U2'%20R'%20U'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Rb Perm : ( R2 F ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R U )
+
+
+
+## Rb Perm
+
+- ( R2 F ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R U )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R2%20F%20R%20U%20R%20U'%20R'%20F'%20R%20U2'%20R'%20U2'%20R%20U&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-
-
-## T Perm
-
-- ( R U R' U' ) ( R' F R2 ) ( U' R' U' R ) ( U R' F' )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20F'&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
