@@ -25,16 +25,21 @@ hidden: false
 
 
 
-## A Perm
+## Aa Perm
 
-- Aa Perm : ( x ) ( R' U R' D2 ) ( R U' R' D2 ) ( R2 x' )
+- ( x ) ( R' U R' D2 ) ( R U' R' D2 ) ( R2 x' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=x%20R'%20U%20R'%20D2'%20R%20U'%20R'%20D2'%20R2'%20x'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- Ab Perm : ( x' ) ( R U' R D2 ) ( R' U R D2 ) ( R2 x )
+
+
+
+## Ab Perm
+
+- ( x' ) ( R U' R D2 ) ( R' U R D2 ) ( R2 x )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
