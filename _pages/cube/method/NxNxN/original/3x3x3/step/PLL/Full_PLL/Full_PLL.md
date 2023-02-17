@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / PLL"
+title: "3x3x3 / Full PLL"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/pll
+permalink: /cube/method/NxNxN/original/3x3x3/full_pll
 published: true
 hidden: false
 ---
