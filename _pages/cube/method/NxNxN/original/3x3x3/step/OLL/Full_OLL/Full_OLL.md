@@ -18,3 +18,11 @@ hidden: false
 
 
 ## reference
+
+### Ruwix
+
+- [OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/)
+
+### AlgDb
+
+- [OLL](http://algdb.net/puzzle/333/oll)
