@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / PLL / Edges"
+title: "3x3x3 / Full PLL / Edges"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/pll/edges
+permalink: /cube/method/NxNxN/original/3x3x3/full_pll/edges
 published: true
 hidden: false
 ---
