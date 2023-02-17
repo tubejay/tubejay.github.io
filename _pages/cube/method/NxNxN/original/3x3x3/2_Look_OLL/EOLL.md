@@ -37,7 +37,7 @@ hidden: false
 
 
 
-## bar
+## Bar
 
 - ( F ) ( R U R' U' ) ( F' )
   <div class="iframe-wrapper">
@@ -49,7 +49,7 @@ hidden: false
 
 
 
-## dot
+## Dot
 
 - ( F ) ( R U R' U' ) ( S ) ( R U R' U' ) ( f' )
   <div class="iframe-wrapper">
