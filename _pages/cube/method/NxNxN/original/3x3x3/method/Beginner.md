@@ -88,7 +88,7 @@ hidden: false
 
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
-- [3x3x3 / CFOP / EOLL](/cube/method/NxNxN/original/3x3x3/cfop#eoll)
+- [3x3x3 / 2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
 
 ### EPLL : Edge Permutation of the Last Layer {#epll}
 
