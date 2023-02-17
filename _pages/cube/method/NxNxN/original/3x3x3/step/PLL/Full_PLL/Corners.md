@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / PLL / Corners"
+title: "3x3x3 / Full PLL / Corners"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/pll/corners
+permalink: /cube/method/NxNxN/original/3x3x3/full_pll/corners
 published: true
 hidden: false
 ---
