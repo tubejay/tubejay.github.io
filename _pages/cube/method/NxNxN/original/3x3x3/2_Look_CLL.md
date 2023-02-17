@@ -15,7 +15,7 @@ hidden: false
 
 ## step
 
-### [OCLL : Orient Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll/eoll) {#ocll}
+### [OCLL : Orient Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll/ocll) {#ocll}
 
 ### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll/cpll) {#cpll}
 
