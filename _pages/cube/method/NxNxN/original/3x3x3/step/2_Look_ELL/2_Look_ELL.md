@@ -17,7 +17,13 @@ hidden: false
 
 ### [EOLL : Edge Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell/eoll) {#eoll}
 
-### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell/epll) {#epll}
+- adjacent 2-flip
+- opposite 2-flip
+- 4-flip
+
+### EPLL : Edge Permutation of the Last Layer {#epll}
+
+- [3x3x3 / 2-Look PLL / EPLL](/cube/method/NxNxN/original/3x3x3/2_look_pll/epll)
 
 
 
