@@ -17,7 +17,15 @@ hidden: false
 
 ### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_pll/cpll) {#cpll}
 
+- Jb Perm
+- Y Perm
+
 ### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_pll/epll) {#epll}
+
+- Ua Perm
+- Ub Perm
+- H Perm
+- Z Perm
 
 
 
