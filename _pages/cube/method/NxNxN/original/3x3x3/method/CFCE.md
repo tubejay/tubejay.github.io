@@ -35,17 +35,9 @@ hidden: false
 
 ## [2-Look CLL : Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll) {#cll}
 
-### [OCLL : Orient Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll/ocll) {#ocll}
-
-### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll/cpll) {#cpll}
-
 
 
 ## [2-Look ELL : Edges of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell) {#ell}
-
-### [EOLL : Edge Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell/eoll) {#eoll}
-
-### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell/epll) {#epll}
 
 
 
