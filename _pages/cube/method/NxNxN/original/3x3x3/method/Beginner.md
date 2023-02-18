@@ -30,14 +30,23 @@ hidden: false
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
 - [3x3x3 / 2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
+  - L
+  - Bar
+  - Dot
 
 ### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/epll) {#epll}
+
+- clockwise
+- counterclockwise
 
 
 
 ## CLL : Corners of the Last Layer {#cll}
 
 ### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/cpll) {#cpll}
+
+- clockwise / left
+- counterclockwise / right
 
 ### [COLL : Corner Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/coll) {#coll}
 
