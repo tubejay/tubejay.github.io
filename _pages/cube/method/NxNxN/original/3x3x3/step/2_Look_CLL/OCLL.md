@@ -25,12 +25,6 @@ hidden: false
 
 
 
-## reference
-
-- [2x2x2 / FOP / OLL](/cube/method/NxNxN/original/2x2x2/fop#oll)
-
-
-
 ## Sune
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
@@ -112,3 +106,9 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=F'%20r%20U%20R'%20U'%20r'%20F%20R&colored=u/cm&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+
+
+
+## reference
+
+- [2x2x2 / FOP / OLL](/cube/method/NxNxN/original/2x2x2/fop/oll)
