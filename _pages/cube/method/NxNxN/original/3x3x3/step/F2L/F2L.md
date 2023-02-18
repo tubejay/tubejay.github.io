@@ -13,17 +13,23 @@ hidden: false
 
 
 
-## algorithm
+## [BASIC](/cube/method/NxNxN/original/3x3x3/f2l/basic)
 
-### [BASIC](/cube/method/NxNxN/original/3x3x3/f2l/basic)
 
-### [UU : U corner & U edge](/cube/method/NxNxN/original/3x3x3/f2l/uu) {#uu}
 
-### [UE : U corner & E edge](/cube/method/NxNxN/original/3x3x3/f2l/ue) {#ue}
+## [UU : U corner & U edge](/cube/method/NxNxN/original/3x3x3/f2l/uu) {#uu}
 
-### [DU : D corner & U edge](/cube/method/NxNxN/original/3x3x3/f2l/du) {#du}
 
-### [DE : D corner & E edge](/cube/method/NxNxN/original/3x3x3/f2l/de) {#de}
+
+## [UE : U corner & E edge](/cube/method/NxNxN/original/3x3x3/f2l/ue) {#ue}
+
+
+
+## [DU : D corner & U edge](/cube/method/NxNxN/original/3x3x3/f2l/du) {#du}
+
+
+
+## [DE : D corner & E edge](/cube/method/NxNxN/original/3x3x3/f2l/de) {#de}
 
 
 
