@@ -13,22 +13,24 @@ hidden: false
 
 
 
-## algorithm
-
-### [Corners](/cube/method/NxNxN/original/3x3x3/full_pll/corners)
+## [Corners](/cube/method/NxNxN/original/3x3x3/full_pll/corners)
 
 - Aa Perm
 - Ab Perm
 - E Perm
 
-### [Edges](/cube/method/NxNxN/original/3x3x3/full_pll/edges)
+
+
+## [Edges](/cube/method/NxNxN/original/3x3x3/full_pll/edges)
 
 - Ua Perm
 - Ub Perm
 - H Perm
 - Z Perm
 
-### [2 Adjacent Corners & 2 Edges](/cube/method/NxNxN/original/3x3x3/full_pll/2_adjacent_corners_2_edges)
+
+
+## [2 Adjacent Corners & 2 Edges](/cube/method/NxNxN/original/3x3x3/full_pll/2_adjacent_corners_2_edges)
 
 - T Perm
 - F Perm
@@ -37,14 +39,18 @@ hidden: false
 - Ra Perm
 - Rb Perm
 
-### [2 Opposite Corners & 2 Edges](/cube/method/NxNxN/original/3x3x3/full_pll/2_opposite_corners_2_edges)
+
+
+## [2 Opposite Corners & 2 Edges](/cube/method/NxNxN/original/3x3x3/full_pll/2_opposite_corners_2_edges)
 
 - Na Perm
 - Nb Perm
 - V Perm
 - Y Perm
 
-### [3 Corners & 3 Edges](/cube/method/NxNxN/original/3x3x3/full_pll/3_corners_3_edges)
+
+
+## [3 Corners & 3 Edges](/cube/method/NxNxN/original/3x3x3/full_pll/3_corners_3_edges)
 
 - Ga Perm
 - Gb Perm
