@@ -58,3 +58,10 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=R2%20U%20F'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20F%20U'%20R2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+- ( R' U L' ) ( D2 ) ( L U' R ) ( L' U R' ) ( D2 ) ( R U' L )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R'%20U%20L'%20D2%20L%20U'%20R%20L'%20U%20R'%20D2'%20R%20U'%20L&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
