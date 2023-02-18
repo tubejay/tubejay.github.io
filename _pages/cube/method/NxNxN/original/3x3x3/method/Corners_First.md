@@ -52,7 +52,7 @@ hidden: false
 
 ### [EML : Edges of the Middle Layer](/cube/method/NxNxN/original/3x3x3/corners_first/eml) {#eml}
 
-### EFL : Edges of the First Layer {#efl}
+### [EFL : Edges of the First Layer](/cube/method/NxNxN/original/3x3x3/corners_first/efl) {#efl}
 
 ### ELL : Edges of the Last Layer {#ell}
 
