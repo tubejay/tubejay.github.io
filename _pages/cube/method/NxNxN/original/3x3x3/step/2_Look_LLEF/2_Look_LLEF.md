@@ -13,13 +13,16 @@ hidden: false
 
 
 
-## step
-
-### EOLL : Edge Orientation of the Last Layer {#eoll}
+## EOLL : Edge Orientation of the Last Layer {#eoll}
 
 - [3x3x3 / 2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
+  - L
+  - Bar
+  - Dot
 
-### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_llef/epll) {#epll}
+
+
+## [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_llef/epll) {#epll}
 
 - adjacent swap
 - opposite swap
