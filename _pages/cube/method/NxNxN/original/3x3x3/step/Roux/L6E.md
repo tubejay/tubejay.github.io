@@ -18,9 +18,7 @@ hidden: false
 
 
 
-## step
-
-### [EO : Edge Orientation](/cube/method/NxNxN/original/3x3x3/roux/eo) {#eo}
+## [EO : Edge Orientation](/cube/method/NxNxN/original/3x3x3/roux/l6e/eo) {#eo}
 
 <a href="https://ruwix.com/widget/3d/?alg=x&colored=u/em%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/215528007-716188aa-e2e6-4f2b-912f-41def4a1dc1d.png">
@@ -35,7 +33,9 @@ hidden: false
 - 4 / 0
 - 2(opposite) / 2
 
-### [UR/UL edges](/cube/method/NxNxN/original/3x3x3/roux/ur_ul_edges) {#urul}
+
+
+## [UR/UL edges](/cube/method/NxNxN/original/3x3x3/roux/l6e/ur_ul_edges) {#urul}
 
 <a href="https://ruwix.com/widget/3d/?colored=UL%20ULF%20ULB%20UR%20URF%20URB&solved=L%20R%20FL%20FR%20BL%20BR%20DL%20DR%20FLD%20FRD%20BLD%20BRD&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/215762670-cefe6406-042d-41db-8ff7-d2e709b16207.png">
@@ -44,7 +44,9 @@ hidden: false
 - 1 Edge on U Layer
 - 2 Edges on U Layer
 
-### [M slice](/cube/method/NxNxN/original/3x3x3/roux/m_slice) {#m}
+
+
+## [M slice](/cube/method/NxNxN/original/3x3x3/roux/l6e/m_slice) {#m}
 
 <a href="https://ruwix.com/widget/3d/?alg=x&colored=UF%20U%20UB%20DF%20D%20DB%20F%20B&solved=L*%20R*&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/215528755-26c83ef5-96fa-4874-bf81-b45ed45933dc.png">
