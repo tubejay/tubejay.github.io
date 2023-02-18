@@ -9,18 +9,6 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
-  </style>
 </head>
 
 
@@ -29,58 +17,11 @@ hidden: false
 
 
 
-## FL : First Layer {#fl}
-
-- case 1
-  - right : R U R'
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-  - left : F' U' F
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-- case 2
-  - right : ( R U' R' U ) ( F' U F )
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-  - left : ( F' U F U' ) ( R U' R' )
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20R%20U'%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
+## [FL : First Layer](/cube/method/NxNxN/original/3x3x3/beginner/fl) {#fl}
 
 
 
-## SL : Second Layer {#sl}
-
-- left to right : ( U R U' R' ) ( F R' F' R )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U%20R%20U'%20R'%20F%20R'%20F'%20R&colored=DF%20DR%20DFR%20F%20R%20FR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
-
-- right to left : ( U' F' U F ) ( R' F R F' )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U'%20F'%20U%20F%20R'%20F%20R%20F'&colored=DF%20DR%20DFR%20F%20R%20FR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+## [SL : Second Layer](/cube/method/NxNxN/original/3x3x3/beginner/sl) {#sl}
 
 
 
@@ -90,55 +31,15 @@ hidden: false
 
 - [3x3x3 / 2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
 
-### EPLL : Edge Permutation of the Last Layer {#epll}
-
-- permute 3 edges except back edge
-  - clockwise : ( R' U' ) ( R U' ) ( R' U2 ) ( R )
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R'%20U2'%20R&colored=U*/em&solved=U-&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-  - counterclockwise : ( L U ) ( L' U ) ( L U2 ) ( L' )
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=L%20U%20L'%20U%20L%20U2%20L'&colored=U*/em&solved=U-&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
+### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/epll) {#epll}
 
 
 
 ## CLL : Corners of the Last Layer {#cll}
 
-### CPLL : Corner Permutation of the Last Layer {#cpll}
+### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/cpll) {#cpll}
 
-- permute 3 corners
-  - clockwise except front left corner : ( U’ L’ ) ( U R ) ( U’ L ) ( U R’ )
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=U'%20L'%20U%20R%20U'%20L%20U%20R'&colored=U*&setupmoves=R%20D%20R'%20D'%20R%20D%20R'%20D'%20L%20D%20L'%20D'%20L%20D%20L'%20D'%20L%20D%20L'%20D'%20L%20D%20L'%20D'&solved=U-&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-  - counterclockwise except front right corner : ( U R ) ( U’ L’ ) ( U R’ ) ( U’ L )
-    <div class="iframe-wrapper">
-      <iframe
-        scrolling="no"
-        src="https://ruwix.com/widget/3d/?alg=U%20R%20U'%20L'%20U%20R'%20U'%20L&colored=U*&setupmoves=R%20D%20R'%20D'%20R%20D%20R'%20D'%20L%20D%20L'%20D'%20L%20D%20L'%20D'%20L%20D%20L'%20D'%20L%20D%20L'%20D'&solved=U-&hover=9&speed=500&flags=canvas"
-      ></iframe>
-    </div>
-
-### COLL : Corner Orientation of the Last Layer {#coll}
-
-- orient front right corner : ( R' D' R D ) x 2
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+### [COLL : Corner Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/coll) {#coll}
 
 
 
