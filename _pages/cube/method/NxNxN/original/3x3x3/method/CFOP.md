@@ -21,8 +21,14 @@ hidden: false
 
 
 
-## [2-Look OLL : Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_oll) {#oll}
+## LL : Last Layer {#ll}
 
+### Orientation
 
+- [2-Look OLL](/cube/method/NxNxN/original/3x3x3/2_look_oll)
+- [Full OLL](/cube/method/NxNxN/original/3x3x3/full_oll)
 
-## [2-Look PLL : Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_pll) {#pll}
+### Permutation
+
+- [2-Look PLL : Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_pll)
+- [Full PLL](/cube/method/NxNxN/original/3x3x3/full_pll)
