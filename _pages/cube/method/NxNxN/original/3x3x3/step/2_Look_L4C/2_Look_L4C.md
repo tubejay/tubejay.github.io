@@ -13,9 +13,7 @@ hidden: false
 
 
 
-## step
-
-### [OCLL-EPP : Orient Corners of the Last Layer - Edges Permutation Preserved](/cube/method/NxNxN/original/3x3x3/2_look_l4c/ocll_epp) {#ocll-epp}
+## [OCLL-EPP : Orient Corners of the Last Layer - Edges Permutation Preserved](/cube/method/NxNxN/original/3x3x3/2_look_l4c/ocll_epp) {#ocll-epp}
 
 - Sune
 - Anti-Sune
@@ -25,7 +23,9 @@ hidden: false
 - T
 - Bowtie
 
-### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_l4c/cpll) {#cpll}
+
+
+## [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_l4c/cpll) {#cpll}
 
 - Aa Perm
 - Ab Perm
