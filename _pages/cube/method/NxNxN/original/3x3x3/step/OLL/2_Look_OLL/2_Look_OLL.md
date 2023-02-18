@@ -63,6 +63,5 @@ hidden: false
 
 ### 해피 큐빙
 
-- 2-Look OLL
-  - <https://youtu.be/YNM1n7Ej6HM>
-  - <https://youtu.be/K_vbxkmVZg4>
+- [[2020] 2-Look OLL](https://youtu.be/YNM1n7Ej6HM)
+- [[2023] 2-Look OLL](https://youtu.be/K_vbxkmVZg4)
