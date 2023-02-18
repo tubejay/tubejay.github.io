@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / Roux / UR/UL Edges"
+title: "3x3x3 / Roux / L6E / UR/UL Edges"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/roux/ur_ul_edges
+permalink: /cube/method/NxNxN/original/3x3x3/roux/l6e/ur_ul_edges
 published: true
 hidden: false
 ---
