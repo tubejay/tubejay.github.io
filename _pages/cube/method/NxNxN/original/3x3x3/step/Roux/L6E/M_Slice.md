@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / Roux / M Slice"
+title: "3x3x3 / Roux / L6E / M Slice"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/roux/m_slice
+permalink: /cube/method/NxNxN/original/3x3x3/roux/l6e/m_slice
 published: true
 hidden: false
 ---
