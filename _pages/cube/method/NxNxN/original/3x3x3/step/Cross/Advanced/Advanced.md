@@ -13,19 +13,27 @@ hidden: false
 
 
 
-## algorithm
+## [UU : U layer & U layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/uu) {#uu}
 
-### [UU : U layer & U layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/uu) {#uu}
 
-### [UE : U layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#ue}
 
-### [UD : U layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ud) {#ud}
+## [UE : U layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#ue}
 
-### [EE : E layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee) {#ee}
 
-### [ED : E layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed) {#ed}
 
-### [DD : D layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/dd) {#dd}
+## [UD : U layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ud) {#ud}
+
+
+
+## [EE : E layer & E layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ee) {#ee}
+
+
+
+## [ED : E layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed) {#ed}
+
+
+
+## [DD : D layer & D layer](/cube/method/NxNxN/original/3x3x3/cross/advanced/dd) {#dd}
 
 
 
