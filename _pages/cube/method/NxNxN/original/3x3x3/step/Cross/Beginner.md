@@ -25,18 +25,16 @@ hidden: false
 
 
 
-## algorithm
+## U face
 
-### U face
-
-- case 1
+- white on D face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- case 2
+- white not on D face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,16 +42,18 @@ hidden: false
     ></iframe>
   </div>
 
-### D face
 
-- case 1
+
+## D face
+
+- center : adjacent
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- case 2
+- center : not adjacent
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
