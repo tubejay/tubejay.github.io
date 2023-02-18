@@ -65,7 +65,7 @@ hidden: false
 </a>
 
 - method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
-- skip : EOLL
+- skip : [2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
 
 
 
