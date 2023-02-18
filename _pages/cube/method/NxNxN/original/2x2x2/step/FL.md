@@ -21,12 +21,6 @@ hidden: false
 
 
 
-## reference
-
-- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
-
-
-
 ## white not on U face
 
 - right : R U R'
@@ -58,3 +52,9 @@ hidden: false
       <img src="https://user-images.githubusercontent.com/92285528/216002752-49161da8-37a6-47ab-a7cf-49146937724f.png">
     </a>
   </div>
+
+
+
+## reference
+
+- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
