@@ -23,8 +23,8 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
-- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
-  - case 1
+- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
+  - white not on U face
     - right : R U R'
       <div class="img-wrapper">
         <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U+R%27">
@@ -37,7 +37,7 @@ hidden: false
           <img src="https://user-images.githubusercontent.com/92285528/216001918-b9f48c9d-000c-4f9a-ba33-a207ccb8cb26.png">
         </a>
       </div>
-  - case 2
+  - white on U face
     - right : ( R U’ R’ U ) ( F’ U F )
       <div class="img-wrapper">
         <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=R+U%27+R%27+U+F%27+U+F">
@@ -102,11 +102,11 @@ hidden: false
 
 ## PLL : Permutation of the Last Layer {#pll}
 
-- [3x3x3 / CFOP / CPLL](/cube/method/NxNxN/original/3x3x3/cfop#cpll)
-  - Jb Perm : ( R U R' F' ) ( R U R' U' ) ( R' F ) ( R2 U' R' )
+- [3x3x3 / 2-Look PLL / CPLL](/cube/method/NxNxN/original/3x3x3/2_look_pll/cpll)
+  - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
     <div class="img-wrapper">
-      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R2+U%27+R%27">
-        <img src="https://user-images.githubusercontent.com/92285528/215316506-cb35216a-50e5-4c45-bf76-6dceb9a9c517.png">
+      <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U2%27+R%27+U%27+R+U2+L%27+U+R%27+U%27+L">
+        <img src="https://user-images.githubusercontent.com/92285528/219829040-e2180ec9-91ea-475f-99a3-fb5a6aac42c0.png">
       </a>
     </div>
   - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
