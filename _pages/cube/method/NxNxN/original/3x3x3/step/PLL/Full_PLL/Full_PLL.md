@@ -96,3 +96,8 @@ hidden: false
 ### 해피 큐빙
 
 - [Full PLL](https://youtu.be/bN25M3DC0yY)
+
+### 굿맨
+
+- [Full PLL [1/2]](https://youtu.be/UGbcWxmLs1o)
+- [Full PLL [2/2]](https://youtu.be/9KGmIksysOs)
