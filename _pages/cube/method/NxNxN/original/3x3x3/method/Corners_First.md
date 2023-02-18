@@ -29,7 +29,7 @@ hidden: false
 
 ### CFL : Corners of the First Layer {#cfl}
 
-- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner#fl)
+- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
 
 ### CLL : Corners of the Last Layer {#cll}
 
