@@ -30,5 +30,5 @@ hidden: false
 
 ### Permutation
 
-- [2-Look PLL : Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_pll)
+- [2-Look PLL](/cube/method/NxNxN/original/3x3x3/2_look_pll)
 - [Full PLL](/cube/method/NxNxN/original/3x3x3/full_pll)
