@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / Roux / EO"
+title: "3x3x3 / Roux / L6E / EO"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/roux/eo
+permalink: /cube/method/NxNxN/original/3x3x3/roux/l6e/eo
 published: true
 hidden: false
 ---
