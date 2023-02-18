@@ -58,6 +58,5 @@ hidden: false
 
 ### 해피 큐빙
 
-- 2-Look PLL
-  - <https://youtu.be/YWV21l52liA>
-  - <https://youtu.be/FhgoXSbQ8yk>
+- [2-Look PLL [2020]](https://youtu.be/YWV21l52liA)
+- [2-Look PLL [2023]](https://youtu.be/FhgoXSbQ8yk)
