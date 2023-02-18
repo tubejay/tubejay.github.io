@@ -33,6 +33,9 @@ hidden: false
 
 ### [EML : Edges of the Middle Layer](/cube/method/NxNxN/original/3x3x3/edges_first/eml) {#eml}
 
+- flipped
+- not flipped
+
 ### ELL : Edges of the Last Layer {#ell}
 
 - [3x3x3 / 2-Look LLEF](/cube/method/NxNxN/original/3x3x3/2_look_llef)
@@ -42,6 +45,9 @@ hidden: false
 ## Corners
 
 ### [CFL : Corners of the First Layer](/cube/method/NxNxN/original/3x3x3/edges_first/cfl) {#cfl}
+
+- white not on U face
+- white on U face
 
 ### CLL : Corners of the Last Layer {#cll}
 
