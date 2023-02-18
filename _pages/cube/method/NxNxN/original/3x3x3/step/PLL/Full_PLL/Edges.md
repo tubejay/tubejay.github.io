@@ -34,6 +34,13 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=M2'%20U%20M'%20U2%20M%20U%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+- ( R2 U' R' U' ) ( R U ) x 2 ( R U' R )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R2'%20U'%20R'%20U'%20R%20U%20R%20U%20R%20U'%20R&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
 
 
@@ -44,6 +51,13 @@ hidden: false
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- ( L2 U L U ) ( L' U' ) x 2 ( L' U L' )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=L2%20U%20L%20U%20L'%20U'%20L'%20U'%20L'%20U%20L'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
 
@@ -58,6 +72,13 @@ hidden: false
       src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U2'%20M2'%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
+- ( R2 U2 R U2 R2 ) ( U2 ) ( R2 U2 R U2 R2 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R2%20U2'%20R%20U2'%20R2%20U2'%20R2%20U2'%20R%20U2'%20R2&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
 
 
 
@@ -68,5 +89,12 @@ hidden: false
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U'%20M'%20U2'%20M2'%20U2'%20M'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+    ></iframe>
+  </div>
+- ( R' U' R U' ) ( R U R U' ) ( R' U R U ) ( R2 U' R' U2 )
+  <div class="iframe-wrapper">
+    <iframe
+      scrolling="no"
+      src="https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R%20U%20R%20U'%20R'%20U%20R%20U%20R2'%20U'%20R'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
