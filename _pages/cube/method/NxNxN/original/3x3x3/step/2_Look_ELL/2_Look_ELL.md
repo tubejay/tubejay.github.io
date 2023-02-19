@@ -23,7 +23,7 @@ hidden: false
 
 ## EPLL : Edge Permutation of the Last Layer {#epll}
 
-- [3x3x3 / 2-Look PLL / EPLL](/cube/method/NxNxN/original/3x3x3/2_look_pll/epll)
+- [3x3x3 / Full PLL / Edges](https://tubejay.github.io/cube/method/NxNxN/original/3x3x3/full_pll/edges)
   - Ua Perm
   - Ub Perm
   - H Perm
