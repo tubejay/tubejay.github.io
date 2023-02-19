@@ -25,4 +25,4 @@ hidden: false
 
 
 
-## [2-Look 2GLL](/cube/method/NxNxN/original/3x3x3/2_look_2gll) {#gll}
+## [2-Look 2GLL : 2-Generator Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_2gll) {#gll}
