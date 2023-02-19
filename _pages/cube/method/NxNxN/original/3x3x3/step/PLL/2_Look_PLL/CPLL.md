@@ -25,24 +25,26 @@ hidden: false
 
 
 
-## Jb Perm
+## adjacent
 
-- ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+- [Jb Perm](/cube/method/NxNxN/original/3x3x3/full_pll/2_adjacent_corners_2_edges#jb-perm)
+  - ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
 
 
 
-## Y Perm
+## opposite
 
-- ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&colored=U*/c%20u&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+- [Y Perm](/cube/method/NxNxN/original/3x3x3/full_pll/2_opposite_corners_2_edges#y-perm)
+  - ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
+    <div class="iframe-wrapper">
+      <iframe
+        scrolling="no"
+        src="https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&colored=U*/c%20u&solved=U-&hover=9&speed=500&flags=canvas"
+      ></iframe>
+    </div>
