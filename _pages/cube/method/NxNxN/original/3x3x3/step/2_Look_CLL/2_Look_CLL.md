@@ -28,8 +28,8 @@ hidden: false
 ## CPLL : Corner Permutation of the Last Layer {#cpll}
 
 - [3x3x3 / 2-Look PLL / CPLL](/cube/method/NxNxN/original/3x3x3/2_look_pll/cpll)
-  - Jb Perm
-  - Y Perm
+  - adjacent swap
+  - opposite swap
 
 
 
