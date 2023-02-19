@@ -47,10 +47,7 @@ hidden: false
 ## F Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#F_Permutation">
-  <img
-    src="https://www.speedsolving.com/wiki/images/f/fd/F.gif"
-    style="transform:rotate(90deg)"
-  >
+  <img src="https://www.speedsolving.com/wiki/images/f/fd/F.gif" style="transform:rotate(90deg)">
 </a>
 
 - ( R' U' F' ) ( R U R' U' ) ( R' F R2 ) ( U' R' U' R ) ( U R' U R )
@@ -66,10 +63,7 @@ hidden: false
 ## Ja Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#J_Permutation_:_a">
-  <img
-    src="https://www.speedsolving.com/wiki/images/f/fb/J1.gif"
-    style="transform:rotate(180deg)"
-  >
+  <img src="https://www.speedsolving.com/wiki/images/f/fb/J1.gif" style="transform:rotate(180deg)">
 </a>
 
 - ( R' U2 R U ) ( R' U2 L U' ) ( R U L' )
@@ -100,10 +94,7 @@ hidden: false
 ## Ra Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#R_Permutation_:_a">
-  <img
-    src="https://www.speedsolving.com/wiki/images/8/85/R1.gif"
-    style="transform:rotate(-90deg)"
-  >
+  <img src="https://www.speedsolving.com/wiki/images/8/85/R1.gif" style="transform:rotate(-90deg)">
 </a>
 
 - ( R U' R' U' ) ( R U R D ) ( R' U' R D' ) ( R' U2 R' U' )
@@ -119,10 +110,7 @@ hidden: false
 ## Rb Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#R_Permutation_:_b">
-  <img
-    src="https://www.speedsolving.com/wiki/images/3/38/R.gif"
-    style="transform:rotate(90deg)"
-  >
+  <img src="https://www.speedsolving.com/wiki/images/3/38/R.gif" style="transform:rotate(90deg)">
 </a>
 
 - ( R' U R U ) ( R' U' R' D' ) ( R U R' D ) ( R U2 R U )
