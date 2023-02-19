@@ -95,7 +95,8 @@ hidden: false
 
 ### 해피 큐빙
 
-- [Full PLL](https://youtu.be/bN25M3DC0yY)
+- [Full PLL [2020]](https://youtu.be/lblTeBFjaIY)
+- [Full PLL [2021]](https://youtu.be/bN25M3DC0yY)
 
 ### 굿맨
 
