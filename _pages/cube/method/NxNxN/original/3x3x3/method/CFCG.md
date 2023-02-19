@@ -21,7 +21,7 @@ hidden: false
 
 
 
-## [2-Look CPEOLL](/cube/method/NxNxN/original/3x3x3/2_look_cpeoll) {#cpeoll}
+## [2-Look CPEOLL : Corner Permutation & Edge Orientation of Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cpeoll) {#cpeoll}
 
 
 
