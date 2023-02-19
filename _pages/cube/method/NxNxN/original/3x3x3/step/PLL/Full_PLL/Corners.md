@@ -30,9 +30,9 @@ hidden: false
 
 ## Aa Perm
 
-  <a href="https://www.speedsolving.com/wiki/index.php/PLL#A_Permutation_:_a">
-    <img src="https://www.speedsolving.com/wiki/images/0/08/A1.gif">
-  </a>
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#A_Permutation_:_a">
+  <img src="https://www.speedsolving.com/wiki/images/0/08/A1.gif">
+</a>
 
 - ( x ) ( R' U R' D2 ) ( R U' R' D2 ) ( R2 x' )
   <div class="iframe-wrapper">
@@ -46,6 +46,10 @@ hidden: false
 
 ## Ab Perm
 
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#A_Permutation_:_b">
+  <img src="https://www.speedsolving.com/wiki/images/b/b2/A.gif">
+</a>
+
 - ( x' ) ( R U' R D2 ) ( R' U R D2 ) ( R2 x )
   <div class="iframe-wrapper">
     <iframe
@@ -57,6 +61,10 @@ hidden: false
 
 
 ## E Perm
+
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#E_Permutation">
+  <img src="https://www.speedsolving.com/wiki/images/7/7b/E.gif">
+</a>
 
 - ( R2 U F' ) ( R' U R U' ) x 3 ( F U' R2 )
   <div class="iframe-wrapper">
