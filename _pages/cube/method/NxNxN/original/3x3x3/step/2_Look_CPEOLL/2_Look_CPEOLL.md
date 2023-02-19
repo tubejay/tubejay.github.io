@@ -24,8 +24,8 @@ hidden: false
 
 ## [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cpeoll/cpll) {#cpll}
 
-- adjacent
-- opposite
+- adjacent swap
+- opposite swap
 
 
 
