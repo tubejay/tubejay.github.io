@@ -20,12 +20,19 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## Ua Perm
+
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#U_Permutation_:_a">
+  <img src="https://www.speedsolving.com/wiki/images/6/6b/U1.gif">
+</a>
 
 - ( M2 U ) ( M' U2 ) ( M U ) ( M2 )
   <div class="iframe-wrapper">
@@ -46,6 +53,10 @@ hidden: false
 
 ## Ub Perm
 
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#U_Permutation_:_b">
+  <img src="https://www.speedsolving.com/wiki/images/4/47/U.gif">
+</a>
+
 - ( M2 U' ) ( M' U2 ) ( M U' ) ( M2 )
   <div class="iframe-wrapper">
     <iframe
@@ -65,6 +76,10 @@ hidden: false
 
 ## H Perm
 
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#H_Permutation">
+  <img src="https://www.speedsolving.com/wiki/images/7/72/H-perm.PNG">
+</a>
+
 - ( M2 U' ) ( M2 U2 ) ( M2 U' ) ( M2 )
   <div class="iframe-wrapper">
     <iframe
@@ -83,6 +98,10 @@ hidden: false
 
 
 ## Z Perm
+
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#Z_Permutation">
+  <img src="https://www.speedsolving.com/wiki/images/2/2c/Z.gif" style="transform:rotate(-90deg)">
+</a>
 
 - ( M2 U' ) x 2 ( M' U2 ) ( M2 U2 ) ( M' U2 )
   <div class="iframe-wrapper">
