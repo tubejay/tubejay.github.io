@@ -25,7 +25,7 @@ hidden: false
 
 
 
-## adjacent
+## adjacent swap
 
 - [Jb Perm](/cube/method/NxNxN/original/3x3x3/full_pll/2_adjacent_corners_2_edges#jb-perm)
   - ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
@@ -38,7 +38,7 @@ hidden: false
 
 
 
-## opposite
+## opposite swap
 
 - [Y Perm](/cube/method/NxNxN/original/3x3x3/full_pll/2_opposite_corners_2_edges#y-perm)
   - ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
