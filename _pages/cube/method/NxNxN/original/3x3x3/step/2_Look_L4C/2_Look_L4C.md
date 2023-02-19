@@ -25,11 +25,12 @@ hidden: false
 
 
 
-## [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_l4c/cpll) {#cpll}
+## CPLL : Corner Permutation of the Last Layer {#cpll}
 
-- Aa Perm
-- Ab Perm
-- E Perm
+- [3x3x3 / Full PLL / Corners](/cube/method/NxNxN/original/3x3x3/full_pll/corners)
+  - Aa Perm
+  - Ab Perm
+  - E Perm
 
 
 
