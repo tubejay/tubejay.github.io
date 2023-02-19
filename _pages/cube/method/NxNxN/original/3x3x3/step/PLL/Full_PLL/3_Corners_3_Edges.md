@@ -20,12 +20,19 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## Ga Perm
+
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#G_Permutation_:_a">
+  <img src="https://www.speedsolving.com/wiki/images/2/2f/G3.gif" style="transform:rotate(90deg)">
+</a>
 
 - ( L2 F2 ) ( L' U2 L' U2 ) ( L F' ) ( L' U' L U ) ( L F' L2 )
   <div class="iframe-wrapper">
@@ -39,6 +46,10 @@ hidden: false
 
 ## Gb Perm
 
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#G_Permutation_:_b">
+  <img src="https://www.speedsolving.com/wiki/images/4/4d/G2.gif" style="transform:rotate(90deg)">
+</a>
+
 - ( L2 F ) ( L' U' L' U ) ( L F ) ( L' U2 L U2 ) ( L F2 L2 )
   <div class="iframe-wrapper">
     <iframe
@@ -51,6 +62,10 @@ hidden: false
 
 ## Gc Perm
 
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#G_Permutation_:_c">
+  <img src="https://www.speedsolving.com/wiki/images/a/a6/G1.gif" style="transform:rotate(-90deg)">
+</a>
+
 - ( R2 F2 ) ( R U2 R U2 ) ( R' F ) ( R U R' U' ) ( R' F R2 )
   <div class="iframe-wrapper">
     <iframe
@@ -62,6 +77,10 @@ hidden: false
 
 
 ## Gd Perm
+
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#G_Permutation_:_d">
+  <img src="https://www.speedsolving.com/wiki/images/7/75/G.gif" style="transform:rotate(-90deg)">
+</a>
 
 - ( R2 F' ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R' F2 R2 )
   <div class="iframe-wrapper">
