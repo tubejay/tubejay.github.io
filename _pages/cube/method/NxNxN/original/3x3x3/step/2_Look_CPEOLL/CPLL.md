@@ -25,7 +25,7 @@ hidden: false
 
 
 
-## adjacent
+## adjacent swap
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
   <div class="iframe-wrapper">
@@ -37,7 +37,7 @@ hidden: false
 
 
 
-## opposite
+## opposite swap
 
 - ( L U' R' U L' U' R ) x 2
   <div class="iframe-wrapper">
