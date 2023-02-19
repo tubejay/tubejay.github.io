@@ -20,12 +20,19 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:150px;
+    }
   </style>
 </head>
 
 
 
 ## Aa Perm
+
+<a href="https://www.speedsolving.com/wiki/index.php/PLL#A_Permutation_:_a">
+  <img src="https://www.speedsolving.com/wiki/images/0/08/A1.gif">
+</a>
 
 - ( x ) ( R' U R' D2 ) ( R U' R' D2 ) ( R2 x' )
   <div class="iframe-wrapper">
