@@ -87,7 +87,7 @@ hidden: false
 
 ## T
 
-- ( R U R' U R ) ( U2 R' U' R U2 ) ( R' U' R U' R' )
+- ( R U R' U R ) ( U2 ) ( R' U' R ) ( U2 ) ( R' U' R U' R' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
