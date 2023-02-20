@@ -20,12 +20,17 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## adjacent swap
+
+<img src="https://www.speedsolving.com/wiki/images/f/fc/LLE_OA.jpg" style="transform:rotate(-90deg)">
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -38,6 +43,8 @@ hidden: false
 
 
 ## opposite swap
+
+<img src="https://www.speedsolving.com/wiki/images/3/3a/LLE_OO.jpg">
 
 - ( adjacent swap ) ( U' ) ( adjacent swap )
   <div class="iframe-wrapper">
