@@ -30,7 +30,9 @@ hidden: false
 
 ## adjacent swap
 
-<img src="https://www.speedsolving.com/wiki/images/f/fc/LLE_OA.jpg" style="transform:rotate(-90deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2lllef.html#case-Adj">
+  <img src="https://www.speedsolving.com/wiki/images/f/fc/LLE_OA.jpg" style="transform:rotate(-90deg)">
+</a>
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -44,7 +46,9 @@ hidden: false
 
 ## opposite swap
 
-<img src="https://www.speedsolving.com/wiki/images/3/3a/LLE_OO.jpg">
+<a href="https://logiqx.github.io/cubing-algs/html/2lllef.html#case-Opp">
+  <img src="https://www.speedsolving.com/wiki/images/3/3a/LLE_OO.jpg">
+</a>
 
 - ( adjacent swap ) ( U' ) ( adjacent swap )
   <div class="iframe-wrapper">
