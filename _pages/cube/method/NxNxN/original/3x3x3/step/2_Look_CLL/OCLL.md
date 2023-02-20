@@ -30,7 +30,7 @@ hidden: false
 
 ## Sune
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#S_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-S">
   <img src="https://www.speedsolving.com/wiki/images/d/db/CxLL_aS_U.jpg" style="transform:rotate(90deg)">
 </a>
 
@@ -46,7 +46,7 @@ hidden: false
 
 ## Anti-Sune
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#aS_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-AS">
   <img src="https://www.speedsolving.com/wiki/images/c/c7/CxLL_S_U.jpg">
 </a>
 
@@ -62,7 +62,7 @@ hidden: false
 
 ## Headlights
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#U_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-U">
   <img src="https://www.speedsolving.com/wiki/images/d/d8/CxLL_U_U.jpg" style="transform:rotate(-90deg)">
 </a>
 
@@ -78,7 +78,7 @@ hidden: false
 
 ## Pi
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#pi_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-Pi">
   <img src="https://www.speedsolving.com/wiki/images/e/ec/CxLL_Pi_U_imp.jpg" style="transform:rotate(90deg)">
 </a>
 
@@ -94,7 +94,7 @@ hidden: false
 
 ## H
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#H_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-H">
   <img src="https://www.speedsolving.com/wiki/images/6/68/CxLL_H_U.jpg">
 </a>
 
@@ -110,7 +110,7 @@ hidden: false
 
 ## T
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#T_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-T">
   <img src="https://www.speedsolving.com/wiki/images/4/45/CxLL_T_U.jpg" style="transform:rotate(-90deg)">
 </a>
 
@@ -126,7 +126,7 @@ hidden: false
 
 ## Bowtie
 
-<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#L_cases">
+<a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-L">
   <img src="https://www.speedsolving.com/wiki/images/f/f8/CxLL_L_U.jpg" style="transform:rotate(180deg)">
 </a>
 
