@@ -25,7 +25,9 @@ hidden: false
       max-height    : 128px;
       overflow      : hidden;
     }
-    img {
+    .img-wrapper img {
+      max-width     : initial;
+      max-height    : initial;
       transform     : translatex(-128px);
     }
   </style>
