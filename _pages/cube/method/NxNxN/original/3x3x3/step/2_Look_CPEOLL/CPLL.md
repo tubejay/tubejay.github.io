@@ -48,12 +48,6 @@ hidden: false
   </a>
 </div>
 
-<div class="img-wrapper">
-  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
-    <img class="opposite-swap" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png">
-  </a>
-</div>
-
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
   <div class="iframe-wrapper">
     <iframe
@@ -65,6 +59,12 @@ hidden: false
 
 
 ## opposite swap
+
+<div class="img-wrapper">
+  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
+    <img class="opposite-swap" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png">
+  </a>
+</div>
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
   <img style="transform:rotate(90deg)">
