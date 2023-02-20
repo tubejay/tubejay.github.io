@@ -22,10 +22,13 @@ hidden: false
     }
     .img-wrapper {
       max-width     : 128px;
+      max-height    : 128px;
       overflow      : hidden;
     }
     .img-wrapper img {
       max-width     : initial;
+      max-height    : initial;
+      margin-left   : 128px;
     }
   </style>
 </head>
