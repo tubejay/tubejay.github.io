@@ -20,12 +20,17 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## Sune
+
+<img src="https://www.speedsolving.com/wiki/images/2/20/OCLL-EPP_S.jpg" style="transform:rotate(180deg)">
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R )
   <div class="iframe-wrapper">
@@ -39,6 +44,8 @@ hidden: false
 
 ## Anti-Sune
 
+<img src="https://www.speedsolving.com/wiki/images/b/b8/OCLL-EPP_aS.jpg" style="transform:rotate(90deg)">
+
 - ( R' U ) ( L U' ) ( R U ) ( L' )
   <div class="iframe-wrapper">
     <iframe
@@ -50,6 +57,8 @@ hidden: false
 
 
 ## Headlights
+
+<img src="https://www.speedsolving.com/wiki/images/f/f3/OCLL-EPP_U.jpg" style="transform:rotate(180deg)">
 
 - ( R2 D ) ( R' U2 ) ( R D' ) ( R' U2 R' )
   <div class="iframe-wrapper">
@@ -63,6 +72,8 @@ hidden: false
 
 ## Pi
 
+<img src="https://www.speedsolving.com/wiki/images/0/08/OCLL-EPP_pi.jpg">
+
 - ( Anti-Sune ) ( U2' ) ( Anti-Sune )
   <div class="iframe-wrapper">
     <iframe
@@ -74,6 +85,8 @@ hidden: false
 
 
 ## H
+
+<img src="https://www.speedsolving.com/wiki/images/9/96/OCLL-EPP_H.jpg">
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="iframe-wrapper">
@@ -87,6 +100,8 @@ hidden: false
 
 ## T
 
+<img src="https://www.speedsolving.com/wiki/images/c/c3/OCLL-EPP_T.jpg" style="transform:rotate(-90deg)">
+
 - ( r U ) ( R' U' ) ( r' F ) ( R F' )
   <div class="iframe-wrapper">
     <iframe
@@ -98,6 +113,8 @@ hidden: false
 
 
 ## Bowtie
+
+<img src="https://www.speedsolving.com/wiki/images/6/6b/OCLL-EPP_L.jpg" style="transform:rotate(180deg)">
 
 - ( F' ) ( r U R' U' ) ( r' F R )
   <div class="iframe-wrapper">
