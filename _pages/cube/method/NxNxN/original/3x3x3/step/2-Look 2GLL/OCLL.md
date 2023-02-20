@@ -20,12 +20,19 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## Sune
+
+<a href="http://algdb.net/puzzle/333/coll/c1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(180deg)">
+</a>
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -39,6 +46,10 @@ hidden: false
 
 ## Anti-Sune
 
+<a href="http://algdb.net/puzzle/333/coll/b1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R&view=plan&stage=coll">
+</a>
+
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="iframe-wrapper">
     <iframe
@@ -50,6 +61,10 @@ hidden: false
 
 
 ## Headlights
+
+<a href="http://algdb.net/puzzle/333/coll/e1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R2%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(-90deg)">
+</a>
 
 - ( R U R' U' ) ( R U' R' U2 ) x 2 ( R U R' )
   <div class="iframe-wrapper">
@@ -63,6 +78,10 @@ hidden: false
 
 ## Pi
 
+<a href="http://algdb.net/puzzle/333/coll/g1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R2%27%20U%27%20R2%20U%27%20R2%27%20U2%27%20R&view=plan&stage=coll">
+</a>
+
 - ( R U2 ) ( R2 U' R2 U' R2 ) ( U2 R )
   <div class="iframe-wrapper">
     <iframe
@@ -74,6 +93,10 @@ hidden: false
 
 
 ## H
+
+<a href="http://algdb.net/puzzle/333/coll/h1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U%27%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(90deg)">
+</a>
 
 - ( R U2 ) ( R' U' R U ) ( R' U' R U' R' )
   <div class="iframe-wrapper">
@@ -87,6 +110,10 @@ hidden: false
 
 ## T
 
+<a href="http://algdb.net/puzzle/333/coll/f1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R%27%20U%27%20R%20U%27%20R2%20U2%27%20R%20U%20R%27%20U%20R&view=plan&stage=coll" style="transform:rotate(-90deg)">
+</a>
+
 - ( R U R' U R ) ( U2 ) ( R' U' R ) ( U2 ) ( R' U' R U' R' )
   <div class="iframe-wrapper">
     <iframe
@@ -98,6 +125,10 @@ hidden: false
 
 
 ## Bowtie
+
+<a href="http://algdb.net/puzzle/333/coll/d1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%27%20R%27%20L%27%20U2%20L%20U%20L%27%20U%20L%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(180deg)">
+</a>
 
 - ( R' U' R U' ) ( R' U R U' ) x 2 ( R' U2 R )
   <div class="iframe-wrapper">
