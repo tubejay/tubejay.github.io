@@ -23,6 +23,10 @@ hidden: false
 
 ## Sune
 
+<a href="http://algdb.net/puzzle/222/ortegaoll/oll1">
+  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=2&case=R%20U%20R%27%20U%20R%20U2%20R%27%20&view=plan&stage=cll">
+</a>
+
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=L+U+L%27+U+L+U2+L%27">
