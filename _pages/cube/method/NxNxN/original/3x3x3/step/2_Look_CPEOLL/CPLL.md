@@ -28,7 +28,6 @@ hidden: false
     .img-wrapper img {
       max-width     : initial;
       max-height    : initial;
-      margin-left   : 128px;
     }
   </style>
 </head>
