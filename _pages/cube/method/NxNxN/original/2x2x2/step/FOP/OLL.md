@@ -23,7 +23,7 @@ hidden: false
 
 ## Sune
 
-<img src="https://www.speedsolving.com/wiki/images/f/f8/2x2Su.gif">
+<img src="https://www.speedsolving.com/wiki/images/f/f8/2x2Su.gif" style="transform:rotate(180deg)">
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="img-wrapper">
@@ -36,6 +36,8 @@ hidden: false
 
 ## Anti-Sune
 
+<img src="https://www.speedsolving.com/wiki/images/9/9b/2x2AS.gif" style="transform:rotate(-90deg)">
+
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=R%27+U%27+R+U%27+R%27+U2%27+R">
@@ -46,6 +48,8 @@ hidden: false
 
 
 ## Headlights
+
+<img src="https://www.speedsolving.com/wiki/images/1/1c/2x2He.gif" style="transform:rotate(180deg)">
 
 - ( F ) ( R U R' U' ) ( F' )
   <div class="img-wrapper">
@@ -58,6 +62,8 @@ hidden: false
 
 ## Pi
 
+<img src="https://www.speedsolving.com/wiki/images/e/ed/2x2Pi.gif" style="transform:rotate(90deg)">
+
 - ( F ) ( R U R' U' ) x 2 ( F' )
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=F+%28R+U+R%27+U%27%292+F%27">
@@ -68,6 +74,8 @@ hidden: false
 
 
 ## H
+
+<img src="https://www.speedsolving.com/wiki/images/6/6e/2x2H.gif">
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="img-wrapper">
@@ -80,6 +88,8 @@ hidden: false
 
 ## T
 
+<img src="https://www.speedsolving.com/wiki/images/1/1b/2x2T.gif">
+
 - ( R U ) ( R' U' ) ( R' F ) ( R F' )
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=R+U+R%27+U%27+R%27+F+R+F%27">
@@ -90,6 +100,8 @@ hidden: false
 
 
 ## Bowtie
+
+<img src="https://www.speedsolving.com/wiki/images/9/99/2x2Bo.gif" style="transform:rotate(90deg)">
 
 - ( F' ) ( R U R' U' ) ( R' F R )
   <div class="img-wrapper">
