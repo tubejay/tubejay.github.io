@@ -20,12 +20,19 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## adjacent 2-flip
+
+<a href="https://www.speedsolving.com/wiki/index.php/ELL#Pure_flips">
+  <img src="https://www.speedsolving.com/wiki/images/d/de/ELL_2-flip_%28a%29.jpg" style="transform:rotate(-90deg)">
+</a>
 
 - ( M' U' ) ( M U2 ) ( M' U' ) x 2 ( M' U2 ) ( M U' ) ( M2 )
   <div class="iframe-wrapper">
@@ -39,6 +46,10 @@ hidden: false
 
 ## opposite 2-flip
 
+<a href="https://www.speedsolving.com/wiki/index.php/ELL#Pure_flips">
+  <img src="https://www.speedsolving.com/wiki/images/4/4d/ELL_2-flip_%28b%29.jpg">
+</a>
+
 - ( M' U' ) x 2 ( M' U2 ) ( M U' ) x 2 ( M )
   <div class="iframe-wrapper">
     <iframe
@@ -50,6 +61,10 @@ hidden: false
 
 
 ## 4-flip
+
+<a href="https://www.speedsolving.com/wiki/index.php/ELL#Pure_flips">
+  <img src="https://www.speedsolving.com/wiki/images/1/13/ELL_4-flip.jpg">
+</a>
 
 - ( M' U2 ) ( M U2 ) ( M' U' ) ( M U2 ) ( M' U2 ) ( M )
   <div class="iframe-wrapper">
