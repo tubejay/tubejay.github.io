@@ -30,6 +30,10 @@ hidden: false
 
 ## Sune
 
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#S_cases">
+  <img src="https://www.speedsolving.com/wiki/images/d/db/CxLL_aS_U.jpg" style="transform:rotate(90deg)">
+</a>
+
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
     <iframe
@@ -41,6 +45,10 @@ hidden: false
 
 
 ## Anti-Sune
+
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#aS_cases">
+  <img src="https://www.speedsolving.com/wiki/images/c/c7/CxLL_S_U.jpg">
+</a>
 
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="iframe-wrapper">
@@ -54,6 +62,10 @@ hidden: false
 
 ## Headlights
 
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#U_cases">
+  <img src="https://www.speedsolving.com/wiki/images/d/d8/CxLL_U_U.jpg" style="transform:rotate(-90deg)">
+</a>
+
 - ( F ) ( R U R' U' ) ( F' )
   <div class="iframe-wrapper">
     <iframe
@@ -65,6 +77,10 @@ hidden: false
 
 
 ## Pi
+
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#pi_cases">
+  <img src="https://www.speedsolving.com/wiki/images/e/ec/CxLL_Pi_U_imp.jpg" style="transform:rotate(90deg)">
+</a>
 
 - ( F ) ( R U R' U' ) x 2 ( F' )
   <div class="iframe-wrapper">
@@ -78,6 +94,10 @@ hidden: false
 
 ## H
 
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#H_cases">
+  <img src="https://www.speedsolving.com/wiki/images/6/68/CxLL_H_U.jpg">
+</a>
+
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="iframe-wrapper">
     <iframe
@@ -89,6 +109,10 @@ hidden: false
 
 
 ## T
+
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#T_cases">
+  <img src="https://www.speedsolving.com/wiki/images/4/45/CxLL_T_U.jpg" style="transform:rotate(-90deg)">
+</a>
 
 - ( R U ) ( R' U' ) ( R' F ) ( R F' )
   <div class="iframe-wrapper">
