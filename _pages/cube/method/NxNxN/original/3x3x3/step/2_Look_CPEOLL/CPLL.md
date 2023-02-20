@@ -30,7 +30,7 @@ hidden: false
     }
     .img-wrapper img {
       position      : absolute;
-      left          : 0px;
+      left          : -128px;
       top           : 0px;
     }
   </style>
