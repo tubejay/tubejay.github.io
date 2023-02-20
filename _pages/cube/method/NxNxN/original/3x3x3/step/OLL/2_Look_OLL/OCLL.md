@@ -30,7 +30,9 @@ hidden: false
 
 ## Sune
 
-<img src="https://www.speedsolving.com/wiki/images/0/08/27correct.png" style="transform:rotate(180deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-S">
+  <img src="https://www.speedsolving.com/wiki/images/0/08/27correct.png" style="transform:rotate(180deg)">
+</a>
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -44,7 +46,9 @@ hidden: false
 
 ## Anti-Sune
 
-<img src="https://www.speedsolving.com/wiki/images/2/25/26.png" style="transform:rotate(180deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-AS">
+  <img src="https://www.speedsolving.com/wiki/images/2/25/26.png" style="transform:rotate(180deg)">
+</a>
 
 - Anti-Sune : ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="iframe-wrapper">
@@ -58,7 +62,9 @@ hidden: false
 
 ## Headlights
 
-<img src="https://www.speedsolving.com/wiki/images/7/7a/23.png" style="transform:rotate(180deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-U">
+  <img src="https://www.speedsolving.com/wiki/images/7/7a/23.png" style="transform:rotate(180deg)">
+</a>
 
 - ( R2 D ) ( R' U2 ) ( R D' ) ( R' U2 R' )
   <div class="iframe-wrapper">
@@ -72,7 +78,9 @@ hidden: false
 
 ## Pi
 
-<img src="https://www.speedsolving.com/wiki/images/7/75/22.png">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-Pi">
+  <img src="https://www.speedsolving.com/wiki/images/7/75/22.png">
+</a>
 
 - ( f ) ( R U R' U' ) ( S' ) ( R U R' U' ) ( F' )
   <div class="iframe-wrapper">
@@ -86,7 +94,9 @@ hidden: false
 
 ## H
 
-<img src="https://www.speedsolving.com/wiki/images/7/71/21.png" style="transform:rotate(90deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-H">
+  <img src="https://www.speedsolving.com/wiki/images/7/71/21.png" style="transform:rotate(90deg)">
+</a>
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="iframe-wrapper">
@@ -100,7 +110,9 @@ hidden: false
 
 ## T
 
-<img src="https://www.speedsolving.com/wiki/images/2/24/24.png">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-T">
+  <img src="https://www.speedsolving.com/wiki/images/2/24/24.png">
+</a>
 
 - ( r U ) ( R' U' ) ( r' F ) ( R F' )
   <div class="iframe-wrapper">
@@ -114,7 +126,9 @@ hidden: false
 
 ## Bowtie
 
-<img src="https://www.speedsolving.com/wiki/images/a/a9/25.png" style="transform:rotate(-90deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-L">
+  <img src="https://www.speedsolving.com/wiki/images/a/a9/25.png" style="transform:rotate(-90deg)">
+</a>
 
 - ( F' ) ( r U R' U' ) ( r' F R )
   <div class="iframe-wrapper">
