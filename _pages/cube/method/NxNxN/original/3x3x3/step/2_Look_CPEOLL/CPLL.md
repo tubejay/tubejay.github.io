@@ -20,10 +20,9 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
-    img {
-      position      : absolute;
-      top           : 0;
-      left          : 128px;
+    .img-wrapper {
+      overflow      : hidden;
+      margin-left   : -128px;
       width         : 128px;
       height        : 128px;
     }
@@ -34,9 +33,11 @@ hidden: false
 
 ## adjacent swap
 
-<a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
-  <img src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
-</a>
+<div class="img-wrapper">
+  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
+    <img src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
+  </a>
+</div>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
   <div class="iframe-wrapper">
