@@ -30,7 +30,9 @@ hidden: false
 
 ## Sune
 
-<img src="https://www.speedsolving.com/wiki/images/2/20/OCLL-EPP_S.jpg" style="transform:rotate(180deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-S">
+  <img src="https://www.speedsolving.com/wiki/images/2/20/OCLL-EPP_S.jpg" style="transform:rotate(180deg)">
+</a>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R )
   <div class="iframe-wrapper">
@@ -44,7 +46,9 @@ hidden: false
 
 ## Anti-Sune
 
-<img src="https://www.speedsolving.com/wiki/images/b/b8/OCLL-EPP_aS.jpg" style="transform:rotate(90deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-AS">
+  <img src="https://www.speedsolving.com/wiki/images/b/b8/OCLL-EPP_aS.jpg" style="transform:rotate(90deg)">
+</a>
 
 - ( R' U ) ( L U' ) ( R U ) ( L' )
   <div class="iframe-wrapper">
@@ -58,7 +62,9 @@ hidden: false
 
 ## Headlights
 
-<img src="https://www.speedsolving.com/wiki/images/f/f3/OCLL-EPP_U.jpg" style="transform:rotate(180deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-U">
+  <img src="https://www.speedsolving.com/wiki/images/f/f3/OCLL-EPP_U.jpg" style="transform:rotate(180deg)">
+</a>
 
 - ( R2 D ) ( R' U2 ) ( R D' ) ( R' U2 R' )
   <div class="iframe-wrapper">
@@ -72,7 +78,9 @@ hidden: false
 
 ## Pi
 
-<img src="https://www.speedsolving.com/wiki/images/0/08/OCLL-EPP_pi.jpg">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-Pi">
+  <img src="https://www.speedsolving.com/wiki/images/0/08/OCLL-EPP_pi.jpg">
+</a>
 
 - ( Anti-Sune ) ( U2' ) ( Anti-Sune )
   <div class="iframe-wrapper">
@@ -86,7 +94,9 @@ hidden: false
 
 ## H
 
-<img src="https://www.speedsolving.com/wiki/images/9/96/OCLL-EPP_H.jpg">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-H">
+  <img src="https://www.speedsolving.com/wiki/images/9/96/OCLL-EPP_H.jpg">
+</a>
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="iframe-wrapper">
@@ -100,7 +110,9 @@ hidden: false
 
 ## T
 
-<img src="https://www.speedsolving.com/wiki/images/c/c3/OCLL-EPP_T.jpg" style="transform:rotate(-90deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-T">
+  <img src="https://www.speedsolving.com/wiki/images/c/c3/OCLL-EPP_T.jpg" style="transform:rotate(-90deg)">
+</a>
 
 - ( r U ) ( R' U' ) ( r' F ) ( R F' )
   <div class="iframe-wrapper">
@@ -114,7 +126,9 @@ hidden: false
 
 ## Bowtie
 
-<img src="https://www.speedsolving.com/wiki/images/6/6b/OCLL-EPP_L.jpg" style="transform:rotate(180deg)">
+<a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-L">
+  <img src="https://www.speedsolving.com/wiki/images/6/6b/OCLL-EPP_L.jpg" style="transform:rotate(180deg)">
+</a>
 
 - ( F' ) ( r U R' U' ) ( r' F R )
   <div class="iframe-wrapper">
