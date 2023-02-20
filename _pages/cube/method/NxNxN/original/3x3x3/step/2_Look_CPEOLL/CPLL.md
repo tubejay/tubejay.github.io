@@ -31,9 +31,11 @@ hidden: false
 
 ## adjacent swap
 
+<div>
 <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
   <img src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png" class="img-clip">
 </a>
+</div>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
   <div class="iframe-wrapper">
