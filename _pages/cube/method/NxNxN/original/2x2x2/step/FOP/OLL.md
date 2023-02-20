@@ -23,9 +23,7 @@ hidden: false
 
 ## Sune
 
-<a href="http://algdb.net/puzzle/222/ortegaoll/oll1">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=2&case=R%20U%20R%27%20U%20R%20U2%20R%27%20&view=plan&stage=cll">
-</a>
+<img src="https://www.speedsolving.com/wiki/images/f/f8/2x2Su.gif">
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="img-wrapper">
