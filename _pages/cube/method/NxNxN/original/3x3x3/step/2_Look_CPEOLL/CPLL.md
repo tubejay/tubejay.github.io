@@ -21,17 +21,13 @@ hidden: false
       border        : none;
     }
     .img-wrapper {
-      display       : block;
-      width         : 64px;
-      height        : 128px;
+      max-width     : 128px;
       overflow      : hidden;
-      position      : relative;
       border        : 1px solid white;
     }
     .img-wrapper img {
-      position      : absolute;
-      left          : -128px;
-      top           : 0px;
+      margin-left   : 128px;
+      margin-top    : -64px;
     }
   </style>
 </head>
