@@ -22,7 +22,6 @@ hidden: false
     }
     .img-wrapper {
       overflow      : hidden;
-      margin-left   : -128px;
       width         : 128px;
       height        : 128px;
     }
