@@ -20,12 +20,17 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:100px;
+    }
   </style>
 </head>
 
 
 
 ## Sune
+
+<img src="https://www.speedsolving.com/wiki/images/0/08/27correct.png" style="transform:rotate(180deg)">
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
@@ -39,6 +44,8 @@ hidden: false
 
 ## Anti-Sune
 
+<img src="https://www.speedsolving.com/wiki/images/2/25/26.png" style="transform:rotate(180deg)">
+
 - Anti-Sune : ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="iframe-wrapper">
     <iframe
@@ -50,6 +57,8 @@ hidden: false
 
 
 ## Headlights
+
+<img src="https://www.speedsolving.com/wiki/images/7/7a/23.png" style="transform:rotate(180deg)">
 
 - ( R2 D ) ( R' U2 ) ( R D' ) ( R' U2 R' )
   <div class="iframe-wrapper">
@@ -63,6 +72,8 @@ hidden: false
 
 ## Pi
 
+<img src="https://www.speedsolving.com/wiki/images/7/75/22.png">
+
 - ( f ) ( R U R' U' ) ( S' ) ( R U R' U' ) ( F' )
   <div class="iframe-wrapper">
     <iframe
@@ -74,6 +85,8 @@ hidden: false
 
 
 ## H
+
+<img src="https://www.speedsolving.com/wiki/images/7/71/21.png" style="transform:rotate(90deg)">
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="iframe-wrapper">
@@ -87,6 +100,8 @@ hidden: false
 
 ## T
 
+<img src="https://www.speedsolving.com/wiki/images/2/24/24.png">
+
 - ( r U ) ( R' U' ) ( r' F ) ( R F' )
   <div class="iframe-wrapper">
     <iframe
@@ -98,6 +113,8 @@ hidden: false
 
 
 ## Bowtie
+
+<img src="https://www.speedsolving.com/wiki/images/a/a9/25.png" style="transform:rotate(-90deg)">
 
 - ( F' ) ( r U R' U' ) ( r' F R )
   <div class="iframe-wrapper">
