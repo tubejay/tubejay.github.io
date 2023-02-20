@@ -25,10 +25,15 @@ hidden: false
       max-height    : 128px;
       overflow      : hidden;
     }
-    .img-wrapper img {
+    .img-wrapper .adjacent {
       max-width     : initial;
       max-height    : initial;
       transform     : translatex(-128px);
+    }
+    .img-wrapper .opposite {
+      max-width     : initial;
+      max-height    : initial;
+      transform     : translatey(-128px);
     }
   </style>
 </head>
@@ -38,8 +43,15 @@ hidden: false
 ## adjacent swap
 
 <https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj>
+
   <div class="img-wrapper">
-    <img src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
+    <img class="adjacent" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
+  </div>
+
+<https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag>
+
+  <div class="img-wrapper">
+    <img class="opposite" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
   </div>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
