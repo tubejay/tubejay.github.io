@@ -23,11 +23,9 @@ hidden: false
     .img-wrapper {
       max-width     : 128px;
       overflow      : hidden;
-      border        : 1px solid white;
     }
     .img-wrapper img {
-      margin-left   : 128px;
-      margin-top    : -64px;
+      max-width     : initial;
     }
   </style>
 </head>
