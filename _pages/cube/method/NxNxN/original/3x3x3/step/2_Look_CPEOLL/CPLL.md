@@ -28,9 +28,9 @@ hidden: false
       position      : relative;
       border        : 1px solid white;
     }
-    img {
+    .img-wrapper img {
       position      : absolute;
-      left          : -128px;
+      left          : 0px;
       top           : 0px;
     }
   </style>
