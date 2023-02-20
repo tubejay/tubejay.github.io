@@ -21,7 +21,7 @@ hidden: false
       border        : none;
     }
     img {
-      max-width:150px;
+      max-width:100px;
     }
   </style>
 </head>
