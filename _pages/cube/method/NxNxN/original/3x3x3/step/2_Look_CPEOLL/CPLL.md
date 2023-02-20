@@ -21,10 +21,14 @@ hidden: false
       border        : none;
     }
     .img-wrapper {
+      position      : relative;
+      width         : 100px;
       overflow      : hidden;
-      margin-left   : -128px;
     }
     img {
+      position      : absolute;
+      top           : 0;
+      left          : 128px;
       width         : 128px;
       height        : 128px;
     }
