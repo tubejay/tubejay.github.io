@@ -20,6 +20,9 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
+    img {
+      max-width:150px;
+    }
   </style>
 </head>
 
@@ -98,6 +101,10 @@ hidden: false
 
 
 ## Bowtie
+
+<a href="https://www.speedsolving.com/wiki/index.php/CLL_algorithms_(3x3x3)#L_cases">
+  <img src="https://www.speedsolving.com/wiki/images/f/f8/CxLL_L_U.jpg" style="transform:rotate(180deg)">
+</a>
 
 - ( F' ) ( r U R' U' ) ( r' F R )
   <div class="iframe-wrapper">
