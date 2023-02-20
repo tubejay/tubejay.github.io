@@ -21,8 +21,12 @@ hidden: false
       border        : none;
     }
     .img-containter {
-      max-width     : 100px;
-      max-height    : 100px;
+      width         : 100px;
+      height        : 100px;
+    }
+    .img-container img {
+      max-width     : 100%;
+      max-height    : 100%;
     }
     .img-wrapper {
       max-width     : 128px;
