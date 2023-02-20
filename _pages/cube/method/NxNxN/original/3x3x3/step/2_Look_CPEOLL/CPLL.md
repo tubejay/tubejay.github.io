@@ -33,7 +33,7 @@ hidden: false
     .img-wrapper .opposite-swap {
       max-width     : initial;
       max-height    : initial;
-      transform     : translatey(-128px) scale(0.5);
+      transform     : translatey(-128px) scale(100/128);
     }
   </style>
 </head>
