@@ -27,6 +27,7 @@ hidden: false
     img {
       width         : 128px;
       height        : 128px;
+    }
   </style>
 </head>
 
