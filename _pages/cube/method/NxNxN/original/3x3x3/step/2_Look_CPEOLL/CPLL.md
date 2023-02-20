@@ -42,17 +42,17 @@ hidden: false
 
 ## adjacent swap
 
-<https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj>
-
-  <div class="img-wrapper">
+<div class="img-wrapper">
+  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
     <img class="adjacent" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
-  </div>
+  </a>
+</div>
 
-<https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag>
-
-  <div class="img-wrapper">
+<div class="img-wrapper">
+  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
     <img class="opposite" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
-  </div>
+  </a>
+</div>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
   <div class="iframe-wrapper">
