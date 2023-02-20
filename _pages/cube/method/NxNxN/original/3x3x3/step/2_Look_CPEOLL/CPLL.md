@@ -21,7 +21,8 @@ hidden: false
       border        : none;
     }
     .img-clip {
-      clip: rect(0px,128px,64px,32px);
+      position      : absolute;
+      clip          : rect(0px,128px,64px,32px);
     }
   </style>
 </head>
