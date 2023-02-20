@@ -31,7 +31,7 @@ hidden: false
 ## adjacent swap
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
-  <img src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png" style="margin-left:-128px;width:128px;height;128px;">
+  <img style="background-image:url(https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png);background-repeat:no-repeat;background-position:-128px 0; display:block; width:128px; height:128px;">
 </a>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
@@ -47,7 +47,7 @@ hidden: false
 ## opposite swap
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
-  <img src="" style="transform:rotate(90deg)">
+  <img style="transform:rotate(90deg)">
 </a>
 
 - ( L U' R' U L' U' R ) x 2
