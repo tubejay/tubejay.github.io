@@ -20,23 +20,24 @@ hidden: false
       margin-top    : -20px;
       border        : none;
     }
-    .img-wrapper {
+    .img-containter {
       max-width     : 100px;
       max-height    : 100px;
+    }
+    .img-wrapper {
+      max-width     : 128px;
+      max-height    : 128px;
       overflow      : hidden;
     }
     .img-wrapper .adjacent-swap {
       max-width     : initial;
       max-height    : initial;
-      transform     : translatex(-100px);
+      transform     : translatex(-128px);
     }
     .img-wrapper .opposite-swap {
       max-width     : initial;
       max-height    : initial;
-      transform     : translatey(-100px);
-    }
-    .img-rescale {
-      transform     : scale(100/128);
+      transform     : translatey(-128px);
     }
   </style>
 </head>
@@ -45,19 +46,17 @@ hidden: false
 
 ## adjacent swap
 
-<div class="img-wrapper">
-  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
-    <span class="adjacent-swap">
-      <img class="img-rescale" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
-    </span>
-  </a>
+<div class="img-container">
+  <div class="img-wrapper">
+    <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
+      <img class="adjacent-swap" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
+    </a>
+  </div>
 </div>
 
 <div class="img-wrapper">
   <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
-    <span class="opposite-swap">
-      <img class="img-rescale" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
-    </span>
+    <img class="opposite-swap" src="https://logiqx.github.io/cubing-algs/img/2lcpeoll-s128-01.png">
   </a>
 </div>
 
