@@ -66,10 +66,6 @@ hidden: false
   </a>
 </div>
 
-<a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
-  <img style="transform:rotate(90deg)">
-</a>
-
 - ( L U' R' U L' U' R ) x 2
   <div class="iframe-wrapper">
     <iframe
