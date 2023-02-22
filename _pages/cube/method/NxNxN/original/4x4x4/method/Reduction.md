@@ -34,11 +34,11 @@ hidden: false
 
 
 
-## [3x3x3](/cube/method/NxNxN/original/3x3x3#method)
+## [3x3x3 / method](/cube/method/NxNxN/original/3x3x3#method)
 
 
 
-## [parity](/cube/method/NxNxN/original/4x4x4/parity)
+## [4x4x4 / parity](/cube/method/NxNxN/original/4x4x4/parity)
 
 
 
