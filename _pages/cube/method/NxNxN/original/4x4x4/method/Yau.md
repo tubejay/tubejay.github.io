@@ -63,7 +63,7 @@ hidden: false
 - method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFCE](/cube/method/NxNxN/original/3x3x3/cfce) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
 - skip : Cross
 
-## parity : [4x4x4 / Reduction / parity](/cube/method/NxNxN/original/4x4x4/reduction#parity)
+## [parity](/cube/method/NxNxN/original/4x4x4/parity)
 
 
 
