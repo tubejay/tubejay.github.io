@@ -54,7 +54,7 @@ hidden: false
   
 - skip : one block of [F2B](/cube/method/NxNxN/original/3x3x3/roux#f2b)
 
-## parity : [4x4x4 / Reduction / parity](/cube/method/NxNxN/original/4x4x4/reduction#parity)
+## [parity](/cube/method/NxNxN/original/4x4x4/parity)
 
 
 
