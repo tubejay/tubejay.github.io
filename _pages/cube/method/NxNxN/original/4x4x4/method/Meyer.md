@@ -50,11 +50,12 @@ hidden: false
 
 
 
-## [3x3x3 / Roux](/cube/method/NxNxN/original/3x3x3/roux)
-  
+## 3x3x3 / method
+
+- method : [Roux](/cube/method/NxNxN/original/3x3x3/roux)
 - skip : one block of [F2B](/cube/method/NxNxN/original/3x3x3/roux#f2b)
 
-## [parity](/cube/method/NxNxN/original/4x4x4/parity)
+## [4x4x4 / parity](/cube/method/NxNxN/original/4x4x4/parity)
 
 
 
