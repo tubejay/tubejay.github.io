@@ -53,11 +53,3 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U+r2%27+F+r&setup-alg=f+U+R+f%27">
   <img src="https://user-images.githubusercontent.com/92285528/220948069-cc118e29-54ca-49dc-bb4e-952ee92f1413.png">
 </a>
-
-
-
-## reference
-
-### 아이엠준
-
-- [case](https://youtu.be/4ViuGBx14zg)
