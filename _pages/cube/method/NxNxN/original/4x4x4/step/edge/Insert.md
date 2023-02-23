@@ -32,7 +32,7 @@ hidden: false
 - 3rd layer
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&alg=U+R+U+R%27+U%27+3F+U+R+U%27+R%27+3F%27&stickering=F2L">
-      <img src="https://user-images.githubusercontent.com/92285528/220963802-3f5e0179-adf2-4355-94c2-c4a4a8da8e36.png">
+      <img src="https://user-images.githubusercontent.com/92285528/220965167-bfea394a-8bab-4e68-b698-394faaa043d8.png">
     </a>
   </div>
 
@@ -49,6 +49,6 @@ hidden: false
 - 3rd layer
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&alg=U%27+F%27+U%27+F+U+3R%27+U%27+F%27+U+F+3R&stickering=F2L">
-      <img src="https://user-images.githubusercontent.com/92285528/220964205-1e87296a-66d4-4911-baf1-88a2435dd75f.png">
+      <img src="https://user-images.githubusercontent.com/92285528/220965455-70b72f19-83c3-4337-bd8e-4b1d0d357916.png">
     </a>
   </div>
