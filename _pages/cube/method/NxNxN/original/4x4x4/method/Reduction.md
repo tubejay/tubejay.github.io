@@ -24,8 +24,9 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215299814-a03d80a9-cb78-4e20-bc16-ae13c952fc1e.png">
 </a>
 
-- [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
-- [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+### [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+
+### [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
 
 
 
