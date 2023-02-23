@@ -26,7 +26,7 @@ hidden: false
 
 ## 3 / 1
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&alg=r+U+r%27&setup-anchor=end">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&alg=r+U+r%27&setup-anchor=end&setup-alg=f+U+R+f%27">
   img src=""
 </a>
 
@@ -34,7 +34,7 @@ hidden: false
 
 ## 2 adjacent / 2 adjacent
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U2+r%27">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U2+r%27&setup-alg=f+U+R+f%27">
   img src=""
 </a>
 
@@ -42,7 +42,7 @@ hidden: false
 
 ## 2 adjacent / 2 opposite
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U+r%27+U2+r+U+r%27">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U+r%27+U2+r+U+r%27&setup-alg=f+U+R+f%27">
   img src=""
 </a>
 
@@ -50,7 +50,7 @@ hidden: false
 
 ## 2 opposite / 2 opposite
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U+r2%27+F+r">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-anchor=end&alg=r+U+r2%27+F+r&setup-alg=f+U+R+f%27">
   img src=""
 </a>
 
