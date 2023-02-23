@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## [center](/cube/method/NxNxN/original/4x4x4/parity)
+## [center](/cube/method/NxNxN/original/4x4x4/center)
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only">
   <img src="https://user-images.githubusercontent.com/92285528/215299814-a03d80a9-cb78-4e20-bc16-ae13c952fc1e.png">
