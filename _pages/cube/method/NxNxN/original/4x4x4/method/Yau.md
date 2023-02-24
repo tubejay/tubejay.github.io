@@ -20,8 +20,8 @@ hidden: false
 
 ## 2 centers
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw">
-  <img src="https://user-images.githubusercontent.com/92285528/216596335-0ba22a5c-682c-4890-9f7d-0f0523ddbd7c.png">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw+z%27+x">
+  <img src="https://user-images.githubusercontent.com/92285528/221233241-b953bb3b-36be-409a-a6ac-09ca0f9c891f.png">
 </a>
 
 - [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
@@ -30,8 +30,8 @@ hidden: false
 
 ## 3 cross edges
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw">
-  <img src="https://user-images.githubusercontent.com/92285528/216596765-1ada85dc-1b22-414c-8095-f408822896ed.png">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2+U2+2L+F%27+R%27+F+2L2+F+R%27+2R%27+F2+2R2+F%27">
+  <img src="https://user-images.githubusercontent.com/92285528/221233782-a00c21e3-4709-4a2d-b880-d748e2ee0fd4.png">
 </a>
 
 - [Edge / 2 Centers](/cube/method/NxNxN/original/4x4x4/edge/2_centers)
@@ -45,6 +45,7 @@ hidden: false
 </a>
 
 - [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+- [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
 
 
 
