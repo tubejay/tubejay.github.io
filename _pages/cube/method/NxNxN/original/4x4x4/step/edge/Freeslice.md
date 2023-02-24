@@ -13,9 +13,6 @@ hidden: false
     img {
       max-width: 250px;
     }
-    .img-wrapper {
-      margin: 20px 0px;
-    }
   </style>
 </head>
 
@@ -23,7 +20,7 @@ hidden: false
 
 ## to U layer
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=F2L&setup-alg=2U+R+U+R%27+L%27+U%27+L+B+U+B%27+L+U%27+L%27+2U&alg=R+U%27+R%27+3d%27+F+R%27+F%27+R+3d%27+F+R%27+F%27+R+3d%27+U%27+R+U%27+R%27+2U%27+R+U+R%27+L%27+U%27+L+y2+R+U%27+R%27+L%27+U2+L">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=F2L&setup-alg=2U+R+U+R%27+L%27+U%27+L+B+U+B%27+L+U%27+L%27+2U+R+U%27+R%27+3d%27+F+R%27+F%27+R+3d%27+F+R%27+F%27+R+3d%27+U%27+R+U%27+R%27&alg=2U%27+R+U+R%27+L%27+U%27+L+y2+R+U%27+R%27+L%27+U2+L">
   img src=""
 </a>
 
