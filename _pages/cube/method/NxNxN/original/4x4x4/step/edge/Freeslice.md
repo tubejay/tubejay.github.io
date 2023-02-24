@@ -23,10 +23,33 @@ hidden: false
 
 ## from U layer
 
-- right
+### right to left
+
+- rotate clockwise
   <div class="img-wrapper">
-    <a href="">
-      <img src="">
+    <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&stickering=F2L&alg=F%27+U+F&setup-alg=B2+U2+F+U2+D2">
+      img src=""
+    </a>
+  </div>
+- rotate counterclockwise
+  <div class="img-wrapper">
+    <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&stickering=F2L&setup-alg=B2+U2+F+U2+D2&alg=R%27+F+R+F%27">
+      img src=""
+    </a>
+  </div>
+
+### left to right
+
+- rotate counterclockwise
+  <div class="img-wrapper">
+    <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&stickering=F2L&setup-alg=B2+U2+F+U+D2&alg=R+U%27+R%27">
+      img src=""
+    </a>
+  </div>
+- rotate clockwise
+  <div class="img-wrapper">
+    <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&stickering=F2L&setup-alg=B2+U2+F+U+D2&alg=F+R%27+F%27+R">
+      img src=""
     </a>
   </div>
 
