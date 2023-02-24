@@ -36,6 +36,10 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215299975-4da81d75-41ec-4d58-87aa-463d53aec64b.png">
 </a>
 
+### [Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
+
+### [Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+
 
 
 ## [3x3x3 / method](/cube/method/NxNxN/original/3x3x3#method)
