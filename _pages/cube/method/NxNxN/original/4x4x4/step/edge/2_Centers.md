@@ -20,8 +20,8 @@ hidden: false
 
 ## pair
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2&alg=U2+2L+F%27">
-  <img src="https://user-images.githubusercontent.com/92285528/221236832-f70533b5-bdd3-462b-84a1-315f920cb5c2.png">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2&alg=F2+2R%27">
+  <img src="https://user-images.githubusercontent.com/92285528/221238706-72295b34-4fe7-42b5-8201-9eb42adc4ac4.png">
 </a>
 
 
