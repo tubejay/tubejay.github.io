@@ -60,6 +60,10 @@ hidden: false
 
 - [reduction](https://youtu.be/jqSLBR38hUA)
 
+### 해피 큐빙
+
+- [reduction](https://youtu.be/peOCNSIogGg)
+
 ### 굿맨
 
 - [reduction](https://youtu.be/rNE9o1YTh0g)
