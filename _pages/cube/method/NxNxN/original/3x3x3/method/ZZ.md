@@ -64,7 +64,7 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/216024030-11bb872b-081a-4ed9-ad7d-fde0e5301785.png">
 </a>
 
-- method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
+- method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec) or [CFECCE](/cube/method/NxNxN/original/3x3x3/cfecce)
 - skip : [2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
 
 
