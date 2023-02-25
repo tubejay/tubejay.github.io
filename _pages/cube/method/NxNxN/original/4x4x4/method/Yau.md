@@ -101,6 +101,10 @@ hidden: false
 
 - [Yau](https://youtu.be/jcEelDhL7KU)
 
+### 해피 큐빙
+
+- [Yau](https://youtu.be/ruqzctlZfxM)
+
 ### 굿맨
 
 - [Yau](https://youtu.be/0slUBFL3F-g)
