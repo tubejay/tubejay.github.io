@@ -23,6 +23,8 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27">
   <img src="https://user-images.githubusercontent.com/92285528/216597225-c9740cda-6dd2-4848-99cf-ca6ea8250b29.png">
 </a>
+
+- [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
   
 
 
@@ -32,6 +34,8 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/216597426-d7462bb7-4dcb-40c8-8591-77f1a949cbbb.png">
 </a>
 
+- [Edge / 4 Centers](/cube/method/NxNxN/original/4x4x4/edge/4_centers)
+
 
 
 ## 2 centers
@@ -39,6 +43,12 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross">
   <img src="https://user-images.githubusercontent.com/92285528/215302124-11889ddc-6cc8-4fef-8eca-3012f42ba13f.png">
 </a>
+
+- hide cross edges : F L
+- centers
+  - [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+  - [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+- show cross edges : L' F'
 
 
 
