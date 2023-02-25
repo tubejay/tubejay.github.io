@@ -24,6 +24,8 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215302294-43213174-9985-4d57-807b-c072e55a51cd.png">
 </a>
 
+- [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+
 
 
 ## 1 block
@@ -40,6 +42,9 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215304125-e57739dd-9cd5-4243-89fd-f3c18041ac48.png">
 </a>
 
+- [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+- [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+
 
 
 ## 9 edges
@@ -47,6 +52,9 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=U+B+U+B+U2+B2+U+B+F%27+L+F+F+R+F%27+B+U+B+U2">
   <img src="https://user-images.githubusercontent.com/92285528/215304214-67971ab6-bfbb-4621-91d6-2a2029d050de.png">
 </a>
+
+- [Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
+- [Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
 
 
 
