@@ -28,6 +28,6 @@ hidden: false
 
 ## corner in center
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=5x5x5&stickering=centers-only&setup-alg=2R%27+F%27+2L+F+2R+F%27+2L%27+F+U2&alg=2R+U+2R%27+U+2R+U2%27+2R%27">
+<a href="https://alpha.twizzle.net/edit/?puzzle=5x5x5&stickering=centers-only&setup-alg=2R%27+F%27+2L+F+2R+F%27+2L%27+F+U2&alg=Rw+U+Rw%27+U+Rw+U2%27+Rw%27">
   <img src="https://user-images.githubusercontent.com/92285528/221396318-1b2f292e-8326-44df-87ca-7ebe2ef664b6.png">
 </a>
