@@ -24,6 +24,9 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/216602505-b855ad57-6bd6-42ad-b03e-f67db16adc7c.png">
 </a>
 
+- [6x6x6 / Center / Case](/cube/method/NxNxN/original/6x6x6/center/case)
+- [4x4x4 / Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+
 
 
 ## edge
@@ -32,7 +35,10 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/216602796-b3be71f2-d7b4-4104-ba82-6f3e46144610.png">
 </a>
 
-### edge parity
+- [4x4x4 / Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
+- [5x5x5 / Edge / Freeslice](/cube/method/NxNxN/original/5x5x5/edge/freeslice)
+
+### [6x6x6 / Edge / Parity](/cube/method/NxNxN/original/6x6x6/edge/parity)
 
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 4Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw )
 
@@ -41,11 +47,11 @@ hidden: false
   </a>
 
 
-## [3x3x3](/cube/method/NxNxN/original/3x3x3#method)
+## [3x3x3 / method](/cube/method/NxNxN/original/3x3x3#method)
 
 
 
-## parity
+## [6x6x6 / parity](/cube/method/NxNxN/original/6x6x6/parity)
 
 ### OLL parity
 
