@@ -34,7 +34,7 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/216597814-bd9529ed-3642-48e1-befb-9a332f00a8f2.png">
 </a>
 
-- [4x4x4 / Edge / 2 Centers](/cube/method/NxNxN/original/4x4x4/edge_2_centers)
+- [4x4x4 / Edge / 2 Centers](/cube/method/NxNxN/original/4x4x4/edge/2_centers)
 
 
 
