@@ -30,7 +30,7 @@ hidden: false
 
 ## PLL parity
 
-- [( 2-3R2 U2 ) ( 2-3R2 3Uw2 ) x 2](https://alpha.twizzle.net/edit/?puzzle=6x6x6&stickering=PLL&setup-anchor=end&alg=2-3R2+U2%27+%282-3R2+3Uw2%27%292)
+- ( 2-3R2 U2 ) ( 2-3R2 3Uw2 ) x 2
 
   <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&stickering=PLL&setup-anchor=end&alg=2-3R2+U2%27+%282-3R2+3Uw2%27%292">
     <img src="https://user-images.githubusercontent.com/92285528/216603880-d69b80b6-12b0-4013-9b52-7bbb6924a81e.png">
