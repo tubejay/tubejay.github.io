@@ -39,3 +39,7 @@ hidden: false
 ### Speedsolving Wiki
 
 - [3-2-3 Edge Paring](https://www.speedsolving.com/wiki/index.php/Edge_pairing#3-2-3_edge_pairing)
+
+### 해피 큐빙
+
+- [3-2-3 Edge Paring](https://youtu.be/Ak1ER1X7bNg)
