@@ -21,7 +21,7 @@ hidden: false
 ## set 3 pairs
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=2U+R+U+R%27+y%27+R+U+R%27+z2+L%27+U+L+y2+F%27+U+F+2U+F%27+U+F+F+U%27+F%27+2U+R+U%27+R%27+L%27+U+L+z2+y+R+U%27+R%27+y+R+U2+R%27+L%27+U+L+U%27+F+R%27+F%27+R+R+U2+R%27+L%27+U2+L+u2&stickering=F2L&alg=L%27+U+L%0AR%27+F+R+F%27%0Ay%0AF+D%27+F%27%0Ay%0AD+F%27+R+F+R%27%0Au%27+y+y">
-  <img src="">
+  img src=""
 </a>
 
 
