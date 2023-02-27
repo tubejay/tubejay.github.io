@@ -67,6 +67,7 @@ hidden: false
 
 - [Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
 - [Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+- [Edge / 3-2 Pairing](/cube/method/NxNxN/original/4x4x4/edge/3-2_pairing)
 
 
 
