@@ -67,6 +67,7 @@ hidden: false
 
 - [4x4x4 / Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
 - [5x5x5 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+- [5x5x5 / Edge / 3-2 Pairing](/cube/method/NxNxN/original/5x5x5/edge/3-2_pairing)
 
 ### edge parity : [5x5x5 / Reduction / edge parity](/cube/method/NxNxN/original/5x5x5/reduction#edge-parity)
 
