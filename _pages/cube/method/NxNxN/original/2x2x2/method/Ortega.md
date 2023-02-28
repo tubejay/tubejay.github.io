@@ -39,16 +39,11 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### 아이엠준
-
-- [Ortega](https://youtu.be/BNmOS69maw4)
-
-### 해피 큐빙
-
-- [Ortega](https://youtu.be/3d1IKL6HMUs)
-
-### 굿맨
-
-- [Ortega](https://youtu.be/zcihyvuCvMQ)
+- 아이엠준
+  - [Ortega](https://youtu.be/BNmOS69maw4)
+- 해피 큐빙
+  - [Ortega](https://youtu.be/3d1IKL6HMUs)
+- 굿맨
+  - [Ortega](https://youtu.be/zcihyvuCvMQ)
