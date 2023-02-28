@@ -47,14 +47,10 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### [3x3x3 / 2-Look PLL / CPLL](/cube/method/NxNxN/original/3x3x3/2_look_pll/cpll)
-
-### Speedsolving Wiki
-
-- [PLL](https://www.speedsolving.com/wiki/index.php/PLL_(2x2x2))
-
-### vincent
-
-- [PLL](https://m.blog.naver.com/vincentcube/60134585117)
+- [3x3x3 / 2-Look PLL / CPLL](/cube/method/NxNxN/original/3x3x3/2_look_pll/cpll)
+- Speedsolving Wiki
+  - [PLL](https://www.speedsolving.com/wiki/index.php/PLL_(2x2x2))
+- vincent
+  - [PLL](https://m.blog.naver.com/vincentcube/60134585117)
