@@ -23,6 +23,12 @@ hidden: false
 
 ## [2-Look LLEF : Last Layer Edges First](/cube/method/NxNxN/original/3x3x3/2_look_llef) {#llef}
 
+- EOLL
+- EPLL
+
 
 
 ## [2-Look L4C : Last 4 Corners](/cube/method/NxNxN/original/3x3x3/2_look_l4c) {#l4c}
+
+- OCLL-EPP
+- CPLL
