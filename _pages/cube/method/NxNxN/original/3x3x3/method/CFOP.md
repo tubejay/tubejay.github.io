@@ -24,10 +24,19 @@ hidden: false
 ## OLL : Orientation of the Last Layer {#oll}
 
 - [2-Look OLL](/cube/method/NxNxN/original/3x3x3/2_look_oll)
+  - EOLL
+  - OCLL
 
 
 
 ## PLL : Permutation of the Last Layer {#pll}
 
 - [2-Look PLL](/cube/method/NxNxN/original/3x3x3/2_look_pll)
+  - CPLL
+  - EPLL
 - [Full PLL](/cube/method/NxNxN/original/3x3x3/full_pll)
+  - Corners
+  - Edges
+  - 2 Adjacent Corners & 2 Edges
+  - 2 Opposite Corners & 2 Edges
+  - 3 Corners & 3 Edges
