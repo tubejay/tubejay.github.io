@@ -21,7 +21,7 @@ hidden: false
 
 
 
-## white not on U face
+## White Not on U Face
 
 - right : R U R'
   <div class="img-wrapper">
@@ -38,7 +38,7 @@ hidden: false
 
 
 
-## white on U face
+## White on U Face
 
 - right : ( R U’ R’ U ) ( F’ U F )
   <div class="img-wrapper">
@@ -55,6 +55,6 @@ hidden: false
 
 
 
-## reference
+## Reference
 
 - [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
