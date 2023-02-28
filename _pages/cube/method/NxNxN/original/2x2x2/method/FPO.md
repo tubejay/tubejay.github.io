@@ -33,12 +33,9 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### J Perm
-
-- [FPO](https://jperm.net/2x2)
-
-### 아이엠준
-
-- [FPO](https://youtu.be/3UtuDW2THL4)
+- J Perm
+  - [FPO](https://jperm.net/2x2)
+- 아이엠준
+  - [FPO](https://youtu.be/3UtuDW2THL4)
