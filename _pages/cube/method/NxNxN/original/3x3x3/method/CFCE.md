@@ -23,14 +23,19 @@ hidden: false
 
 ## [2-Look CLL : Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cll) {#cll}
 
+- OCLL
+- CPLL
+
 
 
 ## [2-Look ELL : Edges of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell) {#ell}
 
+- EOLL
+- EPLL
 
 
-## reference
 
-### Speedsolving Wiki
+## Reference
 
-- [CFCE](https://www.speedsolving.com/wiki/index.php/CFCE)
+- Speedsolving Wiki
+  - [CFCE](https://www.speedsolving.com/wiki/index.php/CFCE)
