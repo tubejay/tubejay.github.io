@@ -23,6 +23,8 @@ hidden: false
 
 ## Adjacent Swap
 
+<img src="https://www.speedsolving.com/wiki/images/c/c0/2X2X2Algos-T.jpg">
+
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U2%27+R%27+U%27+R+U2+L%27+U+R%27+U%27+L">
@@ -33,6 +35,8 @@ hidden: false
 
 
 ## Opposite Swap
+
+<img src="https://www.speedsolving.com/wiki/images/d/df/2X2X2Algos-Y.jpg">
 
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
   <div class="img-wrapper">
