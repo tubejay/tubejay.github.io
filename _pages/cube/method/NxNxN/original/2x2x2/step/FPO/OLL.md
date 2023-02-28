@@ -21,7 +21,7 @@ hidden: false
 
 
 
-## algorithm
+## Algorithm
 
 - orient front right corner : ( R' D' R D ) x 2
 - rotate U layer
@@ -29,7 +29,7 @@ hidden: false
 
 
 
-## example
+## Example
 
 <div class="img-wrapper">
   <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=LL&alg=%28R%27+D%27+R+D%294+U+%28R%27+D%27+R+D%294+U+%28R%27+D%27+R+D%292+U+%28R%27+D%27+R+D%292">
@@ -39,6 +39,6 @@ hidden: false
 
 
 
-## reference
+## Reference
 
 - [3x3x3 / Beginner / COLL](/cube/method/NxNxN/original/3x3x3/beginner/coll)
