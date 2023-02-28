@@ -18,6 +18,12 @@ hidden: false
 
 
 
+## 2x2 in center
+
+- [4x4x4 / Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+
+
+
 ## edge in center
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&stickering=centers-only&alg=3Rw+U+2Rw%27+U+2Rw+U2%27+3Rw%27&setup-alg=3Rw+U+2R%27+U+2R+U2%27+3Rw%27%0AU%0A2R%27+F+2L+F%27+2R+F+2L%27%0AF%0A2R+U+2L%27+U%27+2R%27+U+2L%0A2R+U%27+2L%27+U+2R%27+U%27+2L%0AF2+U+2F%27+U%27+2B+U+2F+U%27+2B%27+U">
