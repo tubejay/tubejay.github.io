@@ -21,14 +21,14 @@ hidden: false
 
 
 
-## notation
+## Notation
 
 - permute : 3 corners
 - fixed : 1 front corner
 
 
 
-## clockwise / left
+## Clockwise / Left
 
 - ( U' L' ) ( U R ) ( U' L ) ( U R' )
   <div class="img-wrapper">
@@ -39,7 +39,7 @@ hidden: false
 
 
 
-## counterclockwise / right
+## Counterclockwise / Right
 
 - ( U R ) ( U' L' ) ( U R' ) ( U' L )
   <div class="img-wrapper">
@@ -50,6 +50,6 @@ hidden: false
 
 
 
-## reference
+## Reference
 
 - [3x3x3 / Beginner / CPLL](/cube/method/NxNxN/original/3x3x3/beginner/cpll)
