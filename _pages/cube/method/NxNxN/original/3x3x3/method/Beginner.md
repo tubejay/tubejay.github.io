@@ -36,8 +36,8 @@ hidden: false
 
 ### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/epll) {#epll}
 
-- clockwise
-- counterclockwise
+- Clockwise
+- Counterclockwise
 
 
 
@@ -45,38 +45,29 @@ hidden: false
 
 ### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/cpll) {#cpll}
 
-- clockwise / left
-- counterclockwise / right
+- Clockwise / Left
+- Counterclockwise / Right
 
 ### [COLL : Corner Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/coll) {#coll}
 
 
 
-## reference
+## Reference
 
-### Ruwix
-
-- [Beginner](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/)
-  - [FL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-2-first-layer-corners/)
-  - [SL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step3-second-layer-f2l/)
-  - ELL
-    - [EPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-5-swap-yellow-edges/)
-  - CLL
-    - [CPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-6-position-yellow-corners/)
-    - [COLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/orient-yellow-corners-how-to-solve-last-layer-corner/)
-
-### J Perm
-
-- [Beginner](https://jperm.net/3x3)
-
-### CubeSkills
-
-- [Beginner](https://www.cubeskills.com/tutorials/the-beginners-method-for-solving-the-rubiks-cube)
-
-### 아이엠준
-
-- [Beginner](https://youtu.be/8vRG9hCtyiI)
-
-### 해피 큐빙
-
-- [Beginner](https://youtu.be/HgEySd_N-6w)
+- Ruwix
+  - [Beginner](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/)
+    - [FL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-2-first-layer-corners/)
+    - [SL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step3-second-layer-f2l/)
+    - ELL
+      - [EPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-5-swap-yellow-edges/)
+    - CLL
+      - [CPLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-6-position-yellow-corners/)
+      - [COLL](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/orient-yellow-corners-how-to-solve-last-layer-corner/)
+- J Perm
+  - [Beginner](https://jperm.net/3x3)
+- CubeSkills
+  - [Beginner](https://www.cubeskills.com/tutorials/the-beginners-method-for-solving-the-rubiks-cube)
+- 아이엠준
+  - [Beginner](https://youtu.be/8vRG9hCtyiI)
+- 해피 큐빙
+  - [Beginner](https://youtu.be/HgEySd_N-6w)
