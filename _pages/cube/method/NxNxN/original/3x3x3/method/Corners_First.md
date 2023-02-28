@@ -34,6 +34,8 @@ hidden: false
 ### CLL : Corners of the Last Layer {#cll}
 
 - [3x3x3 / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/2_look_cll)
+  - OCLL
+  - CPLL
 
 
 
@@ -52,23 +54,24 @@ hidden: false
 
 ### [EML : Edges of the Middle Layer](/cube/method/NxNxN/original/3x3x3/corners_first/eml) {#eml}
 
-- U layer
-- D layer
-- E layer
+- U Layer
+- D Layer
+- E Layer
 
 ### [EFL : Edges of the First Layer](/cube/method/NxNxN/original/3x3x3/corners_first/efl) {#efl}
 
-- U layer
-- D layer
+- U Layer
+- D Layer
 
 ### ELL : Edges of the Last Layer {#ell}
 
 - [3x3x3 / 2-Look ELL](/cube/method/NxNxN/original/3x3x3/2_look_ell)
+  - EOLL
+  - EPLL
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [Corners First](https://www.speedsolving.com/wiki/index.php/Corners_First)
+- Speedsolving Wiki
+  - [Corners First](https://www.speedsolving.com/wiki/index.php/Corners_First)
