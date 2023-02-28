@@ -1,5 +1,5 @@
 ---
-title: "7x7x7 / Center / Caae"
+title: "7x7x7 / Center / Case"
 layout: single
 toc: true
 permalink: /cube/method/NxNxN/original/7x7x7/center/case
