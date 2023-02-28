@@ -25,12 +25,9 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### 듀나메스
-
-- [FOP](https://youtu.be/wTMsdWKq6No)
-
-### 굿맨
-
-- [FOP](https://youtu.be/byZU8_inqSU)
+- 듀나메스
+  - [FOP](https://youtu.be/wTMsdWKq6No)
+- 굿맨
+  - [FOP](https://youtu.be/byZU8_inqSU)
