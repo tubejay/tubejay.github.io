@@ -39,6 +39,8 @@ hidden: false
 </a>
 
 - [3x3x3 / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/2_look_cll)
+  - OCLL
+  - CPLL
 
 ### [L6E : Last Six Edges](/cube/method/NxNxN/original/3x3x3/roux/l6e) {#l6e}
 
@@ -46,26 +48,23 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215527595-1e6d1306-8932-4a5b-b9bb-dc5f7c41079f.png">
 </a>
 
+- EO
+- UR/UL Edges
+- M Slice
 
 
-## reference
 
-### Ruwix
+## Reference
 
-- [Roux](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/)
-
-### Speedsolving Wiki
-
-- [Roux](https://www.speedsolving.com/wiki/index.php/Roux_method)
-  - [F2B](https://www.speedsolving.com/wiki/index.php/F2B)
-  - [L10P](https://www.speedsolving.com/wiki/index.php/L10P)
-    - [CMLL](https://www.speedsolving.com/wiki/index.php/CMLL)
-    - [L6E](https://www.speedsolving.com/wiki/index.php/LSE)
-
-### 아이엠준
-
-- [Roux](https://youtu.be/_yLfgnEx3ao)
-
-### 굿맨
-
-- [Roux](https://youtu.be/rNmTFNgFSeI)
+- Ruwix
+  - [Roux](https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/)
+- Speedsolving Wiki
+  - [Roux](https://www.speedsolving.com/wiki/index.php/Roux_method)
+    - [F2B](https://www.speedsolving.com/wiki/index.php/F2B)
+    - [L10P](https://www.speedsolving.com/wiki/index.php/L10P)
+      - [CMLL](https://www.speedsolving.com/wiki/index.php/CMLL)
+      - [L6E](https://www.speedsolving.com/wiki/index.php/LSE)
+- 아이엠준
+  - [Roux](https://youtu.be/_yLfgnEx3ao)
+- 굿맨
+  - [Roux](https://youtu.be/rNmTFNgFSeI)
