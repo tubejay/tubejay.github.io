@@ -25,9 +25,9 @@ hidden: false
 
 
 
-## 2 white : same {#same}
+## 2 White : Same {#same}
 
-### case 1
+### Case 1
 
 <div class="iframe-wrapper">
   <iframe
@@ -36,7 +36,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 2
+### Case 2
 
 <div class="iframe-wrapper">
   <iframe
@@ -45,7 +45,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 3
+### Case 3
 
 <div class="iframe-wrapper">
   <iframe
@@ -56,9 +56,9 @@ hidden: false
 
 
 
-## 2 white : adjacent {#adjacent}
+## 2 White : Adjacent {#adjacent}
 
-### case 4
+### Case 4
 
 <div class="iframe-wrapper">
   <iframe
@@ -67,7 +67,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 5
+### Case 5
 
 <div class="iframe-wrapper">
   <iframe
@@ -76,7 +76,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 6
+### Case 6
 
 <div class="iframe-wrapper">
   <iframe
@@ -87,9 +87,9 @@ hidden: false
 
 
 
-## 2 white : opposite {#opposite}
+## 2 White : Opposite {#opposite}
 
-### case 7
+### Case 7
 
 <div class="iframe-wrapper">
   <iframe
@@ -98,7 +98,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 8
+### Case 8
 
 <div class="iframe-wrapper">
   <iframe
@@ -107,7 +107,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 9
+### Case 9
 
 <div class="iframe-wrapper">
   <iframe
