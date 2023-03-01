@@ -69,7 +69,7 @@ hidden: false
 
 ## 2(Adjacent) / 0 {#e-2a-0}
 
-- ( M' U' M' ) ( U2 ) [( 3 / 1 )]{#e-3-1}
+- ( M' U' M' ) ( U2 ) [( 3 / 1 )](#e-3-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -93,7 +93,7 @@ hidden: false
 
 ## 4 / 2 {#e-4-2}
 
-- ( M' U' M' ) ( U' ) [( 1 / 1 )]{#e-1-1}
+- ( M' U' M' ) ( U' ) [( 1 / 1 )](#e-1-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -105,7 +105,7 @@ hidden: false
 
 ## 4 / 0 {#e-4-0}
 
-- ( M' U' M' ) [( 1 / 1 )]{#e-1-1}
+- ( M' U' M' ) [( 1 / 1 )](#e-1-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -117,7 +117,7 @@ hidden: false
 
 ## 2(Opposite) / 2 {#e-2o-2}
 
-- ( U' M2 ) [( 4 / 0 )]{#e-4-0}
+- ( U' M2 ) [( 4 / 0 )](#e-4-0)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
