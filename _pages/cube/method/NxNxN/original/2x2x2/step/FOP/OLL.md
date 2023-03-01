@@ -81,7 +81,7 @@ hidden: false
 
 <img src="https://www.speedsolving.com/wiki/images/6/6e/2x2H.gif">
 
-= ( F ) ( R U R' U' ) x 3 ( F' )
+- ( F ) ( R U R' U' ) x 3 ( F' )
 
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=F+%28R+U+R%27+U%27%293+F%27">
