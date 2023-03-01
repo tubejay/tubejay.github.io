@@ -25,9 +25,9 @@ hidden: false
 
 
 
-## U edge : white on U face
+## U Edge : White on U Face
 
-### case 1
+### Case 1
 
 <div class="iframe-wrapper">
   <iframe
@@ -36,7 +36,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 2
+### Case 2
 
 <div class="iframe-wrapper">
   <iframe
@@ -45,7 +45,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 3
+### Case 3
 
 <div class="iframe-wrapper">
   <iframe
@@ -56,9 +56,9 @@ hidden: false
 
 
 
-## U edge : white not on F face
+## U Edge : White Not on F Face
 
-### case 4
+### Case 4
 
 <div class="iframe-wrapper">
   <iframe
@@ -67,7 +67,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 5
+### Case 5
 
 <div class="iframe-wrapper">
   <iframe
@@ -76,7 +76,7 @@ hidden: false
   ></iframe>
 </div>
 
-### case 6
+### Case 6
 
 <div class="iframe-wrapper">
   <iframe
