@@ -25,16 +25,16 @@ hidden: false
 
 
 
-## white not on U face
+## White Not on U Face
 
-- right
+- Right
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=z'%20U%20B%20U'%20F'%20U%20B'%20U'%20F%20z&colored=F*/em%20R*/em%20FRD%20U%20UF%20UR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left
+- Left
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## white on U face
+## White on U Face
 
 <div class="iframe-wrapper">
   <iframe
