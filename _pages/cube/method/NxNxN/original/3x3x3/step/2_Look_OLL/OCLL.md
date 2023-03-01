@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## Sune
+## S / Sune
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-S">
   <img src="https://www.speedsolving.com/wiki/images/0/08/27correct.png" style="transform:rotate(180deg)">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## Anti-Sune
+## S- / Antisune
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-AS">
   <img src="https://www.speedsolving.com/wiki/images/2/25/26.png" style="transform:rotate(180deg)">
@@ -60,7 +60,7 @@ hidden: false
 
 
 
-## Headlights
+## U / Headlights
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-U">
   <img src="https://www.speedsolving.com/wiki/images/7/7a/23.png" style="transform:rotate(180deg)">
@@ -76,7 +76,7 @@ hidden: false
 
 
 
-## Pi
+## Pi / Bruno
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-Pi">
   <img src="https://www.speedsolving.com/wiki/images/7/75/22.png">
@@ -92,7 +92,7 @@ hidden: false
 
 
 
-## H
+## H / Double Sune
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-H">
   <img src="https://www.speedsolving.com/wiki/images/7/71/21.png" style="transform:rotate(90deg)">
@@ -108,7 +108,7 @@ hidden: false
 
 
 
-## T
+## T / Chameleon
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-T">
   <img src="https://www.speedsolving.com/wiki/images/2/24/24.png">
@@ -124,7 +124,7 @@ hidden: false
 
 
 
-## Bowtie
+## L / Bowtie
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-L">
   <img src="https://www.speedsolving.com/wiki/images/a/a9/25.png" style="transform:rotate(-90deg)">
