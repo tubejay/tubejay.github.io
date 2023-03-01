@@ -40,7 +40,7 @@ hidden: false
 
 
 
-## adjacent swap
+## Adjacent Swap
 
 <div class="img-wrapper">
   <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
@@ -58,7 +58,7 @@ hidden: false
 
 
 
-## opposite swap
+## Opposite Swap
 
 <div class="img-wrapper">
   <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
