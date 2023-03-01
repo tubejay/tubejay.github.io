@@ -71,6 +71,8 @@ hidden: false
 
 ### [5x5x5 / Edge / Parity](/cube/method/NxNxN/original/5x5x5/edge/parity)
 
+- 1-1-1
+
 
 
 ## [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3#method)
