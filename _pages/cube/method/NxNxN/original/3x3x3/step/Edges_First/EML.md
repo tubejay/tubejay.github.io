@@ -25,16 +25,16 @@ hidden: false
 
 
 
-## flipped
+## Flipped
 
-- right
+- Right
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left
+- Left
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,16 +44,16 @@ hidden: false
 
 
 
-## not flipped
+## Not Flipped
 
-- right
+- Right
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left
+- Left
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
