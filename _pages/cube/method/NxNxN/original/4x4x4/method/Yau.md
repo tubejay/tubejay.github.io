@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## 2 centers
+## 2 Centers
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw+z%27+x">
   <img src="https://user-images.githubusercontent.com/92285528/221233241-b953bb3b-36be-409a-a6ac-09ca0f9c891f.png">
@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## 3 cross edges
+## 3 Cross Edges
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2+U2+2L+F%27+R%27+F+2L2+F+R%27+2R%27+F2+2R2+F%27">
   <img src="https://user-images.githubusercontent.com/92285528/221233782-a00c21e3-4709-4a2d-b880-d748e2ee0fd4.png">
@@ -38,7 +38,7 @@ hidden: false
 
 
 
-## 4 centers
+## 4 Centers
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27">
   <img src="https://user-images.githubusercontent.com/92285528/215301525-215a6a32-6e02-40a6-a30b-5c59a72b4686.png">
@@ -49,7 +49,7 @@ hidden: false
 
 
 
-## 1 cross edge
+## 1 Cross Edge
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross">
   <img src="https://user-images.githubusercontent.com/92285528/215301574-79a91221-8086-477f-a5bf-0fe2ccda014e.png">
@@ -59,7 +59,7 @@ hidden: false
 
 
 
-## 8 edges
+## 8 Edges
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R">
   <img src="https://user-images.githubusercontent.com/92285528/215299975-4da81d75-41ec-4d58-87aa-463d53aec64b.png">
@@ -71,41 +71,31 @@ hidden: false
 
 
 
-## [3x3x3 / method](/cube/method/NxNxN/original/3x3x3#method)
+## [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3#method)
 
-- method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFCE](/cube/method/NxNxN/original/3x3x3/cfce) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec) or [CFECCE](/cube/method/NxNxN/original/3x3x3/cfecce)
-- skip : Cross
+- Method : [CFOP](/cube/method/NxNxN/original/3x3x3/cfop) or [CFCE](/cube/method/NxNxN/original/3x3x3/cfce) or [CFEC](/cube/method/NxNxN/original/3x3x3/cfec) or [CFECCE](/cube/method/NxNxN/original/3x3x3/cfecce)
+- Skip : Cross
 
-## [4x4x4 / parity](/cube/method/NxNxN/original/4x4x4/parity)
+## [4x4x4 / Parity](/cube/method/NxNxN/original/4x4x4/parity)
+
+- OLL Parity
+- PLL Parity
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [Yau](https://www.speedsolving.com/wiki/index.php/Yau_method)
-
-### CubeSkills
-
-- [Yau](https://www.cubeskills.com/tutorials/intermediate-tips-and-yau-method)
-
-### J Perm
-
-- [Yau](https://jperm.net/4x4)
-
-### vincent
-
-- [Yau](https://m.blog.naver.com/vincentcube?categoryNo=58)
-
-### 아이엠준
-
-- [Yau](https://youtu.be/jcEelDhL7KU)
-
-### 해피 큐빙
-
-- [Yau](https://youtu.be/ruqzctlZfxM)
-
-### 굿맨
-
-- [Yau](https://youtu.be/0slUBFL3F-g)
+- Speedsolving Wiki
+  - [Yau](https://www.speedsolving.com/wiki/index.php/Yau_method)
+- CubeSkills
+  - [Yau](https://www.cubeskills.com/tutorials/intermediate-tips-and-yau-method)
+- J Perm
+  - [Yau](https://jperm.net/4x4)
+- vincent
+  - [Yau](https://m.blog.naver.com/vincentcube?categoryNo=58)
+- 아이엠준
+  - [Yau](https://youtu.be/jcEelDhL7KU)
+- 해피 큐빙
+  - [Yau](https://youtu.be/ruqzctlZfxM)
+- 굿맨
+  - [Yau](https://youtu.be/0slUBFL3F-g)
