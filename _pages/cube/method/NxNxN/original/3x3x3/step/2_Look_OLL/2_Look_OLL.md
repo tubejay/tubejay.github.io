@@ -23,13 +23,13 @@ hidden: false
 
 ## [OCLL : Orient Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_oll/ocll) {#ocll}
 
-- Sune
-- Anti-Sune
-- Headlights
-- Pi
-- H
-- T
-- Bowtie
+- S / Sune
+- S- / Antisune
+- U / Headlights
+- Pi / Bruno
+- H / Double Sune
+- T / Chameleon
+- L / Bowtie
 
 
 
