@@ -31,14 +31,10 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### 듀나메스
-
-- [LBL](https://youtu.be/4L8V0ImnKkM)
-
-### 굿맨
-
-- [method](https://youtu.be/D_UYYz_OwOM)
-- [center commutator](https://youtu.be/HsUH_K_921w)
-- [solving](https://youtu.be/83hweP2SNwg)
+- 듀나메스
+  - [LBL](https://youtu.be/4L8V0ImnKkM)
+- 굿맨
+  - [Method](https://youtu.be/D_UYYz_OwOM)
+  - [Solving](https://youtu.be/83hweP2SNwg)
