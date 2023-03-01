@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## 4 centers
+## 4 Centers
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27">
   <img src="https://user-images.githubusercontent.com/92285528/216597225-c9740cda-6dd2-4848-99cf-ca6ea8250b29.png">
@@ -28,7 +28,7 @@ hidden: false
   
 
 
-## 4 cross edges
+## 4 Cross Edges
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27">
   <img src="https://user-images.githubusercontent.com/92285528/216597426-d7462bb7-4dcb-40c8-8591-77f1a949cbbb.png">
@@ -38,32 +38,29 @@ hidden: false
 
 
 
-## 2 centers
+## 2 Centers
 
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross">
   <img src="https://user-images.githubusercontent.com/92285528/215302124-11889ddc-6cc8-4fef-8eca-3012f42ba13f.png">
 </a>
 
-- hide cross edges : F L
-- centers
+- Hide Cross Edges : F L
+- Centers
   - [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
   - [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
-- show cross edges : L' F'
+- Show Cross Edges : L' F'
 
 
 
 ## [4x4x4 / Yau](/cube/method/NxNxN/original/4x4x4/yau)
 
-- start : [8 edges](/cube/method/NxNxN/original/4x4x4/yau#8-edges)
+- Start : [8 Edges](/cube/method/NxNxN/original/4x4x4/yau#8-edges)
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [Hoya](https://www.speedsolving.com/wiki/index.php/Hoya_method)
-
-### 굿맨
-
-- [Hoya](https://youtu.be/k9dNU6h8g5o)
+- Speedsolving Wiki
+  - [Hoya](https://www.speedsolving.com/wiki/index.php/Hoya_method)
+- 굿맨
+  - [Hoya](https://youtu.be/k9dNU6h8g5o)
