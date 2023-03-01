@@ -15,13 +15,13 @@ hidden: false
 
 ## [OCLL : Orient Corners of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_2gll/ocll) {#ocll}
 
-- Sune
-- Anti-Sune
-- Headlights
-- Pi
-- H
-- T
-- Bowtie
+- S / Sune
+- S- / Antisune
+- U / Headlights
+- Pi / Bruno
+- H / Double Sune
+- T / Chameleon
+- L / Bowtie
 
 
 
@@ -35,12 +35,9 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [2GLL](https://www.speedsolving.com/wiki/index.php/2GLL)
-
-### Mike
-
-- [2-Look 2GLL](https://logiqx.github.io/cubing-algs/html/2l2gll.html)
+- Speedsolving Wiki
+  - [2GLL](https://www.speedsolving.com/wiki/index.php/2GLL)
+- Mike
+  - [2-Look 2GLL](https://logiqx.github.io/cubing-algs/html/2l2gll.html)
