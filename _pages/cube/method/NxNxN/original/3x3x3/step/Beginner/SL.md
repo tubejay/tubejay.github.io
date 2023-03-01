@@ -25,7 +25,7 @@ hidden: false
 
 
 
-## left to right
+## Left to Right
 
 - ( U R U' R' ) ( F R' F' R )
   <div class="iframe-wrapper">
@@ -37,7 +37,7 @@ hidden: false
 
 
 
-## right to left
+## Right to Left
 
 - ( U' F' U F ) ( R' F R F' )
   <div class="iframe-wrapper">
