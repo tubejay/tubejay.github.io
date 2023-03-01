@@ -24,17 +24,14 @@ hidden: false
 
 ## [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_llef/epll) {#epll}
 
-- adjacent swap
-- opposite swap
+- Adjacent Swap
+- Opposite Swap
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [LLEF](https://www.speedsolving.com/wiki/index.php/LLEF)
-
-### Mike
-
-- [2-Look LLEF](https://logiqx.github.io/cubing-algs/html/2lllef.html)
+- Speedsolving Wiki
+  - [LLEF](https://www.speedsolving.com/wiki/index.php/LLEF)
+- Mike
+  - [2-Look LLEF](https://logiqx.github.io/cubing-algs/html/2lllef.html)
