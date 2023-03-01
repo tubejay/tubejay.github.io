@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## OLL parity
+## OLL Parity
 
 - ( 3Rw U2 ) ( x ) ( 3Rw U2 ) x 2 ( 3Rw' U2 ) ( 3Lw U2 ) ( 3Rw' U2 ) ( 3Rw U2 ) ( 3Rw' U2 ) ( 3Rw' )
 
@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## PLL parity
+## PLL Parity
 
 - ( 2-3R2 U2 ) ( 2-3R2 3Uw2 ) x 2
 
