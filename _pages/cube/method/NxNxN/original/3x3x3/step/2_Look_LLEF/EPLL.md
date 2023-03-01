@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## adjacent swap
+## Adjacent Swap
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lllef.html#case-Adj">
   <img src="https://www.speedsolving.com/wiki/images/f/fc/LLE_OA.jpg" style="transform:rotate(-90deg)">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## opposite swap
+## Opposite Swap
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lllef.html#case-Opp">
   <img src="https://www.speedsolving.com/wiki/images/3/3a/LLE_OO.jpg">
