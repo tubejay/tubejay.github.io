@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## OLL parity
+## OLL Parity
 
 - ( Rw U2 ) ( x ) ( Rw U2 ) x 2 ( Rw' U2 ) ( Lw U2 ) ( Rw' U2 ) ( Rw U2 ) ( Rw' U2 ) ( Rw' )
 
@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## PLL parity
+## PLL Parity
 
 - ( 2R2 U2 ) ( 2R2 Uw2 ) x 2
 
@@ -38,17 +38,12 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### Speed Cube DB
-
-- [OLL parity](https://speedcubedb.com/a/4x4/OLLParity)
-- [PLL parity](https://speedcubedb.com/a/4x4/PLLParity)
-
-### Speedsolving Wiki
-
-- [parity](https://www.speedsolving.com/wiki/index.php/4x4x4_parity_algorithms)
-
-### vincent
-
-- [parity](https://m.blog.naver.com/vincentcube/60149158694)
+- Speed Cube DB
+  - [OLL Parity](https://speedcubedb.com/a/4x4/OLLParity)
+  - [PLL Parity](https://speedcubedb.com/a/4x4/PLLParity)
+- Speedsolving Wiki
+  - [Parity](https://www.speedsolving.com/wiki/index.php/4x4x4_parity_algorithms)
+- vincent
+  - [Parity](https://m.blog.naver.com/vincentcube/60149158694)
