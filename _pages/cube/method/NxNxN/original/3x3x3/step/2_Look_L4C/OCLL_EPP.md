@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## S / Sune
+## S / Sune {#sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-S">
   <img src="https://www.speedsolving.com/wiki/images/2/20/OCLL-EPP_S.jpg" style="transform:rotate(180deg)">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## S- / Antisune
+## S- / Antisune {#antisune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-AS">
   <img src="https://www.speedsolving.com/wiki/images/b/b8/OCLL-EPP_aS.jpg" style="transform:rotate(90deg)">
@@ -60,7 +60,7 @@ hidden: false
 
 
 
-## U / Headlights
+## U / Headlights {#headlights}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-U">
   <img src="https://www.speedsolving.com/wiki/images/f/f3/OCLL-EPP_U.jpg" style="transform:rotate(180deg)">
@@ -76,13 +76,13 @@ hidden: false
 
 
 
-## Pi / Bruno
+## Pi / Bruno {#bruno}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-Pi">
   <img src="https://www.speedsolving.com/wiki/images/0/08/OCLL-EPP_pi.jpg">
 </a>
 
-- ( Anti-Sune ) ( U2' ) ( Anti-Sune )
+- [( S- / Antisune )](#antisune) ( U2' ) [( S- / Antisune )](#antisune)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -92,7 +92,7 @@ hidden: false
 
 
 
-## H / Double Sune
+## H / Double Sune {#double-sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-H">
   <img src="https://www.speedsolving.com/wiki/images/9/96/OCLL-EPP_H.jpg">
@@ -108,7 +108,7 @@ hidden: false
 
 
 
-## T / Chameleon
+## T / Chameleon {#chameleon}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-T">
   <img src="https://www.speedsolving.com/wiki/images/c/c3/OCLL-EPP_T.jpg" style="transform:rotate(-90deg)">
@@ -124,7 +124,7 @@ hidden: false
 
 
 
-## L / Bowtie
+## L / Bowtie {#bowtie}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2ll4c.html#case-L">
   <img src="https://www.speedsolving.com/wiki/images/6/6b/OCLL-EPP_L.jpg" style="transform:rotate(180deg)">
