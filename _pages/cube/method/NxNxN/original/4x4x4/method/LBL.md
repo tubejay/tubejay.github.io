@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## FL : First Layer
+## FL : First Layer {#fl}
 
 ### Center
 
@@ -37,7 +37,7 @@ hidden: false
 - [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
 
 
-## ML : Middle Layers
+## ML : Middle Layers {#ml}
 
 ### Center Commutator
 
@@ -50,11 +50,15 @@ hidden: false
 
 
 
-## LL : Last Layer
+## LL : Last Layer {#ll}
 
 ### Edge Commutator
 
 - [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
+
+### OLL/PLL
+
+### Parity
 
 
 
