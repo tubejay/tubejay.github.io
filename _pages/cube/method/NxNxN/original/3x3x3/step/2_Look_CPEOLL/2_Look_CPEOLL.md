@@ -24,17 +24,14 @@ hidden: false
 
 ## [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_cpeoll/cpll) {#cpll}
 
-- adjacent swap
-- opposite swap
+- Adjacent Swap
+- Opposite Swap
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [CPEOLL](https://www.speedsolving.com/wiki/index.php/CPEOLL)
-
-### Mike
-
-- [2-Look CPEOLL](https://logiqx.github.io/cubing-algs/html/2lcpeoll.html)
+- Speedsolving Wiki
+  - [CPEOLL](https://www.speedsolving.com/wiki/index.php/CPEOLL)
+- Mike
+  - [2-Look CPEOLL](https://logiqx.github.io/cubing-algs/html/2lcpeoll.html)
