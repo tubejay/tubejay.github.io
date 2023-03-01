@@ -50,7 +50,7 @@ hidden: false
   <img src="https://www.speedsolving.com/wiki/images/2/25/26.png" style="transform:rotate(180deg)">
 </a>
 
-- Anti-Sune : ( R' U' ) ( R U' ) ( R' U2 ) ( R )
+- ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
