@@ -59,46 +59,27 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### Ruwix
-
-- [Full PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
-
-### Speedsolving Wiki
-
-- [Full PLL](https://www.speedsolving.com/wiki/index.php/PLL)
-
-### Speed Cube DB
-
-- [Full PLL](https://speedcubedb.com/a/3x3/PLL)
-
-### Mike
-
-- [Full PLL](https://logiqx.github.io/cubing-algs/html/pll.html#pieces)
-
-### J Perm
-
-- [Full PLL](https://jperm.net/algs/pll)
-
-### AlgDb
-
-- [Full PLL](http://algdb.net/puzzle/333/pll)
-
-### CubeSkills
-
-- [Full PLL](https://www.cubeskills.com/tutorials/2-look-last-layer/pll-algorithms)
-
-### 아이엠준
-
-- [Full PLL](https://youtube.com/playlist?list=PLUVtQMRHqpMU-3l5koWFWIJ19EPAUE1jO)
-
-### 해피 큐빙
-
-- [Full PLL [2020]](https://youtu.be/lblTeBFjaIY)
-- [Full PLL [2021]](https://youtu.be/bN25M3DC0yY)
-
-### 굿맨
-
-- [Full PLL [1/2]](https://youtu.be/UGbcWxmLs1o)
-- [Full PLL [2/2]](https://youtu.be/9KGmIksysOs)
+- Ruwix
+  - [Full PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
+- Speedsolving Wiki
+  - [Full PLL](https://www.speedsolving.com/wiki/index.php/PLL)
+- Speed Cube DB
+  - [Full PLL](https://speedcubedb.com/a/3x3/PLL)
+- Mike
+  - [Full PLL](https://logiqx.github.io/cubing-algs/html/pll.html#pieces)
+- J Perm
+  - [Full PLL](https://jperm.net/algs/pll)
+- AlgDb
+  - [Full PLL](http://algdb.net/puzzle/333/pll)
+- CubeSkills
+  - [Full PLL](https://www.cubeskills.com/tutorials/2-look-last-layer/pll-algorithms)
+- 아이엠준
+  - [Full PLL](https://youtube.com/playlist?list=PLUVtQMRHqpMU-3l5koWFWIJ19EPAUE1jO)
+- 해피 큐빙
+  - [Full PLL [2020]](https://youtu.be/lblTeBFjaIY)
+  - [Full PLL [2021]](https://youtu.be/bN25M3DC0yY)
+- 굿맨
+  - [Full PLL [1/2]](https://youtu.be/UGbcWxmLs1o)
+  - [Full PLL [2/2]](https://youtu.be/9KGmIksysOs)
