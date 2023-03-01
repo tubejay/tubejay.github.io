@@ -59,8 +59,8 @@ hidden: false
   - [Intermediate](https://www.cubeskills.com/tutorials/intermediate-tips-and-yau-method)
   - [Advanced](https://www.cubeskills.com/tutorials/advanced-4x4-tips-and-techniques)
 - 아이엠준
-  - [reduction](https://youtu.be/jqSLBR38hUA)
+  - [Reduction](https://youtu.be/jqSLBR38hUA)
 - 해피 큐빙
-  - [reduction](https://youtu.be/peOCNSIogGg)
+  - [Reduction](https://youtu.be/peOCNSIogGg)
 - 굿맨
-  - [reduction](https://youtu.be/rNE9o1YTh0g)
+  - [Reduction](https://youtu.be/rNE9o1YTh0g)
