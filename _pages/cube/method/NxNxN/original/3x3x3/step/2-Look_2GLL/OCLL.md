@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## Sune
+## S / Sune {#sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-S">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(180deg)">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## Anti-Sune
+## S- / Antisune {#antisune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-AS">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R&view=plan&stage=coll">
@@ -60,7 +60,7 @@ hidden: false
 
 
 
-## Headlights
+## U / Headlights {#headlights}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-U">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R2%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(-90deg)">
@@ -76,7 +76,7 @@ hidden: false
 
 
 
-## Pi
+## Pi / Bruno {#bruno}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-Pi">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R2%27%20U%27%20R2%20U%27%20R2%27%20U2%27%20R&view=plan&stage=coll">
@@ -92,7 +92,7 @@ hidden: false
 
 
 
-## H
+## H / Double Sune {#double-sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-H">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U%27%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(90deg)">
@@ -108,7 +108,7 @@ hidden: false
 
 
 
-## T
+## T / Chameleon {#chameleon}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-T">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R%27%20U%27%20R%20U%27%20R2%20U2%27%20R%20U%20R%27%20U%20R&view=plan&stage=coll" style="transform:rotate(-90deg)">
@@ -124,7 +124,7 @@ hidden: false
 
 
 
-## Bowtie
+## L / Bowtie {#bowtie}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-L">
   <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%27%20R%27%20L%27%20U2%20L%20U%20L%27%20U%20L%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(180deg)">
@@ -140,12 +140,9 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [COLL](https://www.speedsolving.com/wiki/index.php/COLL)
-
-### AlgDb
-
-- [COLL](http://algdb.net/puzzle/333/coll)
+- Speedsolving Wiki
+  - [COLL](https://www.speedsolving.com/wiki/index.php/COLL)
+- AlgDb
+  - [COLL](http://algdb.net/puzzle/333/coll)
