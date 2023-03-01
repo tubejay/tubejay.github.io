@@ -19,22 +19,20 @@ hidden: false
 
 ## ML : Middle Layers {#ml}
 
-### center commutator : [4x4x4 / center / commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+### Center Commutator : [4x4x4 / Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
 
-### edge : [4x4x4 / edge / insert](/cube/method/NxNxN/original/4x4x4/edge/insert)
+### Edge : [4x4x4 / Edge / Insert](/cube/method/NxNxN/original/4x4x4/edge/insert)
 
 
 
 ## LL : Last Layer {#ll}
 
-### edge commutator : [4x4x4 / edge / commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
+### Edge Commutator : [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
 
 
 
-## reference
+## Reference
 
-### 굿맨
-
-- [method](https://youtu.be/D_UYYz_OwOM)
-- [center commutator](https://youtu.be/HsUH_K_921w)
-- [solving](https://youtu.be/dY3f03wGivc)
+- 굿맨
+  - [Method](https://youtu.be/D_UYYz_OwOM)
+  - [Solving](https://youtu.be/dY3f03wGivc)
