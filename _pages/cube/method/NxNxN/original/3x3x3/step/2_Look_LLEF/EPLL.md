@@ -50,7 +50,7 @@ hidden: false
   <img src="https://www.speedsolving.com/wiki/images/3/3a/LLE_OO.jpg">
 </a>
 
-- ( adjacent swap ) ( U' ) ( adjacent swap )
+- [( Adjacent Swap )](#adjacent-swap) -> ( U' ) -> [( Adjacent Swap )](#adjacent-swap)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
