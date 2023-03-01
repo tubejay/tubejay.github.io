@@ -20,19 +20,41 @@ hidden: false
 
 ## FL : First Layer
 
+### Center
+
+- [4x4x4 / Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+
+### Edge
+
+- [4z4z4 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+
+### Cross
+
+- [3x3x3 / Cross / Advanced](/cube/method/NxNxN/original/3x3x3/cross/advanced)
+
+### Corner
+
+- [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
+
 
 ## ML : Middle Layers
 
-### [Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+### Center Commutator
 
-### [Edge / Insert](/cube/method/NxNxN/original/4x4x4/edge/insert)
+- [4x4x4 / Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
+
+### Edge Insert
+
+- [4x4x4 / Edge / Insert](/cube/method/NxNxN/original/4x4x4/edge/insert)
 
 
 
 
 ## LL : Last Layer
 
-### [Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
+### Edge Commutator
+
+- [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
 
 
 
