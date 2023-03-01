@@ -23,9 +23,12 @@ hidden: false
 
 ## Algorithm
 
-- orient front right corner : ( R' D' R D ) x 2
-- rotate U layer
-- repeat for each corner
+- Repeat for each corner
+  - Orient
+    - Front Right
+    - ( R' D' R D ) x 2
+  - Rotate
+    - U layer
 
 
 
