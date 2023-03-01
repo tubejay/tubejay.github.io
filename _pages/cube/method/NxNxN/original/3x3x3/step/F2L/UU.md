@@ -25,18 +25,18 @@ hidden: false
 
 
 
-## edge move
+## Edge Move
 
-### case 1
+### Case 1
 
-- right : ( R U R' ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Right : ( R U R' ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F' U' F ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Left : ( F' U' F ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,16 +44,16 @@ hidden: false
     ></iframe>
   </div>
 
-### case 2
+### Case 2
 
-- right : ( R U' R' ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Right : ( R U' R' ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F' U F ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Left : ( F' U F ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -61,16 +61,16 @@ hidden: false
     ></iframe>
   </div>
 
-### case 3
+### Case 3
 
-- right : ( R U2 R' ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Right : ( R U2 R' ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U%20%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F' U2 F ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Left : ( F' U2 F ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -80,18 +80,18 @@ hidden: false
 
 
 
-## corner flip
+## Corner Flip
 
-### case 4
+### Case 4
 
-- right : ( R U' R' ) ( U2 ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Right : ( R U' R' ) ( U2 ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F' U F ) ( U2 ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Left : ( F' U F ) ( U2 ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -99,16 +99,16 @@ hidden: false
     ></iframe>
   </div>
 
-### case 5
+### Case 5
 
-- right : ( R U2 R' ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Right : ( R U2 R' ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F' U2 F ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Left : ( F' U2 F ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -116,16 +116,16 @@ hidden: false
     ></iframe>
   </div>
 
-### case 6
+### Case 6
 
-- right : ( R' F R F' ) ( U' ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Right : ( R' F R F' ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F R' F' R ) ( U ) [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
+- Left : ( F R' F' R ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
