@@ -15,9 +15,9 @@ hidden: false
 
 ## [EOLL : Edge Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/2_look_ell/eoll) {#eoll}
 
-- adjacent 2-flip
-- opposite 2-flip
-- 4-flip
+- Adjacent 2-Flip
+- Opposite 2-Flip
+- 4-Flip
 
 
 
@@ -31,12 +31,9 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### Speedsolving Wiki
-
-- [ELL](https://www.speedsolving.com/wiki/index.php/ELL)
-
-### Mike
-
-- [2-Look ELL](https://logiqx.github.io/cubing-algs/html/2lell.html)
+- Speedsolving Wiki
+  - [ELL](https://www.speedsolving.com/wiki/index.php/ELL)
+- Mike
+  - [2-Look ELL](https://logiqx.github.io/cubing-algs/html/2lell.html)
