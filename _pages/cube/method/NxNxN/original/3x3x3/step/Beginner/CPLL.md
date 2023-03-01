@@ -25,14 +25,14 @@ hidden: false
 
 
 
-## notation
+## Notation
 
-- permute : 3 corners
-- fixed : 1 front corner
+- Permute : 3 Corners
+- Fixed : 1 Front Corner
 
 
 
-## clockwise / left
+## Clockwise / Left
 
 - ( U’ L’ ) ( U R ) ( U’ L ) ( U R’ )
   <div class="iframe-wrapper">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## counterclockwise / right
+## Counterclockwise / Right
 
 - ( U R ) ( U’ L’ ) ( U R’ ) ( U’ L )
   <div class="iframe-wrapper">
