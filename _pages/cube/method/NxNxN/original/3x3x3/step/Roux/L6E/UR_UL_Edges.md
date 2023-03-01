@@ -27,7 +27,7 @@ hidden: false
 
 ## 1 Edge on U Layer
 
-- ( U2 M' ) x 2 ( U layer ) ( M2 ) ( U layer )
+- ( U2 M' ) x 2 ( U Layer ) ( M2 ) ( U Layer )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -39,7 +39,7 @@ hidden: false
 
 ## 2 Edges on U Layer
 
-- ( M2 U' ) ( M' U2 ) ( M ) ( U layer ) ( M2 ) ( U layer )
+- ( M2 U' ) ( M' U2 ) ( M ) ( U Layer ) ( M2 ) ( U Layer )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
