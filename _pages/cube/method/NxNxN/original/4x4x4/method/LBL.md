@@ -36,14 +36,11 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### 듀나메스
-
-- [FL - ML](https://youtu.be/_Hbf2TpsoUI)
-- [ML - LL](https://youtu.be/MtVIzF3Umyo)
-
-### 굿맨
-
-- [method](https://youtu.be/D_UYYz_OwOM)
-- [solving](https://youtu.be/iRoivG7Te40)
+- 듀나메스
+  - [FL - ML](https://youtu.be/_Hbf2TpsoUI)
+  - [ML - LL](https://youtu.be/MtVIzF3Umyo)
+- 굿맨
+  - [Method](https://youtu.be/D_UYYz_OwOM)
+  - [Solving](https://youtu.be/iRoivG7Te40)
