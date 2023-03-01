@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## adjacent 2-flip
+## Adjacent 2-Flip
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lell.html#case-28">
   <img src="https://www.speedsolving.com/wiki/images/d/de/ELL_2-flip_%28a%29.jpg" style="transform:rotate(-90deg)">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## opposite 2-flip
+## Opposite 2-Flip
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lell.html#case-57">
   <img src="https://www.speedsolving.com/wiki/images/4/4d/ELL_2-flip_%28b%29.jpg">
@@ -60,7 +60,7 @@ hidden: false
 
 
 
-## 4-flip
+## 4-Flip
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lell.html#case-20">
   <img src="https://www.speedsolving.com/wiki/images/1/13/ELL_4-flip.jpg">
