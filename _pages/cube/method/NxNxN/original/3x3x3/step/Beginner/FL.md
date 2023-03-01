@@ -25,16 +25,16 @@ hidden: false
 
 
 
-## white not on U face
+## White Not on U Face
 
-- right : R U R'
+- Right : R U R'
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : F' U' F
+- Left : F' U' F
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,16 +44,16 @@ hidden: false
 
 
 
-## white on U face
+## White on U Face
 
-- right : ( R U' R' U ) ( F' U F )
+- Right : ( R U' R' U ) ( F' U F )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- left : ( F' U F U' ) ( R U' R' )
+- Left : ( F' U F U' ) ( R U' R' )
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
