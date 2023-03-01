@@ -23,8 +23,8 @@ hidden: false
 
 ## Notation
 
-- permute : 3 corners
-- fixed : 1 front corner
+- Permute : 3 Corners
+- Fixed : 1 Front Corner
 
 
 
