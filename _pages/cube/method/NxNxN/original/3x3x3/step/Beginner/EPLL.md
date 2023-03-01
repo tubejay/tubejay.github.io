@@ -25,14 +25,14 @@ hidden: false
 
 
 
-## notation
+## Notation
 
-- permute : 3 edges
-- fixed : back edge
+- Permute : 3 Edges
+- Fixed : Back Edge
 
 
 
-## clockwise
+## Clockwise
 
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="iframe-wrapper">
@@ -44,7 +44,7 @@ hidden: false
 
 
 
-## counterclockwise
+## Counterclockwise
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="iframe-wrapper">
