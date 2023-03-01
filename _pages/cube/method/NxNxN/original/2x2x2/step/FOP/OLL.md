@@ -21,7 +21,7 @@ hidden: false
 
 
 
-## S / Sune
+## S / Sune {#sune}
 
 <img src="https://www.speedsolving.com/wiki/images/f/f8/2x2Su.gif" style="transform:rotate(180deg)">
 
@@ -35,7 +35,7 @@ hidden: false
 
 
 
-## S- / Antisune
+## S- / Antisune {#antisune}
 
 <img src="https://www.speedsolving.com/wiki/images/9/9b/2x2AS.gif" style="transform:rotate(-90deg)">
 
@@ -49,7 +49,7 @@ hidden: false
 
 
 
-## U / Headlights
+## U / Headlights {#headlights}
 
 <img src="https://www.speedsolving.com/wiki/images/1/1c/2x2He.gif" style="transform:rotate(180deg)">
 
@@ -63,7 +63,7 @@ hidden: false
 
 
 
-## Pi / Bruno
+## Pi / Bruno {#bruno}
 
 <img src="https://www.speedsolving.com/wiki/images/e/ed/2x2Pi.gif" style="transform:rotate(90deg)">
 
@@ -77,7 +77,7 @@ hidden: false
 
 
 
-## H / Double Sune
+## H / Double Sune {#double-sune}
 
 <img src="https://www.speedsolving.com/wiki/images/6/6e/2x2H.gif">
 
@@ -91,7 +91,7 @@ hidden: false
 
 
 
-## T / Chameleon
+## T / Chameleon {#chameleon}
 
 <img src="https://www.speedsolving.com/wiki/images/1/1b/2x2T.gif">
 
@@ -105,7 +105,7 @@ hidden: false
 
 
 
-## L / Bowtie
+## L / Bowtie {#bowtie}
 
 <img src="https://www.speedsolving.com/wiki/images/9/99/2x2Bo.gif" style="transform:rotate(90deg)">
 
