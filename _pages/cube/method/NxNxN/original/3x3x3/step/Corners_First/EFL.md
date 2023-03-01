@@ -25,16 +25,16 @@ hidden: false
 
 
 
-## U layer
+## U Layer
 
-- white on U face
+- White on U Face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=M'%20U2'%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- white not on U face
+- White Not on U Face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,16 +44,16 @@ hidden: false
 
 
 
-## D layer
+## D Layer
 
-- white on D face
+- White on D Face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=M'%20U'%20M%20d%20M'%20U%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20R%20RB%20RBD%20U&setupmoves=d'&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- white not on D face
+- White Not on D Face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
