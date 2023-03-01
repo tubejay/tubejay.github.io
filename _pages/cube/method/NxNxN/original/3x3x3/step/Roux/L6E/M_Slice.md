@@ -25,9 +25,9 @@ hidden: false
 
 
 
-## notation
+## Notation
 
-- F face / U face
+- F Face / U Face
 
 
 
