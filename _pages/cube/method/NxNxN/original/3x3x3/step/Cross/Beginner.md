@@ -25,16 +25,16 @@ hidden: false
 
 
 
-## U face
+## U Face
 
-- white on D face
+- White on D Face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- white not on D face
+- White Not on D Face
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -44,16 +44,16 @@ hidden: false
 
 
 
-## D face
+## D Face
 
-- center : adjacent
+- Center : Adjacent
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
       src="https://ruwix.com/widget/3d/?alg=F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
     ></iframe>
   </div>
-- center : not adjacent
+- Center : Not Adjacent
   <div class="iframe-wrapper">
     <iframe
       scrolling="no"
@@ -63,8 +63,7 @@ hidden: false
 
 
 
-## reference
+## Reference
 
-### Ruwix
-
-- [Cross](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-1-first-layer-edges/)
+- Ruwix
+  - [Cross](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-1-first-layer-edges/)
