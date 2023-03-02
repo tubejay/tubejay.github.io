@@ -17,11 +17,11 @@ hidden: false
 
 ### Center
 
-- [5x5x5 / Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
+- [5x5x5 / Center / Case](/cube/method/NxNxN/original/5x5x5/center/case)
 
 ### Edge
 
-- [5x5x5 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+- [5x5x5 / Edge / Freeslice](/cube/method/NxNxN/original/5x5x5/edge/freeslice)
 
 ### Cross
 
