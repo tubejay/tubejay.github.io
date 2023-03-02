@@ -23,13 +23,17 @@ hidden: false
 
 ## Method
 
-- step
-  - [3x3x3 / Beginner](/cube/method/NxNxN/original/3x3x3/beginner)
-  - parity
-    - OLL parity
-- reference
-  - [아이엠준](https://youtu.be/x9SySGU_iqE)
-  - [듀나메스](https://youtu.be/F5cDzoSU280)
-  - 굿맨
-    - [method](https://youtu.be/gELuvKW2Itw)
-    - [OLL parity](https://youtu.be/EaX0xLmwDzM)
+- [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3/beginner)
+- [OLL Parity](/cube/method/NxNxN/modification/fisher/oll_parity)
+
+
+
+## Reference
+
+- 아이엠준
+  - [Method](https://youtu.be/x9SySGU_iqE)
+- 듀나메스
+  - [Method](https://youtu.be/F5cDzoSU280)
+- 굿맨
+  - [Method](https://youtu.be/gELuvKW2Itw)
+  - [OLL Parity](https://youtu.be/EaX0xLmwDzM)
