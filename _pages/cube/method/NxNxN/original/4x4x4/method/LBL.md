@@ -61,11 +61,10 @@ hidden: false
 - Method : [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop)
 - Start : [OLL](/cube/method/NxNxN/original/3x3x3/cfop#oll)
 
-### Parity {#ll-parity}
+### [4x4x4 / Parity](/cube/method/NxNxN/original/4x4x4/parity) {#ll-parity}
 
-- [4x4x4 / Parity](/cube/method/NxNxN/original/4x4x4/parity)
-  - OLL Parity
-  - PLL Parity
+- OLL Parity
+- PLL Parity
 
 
 
