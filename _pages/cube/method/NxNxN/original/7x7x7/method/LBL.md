@@ -21,7 +21,7 @@ hidden: false
 
 ### Edge {#fl-edge}
 
-- [4x4x4 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+- [5x5x5 / Edge / Freeslice](/cube/method/NxNxN/original/5x5x5/edge/freeslice)
 
 ### Cross {#fl-cross}
 
