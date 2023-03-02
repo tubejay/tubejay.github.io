@@ -20,7 +20,7 @@ hidden: false
 
 ## Pair
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27+R2+U%27+2R+U2+2R%27+L2+U+2R+U2+2R%27+B2+2R+U2+2R%27+R2+D%27+B2+R+F%27+U%27+F&alg=2L%27+U+2L+D">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27+R2+U%27+2R+U2+2R%27+L2+U+2R+U2+2R%27+B2+2R+U2+2R%27+R2+D%27+B2+R+F%27+U%27+F&alg=l%27+U+l+D">
   <img src="https://user-images.githubusercontent.com/92285528/221358335-ef7b16be-d00e-41df-8878-47b65577cd4a.png">
 </a>
 
@@ -28,6 +28,6 @@ hidden: false
 
 ## Cross Edges
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27+R2+U%27+2R+U2+2R%27+L2+U+2R+U2+2R%27+B2+2R+U2+2R%27+R2+D%27+B2+R+F%27+U%27+F+2L%27+U+2L+D+L+F+U+F%27&alg=2R+U%27+2R%27">
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27+R2+U%27+2R+U2+2R%27+L2+U+2R+U2+2R%27+B2+2R+U2+2R%27+R2+D%27+B2+R+F%27+U%27+F+2L%27+U+2L+D+L+F+U+F%27&alg=r+U%27+r%27">
   <img src="https://user-images.githubusercontent.com/92285528/221358599-d7bf72cc-e006-4e97-9b93-e0256aa0600b.png">
 </a>
