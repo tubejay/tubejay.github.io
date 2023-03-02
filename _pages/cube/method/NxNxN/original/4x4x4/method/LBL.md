@@ -26,7 +26,7 @@ hidden: false
 
 ### Edge
 
-- [4z4z4 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
+- [4x4x4 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
 
 ### Cross
 
@@ -56,9 +56,15 @@ hidden: false
 
 - [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
 
-### OLL/PLL
+### OLL / PLL
 
-### Parity
+- Method : [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop)
+- Start : [OLL](/cube/method/NxNxN/original/3x3x3/cfop#oll)
+
+### [4x4x4 / Parity](/cube/method/NxNxN/original/4x4x4/parity)
+
+- OLL Parity
+- PLL Parity
 
 
 
