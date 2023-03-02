@@ -56,7 +56,7 @@ hidden: false
 
 - [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
 
-### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop)ll-cfop}
+### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop) {#ll-cfop}
 
 - Start : [OLL](/cube/method/NxNxN/original/3x3x3/cfop#oll)
 
