@@ -53,7 +53,7 @@ hidden: false
 
 ### [7x7x7 / Edge / Parity](/cube/method/NxNxN/original/7x7x7/edge/parity) {#ll-edge-parity}
 
-- 2-1-2-Parity
+- 2-1-2 Parity
 - 1-3-1 Parity
 
 ### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop) {#ll-cfop}
