@@ -18,7 +18,7 @@ hidden: false
 
 
 
-## 2-1-2
+## 2-1-2 Parity
 
 - ( 3Rw U2 ) ( x ) ( 3Rw U2 ) x 2 ( 4Rw' U2 ) ( 3Lw U2 ) ( 3Rw' U2 ) ( 3Rw U2 ) ( 3Rw' U2 ) ( 3Rw' )
 
@@ -28,7 +28,7 @@ hidden: false
 
 
 
-## 1-3-1
+## 1-3-1 Parity
 
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 5Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw' )
 
