@@ -51,7 +51,7 @@ hidden: false
 
 - [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
 
-### [7x7x7 / Edge / Parity](/cube/method/NxNxN/original/7x7x7/edge/parity) {#ll-edge-parity}
+#### [7x7x7 / Edge / Parity](/cube/method/NxNxN/original/7x7x7/edge/parity) {#ll-edge-parity}
 
 - 2-1-2 Parity
 - 1-3-1 Parity
