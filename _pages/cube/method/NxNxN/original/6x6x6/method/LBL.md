@@ -57,7 +57,7 @@ hidden: false
 
 ### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop)
 
-- Start : OLL
+- Start : [OLL](/cube/method/NxNxN/original/3x3x3/cfop#oll)
 
 ### [6x6x6 / Parity](/cube/method/NxNxN/original/6x6x6/parity)
 
