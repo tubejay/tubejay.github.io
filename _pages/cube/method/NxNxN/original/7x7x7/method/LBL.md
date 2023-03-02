@@ -15,19 +15,19 @@ hidden: false
 
 ## FL : First Layer {#fl}
 
-### Center
+### Center {#fl-center}
 
 - [7x7x7 / Center / Case](/cube/method/NxNxN/original/7x7x7/center/case)
 
-### Edge
+### Edge {#fl-edge}
 
 - [4x4x4 / Edge / Freeslice](/cube/method/NxNxN/original/4x4x4/edge/freeslice)
 
-### Cross
+### Cross {#fl-cross}
 
 - [3x3x3 / Cross / Advanced](/cube/method/NxNxN/original/3x3x3/cross/advanced)
 
-### Corner
+### Corner {#fl-corner}
 
 - [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
 
@@ -35,11 +35,11 @@ hidden: false
 
 ## ML : Middle Layers {#ml}
 
-### Center
+### Center {#ml-center}
 
 - [4x4x4 / Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
 
-### Edge
+### Edge {#ml-edge}
 
 - [4x4x4 / Edge / Insert](/cube/method/NxNxN/original/4x4x4/edge/insert)
 
@@ -47,16 +47,16 @@ hidden: false
 
 ## LL : Last Layer {#ll}
 
-### Edge
+### Edge {#ll-edge}
 
 - [4x4x4 / Edge / Commutator](/cube/method/NxNxN/original/4x4x4/edge/commutator)
 
-### [7x7x7 / Edge / Parity](/cube/method/NxNxN/original/7x7x7/edge/parity)
+### [7x7x7 / Edge / Parity](/cube/method/NxNxN/original/7x7x7/edge/parity) {#ll-edge-parity}
 
 - 2-1-2-Parity
 - 1-3-1 Parity
 
-### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop)
+### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop) {#ll-cfop}
 
 - Start : [OLL](/cube/method/NxNxN/original/3x3x3/cfop#oll)
 
