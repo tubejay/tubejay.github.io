@@ -20,7 +20,7 @@ hidden: false
 
 ## Edge in Center
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=5x5x5&stickering=centers-only&setup-alg=2R%27+F%27+2L+F+2R+F%27+2L%27+2R%27+F%27+2L+F+2R+F%27+2L%27+F2+U%27+2R%27+F2+2R+F+2F2+2B2&alg=2R%27+F+2R">
+<a href="https://alpha.twizzle.net/edit/?puzzle=5x5x5&stickering=centers-only&setup-alg=2R%27+F%27+2L+F+2R+F%27+2L%27+2R%27+F%27+2L+F+2R+F%27+2L%27+F2+U%27+2R%27+F2+2R+F+2F2+2B2&alg=r%27+F+r">
   <img src="https://user-images.githubusercontent.com/92285528/221396284-0a9c621e-186c-4419-95c5-f374531b8b78.png">
 </a>
 
