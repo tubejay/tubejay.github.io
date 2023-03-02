@@ -17,7 +17,7 @@ hidden: false
 
 ### Center
 
-- [6x6x6 / Center / Case](/cube/method/NxNxN/original/6x6x6/center/commutator)
+- [6x6x6 / Center / Case](/cube/method/NxNxN/original/6x6x6/center/case)
 
 ### Edge
 
@@ -53,7 +53,9 @@ hidden: false
 
 ### [6x6x6 / Edge / Parity](/cube/method/NxNxN/original/6x6x6/edge/parity)
 
-### [3x3x3 / CFOP]
+- 1-2-1 Parity
+
+### [3x3x3 / CFOP](/cube/method/NxNxN/original/3x3x3/cfop)
 
 - Start : OLL
 
