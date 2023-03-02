@@ -24,7 +24,7 @@ hidden: false
 ## Method
 
 - [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3/beginner)
-- [OLL Parity](/cube/method/NxNxN/modification/fisher/oll_parity)
+- [OLL Parity](/cube/method/NxNxN/modification/oll_parity)
 
 
 
