@@ -23,10 +23,15 @@ hidden: false
 
 ## Method
 
-- step : [Fisher method](/cube/method/NxNxN/modification/fisher)
-- reference
-  - [아이엠준](https://youtu.be/fFtSgap-zeo)
-  - [듀나메스](https://youtu.be/8KjHoNOGWLE)
-  - 굿맨
-    - [method](https://youtu.be/UiMSYt-SRs8)
-    - [OLL parity](https://youtu.be/EaX0xLmwDzM)
+- [Fisher](/cube/method/NxNxN/modification/fisher)
+
+
+
+## Reference
+
+- 아이엠준
+  - [Method](https://youtu.be/fFtSgap-zeo)
+- 듀나메스
+  - [Method](https://youtu.be/8KjHoNOGWLE)
+- 굿맨
+  - [Method](https://youtu.be/UiMSYt-SRs8)
