@@ -1,5 +1,5 @@
 ---
-title: "Fisher"
+title: "Modification / Fisher"
 layout: single
 toc: false
 permalink: /cube/method/NxNxN/modification/fisher
