@@ -1,5 +1,5 @@
 ---
-title: "Windmill"
+title: "Modification / Windmill"
 layout: single
 toc: false
 permalink: /cube/method/NxNxN/modification/windmill
