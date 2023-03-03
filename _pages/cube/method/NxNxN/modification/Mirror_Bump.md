@@ -23,8 +23,15 @@ hidden: false
 
 ## Method
 
-- [3x3x3](/cube/method/NxNxN/original/3x3x3)
-- reference
-  - [아이엠준](https://youtu.be/5BFRk7amyvk)
-  - [듀나메스](https://youtu.be/p3OJSbWopqg)
-  - [굿맨](https://youtu.be/CnfKhEWBI6I)
+- [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3#method)
+
+
+
+## Reference
+
+- 아이엠준
+  - [Method](https://youtu.be/5BFRk7amyvk)
+- 듀나메스
+  - [Method](https://youtu.be/p3OJSbWopqg)
+- 굿맨
+  - [Method](https://youtu.be/CnfKhEWBI6I)
