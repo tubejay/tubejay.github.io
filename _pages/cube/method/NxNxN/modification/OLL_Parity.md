@@ -1,5 +1,5 @@
 ---
-title: "OLL Parity"
+title: "Modification / OLL Parity"
 layout: single
 toc: true
 permalink: /cube/method/NxNxN/modification/oll_parity
