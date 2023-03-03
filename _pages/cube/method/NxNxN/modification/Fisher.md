@@ -36,4 +36,3 @@ hidden: false
   - [Method](https://youtu.be/F5cDzoSU280)
 - 굿맨
   - [Method](https://youtu.be/gELuvKW2Itw)
-  - [OLL Parity](https://youtu.be/EaX0xLmwDzM)
