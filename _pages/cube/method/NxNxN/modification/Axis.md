@@ -1,5 +1,5 @@
 ---
-title: "Axis"
+title: "Modification / Axis"
 layout: single
 toc: false
 permalink: /cube/method/NxNxN/modification/axis
