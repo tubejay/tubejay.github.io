@@ -1,7 +1,7 @@
 ---
 title: "Ivy Cube / Eye Skewb"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/ivy/ivy_cube_eye_skewb
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [큐브놀이터](https://youtu.be/QmHS9ZAf7P8)
-  - <https://youtu.be/QMzeJobSu1M>
+
+
+## Reference
+
+- [큐브놀이터](https://youtu.be/QmHS9ZAf7P8)
+- <https://youtu.be/QMzeJobSu1M>
