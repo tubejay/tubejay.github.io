@@ -1,7 +1,7 @@
 ---
 title: "Skewb Rhombic Dodecahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/rhombic_dodecahedron/skewb_rhombic_dodecahedron
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/DopCJWlSDe8>
+
+
+## Reference
+
+- <https://youtu.be/DopCJWlSDe8>

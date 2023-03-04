@@ -1,7 +1,7 @@
 ---
 title: "Face Turning Rhombic Dodecahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/jexonAM9sc8)
-  - <https://youtu.be/TPD3xXSsnKg>
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/jexonAM9sc8)
+- <https://youtu.be/TPD3xXSsnKg>

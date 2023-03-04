@@ -1,7 +1,7 @@
 ---
 title: "4x4x4 Rhombic Dodecahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/rhombic_dodecahedron/4x4x4_rhombic_dodecahedron
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/c8aK9DTzfWg>
+
+
+## Reference
+
+- <https://youtu.be/c8aK9DTzfWg>

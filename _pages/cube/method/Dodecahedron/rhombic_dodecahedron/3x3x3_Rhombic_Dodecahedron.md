@@ -1,7 +1,7 @@
 ---
 title: "3x3x3 Rhombic Dodecahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/rhombic_dodecahedron/3x3x3_rhombic_dodecahedron
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/_KGGrfL9djI>
+
+
+## Reference
+
+- <https://youtu.be/_KGGrfL9djI>
