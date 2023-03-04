@@ -36,8 +36,8 @@ hidden: false
 </a>
 
 - [4x4x4 / Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
-- [5x5x5 / Edge / Freeslice](/cube/method/NxNxN/original/5x5x5/edge/freeslice)
-- [5x5x5 / Edge / 3-2 Pairing](https://tubejay.github.io/cube/method/NxNxN/original/5x5x5/edge/3-2_pairing)
+- [7x7x7 / Edge / Freeslice](/cube/method/NxNxN/original/7x7x7/edge/freeslice)
+- [7x7x7 / Edge / 3-2 Pairing](https://tubejay.github.io/cube/method/NxNxN/original/7x7x7/edge/3-2_pairing)
 
 ### [7x7x7 / Edge / Parity](/cube/method/NxNxN/original/7x7x7/edge/parity)
 
