@@ -1,7 +1,7 @@
 ---
 title: "Clover Plus"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/clover/clover_plus
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/hurdVh7nxZY)
-  - [굿맨](https://youtu.be/gfVEHmBB55A)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/hurdVh7nxZY)
+- [굿맨](https://youtu.be/gfVEHmBB55A)
