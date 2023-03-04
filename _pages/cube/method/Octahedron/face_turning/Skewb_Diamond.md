@@ -1,7 +1,7 @@
 ---
 title: "Skewb Diamond"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/octahedron/face_turning/skewb_diamond
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/eujA12sUKtM)
-  - [투마이](https://youtu.be/6PC0aCguWNc)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/eujA12sUKtM)
+- [투마이](https://youtu.be/6PC0aCguWNc)

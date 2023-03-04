@@ -1,7 +1,7 @@
 ---
 title: "Face Turning Octahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/octahedron/face_turning/face_turning_octahedron
 published: true
 hidden: false
@@ -23,7 +23,10 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/BqZJcTec904)
-  - [굿맨](https://youtu.be/7HLGrcSPpZE)
-  - [정유비](https://youtu.be/Cd3ZGz7_qVU)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/BqZJcTec904)
+- [굿맨](https://youtu.be/7HLGrcSPpZE)
+- [정유비](https://youtu.be/Cd3ZGz7_qVU)

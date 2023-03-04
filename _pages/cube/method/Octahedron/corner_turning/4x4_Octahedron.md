@@ -1,7 +1,7 @@
 ---
 title: "4x4 Octahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/octahedron/corner_turning/4x4_octahedron
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/dpjr6714r24>
-  - <https://youtu.be/kr9XNulhS18>
+
+
+## Reference
+
+- <https://youtu.be/dpjr6714r24>
+- <https://youtu.be/kr9XNulhS18>
