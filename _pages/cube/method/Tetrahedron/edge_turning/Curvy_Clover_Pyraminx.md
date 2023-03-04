@@ -1,7 +1,7 @@
 ---
 title: "Curvy Clover Pyraminx"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/edge_turning/curvy_clover_pyraminx
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [투마이](https://youtu.be/W1mimq2S2uI)
-  - <https://youtu.be/_w0zPKBHRaY>
+
+
+## Reference
+
+- [투마이](https://youtu.be/W1mimq2S2uI)
+- <https://youtu.be/_w0zPKBHRaY>
