@@ -1,7 +1,7 @@
 ---
 title: "Skewb"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/skewb/skewb
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [아이엠준](https://youtu.be/5R3sU-_bMAI)
-  - [굿맨](https://youtu.be/2a594D-GrVs)
+
+
+## Reference
+
+- [아이엠준](https://youtu.be/5R3sU-_bMAI)
+- [굿맨](https://youtu.be/2a594D-GrVs)
