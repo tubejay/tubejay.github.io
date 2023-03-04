@@ -1,7 +1,7 @@
 ---
 title: "Coin Tetrahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/corner_turning/coin_tetrahedron
 published: true
 hidden: false
@@ -23,8 +23,12 @@ hidden: false
 
 ## Method
 
-- step
-  - corner
-  - edge
-- reference
-  - <https://youtu.be/2WrDNfcfpAg>
+### Corner
+
+### Edge
+
+
+
+## Reference
+
+- <https://youtu.be/2WrDNfcfpAg>
