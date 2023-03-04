@@ -28,14 +28,14 @@ hidden: false
 ### Edge
 
 - Bottom Layer
-  - Move Edge to Front Bottom Edge
+  - Move Edge to Front Bottom
     - from Front Right : ( R' L ) ( R L' )
     - from Front Left : ( L R' ) ( L' R )
 - Middle Layer
   - Permute 3 Edges
     - Clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
     - Counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
-  - Flip 2 front edges
+  - Flip 2 Edges : Front Left & Front Right
     - ( R' L ) ( R L' ) ( U L' ) ( U' L )
 
 
