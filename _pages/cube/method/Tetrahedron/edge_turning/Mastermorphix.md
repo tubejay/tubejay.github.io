@@ -1,7 +1,7 @@
 ---
 title: "Mastermorphix"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/edge_turning/mastermorphix
 published: true
 hidden: false
@@ -23,7 +23,11 @@ hidden: false
 
 ## Method
 
-- step : [Fisher method](/cube/method/NxNxN/modification/fisher)
-- reference
-  - [듀나메스](https://youtu.be/yKW48BaE91M)
-  - [큐브놀이터](https://youtu.be/VW-CvVZkRzQ)
+- [Fisher](/cube/method/NxNxN/modification/fisher)
+
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/yKW48BaE91M)
+- [큐브놀이터](https://youtu.be/VW-CvVZkRzQ)
