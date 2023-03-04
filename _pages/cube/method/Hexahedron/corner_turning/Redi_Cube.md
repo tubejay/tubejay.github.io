@@ -1,7 +1,7 @@
 ---
 title: "Redi Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/corner_turning/redi_cube
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [굿맨](https://youtu.be/KgofbCsVOOQ)
-  - <https://youtu.be/Qn7TJED6O-4>
+
+
+## Reference
+
+- [굿맨](https://youtu.be/KgofbCsVOOQ)
+- <https://youtu.be/Qn7TJED6O-4>
