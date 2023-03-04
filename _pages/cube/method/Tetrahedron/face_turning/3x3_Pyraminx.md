@@ -1,7 +1,7 @@
 ---
 title: "3x3 Pyraminx"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/face_turning/3x3_pyraminx
 published: true
 hidden: false
@@ -23,16 +23,23 @@ hidden: false
 
 ## Method
 
-- step
-  - corner
-  - edge
-    - bottom layer
-      - move front right edge to front bottom edge : ( R' L ) ( R L' )
-      - move front left edge to front bottom edge : ( L R' ) ( L' R )
-    - middle layer
-      - permute 3 edges
-        - clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
-        - counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
-      - flip 2 front edges : ( R' L ) ( R L' ) ( U L' ) ( U' L )
-- reference
-  - [아이엠준](https://youtu.be/mO3excjvvoA)
+### Corner
+
+### Edge
+
+- Bottom Layer
+  - Move Edge to Front Bottom Edge
+    - from Front Right : ( R' L ) ( R L' )
+    - from Front Left : ( L R' ) ( L' R )
+- Middle Layer
+  - Permute 3 Edges
+    - Clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
+    - Counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
+  - Flip 2 front edges
+    - ( R' L ) ( R L' ) ( U L' ) ( U' L )
+
+
+
+## Reference
+
+- [아이엠준](https://youtu.be/mO3excjvvoA)
