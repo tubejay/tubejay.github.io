@@ -1,7 +1,7 @@
 ---
 title: "Curvy Copter"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/copter/curvy_copter
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/D9plniIP65U)
-  - <https://youtu.be/RydUtIlMzVk>
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/D9plniIP65U)
+- <https://youtu.be/RydUtIlMzVk>
