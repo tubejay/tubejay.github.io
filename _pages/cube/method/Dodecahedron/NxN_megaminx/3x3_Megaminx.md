@@ -1,7 +1,7 @@
 ---
 title: "3x3 Megaminx"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/NxN_megaminx/3x3_megaminx
 published: true
 hidden: false
@@ -23,7 +23,10 @@ hidden: false
 
 ## Method
 
-- reference
-  - [아이엠준](https://youtu.be/2NUsMclrD-0)
-  - [굿맨](https://youtu.be/0U90izHIHfw)
-  - [큐브놀이터](https://youtu.be/51_Iv6DU8r8)
+
+
+## Reference
+
+- [아이엠준](https://youtu.be/2NUsMclrD-0)
+- [굿맨](https://youtu.be/0U90izHIHfw)
+- [큐브놀이터](https://youtu.be/51_Iv6DU8r8)

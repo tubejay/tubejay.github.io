@@ -1,7 +1,7 @@
 ---
 title: "5x5 Gigaminx"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/NxN_megaminx/5x5_gigaminx
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/dQ71W9znIHY>
+
+
+## Reference
+
+- <https://youtu.be/dQ71W9znIHY>

@@ -1,7 +1,7 @@
 ---
 title: "6x6 Elite Kilominx"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/NxN_megaminx/6x6_elite_kilominx
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/omHfjxceCOc>
+
+
+## Reference
+
+- <https://youtu.be/omHfjxceCOc>
