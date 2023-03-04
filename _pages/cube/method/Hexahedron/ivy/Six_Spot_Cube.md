@@ -1,7 +1,7 @@
 ---
 title: "Six Spot Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/ivy/six_spot_cube
 published: true
 hidden: false
@@ -23,6 +23,10 @@ hidden: false
 
 ## Method
 
-- step : [Ivy Cube method](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb)
-- reference
-  - <https://youtu.be/KFrOpMGMgr0>
+- [Ivy Cube / Eye Skewb](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb)
+
+
+
+## Reference
+
+- <https://youtu.be/KFrOpMGMgr0>
