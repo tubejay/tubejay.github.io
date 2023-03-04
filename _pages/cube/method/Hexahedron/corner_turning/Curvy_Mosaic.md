@@ -1,7 +1,7 @@
 ---
 title: "Curvy Mosaic"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/corner_turning/curvy_mosaic
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/eDIeMOeiqUg)
-  - [투마이](https://youtu.be/ojHWRDLQmL4)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/eDIeMOeiqUg)
+- [투마이](https://youtu.be/ojHWRDLQmL4)
