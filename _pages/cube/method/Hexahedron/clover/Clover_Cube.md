@@ -1,7 +1,7 @@
 ---
 title: "Clover Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/clover/clover_cube
 published: true
 hidden: false
@@ -23,7 +23,10 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/aLxuKQLSemU)
-  - [굿맨](https://youtu.be/7XRhb3y1Z5o)
-  - [큐브놀이터](https://youtu.be/2F3w37kBxQA)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/aLxuKQLSemU)
+- [굿맨](https://youtu.be/7XRhb3y1Z5o)
+- [큐브놀이터](https://youtu.be/2F3w37kBxQA)
