@@ -1,7 +1,7 @@
 ---
 title: "Pisces Cube / 4 Corners Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/corner_turning/pisces_cube_4_corners_cube
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/flGoe1RbIDQ>
+
+
+## Reference
+
+- <https://youtu.be/flGoe1RbIDQ>
