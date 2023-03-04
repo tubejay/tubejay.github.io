@@ -1,7 +1,7 @@
 ---
 title: "Coin Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/hybrid/coin_cube
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/O4-D4KT0lMQ>
+
+
+## Reference
+
+- <https://youtu.be/O4-D4KT0lMQ>

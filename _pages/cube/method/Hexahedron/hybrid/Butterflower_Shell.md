@@ -1,7 +1,7 @@
 ---
 title: "Butterflower / Shell"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/hybrid/butterflower_shell
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [정유비](https://youtu.be/7bhymHBeXSA)
-  - <https://youtu.be/3WY8-pKWUXo>
+
+
+## Reference
+
+- [정유비](https://youtu.be/7bhymHBeXSA)
+- <https://youtu.be/3WY8-pKWUXo>

@@ -1,7 +1,7 @@
 ---
 title: "Polaris Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/hybrid/polaris_cube
 published: true
 hidden: false
@@ -23,7 +23,10 @@ hidden: false
 
 ## Method
 
-- reference
-  - [굿맨](https://youtu.be/tCUtRu769D8)
-  - [큐브놀이터](https://youtu.be/0TGwXh52Bhc)
-  - [정유비](https://youtu.be/EouTFsnvoDY)
+
+
+## Reference
+
+- [굿맨](https://youtu.be/tCUtRu769D8)
+- [큐브놀이터](https://youtu.be/0TGwXh52Bhc)
+- [정유비](https://youtu.be/EouTFsnvoDY)

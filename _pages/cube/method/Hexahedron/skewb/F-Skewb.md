@@ -1,7 +1,7 @@
 ---
 title: "F-Skewb"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/skewb/F-skewb
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/UslhG5CHgtE)
-  - [투마이](https://youtu.be/rDosGPGV2Bk)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/UslhG5CHgtE)
+- [투마이](https://youtu.be/rDosGPGV2Bk)

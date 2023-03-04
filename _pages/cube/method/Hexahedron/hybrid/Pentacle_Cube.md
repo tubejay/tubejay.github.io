@@ -1,7 +1,7 @@
 ---
 title: "Pentacle Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/hybrid/pentacle_cube
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/EUtZcvWS_Zc)
-  - [굿맨](https://youtu.be/exlG6UUVUoA)
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/EUtZcvWS_Zc)
+- [굿맨](https://youtu.be/exlG6UUVUoA)
