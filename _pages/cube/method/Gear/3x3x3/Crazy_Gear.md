@@ -1,7 +1,7 @@
 ---
 title: "Crazy Gear"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/gear/3x3x3/crazy_gear
 published: true
 hidden: false
@@ -23,6 +23,9 @@ hidden: false
 
 ## Method
 
-- reference
-  - [듀나메스](https://youtu.be/ozOb0DbnnV0)
-  - <https://youtu.be/iPqEh9Vgtb4>
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/ozOb0DbnnV0)
+- <https://youtu.be/iPqEh9Vgtb4>

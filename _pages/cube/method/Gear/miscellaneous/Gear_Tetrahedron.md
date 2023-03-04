@@ -1,7 +1,7 @@
 ---
 title: "Gear Tetrahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/gear/miscellaneous/gear_tetrahedron
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/iPqEh9Vgtb4>
+
+
+## Reference
+
+- <https://youtu.be/iPqEh9Vgtb4>
