@@ -1,7 +1,7 @@
 ---
 title: "2x2x2 Dodecahedron"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/dodecahedron/miscellaneous/2x2x2_dodecahedron
 published: true
 hidden: false
@@ -23,6 +23,10 @@ hidden: false
 
 ## Method
 
-- step : [2x2x2 method](/cube/method/NxNxN/original/2x2x2)
-- reference
-  - <https://youtu.be/4M2a0_rPuZg>
+- [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
+
+
+
+## Reference
+
+- <https://youtu.be/4M2a0_rPuZg>
