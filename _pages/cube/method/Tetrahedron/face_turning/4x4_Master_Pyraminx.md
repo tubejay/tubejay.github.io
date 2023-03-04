@@ -1,7 +1,7 @@
 ---
 title: "4x4 Master Pyraminx"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/face_turning/4x4_master_pyraminx
 published: true
 hidden: false
@@ -23,12 +23,22 @@ hidden: false
 
 ## Method
 
-- step
-  - corner
-  - inner edge : [Pyraminx method](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
-  - center : [Jing Pyraminx method](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
-  - outer edge
-- reference
-  - [듀나메스](https://youtu.be/7_c3Tq3HXXw)
-  - [큐브놀이터](https://youtu.be/_8BFbOnrjPg)
-  - [투마이](https://youtu.be/i1o5SqqKBlg)
+### Corner
+
+### Inner Edge
+
+- [3x3 Pyraminx](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
+
+### Center
+
+- [2x2 Jing Pyraminx](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
+
+### Outer Edge
+
+
+
+## Reference
+
+- [듀나메스](https://youtu.be/7_c3Tq3HXXw)
+- [큐브놀이터](https://youtu.be/_8BFbOnrjPg)
+- [투마이](https://youtu.be/i1o5SqqKBlg)
