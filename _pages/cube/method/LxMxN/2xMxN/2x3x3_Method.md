@@ -2,7 +2,7 @@
 title: "2x3x3 / Method"
 layout: single
 toc: true
-permalink: /cube/method/LxMxN/2xMxN/2x3x3_method
+permalink: /cube/method/LxMxN/2xMxN/2x3x3/method
 published: true
 hidden: false
 ---
