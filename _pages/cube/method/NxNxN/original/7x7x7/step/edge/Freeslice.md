@@ -2,7 +2,7 @@
 title: "7x7x7 / Edge / Freeslice"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/7x7x7/edge/Freeslice
+permalink: /cube/method/NxNxN/original/7x7x7/edge/freeslice
 published: true
 hidden: false
 ---
