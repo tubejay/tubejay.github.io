@@ -1,7 +1,7 @@
 ---
 title: "Clover Square / Sunflower Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/clover/clover_square_sunflower_cube
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/pQza1P5Ujj8>
+
+
+## Reference
+
+- <https://youtu.be/pQza1P5Ujj8>
