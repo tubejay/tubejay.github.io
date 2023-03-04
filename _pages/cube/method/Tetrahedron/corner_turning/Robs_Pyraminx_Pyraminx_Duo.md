@@ -1,7 +1,7 @@
 ---
 title: "Rob's Pyraminx / Pyraminx Duo"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/corner_turning/robs_pyraminx_pyraminx_duo
 published: true
 hidden: false
@@ -23,11 +23,17 @@ hidden: false
 
 ## Method
 
-- step
-  - corner
-  - center
-    - swap front center & right center
-    - swap left center & bottom center
-    - ( R U' ) ( R' U )
-- reference
-  - [투마이](https://youtu.be/e-FgTsVoQZo)
+### Corner
+
+### Center
+
+- Swap 4 Centers
+  - ( R U' ) ( R' U )
+  - Front & Right
+  - Left & Bottom
+
+
+
+## Reference
+
+- [투마이](https://youtu.be/e-FgTsVoQZo)
