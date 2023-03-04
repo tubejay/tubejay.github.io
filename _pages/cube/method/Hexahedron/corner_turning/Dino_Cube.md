@@ -1,7 +1,7 @@
 ---
 title: "Dino Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/corner_turning/dino_cube
 published: true
 hidden: false
@@ -23,5 +23,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/5ojnSVixQyA>
+
+
+## Reference
+
+- <https://youtu.be/5ojnSVixQyA>
