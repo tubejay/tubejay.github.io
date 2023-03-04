@@ -1,7 +1,7 @@
 ---
 title: "Master Clover Cube"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/clover/master_clover_cube
 published: true
 hidden: false
@@ -22,5 +22,8 @@ hidden: false
 
 ## Method
 
-- reference
-  - <https://youtu.be/cWs-br6QgM8>
+
+
+## Reference
+
+- <https://youtu.be/cWs-br6QgM8>
