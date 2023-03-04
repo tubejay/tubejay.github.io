@@ -1,7 +1,7 @@
 ---
 title: "Pyramorphix"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/tetrahedron/edge_turning/pyramorphix
 published: true
 hidden: false
@@ -23,7 +23,11 @@ hidden: false
 
 ## Method
 
-- step : [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
-- reference
-  - [굿맨](https://youtu.be/j03rjmXctRQ)
-  - [큐브놀이터](https://youtu.be/WIy5ZvTXsOY)
+- [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
+
+
+
+## Reference
+
+- [굿맨](https://youtu.be/j03rjmXctRQ)
+- [큐브놀이터](https://youtu.be/WIy5ZvTXsOY)
