@@ -1,7 +1,7 @@
 ---
 title: "Flower Copter"
 layout: single
-toc: false
+toc: true
 permalink: /cube/method/hexahedron/copter/flower_copter
 published: true
 hidden: false
@@ -23,9 +23,12 @@ hidden: false
 
 ## Method
 
-- reference
-  - 정유비
-    - <https://youtu.be/yCfTTSAZq2k>
-    - <https://youtu.be/6-rRpliZVKs>
-    - <https://youtu.be/I1vG0ete2ZA>
-  - <https://youtu.be/8FKmS4NsNUc>
+
+
+## Reference
+
+- 정유비
+  - <https://youtu.be/yCfTTSAZq2k>
+  - <https://youtu.be/6-rRpliZVKs>
+  - <https://youtu.be/I1vG0ete2ZA>
+- <https://youtu.be/8FKmS4NsNUc>
