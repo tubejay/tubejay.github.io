@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/iPqEh9Vgtb4>
+## [Method](/cube/method/gear/miscellaneous/gear_tetrahedron/method)
