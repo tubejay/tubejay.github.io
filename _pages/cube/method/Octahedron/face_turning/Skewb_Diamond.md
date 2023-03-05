@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/eujA12sUKtM)
-- [투마이](https://youtu.be/6PC0aCguWNc)
+## [Method](/cube/method/octahedron/face_turning/skewb_diamond/method)
