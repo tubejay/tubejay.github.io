@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/5ojnSVixQyA>
+## [Method](/cube/method/hexahedron/corner_turning/dino_cube/method)

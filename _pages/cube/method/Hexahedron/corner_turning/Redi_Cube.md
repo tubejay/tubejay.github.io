@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [굿맨](https://youtu.be/KgofbCsVOOQ)
-- <https://youtu.be/Qn7TJED6O-4>
+## [Method](/cube/method/hexahedron/corner_turning/redi_cube/method)

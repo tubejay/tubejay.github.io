@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/flGoe1RbIDQ>
+## [Method](/cube/method/hexahedron/corner_turning/pisces_cube_4_corners_cube/method)

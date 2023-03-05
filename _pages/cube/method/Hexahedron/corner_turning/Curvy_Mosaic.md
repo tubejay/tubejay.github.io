@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/eDIeMOeiqUg)
-- [투마이](https://youtu.be/ojHWRDLQmL4)
+## [Method](/cube/method/hexahedron/corner_turning/curvy_mosaic/method)
