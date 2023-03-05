@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/DopCJWlSDe8>
+## [Method](/cube/method/dodecahedron/rhombic_dodecahedron/skewb_rhombic_dodecahedron/method)

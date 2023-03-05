@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/jexonAM9sc8)
-- <https://youtu.be/TPD3xXSsnKg>
+## [Method](/cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron/method)

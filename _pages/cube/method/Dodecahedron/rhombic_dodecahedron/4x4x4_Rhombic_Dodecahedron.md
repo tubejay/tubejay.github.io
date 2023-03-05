@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/c8aK9DTzfWg>
+## [Method](/cube/method/dodecahedron/rhombic_dodecahedron/4x4x4_rhombic_dodecahedron/method)
