@@ -19,8 +19,10 @@ hidden: false
 
 ## Center
 
-- Swap 4 Centers : Front & Right / Left & Bottom
+- Swap 4 Centers
   - ( R U' ) ( R' U )
+  - Front & Right
+  - Left & Bottom
 
 
 
