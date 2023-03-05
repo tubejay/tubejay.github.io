@@ -29,4 +29,4 @@ hidden: false
 - [Fisher](/cube/method/NxNxN/modification/fisher)
 - [Windmill](/cube/method/NxNxN/modification/windmill)
 - [Axis](/cube/method/NxNxN/modification/axis)
-- [Mirror/Bump](/cube/method/NxNxN/modification/mirror_bump)
+- [Mirror (Bump)](/cube/method/NxNxN/modification/mirror_bump)
