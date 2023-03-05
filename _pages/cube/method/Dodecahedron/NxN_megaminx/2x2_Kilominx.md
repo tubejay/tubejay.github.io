@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [큐브놀이터](https://youtu.be/8-X4GhQnE5I)
-- <https://youtu.be/uJj7tO6cc4w>
+## [Method](/cube/method/dodecahedron/NxN_megaminx/2x2_kilominx/method)

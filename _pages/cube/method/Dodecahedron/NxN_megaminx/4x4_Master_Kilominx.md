@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/VAnzC2SYVc4>
+## [Method](/cube/method/dodecahedron/NxN_megaminx/4x4_master_kilominx/method)

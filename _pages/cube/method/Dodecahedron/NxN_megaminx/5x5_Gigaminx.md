@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/dQ71W9znIHY>
+## [Method](/cube/method/dodecahedron/NxN_megaminx/5x5_gigaminx/method)
