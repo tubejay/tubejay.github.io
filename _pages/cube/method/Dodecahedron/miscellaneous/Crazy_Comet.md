@@ -21,15 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/rgcy8xsUVIw)
-- 굿맨
-  - [3-cycle](https://youtu.be/c6BFwOWII-E)
-  - [curvy copter](https://youtu.be/-pyMeXo-DA0)
-  - [beginner](https://youtu.be/jaVQJ6CAjME)
-- [정유비](https://youtu.be/KcfpzvsI0Aw)
+## [Method](/cube/method/dodecahedron/miscellaneous/crazy_comet/method)
