@@ -1,5 +1,5 @@
 ---
-title: "Super Ivy / Rex Cube / Method"
+title: "Super Ivy (Rex Cube) / Method"
 layout: single
 toc: true
 permalink: /cube/method/hexahedron/ivy/super_ivy_rex_cube/method

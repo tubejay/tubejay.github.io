@@ -1,5 +1,5 @@
 ---
-title: "Rob's Pyraminx / Pyraminx Duo"
+title: "Rob's Pyraminx (Pyraminx Duo)"
 layout: single
 toc: true
 permalink: /cube/method/tetrahedron/corner_turning/robs_pyraminx_pyraminx_duo

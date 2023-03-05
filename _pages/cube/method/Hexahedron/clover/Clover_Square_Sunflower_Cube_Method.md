@@ -1,5 +1,5 @@
 ---
-title: "Clover Square / Sunflower Cube / Method"
+title: "Clover Square (Sunflower Cube) / Method"
 layout: single
 toc: true
 permalink: /cube/method/hexahedron/clover/clover_square_sunflower_cube/method

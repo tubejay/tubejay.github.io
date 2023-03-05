@@ -1,5 +1,5 @@
 ---
-title: "Butterflower / Shell / Method"
+title: "Butterflower (Shell) / Method"
 layout: single
 toc: true
 permalink: /cube/method/hexahedron/hybrid/butterflower_shell/method

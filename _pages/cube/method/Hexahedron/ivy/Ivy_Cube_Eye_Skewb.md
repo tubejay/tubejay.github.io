@@ -1,5 +1,5 @@
 ---
-title: "Ivy Cube / Eye Skewb"
+title: "Ivy Cube (Eye Skewb)"
 layout: single
 toc: true
 permalink: /cube/method/hexahedron/ivy/ivy_cube_eye_skewb

@@ -1,5 +1,5 @@
 ---
-title: "Pisces Cube / 4 Corners Cube / Method"
+title: "Pisces Cube (4 Corners Cube) / Method"
 layout: single
 toc: true
 permalink: /cube/method/hexahedron/corner_turning/pisces_cube_4_corners_cube/method
