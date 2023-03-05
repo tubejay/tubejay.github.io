@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [정유비](https://youtu.be/7bhymHBeXSA)
-- <https://youtu.be/3WY8-pKWUXo>
+## [Method](/cube/method/hexahedron/hybrid/butterflower_shell/method)

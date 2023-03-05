@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/O4-D4KT0lMQ>
+## [Method](/cube/method/hexahedron/hybrid/coin_cube/method)

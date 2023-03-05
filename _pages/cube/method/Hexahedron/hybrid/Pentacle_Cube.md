@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/EUtZcvWS_Zc)
-- [굿맨](https://youtu.be/exlG6UUVUoA)
+## [Method](/cube/method/hexahedron/hybrid/pentacle_cube/method)
