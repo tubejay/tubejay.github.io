@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [투마이](https://youtu.be/W1mimq2S2uI)
-- <https://youtu.be/_w0zPKBHRaY>
+## [Method](/cube/method/tetrahedron/edge_turning/curvy_clover_pyraminx/method)
