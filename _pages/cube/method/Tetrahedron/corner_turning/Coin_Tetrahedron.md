@@ -21,14 +21,4 @@ hidden: false
 
 
 
-## Method
-
-### Corner
-
-### Edge
-
-
-
-## Reference
-
-- <https://youtu.be/2WrDNfcfpAg>
+## [Method](/cube/method/tetrahedron/corner_turning/coin_tetrahedron/method)
