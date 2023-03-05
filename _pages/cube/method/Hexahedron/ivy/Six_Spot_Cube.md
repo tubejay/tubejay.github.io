@@ -23,7 +23,7 @@ hidden: false
 
 ## Method
 
-- [Ivy Cube (Eye Skewb)](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb/method)
+- [Ivy Cube (Eye Skewb) / Method](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb/method)
 
 
 
