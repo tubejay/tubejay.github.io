@@ -1,5 +1,5 @@
 ---
-title: "Modification / Mirror/Bump"
+title: "Modification / Mirror (Bump)"
 layout: single
 toc: false
 permalink: /cube/method/NxNxN/modification/mirror_bump

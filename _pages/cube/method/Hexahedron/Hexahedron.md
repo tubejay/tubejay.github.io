@@ -23,16 +23,16 @@ hidden: false
 
 - [Dino Cube](/cube/method/hexahedron/corner_turning/dino_cube)
 - [Redi Cube](/cube/method/hexahedron/corner_turning/redi_cube)
-- [Pisces Cube / 4 Corners Cube](/cube/method/hexahedron/corner_turning/pisces_cube_4_corners_cube)
+- [Pisces Cube (4 Corners Cube)](/cube/method/hexahedron/corner_turning/pisces_cube_4_corners_cube)
 - [Curvy Mosaic](/cube/method/hexahedron/corner_turning/curvy_mosaic)
 
 
 
 ## Ivy
 
-- [Ivy Cube / Eye Skewb](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb)
+- [Ivy Cube (Eye Skewb)](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb)
 - [Six Spot Cube](/cube/method/hexahedron/ivy/six_spot_cube)
-- [Super Ivy / Rex Cube](/cube/method/hexahedron/ivy/super_ivy_rex_cube)
+- [Super Ivy (Rex Cube)](/cube/method/hexahedron/ivy/super_ivy_rex_cube)
 
 
 
@@ -41,7 +41,7 @@ hidden: false
 - [Clover Cube](/cube/method/hexahedron/clover/clover_cube)
 - [Clover Plus](/cube/method/hexahedron/clover/clover_plus)
 - [Master Clover Cube](/cube/method/hexahedron/clover/master_clover_cube)
-- [Clover Square / Sunflower Cube](/cube/method/hexahedron/clover/clover_square_sunflower_cube)
+- [Clover Square (Sunflower Cube)](/cube/method/hexahedron/clover/clover_square_sunflower_cube)
 
 
 
@@ -66,4 +66,4 @@ hidden: false
 - [Pentacle Cube](/cube/method/hexahedron/hybrid/pentacle_cube)
 - [Coin Cube](/cube/method/hexahedron/hybrid/coin_cube)
 - [Polaris Cube](/cube/method/hexahedron/hybrid/polaris_cube)
-- [Butterflower / Shell](/cube/method/hexahedron/hybrid/butterflower_shell)
+- [Butterflower (Shell)](/cube/method/hexahedron/hybrid/butterflower_shell)

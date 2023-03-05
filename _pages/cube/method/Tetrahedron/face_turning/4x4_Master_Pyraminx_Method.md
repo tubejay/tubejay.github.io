@@ -19,13 +19,13 @@ hidden: false
 
 ## Inner Edge
 
-- [3x3 Pyraminx](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
+- [3x3 Pyraminx / Method](/cube/method/tetrahedron/face_turning/3x3_pyraminx/method)
 
 
 
 ## Center
 
-- [2x2 Jing Pyraminx](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx)
+- [2x2 Jing Pyraminx / Method](/cube/method/tetrahedron/face_turning/2x2_jing_pyraminx/method)
 
 
 

@@ -32,5 +32,5 @@ hidden: false
 
 ## Corner Turning
 
-- [Rob's Pyraminx / Pyraminx Duo](/cube/method/tetrahedron/corner_turning/robs_pyraminx_pyraminx_duo)
+- [Rob's Pyraminx (Pyraminx Duo)](/cube/method/tetrahedron/corner_turning/robs_pyraminx_pyraminx_duo)
 - [Coin Tetrahedron](/cube/method/tetrahedron/corner_turning/coin_tetrahedron)

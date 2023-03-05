@@ -19,7 +19,7 @@ hidden: false
 
 ## Edge
 
-- [3x3 Pyraminx](/cube/method/tetrahedron/face_turning/3x3_pyraminx)
+- [3x3 Pyraminx / Method](/cube/method/tetrahedron/face_turning/3x3_pyraminx/method)
 
 
 
