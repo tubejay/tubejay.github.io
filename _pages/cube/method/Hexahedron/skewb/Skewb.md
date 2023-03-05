@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [아이엠준](https://youtu.be/5R3sU-_bMAI)
-- [굿맨](https://youtu.be/2a594D-GrVs)
+## [Method](/cube/method/hexahedron/skewb/skewb/method)

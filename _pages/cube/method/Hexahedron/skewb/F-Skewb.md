@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/UslhG5CHgtE)
-- [투마이](https://youtu.be/rDosGPGV2Bk)
+## [Method](/cube/method/hexahedron/skewb/F-skewb/method)
