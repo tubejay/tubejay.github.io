@@ -20,10 +20,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/cWs-br6QgM8>
+## [Method](/cube/method/hexahedron/clover/master_clover_cube/method)

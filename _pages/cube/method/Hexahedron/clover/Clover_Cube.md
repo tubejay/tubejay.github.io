@@ -21,12 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/aLxuKQLSemU)
-- [굿맨](https://youtu.be/7XRhb3y1Z5o)
-- [큐브놀이터](https://youtu.be/2F3w37kBxQA)
+## [Method](/cube/method/hexahedron/clover/clover_cube/method)

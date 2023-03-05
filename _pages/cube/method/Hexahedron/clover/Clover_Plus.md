@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/hurdVh7nxZY)
-- [굿맨](https://youtu.be/gfVEHmBB55A)
+## [Method](/cube/method/hexahedron/clover/clover_plus/method)

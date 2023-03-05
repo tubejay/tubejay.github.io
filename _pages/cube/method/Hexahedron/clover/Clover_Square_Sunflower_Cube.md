@@ -21,10 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- <https://youtu.be/pQza1P5Ujj8>
+## [Method](/cube/method/hexahedron/clover/clover_square_sunflower_cube/method)
