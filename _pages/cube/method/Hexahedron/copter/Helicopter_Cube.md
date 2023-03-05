@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/xZeIbPySg0k)
-- <https://youtu.be/RydUtIlMzVk>
+## [Method](/cube/method/hexahedron/copter/helicopter_cube/method)

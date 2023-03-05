@@ -21,11 +21,4 @@ hidden: false
 
 
 
-## Method
-
-
-
-## Reference
-
-- [듀나메스](https://youtu.be/D9plniIP65U)
-- <https://youtu.be/RydUtIlMzVk>
+## [Method](/cube/method/hexahedron/copter/curvy_copter/method)
