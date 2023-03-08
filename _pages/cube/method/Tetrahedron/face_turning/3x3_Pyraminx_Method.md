@@ -11,7 +11,7 @@ hidden: false
 	<base target="_blank">
 	<style>
 		img {
-			max-width: 200px;
+			max-width: 300px;
 		}
 		.img-wrapper {
 			margin: 20px 0px;
