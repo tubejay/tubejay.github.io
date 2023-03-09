@@ -13,11 +13,28 @@ hidden: false
 
 
 
-## Method
+## Edge
+
+- [Dino Cube / Method](/cube/method/hexahedron/corner_turning/dino_cube/method)
+
+
+
+## Center
+
+- [Ivy Cube (Eye Skewb) / Method / Center](/cube/method/hexahedron/ivy/ivy_cube_eye_skewb/method#center)
+
+
+
+## Corner
+
+- Swap 4 Corners
+  - ( R L' R' L ) ( D' L D L' )
+  - Right Face : Upper Left & Lower Right
+  - Left Face : Upper Right & Lower Left
 
 
 
 ## Reference
 
-- [듀나메스](https://youtu.be/8Bvd76rHrB4)
-- [굿맨](https://youtu.be/NlHNk633sm4)
+- [듀나메스](https://youtu.be/B3ftZzHRQyU)
+- [굿맨](https://youtu.be/NmPq2lQj6PM)

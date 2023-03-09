@@ -13,7 +13,15 @@ hidden: false
 
 
 
-## Method
+## Corner
+
+
+
+## Center
+
+- Permute 3 Centers
+  - Clockwise : ( L' R ) ( L R' )
+  - Counterclockwise : ( R L' ) ( R' L )
 
 
 
