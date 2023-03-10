@@ -25,9 +25,9 @@ hidden: false
 
 
 
-## Corner
+## Petal
 
-- Swap 4 Corners
+- Swap 4 Petals
   - ( R L' R' L ) ( D' L D L' )
   - Right Face : Upper Left & Lower Right
   - Left Face : Upper Right & Lower Left
