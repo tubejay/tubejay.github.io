@@ -30,4 +30,5 @@ hidden: false
   - [intermediate](https://youtu.be/e5BqiNnKWp4)
   - [advanced](https://youtu.be/HhfVdfthMb4)
   - [expert](https://youtu.be/dNyAtURRjiQ)
+- [Bearded Cubing 101](https://youtu.be/Jiuf7zQyPYI)
 - [정유비](https://youtu.be/4pz60TlYRkA)

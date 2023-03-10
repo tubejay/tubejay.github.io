@@ -20,7 +20,11 @@ hidden: false
 ## Reference
 
 - 정유비
-  - <https://youtu.be/yCfTTSAZq2k>
-  - <https://youtu.be/6-rRpliZVKs>
-  - <https://youtu.be/I1vG0ete2ZA>
+  - [Part 1 of 3](https://youtu.be/yCfTTSAZq2k)
+  - [Part 2 of 3](https://youtu.be/6-rRpliZVKs)
+  - [Part 3 of 3](https://youtu.be/I1vG0ete2ZA)
+- Bearded Cubing 101
+  - [Part 1 of 3](https://youtu.be/_oss6N9IgS0)
+  - [Part 2 of 3](https://youtu.be/4gwojARtnLw)
+  - [Part 3 of 3](https://youtu.be/IwCgwIbqPMQ)
 - <https://youtu.be/8FKmS4NsNUc>

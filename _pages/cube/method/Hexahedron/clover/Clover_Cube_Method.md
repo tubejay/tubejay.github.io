@@ -20,5 +20,4 @@ hidden: false
 ## Reference
 
 - [듀나메스](https://youtu.be/aLxuKQLSemU)
-- [굿맨](https://youtu.be/7XRhb3y1Z5o)
-- [큐브놀이터](https://youtu.be/2F3w37kBxQA)
+- [Bearded Cubing 101](https://youtu.be/1XAsib2WW0k)

@@ -20,4 +20,4 @@ hidden: false
 ## Reference
 
 - [듀나메스](https://youtu.be/eDIeMOeiqUg)
-- [투마이](https://youtu.be/ojHWRDLQmL4)
+- [Bearded Cubing 101](https://youtu.be/s8B3iI0GxW0)

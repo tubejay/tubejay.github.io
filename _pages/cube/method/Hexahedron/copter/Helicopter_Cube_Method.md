@@ -20,4 +20,5 @@ hidden: false
 ## Reference
 
 - [듀나메스](https://youtu.be/xZeIbPySg0k)
+- [Bearded Cubing 101](https://youtu.be/-suwJpd_PO8)
 - <https://youtu.be/RydUtIlMzVk>

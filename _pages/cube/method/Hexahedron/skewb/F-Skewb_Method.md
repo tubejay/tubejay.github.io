@@ -21,3 +21,4 @@ hidden: false
 
 - [듀나메스](https://youtu.be/UslhG5CHgtE)
 - [투마이](https://youtu.be/rDosGPGV2Bk)
+- [Bearded Cubing 101](https://youtu.be/xJXssY6tDRQ)
