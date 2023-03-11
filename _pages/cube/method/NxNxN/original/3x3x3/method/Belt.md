@@ -31,7 +31,7 @@ hidden: false
 
 - [3x3x3 / 2-Look OLL / OCLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/ocll)
 
-#### [3x3x3 / Belt / OFL Parity](/cube/method/NxNxN/original/3x3x3/belt/ofl_parity) {#ofl-parity}
+#### [Parity](/cube/method/NxNxN/original/3x3x3/belt/ofl/parity) {#ofl-parity}
 
 - Clockwise
 - Counterclockwise
@@ -40,7 +40,7 @@ hidden: false
 
 - [3x3x3 / 2-Look PLL](/cube/method/NxNxN/original/3x3x3/2_look_pll) or [3x3x3 / Full PLL](/cube/method/NxNxN/original/3x3x3/full_pll)
 
-#### [3x3x3 / Belt / PFL Parity](/cube/method/NxNxN/original/3x3x3/belt/pfl_parity) {#pfl-parity}
+#### [Parity](/cube/method/NxNxN/original/3x3x3/belt/pfl/parity) {#pfl-parity}
 
 - Opposite Edges
 

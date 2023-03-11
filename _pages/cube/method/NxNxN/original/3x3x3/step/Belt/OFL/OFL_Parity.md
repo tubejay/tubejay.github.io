@@ -1,8 +1,8 @@
 ---
-title: "3x3x3 / Belt / OFL Parity"
+title: "3x3x3 / Belt / OFL / Parity"
 layout: single
 toc: true
-permalink: /cube/method/NxNxN/original/3x3x3/belt/ofl_parity
+permalink: /cube/method/NxNxN/original/3x3x3/belt/ofl/parity
 published: true
 hidden: false
 ---
