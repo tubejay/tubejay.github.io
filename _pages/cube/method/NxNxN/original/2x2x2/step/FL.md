@@ -14,7 +14,7 @@ hidden: false
       margin        : 20px 0px;
     }
     twisty-player {
-      visualization : "PG3D"
+      visualization : "3D"
       background    : "checkered-transparent";
       hint-facelets : "floating";
       width         : 300px;
