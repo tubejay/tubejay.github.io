@@ -24,7 +24,7 @@ hidden: false
 ## Center
 
 - Open Corner
-- [Skewb / Center](/cube/method/hexahedron/skewb/skewb/method#c)
+- [Skewb / Center](/cube/method/hexahedron/skewb/skewb/method#center)
 - Close Corner
 
 
