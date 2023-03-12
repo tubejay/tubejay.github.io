@@ -10,10 +10,22 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width: 200px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 200px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -26,26 +38,40 @@ hidden: false
 
 - Yellow on U Face
   - 2 Corners
-
-    <a href="https://alpha.twizzle.net/edit/?puzzle=skewb&setup-anchor=end&alg=F%27+D+F+D%27&setup-alg=x%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ay%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ay%27+x2%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ax2+y%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ay%27">
-      <img src="https://user-images.githubusercontent.com/92285528/224534413-4ae7d50f-73a9-440e-b36b-d82fe2d461ac.png">
-    </a>
-
+    <div class="twisty-wrapper">
+      <twisty-player
+        puzzle                    = "Skewb"
+        experimental-stickering   = "full"
+        alg                       = "F' D F D'"
+        experimental-setup-alg    = "x F' D F D' z2 F' D F D' z2 y F' D F D' z2 F' D F D' z2 y' x2 F' D F D' z2 F' D F D' z2 x2 y F' D F D' z2 F' D F D' z2 y'"
+        experimental-setup-anchor = "end"
+      ></twisty-player>
+    </div>
   - 0 Corners
-
-    <a href="https://alpha.twizzle.net/edit/?puzzle=skewb&setup-anchor=end&alg=F%27+D+F+D%27+z+F%27+D+F+D%27&setup-alg=x%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ay%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ay%27+x2%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ax2+y%0AF%27+D+F+D%27+z2+F%27+D+F+D%27+z2%0Ay%27">
-      <img src="https://user-images.githubusercontent.com/92285528/224534462-f0f77259-0274-4c37-88c6-ccbea4f366e1.png">
-    </a>
+    <div class="twisty-wrapper">
+      <twisty-player
+        puzzle                    = "Skewb"
+        experimental-stickering   = "full"
+        alg                       = "F' D F D' z F' D F D'"
+        experimental-setup-alg    = "x F' D F D' z2 F' D F D' z2 y F' D F D' z2 F' D F D' z2 y' x2 F' D F D' z2 F' D F D' z2 x2 y F' D F D' z2 F' D F D' z2 y'"
+        experimental-setup-anchor = "end"
+      ></twisty-player>
+    </div>
 
 
 
 ## Center
 
 - Permute 3 Centers
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=skewb&setup-anchor=end&setup-alg=F%27+D+F+D%27+z2+F%27+D+F+D%27%0Ax2+z%0AF%27+D+F+D%27+z2+F%27+D+F+D%27%0Az+y%0AF%27+D+F+D%27+z2+F%27+D+F+D%27%0Az+y+x2&alg=F%27+D+F+D%27+z2+F%27+D+F+D%27+z2">
-    <img src="https://user-images.githubusercontent.com/92285528/224534497-177a6506-d33e-4b24-898f-32261225e2e6.png">
-  </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "Skewb"
+      experimental-stickering   = "full"
+      alg                       = "F' D F D' z2 F' D F D' z2"
+      experimental-setup-alg    = "F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x2"
+      experimental-setup-anchor = "end"
+    ></twisty-player>
+  </div>
 
 
 
