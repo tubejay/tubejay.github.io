@@ -21,10 +21,6 @@ hidden: false
       hint-facelets : "floating";
       width         : 300px;
       height        : 200px;
-      puzzle                    : "2x2x2"
-      experimental-stickering   : "F2L"
-      experimental-setup-alg    : ""
-      experimental-setup-anchor : "end"
     }
   </style>
   <script src="https://cdn.cubing.net/js/cubing/twisty" type="module" defer>
@@ -36,8 +32,13 @@ hidden: false
 ## White Not on U Face
 
 - Right : R U R'
-  <twisty-player alg="R U R'">
-  </twisty-player>
+  <twisty-player
+    puzzle="2x2x2"
+    experimental-stickering="F2L"
+    alg="R U R'"
+    experimental-setup-alg=""
+    experimental-setup-anchor="end"
+  ></twisty-player>
 - Left : F' U' F
   <div class="img-wrapper">
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=F2L&alg=F%27+U%27+F">
