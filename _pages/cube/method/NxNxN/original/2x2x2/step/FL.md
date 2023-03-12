@@ -19,7 +19,7 @@ hidden: false
     twisty-player {
       background="checkered-transparent"
       hint-facelets="floating"
-      height:200px;
+      height:150px;
     }
   </style>
   <script src="https://cdn.cubing.net/js/cubing/twisty" type="module" defer>
