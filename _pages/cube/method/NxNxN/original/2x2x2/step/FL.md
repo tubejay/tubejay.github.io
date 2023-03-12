@@ -16,6 +16,11 @@ hidden: false
     .img-wrapper {
       margin: 20px 0px;
     }
+    twisty-player {
+      background="checkered-transparent"
+      hint-facelets="floating"
+      max-width:150px;
+    }
   </style>
   <script src="https://cdn.cubing.net/js/cubing/twisty" type="module" defer>
   </script>
@@ -28,8 +33,6 @@ hidden: false
 <twisty-player
   puzzle="2x2x2"
   experimental-stickering="F2L"
-  background="checkered-transparent"
-  hint-facelets="floating"
   experimental-setup-alg=""
   alg="R U R'"
   experimental-setup-anchor="end"
