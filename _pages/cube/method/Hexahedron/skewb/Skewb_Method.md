@@ -40,7 +40,7 @@ hidden: false
   - 2 Corners
     <div class="twisty-wrapper">
       <twisty-player
-        puzzle                    = "Skewb"
+        puzzle                    = "skewb"
         experimental-stickering   = "full"
         alg                       = "F' D F D'"
         experimental-setup-alg    = "x F' D F D' z2 F' D F D' z2 y F' D F D' z2 F' D F D' z2 y' x2 F' D F D' z2 F' D F D' z2 x2 y F' D F D' z2 F' D F D' z2 y'"
@@ -50,7 +50,7 @@ hidden: false
   - 0 Corners
     <div class="twisty-wrapper">
       <twisty-player
-        puzzle                    = "Skewb"
+        puzzle                    = "skewb"
         experimental-stickering   = "full"
         alg                       = "F' D F D' z F' D F D'"
         experimental-setup-alg    = "x F' D F D' z2 F' D F D' z2 y F' D F D' z2 F' D F D' z2 y' x2 F' D F D' z2 F' D F D' z2 x2 y F' D F D' z2 F' D F D' z2 y'"
@@ -65,7 +65,7 @@ hidden: false
 - Permute 3 Centers
   <div class="twisty-wrapper">
     <twisty-player
-      puzzle                    = "Skewb"
+      puzzle                    = "skewb"
       experimental-stickering   = "full"
       alg                       = "F' D F D' z2 F' D F D' z2"
       experimental-setup-alg    = "F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x2"
