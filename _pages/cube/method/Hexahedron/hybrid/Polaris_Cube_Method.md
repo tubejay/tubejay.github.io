@@ -13,7 +13,27 @@ hidden: false
 
 
 
-## Method
+## Corner
+
+- Open Corner
+- [Skewb / Corner](/cube/method/hexahedron/skewb/skewb/method#corner)
+- Close Corner
+
+
+
+## Center
+
+- Open Corner
+- [Skewb / Center](/cube/method/hexahedron/skewb/skewb/method#c)
+- Close Corner
+
+
+
+## Edge
+
+- Open Corner
+- Move Edge
+- Close Corner
 
 
 
