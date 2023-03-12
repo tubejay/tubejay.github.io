@@ -62,7 +62,7 @@ hidden: false
   - [Alg](https://alg.cubing.net/)
   - cubing.js
     - [info](https://js.cubing.net/cubing/twisty/)
-    - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html
+    - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html)
 
 ### Notation
 
