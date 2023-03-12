@@ -19,7 +19,7 @@ hidden: false
     twisty-player {
       background    : "checkered-transparent";
       hint-facelets : "floating";
-      width         : 150px;
+      width         : 200px;
       height        : 200px;
     }
   </style>
