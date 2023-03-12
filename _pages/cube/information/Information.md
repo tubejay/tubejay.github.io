@@ -15,7 +15,7 @@ hidden: false
 
 ## Reference
 
-### website
+### Website
 
 - [Twisty Puzzles](https://www.twistypuzzles.com/)
 - [Ruwix](https://ruwix.com/)
@@ -44,7 +44,27 @@ hidden: false
 
 ## Solution
 
-### notation
+### Method
+
+- [Speed Cube DB - Algorithms](https://speedcubedb.com/a/3x3)
+- [Ruwix - Rubik's Cube Algorithms](https://ruwix.com/the-rubiks-cube/algorithm/)
+- [Speedsolving Wiki - List of methods](https://www.speedsolving.com/wiki/index.php/List_of_methods)
+- [AlgDb - Puzzles](http://algdb.net/)
+- [CubeSkills - Tutorials](https://www.cubeskills.com/tutorials)
+
+### Animation
+
+- [Ruwix - 3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)
+- cubing.net
+  - [Twizzle](https://alpha.twizzle.net/)
+    - [Editor](https://alpha.twizzle.net/edit/)
+    - [Explorer](https://alpha.twizzle.net/explore/)
+  - [Alg](https://alg.cubing.net/)
+  - cubing.js
+    - [info](https://js.cubing.net/cubing/twisty/)
+    - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html
+
+### Notation
 
 - [Speedsolving Wiki - Puzzle notations](https://www.speedsolving.com/wiki/index.php/Category:Puzzle_notations)
 - [Ruwix - Advanced Rubik's Cube notation](https://ruwix.com/the-rubiks-cube/notation/advanced/)
@@ -55,33 +75,16 @@ hidden: false
   - [큐브 용어들](https://youtu.be/iF8TqcpMs9w)
 - [vincent - 명칭과 기호](https://m.blog.naver.com/vincentcube?categoryName=%EB%AA%85%EC%B9%AD%EA%B3%BC%20%EA%B8%B0%ED%98%B8&categoryNo=10)
 
-### animation
-
-- [Ruwix - 3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)
-- cubing.net
-  - [Twizzle](https://alpha.twizzle.net/)
-    - [Editor](https://alpha.twizzle.net/edit/)
-    - [Explorer](https://alpha.twizzle.net/explore/)
-  - [Alg](https://alg.cubing.net/)
-
-### method
-
-- [Speed Cube DB - Algorithms](https://speedcubedb.com/a/3x3)
-- [Ruwix - Rubik's Cube Algorithms](https://ruwix.com/the-rubiks-cube/algorithm/)
-- [Speedsolving Wiki - List of methods](https://www.speedsolving.com/wiki/index.php/List_of_methods)
-- [AlgDb - Puzzles](http://algdb.net/)
-- [CubeSkills - Tutorials](https://www.cubeskills.com/tutorials)
-
 
 
 ## Puzzle
 
-### type
+### Type
 
 - [Twisty Puzzles - Museum](https://www.twistypuzzles.com/app/museum/museum_search.php)
 - [Ruwix - Twisty Puzzles](https://ruwix.com/twisty-puzzles/)
 
-### buy
+### Buy
 
 - [큐브난나](https://naver.me/GOuMpvlz)
 - [큐브릭샵](https://naver.me/GEQma8JB)
