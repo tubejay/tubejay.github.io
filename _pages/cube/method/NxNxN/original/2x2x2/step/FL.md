@@ -14,6 +14,7 @@ hidden: false
       margin        : 20px 0px;
     }
     twisty-player {
+      visualization : "PG3D"
       background    : "checkered-transparent";
       hint-facelets : "floating";
       width         : 300px;
@@ -56,12 +57,12 @@ hidden: false
 
 ## White on U Face
 
-- Right : ( R U’ R’ U ) ( F’ U F )
+- Right : ( R U' R' U ) ( F' U F )
   <div class="twisty-wrapper">
     <twisty-player
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
-      alg                       = "R U’ R’ U F’ U F"
+      alg                       = "R U' R' U F' U F"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
     ></twisty-player>
