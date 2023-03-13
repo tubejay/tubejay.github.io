@@ -52,6 +52,7 @@ hidden: false
           alg                             = "UFL UFR' UFL' UFR"
           experimental-setup-alg          = "Fv2"
           experimental-setup-anchor       = "end"
+          viewer-link                     = "experimental-twizzle-explorer"
         ></twisty-player>
       </div>
     - Left : ( R' L ) ( R L' )
@@ -64,6 +65,7 @@ hidden: false
           alg                             = "UFR' UFL UFR UFL'"
           experimental-setup-alg          = "Fv2"
           experimental-setup-anchor       = "end"
+          viewer-link                     = "experimental-twizzle-explorer"
         ></twisty-player>
       </div>
   - 4 Yellow : (2 Yellow / Left) U' (2 Yellow / Left)
@@ -76,6 +78,7 @@ hidden: false
         alg                             = "UFR' UFL UFR UFL' Uv' UFR' UFL UFR UFL'"
         experimental-setup-alg          = "Fv2"
         experimental-setup-anchor       = "end"
+        viewer-link                     = "experimental-twizzle-explorer"
       ></twisty-player>
     </div>
   - 0 Yellow : (2 Yellow / Left) U (2 Yellow / Left)
@@ -88,6 +91,7 @@ hidden: false
         alg                             = "UFR' UFL UFR UFL' Uv UFR' UFL UFR UFL'"
         experimental-setup-alg          = "Fv2"
         experimental-setup-anchor       = "end"
+        viewer-link                     = "experimental-twizzle-explorer"
       ></twisty-player>
     </div>
 
