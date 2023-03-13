@@ -63,6 +63,7 @@ hidden: false
   - cubing.js
     - [info](https://js.cubing.net/cubing/twisty/)
     - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html)
+    - [API](https://js.cubing.net/cubing/api/)
 
 ### Notation
 
