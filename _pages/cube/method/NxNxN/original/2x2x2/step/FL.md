@@ -51,7 +51,7 @@ hidden: false
       alg                       = "F' U' F"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = 1.3
+      tempo-scale               = "1.3"
     ></twisty-player>
   </div>
 
@@ -67,7 +67,7 @@ hidden: false
       alg                       = "R U' R' U F' U F"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = 1.3
+      tempo-scale               = "1.3"
     ></twisty-player>
   </div>
 - Left : ( F' U F U' ) ( R U' R' )
@@ -78,7 +78,7 @@ hidden: false
       alg                       = "F' U F U' R U' R'"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = 1.3
+      tempo-scale               = "1.3"
     ></twisty-player>
   </div>
 

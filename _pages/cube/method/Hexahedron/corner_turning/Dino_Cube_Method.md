@@ -52,7 +52,7 @@ hidden: false
           alg                             = "UFL UFR' UFL' UFR"
           experimental-setup-alg          = "Fv2"
           experimental-setup-anchor       = "end"
-          tempo-scale                     = 1.3
+          tempo-scale                     = "1.3"
           viewer-link                     = "experimental-twizzle-explorer"
         ></twisty-player>
       </div>
@@ -66,7 +66,7 @@ hidden: false
           alg                             = "UFR' UFL UFR UFL'"
           experimental-setup-alg          = "Fv2"
           experimental-setup-anchor       = "end"
-          tempo-scale                     = 1.3
+          tempo-scale                     = "1.3"
           viewer-link                     = "experimental-twizzle-explorer"
         ></twisty-player>
       </div>
@@ -80,7 +80,7 @@ hidden: false
         alg                             = "UFR' UFL UFR UFL' Uv' UFR' UFL UFR UFL'"
         experimental-setup-alg          = "Fv2"
         experimental-setup-anchor       = "end"
-        tempo-scale                     = 1.3
+        tempo-scale                     = "1.3"
         viewer-link                     = "experimental-twizzle-explorer"
       ></twisty-player>
     </div>
@@ -94,7 +94,7 @@ hidden: false
         alg                             = "UFR' UFL UFR UFL' Uv UFR' UFL UFR UFL'"
         experimental-setup-alg          = "Fv2"
         experimental-setup-anchor       = "end"
-        tempo-scale                     = 1.3
+        tempo-scale                     = "1.3"
         viewer-link                     = "experimental-twizzle-explorer"
       ></twisty-player>
     </div>
