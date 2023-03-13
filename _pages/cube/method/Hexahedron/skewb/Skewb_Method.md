@@ -42,8 +42,8 @@ hidden: false
       <twisty-player
         puzzle                    = "skewb"
         experimental-stickering   = "full"
-        alg                       = "F' D F D'"
-        experimental-setup-alg    = "x F' D F D' z2 F' D F D' z2 y F' D F D' z2 F' D F D' z2 y' x2 F' D F D' z2 F' D F D' z2 x2 y F' D F D' z2 F' D F D' z2 y'"
+        alg                       = "F' UL F UL' y F' UL F UL'"
+        experimental-setup-alg    = "z2"
         experimental-setup-anchor = "end"
       ></twisty-player>
     </div>
