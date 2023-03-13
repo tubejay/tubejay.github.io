@@ -65,19 +65,8 @@ hidden: false
         experimental-setup-anchor       = "end"
       ></twisty-player>
     </div>
-- 4 Yellow on U Face : (2 Yellow on U Face) x 2
-  <div class="twisty-wrapper">
-    <twisty-player
-      experimental-puzzle-description = "c v 0.577350269189626"
-      camera-latitude                 = 45
-      camera-longitude                = 30
-      experimental-stickering         = "full"
-      alg                             = "UFL UFR' UFL' UFR UFL UFR' UFL' UFR"
-      experimental-setup-alg          = "UBRv UFLv'"
-      experimental-setup-anchor       = "end"
-    ></twisty-player>
-  </div>
-- 0 Yellow on U Face : (2 Yellow on U Face) x 2
+- 4 Yellow on U Face : 
+- 0 Yellow on U Face : 
 
 
 
