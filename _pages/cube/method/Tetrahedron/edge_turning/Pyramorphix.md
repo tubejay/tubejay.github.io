@@ -48,8 +48,8 @@ hidden: false
     camera-latitude                 = 30
     camera-longitude                = 0
     experimental-stickering         = "full"
-    alg                             = "FR LR FL FR"
-    experimental-setup-alg          = ""
+    alg                             = ""
+    experimental-setup-alg          = "FR LR FL FR"
     experimental-setup-anchor       = "start"
     tempo-scale                     = "1.3"
     viewer-link                     = "experimental-twizzle-explorer"
