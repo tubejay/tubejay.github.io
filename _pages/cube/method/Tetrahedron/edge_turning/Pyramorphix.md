@@ -18,7 +18,7 @@ hidden: false
       background    : "checkered-transparent";
       hint-facelets : "floating";
       width         : 300px;
-      height        : 250px;
+      height        : 200px;
     }
   </style>
   <script
