@@ -9,6 +9,23 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <style>
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 250px;
+    }
+  </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -24,6 +41,20 @@ hidden: false
 ## Method
 
 - [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
+
+<div class="twisty-wrapper">
+  <twisty-player
+    experimental-puzzle-description = "t e 0"
+    camera-latitude                 = 30
+    camera-longitude                = 0
+    experimental-stickering         = "full"
+    alg                             = "FR LR FL FR"
+    experimental-setup-alg          = ""
+    experimental-setup-anchor       = "start"
+    tempo-scale                     = "1.3"
+    viewer-link                     = "experimental-twizzle-explorer"
+  ></twisty-player>
+</div>
 
 
 
