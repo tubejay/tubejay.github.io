@@ -67,6 +67,7 @@ hidden: false
       ></twisty-player>
     </div>
 - 4 Yellow : (2 Yellow / Left) U' (2 Yellow / Left)
+  <div class="twisty-wrapper">
     <twisty-player
       experimental-puzzle-description = "c v 0.577350269189626"
       camera-latitude                 = 45
@@ -78,6 +79,7 @@ hidden: false
     ></twisty-player>
   </div>
 - 0 Yellow : (2 Yellow / Left) U (2 Yellow / Left)
+  <div class="twisty-wrapper">
     <twisty-player
       experimental-puzzle-description = "c v 0.577350269189626"
       camera-latitude                 = 45
