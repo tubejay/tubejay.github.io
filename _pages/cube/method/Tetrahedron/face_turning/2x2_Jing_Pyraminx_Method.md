@@ -55,6 +55,7 @@ hidden: false
         alg                             = "R' L R L' B L R' L' R B'"
         experimental-setup-alg          = ""
         experimental-setup-anchor       = "end"
+        viewer-link                     = "experimental-twizzle-explorer"
       ></twisty-player>
     </div>
 
