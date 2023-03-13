@@ -19,11 +19,7 @@ hidden: false
 
 ## Edge
 
-### First Layer
-
-### Middle Layer
-
-### Last Layer
+- Permute 3 Edges : ( X Y ) ( X' Y' )
 
 
 
