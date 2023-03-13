@@ -31,6 +31,8 @@ hidden: false
 
 ## Outer Edge
 
+- Permute 3 Outer Edges : ( X Y ) ( X' Y' )
+
 
 
 ## Reference
