@@ -43,7 +43,7 @@ hidden: false
         puzzle                    = "skewb"
         experimental-stickering   = "full"
         alg                       = "F' UL F UL' y F' UL F UL'"
-        experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x2"
+        experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
         experimental-setup-anchor = "end"
       ></twisty-player>
     </div>
@@ -53,7 +53,7 @@ hidden: false
         puzzle                    = "skewb"
         experimental-stickering   = "full"
         alg                       = "F' UL F UL'"
-        experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x2"
+        experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
         experimental-setup-anchor = "end"
       ></twisty-player>
     </div>
@@ -68,7 +68,7 @@ hidden: false
       puzzle                    = "skewb"
       experimental-stickering   = "full"
       alg                       = "F' UL F UL' y2 F' UL F UL' y2"
-      experimental-setup-alg    = "F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x2"
+      experimental-setup-alg    = "F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
       experimental-setup-anchor = "end"
     ></twisty-player>
   </div>
