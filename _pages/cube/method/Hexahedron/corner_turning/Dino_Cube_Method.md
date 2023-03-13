@@ -9,6 +9,23 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <style>
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 200px;
+    }
+  </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -25,6 +42,15 @@ hidden: false
 
 - 2 Yellow on U Face : Correct Back Edge & Incorrect Side Edge
   - Right : ( L R' ) ( L' R )
+    <twisty-player
+      experimental-puzzle-description = "c v 0.577350269189626"
+      camera-latitude                 = 45
+      camera-longitude                = 30
+      experimental-stickering         = "full"
+      alg                             = "UFL UFR' UFL' UFR"
+      experimental-setup-alg          = "UBRv UFLv'"
+      experimental-setup-anchor       = "end"
+    ></twisty-player>
   - Left : ( R' L ) ( R L' )
 - 4 Yellow on U Face : (2 Yellow on U Face) x 2
 - 0 Yellow on U Face : (2 Yellow on U Face) x 2
