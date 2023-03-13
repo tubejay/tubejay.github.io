@@ -40,7 +40,7 @@ hidden: false
       alg                       = "R U R'"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = 1.3
+      tempo-scale               = "1.3"
     ></twisty-player>
   </div>
 - Left : F' U' F
