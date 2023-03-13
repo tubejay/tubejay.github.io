@@ -47,6 +47,7 @@ hidden: false
         alg                       = "R' L R L'"
         experimental-setup-alg    = ""
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
   - from Front Left : ( L R' ) ( L' R )
@@ -57,6 +58,7 @@ hidden: false
         alg                       = "L R' L' R"
         experimental-setup-alg    = ""
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
 
@@ -71,6 +73,7 @@ hidden: false
         alg                       = "R' U' R U' R' U' R"
         experimental-setup-alg    = ""
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
   - Counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
@@ -81,6 +84,7 @@ hidden: false
         alg                       = "L U L' U L U L'"
         experimental-setup-alg    = ""
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
 - Flip 2 Edges : Front Left & Front Right
@@ -92,6 +96,7 @@ hidden: false
         alg                       = "R' L R L' U L' U' L"
         experimental-setup-alg    = ""
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
 

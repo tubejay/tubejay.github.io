@@ -45,6 +45,7 @@ hidden: false
         alg                       = "F' UL F UL'"
         experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
   - 2 Corners : (0 Corners) y (0 Corners)
@@ -55,6 +56,7 @@ hidden: false
         alg                       = "F' UL F UL' y F' UL F UL'"
         experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
         experimental-setup-anchor = "end"
+        tempo-scale               = 1.3
       ></twisty-player>
     </div>
 
@@ -71,6 +73,7 @@ hidden: false
       alg                       = "F' UL F UL' y2 F' UL F UL'"
       experimental-setup-alg    = "F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
       experimental-setup-anchor = "end"
+      tempo-scale               = 1.3
     ></twisty-player>
   </div>
 
