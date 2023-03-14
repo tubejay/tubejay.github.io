@@ -42,19 +42,19 @@ hidden: false
 
 - [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
 
-<div class="twisty-wrapper">
-  <twisty-player
-    experimental-puzzle-description = "t e 0"
-    camera-latitude                 = 30
-    camera-longitude                = 0
-    experimental-stickering         = "full"
-    alg                             = ""
-    experimental-setup-alg          = "FR LR FL FR"
-    experimental-setup-anchor       = "start"
-    tempo-scale                     = "1.3"
-    viewer-link                     = "experimental-twizzle-explorer"
-  ></twisty-player>
-</div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      experimental-puzzle-description = "t e 0"
+      camera-latitude                 = 30
+      camera-longitude                = 0
+      experimental-stickering         = "full"
+      alg                             = ""
+      experimental-setup-alg          = "FR LR FL FR"
+      experimental-setup-anchor       = "start"
+      tempo-scale                     = "1.3"
+      viewer-link                     = "experimental-twizzle-explorer"
+    ></twisty-player>
+  </div>
 
 
 
