@@ -16,7 +16,22 @@ hidden: false
     .img-wrapper {
       margin: 20px 0px;
     }
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 200px;
+    }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -31,6 +46,16 @@ hidden: false
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=L+U+L%27+U+L+U2+L%27">
       <img src="https://user-images.githubusercontent.com/92285528/215315964-8aeb06d1-4510-4986-9b84-9304cdc630b2.png">
     </a>
+  </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "L U L' U L U2 L'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
