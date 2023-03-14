@@ -9,6 +9,23 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <style>
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 300px;
+    }
+  </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -32,6 +49,17 @@ hidden: false
 ## Outer Edge
 
 - Permute 3 Outer Edges : ( X Y ) ( X' Y' )
+
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "master_tetraminx"
+    experimental-stickering   = "full"
+    alg                       = "U' r U r'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 
 
