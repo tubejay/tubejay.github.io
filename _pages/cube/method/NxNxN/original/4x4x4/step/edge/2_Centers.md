@@ -10,9 +10,6 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width: 250px;
-    }
     .twisty-wrapper {
       margin        : 20px 0px;
     }
@@ -35,9 +32,6 @@ hidden: false
 
 ## Pair
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2&alg=F2+2R%27">
-  <img src="https://user-images.githubusercontent.com/92285528/221238706-72295b34-4fe7-42b5-8201-9eb42adc4ac4.png">
-</a>
 <div class="twisty-wrapper">
   <twisty-player
     puzzle                    = "4x4x4"
@@ -53,9 +47,6 @@ hidden: false
 
 ## Cross Edges
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2+U2+2L+F%27&alg=R%27+F+2L2+F">
-  <img src="https://user-images.githubusercontent.com/92285528/221237786-4447de20-5c67-444d-beb2-31df0a00292f.png">
-</a>
 <div class="twisty-wrapper">
   <twisty-player
     puzzle                    = "4x4x4"
