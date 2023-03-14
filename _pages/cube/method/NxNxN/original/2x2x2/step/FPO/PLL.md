@@ -45,7 +45,7 @@ hidden: false
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "U' L' U R U' L U R'"
-      experimental-setup-alg    = ""
+      experimental-setup-alg    = "L U L' U L U2 L'"
       experimental-setup-anchor = "end"
       tempo-scale               = "1.3"
     ></twisty-player>
@@ -61,7 +61,7 @@ hidden: false
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "U R U' L' U R' U' L"
-      experimental-setup-alg    = ""
+      experimental-setup-alg    = "L U L' U L U2 L'"
       experimental-setup-anchor = "end"
       tempo-scale               = "1.3"
     ></twisty-player>
