@@ -10,11 +10,15 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:150px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
     }
-    .img-wrapper {
-      margin: 20px 0px;
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 200px;
     }
   </style>
 </head>
@@ -26,10 +30,15 @@ hidden: false
 <img src="https://www.speedsolving.com/wiki/images/c/c0/2X2X2Algos-T.jpg">
 
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
-  <div class="img-wrapper">
-    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=R+U2%27+R%27+U%27+R+U2+L%27+U+R%27+U%27+L">
-      <img src="https://user-images.githubusercontent.com/92285528/219829040-e2180ec9-91ea-475f-99a3-fb5a6aac42c0.png">
-    </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "PLL"
+      alg                       = "R U2' R' U' R U2 L' U R' U' L"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
@@ -39,10 +48,15 @@ hidden: false
 <img src="https://www.speedsolving.com/wiki/images/d/df/2X2X2Algos-Y.jpg">
 
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
-  <div class="img-wrapper">
-    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PLL&alg=F+R+U%27+R%27+U%27+R+U+R%27+F%27+R+U+R%27+U%27+R%27+F+R+F%27">
-      <img src="https://user-images.githubusercontent.com/92285528/215316575-3bec725d-ab4a-49ff-beec-76f3e268a27b.png">
-    </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "PLL"
+      alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
