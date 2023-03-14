@@ -42,17 +42,17 @@ hidden: false
 
 - [Fisher](/cube/method/NxNxN/modification/fisher)
 
-<div class="twisty-wrapper">
-  <twisty-player
-    experimental-puzzle-description = "t e 0.346184634065199"
-    camera-latitude                 = 30
-    camera-longitude                = 0
-    experimental-stickering         = "full"
-    alg                             = ""
-    experimental-setup-alg          = "FD FR FL LR RD LD FD FL FR LR LD"
-    experimental-setup-anchor       = "start"
-  ></twisty-player>
-</div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      experimental-puzzle-description = "t e 0.346184634065199"
+      camera-latitude                 = 30
+      camera-longitude                = 0
+      experimental-stickering         = "full"
+      alg                             = ""
+      experimental-setup-alg          = "FD FR FL LR RD LD FD FL FR LR LD"
+      experimental-setup-anchor       = "start"
+    ></twisty-player>
+  </div>
 
 
 
