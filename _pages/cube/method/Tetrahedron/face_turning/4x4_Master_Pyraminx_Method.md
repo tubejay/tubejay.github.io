@@ -50,16 +50,16 @@ hidden: false
 
 - Permute 3 Outer Edges : ( X Y ) ( X' Y' )
 
-<div class="twisty-wrapper">
-  <twisty-player
-    puzzle                    = "master_tetraminx"
-    experimental-stickering   = "full"
-    alg                       = "U' r U r'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
-    tempo-scale               = "1.3"
-  ></twisty-player>
-</div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "master_tetraminx"
+      experimental-stickering   = "full"
+      alg                       = "U' r U r'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
