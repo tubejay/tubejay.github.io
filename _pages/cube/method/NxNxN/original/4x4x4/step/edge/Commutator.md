@@ -13,10 +13,22 @@ hidden: false
     img {
       max-width: 250px;
     }
-    .img-wrapper {
-      margin: 20px 0px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 300px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -35,6 +47,16 @@ hidden: false
       <img src="https://user-images.githubusercontent.com/92285528/215314828-9e73dc05-51eb-4f7f-bb0d-157ae8d31cb5.png">
     </a>
   </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "4x4x4"
+      experimental-stickering   = "ELL"
+      alg                       = "2F' L' B L 2F L' B' L"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
@@ -45,6 +67,16 @@ hidden: false
     <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&stickering=ELL&alg=2F%27+U%27+L+U+L%27+2F+L+U%27+L%27+U">
       <img src="https://user-images.githubusercontent.com/92285528/215314943-0a0d0cc9-9600-4b68-b391-4e96d2a404b2.png">
     </a>
+  </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "4x4x4"
+      experimental-stickering   = "ELL"
+      alg                       = "2F' U' L U L' 2F L U' L' U"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
@@ -57,6 +89,16 @@ hidden: false
       <img src="https://user-images.githubusercontent.com/92285528/215315041-2ede679f-078a-417d-a7de-6a11b181622c.png">
     </a>
   </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "4x4x4"
+      experimental-stickering   = "ELL"
+      alg                       = "2F R B' R' 2F' R B R'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
@@ -67,4 +109,14 @@ hidden: false
     <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-anchor=end&stickering=ELL&alg=2F+U+R%27+U%27+R+2F%27+R%27+U+R+U%27">
       <img src="https://user-images.githubusercontent.com/92285528/215315065-7ef20fbb-aa09-483b-81d6-b750d5834e98.png">
     </a>
+  </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "4x4x4"
+      experimental-stickering   = "ELL"
+      alg                       = "2F U R' U' R 2F' R' U R U'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>

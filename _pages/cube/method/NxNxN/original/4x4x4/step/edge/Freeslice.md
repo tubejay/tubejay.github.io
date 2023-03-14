@@ -13,7 +13,22 @@ hidden: false
     img {
       max-width: 250px;
     }
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 300px;
+    }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -23,6 +38,16 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=2U+R+U+R%27+y%27+R+U+R%27+z2+L%27+U+L+y2+F%27+U+F+2U+F%27+U+F+F+U%27+F%27+2U+R+U%27+R%27+L%27+U+L+z2+y+R+U%27+R%27+y+R+U2+R%27&stickering=F2L&alg=L%27+U+L%0AF%27+U+F%0Ay%0AU%27+F+R%27+F%27+R%0Ay%0AF%27+R+F+R%27%0Au%27+y+y">
   <img src="https://user-images.githubusercontent.com/92285528/221579272-bfdd424b-c561-4d92-b60e-6ace3dffa908.png">
 </a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "4x4x4"
+    experimental-stickering   = "F2L"
+    alg                       = "L' U L F' U F y U' F R' F' R y F' R F R' u' y y"
+    experimental-setup-alg    = "2U R U R' y' R U R' z2 L' U L y2 F' U F 2U F' U F F U' F' 2U R U' R' L' U L z2 y R U' R' y R U2 R'"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 
 
@@ -31,6 +56,16 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=F2L&setup-alg=2U+R+U+R%27+y%27+R+U+R%27+z2+L%27+U+L+y2+F%27+U+F+2U+F%27+U+F+F+U%27+F%27+2U+R+U%27+R%27+L%27+U+L+z2+y+R+U%27+R%27+y+R+U2+R%27+2U%27+L%27+U+L+F%27+U+F+y+U%27+F+R%27+F%27+R+y+F%27+R+F+R%27+u%27+y+y&alg=R+U%27+R%27%0Ay%0AR+U%27+R%27%0Ay%0AR+U+R%27%0Ay">
   <img src="https://user-images.githubusercontent.com/92285528/221579667-1f97e43d-bfbe-4dd1-9acd-6a945238065f.png">
 </a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "4x4x4"
+    experimental-stickering   = "F2L"
+    alg                       = "R U' R' y R U' R' y R U R' y"
+    experimental-setup-alg    = "2U R U R' y' R U R' z2 L' U L y2 F' U F 2U F' U F F U' F' 2U R U' R' L' U L z2 y R U' R' y R U2 R' 2U' L' U L F' U F y U' F R' F' R y F' R F R' u' y y"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 
 
