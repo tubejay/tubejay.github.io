@@ -20,8 +20,8 @@ hidden: false
       visualization : "3D"
       background    : "checkered-transparent";
       hint-facelets : "floating";
-      width         : 300px;
-      height        : 300px;
+      width         : 350px;
+      height        : 350px;
     }
   </style>
   <script
