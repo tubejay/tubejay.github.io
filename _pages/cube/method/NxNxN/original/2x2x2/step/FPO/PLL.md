@@ -61,7 +61,7 @@ hidden: false
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "U R U' L' U R' U' L"
-      experimental-setup-alg    = "L U L' U L U2 L'"
+      experimental-setup-alg    = "R' U' R U' R' U2 R"
       experimental-setup-anchor = "end"
       tempo-scale               = "1.3"
     ></twisty-player>
