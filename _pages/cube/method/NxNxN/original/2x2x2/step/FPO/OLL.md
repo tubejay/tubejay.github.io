@@ -10,13 +10,22 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:150px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
     }
-    .img-wrapper {
-      margin: 20px 0px;
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 200px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -34,10 +43,15 @@ hidden: false
 
 ## Example
 
-<div class="img-wrapper">
-  <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=LL&alg=%28R%27+D%27+R+D%294+U+%28R%27+D%27+R+D%294+U+%28R%27+D%27+R+D%292+U+%28R%27+D%27+R+D%292">
-    <img src="https://user-images.githubusercontent.com/92285528/215317779-f58ff4ac-8120-4a62-b139-34def5bebd26.png">
-  </a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "LL"
+    alg                       = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+    tempo-scale               = "1.3"
+  ></twisty-player>
 </div>
 
 
