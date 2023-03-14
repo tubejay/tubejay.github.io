@@ -71,6 +71,16 @@ hidden: false
       <img src="https://user-images.githubusercontent.com/92285528/215316110-1c056781-7a3d-4ce9-9377-5c4beba2bfb3.png">
     </a>
   </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "R' U' R U' R' U2' R"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
@@ -84,6 +94,16 @@ hidden: false
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=F+R+U+R%27+U%27+F%27">
       <img src="https://user-images.githubusercontent.com/92285528/215316173-07e73037-684d-476f-82f9-5a2fba058550.png">
     </a>
+  </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "F R U R' U' F'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
@@ -99,6 +119,16 @@ hidden: false
       <img src="https://user-images.githubusercontent.com/92285528/215316218-5baafcdc-906f-411e-8307-ec2624856b06.png">
     </a>
   </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "F (R U R' U')2 F'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
@@ -112,6 +142,16 @@ hidden: false
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=F+%28R+U+R%27+U%27%293+F%27">
       <img src="https://user-images.githubusercontent.com/92285528/215316261-0b4874ed-e108-4f00-8862-e5905d3c858a.png">
     </a>
+  </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "F (R U R' U')3 F'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
@@ -127,6 +167,16 @@ hidden: false
       <img src="https://user-images.githubusercontent.com/92285528/215316300-9363e22c-58f2-4a55-90fa-506ad85bfb22.png">
     </a>
   </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "R U R' U' R' F R F'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
@@ -140,6 +190,16 @@ hidden: false
     <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=OLL&alg=F%27+R+U+R%27+U%27+R%27+F+R">
       <img src="https://user-images.githubusercontent.com/92285528/215316352-2ce8950e-cefc-43e9-837c-86d45659e0f1.png">
     </a>
+  </div>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "OLL"
+      alg                       = "F' R U R' U' R' F R"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
