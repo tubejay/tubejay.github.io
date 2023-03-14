@@ -10,13 +10,22 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:150px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
     }
-    .img-wrapper {
-      margin: 20px 0px;
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 300px;
+      height        : 200px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -32,28 +41,43 @@ hidden: false
 ### Adjacent / Adjacent
 
 - ( R2 U' ) ( R2 U2 ) ( F2 U' ) ( R2 )
-  <div class="img-wrapper">
-    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PBL&alg=R2+U%27+R2+U2%27+F2+U%27+R2">
-      <img src="https://user-images.githubusercontent.com/92285528/216036832-b6fca7df-1701-49f1-8f3c-4703bc8b8872.png">
-    </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "PBL"
+      alg                       = "R2 U' R2 U2' F2 U' R2"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 ### Adjacent / Diagonal
 
 - ( R U' R ) ( F2 ) ( R' U R' )
-  <div class="img-wrapper">
-    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PBL&alg=R+U%27+R+F2+R%27+U+R%27">
-      <img src="https://user-images.githubusercontent.com/92285528/216038283-1278eb68-e58a-4133-8b7a-1d811af8cbdc.png">
-    </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "PBL"
+      alg                       = "R U' R F2 R' U R'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 ### Diagonal / Diagonal
 
 - R2 F2 R2
-  <div class="img-wrapper">
-    <a href="https://alpha.twizzle.net/edit/?puzzle=2x2x2&setup-anchor=end&stickering=PBL&alg=R2+F2+R2">
-      <img src="https://user-images.githubusercontent.com/92285528/216038610-81181650-572a-459d-a720-32d21d28cf17.png">
-    </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "2x2x2"
+      experimental-stickering   = "PBL"
+      alg                       = "R2 F2 R2"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
   </div>
 
 
