@@ -21,6 +21,11 @@ hidden: false
       height        : 200px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
