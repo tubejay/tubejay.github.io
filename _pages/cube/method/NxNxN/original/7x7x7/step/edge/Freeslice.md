@@ -10,16 +10,35 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:550px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 350px;
+      height        : 450px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
 
 ## Complete Edge
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=7x7x7&stickering=F2L&setup-alg=2U+4U%27+6U2%0AR+U+R%27+F+R%27+F%27+R%0Ay%0AR+U+R%27+F+R%27+F%27+R%0Ay%0AF%27+R+F+R%27%0Ay%0AR+F%27+R%27+F%0A2D+4D2%0Ay%0AR+F%27+R%27+F%0Ay%0AR+F%27+R%27+F%0A2D%27+4D2+6D%27%0AR+U+R%27+F+R%27+F%27+R%0Ay%0AR+U+R%27+F+R%27+F%27+R%0AF%27+R+F+R%27%0Ay+F%27+R+F+R%27%0A2U+4U2+6U%0Ay+R+F%27+R%27+F%0Ay+F%27+R+F+R%27%0A3D2+5D2%0AR+U+R%27+F+R%27+F%27+R%0AF%27+R+F+R%27%0Ay&alg=F+D%27+F%27+3U%0AB%27+D+B+D+R%27+D+R+4U%0AD%27+R+F%27+R%27+F+5U%0AD+F%27+R+F+R%27%0A5u%27+R+U+R%27">
-  <img src="https://user-images.githubusercontent.com/92285528/222870445-0bc149af-a49d-4aad-8361-14aba642634f.png">
-</a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "7x7x7"
+    experimental-stickering   = "F2L"
+    alg                       = "F D' F' 3U B' D B D R' D R 4U D' R F' R' F 5U D F' R F R' 5u' R U R'"
+    experimental-setup-alg    = "2U 4U' 6U2 R U R' F R' F' R y R U R' F R' F' R y F' R F R' y R F' R' F 2D 4D2 y R F' R' F y R F' R' F 2D' 4D2 6D' R U R' F R' F' R y R U R' F R' F' R F' R F R' y F' R F R' 2U 4U2 6U y R F' R' F y F' R F R' 3D2 5D2 R U R' F R' F' R F' R F R' y"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
