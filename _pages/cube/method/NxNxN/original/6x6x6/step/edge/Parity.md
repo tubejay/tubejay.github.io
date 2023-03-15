@@ -10,10 +10,22 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:450px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 350px;
+      height        : 400px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -21,7 +33,13 @@ hidden: false
 ## 1-2-1 Parity
 
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 4Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw )
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&stickering=OLL&setup-anchor=end&alg=%282Rw+U2%27%29+x+%282Rw+U2%27%292+%284Rw%27+U2%27%29+%282Lw+U2%27%29+%282Rw%27+U2%27%29+%282Rw+U2%27%29+%282Rw%27+U2%27%29+2Rw%27">
-    <img src="https://user-images.githubusercontent.com/92285528/216603198-534ccad8-0ce2-44c1-8d42-7efd50e82b96.png">
-  </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "6x6x6"
+      experimental-stickering   = "OLL"
+      alg                       = "(2Rw U2') x (2Rw U2')2 (4Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
