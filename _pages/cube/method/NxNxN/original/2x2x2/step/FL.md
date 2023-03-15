@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
   <link
     rel   = "stylesheet"
-    href  = "assets/css/2x2x2.css"
+    href  = "{{'/assets/css/2x2x2.css'|absolute_url}}"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
