@@ -9,18 +9,10 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .twisty-wrapper {
-      margin        : 20px 0px;
-    }
-    twisty-player {
-      visualization : "3D"
-      background    : "checkered-transparent";
-      hint-facelets : "floating";
-      width         : 300px;
-      height        : 150px;
-    }
-  </style>
+  <link
+    rel   = "text/css"
+    href  = "/cube/method/NxNxN/original/2x2x2/step/style.css"
+  >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
     type  = "module"
