@@ -10,8 +10,8 @@ hidden: false
 <head>
   <base target="_blank">
   <link
-    rel   = "text/css"
-    href  = "pages/cube/method/NxNxN/original/2x2x2/step/style.css"
+    rel   = "stylesheet"
+    href  = "_pages/cube/method/NxNxN/original/2x2x2/step/style.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
