@@ -1,6 +1,6 @@
 .twisty-wrapper {
     margin        : 20px 0px;
-    border        : none;
+    border        : 0;
 }
 
 twisty-player {
