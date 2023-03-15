@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
   <link
     rel   = "stylesheet"
-    type  = "text/css"
+    type  = "text/scss"
     href  = "/assets/css/2x2x2.css"
   >
   <script
