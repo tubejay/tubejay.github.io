@@ -1,10 +1,10 @@
 .twisty-wrapper {
     margin        : 20px 0px;
 }
-/* twisty-player {
-    visualization : "3D";
+twisty-player {
+    visualization : "2D";
     background    : "checkered-transparent";
-    hint-facelets : "floating";
+    hint-facelets : "none";
     width         : 300px;
-    height        : 300px;
-} */
+    height        : 500px;
+}
