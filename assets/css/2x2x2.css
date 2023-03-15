@@ -2,9 +2,9 @@
     margin        : 20px 0px;
 }
 twisty-player {
-    visualization : "2D";
+    visualization : "3D";
     background    : "checkered-transparent";
-    hint-facelets : "none";
+    hint-facelets : "floating";
     width         : 300px;
-    height        : 500px;
+    height        : 200px;
 }
