@@ -17,7 +17,7 @@ hidden: false
       visualization : "3D"
       background    : "checkered-transparent";
       hint-facelets : "floating";
-      width         : 400px;
+      width         : 350px;
       height        : 400px;
     }
   </style>
