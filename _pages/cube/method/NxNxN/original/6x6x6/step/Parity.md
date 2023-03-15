@@ -10,28 +10,53 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:450px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 350px;
+      height        : 400px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
+
 
 
 
 ## OLL Parity
 
 - ( 3Rw U2 ) ( x ) ( 3Rw U2 ) x 2 ( 3Rw' U2 ) ( 3Lw U2 ) ( 3Rw' U2 ) ( 3Rw U2 ) ( 3Rw' U2 ) ( 3Rw' )
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&stickering=OLL&setup-anchor=end&alg=%283Rw+U2%27%29+x+%283Rw+U2%27%292+%283Rw%27+U2%27%29+%283Lw+U2%27%29+%283Rw%27+U2%27%29+%283Rw+U2%27%29+%283Rw%27+U2%27%29+3Rw%27">
-    <img src="https://user-images.githubusercontent.com/92285528/216603569-0d67ed16-c7f5-4448-950a-ba83963889fd.png">
-  </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "6x6x6"
+      experimental-stickering   = "OLL"
+      alg                       = "(3Rw U2') x (3Rw U2')2 (3Rw' U2') (3Lw U2') (3Rw' U2') (3Rw U2') (3Rw' U2') 3Rw'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 
 ## PLL Parity
 
 - ( 2-3R2 U2 ) ( 2-3R2 3Uw2 ) x 2
-
-  <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&stickering=PLL&setup-anchor=end&alg=2-3R2+U2%27+%282-3R2+3Uw2%27%292">
-    <img src="https://user-images.githubusercontent.com/92285528/216603880-d69b80b6-12b0-4013-9b52-7bbb6924a81e.png">
-  </a>
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "6x6x6"
+      experimental-stickering   = "PLL"
+      alg                       = "2-3R2 U2' (2-3R2 3Uw2')2"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
