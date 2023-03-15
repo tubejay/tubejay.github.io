@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
   <link
     rel   = "stylesheet"
-    href  = "_pages/cube/method/NxNxN/original/2x2x2/step/style.css"
+    href  = "assets/css/2x2x2.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
