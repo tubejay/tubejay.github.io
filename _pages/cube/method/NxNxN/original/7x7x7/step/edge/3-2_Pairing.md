@@ -10,10 +10,22 @@ hidden: false
 <head>
   <base target="_blank">
   <style>
-    img {
-      max-width:550px;
+    .twisty-wrapper {
+      margin        : 20px 0px;
+    }
+    twisty-player {
+      visualization : "3D"
+      background    : "checkered-transparent";
+      hint-facelets : "floating";
+      width         : 350px;
+      height        : 450px;
     }
   </style>
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -22,15 +34,29 @@ hidden: false
 
 ### Set 3 Pairs {#partial-1-2-1-1-set}
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=7x7x7&stickering=F2L&setup-alg=2U+4U2+6U3%0AF+D%27+F%27+F%27+D%27+F+y2+D+R%27+D+R+L+D%27+L%27%0A3D3+5D%0AR+F%27+R%27+F+L%27+F+L+F%27+y2+R+F%27+R%27+F+L%27+F+L+F%27%0A2U3+3U+4U2+2D3+3D&alg=3u%0AF+D%27+F%27%0Ay+4U+R+D%27+R%27+4U%27%0AF%27+R+F+R%27%0Ay+D%27+R+F%27+R%27+F%0A3u%27+y+y">
-  <img src="https://user-images.githubusercontent.com/92285528/222870671-8dd22253-e7fc-4a06-b3b1-f24201f465be.png">
-</a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "7x7x7"
+    experimental-stickering   = "F2L"
+    alg                       = "3u F D' F' y 4U R D' R' 4U' F' R F R' y D' R F' R' F 3u' y y"
+    experimental-setup-alg    = "2U 4U2 6U3 F D' F' F' D' F y2 D R' D R L D' L' 3D3 5D R F' R' F L' F L F' y2 R F' R' F L' F L F' 2U3 3U 4U2 2D3 3D"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 ### Add 2 Pairs {#partial-1-2-1-1-add}
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=7x7x7&stickering=F2L&setup-alg=2U+4U2+6U3%0AF+D%27+F%27+F%27+D%27+F+y2+D+R%27+D+R+L+D%27+L%27%0A3D3+5D%0AR+F%27+R%27+F+L%27+F+L+F%27+y2+R+F%27+R%27+F+L%27+F+L+F%27%0A2U3+3U+4U2+2D3+3D%0A3u%0AF+D%27+F%27%0Ay+4U+R+D%27+R%27+4U%27%0AF%27+R+F+R%27%0Ay+D%27+R+F%27+R%27+F%0A3u%27+y+y&alg=F%27+R+F+R%27+3U%27%0AD+F%27+R+F+R%27+3U%0AD+F%27+R+F+R%27+3U%27%0AR%27+D+R+3U%0AF%27+R+F+R%27+3U%27%0AD%27+F+D%27+F%27+3U">
-  <img src="https://user-images.githubusercontent.com/92285528/222870695-06f1e007-af42-4ddf-8ce9-13c6f02cdec5.png">
-</a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "7x7x7"
+    experimental-stickering   = "F2L"
+    alg                       = "F' R F R' 3U' D F' R F R' 3U D F' R F R' 3U' R' D R 3U F' R F R' 3U' D' F D' F' 3U"
+    experimental-setup-alg    = "2U 4U2 6U3 F D' F' F' D' F y2 D R' D R L D' L' 3D3 5D R F' R' F L' F L F' y2 R F' R' F L' F L F' 2U3 3U 4U2 2D3 3D 3u F D' F' y 4U R D' R' 4U' F' R F R' y D' R F' R' F 3u' y y"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 
 
@@ -38,15 +64,29 @@ hidden: false
 
 ### Set 3 Pairs {#partial-1-3-1-set}
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=7x7x7&stickering=F2L&setup-alg=2U+4U2+6U3%0AF+D%27+F%27+F%27+D%27+F+y2+D+R%27+D+R+L+D%27+L%27%0A3D3+5D%0AR+F%27+R%27+F+L%27+F+L+F%27+y2+R+F%27+R%27+F+L%27+F+L+F%27%0A2U3+3U+4U2+2D3+3D%0A3u%0AF+D%27+F%27%0Ay+4U+R+D%27+R%27+4U%27%0AF%27+R+F+R%27%0Ay+D%27+R+F%27+R%27+F%0A3u%27+y+y%0AF%27+R+F+R%27+3U%27%0AD+F%27+R+F+R%27+3U%0AD+F%27+R+F+R%27+3U%27%0AR%27+D+R+3U%0AF%27+R+F+R%27+3U%27%0AD%27+F+D%27+F%27+3U&alg=L+D%27+L%27+y+R%27+D+R+y+R%27+D+R+3u%0AR+D%27+R%27+F%27+R+F+R%27%0Ay+D+R%27+D+R%0Ay+D%27+F+D%27+F%27+3u%27">
-  <img src="https://user-images.githubusercontent.com/92285528/222870711-51729b94-98d4-40bd-95e3-aaf74a3fb28d.png">
-</a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "7x7x7"
+    experimental-stickering   = "F2L"
+    alg                       = "L D' L' y R' D R y R' D R 3u R D' R' F' R F R' y D R' D R y D' F D' F' 3u'"
+    experimental-setup-alg    = "2U 4U2 6U3 F D' F' F' D' F y2 D R' D R L D' L' 3D3 5D R F' R' F L' F L F' y2 R F' R' F L' F L F' 2U3 3U 4U2 2D3 3D 3u F D' F' y 4U R D' R' 4U' F' R F R' y D' R F' R' F 3u' y y F' R F R' 3U' D F' R F R' 3U D F' R F R' 3U' R' D R 3U F' R F R' 3U' D' F D' F' 3U"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 ### Add 2 Pairs {#partial-1-3-1-add}
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=7x7x7&stickering=F2L&setup-alg=2U+4U2+6U3%0AF+D%27+F%27+F%27+D%27+F+y2+D+R%27+D+R+L+D%27+L%27%0A3D3+5D%0AR+F%27+R%27+F+L%27+F+L+F%27+y2+R+F%27+R%27+F+L%27+F+L+F%27%0A2U3+3U+4U2+2D3+3D%0A3u%0AF+D%27+F%27%0Ay+4U+R+D%27+R%27+4U%27%0AF%27+R+F+R%27%0Ay+D%27+R+F%27+R%27+F%0A3u%27+y+y%0AF%27+R+F+R%27+3U%27%0AD+F%27+R+F+R%27+3U%0AD+F%27+R+F+R%27+3U%27%0AR%27+D+R+3U%0AF%27+R+F+R%27+3U%27%0AD%27+F+D%27+F%27+3U%0AL+D%27+L%27+y+R%27+D+R+y+R%27+D+R+3u%0AR+D%27+R%27+F%27+R+F+R%27%0Ay+D+R%27+D+R%0Ay+D%27+F+D%27+F%27+3u%27&alg=F+L%27+F%27+L%0AR%27+D+R+3u%27%0AF+D%27+F%27+3u">
-  <img src="https://user-images.githubusercontent.com/92285528/222870722-eff6124d-a5cb-4767-8769-e8b61c4a530b.png">
-</a>
+<div class="twisty-wrapper">
+  <twisty-player
+    puzzle                    = "7x7x7"
+    experimental-stickering   = "F2L"
+    alg                       = "F L' F' L R' D R 3u' F D' F' 3u"
+    experimental-setup-alg    = "2U 4U2 6U3 F D' F' F' D' F y2 D R' D R L D' L' 3D3 5D R F' R' F L' F L F' y2 R F' R' F L' F L F' 2U3 3U 4U2 2D3 3D 3u F D' F' y 4U R D' R' 4U' F' R F R' y D' R F' R' F 3u' y y F' R F R' 3U' D F' R F R' 3U D F' R F R' 3U' R' D R 3U F' R F R' 3U' D' F D' F' 3U L D' L' y R' D R y R' D R 3u R D' R' F' R F R' y D R' D R y D' F D' F' 3u'"
+    experimental-setup-anchor = "start"
+    tempo-scale               = "1.3"
+  ></twisty-player>
+</div>
 
 
 
