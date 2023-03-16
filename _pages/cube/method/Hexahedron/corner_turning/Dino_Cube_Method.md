@@ -33,64 +33,64 @@ hidden: false
 
 ## LL : Last Layer {#ll}
 
-- Yellow on U Face
-  - 2 Yellow
-    - Right : ( L R' ) ( L' R )
-      <div class="twisty-wrapper">
-        <twisty-player
-          experimental-puzzle-description = "c v 0.577350269189626"
-          camera-latitude                 = 45
-          camera-longitude                = 30
-          experimental-stickering         = "full"
-          alg                             = "UFL UFR' UFL' UFR"
-          experimental-setup-alg          = "Fv2"
-          experimental-setup-anchor       = "end"
-          tempo-scale                     = "1.3"
-          viewer-link                     = "experimental-twizzle-explorer"
-        ></twisty-player>
-      </div>
-    - Left : ( R' L ) ( R L' )
-      <div class="twisty-wrapper">
-        <twisty-player
-          experimental-puzzle-description = "c v 0.577350269189626"
-          camera-latitude                 = 45
-          camera-longitude                = 30
-          experimental-stickering         = "full"
-          alg                             = "UFR' UFL UFR UFL'"
-          experimental-setup-alg          = "Fv2"
-          experimental-setup-anchor       = "end"
-          tempo-scale                     = "1.3"
-          viewer-link                     = "experimental-twizzle-explorer"
-        ></twisty-player>
-      </div>
-  - 4 Yellow : (2 Yellow / Left) U' (2 Yellow / Left)
-    <div class="twisty-wrapper">
-      <twisty-player
-        experimental-puzzle-description = "c v 0.577350269189626"
-        camera-latitude                 = 45
-        camera-longitude                = 30
-        experimental-stickering         = "full"
-        alg                             = "UFR' UFL UFR UFL' Uv' UFR' UFL UFR UFL'"
-        experimental-setup-alg          = "Fv2"
-        experimental-setup-anchor       = "end"
-        tempo-scale                     = "1.3"
-        viewer-link                     = "experimental-twizzle-explorer"
-      ></twisty-player>
-    </div>
-  - 0 Yellow : (2 Yellow / Left) U (2 Yellow / Left)
-    <div class="twisty-wrapper">
-      <twisty-player
-        experimental-puzzle-description = "c v 0.577350269189626"
-        camera-latitude                 = 45
-        camera-longitude                = 30
-        experimental-stickering         = "full"
-        alg                             = "UFR' UFL UFR UFL' Uv UFR' UFL UFR UFL'"
-        experimental-setup-alg          = "Fv2"
-        experimental-setup-anchor       = "end"
-        tempo-scale                     = "1.3"
-        viewer-link                     = "experimental-twizzle-explorer"
-      ></twisty-player>
-    </div>
+- Notation
+  - Yellow on U Face
+- 2 Yellow / Right : ( L R' ) ( L' R )
+  <div class="twisty-wrapper">
+    <twisty-player
+      experimental-puzzle-description = "c v 0.577350269189626"
+      camera-latitude                 = 45
+      camera-longitude                = 30
+      experimental-stickering         = "full"
+      alg                             = "UFL UFR' UFL' UFR"
+      experimental-setup-alg          = "Fv2"
+      experimental-setup-anchor       = "end"
+      tempo-scale                     = "1.3"
+      viewer-link                     = "experimental-twizzle-explorer"
+    ></twisty-player>
+  </div>
+- 2 Yellow / Left : ( R' L ) ( R L' )
+  <div class="twisty-wrapper">
+    <twisty-player
+      experimental-puzzle-description = "c v 0.577350269189626"
+      camera-latitude                 = 45
+      camera-longitude                = 30
+      experimental-stickering         = "full"
+      alg                             = "UFR' UFL UFR UFL'"
+      experimental-setup-alg          = "Fv2"
+      experimental-setup-anchor       = "end"
+      tempo-scale                     = "1.3"
+      viewer-link                     = "experimental-twizzle-explorer"
+    ></twisty-player>
+  </div>
+- 4 Yellow : (2 Yellow / Left) U' (2 Yellow / Left)
+  <div class="twisty-wrapper">
+    <twisty-player
+      experimental-puzzle-description = "c v 0.577350269189626"
+      camera-latitude                 = 45
+      camera-longitude                = 30
+      experimental-stickering         = "full"
+      alg                             = "UFR' UFL UFR UFL' Uv' UFR' UFL UFR UFL'"
+      experimental-setup-alg          = "Fv2"
+      experimental-setup-anchor       = "end"
+      tempo-scale                     = "1.3"
+      viewer-link                     = "experimental-twizzle-explorer"
+    ></twisty-player>
+  </div>
+- 0 Yellow : (2 Yellow / Left) U (2 Yellow / Left)
+  <div class="twisty-wrapper">
+    <twisty-player
+      experimental-puzzle-description = "c v 0.577350269189626"
+      camera-latitude                 = 45
+      camera-longitude                = 30
+      experimental-stickering         = "full"
+      alg                             = "UFR' UFL UFR UFL' Uv UFR' UFL UFR UFL'"
+      experimental-setup-alg          = "Fv2"
+      experimental-setup-anchor       = "end"
+      tempo-scale                     = "1.3"
+      viewer-link                     = "experimental-twizzle-explorer"
+    ></twisty-player>
+  </div>
 
 
 
