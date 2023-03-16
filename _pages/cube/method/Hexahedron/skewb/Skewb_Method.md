@@ -9,18 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .twisty-wrapper {
-      margin        : 20px 0px;
-    }
-    twisty-player {
-      visualization : "3D"
-      background    : "checkered-transparent";
-      hint-facelets : "floating";
-      width         : 300px;
-      height        : 250px;
-    }
-  </style>
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/twisty/Hexahedron/Skewb.css"
+  >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
     type  = "module"
@@ -36,29 +29,30 @@ hidden: false
 
 ### Last Layer
 
-- Yellow on U Face
-  - 0 Corners : ( R' L ) ( R L' )
-    <div class="twisty-wrapper">
-      <twisty-player
-        puzzle                    = "skewb"
-        experimental-stickering   = "full"
-        alg                       = "F' UL F UL'"
-        experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
-  - 2 Corners : (0 Corners) y (0 Corners)
-    <div class="twisty-wrapper">
-      <twisty-player
-        puzzle                    = "skewb"
-        experimental-stickering   = "full"
-        alg                       = "F' UL F UL' y F' UL F UL'"
-        experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
+- Notation
+  - Yellow on U Face
+- 0 Corners : ( R' L ) ( R L' )
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "skewb"
+      experimental-stickering   = "full"
+      alg                       = "F' UL F UL'"
+      experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
+- 2 Corners : (0 Corners) y (0 Corners)
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "skewb"
+      experimental-stickering   = "full"
+      alg                       = "F' UL F UL' y F' UL F UL'"
+      experimental-setup-alg    = "z2 F' D F D' z2 F' D F D' x2 z F' D F D' z2 F' D F D' z y F' D F D' z2 F' D F D' z y x' y"
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 

@@ -1,0 +1,6 @@
+@import url("../wrapper.css");
+@import url("Hexahedron.css");
+
+twisty-player {
+    height: 200px;
+}
