@@ -1,9 +1,4 @@
-.twisty-wrapper {
-    margin        : 20px 0px;
-    border-width  : 0px;
-    border-style  : none;
-    border-color  : transparent;
-}
+@import url("wrapper.css");
 
 twisty-player {
     visualization : "3D";

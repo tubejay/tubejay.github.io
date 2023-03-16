@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/2x2x2.css"
+    href  = "/assets/css/twisty/2x2x2.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
