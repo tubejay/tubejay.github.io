@@ -14,7 +14,6 @@ hidden: false
     type  = "text/css"
     href  = "/assets/css/twisty/5x5x5.css"
   >
-  </style>
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
     type  = "module"
