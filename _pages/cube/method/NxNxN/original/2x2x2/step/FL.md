@@ -11,8 +11,8 @@ hidden: false
   <base target="_blank">
   <link
     rel   = "stylesheet"
-    type  = "text/sass"
-    href  = "/assets/css/twisty/2x2x2.sass"
+    type  = "text/scss"
+    href  = "/assets/css/twisty/2x2x2.scss"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
