@@ -1,6 +1,5 @@
+@import url("player.css");
+
 twisty-player {
-    visualization : "3D";
-    background    : "checkered-transparent";
-    hint-facelets : "floating";
-    width         : 350px;
+    width : 350px;
 }
