@@ -1,0 +1,9 @@
+@import url("wrapper.css");
+
+twisty-player {
+  visualization : "3D";
+  background    : "checkered-transparent";
+  hint-facelets : "floating";
+  width         : 350px;
+  height        : 400px;
+}
