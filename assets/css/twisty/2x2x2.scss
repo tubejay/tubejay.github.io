@@ -1,8 +1,9 @@
-@import wrapper
+@import "wrapper";
 
-twisty-player
-    visualization : "3D"
-    background    : "checkered-transparent"
-    hint-facelets : "floating"
-    width         : 300px
-    height        : 170px
+twisty-player {
+    visualization : "3D";
+    background    : "checkered-transparent";
+    hint-facelets : "floating";
+    width         : 300px;
+    height        : 170px;
+}
