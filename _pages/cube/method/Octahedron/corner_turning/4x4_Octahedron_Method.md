@@ -27,7 +27,7 @@ hidden: false
 
 <twisty-player
   experimental-puzzle-description = "o v 0.433012701892219"
-  camera-latitude                 = -30
+  camera-latitude                 = "-30"
   camera-longitude                = 0
   experimental-stickering         = "full"
   alg                             = ""
