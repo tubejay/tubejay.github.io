@@ -34,7 +34,7 @@ hidden: false
   experimental-setup-alg          = ""
   experimental-setup-anchor       = "end"
   tempo-scale                     = "1.3"
-  viewer-link                     = "twizzle"
+  viewer-link                     = "experimental-twizzle-explorer"
 ></twisty-player>
 
 
