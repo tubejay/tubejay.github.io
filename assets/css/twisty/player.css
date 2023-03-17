@@ -1,4 +1,5 @@
 twisty-player {
+    dark-mode     : "dark";
     visualization : "3D";
     background    : "checkered-transparent";
     hint-facelets : "floating";
