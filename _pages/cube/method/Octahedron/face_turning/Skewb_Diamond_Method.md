@@ -25,17 +25,19 @@ hidden: false
 
 ## Method
 
-<twisty-player
-  experimental-puzzle-description = "o f 0"
-  camera-latitude                 = -30
-  camera-longitude                = 0
-  experimental-stickering         = "full"
-  alg                             = ""
-  experimental-setup-alg          = ""
-  experimental-setup-anchor       = "end"
-  tempo-scale                     = "1.3"
-  viewer-link                     = "twizzle"
-></twisty-player>
+<div class="twisty-wrapper">
+  <twisty-player
+    experimental-puzzle-description = "o f 0"
+    camera-latitude                 = -30
+    camera-longitude                = 0
+    experimental-stickering         = "full"
+    alg                             = ""
+    experimental-setup-alg          = ""
+    experimental-setup-anchor       = "end"
+    tempo-scale                     = "1.3"
+    viewer-link                     = "twizzle"
+  ></twisty-player>
+</div>
 
 
 
