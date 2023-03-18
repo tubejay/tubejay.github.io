@@ -1,6 +1,6 @@
 twisty-player {
     min-width     : 200px;
-    visualization : "3D";
+    visualization : "PG3D";
     background    : "checkered-transparent";
     hint-facelets : "floating";
 }
