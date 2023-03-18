@@ -1,4 +1,5 @@
-@import url("Dodecahedron.css");
+@import url("../wrapper.css");
+@import url("../player.css");
 
 twisty-player {
     width   : 400px;

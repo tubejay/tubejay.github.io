@@ -1,4 +1,5 @@
-@import url("NxNxN.css");
+@import url("../wrapper.css");
+@import url("../player.css");
 
 twisty-player {
   width   : 340px;

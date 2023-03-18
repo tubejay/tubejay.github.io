@@ -1,5 +1,7 @@
-@import url("Tetrahedron.css");
+@import url("../wrapper.css");
+@import url("../player.css");
 
 twisty-player {
-    height: 200px;
+  width   : 200px;
+  height  : 180px;
 }

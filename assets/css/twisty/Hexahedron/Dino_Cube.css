@@ -1,5 +1,7 @@
-@import url("Hexahedron.css");
+@import url("../wrapper.css");
+@import url("../player.css");
 
 twisty-player {
-    height: 180px;
+    width   : 200px;
+    height  : 180px;
 }
