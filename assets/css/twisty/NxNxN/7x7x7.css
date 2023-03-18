@@ -1,5 +1,6 @@
 @import url("NxNxN.css");
 
 twisty-player {
-  height : 400px;
+  width   : 400px;
+  height  : 400px;
 }
