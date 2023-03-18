@@ -27,6 +27,7 @@ hidden: false
 - [Mastermorphix](/cube/method/tetrahedron/edge_turning/mastermorphix)
 - [Clover Pyraminx](/cube/method/tetrahedron/edge_turning/clover_pyraminx)
 - [Curvy Clover Pyraminx](/cube/method/tetrahedron/edge_turning/curvy_clover_pyraminx)
+- [Star Pyraminx (Curvy Hexagram)](/cube/method/tetrahedron/edge_turning/star_pyraminx_curvy_hexagram)
 
 
 
