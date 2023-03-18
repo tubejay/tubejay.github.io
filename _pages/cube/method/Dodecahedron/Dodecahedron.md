@@ -23,6 +23,13 @@ hidden: false
 
 
 
+## Starminx
+
+- [Corner Turning Starminx](/cube/method/dodecahedron/starminx/corner_turning_starminx)
+- [Face Turning Starminx](/cube/method/dodecahedron/starminx/face_turning_starminx)
+
+
+
 ## Rhombic Dodecahedron
 
 - [Skewb Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/skewb_rhombic_dodecahedron)
