@@ -14,6 +14,11 @@ hidden: false
     type  = "text/css"
     href  = "/assets/css/twisty/NxNxN/2x2x2.css"
   >
+  <style>
+    twisty-player {
+      dark-mode: "dark";
+    }
+  </style>
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
     type  = "module"
