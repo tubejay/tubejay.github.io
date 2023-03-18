@@ -28,7 +28,7 @@ hidden: false
 - Right : R U R'
   <div class="twisty-wrapper">
     <twisty-player
-      dark-mode                 - "dark"
+      dark-mode                 = "dark"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "R U R'"
