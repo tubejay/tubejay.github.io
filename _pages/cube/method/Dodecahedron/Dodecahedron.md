@@ -42,4 +42,5 @@ hidden: false
 ## Miscellaneous
 
 - [2x2x2 Dodecahedron](/cube/method/dodecahedron/miscellaneous/2x2x2_dodecahedron)
+- [Pentultimate](/cube/method/dodecahedron/miscellaneous/pentultimate)
 - [Crazy Comet](/cube/method/dodecahedron/miscellaneous/crazy_comet)
