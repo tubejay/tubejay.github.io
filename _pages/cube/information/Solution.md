@@ -25,13 +25,19 @@ hidden: false
 
 ## Animation
 
-- [Ruwix - 3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)
-- cubing.net
+### Ruwix
+  
+- [3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)  
+
+### cubing.js
+
+- Frontend
+  - [Alg](https://alg.cubing.net/)
   - [Twizzle](https://alpha.twizzle.net/)
     - [Editor](https://alpha.twizzle.net/edit/)
     - [Explorer](https://alpha.twizzle.net/explore/)
-  - [Alg](https://alg.cubing.net/)
-  - cubing.js
-    - [info](https://js.cubing.net/cubing/twisty/)
-    - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html)
-    - [API](https://js.cubing.net/cubing/api/)
+- Backend
+  - [info](https://js.cubing.net/cubing/twisty/)
+  - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html)
+  - [API](https://js.cubing.net/cubing/api/)
+  - [Example](https://codepen.io/cubing/pen/xxROKBR)
