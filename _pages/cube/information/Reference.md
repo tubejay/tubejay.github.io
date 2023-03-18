@@ -15,6 +15,8 @@ hidden: false
 
 ## Website
 
+### English
+
 - [Twisty Puzzles](https://www.twistypuzzles.com/)
 - [Ruwix](https://ruwix.com/)
 - [cubing.net](https://cubing.net/)
@@ -24,12 +26,17 @@ hidden: false
 - [J Perm](https://jperm.net/)
 - [AlgDb](http://algdb.net/)
 - [CubeSkills](https://www.cubeskills.com/)
-- [vincent](https://m.blog.naver.com/vincentcube)
 - [csTimer](https://cstimer.net/)
+
+### Korean
+
+- [vincent](https://m.blog.naver.com/vincentcube)
 
 
 
 ## YouTube
+
+### Korean
 
 - [아이엠준](https://youtube.com/@iamzoone)
 - [해피 큐빙](https://youtube.com/@HappyCubing333)
@@ -38,4 +45,8 @@ hidden: false
 - [큐브놀이터](https://youtube.com/@user-ty9xq9hd8i)
 - [투마이](https://youtube.com/@toumai)
 - [정유비](https://youtube.com/@duke_jeong)
+
+### English
+
 - [Bearded Cubing 101](https://youtube.com/@BeardedCubing101)
+- [Twisty Puzzling](https://youtube.com/@twistypuzzling)
