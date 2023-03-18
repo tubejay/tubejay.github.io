@@ -45,12 +45,15 @@ hidden: false
 
   <div class="twisty-wrapper">
     <twisty-player
-      puzzle                    = "master_tetraminx"
-      experimental-stickering   = "full"
-      alg                       = "U' r U r'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
+      experimental-puzzle-description = "t v 0 v 1 v 2"
+      camera-latitude                 = 30
+      camera-longitude                = 0
+      experimental-stickering         = "full"
+      alg                             = "u' 3r u 3r'"
+      experimental-setup-alg          = ""
+      experimental-setup-anchor       = "end"
+      tempo-scale                     = "1.3"
+      viewer-link                     = "experimental-twizzle-explorer"
     ></twisty-player>
   </div>
 
