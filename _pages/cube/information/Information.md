@@ -8,12 +8,12 @@ hidden: false
 ---
 
 <head>
-  <base target="_blank">
+  <base target="_self">
 </head>
 
 
 
-## Reference
+## [Reference](/cube/information/reference)
 
 ### Website
 
@@ -42,7 +42,7 @@ hidden: false
 
 
 
-## Solution
+## [Solution](/cube/information/solution)
 
 ### Method
 
@@ -78,7 +78,7 @@ hidden: false
 
 
 
-## Puzzle
+## [Puzzle](/cube/information/puzzle)
 
 ### Type
 
