@@ -23,3 +23,9 @@ hidden: false
 ## Corner Turning
 
 - [4x4 Octahedron](/cube/method/octahedron/corner_turning/4x4_octahedron)
+
+
+
+## Edge Turning
+
+- [Clover Octahedron](/cube/method/octahedron/edge_turning/clover_octahedron)
