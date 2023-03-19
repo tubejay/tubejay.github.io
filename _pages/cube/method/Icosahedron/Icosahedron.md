@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Face Turning
-
-
-
 ## Corner Turning
 
 - [Icosamate](/cube/method/icosahedron/corner_turning/icosamate)
