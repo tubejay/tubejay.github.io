@@ -20,3 +20,4 @@ hidden: false
 ## Corner Turning
 
 - [Icosamate](/cube/method/icosahedron/corner_turning/icosamate)
+- [Astrominx](/cube/method/icosahedron/corner_turning/astrominx)
