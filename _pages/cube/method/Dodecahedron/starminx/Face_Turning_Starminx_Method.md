@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/twisty/Dodecahedron/Face_Turnung_Starminx.css"
+    href  = "/assets/css/twisty/Dodecahedron/Face_Turning_Starminx.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
