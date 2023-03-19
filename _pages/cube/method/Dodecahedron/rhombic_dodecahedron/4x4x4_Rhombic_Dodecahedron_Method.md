@@ -19,4 +19,4 @@ hidden: false
 
 ## Reference
 
-- <https://youtu.be/c8aK9DTzfWg>
+- [Twisty Puzzling](https://youtu.be/c8aK9DTzfWg)

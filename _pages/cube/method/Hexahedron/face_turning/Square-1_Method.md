@@ -24,3 +24,4 @@ hidden: false
     - <https://youtu.be/oag-PVDQYa8>
 - [큐브놀이터](https://youtu.be/w2rHHmnB5yw)
 - [투마이](https://youtu.be/Socn_wHtM_o)
+- [Twisty Puzzling](https://youtu.be/Gz7URKZZMLs)

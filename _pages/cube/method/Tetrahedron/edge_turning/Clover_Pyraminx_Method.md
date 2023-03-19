@@ -52,3 +52,4 @@ hidden: false
 ## Reference
 
 - [큐브놀이터](https://youtu.be/85_Zb7q5K70)
+- [Twisty Puzzling](https://youtu.be/DHszKFPA2Tc)

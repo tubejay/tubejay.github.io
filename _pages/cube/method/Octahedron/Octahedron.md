@@ -17,6 +17,7 @@ hidden: false
 
 - [Skewb Diamond](/cube/method/octahedron/face_turning/skewb_diamond)
 - [Face Turning Octahedron](/cube/method/octahedron/face_turning/face_turning_octahedron)
+- [Master Face Turning Octahedron](/cube/method/octahedron/face_turning/master_face_turning_octahedron)
 
 
 
@@ -29,3 +30,4 @@ hidden: false
 ## Edge Turning
 
 - [Clover Octahedron](/cube/method/octahedron/edge_turning/clover_octahedron)
+- [Edge Turning Octahedron](/cube/method/octahedron/edge_turning/edge_turning_octahedron)

@@ -19,4 +19,5 @@ hidden: false
 
 ## Reference
 
+- [Twisty Puzzling](https://youtu.be/b7xtxzl2G0Q)
 - <https://youtu.be/VAnzC2SYVc4>
