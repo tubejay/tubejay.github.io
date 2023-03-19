@@ -31,7 +31,7 @@ hidden: false
   camera-latitude           = "-30"
   camera-longitude          = 0
   experimental-stickering   = "full"
-  alg                       = ""
+  alg                       = "R"
   experimental-setup-alg    = ""
   experimental-setup-anchor = "end"
   tempo-scale               = "1.3"
