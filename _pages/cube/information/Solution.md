@@ -27,7 +27,7 @@ hidden: false
 
 ### Ruwix
   
-- [3D Interactive Rubik's Cube Widget](https://ruwix.com/widget/3d/)  
+- [3D Canvas Cube Generator](https://ruwix.com/widget/3d/)  
 
 ### cubing.js
 
@@ -40,4 +40,8 @@ hidden: false
   - [info](https://js.cubing.net/cubing/twisty/)
   - [config](https://experiments.cubing.net/cubing.js/twisty/twisty-player-config.html)
   - [API](https://js.cubing.net/cubing/api/)
-  - [Example](https://codepen.io/cubing/pen/xxROKBR)
+- Example
+  - [3x3x3](https://codepen.io/cubing/pen/gOLMYqK)
+  - [4x4x4](https://codepen.io/cubing/pen/MWbegxW)
+  - [Face Turning Octahedron](https://codepen.io/cubing/pen/xxROKBR)
+  - [JavaScript](https://codepen.io/cubing/pen/vYyKBMd)
