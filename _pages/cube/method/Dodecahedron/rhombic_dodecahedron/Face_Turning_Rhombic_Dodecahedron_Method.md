@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - [듀나메스](https://youtu.be/jexonAM9sc8)

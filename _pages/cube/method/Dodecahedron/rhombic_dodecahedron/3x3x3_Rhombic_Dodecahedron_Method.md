@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - [Bearded Cubing 101](https://youtu.be/hJnaX9wnRvE)

@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - [Twisty Puzzling](https://youtu.be/c8aK9DTzfWg)
