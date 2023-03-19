@@ -33,7 +33,7 @@ hidden: false
 
 ## Method
 
-- [Fisher](/cube/method/NxNxN/modification/fisher)
+- [Fisher / Method](/cube/method/NxNxN/modification/fisher#method)
 
   <div class="twisty-wrapper">
     <twisty-player

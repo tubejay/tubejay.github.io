@@ -13,8 +13,4 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
