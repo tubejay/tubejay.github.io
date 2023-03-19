@@ -2,7 +2,7 @@
 title: "Edge Turning Octahedron"
 layout: single
 toc: true
-permalink: /cube/method/octahedron/face_turning/edge_turning_octahedron
+permalink: /cube/method/octahedron/edge_turning/edge_turning_octahedron
 published: true
 hidden: false
 ---

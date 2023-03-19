@@ -28,4 +28,3 @@ hidden: false
   - [Part 2 of 3](https://youtu.be/4gwojARtnLw)
   - [Part 3 of 3](https://youtu.be/IwCgwIbqPMQ)
 - [Twisty Puzzling](https://youtu.be/eHqb1yURvWc)
-- <https://youtu.be/8FKmS4NsNUc>
