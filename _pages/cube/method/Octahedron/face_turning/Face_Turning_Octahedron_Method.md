@@ -26,6 +26,7 @@ hidden: false
 ## Method
 
 <twisty-player
+  style = "background:gray;"
   background = "none"
   puzzle                    = "fto"
   camera-latitude           = "-30"
