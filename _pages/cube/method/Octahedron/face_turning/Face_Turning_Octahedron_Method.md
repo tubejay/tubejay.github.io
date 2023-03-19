@@ -26,8 +26,8 @@ hidden: false
 ## Method
 
 <twisty-player
+  background = "checkered-transparent"
   puzzle                    = "fto"
-  background = "none"
   camera-latitude           = "-30"
   camera-longitude          = 0
   experimental-stickering   = "full"
