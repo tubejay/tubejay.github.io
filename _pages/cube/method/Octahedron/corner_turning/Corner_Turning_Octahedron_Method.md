@@ -12,8 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/twisty/Octahedron/F
-    Corner_Turning_Octahedron.css"
+    href  = "/assets/css/twisty/Octahedron/Corner_Turning_Octahedron.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"

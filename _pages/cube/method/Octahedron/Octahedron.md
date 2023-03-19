@@ -24,6 +24,7 @@ hidden: false
 ## Corner Turning
 
 - [4x4 Octahedron](/cube/method/octahedron/corner_turning/4x4_octahedron)
+- [Corner Turning Octahedron](/cube/method/octahedron/corner_turning/corner_turning_octahedron)
 
 
 
