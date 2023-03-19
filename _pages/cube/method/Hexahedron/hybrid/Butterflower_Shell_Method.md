@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - [정유비](https://youtu.be/7bhymHBeXSA)

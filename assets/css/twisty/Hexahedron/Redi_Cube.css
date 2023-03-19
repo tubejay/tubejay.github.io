@@ -1,0 +1,7 @@
+@import url("../wrapper.css");
+@import url("../player.css");
+
+twisty-player {
+    width   : 350px;
+    height  : 250px;
+}

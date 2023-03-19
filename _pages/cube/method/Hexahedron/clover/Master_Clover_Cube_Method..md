@@ -12,10 +12,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - [Twisty Puzzling](https://youtu.be/xHiTobT8YYI)

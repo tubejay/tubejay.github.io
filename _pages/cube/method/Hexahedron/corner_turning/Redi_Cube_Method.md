@@ -9,6 +9,16 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/twisty/Hexahedron/Redi_Cube.css"
+  >
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 
@@ -20,6 +30,17 @@ hidden: false
 ## Edge
 
 - Permute 3 Edges : ( X Y ) ( X' Y' )
+
+  <div class="twisty-wrapper">
+    <twisty-player
+      puzzle                    = "redi_cube"
+      experimental-stickering   = "full"
+      alg                       = "UR' F UR F'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+      tempo-scale               = "1.3"
+    ></twisty-player>
+  </div>
 
 
 

@@ -9,7 +9,30 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/twisty/Hexahedron/Square-1.css"
+  >
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
+
+
+
+## Method
+
+<twisty-player
+  puzzle                    = "square1"
+  experimental-stickering   = "full"
+  alg                       = ""
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"
+  tempo-scale               = "1.3"
+></twisty-player>
 
 
 

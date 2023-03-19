@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - <https://youtu.be/flGoe1RbIDQ>
