@@ -26,6 +26,8 @@ hidden: false
 ## Method
 
 <twisty-player
+  dark-mode                       = "dark"
+  background                      = "none"
   experimental-puzzle-description = "c e 0.707106781186547"
   camera-latitude                 = 45
   camera-longitude                = 30

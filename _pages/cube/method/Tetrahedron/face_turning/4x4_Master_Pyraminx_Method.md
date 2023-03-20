@@ -42,9 +42,10 @@ hidden: false
 ## Outer Edge
 
 - Permute 3 Outer Edges : ( X Y ) ( X' Y' )
-
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                       = "dark"
+      background                      = "none"
       experimental-puzzle-description = "t v 0 v 1 v 2"
       camera-latitude                 = 30
       camera-longitude                = 0

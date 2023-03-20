@@ -38,6 +38,8 @@ hidden: false
 - 2 Yellow / Right : ( L R' ) ( L' R )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                       = "dark"
+      background                      = "none"
       experimental-puzzle-description = "c v 0.577350269189626"
       camera-latitude                 = 45
       camera-longitude                = 30
@@ -52,6 +54,8 @@ hidden: false
 - 2 Yellow / Left : ( R' L ) ( R L' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                       = "dark"
+      background                      = "none"
       experimental-puzzle-description = "c v 0.577350269189626"
       camera-latitude                 = 45
       camera-longitude                = 30
@@ -66,6 +70,8 @@ hidden: false
 - 4 Yellow : (2 Yellow / Left) U' (2 Yellow / Left)
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                       = "dark"
+      background                      = "none"
       experimental-puzzle-description = "c v 0.577350269189626"
       camera-latitude                 = 45
       camera-longitude                = 30
@@ -80,6 +86,8 @@ hidden: false
 - 0 Yellow : (2 Yellow / Left) U (2 Yellow / Left)
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                       = "dark"
+      background                      = "none"
       experimental-puzzle-description = "c v 0.577350269189626"
       camera-latitude                 = 45
       camera-longitude                = 30

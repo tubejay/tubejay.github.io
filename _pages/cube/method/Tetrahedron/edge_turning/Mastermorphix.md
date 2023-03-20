@@ -37,6 +37,8 @@ hidden: false
 
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                       = "dark"
+      background                      = "none"
       experimental-puzzle-description = "t e 0.346184634065199"
       camera-latitude                 = 30
       camera-longitude                = 0
