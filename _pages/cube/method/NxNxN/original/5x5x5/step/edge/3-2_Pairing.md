@@ -29,6 +29,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "5x5x5"
     experimental-stickering   = "F2L"
     alg                       = "u L' U L D F' R F R' y R U' R' y D' R F' R' F u' y y"
@@ -42,6 +44,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "5x5x5"
     experimental-stickering   = "F2L"
     alg                       = "L U' L' F R' F' R u' L' U' L F R' F' R u D' R' D R B L' B' L U' R U' R' u' D F' R F R' u D' L D' L' L U' L' F R' F' R u' L' U' L F R' F' R u L U' L' R U' R' u' R U R' F R' F' R u"
@@ -59,6 +63,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "5x5x5"
     experimental-stickering   = "F2L"
     alg                       = "L' U L F R' F' R y F R' F' R y F R' F' R y y u R' U R F R' F' R y R U' R' y D F' R F R' y R' D R y u' y"
@@ -72,6 +78,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "5x5x5"
     experimental-stickering   = "F2L"
     alg                       = "R U' R' u' D' R F' R' F u D R' D R u' L F' L' F R U' R' u y' R U R' F R' F' R U' u' R U R' F R' F' R u"
