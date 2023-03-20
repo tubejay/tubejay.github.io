@@ -27,6 +27,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "6x6x6"
     experimental-stickering   = "F2L"
     alg                       = "R' D R 3U R' U R R U' R' 3D' U R' F R F' 4u' R U R'"

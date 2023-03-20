@@ -28,6 +28,8 @@ hidden: false
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 4Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "6x6x6"
       experimental-stickering   = "OLL"
       alg                       = "(2Rw U2') x (2Rw U2')2 (4Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
