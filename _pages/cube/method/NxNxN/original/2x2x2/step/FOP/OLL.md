@@ -30,6 +30,8 @@ hidden: false
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "L U L' U L U2 L'"
@@ -48,6 +50,8 @@ hidden: false
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "R' U' R U' R' U2' R"
@@ -66,6 +70,8 @@ hidden: false
 - ( F ) ( R U R' U' ) ( F' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "F R U R' U' F'"
@@ -84,6 +90,8 @@ hidden: false
 - ( F ) ( R U R' U' ) x 2 ( F' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "F (R U R' U')2 F'"
@@ -102,6 +110,8 @@ hidden: false
 - ( F ) ( R U R' U' ) x 3 ( F' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "F (R U R' U')3 F'"
@@ -120,6 +130,8 @@ hidden: false
 - ( R U ) ( R' U' ) ( R' F ) ( R F' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "R U R' U' R' F R F'"
@@ -138,6 +150,8 @@ hidden: false
 - ( F' ) ( R U R' U' ) ( R' F R )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "OLL"
       alg                       = "F' R U R' U' R' F R"

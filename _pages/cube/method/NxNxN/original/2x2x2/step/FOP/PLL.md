@@ -30,6 +30,8 @@ hidden: false
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "R U2' R' U' R U2 L' U R' U' L"
@@ -48,6 +50,8 @@ hidden: false
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"

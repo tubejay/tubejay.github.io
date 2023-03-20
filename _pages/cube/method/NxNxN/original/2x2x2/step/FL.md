@@ -28,6 +28,8 @@ hidden: false
 - Right : R U R'
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "R U R'"
@@ -39,6 +41,8 @@ hidden: false
 - Left : F' U' F
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "F' U' F"
@@ -55,6 +59,8 @@ hidden: false
 - Right : ( R U' R' U ) ( F' U F )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "R U' R' U F' U F"
@@ -66,6 +72,8 @@ hidden: false
 - Left : ( F' U F U' ) ( R U' R' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "F' U F U' R U' R'"

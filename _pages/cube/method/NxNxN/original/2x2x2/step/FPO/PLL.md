@@ -35,6 +35,8 @@ hidden: false
 - ( U' L' ) ( U R ) ( U' L ) ( U R' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "U' L' U R U' L U R'"
@@ -51,6 +53,8 @@ hidden: false
 - ( U R ) ( U' L' ) ( U R' ) ( U' L )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "U R U' L' U R' U' L"
