@@ -36,6 +36,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "7x7x7"
     experimental-stickering   = "centers-only"
     alg                       = "r' F r"
@@ -49,6 +51,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "7x7x7"
     experimental-stickering   = "centers-only"
     alg                       = "3r U r' U r U2' 3r'"
@@ -63,6 +67,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "7x7x7"
     experimental-stickering   = "centers-only"
     alg                       = "r U r' U r U2' r'"

@@ -28,6 +28,8 @@ hidden: false
 - ( 3Rw U2 ) ( x ) ( 3Rw U2 ) x 2 ( 4Rw' U2 ) ( 3Lw U2 ) ( 3Rw' U2 ) ( 3Rw U2 ) ( 3Rw' U2 ) ( 3Rw' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "7x7x7"
       experimental-stickering   = "OLL"
       alg                       = "(3Rw U2') x (3Rw U2')2 (4Rw' U2') (3Lw U2') (3Rw' U2') (3Rw U2') (3Rw' U2') 3Rw'"
@@ -44,6 +46,8 @@ hidden: false
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 5Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "7x7x7"
       experimental-stickering   = "OLL"
       alg                       = "(2Rw U2') x (2Rw U2')2 (5Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
