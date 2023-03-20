@@ -28,6 +28,8 @@ hidden: false
 - 2nd Layer
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "F2L"
       alg                       = "U R U R' U' 2F U R U' R' 2F'"
@@ -39,6 +41,8 @@ hidden: false
 - 3rd Layer
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "F2L"
       alg                       = "U R U R' U' 3F U R U' R' 3F'"
@@ -55,6 +59,8 @@ hidden: false
 - 2nd Layer
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "F2L"
       alg                       = "U' F' U' F U 2R' U' F' U F 2R"
@@ -66,6 +72,8 @@ hidden: false
 - 3rd Layer
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "F2L"
       alg                       = "U' F' U' F U 3R' U' F' U F 3R"

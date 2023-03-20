@@ -27,6 +27,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "4x4x4"
     experimental-stickering   = "Cross"
     alg                       = "F2 2R'"
@@ -42,6 +44,8 @@ hidden: false
 
 <div class="twisty-wrapper">
   <twisty-player
+    dark-mode                 = "dark"
+    background                = "none"
     puzzle                    = "4x4x4"
     experimental-stickering   = "Cross"
     alg                       = "R' F 2L2 F"

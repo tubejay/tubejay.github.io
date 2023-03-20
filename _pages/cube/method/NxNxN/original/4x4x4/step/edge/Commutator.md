@@ -34,6 +34,8 @@ hidden: false
 - ( Right to Left ) ( L' B L ) ( Left to Right ) ( L' B' L )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "ELL"
       alg                       = "2F' L' B L 2F L' B' L"
@@ -50,6 +52,8 @@ hidden: false
 - ( Right to Left ) ( U' L U L' ) ( Left to Right ) ( L U' L' U )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "ELL"
       alg                       = "2F' U' L U L' 2F L U' L' U"
@@ -66,6 +70,8 @@ hidden: false
 - ( Left to Right ) ( R B' R' ) ( Right to Left ) ( R B R' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "ELL"
       alg                       = "2F R B' R' 2F' R B R'"
@@ -82,6 +88,8 @@ hidden: false
 - ( Left to Right ) ( U R' U' R ) ( Right to Left ) ( R' U R U' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "4x4x4"
       experimental-stickering   = "ELL"
       alg                       = "2F U R' U' R 2F' R' U R U'"
