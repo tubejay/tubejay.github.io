@@ -26,6 +26,8 @@ hidden: false
 ## Method
 
 <twisty-player
+  dark-mode                 = "dark"
+  background                = "none"
   puzzle                    = "gigaminx"
   camera-latitude           = 30
   camera-longitude          = 0

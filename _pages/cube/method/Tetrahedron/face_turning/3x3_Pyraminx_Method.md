@@ -35,6 +35,8 @@ hidden: false
   - from Front Right : ( R' L ) ( R L' )
     <div class="twisty-wrapper">
       <twisty-player
+        dark-mode                 = "dark"
+        background                = "none"
         puzzle                    = "pyraminx"
         experimental-stickering   = "full"
         alg                       = "R' L R L'"
@@ -46,6 +48,8 @@ hidden: false
   - from Front Left : ( L R' ) ( L' R )
     <div class="twisty-wrapper">
       <twisty-player
+        dark-mode                 = "dark"
+        background                = "none"
         puzzle                    = "pyraminx"
         experimental-stickering   = "full"
         alg                       = "L R' L' R"
@@ -61,6 +65,8 @@ hidden: false
   - Clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
     <div class="twisty-wrapper">
       <twisty-player
+        dark-mode                 = "dark"
+        background                = "none"
         puzzle                    = "pyraminx"
         experimental-stickering   = "full"
         alg                       = "R' U' R U' R' U' R"
@@ -72,6 +78,8 @@ hidden: false
   - Counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
     <div class="twisty-wrapper">
       <twisty-player
+        dark-mode                 = "dark"
+        background                = "none"
         puzzle                    = "pyraminx"
         experimental-stickering   = "full"
         alg                       = "L U L' U L U L'"
@@ -84,6 +92,8 @@ hidden: false
   - ( R' L ) ( R L' ) ( U L' ) ( U' L )
     <div class="twisty-wrapper">
       <twisty-player
+        dark-mode                 = "dark"
+        background                = "none"
         puzzle                    = "pyraminx"
         experimental-stickering   = "full"
         alg                       = "R' L R L' U L' U' L"

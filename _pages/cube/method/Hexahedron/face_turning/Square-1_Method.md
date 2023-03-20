@@ -26,6 +26,8 @@ hidden: false
 ## Method
 
 <twisty-player
+  dark-mode                 = "dark"
+  background                = "none"
   puzzle                    = "square1"
   experimental-stickering   = "full"
   alg                       = ""

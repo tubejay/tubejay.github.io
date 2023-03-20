@@ -33,6 +33,8 @@ hidden: false
 
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "redi_cube"
       experimental-stickering   = "full"
       alg                       = "UR' F UR F'"

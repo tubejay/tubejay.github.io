@@ -34,6 +34,8 @@ hidden: false
 - 0 Corners : ( R' L ) ( R L' )
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "skewb"
       experimental-stickering   = "full"
       alg                       = "F' UL F UL'"
@@ -45,6 +47,8 @@ hidden: false
 - 2 Corners : (0 Corners) y (0 Corners)
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "skewb"
       experimental-stickering   = "full"
       alg                       = "F' UL F UL' y F' UL F UL'"
@@ -62,6 +66,8 @@ hidden: false
 - Permute 3 Centers : (0 Corners) y2 (0 Corners)
   <div class="twisty-wrapper">
     <twisty-player
+      dark-mode                 = "dark"
+      background                = "none"
       puzzle                    = "skewb"
       experimental-stickering   = "full"
       alg                       = "F' UL F UL' y2 F' UL F UL'"
