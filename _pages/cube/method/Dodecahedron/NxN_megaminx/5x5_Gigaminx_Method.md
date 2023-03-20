@@ -44,4 +44,7 @@ hidden: false
 ## Reference
 
 - [Twisty Puzzling](https://youtu.be/irUnibyrA5s)
+- Super Antonio Vivaldi
+  - [Part 1](https://youtu.be/KAbs3Tewvww)
+  - [Part 2](https://youtu.be/hxwtjhs5brU)
 - <https://youtu.be/dQ71W9znIHY>

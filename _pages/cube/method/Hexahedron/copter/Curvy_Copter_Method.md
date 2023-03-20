@@ -46,4 +46,5 @@ hidden: false
 - [듀나메스](https://youtu.be/D9plniIP65U)
 - [Bearded Cubing 101](https://youtu.be/GX-9bq_ZpmA)
 - [Twisty Puzzling](https://youtu.be/2n8diuYvAEE)
+- [Super Antonio Vivaldi](https://youtu.be/3aSR8UqwthU)
 - <https://youtu.be/RydUtIlMzVk>

@@ -50,3 +50,7 @@ hidden: false
 - [큐브놀이터](https://youtu.be/w2rHHmnB5yw)
 - [투마이](https://youtu.be/Socn_wHtM_o)
 - [Twisty Puzzling](https://youtu.be/Gz7URKZZMLs)
+- Super Antonio Vivaldi
+  - [Part 1](https://youtu.be/Jv7E_eMxdrk)
+  - [Part 2](https://youtu.be/h6axNXxvEVU)
+  - [Part 3](https://youtu.be/OZCfWNzmlRc)

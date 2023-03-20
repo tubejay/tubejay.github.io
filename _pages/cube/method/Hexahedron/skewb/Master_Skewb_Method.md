@@ -57,3 +57,6 @@ hidden: false
 - [정유비](https://youtu.be/4pz60TlYRkA)
 - [Bearded Cubing 101](https://youtu.be/Jiuf7zQyPYI)
 - [Twisty Puzzling](https://youtu.be/HietZih4KIw)
+- Super Antonio Vivaldi
+  - [Part A](https://youtu.be/tqXRF3IfcDw)
+  - [Part B](https://youtu.be/SxaFSm0hcR8)

@@ -43,3 +43,6 @@ hidden: false
 
 ## Reference
 
+- Super Antonio Vivaldi
+  - [Part 1](https://youtu.be/e7Es4Zx6Sl4)
+  - [Part 2](https://youtu.be/ZhkklbYfs98)

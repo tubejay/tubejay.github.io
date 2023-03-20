@@ -16,4 +16,7 @@ hidden: false
 ## Reference
 
 - [듀나메스](https://youtu.be/jexonAM9sc8)
+- Super Antonio Vivaldi
+  - [Part 1](https://youtu.be/S9xfEieaHws)
+  - [Part 2](https://youtu.be/YDT_9qwgbhE)
 - <https://youtu.be/TPD3xXSsnKg>
