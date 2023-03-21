@@ -16,4 +16,5 @@ hidden: false
 ## Reference
 
 - [Bearded Cubing 101](https://youtu.be/hJnaX9wnRvE)
+- [MrUk](https://youtu.be/MqSViy2ekkA)
 - <https://youtu.be/_KGGrfL9djI>

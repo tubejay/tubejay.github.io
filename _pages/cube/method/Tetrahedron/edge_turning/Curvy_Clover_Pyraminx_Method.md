@@ -16,4 +16,5 @@ hidden: false
 ## Reference
 
 - [투마이](https://youtu.be/W1mimq2S2uI)
+- [MrUk](https://youtu.be/p6B4vt8oQCw)
 - <https://youtu.be/_w0zPKBHRaY>

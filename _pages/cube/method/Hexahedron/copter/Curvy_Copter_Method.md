@@ -47,4 +47,8 @@ hidden: false
 - [Bearded Cubing 101](https://youtu.be/GX-9bq_ZpmA)
 - [Twisty Puzzling](https://youtu.be/2n8diuYvAEE)
 - [Super Antonio Vivaldi](https://youtu.be/3aSR8UqwthU)
+- MrUk
+  - [Non-Jumbling](https://youtu.be/zoBZame4gFo)
+  - [Jumbling](https://youtu.be/9sLn6oM-ywk)
+- [MrUk](https://youtu.be/Sw1tNFDfQNw)
 - <https://youtu.be/RydUtIlMzVk>

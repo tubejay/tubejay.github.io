@@ -24,3 +24,4 @@ hidden: false
 ## Reference
 
 - [Bearded Cubing 101](https://youtu.be/FhW1hwVpGpU)
+- [MrUk](https://youtu.be/yaNeIw4C5Uk)

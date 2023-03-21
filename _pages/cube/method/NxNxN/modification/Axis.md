@@ -35,3 +35,5 @@ hidden: false
   - [Method](https://youtu.be/8KjHoNOGWLE)
 - 굿맨
   - [Method](https://youtu.be/UiMSYt-SRs8)
+- MrUk
+  - [Method](https://youtu.be/Yrmq0m4vjfE)

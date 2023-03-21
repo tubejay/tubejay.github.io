@@ -45,3 +45,4 @@ hidden: false
 - Bearded Cubing 101
   - [Part 1 of 2](https://youtu.be/-1JSlSDsbV0)
   - [Part 2 of 2](https://youtu.be/3PWmkA1DCbU)
+- [MrUk](https://youtu.be/zh3IH6RdggY)

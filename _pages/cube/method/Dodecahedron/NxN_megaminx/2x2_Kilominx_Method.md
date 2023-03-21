@@ -44,4 +44,5 @@ hidden: false
 ## Reference
 
 - [큐브놀이터](https://youtu.be/8-X4GhQnE5I)
+- [MrUk](https://youtu.be/tdWh8f8qpq4)
 - <https://youtu.be/uJj7tO6cc4w>

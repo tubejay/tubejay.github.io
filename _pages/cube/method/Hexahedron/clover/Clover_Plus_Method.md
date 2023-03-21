@@ -18,3 +18,4 @@ hidden: false
 - [듀나메스](https://youtu.be/hurdVh7nxZY)
 - [굿맨](https://youtu.be/gfVEHmBB55A)
 - [Bearded Cubing 101](https://youtu.be/9UBbv3K3cQI)
+- [MrUk](https://youtu.be/EeP48LONnow)

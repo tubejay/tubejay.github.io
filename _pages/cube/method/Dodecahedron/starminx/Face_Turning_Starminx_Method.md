@@ -44,3 +44,6 @@ hidden: false
 ## Reference
 
 - [Twisty Puzzling](https://youtu.be/NqYFonhf2rw)
+- MrUk
+  - [Part 1](https://youtu.be/7LotUfg90HI)
+  - [Part 2](https://youtu.be/nH2doGM1Das)

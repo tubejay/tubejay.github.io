@@ -16,4 +16,5 @@ hidden: false
 ## Reference
 
 - [정유비](https://youtu.be/7bhymHBeXSA)
+- [MrUk](https://youtu.be/-uE241Va9RI)
 - <https://youtu.be/3WY8-pKWUXo>

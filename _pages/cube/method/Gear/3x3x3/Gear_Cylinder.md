@@ -24,3 +24,10 @@ hidden: false
 ## Method
 
 - [Gear Cube / Method](/cube/method/gear/3x3x3/gear_cube/method)
+
+
+
+## Reference
+
+- [MrUk](https://youtu.be/KEMA7UfC2C0)
+- <https://youtu.be/iPqEh9Vgtb4>

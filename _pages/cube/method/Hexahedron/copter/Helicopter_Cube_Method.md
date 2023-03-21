@@ -46,4 +46,7 @@ hidden: false
 - [듀나메스](https://youtu.be/xZeIbPySg0k)
 - [Bearded Cubing 101](https://youtu.be/-suwJpd_PO8)
 - [Super Antonio Vivaldi](https://youtu.be/TagZmrnHmJQ)
+- MrUk
+  - [Non-Jumbling](https://youtu.be/zoBZame4gFo)
+  - [Jumbling](https://youtu.be/9sLn6oM-ywk)
 - <https://youtu.be/RydUtIlMzVk>
