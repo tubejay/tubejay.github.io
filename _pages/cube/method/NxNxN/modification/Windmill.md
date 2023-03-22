@@ -29,9 +29,6 @@ hidden: false
 
 ## Reference
 
-- 아이엠준
-  - [Method](https://youtu.be/x9SySGU_iqE)
-- 굿맨
-  - [Method](https://youtu.be/gELuvKW2Itw)
-- MrUk
-  - [Method](https://youtu.be/GZI_PtcURaA)
+- [아이엠준](https://youtu.be/x9SySGU_iqE)
+- [굿맨](https://youtu.be/gELuvKW2Itw)
+- [MrUk](https://youtu.be/GZI_PtcURaA)

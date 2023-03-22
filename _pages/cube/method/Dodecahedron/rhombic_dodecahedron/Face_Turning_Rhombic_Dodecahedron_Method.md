@@ -19,5 +19,8 @@ hidden: false
 - Super Antonio Vivaldi
   - [Part 1](https://youtu.be/S9xfEieaHws)
   - [Part 2](https://youtu.be/YDT_9qwgbhE)
+- Manqube Manish Rathod
+  - [Part 1](https://youtu.be/zaLTa36YxbU)
+  - [Part 2](https://youtu.be/E1OKIt7BE6I)
 - [MrUk](https://youtu.be/oGhBQGL0XZc)
 - <https://youtu.be/TPD3xXSsnKg>

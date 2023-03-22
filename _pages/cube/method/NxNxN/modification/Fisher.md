@@ -30,13 +30,9 @@ hidden: false
 
 ## Reference
 
-- 아이엠준
-  - [Method](https://youtu.be/x9SySGU_iqE)
-- 듀나메스
-  - [Method](https://youtu.be/F5cDzoSU280)
-- 굿맨
-  - [Method](https://youtu.be/gELuvKW2Itw)
-- Super Antonio Vivaldi
-  - [Method](https://youtu.be/cLbiroFcTHM)
-- MrUk
-  - [Method](https://youtu.be/vFKujycV3cs)
+- [아이엠준](https://youtu.be/x9SySGU_iqE)
+- [듀나메스](https://youtu.be/F5cDzoSU280)
+- [굿맨](https://youtu.be/gELuvKW2Itw)
+- [Super Antonio Vivaldi](https://youtu.be/cLbiroFcTHM)
+- [Manqube Manish Rathod](https://youtu.be/Q-oS5aHWfsU)
+- [MrUk](https://youtu.be/vFKujycV3cs)

@@ -29,11 +29,8 @@ hidden: false
 
 ## Reference
 
-- 아이엠준
-  - [Method](https://youtu.be/fFtSgap-zeo)
-- 듀나메스
-  - [Method](https://youtu.be/8KjHoNOGWLE)
-- 굿맨
-  - [Method](https://youtu.be/UiMSYt-SRs8)
-- MrUk
-  - [Method](https://youtu.be/Yrmq0m4vjfE)
+- [아이엠준](https://youtu.be/fFtSgap-zeo)
+- [듀나메스](https://youtu.be/8KjHoNOGWLE)
+- [굿맨](https://youtu.be/UiMSYt-SRs8)
+- [Manqube Manish Rathod](https://youtu.be/ZzKHiNCrfgo)
+- [MrUk](https://youtu.be/Yrmq0m4vjfE)

@@ -29,9 +29,6 @@ hidden: false
 
 ## Reference
 
-- 아이엠준
-  - [Method](https://youtu.be/5BFRk7amyvk)
-- 듀나메스
-  - [Method](https://youtu.be/p3OJSbWopqg)
-- 굿맨
-  - [Method](https://youtu.be/CnfKhEWBI6I)
+- [아이엠준](https://youtu.be/5BFRk7amyvk)
+- [듀나메스](https://youtu.be/p3OJSbWopqg)
+- [굿맨](https://youtu.be/CnfKhEWBI6I)

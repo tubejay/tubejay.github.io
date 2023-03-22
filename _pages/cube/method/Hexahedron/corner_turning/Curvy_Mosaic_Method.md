@@ -17,4 +17,5 @@ hidden: false
 
 - [듀나메스](https://youtu.be/eDIeMOeiqUg)
 - [Bearded Cubing 101](https://youtu.be/s8B3iI0GxW0)
+- [Manqube Manish Rathod](https://youtu.be/MMHp-LEoAcQ)
 - [MrUk](https://youtu.be/Iu5vd_4h3Uc)

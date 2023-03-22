@@ -16,5 +16,6 @@ hidden: false
 ## Reference
 
 - [Bearded Cubing 101](https://youtu.be/hJnaX9wnRvE)
+- [Manqube Manish Rathod](https://youtu.be/YezKHEtmM-M)
 - [MrUk](https://youtu.be/MqSViy2ekkA)
 - <https://youtu.be/_KGGrfL9djI>

@@ -15,5 +15,4 @@ hidden: false
 
 ## Reference
 
-- 굿맨
-  - [OLL Parity](https://youtu.be/EaX0xLmwDzM)
+- [굿맨](https://youtu.be/EaX0xLmwDzM)

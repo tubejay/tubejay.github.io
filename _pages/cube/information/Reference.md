@@ -51,4 +51,5 @@ hidden: false
 - [Bearded Cubing 101](https://youtube.com/@BeardedCubing101)
 - [Twisty Puzzling](https://youtube.com/@twistypuzzling)
 - [Super Antonio Vivaldi](https://youtube.com/@SuperAntoniovivaldi)
+- [Manqube Manish Rathod](https://youtube.com/@Manqube)
 - [MrUk](https://youtube.com/@mruk2091)

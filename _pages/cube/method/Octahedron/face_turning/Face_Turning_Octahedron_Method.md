@@ -48,4 +48,5 @@ hidden: false
 - [정유비](https://youtu.be/Cd3ZGz7_qVU)
 - [Twisty Puzzling](https://youtu.be/DnMMTWTeM6s)
 - [Super Antonio Vivaldi](https://youtu.be/n_mBSUDLUZw)
+- [Manqube Manish Rathod](https://youtu.be/se2p7cz1eEw)
 - [MrUk](https://youtu.be/huWg-ZfP-KY)
