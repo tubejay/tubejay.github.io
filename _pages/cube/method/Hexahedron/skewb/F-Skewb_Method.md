@@ -20,4 +20,4 @@ hidden: false
 - [Bearded Cubing 101](https://youtu.be/xJXssY6tDRQ)
 - [Super Antonio Vivaldi](https://youtu.be/42fccGjClg4)
 - [Super Antonio Vivaldi](https://youtu.be/vSx_w7_Kwpw)
-- [MrUk]https://youtu.be/yWGAF8qndww
+- [MrUk](https://youtu.be/yWGAF8qndww)

@@ -49,6 +49,5 @@ hidden: false
 ## Reference
 
 - [굿맨](https://youtu.be/KgofbCsVOOQ)
-- [MrUk](https://youtu.be/IPs7h_3CUI8)
 - [MrUk](https://youtu.be/5_Jg4xWF3F4)
 - <https://youtu.be/Qn7TJED6O-4>
