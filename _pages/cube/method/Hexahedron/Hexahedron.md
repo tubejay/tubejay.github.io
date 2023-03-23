@@ -71,6 +71,7 @@ hidden: false
 
 ## Hybrid
 
+- [Tangram Cube](/cube/method/hexahedron/hybrid/tangram_cube)
 - [Pentacle Cube](/cube/method/hexahedron/hybrid/pentacle_cube)
 - [Coin Cube](/cube/method/hexahedron/hybrid/coin_cube)
 - [Polaris Cube](/cube/method/hexahedron/hybrid/polaris_cube)

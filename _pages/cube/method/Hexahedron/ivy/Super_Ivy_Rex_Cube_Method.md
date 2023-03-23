@@ -41,3 +41,4 @@ hidden: false
 - [Twisty Puzzling](https://youtu.be/3kvfsFZbe3s)
 - [Manqube Manish Rathod](https://youtu.be/BXG2vUvRr_I)
 - [MrUk](https://youtu.be/ffbFRnHglWY)
+- [PeteTheGeek196](https://youtu.be/Hs6IZvNayKw)

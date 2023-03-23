@@ -15,3 +15,4 @@ hidden: false
 ## Reference
 
 - [Twisty Puzzling](https://youtu.be/xHiTobT8YYI)
+- [PeteTheGeek196](https://youtu.be/cWs-br6QgM8)

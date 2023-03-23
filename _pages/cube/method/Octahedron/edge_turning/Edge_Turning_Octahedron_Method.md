@@ -46,3 +46,4 @@ hidden: false
 - Twisty Puzzling
   - [Non-Jumbling](https://youtu.be/ClnuiG-Y2nE)
   - [Jumbling](https://youtu.be/pDT373yMP4M)
+- [PeteTheGeek196](https://youtu.be/J_9wGtgZ6ik)
