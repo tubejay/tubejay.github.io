@@ -21,4 +21,4 @@ hidden: false
 
 
 
-## [Method](/cube/method/hexahedron/corner_turning/dino_cube/method)
+## [Method](/cube/method/hexahedron/dino/dino_cube/method)
