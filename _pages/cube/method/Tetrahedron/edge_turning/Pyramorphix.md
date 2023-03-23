@@ -57,6 +57,7 @@ hidden: false
 
 - [굿맨](https://youtu.be/j03rjmXctRQ)
 - [큐브놀이터](https://youtu.be/WIy5ZvTXsOY)
+- [Bearded Cubing 101](https://youtu.be/y2aP9IxiXkI)
 - [Super Antonio Vivaldi](https://youtu.be/GWTYO5WLWMc)
 - [Manqube Manish Rathod](https://youtu.be/HRo1JeK67io)
 - [MrUk](https://youtu.be/b7VpuXloBNU)
