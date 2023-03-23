@@ -15,7 +15,7 @@ hidden: false
 
 ## Edge
 
-- [Dino Cube / Method](/cube/method/hexahedron/corner_turning/dino_cube/method)
+- [Dino Cube / Method](/cube/method/hexahedron/dino/dino_cube/method)
 
 
 
