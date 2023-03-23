@@ -21,11 +21,17 @@ hidden: false
 
 ## Corner Turning
 
-- [Dino Cube](/cube/method/hexahedron/corner_turning/dino_cube)
-- [Redi Cube](/cube/method/hexahedron/corner_turning/redi_cube)
 - [Curvy Windmill (Spax Cube)](/cube/method/hexahedron/corner_turning/curvy_windmill_spax_cube)
 - [Pisces Cube (4 Corners Cube)](/cube/method/hexahedron/corner_turning/pisces_cube_4_corners_cube)
 - [Curvy Mosaic](/cube/method/hexahedron/corner_turning/curvy_mosaic)
+
+
+
+## Dino
+
+- [Dino Cube](/cube/method/hexahedron/dino/dino_cube)
+- [Compy Cube](/cube/method/hexahedron/dino/compy_cube)
+- [Redi Cube](/cube/method/hexahedron/dino/redi_cube)
 
 
 

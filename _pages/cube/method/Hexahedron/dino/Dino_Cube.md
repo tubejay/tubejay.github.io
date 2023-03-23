@@ -2,7 +2,7 @@
 title: "Dino Cube"
 layout: single
 toc: true
-permalink: /cube/method/hexahedron/corner_turning/dino_cube
+permalink: /cube/method/hexahedron/dino/dino_cube
 published: true
 hidden: false
 ---

@@ -2,7 +2,7 @@
 title: "Redi Cube"
 layout: single
 toc: true
-permalink: /cube/method/hexahedron/corner_turning/redi_cube
+permalink: /cube/method/hexahedron/dino/redi_cube
 published: true
 hidden: false
 ---
