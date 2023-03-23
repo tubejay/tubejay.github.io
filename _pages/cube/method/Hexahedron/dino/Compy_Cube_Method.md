@@ -39,7 +39,7 @@ hidden: false
     camera-latitude                 = 45
     camera-longitude                = 30
     experimental-stickering         = "full"
-    alg                             = "UR' F UR F'"
+    alg                             =  "UFR' UFL UFR UFL'"
     experimental-setup-alg          = ""
     experimental-setup-anchor       = "end"
     tempo-scale                     = "1.3"
