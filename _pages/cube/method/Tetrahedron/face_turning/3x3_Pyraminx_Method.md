@@ -108,4 +108,7 @@ hidden: false
 ## Reference
 
 - [아이엠준](https://youtu.be/mO3excjvvoA)
+- [해피 큐빙](https://youtu.be/SlIcRFwF3ck)
+- [투마이](https://youtu.be/5L4vhS1rqeE)
+- [Bearded Cubing 101](https://youtu.be/qkq3HCHXtAE)
 - [Manqube Manish Rathod](https://youtu.be/p0Z1M7fO_PQ)
