@@ -21,4 +21,6 @@ hidden: false
 
 
 
-## [Method](/cube/method/hexahedron/corner_turning/redi_cube/method)
+## Method
+
+- [Compy Cube / Method](/cube/method/hexahedron/dino/compy_cube/method)

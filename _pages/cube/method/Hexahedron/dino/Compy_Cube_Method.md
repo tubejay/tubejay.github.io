@@ -23,7 +23,13 @@ hidden: false
 
 
 
-## Method
+## Corner
+
+
+
+## Edge
+
+- Permute 3 Edges : ( X Y ) ( X' Y' )
 
 <div class="twisty-wrapper">
   <twisty-player
@@ -33,7 +39,7 @@ hidden: false
     camera-latitude                 = 45
     camera-longitude                = 30
     experimental-stickering         = "full"
-    alg                             = ""
+    alg                             = "UR' F UR F'"
     experimental-setup-alg          = ""
     experimental-setup-anchor       = "end"
     tempo-scale                     = "1.3"
@@ -45,3 +51,6 @@ hidden: false
 
 ## Reference
 
+- [굿맨](https://youtu.be/KgofbCsVOOQ)
+- [MrUk](https://youtu.be/5_Jg4xWF3F4)
+- <https://youtu.be/Qn7TJED6O-4>
