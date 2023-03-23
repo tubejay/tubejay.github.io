@@ -54,6 +54,7 @@ hidden: false
 ## Reference
 
 - [듀나메스](https://youtu.be/yKW48BaE91M)
+- [굿맨](https://youtu.be/NTwVr2T4u-o)
 - [큐브놀이터](https://youtu.be/VW-CvVZkRzQ)
 - [Manqube Manish Rathod](https://youtu.be/GpHxJILUTHI)
 - [MrUk](https://youtu.be/_ZgduvWVx14)
