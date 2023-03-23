@@ -13,10 +13,6 @@ hidden: false
 
 
 
-## Method
-
-
-
 ## Reference
 
 - [PeteTheGeek196](https://youtu.be/hvROr25LWCw)
