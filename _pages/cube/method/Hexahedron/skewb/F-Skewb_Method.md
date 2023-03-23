@@ -18,7 +18,8 @@ hidden: false
 - [듀나메스](https://youtu.be/UslhG5CHgtE)
 - [투마이](https://youtu.be/rDosGPGV2Bk)
 - [Bearded Cubing 101](https://youtu.be/xJXssY6tDRQ)
-- [Super Antonio Vivaldi](https://youtu.be/42fccGjClg4)
-- [Super Antonio Vivaldi](https://youtu.be/vSx_w7_Kwpw)
+- Super Antonio Vivaldi
+  - [Dino / Skewb](https://youtu.be/42fccGjClg4)
+  - [Master Skewb](https://youtu.be/vSx_w7_Kwpw)
 - [MrUk](https://youtu.be/yWGAF8qndww)
 - [PeteTheGeek196](https://youtu.be/NoYdr3eley0)
