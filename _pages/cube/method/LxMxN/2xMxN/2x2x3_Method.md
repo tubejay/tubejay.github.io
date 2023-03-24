@@ -34,3 +34,4 @@ hidden: false
 
 - [듀나메스](https://youtu.be/DIaUaxQbJhw)
 - [MrUk](https://youtu.be/RWF-7v5KE74)
+- [Z3Cubing](https://youtu.be/6dYOrUgFCsc)
