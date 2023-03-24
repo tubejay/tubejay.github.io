@@ -2,7 +2,7 @@
 title: "Coin Cube / Method"
 layout: single
 toc: true
-permalink: /cube/method/hexahedron/hybrid/coin_cube/method
+permalink: /cube/method/hexahedron/circle/coin_cube/method
 published: true
 hidden: false
 ---

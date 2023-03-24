@@ -2,7 +2,7 @@
 title: "Pentacle Cube / Method"
 layout: single
 toc: true
-permalink: /cube/method/hexahedron/hybrid/pentacle_cube/method
+permalink: /cube/method/hexahedron/circle/pentacle_cube/method
 published: true
 hidden: false
 ---
