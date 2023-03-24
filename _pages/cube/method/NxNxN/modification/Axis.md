@@ -34,6 +34,7 @@ hidden: false
 - [굿맨](https://youtu.be/UiMSYt-SRs8)
 - [Manqube Manish Rathod](https://youtu.be/ZzKHiNCrfgo)
 - [QBAndo](https://youtu.be/IHZqOXrWv68)
+- [Kubekings](https://youtu.be/jJRV4zVW9S0)
 - [MrUk](https://youtu.be/Yrmq0m4vjfE)
 - [Z3Cubing](https://youtu.be/DdYBkV07WpM)
 - JRCuber

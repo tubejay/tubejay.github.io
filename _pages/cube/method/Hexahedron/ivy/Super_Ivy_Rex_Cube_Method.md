@@ -40,5 +40,6 @@ hidden: false
 - [굿맨](https://youtu.be/NmPq2lQj6PM)
 - [Twisty Puzzling](https://youtu.be/3kvfsFZbe3s)
 - [Manqube Manish Rathod](https://youtu.be/BXG2vUvRr_I)
+- [Kubekings](https://youtu.be/d6MbrNrUawM)
 - [MrUk](https://youtu.be/ffbFRnHglWY)
 - [PeteTheGeek196](https://youtu.be/Hs6IZvNayKw)

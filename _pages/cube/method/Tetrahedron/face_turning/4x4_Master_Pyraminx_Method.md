@@ -69,6 +69,9 @@ hidden: false
 - [Super Antonio Vivaldi](https://youtu.be/J7bBmOAeEGE)
 - [Manqube Manish Rathod](https://youtu.be/VtPD-UQ4KO8)
 - [QBAndo](https://youtu.be/KR9KG3SRtto)
+- Kubekings
+  - <https://youtu.be/7fdJ2sItHbU>
+  - <https://youtu.be/Y8xu1i_BPsw>
 - [MrUk](https://youtu.be/EamwvhmHC7Q)
 - [Z3Cubing](https://youtu.be/tGQDqDcSa6U)
 - [JRCuber](https://youtu.be/rK-xK-0HUxw)

@@ -54,4 +54,5 @@ hidden: false
 - [큐브놀이터](https://youtu.be/85_Zb7q5K70)
 - [Twisty Puzzling](https://youtu.be/DHszKFPA2Tc)
 - [Manqube Manish Rathod](https://youtu.be/Ry_KvT71kcg)
+- [Kubekings](https://youtu.be/d_9IxzLq-KA)
 - [MrUk](https://youtu.be/gSI5dhuFupE)

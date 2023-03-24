@@ -58,4 +58,5 @@ hidden: false
 - QBAndo
   - <https://youtu.be/5Xb6GwBBk0c>
   - <https://youtu.be/OGTv_1I0CU0>
+- [Kubekings](https://youtu.be/CEHybJQsR-g)
 - [Z3Cubing](https://youtu.be/0tX-f6RLgac)

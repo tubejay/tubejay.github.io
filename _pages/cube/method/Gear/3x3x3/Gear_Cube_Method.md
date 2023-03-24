@@ -17,5 +17,6 @@ hidden: false
 
 - [듀나메스](https://youtu.be/ozOb0DbnnV0)
 - [Manqube Manish Rathod](https://youtu.be/_Ehu1ELjLQQ)
+- [Kubekings](https://youtu.be/YefSBqscdEY)
 - [MrUk](https://youtu.be/KEMA7UfC2C0)
 - <https://youtu.be/iPqEh9Vgtb4>

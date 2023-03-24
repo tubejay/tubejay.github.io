@@ -53,6 +53,7 @@ hidden: false
 - [Super Antonio Vivaldi](https://youtube.com/@SuperAntoniovivaldi)
 - [Manqube Manish Rathod](https://youtube.com/@Manqube)
 - [QBAndo](https://youtube.com/@QBAndo)
+- [Kubekings](https://youtube.com/@Kubekings)
 - [MrUk](https://youtube.com/@mruk2091)
 - [Z3Cubing](https://youtube.com/@Z3Cubing)
 - [PeteTheGeek196](https://youtube.com/@PeteTheGeek196)
