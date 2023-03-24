@@ -25,4 +25,5 @@ hidden: false
   - [Part 3 of 3](https://youtu.be/IwCgwIbqPMQ)
 - [Twisty Puzzling](https://youtu.be/eHqb1yURvWc)
 - [Super Antonio Vivaldi](https://youtu.be/8FKmS4NsNUc)
+- [QBAndo](https://youtu.be/0hf_7gbleLI)
 - [MrUk](https://youtu.be/ETN8SJt9ACY)

@@ -45,5 +45,6 @@ hidden: false
 ## Reference
 
 - [듀나메스](https://youtu.be/1mI0hufDqzU)
+- [QBAndo](https://youtu.be/s6w3XoIqIpE)
 - [MrUk](https://youtu.be/KSs928xIwKg)
 - [JRCuber](https://youtu.be/pbv652cE1AU)

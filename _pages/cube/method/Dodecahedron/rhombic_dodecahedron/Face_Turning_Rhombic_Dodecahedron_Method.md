@@ -22,5 +22,6 @@ hidden: false
 - Manqube Manish Rathod
   - [Part 1](https://youtu.be/zaLTa36YxbU)
   - [Part 2](https://youtu.be/E1OKIt7BE6I)
+- [QBAndo](https://youtu.be/YlktqRoTfvk)
 - [MrUk](https://youtu.be/oGhBQGL0XZc)
 - <https://youtu.be/TPD3xXSsnKg>

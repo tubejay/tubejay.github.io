@@ -49,4 +49,8 @@ hidden: false
 - [Twisty Puzzling](https://youtu.be/DnMMTWTeM6s)
 - [Super Antonio Vivaldi](https://youtu.be/n_mBSUDLUZw)
 - [Manqube Manish Rathod](https://youtu.be/se2p7cz1eEw)
+- QBAndo
+  - <https://youtu.be/7qzZBqm283Q>
+  - <https://youtu.be/JawXKU6d2zg>
+  - <https://youtu.be/gKq8T2HO4Lw>
 - [MrUk](https://youtu.be/huWg-ZfP-KY)

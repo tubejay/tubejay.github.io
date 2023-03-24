@@ -21,5 +21,6 @@ hidden: false
 - Super Antonio Vivaldi
   - [Dino / Skewb](https://youtu.be/42fccGjClg4)
   - [Master Skewb](https://youtu.be/vSx_w7_Kwpw)
+- [QBAndo](https://youtu.be/R6deZc7wGaY)
 - [MrUk](https://youtu.be/yWGAF8qndww)
 - [PeteTheGeek196](https://youtu.be/NoYdr3eley0)

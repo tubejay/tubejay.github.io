@@ -46,4 +46,6 @@ hidden: false
   - [Part 1 of 2](https://youtu.be/-1JSlSDsbV0)
   - [Part 2 of 2](https://youtu.be/3PWmkA1DCbU)
 - [Manqube Manish Rathod](https://youtu.be/MHlT7ZKp_Pg)
+- [QBAndo](https://youtu.be/DlTsP5ZSmEY)
+- [QBAndo](https://youtu.be/4fCRjpNkKfI)
 - [MrUk](https://youtu.be/zh3IH6RdggY)

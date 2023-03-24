@@ -55,4 +55,7 @@ hidden: false
   - [Part 2](https://youtu.be/h6axNXxvEVU)
   - [Part 3](https://youtu.be/OZCfWNzmlRc)
 - [Manqube Manish Rathod](https://youtu.be/nTKJv4vlnVk)
+- QBAndo
+  - <https://youtu.be/5Xb6GwBBk0c>
+  - <https://youtu.be/OGTv_1I0CU0>
 - [Z3Cubing](https://youtu.be/0tX-f6RLgac)

@@ -57,5 +57,6 @@ hidden: false
 - [굿맨](https://youtu.be/NTwVr2T4u-o)
 - [큐브놀이터](https://youtu.be/VW-CvVZkRzQ)
 - [Manqube Manish Rathod](https://youtu.be/GpHxJILUTHI)
+- [QBAndo](https://youtu.be/q6He6FX5540)
 - [MrUk](https://youtu.be/_ZgduvWVx14)
 - [Z3Cubing](https://youtu.be/Q1DXmDGyebc)
