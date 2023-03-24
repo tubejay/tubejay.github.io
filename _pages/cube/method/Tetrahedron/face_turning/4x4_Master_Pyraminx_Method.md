@@ -69,3 +69,4 @@ hidden: false
 - [Super Antonio Vivaldi](https://youtu.be/J7bBmOAeEGE)
 - [Manqube Manish Rathod](https://youtu.be/VtPD-UQ4KO8)
 - [MrUk](https://youtu.be/EamwvhmHC7Q)
+- [Z3Cubing](https://youtu.be/tGQDqDcSa6U)

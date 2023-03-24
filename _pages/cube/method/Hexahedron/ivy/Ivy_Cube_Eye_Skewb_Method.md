@@ -28,4 +28,4 @@ hidden: false
 ## Reference
 
 - [큐브놀이터](https://youtu.be/QmHS9ZAf7P8)
-- <https://youtu.be/QMzeJobSu1M>
+- [Z3Cubing](https://youtu.be/QMzeJobSu1M)

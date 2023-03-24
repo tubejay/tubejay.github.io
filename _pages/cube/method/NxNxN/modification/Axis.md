@@ -34,3 +34,4 @@ hidden: false
 - [굿맨](https://youtu.be/UiMSYt-SRs8)
 - [Manqube Manish Rathod](https://youtu.be/ZzKHiNCrfgo)
 - [MrUk](https://youtu.be/Yrmq0m4vjfE)
+- [Z3Cubing](https://youtu.be/DdYBkV07WpM)

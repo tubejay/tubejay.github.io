@@ -112,3 +112,4 @@ hidden: false
 - [투마이](https://youtu.be/5L4vhS1rqeE)
 - [Bearded Cubing 101](https://youtu.be/qkq3HCHXtAE)
 - [Manqube Manish Rathod](https://youtu.be/p0Z1M7fO_PQ)
+- [Z3Cubing](https://youtu.be/xIQtn2qazvg)

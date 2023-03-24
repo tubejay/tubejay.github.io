@@ -53,4 +53,4 @@ hidden: false
 
 - [굿맨](https://youtu.be/KgofbCsVOOQ)
 - [MrUk](https://youtu.be/5_Jg4xWF3F4)
-- <https://youtu.be/Qn7TJED6O-4>
+- [Z3Cubing](https://youtu.be/Qn7TJED6O-4)

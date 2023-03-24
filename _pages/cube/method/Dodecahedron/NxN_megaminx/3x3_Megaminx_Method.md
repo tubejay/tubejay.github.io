@@ -48,3 +48,4 @@ hidden: false
 - [큐브놀이터](https://youtu.be/51_Iv6DU8r8)
 - [Twisty Puzzling](https://youtu.be/-HACOq5ojZU)
 - [Super Antonio Vivaldi](https://youtu.be/Et7WbCXDvHc)
+- [Z3Cubing](https://youtu.be/j4x61L5Onzk)

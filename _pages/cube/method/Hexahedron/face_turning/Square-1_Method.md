@@ -55,3 +55,4 @@ hidden: false
   - [Part 2](https://youtu.be/h6axNXxvEVU)
   - [Part 3](https://youtu.be/OZCfWNzmlRc)
 - [Manqube Manish Rathod](https://youtu.be/nTKJv4vlnVk)
+- [Z3Cubing](https://youtu.be/0tX-f6RLgac)

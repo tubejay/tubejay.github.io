@@ -58,3 +58,4 @@ hidden: false
 - [큐브놀이터](https://youtu.be/VW-CvVZkRzQ)
 - [Manqube Manish Rathod](https://youtu.be/GpHxJILUTHI)
 - [MrUk](https://youtu.be/_ZgduvWVx14)
+- [Z3Cubing](https://youtu.be/Q1DXmDGyebc)
