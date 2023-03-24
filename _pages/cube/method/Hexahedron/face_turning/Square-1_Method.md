@@ -59,4 +59,8 @@ hidden: false
   - <https://youtu.be/5Xb6GwBBk0c>
   - <https://youtu.be/OGTv_1I0CU0>
 - [Kubekings](https://youtu.be/CEHybJQsR-g)
+- R de rubik
+  - [Part 1](https://youtu.be/va9KyIuqIfE)
+  - [Part 2](https://youtu.be/NJqvYQH7Q-0)
+  - [Part 3](https://youtu.be/v0KbV5KmqTA)
 - [Z3Cubing](https://youtu.be/0tX-f6RLgac)

@@ -48,6 +48,9 @@ hidden: false
 - [Twisty Puzzling](https://youtu.be/2n8diuYvAEE)
 - [Super Antonio Vivaldi](https://youtu.be/3aSR8UqwthU)
 - [Manqube Manish Rathod](https://youtu.be/gwSAFeq4jBE)
+- R de rubik
+  - [Non-Jumbling](https://youtu.be/GJWiFf41_2E)
+  - [Jumbling](https://youtu.be/H8mel80mK1w)
 - MrUk
   - [Non-Jumbling](https://youtu.be/zoBZame4gFo)
   - [Jumbling](https://youtu.be/9sLn6oM-ywk)

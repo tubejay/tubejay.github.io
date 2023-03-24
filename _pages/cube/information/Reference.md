@@ -54,6 +54,7 @@ hidden: false
 - [Manqube Manish Rathod](https://youtube.com/@Manqube)
 - [QBAndo](https://youtube.com/@QBAndo)
 - [Kubekings](https://youtube.com/@Kubekings)
+- [R de rubik](https://youtube.com/@Rderubik)
 - [MrUk](https://youtube.com/@mruk2091)
 - [Z3Cubing](https://youtube.com/@Z3Cubing)
 - [PeteTheGeek196](https://youtube.com/@PeteTheGeek196)
