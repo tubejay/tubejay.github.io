@@ -35,3 +35,6 @@ hidden: false
 - [Manqube Manish Rathod](https://youtu.be/ZzKHiNCrfgo)
 - [MrUk](https://youtu.be/Yrmq0m4vjfE)
 - [Z3Cubing](https://youtu.be/DdYBkV07WpM)
+- JRCuber
+  - [Part 1](https://youtu.be/NR8eeqePIms)
+  - [Part 2](https://youtu.be/8iNbxlcU6xY)

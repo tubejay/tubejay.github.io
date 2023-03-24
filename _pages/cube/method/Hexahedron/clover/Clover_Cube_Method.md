@@ -18,3 +18,4 @@ hidden: false
 - [듀나메스](https://youtu.be/aLxuKQLSemU)
 - [Bearded Cubing 101](https://youtu.be/1XAsib2WW0k)
 - [MrUk](https://youtu.be/EeP48LONnow)
+- [JRCuber](https://youtu.be/nK_gnOJ3UAI)

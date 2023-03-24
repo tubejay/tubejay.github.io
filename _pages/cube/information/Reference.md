@@ -56,3 +56,4 @@ hidden: false
 - [Z3Cubing](https://youtube.com/@Z3Cubing)
 - [PeteTheGeek196](https://youtube.com/@PeteTheGeek196)
 - [Brent Richter](https://youtube.com/@brentrichter3134)
+- [JRCuber](https://youtube.com/@JRCuber)

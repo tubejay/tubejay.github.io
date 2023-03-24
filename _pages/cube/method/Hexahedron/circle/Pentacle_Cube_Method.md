@@ -20,3 +20,4 @@ hidden: false
 - [Manqube Manish Rathod](https://youtu.be/uEic1IiTwRo)
 - [MrUk](https://youtu.be/aTKEIkBfxts)
 - [Z3Cubing](https://youtu.be/pPL2sUMo5-Y)
+- [JRCuber](https://youtu.be/EAPwsaa8_kM)
