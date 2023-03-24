@@ -55,3 +55,4 @@ hidden: false
 - [MrUk](https://youtube.com/@mruk2091)
 - [Z3Cubing](https://youtube.com/@Z3Cubing)
 - [PeteTheGeek196](https://youtube.com/@PeteTheGeek196)
+- [Brent Richter](https://youtube.com/@brentrichter3134)

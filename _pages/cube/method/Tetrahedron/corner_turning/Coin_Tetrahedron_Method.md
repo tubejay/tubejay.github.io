@@ -23,4 +23,4 @@ hidden: false
 
 ## Reference
 
-- <https://youtu.be/2WrDNfcfpAg>
+- [Brent Richter](https://youtu.be/2WrDNfcfpAg)

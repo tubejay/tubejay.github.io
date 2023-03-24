@@ -30,4 +30,4 @@ hidden: false
 ## Reference
 
 - [Manqube Manish Rathod](https://youtu.be/IaDxNb_9Xl8)
-- <https://youtu.be/KFrOpMGMgr0>
+- [Brent Richter](https://youtu.be/KFrOpMGMgr0)
