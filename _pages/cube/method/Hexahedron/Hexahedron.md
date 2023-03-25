@@ -79,5 +79,7 @@ hidden: false
 ## Hybrid
 
 - [Tangram Cube](/cube/method/hexahedron/hybrid/tangram_cube)
+- [Unicorn Cube](/cube/method/hexahedron/hybrid/unicorn_cube)
+- [Sun Cube](/cube/method/hexahedron/hybrid/sun_cube)
 - [Polaris Cube](/cube/method/hexahedron/hybrid/polaris_cube)
 - [Butterflower (Shell)](/cube/method/hexahedron/hybrid/butterflower_shell)
