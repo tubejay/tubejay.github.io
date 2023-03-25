@@ -1,10 +1,6 @@
 iframe {
-  overflow   : hidden;
   width      : 250px;
   height     : 300px;
   border     : none;
   background : #1a1a1a;
-}
-iframe::-webkit-scrollbar {
-  display    : none;
 }
