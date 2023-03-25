@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/iframe.css"
+    href  = "/assets/css/ruwix/iframe_w_wl.css"
   >
 </head>
 
@@ -22,19 +22,17 @@ hidden: false
 
 - Right
 
-    <iframe
-      class     = "w_ul"
-      scrolling = "no"
-      src       = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
-    ></iframe>
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 - Left
 
-    <iframe
-      class     = "w_ul"
-      scrolling = "no"
-      src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
-    ></iframe>
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
@@ -42,16 +40,14 @@ hidden: false
 
 - Right
 
-    <iframe
-      class     = "w_ul"
-      scrolling = "no"
-      src       = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
-    ></iframe>
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 - Left
 
-    <iframe
-      class     = "w_ul"
-      scrolling = "no"
-      src       = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
-    ></iframe>
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+  ></iframe>
