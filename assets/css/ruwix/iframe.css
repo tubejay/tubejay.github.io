@@ -1,7 +1,10 @@
 iframe {
-  overflow-y : hidden;
   width      : 250px;
-  height     : 300px;
+  /*height     : 300px;*/
   border     : none;
   background : #1a1a1a;
+}
+.iframe-wrapper {
+  height     : 300px;
+  overflow   : hidden;
 }

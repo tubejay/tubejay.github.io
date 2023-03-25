@@ -22,9 +22,11 @@ hidden: false
 
 - White on D Face
 
+<div class="iframe-wrapper">
   <iframe
     src       = "https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
   ></iframe>
+</div>
 
 - White Not on D Face
 
