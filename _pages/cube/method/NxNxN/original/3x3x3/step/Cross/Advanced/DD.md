@@ -22,8 +22,7 @@ hidden: false
 
 ### Case 1
 
-- [Cross / Advanced / ED / Case 4](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-4)
-
+- [Cross / Advanced / ED \n/ Case 4](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed#case-4)
   <iframe
     scrolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=R%20y'%20R%20F&colored=U%20FD%20RD&setupmoves=y&hover=9&speed=500&flags=canvas"
