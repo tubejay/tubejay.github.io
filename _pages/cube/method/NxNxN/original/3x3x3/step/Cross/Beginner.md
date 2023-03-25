@@ -21,38 +21,30 @@ hidden: false
 ## U Face
 
 - White on D Face
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
+  ></iframe>
 - White Not on D Face
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R%20F'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=R%20F'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
 ## D Face
 
 - Center : Adjacent
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
+  ></iframe>
 - Center : Not Adjacent
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U%20F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+  <iframe
+    scrolling="no"
+    src="https://ruwix.com/widget/3d/?alg=U%20F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
