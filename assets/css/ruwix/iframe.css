@@ -1,14 +1,6 @@
-/*
-.iframe-wrapper {
-  overflow      : hidden;
-  margin-bottom : -35px;
-}
-*/
-
 iframe {
   width         : 250px;
-  height        : 330px;
-  /* margin-top    : -20px; */
+  height        : 300px;
   margin-top    : 20px;
   margin-bottom : 20pz;
   border        : none;
