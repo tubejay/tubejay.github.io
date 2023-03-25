@@ -1,0 +1,19 @@
+@mixin player_w_ul
+  margin-top    : -5px
+  margin-bottom : 30px // 0px
+
+@mixin player_wo_ul
+  margin-top    : 10px
+  margin-bottom : -5px
+
+iframe
+  width      : 250px
+  height     : 300px
+  border     : none
+  background : #1a1a1a
+
+.w_ul
+  @include player_w_ul
+
+.wo_ul
+  @include player_wo_ul
