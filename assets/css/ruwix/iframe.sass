@@ -1,6 +1,12 @@
 ---
 ---
 
+@mixin player
+  width      : 250px
+  height     : 300px
+  border     : none
+  background : #1a1a1a
+
 @mixin player_w_ul
   margin-top    : -5px
   margin-bottom : 30px // 0px
@@ -10,10 +16,7 @@
   margin-bottom : -5px
 
 iframe
-  width      : 250px
-  height     : 300px
-  border     : none
-  background : #1a1a1a
+  @include player
 
 .w_ul
   @include player_w_ul
