@@ -4,3 +4,12 @@ iframe {
   border     : none;
   background : #1a1a1a;
 }
+
+.w_ul {
+  margin-top    : 0px;
+  margin-bottom : -5px;
+}
+.wo_ul {
+  margin-top    : 10px;
+  margin-bottom : 0px;
+}

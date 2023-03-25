@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_list.css"
+    href  = "/assets/css/ruwix/iframe.css"
   >
 </head>
 
@@ -23,6 +23,7 @@ hidden: false
 - White on D Face
 
   <iframe
+    class     = "w_ul"
     scrolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
   ></iframe>
@@ -30,6 +31,7 @@ hidden: false
 - White Not on D Face
 
   <iframe
+    class     = "wo_ul"
     scrolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=R%20F'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
   ></iframe>
