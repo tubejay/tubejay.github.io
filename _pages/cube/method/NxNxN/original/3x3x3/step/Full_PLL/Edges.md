@@ -9,21 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
-    img {
-      max-width:100px;
-    }
-  </style>
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/ruwix/iframe_w_ul.css"
+  >
 </head>
 
 
@@ -35,19 +25,18 @@ hidden: false
 </a>
 
 - ( M2 U ) ( M' U2 ) ( M U ) ( M2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U%20M'%20U2%20M%20U%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=M2'%20U%20M'%20U2%20M%20U%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
+
 - ( R2 U' R' U' ) ( R U ) x 2 ( R U' R )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R2'%20U'%20R'%20U'%20R%20U%20R%20U%20R%20U'%20R&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=R2'%20U'%20R'%20U'%20R%20U%20R%20U%20R%20U'%20R&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
@@ -58,19 +47,18 @@ hidden: false
 </a>
 
 - ( M2 U' ) ( M' U2 ) ( M U' ) ( M2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
+
 - ( L2 U L U ) ( L' U' ) x 2 ( L' U L' )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=L2%20U%20L%20U%20L'%20U'%20L'%20U'%20L'%20U%20L'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=L2%20U%20L%20U%20L'%20U'%20L'%20U'%20L'%20U%20L'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
@@ -81,19 +69,18 @@ hidden: false
 </a>
 
 - ( M2 U' ) ( M2 U2 ) ( M2 U' ) ( M2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U2'%20M2'%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U2'%20M2'%20U'%20M2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
+
 - ( R2 U2 R U2 R2 ) ( U2 ) ( R2 U2 R U2 R2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R2%20U2'%20R%20U2'%20R2%20U2'%20R2%20U2'%20R%20U2'%20R2&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=R2%20U2'%20R%20U2'%20R2%20U2'%20R2%20U2'%20R%20U2'%20R2&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
@@ -104,16 +91,15 @@ hidden: false
 </a>
 
 - ( M2 U' ) x 2 ( M' U2 ) ( M2 U2 ) ( M' U2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U'%20M'%20U2'%20M2'%20U2'%20M'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=M2'%20U'%20M2'%20U'%20M'%20U2'%20M2'%20U2'%20M'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
+
 - ( R' U' R U' ) ( R U R U' ) ( R' U R U ) ( R2 U' R' U2 )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R%20U%20R%20U'%20R'%20U%20R%20U%20R2'%20U'%20R'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R%20U%20R%20U'%20R'%20U%20R%20U%20R2'%20U'%20R'%20U2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas"
+  ></iframe>
