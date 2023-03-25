@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_wo_list.css"
+    href  = "/assets/css/ruwix/iframe.css"
   >
 </head>
 
@@ -23,6 +23,7 @@ hidden: false
 ### Case 1
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=B'%20D'%20F&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -30,6 +31,7 @@ hidden: false
 ### Case 2
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=B'%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -37,6 +39,7 @@ hidden: false
 ### Case 3
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=B'%20D%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -48,6 +51,7 @@ hidden: false
 ### Case 4
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=F%20R&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -55,6 +59,7 @@ hidden: false
 ### Case 5
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=F%20D'%20R&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -62,6 +67,7 @@ hidden: false
 ### Case 6
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=F%20D2'%20R&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -73,6 +79,7 @@ hidden: false
 ### Case 7
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=R'%20D'%20R2'&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -80,6 +87,7 @@ hidden: false
 ### Case 8
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=R'%20D2'%20R2'&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
@@ -87,6 +95,7 @@ hidden: false
 ### Case 9
 
 <iframe
+  class     = "wo_ul"
   scrolling = "no"
   src       = "https://ruwix.com/widget/3d/?alg=R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
 ></iframe>

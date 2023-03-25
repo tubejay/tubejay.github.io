@@ -235,6 +235,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
+  - jekyll-sass-converter
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -244,6 +245,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
+  - jekyll-sass-converter
 
 
 # Archives
