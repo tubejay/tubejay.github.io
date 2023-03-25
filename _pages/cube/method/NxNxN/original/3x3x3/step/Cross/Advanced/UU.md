@@ -9,36 +9,30 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/ruwix/iframe.css"
+  >
   </style>
 </head>
 
 
 
-### Case 1 -> [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#case-1}
+### Case 1
 
-<div class="iframe-wrapper">
+- [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue)
+
   <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=R'&colored=U%20FD%20RD&setupmoves=R%20F'&hover=9&speed=500&flags=canvas&colors=F:cyan%20R:cyan%20D:cyan"
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=R'&colored=U%20FD%20RD&setupmoves=R%20F'&hover=9&speed=500&flags=canvas&colors=F:cyan%20R:cyan%20D:cyan"
   ></iframe>
-</div>
 
-### Case 2 -> [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue) {#case-2}
+### Case 2
 
-<div class="iframe-wrapper">
+- [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue)
+
   <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=F%20U2&colored=U%20FD%20RD&setupmoves=R%20F'&hover=9&speed=500&flags=canvas&colors=F:cyan%20R:cyan%20D:cyan"
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=F%20U2&colored=U%20FD%20RD&setupmoves=R%20F'&hover=9&speed=500&flags=canvas&colors=F:cyan%20R:cyan%20D:cyan"
   ></iframe>
-</div>
