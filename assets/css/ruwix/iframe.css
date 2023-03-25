@@ -6,10 +6,10 @@ iframe {
 }
 
 .w_ul {
-  margin-top    : 0px;
-  margin-bottom : -5px;
+  margin-top    : -5px;
+  margin-bottom : 0px;
 }
 .wo_ul {
   margin-top    : 10px;
-  margin-bottom : 0px;
+  margin-bottom : -5px;
 }
