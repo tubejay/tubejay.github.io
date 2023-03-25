@@ -23,10 +23,12 @@ hidden: false
 
 
 
-## Starminx
+## Star
 
-- [Corner Turning Starminx](/cube/method/dodecahedron/starminx/corner_turning_starminx)
-- [Face Turning Starminx](/cube/method/dodecahedron/starminx/face_turning_starminx)
+- [Corner Turning Starminx](/cube/method/dodecahedron/star/corner_turning_starminx)
+- [Face Turning Starminx](/cube/method/dodecahedron/star/face_turning_starminx)
+- [Rex Dodecahedron (Bauhinia Dodecahedron)](/cube/method/dodecahedron/star/rex_dodecahedron_bauhinia_dodecahedron)
+- [Helicopter Dodecahedron](/cube/method/dodecahedron/star/helicopter_dodecahedron)
 
 
 

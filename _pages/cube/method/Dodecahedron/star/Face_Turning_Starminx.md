@@ -2,7 +2,7 @@
 title: "Face Turning Starminx"
 layout: single
 toc: true
-permalink: /cube/method/dodecahedron/starminx/face_turning_starminx
+permalink: /cube/method/dodecahedron/star/face_turning_starminx
 published: true
 hidden: false
 ---
@@ -21,4 +21,4 @@ hidden: false
 
 
 
-## [Method](/cube/method/dodecahedron/starminx/face_turning_starminx/method)
+## [Method](/cube/method/dodecahedron/star/face_turning_starminx/method)

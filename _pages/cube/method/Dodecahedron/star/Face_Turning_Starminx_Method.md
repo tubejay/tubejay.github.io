@@ -1,8 +1,8 @@
 ---
-title: "Corner Turning Starminx / Method"
+title: "Face Turning Starminx / Method"
 layout: single
 toc: true
-permalink: /cube/method/dodecahedron/starminx/corner_turning_starminx/method
+permalink: /cube/method/dodecahedron/star/face_turning_starminx/method
 published: true
 hidden: false
 ---
@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/twisty/Dodecahedron/Corner_Turning_Starminx.css"
+    href  = "/assets/css/twisty/Dodecahedron/Face_Turning_Starminx.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
@@ -28,8 +28,8 @@ hidden: false
 <twisty-player
   dark-mode                       = "dark"
   background                      = "none"
-  experimental-puzzle-description = "d v 0.937962370425399"
-  camera-latditude                 = 30
+  experimental-puzzle-description = "d f 0.23606797749979"
+  camera-latitude                 = 30
   camera-longitude                = 0
   experimental-stickering         = "full"
   alg                             = ""
@@ -43,5 +43,7 @@ hidden: false
 
 ## Reference
 
-- [Twisty Puzzling](https://youtu.be/KAyg6Gwhx5Q)
-- [MrUk](https://youtu.be/JTjlXzHfuMA)
+- [Twisty Puzzling](https://youtu.be/NqYFonhf2rw)
+- MrUk
+  - [Part 1](https://youtu.be/7LotUfg90HI)
+  - [Part 2](https://youtu.be/nH2doGM1Das)

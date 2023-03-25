@@ -1,8 +1,8 @@
 ---
-title: "Face Turning Starminx / Method"
+title: "Helicopter Dodecahedron / Method"
 layout: single
 toc: true
-permalink: /cube/method/dodecahedron/starminx/face_turning_starminx/method
+permalink: /cube/method/dodecahedron/star/helicopter_dodecahedron/method
 published: true
 hidden: false
 ---
@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/twisty/Dodecahedron/Face_Turning_Starminx.css"
+    href  = "/assets/css/twisty/Dodecahedron/Helicopter_Dodecahedron.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
@@ -28,8 +28,8 @@ hidden: false
 <twisty-player
   dark-mode                       = "dark"
   background                      = "none"
-  experimental-puzzle-description = "d f 0.23606797749979"
-  camera-latitude                 = 30
+  experimental-puzzle-description = "d e 0.97"
+  camera-latditude                 = 30
   camera-longitude                = 0
   experimental-stickering         = "full"
   alg                             = ""
@@ -43,7 +43,15 @@ hidden: false
 
 ## Reference
 
-- [Twisty Puzzling](https://youtu.be/NqYFonhf2rw)
-- MrUk
-  - [Part 1](https://youtu.be/7LotUfg90HI)
-  - [Part 2](https://youtu.be/nH2doGM1Das)
+- [굿맨](https://youtu.be/1Sd52_BqcfY)
+- [투마이](https://youtu.be/GepMcugrf1s)
+- [Twisty Puzzling](https://youtu.be/2Iv4eMYaVPM)
+- Super Antonio Vivaldi
+  - Jumbling
+    - [Part 1](https://youtu.be/zNWSKv2Vh4c)
+    - [Part 2](https://youtu.be/OxKuH1iR2Ec)
+    - [Part 3](https://youtu.be/n7i604CJ6IA)
+  - Non-Jumbling
+    - [Part 1](https://youtu.be/kfT1iKm94vc)
+    - [Part 2](https://youtu.be/9RLGqfPKJOc)
+- [MrUk](https://youtu.be/zzfiK1Bmzr8)
