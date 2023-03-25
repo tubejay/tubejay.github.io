@@ -23,7 +23,6 @@ hidden: false
 - White on D Face
 
   <iframe
-    srcolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
   ></iframe>
 
