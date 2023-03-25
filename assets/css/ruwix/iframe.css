@@ -1,7 +1,4 @@
 iframe {
-  scrolling  : "no";
-  scrollbar-width: 0;
-  overflow   : hidden;
   width      : 250px;
   height     : 300px;
   border     : none;
