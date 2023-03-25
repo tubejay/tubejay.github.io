@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/iframe.css"
+    href  = "/assets/css/ruwix/iframe_wo_list.css"
   >
 </head>
 

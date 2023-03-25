@@ -1,8 +1,8 @@
 iframe {
-  width         : 250px;
-  height        : 300px;
-  margin-top    : 15px;
-  margin-bottom : 0px;
-  border        : none;
-  background    : #1a1a1a;
+  /*scrollbar-width: 0;*/
+  overflow   : hidden;
+  width      : 250px;
+  height     : 300px;
+  border     : none;
+  background : #1a1a1a;
 }

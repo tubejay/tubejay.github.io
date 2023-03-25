@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/iframe.css"
+    href  = "/assets/css/ruwix/iframe_w_list.css"
   >
 </head>
 
@@ -21,6 +21,7 @@ hidden: false
 ### Case 1
 
 - [Cross / Advanced / ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
+
   <iframe
     scrolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=U'%20R'&colored=U%20FD%20RD&setupmoves=R&hover=9&speed=500&flags=canvas&colors=F:white%20R:cyan%20D:cyan"
@@ -29,6 +30,7 @@ hidden: false
 ### Case 2
 
 - [Cross / Advanced / ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
+
   <iframe
     scrolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=R'&colored=U%20FD%20RD&setupmoves=R&hover=9&speed=500&flags=canvas&colors=F:white%20R:cyan%20D:cyan"
@@ -37,6 +39,7 @@ hidden: false
 ### Case 3
 
 - [Cross / Advanced / ED](/cube/method/NxNxN/original/3x3x3/cross/advanced/ed)
+
   <iframe
     scrolling = "no"
     src       = "https://ruwix.com/widget/3d/?alg=U%20R'&colored=U%20FD%20RD&setupmoves=R&hover=9&speed=500&flags=canvas&colors=F:white%20R:cyan%20D:cyan"
