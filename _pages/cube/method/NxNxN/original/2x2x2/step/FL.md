@@ -27,7 +27,7 @@ twisty: true
 ## White Not on U Face
 
 - Right : R U R'
-  <div class="twisty-wrapper">
+
     <twisty-player
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
@@ -35,51 +35,45 @@ twisty: true
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
     ></twisty-player>
-  </div>
+
 - Left : F' U' F
-  <div class="twisty-wrapper">
+
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "F' U' F"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
-  </div>
 
 
 
 ## White on U Face
 
 - Right : ( R U' R' U ) ( F' U F )
+
   <div class="twisty-wrapper">
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "R U' R' U F' U F"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
   </div>
+
 - Left : ( F' U F U' ) ( R U' R' )
+
   <div class="twisty-wrapper">
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
       alg                       = "F' U F U' R U' R'"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
   </div>
+
 
 
 ## Reference

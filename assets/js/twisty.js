@@ -4,9 +4,10 @@ const setAttr = (el,attr) => {
 };
 
 const attrs = {
-    "dark-mode"   : "dark",
-    "background"  : "#1a1a1a",
-    "tempo-scale" : "1.3"
+    "dark-mode"     : "dark",
+    "background"    : "#1a1a1a",
+    "tempo-scale"   : "1.3",
+    "visualization" : "2D"
 };
 
 document.querySelectorAll("twisty-player").forEach(
@@ -15,4 +16,4 @@ document.querySelectorAll("twisty-player").forEach(
         // https://stackoverflow.com/a/12274782
         attr => setAttr(el,attr)
     )
-)
+);
