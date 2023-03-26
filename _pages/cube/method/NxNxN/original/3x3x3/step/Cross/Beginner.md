@@ -14,6 +14,10 @@ hidden: false
     type  = "text/css"
     href  = "/assets/css/ruwix/iframe_w_ul.css"
   >
+  <script
+    src   = "/assets/js/ruwix/add_scrolling.js"
+    defer
+  ></script>
 </head>
 
 
