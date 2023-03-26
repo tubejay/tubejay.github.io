@@ -12,6 +12,7 @@ hidden: false
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
     type  = "module"
+    defer
   ></script>
   <link
     rel   = "stylesheet"
