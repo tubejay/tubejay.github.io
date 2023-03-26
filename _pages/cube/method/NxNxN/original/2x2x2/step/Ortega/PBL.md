@@ -34,50 +34,38 @@ hidden: false
 ### Adjacent / Adjacent
 
 - ( R2 U' ) ( R2 U2 ) ( F2 U' ) ( R2 )
-  <div class="twisty-wrapper">
+
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PBL"
       alg                       = "R2 U' R2 U2' F2 U' R2"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
-  </div>
 
 ### Adjacent / Diagonal
 
 - ( R U' R ) ( F2 ) ( R' U R' )
-  <div class="twisty-wrapper">
+
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PBL"
       alg                       = "R U' R F2 R' U R'"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
-  </div>
 
 ### Diagonal / Diagonal
 
 - R2 F2 R2
-  <div class="twisty-wrapper">
+
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PBL"
       alg                       = "R2 F2 R2"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
-  </div>
 
 
 

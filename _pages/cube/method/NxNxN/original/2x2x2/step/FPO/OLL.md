@@ -36,18 +36,13 @@ hidden: false
 
 ## Example
 
-<div class="twisty-wrapper">
   <twisty-player
-    dark-mode                 = "dark"
-    background                = "none"
     puzzle                    = "2x2x2"
     experimental-stickering   = "LL"
     alg                       = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
     experimental-setup-alg    = ""
     experimental-setup-anchor = "end"
-    tempo-scale               = "1.3"
   ></twisty-player>
-</div>
 
 
 

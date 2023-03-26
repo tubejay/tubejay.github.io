@@ -28,18 +28,14 @@ hidden: false
 <img src="https://www.speedsolving.com/wiki/images/c/c0/2X2X2Algos-T.jpg">
 
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
-  <div class="twisty-wrapper">
+
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "R U2' R' U' R U2 L' U R' U' L"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
-  </div>
 
 
 
@@ -48,18 +44,14 @@ hidden: false
 <img src="https://www.speedsolving.com/wiki/images/d/df/2X2X2Algos-Y.jpg">
 
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
-  <div class="twisty-wrapper">
+
     <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
       puzzle                    = "2x2x2"
       experimental-stickering   = "PLL"
       alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
     ></twisty-player>
-  </div>
 
 
 
