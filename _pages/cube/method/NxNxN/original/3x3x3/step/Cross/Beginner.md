@@ -5,6 +5,8 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/cross/beginner
 published: true
 hidden: false
+custom_js:
+  - ruwix_no_scrolling
 ---
 
 <head>
@@ -14,9 +16,6 @@ hidden: false
     type  = "text/css"
     href  = "/assets/css/ruwix/iframe_w_ul.css"
   >
-  <script
-    src   = "assets/js/ruwix/add_scrolling.js"
-  ></script>
 </head>
 
 
