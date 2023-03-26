@@ -52,7 +52,6 @@ twisty: true
 
 - Right : ( R U' R' U ) ( F' U F )
 
-  <div class="twisty-wrapper">
     <twisty-player
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
@@ -60,11 +59,9 @@ twisty: true
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
     ></twisty-player>
-  </div>
 
 - Left : ( F' U F U' ) ( R U' R' )
 
-  <div class="twisty-wrapper">
     <twisty-player
       puzzle                    = "2x2x2"
       experimental-stickering   = "F2L"
@@ -72,7 +69,6 @@ twisty: true
       experimental-setup-alg    = ""
       experimental-setup-anchor = "end"
     ></twisty-player>
-  </div>
 
 
 

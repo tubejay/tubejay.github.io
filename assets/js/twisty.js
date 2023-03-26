@@ -4,10 +4,11 @@ const setAttr = (el,attr) => {
 };
 
 const attrs = {
-    "dark-mode"     : "dark",
-    "background"    : "#1a1a1a",
-    "tempo-scale"   : "1.3",
-    "visualization" : "2D"
+    "dark-mode"        : "dark",
+    "background"       : "none",
+    "background-color" : "#1a1a1a",
+    "tempo-scale"      : "1.3",
+    "visualization"    : "PG3D"
 };
 
 document.querySelectorAll("twisty-player").forEach(
