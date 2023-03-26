@@ -15,4 +15,4 @@ document.querySelectorAll("twisty-player").forEach(
         // https://stackoverflow.com/a/12274782
         attr => setAttr(el,attr)
     )
-);
+)
