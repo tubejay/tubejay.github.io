@@ -6,6 +6,9 @@
 @mixin rot-deg($deg)
   transform : rotate($deg)
 
+.rot-0
+  @include rot-deg($deg:0deg)
+
 .rot-90
   @include rot-deg($deg:90deg)
 
