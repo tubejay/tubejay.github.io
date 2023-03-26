@@ -31,5 +31,4 @@ const cubeText = cubeElOld.textContent;
 const cubeElNew = document.createElement("div");
 const cubeNewText = document.createTextNode(cubeText);
 cubeElNew.appendChild(cubeNewText);
-
-document.body.insertBefore(cubeElNew,cubeElOld);
+cubeElOld.appendChild(cubeElNew);
