@@ -24,3 +24,7 @@ document.querySelectorAll("twisty-player").forEach(
         );
     }
 );
+
+document.getElementsByClassName("page-cube").forEach(
+    el => el.textContent = '{{page.cube}}'
+);

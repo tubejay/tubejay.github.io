@@ -6,6 +6,7 @@ permalink: /cube/method/NxNxN/original/2x2x2/fl
 published: true
 hidden: false
 twisty: true
+cube: "2x2x2"
 ---
 
 <head>
@@ -21,6 +22,12 @@ twisty: true
     href  = "/assets/css/twisty/NxNxN/2x2x2.css"
   >
 </head>
+
+
+
+<div class="page-cube">
+  text
+</div>
 
 
 
