@@ -9,11 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    img {
-      max-width:100px;
-    }
-  </style>
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/ruwix/img.css"
+  >
   <link
     rel   = "stylesheet"
     type  = "text/css"
