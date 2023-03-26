@@ -16,7 +16,7 @@ hidden: false
   >
   <script
     src   = "/assets/js/ruwix/add_scrolling.js"
-    defer
+    async
   ></script>
 </head>
 

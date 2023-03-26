@@ -1,5 +1,3 @@
-const iframeElements = document.getElementsByTagName("iframe");
-
-for (ifameElement of iframeElements) {
-    iframeElement.setAttribute("scrolling","no");
-}
+document.querySelectorAll("iframe").forEach(
+    El => El.setAttribute("scrolling","no")
+);
