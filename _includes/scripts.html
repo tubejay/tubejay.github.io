@@ -15,8 +15,6 @@
    });
 </script>
 
-{ % if page.custom_js % }
-  { % for js_file in page.custom_js % }
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
-  { % endfor % }
-{ % endif % }
+{% if page.ruwix %}
+  <script type="text/javascript" src="/assets/js/ruwix.js" defer></script>
+{% endif %}
