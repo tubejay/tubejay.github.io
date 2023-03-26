@@ -25,5 +25,8 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-const pgcube = '{{page.cube}}';
-document.querySelector(".page-cube").append(pgcube);
+const cubeEl = document.querySelector(".page-cube");
+const cubeText = cubeEl.textContent;
+const cubeNew = document.createElement("div");
+cubeNew.textContent = cubeText;
+document.body.insertBefore(cubeNew,cubeEl);

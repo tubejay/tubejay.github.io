@@ -26,6 +26,7 @@ cube: "2x2x2"
 
 
 <div class="page-cube">
+  {{page.cube}}
 </div>
 
 
