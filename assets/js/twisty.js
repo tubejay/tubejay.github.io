@@ -1,3 +1,7 @@
+---
+---
+{{ page.cube | jsonify }}
+
 const setAttr = (el,attr) => {
     const [key,value] = attr;
     el.setAttribute(key,value);
@@ -25,8 +29,6 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-const cubeEl = document.querySelector(".page-cube");
-const cubeText = cubeEl.textContent;
-
-cubeEl.append("test");
-cubeEl.append(cubeText);
+const cubeEl = document.createElement("div");
+cubeEl.append(cube);
+document.body.appendChild(cubeEl);
