@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/5x5x5/edge/freeslice
 published: true
 hidden: false
+twisty: true
 ---
 
 <head>
@@ -25,15 +26,10 @@ hidden: false
 
 ## Complete Edge
 
-<div class="twisty-wrapper">
-  <twisty-player
-    dark-mode                 = "dark"
-    background                = "none"
-    puzzle                    = "5x5x5"
-    experimental-stickering   = "F2L"
-    alg                       = "D R' D R 3U L U' L' R U' R' 3u' R U R'"
-    experimental-setup-alg    = "2U 2D R F' R' F L' F L F' 2U 2D y R F' R' F y F' R F R' 2U 2D y R F' R' F y R F' R' F 3U2 y R F' R' F y R F' R' F"
-    experimental-setup-anchor = "start"
-    tempo-scale               = "1.3"
-  ></twisty-player>
-</div>
+<twisty-player
+  puzzle                    = "5x5x5"
+  experimental-stickering   = "F2L"
+  alg                       = "D R' D R 3U L U' L' R U' R' 3u' R U R'"
+  experimental-setup-alg    = "2U 2D R F' R' F L' F L F' 2U 2D y R F' R' F y F' R F R' 2U 2D y R F' R' F y R F' R' F 3U2 y R F' R' F y R F' R' F"
+  experimental-setup-anchor = "start"
+></twisty-player>
