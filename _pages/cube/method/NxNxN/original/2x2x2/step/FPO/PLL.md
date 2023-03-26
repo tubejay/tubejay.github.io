@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/2x2x2/fpo/pll
 published: true
 hidden: false
+twisty: true
 ---
 
 <head>
