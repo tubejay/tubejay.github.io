@@ -17,7 +17,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/twisty/NxNxN/2x2x2_test.css"
+    href  = "/assets/css/twisty/NxNxN/2x2x2.css"
   >
 </head>
 
