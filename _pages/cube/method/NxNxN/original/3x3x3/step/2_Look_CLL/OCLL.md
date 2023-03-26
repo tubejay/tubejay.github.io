@@ -25,12 +25,14 @@ hidden: false
 
 ## S / Sune {#sune}
 
+<div>
 <a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-S">
   <img
     class = "rot-90"
     src   = "https://www.speedsolving.com/wiki/images/d/db/CxLL_aS_U.jpg"
   >
 </a>
+</div>
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
 
