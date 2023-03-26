@@ -25,5 +25,5 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-const cube = {{page.cube | json}};
+const cube = "{{page.cube | json}}";
 document.querySelector(".test").append(cube);
