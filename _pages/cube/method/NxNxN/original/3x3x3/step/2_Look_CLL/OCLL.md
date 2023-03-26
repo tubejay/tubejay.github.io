@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/img.css"
+    href  = "/assets/css/ruwix/img_rotate.css"
   >
   <link
     rel   = "stylesheet"
@@ -27,8 +27,8 @@ hidden: false
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-S">
   <img
+    class = "rot-90"
     src   = "https://www.speedsolving.com/wiki/images/d/db/CxLL_aS_U.jpg"
-    style = "transform:rotate(90deg)"
   >
 </a>
 
@@ -60,8 +60,8 @@ hidden: false
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-U">
   <img
+    class = "rot-270"
     src   = "https://www.speedsolving.com/wiki/images/d/d8/CxLL_U_U.jpg"
-    style = "transform:rotate(-90deg)"
   >
 </a>
 
@@ -78,8 +78,8 @@ hidden: false
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-Pi">
   <img
+    class = "rot-90"
     src   = "https://www.speedsolving.com/wiki/images/e/ec/CxLL_Pi_U_imp.jpg"
-    style = "transform:rotate(90deg)"
   >
 </a>
 
@@ -111,8 +111,9 @@ hidden: false
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-T">
   <img
+    class = "rot-270"
     src   = "https://www.speedsolving.com/wiki/images/4/45/CxLL_T_U.jpg"
-    style = "transform:rotate(-90deg)">
+  >
 </a>
 
 - ( R U ) ( R' U' ) ( R' F ) ( R F' )
@@ -128,8 +129,8 @@ hidden: false
 
 <a href="https://logiqx.github.io/cubing-algs/html/2lcll.html#case-L">
   <img
+    class = "rot-180"
     src   = "https://www.speedsolving.com/wiki/images/f/f8/CxLL_L_U.jpg"
-    style = "transform:rotate(180deg)"
   >
 </a>
 

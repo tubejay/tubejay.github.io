@@ -1,0 +1,16 @@
+---
+---
+
+@import img_partials
+
+@mixin rot-deg($deg)
+  transform : rotate($deg)
+
+.rot-90
+  @include rot-deg($deg:90deg)
+
+.rot-180
+  @include rot-deg($deg:180deg)
+
+.rot-270
+  @include rot-deg($deg:270deg)

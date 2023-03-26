@@ -12,7 +12,7 @@ hidden: false
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/ruwix/img_wrapper.css"
+    href  = "/assets/css/ruwix/img_translate.css"
   >
   <link
     rel   = "stylesheet"
