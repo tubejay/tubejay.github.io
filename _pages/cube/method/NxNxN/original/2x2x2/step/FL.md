@@ -8,6 +8,7 @@ hidden: false
 twisty: true
 cube: "2x2x2"
 ---
+{% assign pagecube = page.cube %}
 
 <head>
   <base target="_blank">
