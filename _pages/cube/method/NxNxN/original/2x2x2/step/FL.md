@@ -7,7 +7,6 @@ published: true
 hidden: false
 twisty: true
 ---
-{% assign pagecube = "2x2x2" %}
 
 <head>
   <base target="_blank">
@@ -24,6 +23,8 @@ twisty: true
 </head>
 
 
+
+{% assign pagecube = "2x2x2" %}
 
 <div class="test">
 empty
