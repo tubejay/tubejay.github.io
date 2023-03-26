@@ -25,8 +25,11 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-const cubeEl = document.querySelector(".page-cube");
-const cubeText = cubeEl.textContent;
-const cubeNew = document.createElement("div");
-cubeNew.textContent = cubeText;
-document.body.insertBefore(cubeNew,cubeEl);
+const cubeElOld = document.querySelector(".page-cube");
+const cubeText = cubeElOld.textContent;
+
+const cubeElNew = document.createElement("div");
+const cubeNewText = document.createTextNode(cubeText);
+cubeElNew.appendChild(cubeNewText);
+
+document.body.insertBefore(cubeElNew,cubeElOld);
