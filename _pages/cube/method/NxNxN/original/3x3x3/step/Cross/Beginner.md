@@ -15,7 +15,7 @@ hidden: false
     href  = "/assets/css/ruwix/iframe_w_ul.css"
   >
   <script
-    src   = "/assets/js/ruwix/add_scrolling.js"
+    src   = "assets/js/ruwix/add_scrolling.js"
   ></script>
 </head>
 
