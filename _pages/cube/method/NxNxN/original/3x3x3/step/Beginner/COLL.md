@@ -9,18 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
-  </style>
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/ruwix/iframe_wo_ul.css"
+  >
 </head>
 
 
@@ -38,9 +31,7 @@ hidden: false
 
 ## Example
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<iframe
+  scrolling = "no"
+  src       = "https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
+></iframe>
