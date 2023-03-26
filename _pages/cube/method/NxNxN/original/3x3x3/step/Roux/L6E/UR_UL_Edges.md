@@ -9,18 +9,11 @@ hidden: false
 
 <head>
   <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
-  </style>
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/ruwix/iframe_w_ul.css"
+  >
 </head>
 
 
@@ -28,21 +21,19 @@ hidden: false
 ## 1 Edge on U Layer
 
 - ( U2 M' ) x 2 ( U Layer ) ( M2 ) ( U Layer )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'%20M'%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'%20M'%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
 ## 2 Edges on U Layer
 
 - ( M2 U' ) ( M' U2 ) ( M ) ( U Layer ) ( M2 ) ( U Layer )
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+  ></iframe>

@@ -8,19 +8,11 @@ hidden: false
 ---
 
 <head>
-  <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
-  </style>
+  <link
+    rel   = "stylesheet"
+    type  = "text/css"
+    href  = "/assets/css/ruwix/iframe_w_ul.css"
+  >
 </head>
 
 
@@ -34,45 +26,41 @@ hidden: false
 ## 2-1 / 2-1
 
 - U2 M' U2
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'&colored=*&solved=L*%20R*&setupmoves=x'&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'&colored=*&solved=L*%20R*&setupmoves=x'&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
 ## 2-1 / 1-2
 
 - U2 M U2
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U2'%20M%20U2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=U2'%20M%20U2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
 ## 1-1-1 / 3
 
 - U2 M2 U2
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=U2'%20M2'%20U2'&colored=*&solved=L*%20R*&setupmoves=x2&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=U2'%20M2'%20U2'&colored=*&solved=L*%20R*&setupmoves=x2&hover=9&speed=500&flags=canvas"
+  ></iframe>
 
 
 
 ## 1-1-1 / 1-1-1
 
 - E2 M' E2
-  <div class="iframe-wrapper">
-    <iframe
-      scrolling="no"
-      src="https://ruwix.com/widget/3d/?alg=E2'%20M'%20E2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
-    ></iframe>
-  </div>
+
+  <iframe
+    scrolling = "no"
+    src       = "https://ruwix.com/widget/3d/?alg=E2'%20M'%20E2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
+  ></iframe>
