@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/center/commutator
 published: true
 hidden: false
+twisty: true
 ---
 
 <head>
@@ -25,35 +26,25 @@ hidden: false
 
 ## Clockwise
 
-<div class="twisty-wrapper">
-  <twisty-player
-    dark-mode                 = "dark"
-    background                = "none"
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "centers-only"
-    alg                       = "2L' U' 2R U 2L U' 2R' U"
-    experimental-setup-alg    = "x2 2F 2U 2F' 2R F2 2R' F"
-    experimental-setup-anchor = "start"
-    tempo-scale               = "1.3"
-  ></twisty-player>
-</div>
+<twisty-player
+  puzzle                    = "4x4x4"
+  experimental-stickering   = "centers-only"
+  alg                       = "2L' U' 2R U 2L U' 2R' U"
+  experimental-setup-alg    = "x2 2F 2U 2F' 2R F2 2R' F"
+  experimental-setup-anchor = "start"
+></twisty-player>
 
 
 
 ## Counterclockwise
 
-<div class="twisty-wrapper">
-  <twisty-player
-    dark-mode                 = "dark"
-    background                = "none"
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "centers-only"
-    alg                       = "2R U 2L' U' 2R' U 2L U'"
-    experimental-setup-alg    = "x2 2F 2D' 2F' F2 2L' F2 2L F'"
-    experimental-setup-anchor = "start"
-    tempo-scale               = "1.3"
-  ></twisty-player>
-</div>
+<twisty-player
+  puzzle                    = "4x4x4"
+  experimental-stickering   = "centers-only"
+  alg                       = "2R U 2L' U' 2R' U 2L U'"
+  experimental-setup-alg    = "x2 2F 2D' 2F' F2 2L' F2 2L F'"
+  experimental-setup-anchor = "start"
+></twisty-player>
 
 
 

@@ -36,37 +36,37 @@ twisty: true
 
 - ( R2 U' ) ( R2 U2 ) ( F2 U' ) ( R2 )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "PBL"
-      alg                       = "R2 U' R2 U2' F2 U' R2"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "PBL"
+    alg                       = "R2 U' R2 U2' F2 U' R2"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 ### Adjacent / Diagonal
 
 - ( R U' R ) ( F2 ) ( R' U R' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "PBL"
-      alg                       = "R U' R F2 R' U R'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "PBL"
+    alg                       = "R U' R F2 R' U R'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 ### Diagonal / Diagonal
 
 - R2 F2 R2
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "PBL"
-      alg                       = "R2 F2 R2"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "PBL"
+    alg                       = "R2 F2 R2"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 

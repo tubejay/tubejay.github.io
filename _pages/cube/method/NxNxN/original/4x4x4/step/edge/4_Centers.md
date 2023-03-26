@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/edge/4_centers
 published: true
 hidden: false
+twisty: true
 ---
 
 <head>
@@ -25,32 +26,22 @@ hidden: false
 
 ## Pair
 
-<div class="twisty-wrapper">
-  <twisty-player
-    dark-mode                 = "dark"
-    background                = "none"
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "Cross"
-    alg                       = "l' U l D"
-    experimental-setup-alg    = "F L 2R U 2R' U' 2L' U2 2L L' F' R2 U' 2R U2 2R' L2 U 2R U2 2R' B2 2R U2 2R' R2 D' B2 R F' U' F"
-    experimental-setup-anchor = "start"
-    tempo-scale               = "1.3"
-  ></twisty-player>
-</div>
+<twisty-player
+  puzzle                    = "4x4x4"
+  experimental-stickering   = "Cross"
+  alg                       = "l' U l D"
+  experimental-setup-alg    = "F L 2R U 2R' U' 2L' U2 2L L' F' R2 U' 2R U2 2R' L2 U 2R U2 2R' B2 2R U2 2R' R2 D' B2 R F' U' F"
+  experimental-setup-anchor = "start"
+></twisty-player>
 
 
 
 ## Cross Edges
 
-<div class="twisty-wrapper">
-  <twisty-player
-    dark-mode                 = "dark"
-    background                = "none"
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "Cross"
-    alg                       = "r U' r'"
-    experimental-setup-alg    = "F L 2R U 2R' U' 2L' U2 2L L' F' R2 U' 2R U2 2R' L2 U 2R U2 2R' B2 2R U2 2R' R2 D' B2 R F' U' F 2L' U 2L D L F U F'"
-    experimental-setup-anchor = "start"
-    tempo-scale               = "1.3"
-  ></twisty-player>
-</div>
+<twisty-player
+  puzzle                    = "4x4x4"
+  experimental-stickering   = "Cross"
+  alg                       = "r U' r'"
+  experimental-setup-alg    = "F L 2R U 2R' U' 2L' U2 2L L' F' R2 U' 2R U2 2R' L2 U 2R U2 2R' B2 2R U2 2R' R2 D' B2 R F' U' F 2L' U 2L D L F U F'"
+  experimental-setup-anchor = "start"
+></twisty-player>

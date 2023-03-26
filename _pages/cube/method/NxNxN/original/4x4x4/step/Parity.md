@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/parity
 published: true
 hidden: false
+twisty: true
 ---
 
 <head>
@@ -26,36 +27,28 @@ hidden: false
 ## OLL Parity
 
 - ( Rw U2 ) ( x ) ( Rw U2 ) x 2 ( Rw' U2 ) ( Lw U2 ) ( Rw' U2 ) ( Rw U2 ) ( Rw' U2 ) ( Rw' )
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
-      puzzle                    = "4x4x4"
-      experimental-stickering   = "OLL"
-      alg                       = "(Rw U2') x (Rw U2')2 (Rw' U2') (Lw U2') (Rw' U2') (Rw U2') (Rw' U2') Rw'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    puzzle                    = "4x4x4"
+    experimental-stickering   = "OLL"
+    alg                       = "(Rw U2') x (Rw U2')2 (Rw' U2') (Lw U2') (Rw' U2') (Rw U2') (Rw' U2') Rw'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
 ## PLL Parity
 
 - ( 2R2 U2 ) ( 2R2 Uw2 ) x 2
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
-      puzzle                    = "4x4x4"
-      experimental-stickering   = "PLL"
-      alg                       = "(2R2 U2') (2R2 Uw2')2"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    puzzle                    = "4x4x4"
+    experimental-stickering   = "PLL"
+    alg                       = "(2R2 U2') (2R2 Uw2')2"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 

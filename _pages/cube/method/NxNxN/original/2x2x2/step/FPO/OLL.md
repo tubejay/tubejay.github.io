@@ -37,13 +37,13 @@ twisty: true
 
 ## Example
 
-  <twisty-player
-    puzzle                    = "2x2x2"
-    experimental-stickering   = "LL"
-    alg                       = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
-  ></twisty-player>
+<twisty-player
+  puzzle                    = "2x2x2"
+  experimental-stickering   = "LL"
+  alg                       = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"
+></twisty-player>
 
 
 

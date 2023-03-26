@@ -30,13 +30,13 @@ twisty: true
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "L U L' U L U2 L'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "L U L' U L U2 L'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -46,13 +46,13 @@ twisty: true
 
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "R' U' R U' R' U2' R"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "R' U' R U' R' U2' R"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -62,13 +62,13 @@ twisty: true
 
 - ( F ) ( R U R' U' ) ( F' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "F R U R' U' F'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "F R U R' U' F'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -78,13 +78,13 @@ twisty: true
 
 - ( F ) ( R U R' U' ) x 2 ( F' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "F (R U R' U')2 F'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "F (R U R' U')2 F'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -94,13 +94,13 @@ twisty: true
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "F (R U R' U')3 F'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "F (R U R' U')3 F'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -110,13 +110,13 @@ twisty: true
 
 - ( R U ) ( R' U' ) ( R' F ) ( R F' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "R U R' U' R' F R F'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "R U R' U' R' F R F'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -126,13 +126,13 @@ twisty: true
 
 - ( F' ) ( R U R' U' ) ( R' F R )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "OLL"
-      alg                       = "F' R U R' U' R' F R"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "OLL"
+    alg                       = "F' R U R' U' R' F R"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 

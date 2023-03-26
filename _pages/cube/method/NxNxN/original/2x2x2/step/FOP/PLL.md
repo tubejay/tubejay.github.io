@@ -30,13 +30,13 @@ twisty: true
 
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "PLL"
-      alg                       = "R U2' R' U' R U2 L' U R' U' L"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "PLL"
+    alg                       = "R U2' R' U' R U2 L' U R' U' L"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -46,13 +46,13 @@ twisty: true
 
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "PLL"
-      alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "PLL"
+    alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 

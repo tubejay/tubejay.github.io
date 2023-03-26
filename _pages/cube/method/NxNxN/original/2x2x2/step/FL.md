@@ -28,23 +28,23 @@ twisty: true
 
 - Right : R U R'
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "F2L"
-      alg                       = "R U R'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "F2L"
+    alg                       = "R U R'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 - Left : F' U' F
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "F2L"
-      alg                       = "F' U' F"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "F2L"
+    alg                       = "F' U' F"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
@@ -52,23 +52,23 @@ twisty: true
 
 - Right : ( R U' R' U ) ( F' U F )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "F2L"
-      alg                       = "R U' R' U F' U F"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "F2L"
+    alg                       = "R U' R' U F' U F"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 - Left : ( F' U F U' ) ( R U' R' )
 
-    <twisty-player
-      puzzle                    = "2x2x2"
-      experimental-stickering   = "F2L"
-      alg                       = "F' U F U' R U' R'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-    ></twisty-player>
+  <twisty-player
+    puzzle                    = "2x2x2"
+    experimental-stickering   = "F2L"
+    alg                       = "F' U F U' R U' R'"
+    experimental-setup-alg    = ""
+    experimental-setup-anchor = "end"
+  ></twisty-player>
 
 
 
