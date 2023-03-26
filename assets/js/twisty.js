@@ -4,9 +4,7 @@ const setAttr = (el,attr) => {
 };
 
 const attrs = {
-    "dark-mode"        : "dark",
     "background"       : "none",
-    "background-color" : "#1a1a1a",
     "tempo-scale"      : "1.3",
     "visualization"    : "PG3D"
 };
