@@ -6,9 +6,8 @@ permalink: /cube/method/NxNxN/original/2x2x2/fl
 published: true
 hidden: false
 twisty: true
-cube: "2x2x2"
 ---
-{% assign pagecube = page.cube %}
+{% assign pagecube = "2x2x2" %}
 
 <head>
   <base target="_blank">
