@@ -81,7 +81,12 @@ const playerEls = document.querySelectorAll("twisty-player");
 
 // comStAttrs : style attr
 const comStAttrs = {
-    "background-color"	: "#1a1a1a"
+    "background-color"	: "#1a1a1a",
+    "margin-top"        : "-5px",
+    "margin-bottom"     : "15px",
+    "border-style"      : "dotted",
+    "border-color"      : "white",
+    "border-width"      : "5px"
 };
 // comElAttrs : element attr
 const comElAttrs = {
