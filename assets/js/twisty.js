@@ -49,15 +49,15 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
     // stAttrs
     // isStyle : true
     setAttrByAttrs(
-        el		,
-        stAttrs	,
+        el      ,
+        stAttrs ,
         true
     );
     // elAttrs
     // isStyle : false
     setAttrByAttrs(
-        el		,
-        elAttrs	,
+        el      ,
+        elAttrs ,
         false
     );
 };
@@ -81,25 +81,25 @@ const playerEls = document.querySelectorAll("twisty-player");
 
 // comStAttrs : style attr
 const comStAttrs = {
-    "background-color"	: "#1a1a1a",
-    "margin-top"        : "-5px",
-    "margin-bottom"     : "15px",
-    "border-style"      : "none",
-    "border-color"      : "transparent",
-    "border-width"      : "0px"
+    "background-color" : "#1a1a1a",
+    "margin-top"       : "-5px",
+    "margin-bottom"    : "15px",
+    "border-style"     : "none",
+    "border-color"     : "transparent",
+    "border-width"     : "0px"
 };
 // comElAttrs : element attr
 const comElAttrs = {
-    "background"		: "none",
-    "tempo-scale"		: "1.3",
-    "visualization"		: "PG3D"
+    "background"       : "none",
+    "tempo-scale"      : "1.3",
+    "visualization"    : "PG3D"
 };
 
 // set attr for every player
 playerEls.forEach(
     player => setStElAttrs(
-        player		,
-        comStAttrs	,
+        player     ,
+        comStAttrs ,
         comElAttrs
     )
 );
@@ -117,16 +117,20 @@ const cubePz = cubeEl.getAttribute("puzzle");
 // cubeStAttrs : style attr
 const infoPzStAttrs = {
     "2x2x2" : {
-        width		: "200px",
-        height  	: "180px"
+        width  : "200px",
+        height : "180px"
     },
     "4x4x4" : {
-        width		: "260px",
-        height  	: "250px"
+        width  : "260px",
+        height : "250px"
     },
     "5x5x5" : {
-        width		: "300px",
-        height  	: "300px"
+        width  : "300px",
+        height : "300px"
+    },
+    "6x6x6" : {
+        width  : "340px",
+        height : "350px"
     },
 };
 const cubeStAttrs = infoPzStAttrs[cubePz];
@@ -140,8 +144,8 @@ cubeElAttrs.puzzle = cubePz;
 // set attr for every player
 playerEls.forEach(
     player => setStElAttrs(
-        player		,
-        cubeStAttrs	,
+        player      ,
+        cubeStAttrs ,
         cubeElAttrs
     )
 );
