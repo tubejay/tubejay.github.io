@@ -12,16 +12,16 @@ puzzle: "2x2x2"
 
 <head>
   <base target="_blank">
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
   <link
     rel   = "stylesheet"
     type  = "text/css"
     href  = "/assets/css/twisty/NxNxN/2x2x2.css"
   >
+  <script
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
+    type  = "module"
+    defer
+  ></script>
 </head>
 
 

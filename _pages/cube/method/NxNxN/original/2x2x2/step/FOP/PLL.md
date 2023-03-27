@@ -6,7 +6,9 @@ permalink: /cube/method/NxNxN/original/2x2x2/fop/pll
 published: true
 hidden: false
 twisty: true
+puzzle: "2x2x2"
 ---
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
@@ -31,7 +33,6 @@ twisty: true
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "PLL"
     alg                       = "R U2' R' U' R U2 L' U R' U' L"
     experimental-setup-alg    = ""
@@ -47,7 +48,6 @@ twisty: true
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "PLL"
     alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
     experimental-setup-alg    = ""

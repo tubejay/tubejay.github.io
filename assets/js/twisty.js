@@ -1,9 +1,9 @@
-// common attribute for every player
+// common attr for every player
 
-//// bgcolor : style attribute
-const bgcolor = "#1a1a1a";
-//// attrs : element attribute
-const attrs = {
+//// bgColor : style attr
+const bgColor = "#1a1a1a";
+//// elAttrs : element attr
+const elAttrs = {
     "background"    : "none",
     "tempo-scale"   : "1.3",
     "visualization" : "PG3D"
@@ -21,11 +21,11 @@ const setAttrByAttrEntry = (el,attrEntry) => {
 const playerEls = document.querySelectorAll("twisty-player");
 playerEls.forEach(
     el => {
-        //// bgcolor : style attribute
-        el.style.backgroundColor = bgcolor;
-        //// attrs : element attribute
+        //// bgColor : style attribute
+        el.style.backgroundColor = bgColor;
+        //// elAttrs : element attribute
         //// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-        const attrEntries = Object.entries(attrs);
+        const attrEntries = Object.entries(elAttrs);
         attrEntries.forEach(
             //// https://stackoverflow.com/a/12274782
             attrEntry => setAttrByAttrEntry(el,attrEntry)

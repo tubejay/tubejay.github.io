@@ -6,7 +6,9 @@ permalink: /cube/method/NxNxN/original/2x2x2/fpo/oll
 published: true
 hidden: false
 twisty: true
+puzzle: "2x2x2"
 ---
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
@@ -38,7 +40,6 @@ twisty: true
 ## Example
 
 <twisty-player
-  puzzle                    = "2x2x2"
   experimental-stickering   = "LL"
   alg                       = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
   experimental-setup-alg    = ""

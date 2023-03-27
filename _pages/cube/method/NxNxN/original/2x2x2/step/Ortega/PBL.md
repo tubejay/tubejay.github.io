@@ -6,7 +6,9 @@ permalink: /cube/method/NxNxN/original/2x2x2/ortega/pbl
 published: true
 hidden: false
 twisty: true
+puzzle: "2x2x2"
 ---
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
@@ -37,7 +39,6 @@ twisty: true
 - ( R2 U' ) ( R2 U2 ) ( F2 U' ) ( R2 )
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "PBL"
     alg                       = "R2 U' R2 U2' F2 U' R2"
     experimental-setup-alg    = ""
@@ -49,7 +50,6 @@ twisty: true
 - ( R U' R ) ( F2 ) ( R' U R' )
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "PBL"
     alg                       = "R U' R F2 R' U R'"
     experimental-setup-alg    = ""
@@ -61,7 +61,6 @@ twisty: true
 - R2 F2 R2
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "PBL"
     alg                       = "R2 F2 R2"
     experimental-setup-alg    = ""
