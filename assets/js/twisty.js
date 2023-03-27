@@ -84,9 +84,9 @@ const comStAttrs = {
     "background-color"	: "#1a1a1a",
     "margin-top"        : "-5px",
     "margin-bottom"     : "15px",
-    "border-style"      : "dotted",
-    "border-color"      : "white",
-    "border-width"      : "5px"
+    "border-style"      : "none",
+    "border-color"      : "transparent",
+    "border-width"      : "0px"
 };
 // comElAttrs : element attr
 const comElAttrs = {
