@@ -1,4 +1,17 @@
 /////////////////////////
+///// test
+/////////////////////////
+
+const testEl = document.querySelector("#test");
+
+const testAppend = el => {
+    testEl.append('<br>');
+    testEl.append(el);
+};
+
+
+
+/////////////////////////
 ///// function
 /////////////////////////
 
@@ -111,8 +124,11 @@ const cubeStAttrs = infoPzStAttrs[cubePz];
 // cubeElAttrs : element attr 
 const infoPzElAttrs = {
 };
+testAppend("before cubeElAttrs");
 const cubeElAttrs = getAttrOrEmpty(infoPzElAttrs,cubePz);
+testAppend("after cubeElAttrs");
 cubeElAttrs.puzzle = cubePz;
+testAppend("after puzzle");
 
 // set attr for every player
 playerEls.forEach(
@@ -122,23 +138,3 @@ playerEls.forEach(
         cubeElAttrs
     )
 );
-
-
-
-/////////////////////////
-///// test
-/////////////////////////
-
-const testEl = document.querySelector("#test");
-
-const testAppend = el => {
-    testEl.append('<br>');
-    testEl.append(el);
-};
-const testAppendAttrs = attrs => attrs.forEach(
-    attr => testAppend(attr)
-);
-
-testAppend(cubePz);
-testAppendAttrs(cubeStAttrs);
-testAppendAttrs(cubeElAttrs);
