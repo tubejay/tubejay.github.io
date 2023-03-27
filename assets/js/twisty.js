@@ -5,12 +5,14 @@
 const testEl = document.querySelector("#test");
 
 const testAppend = el => {
+    testEl.append(el);
     const br = document.createElement("br");
     testEl.appendChild(br);
-    testEl.append(el);
 };
-testAppend("first");
-testAppend("second");
+if (testEl) {
+    testAppend("first");
+    testAppend("second");
+};
 
 
 
