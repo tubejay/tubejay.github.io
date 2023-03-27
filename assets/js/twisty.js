@@ -62,6 +62,11 @@ const cubePuzzle = cubeEl.getAttribute("puzzle");
 //// get attrs
 const cubeAttrs = attrsByPuzzle.getAttribute(cubePuzzle);
 
+//// test
+const testEl = document.querySelector(#test);
+testEl.append(cubePuzzle);
+testEl.append(cubeAttrs);
+
 //// set puzzle/attrs for every player
 playerEls.forEach(
     player => {
