@@ -9,7 +9,6 @@ twisty: true
 cube: "2x2x2"
 ---
 <span id="cubeid" name="{{page.cube}}"></span>
-<span id="cubetest">empty</span>
 
 <head>
   <base target="_blank">
@@ -32,7 +31,6 @@ cube: "2x2x2"
 - Right : R U R'
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "F2L"
     alg                       = "R U R'"
     experimental-setup-alg    = ""
@@ -42,7 +40,6 @@ cube: "2x2x2"
 - Left : F' U' F
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "F2L"
     alg                       = "F' U' F"
     experimental-setup-alg    = ""

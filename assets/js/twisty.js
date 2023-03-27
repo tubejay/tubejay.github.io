@@ -25,10 +25,8 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-const testEl = document.querySelector("#cubetest");
-
-testEl.append("test");
-
 const cubeEl = document.querySelector("#cubeid");
 const cubeName = cubeEl.getAttribute("name");
-testEl.append(cubeName);
+
+const playerEl = document.querySelector("twisty-player");
+playerEl.setAttribute("puzzle",cubeName);
