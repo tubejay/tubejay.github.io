@@ -58,7 +58,7 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 };
 
 // get attr or empty
-const getAttrOrEmpty = (obj,key) => obj.hasOwnPoperty(key) ? obj[key] : {};
+const getAttrOrEmpty = (obj,key) => obj.hasOwnProperty(key) ? obj[key] : {};
 
 
 
