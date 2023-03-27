@@ -5,9 +5,12 @@
 const testEl = document.querySelector("#test");
 
 const testAppend = el => {
-    testEl.append('<br>');
+    const br = document.createElement("br");
+    testEl.appendChild(br);
     testEl.append(el);
 };
+testAppend("first");
+testAppend("second");
 
 
 
@@ -124,11 +127,8 @@ const cubeStAttrs = infoPzStAttrs[cubePz];
 // cubeElAttrs : element attr 
 const infoPzElAttrs = {
 };
-testAppend("before cubeElAttrs");
 const cubeElAttrs = getAttrOrEmpty(infoPzElAttrs,cubePz);
-testAppend("after cubeElAttrs");
 cubeElAttrs.puzzle = cubePz;
-testAppend("after puzzle");
 
 // set attr for every player
 playerEls.forEach(
