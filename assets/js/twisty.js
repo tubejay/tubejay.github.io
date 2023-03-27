@@ -17,19 +17,25 @@ const setAttrByAttrEntry = (el,attrEntry) => {
     el.setAttribute(key,value);
 };
 
+//// set attribute by attrs
+const setAttrByAttrs = (el,attrs) => {
+    //// elAttrs : element attribute
+    //// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+    const attrEntries = Object.entries(attrs);
+    attrEntries.forEach(
+        //// https://stackoverflow.com/a/12274782
+        attrEntry => setAttrByAttrEntry(el,attrEntry)
+    );
+};
+
 //// set attribute for every player
 const playerEls = document.querySelectorAll("twisty-player");
 playerEls.forEach(
     el => {
-        //// bgColor : style attribute
+        //// bgColor : style attr
         el.style.backgroundColor = bgColor;
-        //// elAttrs : element attribute
-        //// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-        const attrEntries = Object.entries(elAttrs);
-        attrEntries.forEach(
-            //// https://stackoverflow.com/a/12274782
-            attrEntry => setAttrByAttrEntry(el,attrEntry)
-        );
+        //// elAttrs : element attr
+        setAttrByAttrs(el,elAttrs);
     }
 );
 
@@ -37,11 +43,31 @@ playerEls.forEach(
 
 // specific attribute by cube
 
+//// attrsByPuzzle : attrs by puzzle
+const attrsByPuzzle = {
+    "2x2x2" : {
+        width  : "200px",
+        height : "180px"
+    },
+    "4x4x4" : {
+        width  : "260px",
+        height : "250px"
+    }
+};
+
 //// get puzzle
 const cubeEl     = document.querySelector("#cube");
 const cubePuzzle = cubeEl.getAttribute("puzzle");
 
-//// set puzzle for every player
+//// get attrs
+const cubeAttrs = attrsByPuzzle.getAttribute(cubePuzzle);
+
+//// set puzzle/attrs for every player
 playerEls.forEach(
-    player => player.setAttribute("puzzle",cubePuzzle)
+    player => {
+        //// set puzzle
+        player.setAttribute("puzzle",cubePuzzle);
+        //// set attrs
+        setAttrByAttrs(player,cubeAttrs);
+    }
 );

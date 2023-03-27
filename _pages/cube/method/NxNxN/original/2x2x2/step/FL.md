@@ -15,7 +15,7 @@ puzzle: "2x2x2"
   <link
     rel   = "stylesheet"
     type  = "text/css"
-    href  = "/assets/css/twisty/NxNxN/2x2x2.css"
+    href  = "/assets/css/twisty/player.css"
   >
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
