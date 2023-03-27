@@ -1,36 +1,47 @@
-const setAttr = (el,attr) => {
-    const [key,value] = attr;
+// common attribute for every player
+
+//// bgcolor : style attribute
+const bgcolor = "#1a1a1a";
+//// attrs : element attribute
+const attrs = {
+    "background"    : "none",
+    "tempo-scale"   : "1.3",
+    "visualization" : "PG3D"
+};
+
+//// set attribute by attrEntry
+const setAttrByAttrEntry = (el,attrEntry) => {
+    //// attrEntry : [key,value]
+    const [key,value] = attrEntry;
+    //// set attr by key,value
     el.setAttribute(key,value);
 };
 
-const attrs = {
-    "background"       : "none",
-    "tempo-scale"      : "1.3",
-    "visualization"    : "PG3D"
-};
-const bgcolor = "#1a1a1a";
-
-document.querySelectorAll("twisty-player").forEach(
-    // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+//// set attribute for every player
+const playerEls = document.querySelectorAll("twisty-player");
+playerEls.forEach(
     el => {
-        // element
-        // bgcolor
+        //// bgcolor : style attribute
         el.style.backgroundColor = bgcolor;
-        // attr
-        // setAttr
-        Object.entries(attrs).forEach(
-            // https://stackoverflow.com/a/12274782
-            attr => setAttr(el,attr)
+        //// attrs : element attribute
+        //// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+        const attrEntries = Object.entries(attrs);
+        attrEntries.forEach(
+            //// https://stackoverflow.com/a/12274782
+            attrEntry => setAttrByAttrEntry(el,attrEntry)
         );
     }
 );
 
 
 
-const cubeEl = document.querySelector("#cube");
+// specific attribute by cube
+
+//// get puzzle
+const cubeEl     = document.querySelector("#cube");
 const cubePuzzle = cubeEl.getAttribute("puzzle");
 
-const playerEls = document.querySelectorAll("twisty-player");
+//// set puzzle for every player
 playerEls.forEach(
     player => player.setAttribute("puzzle",cubePuzzle)
 );
