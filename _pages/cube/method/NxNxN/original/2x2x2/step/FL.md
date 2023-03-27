@@ -8,13 +8,8 @@ hidden: false
 twisty: true
 cube: "2x2x2"
 ---
-<span
-  id   = "cubeid"
-  name = "{{page.cube}}"
-></span>
-<span class = "test">
-empty
-</span>
+<span id="cubeid" name="{{page.cube}}"></span>
+<span id="cubetest">empty</span>
 
 <head>
   <base target="_blank">

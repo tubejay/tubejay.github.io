@@ -25,7 +25,7 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-const testEl = document.querySelector(".test");
+const testEl = document.querySelector("#cubetest");
 
 testEl.append("test");
 
