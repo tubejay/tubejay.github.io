@@ -64,6 +64,7 @@ const cubeAttrs = attrsByPuzzle.getAttribute(cubePuzzle);
 
 //// test
 const testEl = document.querySelector(#test);
+testEl.append("test");
 testEl.append(cubePuzzle);
 testEl.append(cubeAttrs);
 
