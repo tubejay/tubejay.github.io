@@ -9,39 +9,43 @@ const elAttrs = {
     "visualization" : "PG3D"
 };
 
-//// set attribute by attrEntry
-const setAttrByAttrEntry = (el,attrEntry) => {
+//// set attr by attrEntry
+const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
     //// attrEntry : [key,value]
     const [key,value] = attrEntry;
     //// set attr by key,value
-    el.setAttribute(key,value);
+    if (isStyle) {
+        el.style.setAttribute(key,value);
+    } else {
+        el.setAttribute(key,value);
+    }
 };
 
-//// set attribute by attrs
-const setAttrByAttrs = (el,attrs) => {
-    //// elAttrs : element attribute
+//// set attr by attrs
+const setAttrByAttrs = (el,attrs,isStyle) => {
+    //// elAttrs : element attr
     //// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
     const attrEntries = Object.entries(attrs);
     attrEntries.forEach(
         //// https://stackoverflow.com/a/12274782
-        attrEntry => setAttrByAttrEntry(el,attrEntry)
+        attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
     );
 };
 
-//// set attribute for every player
+//// set attr for every player
 const playerEls = document.querySelectorAll("twisty-player");
 playerEls.forEach(
     el => {
         //// bgColor : style attr
         el.style.backgroundColor = bgColor;
         //// elAttrs : element attr
-        setAttrByAttrs(el,elAttrs);
+        setAttrByAttrs(el,elAttrs,true);
     }
 );
 
 
 
-// specific attribute by cube
+// specific attr by cube
 
 //// attrsByPuzzle : attrs by puzzle
 const attrsByPuzzle = {
@@ -65,7 +69,7 @@ testEl.append(cubePuzzle)
 
 //// get attrs
 const cubeAttrs = attrsByPuzzle[cubePuzzle];
-testEl.append(Object.entries(cubeAttrs))
+testEl.append(cubeAttrs)
 
 //// set puzzle/attrs for every player
 playerEls.forEach(
@@ -73,6 +77,6 @@ playerEls.forEach(
         //// set puzzle
         player.setAttribute("puzzle",cubePuzzle);
         //// set attrs
-        setAttrByAttrs(player,cubeAttrs);
+        setAttrByAttrs(player,cubeAttrs,true);
     }
 );
