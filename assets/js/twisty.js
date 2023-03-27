@@ -44,6 +44,9 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
     );
 };
 
+// get attr or empty
+const getAttrOrEmpty = (obj,key) => obj.hasOwnPoperty(key) ? obj[key] : {};
+
 
 
 /////////////////////////
@@ -108,7 +111,7 @@ const cubeStAttrs = infoPzStAttrs[cubePz];
 // cubeElAttrs : element attr 
 const infoPzElAttrs = {
 };
-const cubeElAttrs = infoPzElAttrs[cubePz];
+const cubeElAttrs = getAttrOrEmpty(infoPzElAttrs,cubePz);
 cubeElAttrs.puzzle = cubePz;
 
 // set attr for every player
