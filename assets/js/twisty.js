@@ -66,8 +66,9 @@ const cubePuzzle = cubeEl.getAttribute("puzzle");
 testEl.append(cubePuzzle)
 
 //// get attrs
-const cubeAttrs = attrsByPuzzle.getAttribute(cubePuzzle);
+const cubeAttrs = attrsByPuzzle[cubePuzzle];
 testEl.append(cubeAttrs)
+testEl.append(Object.entries(cubeAttrs))
 
 //// set puzzle/attrs for every player
 playerEls.forEach(

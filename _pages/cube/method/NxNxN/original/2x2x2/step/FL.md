@@ -8,7 +8,7 @@ hidden: false
 twisty: true
 puzzle: "2x2x2"
 ---
-<div id="cube" puzzle="{{page.puzzle}}">cube</div>
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 <div id="test">test</div>
 
 <head>
