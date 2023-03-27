@@ -91,20 +91,25 @@ const cubePz = cubeEl.getAttribute("puzzle");
 // cubeStAttrs : style attr
 const infoPzStAttrs = {
     "2x2x2" : {
-        "width"		: "200px",
-        "height"	: "180px"
+        width		: "200px",
+        height  	: "180px"
     },
     "4x4x4" : {
-        "width"		: "260px",
-        "height"	: "250px"
-    }
+        width		: "260px",
+        height  	: "250px"
+    },
+    "5x5x5" : {
+        width		: "300px",
+        height  	: "300px"
+    },
 };
 const cubeStAttrs = infoPzStAttrs[cubePz];
 
 // cubeElAttrs : element attr 
-const cubeElAttrs = {
-    "puzzle"		: cubePz
+const infoPzElAttrs = {
 };
+const cubeElAttrs = infoPzElAttrs[cubePz];
+cubeElAttrs.puzzle = cubePz;
 
 // set attr for every player
 playerEls.forEach(
@@ -124,11 +129,13 @@ playerEls.forEach(
 const testEl = document.querySelector("#test");
 
 const testAppend = el => {
-    testEl.append('\n');
+    testEl.append('<br>');
     testEl.append(el);
 };
+const testAppendAttrs = attrs => attrs.forEach(
+    attr => testAppend(attr)
+);
 
-testAppend(playerEls);
 testAppend(cubePz);
-testAppend(cubeStAttrs);
-testAppend(cubeElAttrs);
+testAppendAttrs(cubeStAttrs);
+testAppendAttrs(cubeElAttrs);
