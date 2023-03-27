@@ -55,6 +55,10 @@ const attrsByPuzzle = {
     }
 };
 
+//// test
+const testEl = document.querySelector("#test");
+testEl.append("test");
+
 //// get puzzle
 const cubeEl     = document.querySelector("#cube");
 const cubePuzzle = cubeEl.getAttribute("puzzle");
@@ -63,8 +67,6 @@ const cubePuzzle = cubeEl.getAttribute("puzzle");
 const cubeAttrs = attrsByPuzzle.getAttribute(cubePuzzle);
 
 //// test
-const testEl = document.querySelector(#test);
-testEl.append("test");
 testEl.append(cubePuzzle);
 testEl.append(cubeAttrs);
 
