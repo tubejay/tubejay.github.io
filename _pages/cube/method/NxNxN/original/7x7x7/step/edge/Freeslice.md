@@ -6,20 +6,12 @@ permalink: /cube/method/NxNxN/original/7x7x7/edge/freeslice
 published: true
 hidden: false
 twisty: true
+puzzle: "7x7x7"
 ---
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/NxNxN/7x7x7.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 

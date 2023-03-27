@@ -132,6 +132,10 @@ const infoPzStAttrs = {
         width  : "340px",
         height : "350px"
     },
+    "6x6x6" : {
+        width  : "380px",
+        height : "400px"
+    },
 };
 const cubeStAttrs = infoPzStAttrs[cubePz];
 
