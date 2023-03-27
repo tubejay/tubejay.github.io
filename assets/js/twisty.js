@@ -61,14 +61,13 @@ testEl.append("test");
 
 //// get puzzle
 const cubeEl     = document.querySelector("#cube");
+testEl.append(cubeEl)
 const cubePuzzle = cubeEl.getAttribute("puzzle");
+testEl.append(cubePuzzle)
 
 //// get attrs
 const cubeAttrs = attrsByPuzzle.getAttribute(cubePuzzle);
-
-//// test
-testEl.append(cubePuzzle);
-testEl.append(cubeAttrs);
+testEl.append(cubeAttrs)
 
 //// set puzzle/attrs for every player
 playerEls.forEach(
