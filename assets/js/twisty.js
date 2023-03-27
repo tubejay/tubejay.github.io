@@ -1,82 +1,134 @@
-// common attr for every player
+/////////////////////////
+///// function
+/////////////////////////
 
-//// bgColor : style attr
-const bgColor = "#1a1a1a";
-//// elAttrs : element attr
-const elAttrs = {
-    "background"    : "none",
-    "tempo-scale"   : "1.3",
-    "visualization" : "PG3D"
-};
-
-//// set attr by attrEntry
+// set attr by attrEntry
 const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
-    //// attrEntry : [key,value]
+    // attrEntry : [key,value]
     const [key,value] = attrEntry;
-    //// set attr by key,value
+    // set attr by key,value
     if (isStyle===true) {
+        // style attr
         el.style[key] = value;
-    } else {
+    } else if (isStyle===false) {
+        // element attr
         el.setAttribute(key,value);
     }
 };
 
-//// set attr by attrs
+// set attr by attrs
+// https://stackoverflow.com/a/12274782
 const setAttrByAttrs = (el,attrs,isStyle) => {
-    //// elAttrs : element attr
-    //// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+    // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
     const attrEntries = Object.entries(attrs);
     attrEntries.forEach(
-        //// https://stackoverflow.com/a/12274782
         attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
     );
 };
 
-//// set attr for every player
-const playerEls = document.querySelectorAll("twisty-player");
-playerEls.forEach(
-    el => {
-        //// bgColor : style attr
-        el.style.backgroundColor = bgColor;
-        //// elAttrs : element attr
-        setAttrByAttrs(el,elAttrs,true);
-    }
-);
-
-
-
-// specific attr by cube
-
-//// attrsByPuzzle : attrs by puzzle
-const attrsByPuzzle = {
-    "2x2x2" : {
-        "width"  : "200px",
-        "height" : "180px"
-    },
-    "4x4x4" : {
-        "width"  : "260px",
-        "height" : "250px"
-    }
+// set style/element attr
+const setStElAttrs = (el,stAttrs,elAttrs) => {
+    // stAttrs
+    // isStyle : true
+    setAttrByAttrs(
+        el		,
+        stAttrs	,
+        true
+    );
+    // elAttrs
+    // isStyle : false
+    setAttrByAttrs(
+        el		,
+        elAttrs	,
+        false
+    );
 };
 
-//// test
+
+
+/////////////////////////
+///// player elements
+/////////////////////////
+
+const playerEls = document.querySelectorAll("twisty-player");
+
+
+
+/////////////////////////
+///// common attr for every player
+/////////////////////////
+
+// comStAttrs : style attr
+const comStAttrs = {
+    "background-color"	: "#1a1a1a"
+};
+// comElAttrs : element attr
+const comElAttrs = {
+    "background"		: "none",
+    "tempo-scale"		: "1.3",
+    "visualization"		: "PG3D"
+};
+
+// set attr for every player
+playerEls.forEach(
+    player => setStElAttrs(
+        player		,
+        comStAttrs	,
+        comElAttrs
+    )
+);
+
+
+
+/////////////////////////
+///// specific attr for cube
+/////////////////////////
+
+// cubePz : puzzle for cube
+const cubeEl = document.querySelector("#cube");
+const cubePz = cubeEl.getAttribute("puzzle");
+
+// cubeStAttrs : style attr
+const infoPzStAttrs = {
+    "2x2x2" : {
+        "width"		: "200px",
+        "height"	: "180px"
+    },
+    "4x4x4" : {
+        "width"		: "260px",
+        "height"	: "250px"
+    }
+};
+const cubeStAttrs = infoPzStAttrs[cubePz];
+
+// cubeElAttrs : element attr 
+const cubeElAttrs = {
+    "puzzle"		: cubePz
+};
+
+// set attr for every player
+playerEls.forEach(
+    player => setStElAttrs(
+        player		,
+        cubeStAttrs	,
+        cubeElAttrs
+    )
+);
+
+
+
+/////////////////////////
+///// test
+/////////////////////////
+
 const testEl = document.querySelector("#test");
 
-//// get puzzle
-const cubeEl     = document.querySelector("#cube");
-const cubePuzzle = cubeEl.getAttribute("puzzle");
-testEl.append(cubePuzzle)
+const testAppend = el => {
+    testEl.append('\n');
+    testEl.append(el);
+};
 
-//// get attrs
-const cubeAttrs = attrsByPuzzle[cubePuzzle];
-testEl.append(cubeAttrs)
-
-//// set puzzle/attrs for every player
-playerEls.forEach(
-    player => {
-        //// set puzzle
-        player.setAttribute("puzzle",cubePuzzle);
-        //// set attrs
-        setAttrByAttrs(player,cubeAttrs,true);
-    }
-);
+testAppend(playerEls);
+testAppend(cubePz);
+testAppend(cubeStAttrs);
+testAppend(cubeElAttrs);
