@@ -25,7 +25,10 @@ document.querySelectorAll("twisty-player").forEach(
     }
 );
 
-document.querySelector(".test").append("test");
+const testEl = document.querySelector(".test");
 
-const cube = '{{pagecube}}';
-document.querySelector(".test").append(cube);
+testEl.append("test");
+
+const cubeEl = document.querySelector("#cubeid");
+const cubeName = cubeEl.getAttribute("name");
+testEl.append(cubeName);
