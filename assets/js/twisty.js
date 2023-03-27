@@ -27,15 +27,10 @@ document.querySelectorAll("twisty-player").forEach(
 
 
 
-const cubeEl = document.querySelector("#cubeid");
-const cubeName = cubeEl.getAttribute("name");
+const cubeEl = document.querySelector("#cube");
+const cubePuzzle = cubeEl.getAttribute("puzzle");
 
 const playerEls = document.querySelectorAll("twisty-player");
 playerEls.forEach(
-    player => player.setAttribute("puzzle",cubeName)
+    player => player.setAttribute("puzzle",cubePuzzle)
 );
-
-/*
-const playerEl = document.querySelector("twisty-player");
-playerEl.setAttribute("puzzle",cubeName);
-*/

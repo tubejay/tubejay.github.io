@@ -6,9 +6,9 @@ permalink: /cube/method/NxNxN/original/2x2x2/fl
 published: true
 hidden: false
 twisty: true
-cube: "2x2x2"
+puzzle: "2x2x2"
 ---
-<span id="cubeid" name="{{page.cube}}"></span>
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
@@ -53,7 +53,6 @@ cube: "2x2x2"
 - Right : ( R U' R' U ) ( F' U F )
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "F2L"
     alg                       = "R U' R' U F' U F"
     experimental-setup-alg    = ""
@@ -63,7 +62,6 @@ cube: "2x2x2"
 - Left : ( F' U F U' ) ( R U' R' )
 
   <twisty-player
-    puzzle                    = "2x2x2"
     experimental-stickering   = "F2L"
     alg                       = "F' U F U' R U' R'"
     experimental-setup-alg    = ""
