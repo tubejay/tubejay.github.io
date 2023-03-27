@@ -46,28 +46,25 @@ playerEls.forEach(
 //// attrsByPuzzle : attrs by puzzle
 const attrsByPuzzle = {
     "2x2x2" : {
-        width  : "200px",
-        height : "180px"
+        "width"  : "200px",
+        "height" : "180px"
     },
     "4x4x4" : {
-        width  : "260px",
-        height : "250px"
+        "width"  : "260px",
+        "height" : "250px"
     }
 };
 
 //// test
 const testEl = document.querySelector("#test");
-testEl.append("test");
 
 //// get puzzle
 const cubeEl     = document.querySelector("#cube");
-testEl.append(cubeEl)
 const cubePuzzle = cubeEl.getAttribute("puzzle");
 testEl.append(cubePuzzle)
 
 //// get attrs
 const cubeAttrs = attrsByPuzzle[cubePuzzle];
-testEl.append(cubeAttrs)
 testEl.append(Object.entries(cubeAttrs))
 
 //// set puzzle/attrs for every player

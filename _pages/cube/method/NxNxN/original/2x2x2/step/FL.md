@@ -9,7 +9,7 @@ twisty: true
 puzzle: "2x2x2"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
-<div id="test">test</div>
+<div id="test"></div>
 
 <head>
   <base target="_blank">
