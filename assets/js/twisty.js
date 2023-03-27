@@ -14,8 +14,8 @@ const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
     //// attrEntry : [key,value]
     const [key,value] = attrEntry;
     //// set attr by key,value
-    if (isStyle) {
-        el.style.setAttribute(key,value);
+    if (isStyle===true) {
+        el.style[key] = value;
     } else {
         el.setAttribute(key,value);
     }
