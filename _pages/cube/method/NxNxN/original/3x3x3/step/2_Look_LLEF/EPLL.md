@@ -19,7 +19,7 @@ ruwix: true
 <a href="https://logiqx.github.io/cubing-algs/html/2lllef.html#case-Adj">
   <img
     class = "rotate"
-    deg   = -90
+    deg   = 270
     src   = "https://www.speedsolving.com/wiki/images/f/fc/LLE_OA.jpg"
   />
 </a>

@@ -53,7 +53,7 @@ ruwix: true
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-U">
   <img
     class = "rotate"
-    deg   = -90
+    deg   = 270
     src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R2%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll"
   />
 </a>
@@ -105,7 +105,7 @@ ruwix: true
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-T">
   <img
     class = "rotate"
-    deg   = -90
+    deg   = 270
     src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R%27%20U%27%20R%20U%27%20R2%20U2%27%20R%20U%20R%27%20U%20R&view=plan&stage=coll"
   />
 </a>
