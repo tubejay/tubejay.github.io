@@ -1,25 +1,17 @@
 ---
 ---
 
-/*
-guide   :  https://sass-lang.com/guide
-comment : https://sass-lang.com/documentation/syntax/comments
-*/
+// guide   : https://sass-lang.com/guide
+// comment : https://sass-lang.com/documentation/syntax/comments
 
-/*
-use : https://sass-lang.com/documentation/at-rules/use
-*/
+// use : https://sass-lang.com/documentation/at-rules/use
 @use iframe
 
 iframe
-  /*
-  extend : https://sass-lang.com/documentation/at-rules/extend
-  */
+  // extend : https://sass-lang.com/documentation/at-rules/extend
   @extend player
-  /*
-  use namespace : https://sass-lang.com/documentation/at-rules/use#choosing-a-namespace
-  stackoverflow : https://stackoverflow.com/a/11084798
-  */
+  // use namespace : https://sass-lang.com/documentation/at-rules/use#choosing-a-namespace
+  // stackoverflow : https://stackoverflow.com/a/11084798
   &.w_ul
     @include iframe.player_w_ul
   &.wo_ul
