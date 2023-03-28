@@ -160,6 +160,7 @@ imageTranslateEls.forEach(
         const disp = image.getAttribute("disp");
         // stAttrs : style attr
         const stAttrs = {
+            "display"    : "block",
             "max-width"  : "initial",
             "max-height" : "initial",
             "transform"  : `translate${axis}(${disp})`
