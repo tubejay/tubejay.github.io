@@ -180,6 +180,7 @@ const divWrapperEls = document.querySelectorAll("div.wrapper");
 
 /////////////////////////
 ///// style attr
+///// display    : inline-block
 ///// max-width  : 96px
 ///// max-height : 96px
 ///// overflow   : hidden
@@ -189,6 +190,7 @@ divWrapperEls.forEach(
     wrapper => {
         // stAttrs : style attr
         const stAttrs = {
+            // https://www.w3schools.com/css/css_inline-block.asp
             "display"         : "inline-block",
             "max-width"       : "96px",
             "max-height"      : "96px",

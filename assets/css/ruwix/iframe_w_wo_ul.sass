@@ -4,10 +4,9 @@
 @import iframe_partials
 
 iframe
-  @include player
-
-.w_ul
-  @include player_w_ul
-
-.wo_ul
-  @include player_wo_ul
+  @extend player
+  https://stackoverflow.com/a/11084798
+  &.w_ul
+    @include player_w_ul
+  &.wo_ul
+    @include player_wo_ul
