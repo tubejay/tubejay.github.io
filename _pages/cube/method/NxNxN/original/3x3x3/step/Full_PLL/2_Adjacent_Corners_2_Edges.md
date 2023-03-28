@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/full_pll/2_adjacent_corners_2_edges
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -21,14 +17,15 @@ hidden: false
 ## T Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#T_Permutation">
-  <img src="https://www.speedsolving.com/wiki/images/4/49/T.gif">
+  <img
+    src = "https://www.speedsolving.com/wiki/images/4/49/T.gif"
+  />
 </a>
 
 - ( R U R' U' ) ( R' F R2 ) ( U' R' U' R ) ( U R' F' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20F'&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20F'&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -36,14 +33,17 @@ hidden: false
 ## F Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#F_Permutation">
-  <img src="https://www.speedsolving.com/wiki/images/f/fd/F.gif" style="transform:rotate(90deg)">
+  <img
+    class = "rotate"
+    deg   = 90
+    src   = "https://www.speedsolving.com/wiki/images/f/fd/F.gif"
+  />
 </a>
 
 - ( R' U' F' ) ( R U R' U' ) ( R' F R2 ) ( U' R' U' R ) ( U R' U R )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U'%20F'%20R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20U%20R&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U'%20F'%20R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20U%20R&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -51,28 +51,32 @@ hidden: false
 ## Ja Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#J_Permutation_:_a">
-  <img src="https://www.speedsolving.com/wiki/images/f/fb/J1.gif" style="transform:rotate(180deg)">
+  <img
+    class = "rotate"
+    deg   = 180
+    src   = "https://www.speedsolving.com/wiki/images/f/fb/J1.gif"
+  />
 </a>
 
 - ( R' U2 R U ) ( R' U2 L U' ) ( R U L' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U2%20R%20U%20R'%20U2'%20L%20U'%20R%20U%20L'&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U2%20R%20U%20R'%20U2'%20L%20U'%20R%20U%20L'&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
 ## Jb Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#J_Permutation_:_b">
-  <img src="https://www.speedsolving.com/wiki/images/1/17/J.gif">
+  <img
+    src = "https://www.speedsolving.com/wiki/images/1/17/J.gif"
+  />
 </a>
 
 - ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -80,14 +84,17 @@ hidden: false
 ## Ra Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#R_Permutation_:_a">
-  <img src="https://www.speedsolving.com/wiki/images/8/85/R1.gif" style="transform:rotate(-90deg)">
+  <img
+    class = "rotate"
+    deg   = 270
+    src   = "https://www.speedsolving.com/wiki/images/8/85/R1.gif"
+  />
 </a>
 
 - ( R U' R' U' ) ( R U R D ) ( R' U' R D' ) ( R' U2 R' U' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U'%20R%20U%20R%20D%20R'%20U'%20R%20D'%20R'%20U2'%20R'%20U'&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U'%20R%20U%20R%20D%20R'%20U'%20R%20D'%20R'%20U2'%20R'%20U'&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -95,12 +102,15 @@ hidden: false
 ## Rb Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#R_Permutation_:_b">
-  <img src="https://www.speedsolving.com/wiki/images/3/38/R.gif" style="transform:rotate(90deg)">
+  <img
+    class = "rotate"
+    deg   = 90
+    src   = "https://www.speedsolving.com/wiki/images/3/38/R.gif"
+  />
 </a>
 
 - ( R' U R U ) ( R' U' R' D' ) ( R U R' D ) ( R U2 R U )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U%20R%20U%20R'%20U'%20R'%20D'%20R%20U%20R'%20D%20R%20U2%20R%20U&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U%20R%20U%20R'%20U'%20R'%20D'%20R%20U%20R'%20D%20R%20U2%20R%20U&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>

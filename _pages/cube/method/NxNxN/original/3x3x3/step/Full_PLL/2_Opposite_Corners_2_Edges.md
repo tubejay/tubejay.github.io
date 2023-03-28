@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/full_pll/2_opposite_corners_2_edges
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -21,14 +17,17 @@ hidden: false
 ## Na Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#N_Permutation_:_a">
-  <img src="https://www.speedsolving.com/wiki/images/5/59/N1.gif" style="transform:rotate(90deg)">
+  <img
+    class = "rotate"
+    deg   = 90
+    src   = "https://www.speedsolving.com/wiki/images/5/59/N1.gif"
+  />
 </a>
 
 - ( L U' R U2 ) ( L' U R' ) ( L U' R U2 ) ( L' U R' U )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=L%20U'%20R%20U2'%20L'%20U%20R'%20L%20U'%20R%20U2'%20L'%20U%20R'%20U&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=L%20U'%20R%20U2'%20L'%20U%20R'%20L%20U'%20R%20U2'%20L'%20U%20R'%20U&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -36,14 +35,15 @@ hidden: false
 ## Nb Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#N_Permutation_:_b">
-  <img src="https://www.speedsolving.com/wiki/images/f/fa/N.gif">
+  <img
+    src = "https://www.speedsolving.com/wiki/images/f/fa/N.gif"
+  />
 </a>
 
 - ( R' U L' U2 ) ( R U' L ) ( R' U L' U2 ) ( R U' L U )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U%20L'%20U2%20R%20U'%20L%20R'%20U%20L'%20U2%20R%20U'%20L%20U&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U%20L'%20U2%20R%20U'%20L%20R'%20U%20L'%20U2%20R%20U'%20L%20U&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -51,14 +51,15 @@ hidden: false
 ## V Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#V_Permutation">
-  <img src="https://www.speedsolving.com/wiki/images/9/90/V.gif">
+  <img
+    src = "https://www.speedsolving.com/wiki/images/9/90/V.gif"
+  />
 </a>
 
 - ( R' U R' U' ) ( R D' R' D ) ( R' U D' R2 ) ( U' R2 D R2 )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U%20R'%20U'%20R%20D'%20R'%20D%20R'%20U%20D'%20R2'%20U'%20R2%20D%20R2&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U%20R'%20U'%20R%20D'%20R'%20D%20R'%20U%20D'%20R2'%20U'%20R2%20D%20R2&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -66,12 +67,13 @@ hidden: false
 ## Y Perm
 
 <a href="https://www.speedsolving.com/wiki/index.php/PLL#Y_Permutation">
-  <img src="https://www.speedsolving.com/wiki/images/b/b9/Y.gif">
+  <img
+    src = "https://www.speedsolving.com/wiki/images/b/b9/Y.gif"
+  />
 </a>
 
 - ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
