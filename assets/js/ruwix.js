@@ -84,34 +84,6 @@ iframeEls.forEach(
 
 
 /////////////////////////
-///// wrapper elements
-/////////////////////////
-
-const wrapperEls = document.querySelectorAll(".wrapper");
-
-/////////////////////////
-///// style attr
-///// max-width  : 96px
-///// max-height : 96px
-///// overflow   : hidden
-/////////////////////////
-
-wrapperEls.forEach(
-    wrapper => {
-        // stAttrs : style attr
-        const stAttrs = {
-            "max-width"  : "96px",
-            "max-height" : "96px",
-            "overflow"   : "hidden"
-        };
-        // set style attr
-        setAttrByAttrs(wrapper,stAttrs,true);
-    }
-)
-
-
-
-/////////////////////////
 ///// image elements
 /////////////////////////
 
@@ -198,9 +170,32 @@ imageTranslateEls.forEach(
 );
 
 
+/*
 
 /////////////////////////
 ///// wrapper elements
 /////////////////////////
 
 const wrapperEls = document.querySelectorAll(".wrapper");
+
+/////////////////////////
+///// style attr
+///// max-width  : 96px
+///// max-height : 96px
+///// overflow   : hidden
+/////////////////////////
+
+wrapperEls.forEach(
+    wrapper => {
+        // stAttrs : style attr
+        const stAttrs = {
+            "max-width"  : "96px",
+            "max-height" : "96px",
+            "overflow"   : "hidden"
+        };
+        // set style attr
+        setAttrByAttrs(wrapper,stAttrs,true);
+    }
+)
+
+*/
