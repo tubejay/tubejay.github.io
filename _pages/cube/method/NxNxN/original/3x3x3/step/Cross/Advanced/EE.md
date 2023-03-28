@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/cross/advanced/ee
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_wo_ul.css"
-  >
 </head>
 
 
@@ -23,22 +19,19 @@ hidden: false
 ### Case 1
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=B'%20D'%20F&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=B'%20D'%20F&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 ### Case 2
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=B'%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=B'%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 ### Case 3
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=B'%20D%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=B'%20D%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 
@@ -48,22 +41,19 @@ hidden: false
 ### Case 4
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=F%20R&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=F%20R&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 ### Case 5
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=F%20D'%20R&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=F%20D'%20R&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 ### Case 6
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=F%20D2'%20R&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=F%20D2'%20R&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 
@@ -73,21 +63,18 @@ hidden: false
 ### Case 7
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=R'%20D'%20R2'&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=R'%20D'%20R2'&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 ### Case 8
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=R'%20D2'%20R2'&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=R'%20D2'%20R2'&colored=U%20LD%20RD&hover=9&speed=500&flags=canvas"
 ></iframe>
 
 ### Case 9
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=R'%20D%20R2'&colored=U%20RD%20BD&hover=9&speed=500&flags=canvas"
 ></iframe>
 

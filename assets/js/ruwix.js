@@ -63,11 +63,11 @@ const comStAttrs = {
     width              : "250px",
     height             : "300px",
     "background-color" : "#1a1a1a",
-    "border-style"     : "dotted",
-    "border-color"     : "white",
-    "border-width"     : "5px",
+    "border-style"     : "none",
+    "border-color"     : "transparent",
+    "border-width"     : "0px",
     "margin-top"       : "5px",
-    "margin-bottom"    : "0px",
+    "margin-bottom"    : "5px",
 };
 // comElAttrs : element attr
 const comElAttrs = {
