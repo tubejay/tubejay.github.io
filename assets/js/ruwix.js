@@ -82,3 +82,64 @@ iframeEls.forEach(
         comElAttrs
     )
 );
+
+
+
+/////////////////////////
+///// image elements
+/////////////////////////
+
+const imageEls = document.querySelectorAll("img");
+
+
+
+/////////////////////////
+///// common attr for every image
+/////////////////////////
+
+// imgStAttrs : style attr
+const imgStAttrs = {
+    "max-width" : "100px"
+};
+// imgElAttrs : element attr
+const imgElAttrs = {};
+
+// set attr for every image
+imageEls.forEach(
+    image => setStElAttrs(
+        image      ,
+        imgStAttrs ,
+        imgElAttrs
+    )
+);
+
+
+
+/////////////////////////
+///// image elements
+///// class : rotate
+///// attr  : deg
+/////////////////////////
+
+const imageRotateEls = document.querySelectorAll("img.rotate");
+
+
+
+/////////////////////////
+///// style attr
+///// key   : transform
+///// value : rotate
+/////////////////////////
+
+imageRotateEls.forEach(
+    image => {
+        // deg of image
+        const deg     = image.getAttribute("deg");
+        // stAttrs   : style attr
+        const stAttrs = {
+            "transform" : `rotate(${deg}deg)`
+        };
+        // set style attr
+        setAttrByAttrs(image,stAttrs,true);
+    }
+);
