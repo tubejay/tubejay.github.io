@@ -4,15 +4,16 @@
 // https://sass-lang.com/guide
 
 // https://sass-lang.com/documentation/at-rules/use
-@use iframe_partials
+@use iframe
 
 iframe
 
   // https://sass-lang.com/documentation/at-rules/extend
   @extend player
 
+  // https://sass-lang.com/documentation/at-rules/use#choosing-a-namespace
   // https://stackoverflow.com/a/11084798
   &.w_ul
-    @include player_w_ul
+    @include iframe.player_w_ul
   &.wo_ul
-    @include player_wo_ul
+    @include iframe.player_wo_ul
