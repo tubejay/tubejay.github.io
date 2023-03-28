@@ -189,11 +189,11 @@ divWrapperEls.forEach(
     wrapper => {
         // stAttrs : style attr
         const stAttrs = {
-            "display"    : "flex",
+            "display"         : "flex",
             "justify-content" : "flex-start",
-            "max-width"  : "96px",
-            "max-height" : "96px",
-            "overflow"   : "hidden"
+            "max-width"       : "96px",
+            "max-height"      : "96px",
+            "overflow"        : "hidden"
         };
         // set style attr
         setAttrByAttrs(wrapper,stAttrs,true);
