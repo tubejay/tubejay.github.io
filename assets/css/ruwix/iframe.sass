@@ -1,0 +1,18 @@
+---
+---
+
+// https://sass-lang.com/guide
+
+// https://sass-lang.com/documentation/at-rules/use
+@use iframe_partials
+
+iframe
+
+  // https://sass-lang.com/documentation/at-rules/extend
+  @extend player
+
+  // https://stackoverflow.com/a/11084798
+  &.w_ul
+    @include player_w_ul
+  &.wo_ul
+    @include player_wo_ul
