@@ -3,16 +3,16 @@
 
 // guide   : https://sass-lang.com/guide
 // comment : https://sass-lang.com/documentation/syntax/comments
-// use     : https://sass-lang.com/documentation/at-rules/use
+// import  : https://sass-lang.com/documentation/at-rules/import
 // extend  : https://sass-lang.com/documentation/at-rules/extend
 // use namespace : https://sass-lang.com/documentation/at-rules/use#choosing-a-namespace
 // stackoverflow : https://stackoverflow.com/a/11084798
 
-@use iframe_partials
+@import iframe_partials
 
 iframe
   @extend player
   &.w_ul
-    @include iframe_partials.player_w_ul
+    @include player_w_ul
   &.wo_ul
-    @include iframe_partials.player_wo_ul
+    @include player_wo_ul
