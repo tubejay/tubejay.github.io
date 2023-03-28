@@ -190,7 +190,7 @@ divWrapperEls.forEach(
         // stAttrs : style attr
         const stAttrs = {
             "display"         : "flex",
-            "justify-content" : "flex-start",
+            "justify-content" : "left",
             "max-width"       : "96px",
             "max-height"      : "96px",
             "overflow"        : "hidden"
