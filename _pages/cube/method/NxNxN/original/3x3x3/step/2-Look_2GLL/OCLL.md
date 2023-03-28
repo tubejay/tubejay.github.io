@@ -5,20 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/2_look_2gll/ocll
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/img.css"
-  >
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -26,14 +17,17 @@ hidden: false
 ## S / Sune {#sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-S">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(180deg)">
+  <img
+    class = "rotate"
+    deg   = 180
+    src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll"
+  />
 </a>
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=L%20U%20L'%20U%20L%20U2%20L'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=L%20U%20L'%20U%20L%20U2%20L'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -41,14 +35,15 @@ hidden: false
 ## S- / Antisune {#antisune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-AS">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R&view=plan&stage=coll">
+  <img
+    src = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R&view=plan&stage=coll"
+  />
 </a>
 
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R'%20U2'%20R&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R'%20U2'%20R&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -56,14 +51,17 @@ hidden: false
 ## U / Headlights {#headlights}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-U">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R2%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(-90deg)">
+  <img
+    class = "rotate"
+    deg   = -90
+    src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%27%20U%27%20R%20U%27%20R%27%20U2%20R2%20U%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll"
+  />
 </a>
 
 - ( R U R' U' ) ( R U' R' U2 ) x 2 ( R U R' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R%20U'%20R'%20U2'%20R%20U'%20R'%20U2'%20R%20U%20R'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R%20U'%20R'%20U2'%20R%20U'%20R'%20U2'%20R%20U%20R'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -71,14 +69,15 @@ hidden: false
 ## Pi / Bruno {#bruno}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-Pi">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R2%27%20U%27%20R2%20U%27%20R2%27%20U2%27%20R&view=plan&stage=coll">
+  <img
+    src = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R2%27%20U%27%20R2%20U%27%20R2%27%20U2%27%20R&view=plan&stage=coll"
+  />
 </a>
 
 - ( R U2 ) ( R2 U' R2 U' R2 ) ( U2 R )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R2%20U'%20R2%20U'%20R2%20U2'%20R&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R2%20U'%20R2%20U'%20R2%20U2'%20R&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -86,14 +85,17 @@ hidden: false
 ## H / Double Sune {#double-sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-H">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U%27%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(90deg)">
+  <img
+    class = "rotate"
+    deg   = 90
+    src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%20R%27%20U%20R%20U%27%20R%27%20U%20R%20U2%20R%27&view=plan&stage=coll"
+  />
 </a>
 
 - ( R U2 ) ( R' U' R U ) ( R' U' R U' R' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U%20R'%20U'%20R%20U'%20R'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U%20R'%20U'%20R%20U'%20R'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -101,14 +103,17 @@ hidden: false
 ## T / Chameleon {#chameleon}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-T">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R%27%20U%27%20R%20U%27%20R2%20U2%27%20R%20U%20R%27%20U%20R&view=plan&stage=coll" style="transform:rotate(-90deg)">
+  <img
+    class = "rotate"
+    deg   = -90
+    src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U2%27%20R%27%20U%27%20R%20U%27%20R2%20U2%27%20R%20U%20R%27%20U%20R&view=plan&stage=coll"
+  />
 </a>
 
 - ( R U R' U R ) ( U2 ) ( R' U' R ) ( U2 ) ( R' U' R U' R' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U2'%20R'%20U'%20R%20U2'%20R'%20U'%20R%20U'%20R'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U2'%20R'%20U'%20R%20U2'%20R'%20U'%20R%20U'%20R'&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -116,14 +121,17 @@ hidden: false
 ## L / Bowtie {#bowtie}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2l2gll.html#case-L">
-  <img src="http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%27%20R%27%20L%27%20U2%20L%20U%20L%27%20U%20L%20R%20U2%20R%27&view=plan&stage=coll" style="transform:rotate(180deg)">
+  <img
+    class = "rotate"
+    deg   = 180
+    src   = "http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=R%20U%27%20R%27%20L%27%20U2%20L%20U%20L%27%20U%20L%20R%20U2%20R%27&view=plan&stage=coll"
+  />
 </a>
 
 - ( R' U' R U' ) ( R' U R U' ) x 2 ( R' U2 R )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20R'%20U2'%20R&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20U'%20R%20U'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20R'%20U2'%20R&colored=u/em%20U*/c&solved=U-&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
