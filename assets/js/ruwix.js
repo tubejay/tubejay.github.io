@@ -160,7 +160,6 @@ imageTranslateEls.forEach(
         const disp = image.getAttribute("disp");
         // stAttrs : style attr
         const stAttrs = {
-            "display"    : "block",
             "max-width"  : "initial",
             "max-height" : "initial",
             "transform"  : `translate${axis}(${disp})`
@@ -177,7 +176,7 @@ imageTranslateEls.forEach(
 ///// class : wrapper
 /////////////////////////
 
-const divWrapperEls = document.querySelectorAll("div.wrapper");
+const divWrapperEls = document.querySelectorAll(".wrapper");
 
 /////////////////////////
 ///// style attr
@@ -190,7 +189,6 @@ divWrapperEls.forEach(
     wrapper => {
         // stAttrs : style attr
         const stAttrs = {
-            "text-align"      : "left",
             "max-width"       : "96px",
             "max-height"      : "96px",
             "overflow"        : "hidden"
