@@ -10,11 +10,11 @@ ruwix: true
 
 <head>
   <base target="_blank">
-  <link
+  <!-- <link
     rel   = "stylesheet"
     type  = "text/css"
     href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
+  > -->
 </head>
 
 
