@@ -170,13 +170,13 @@ imageTranslateEls.forEach(
 );
 
 
-/*
 
 /////////////////////////
-///// wrapper elements
+///// div elements
+///// class : wrapper
 /////////////////////////
 
-const wrapperEls = document.querySelectorAll(".wrapper");
+const divWrapperEls = document.querySelectorAll("div.wrapper");
 
 /////////////////////////
 ///// style attr
@@ -185,7 +185,7 @@ const wrapperEls = document.querySelectorAll(".wrapper");
 ///// overflow   : hidden
 /////////////////////////
 
-wrapperEls.forEach(
+divWrapperEls.forEach(
     wrapper => {
         // stAttrs : style attr
         const stAttrs = {
@@ -196,6 +196,4 @@ wrapperEls.forEach(
         // set style attr
         setAttrByAttrs(wrapper,stAttrs,true);
     }
-)
-
-*/
+);
