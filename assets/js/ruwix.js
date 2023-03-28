@@ -174,11 +174,10 @@ imageTranslateEls.forEach(
 
 
 /////////////////////////
-///// link elements
-///// class : wrapper
+///// wrapper elements
 /////////////////////////
 
-const linkWrapperEls = document.querySelectorAll("a.wrapper");
+const wrapperEls = document.querySelectorAll(".wrapper");
 
 /////////////////////////
 ///// style attr
@@ -187,8 +186,8 @@ const linkWrapperEls = document.querySelectorAll("a.wrapper");
 ///// overflow   : hidden
 /////////////////////////
 
-linkWrapperEls.forEach(
-    link => {
+wrapperEls.forEach(
+    wrapper => {
         // stAttrs : style attr
         const stAttrs = {
             "max-width"  : "96px",
@@ -196,6 +195,6 @@ linkWrapperEls.forEach(
             "overflow"   : "hidden"
         };
         // set style attr
-        setAttrByAttrs(link,stAttrs,true);
+        setAttrByAttrs(wrapper,stAttrs,true);
     }
 );

@@ -16,14 +16,16 @@ ruwix: true
 
 ## Adjacent Swap
 
-<a class="wrapper" href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
-  <img
-    class = "translate"
-    axis  = "x"
-    disp  = "-96px"
-    src   = "https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png"
-  />
-</a>
+<div class="wrapper">
+  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
+    <img
+      class = "translate"
+      axis  = "x"
+      disp  = "-96px"
+      src   = "https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png"
+    />
+  </a>
+</div>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
 
@@ -35,14 +37,16 @@ ruwix: true
 
 ## Opposite Swap
 
-<a class="wrapper" href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
-  <img
-    class = "translate"
-    axis  = "y"
-    disp  = "-96px"
-    src   = "https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png"
-  />
-</a>
+<div class="wrapper">
+  <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Diag">
+    <img
+      class = "translate"
+      axis  = "y"
+      disp  = "-96px"
+      src   = "https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png"
+    />
+  </a>
+</div>
 
 - ( L U' R' U L' U' R ) x 2
 
