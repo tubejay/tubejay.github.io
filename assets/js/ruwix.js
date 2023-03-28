@@ -176,7 +176,7 @@ imageTranslateEls.forEach(
 ///// class : wrapper
 /////////////////////////
 
-const divWrapperEls = document.querySelectorAll(".wrapper");
+const divWrapperEls = document.querySelectorAll("div.wrapper");
 
 /////////////////////////
 ///// style attr
@@ -189,6 +189,7 @@ divWrapperEls.forEach(
     wrapper => {
         // stAttrs : style attr
         const stAttrs = {
+            "display"         : "inline-block",
             "max-width"       : "96px",
             "max-height"      : "96px",
             "overflow"        : "hidden"

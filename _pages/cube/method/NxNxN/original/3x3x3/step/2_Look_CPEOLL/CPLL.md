@@ -16,7 +16,7 @@ ruwix: true
 
 ## Adjacent Swap
 
-<span class="wrapper">
+<div class="wrapper">
   <a href="https://logiqx.github.io/cubing-algs/html/2lcpeoll.html#case-Adj">
     <img
       class = "translate"
@@ -25,7 +25,7 @@ ruwix: true
       src   = "https://logiqx.github.io/cubing-algs/img/2lcpeoll-s96-01.png"
     />
   </a>
-</span>
+</div>
 
 - ( L U' ) ( R' U ) ( L' U' ) ( R U2 )
 
