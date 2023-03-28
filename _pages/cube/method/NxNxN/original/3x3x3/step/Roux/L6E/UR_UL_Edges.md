@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/roux/l6e/ur_ul_edges
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -23,8 +19,7 @@ hidden: false
 - ( U2 M' ) x 2 ( U Layer ) ( M2 ) ( U Layer )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'%20M'%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'%20M'%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -34,6 +29,5 @@ hidden: false
 - ( M2 U' ) ( M' U2 ) ( M ) ( U Layer ) ( M2 ) ( U Layer )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=M2'%20U'%20M'%20U2'%20M%20U'%20M2'%20U'&colored=UL%20UR%20U*/c&solved=L%20R%20FLD%20BLD%20FRD%20BRD%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas"
   ></iframe>
