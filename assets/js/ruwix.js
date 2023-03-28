@@ -52,8 +52,6 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 
 const iframeEls = document.querySelectorAll("iframe");
 
-
-
 /////////////////////////
 ///// common attr for every iframe
 /////////////////////////
@@ -91,15 +89,13 @@ iframeEls.forEach(
 
 const imageEls = document.querySelectorAll("img");
 
-
-
 /////////////////////////
 ///// common attr for every image
 /////////////////////////
 
 // imgStAttrs : style attr
 const imgStAttrs = {
-    "max-width" : "100px"
+    "max-width"  : "96px"
 };
 // imgElAttrs : element attr
 const imgElAttrs = {};
@@ -123,8 +119,6 @@ imageEls.forEach(
 
 const imageRotateEls = document.querySelectorAll("img.rotate");
 
-
-
 /////////////////////////
 ///// style attr
 ///// key   : transform
@@ -141,5 +135,67 @@ imageRotateEls.forEach(
         };
         // set style attr
         setAttrByAttrs(image,stAttrs,true);
+    }
+);
+
+
+
+/////////////////////////
+///// image elements
+///// class : translate
+///// attr  : axis/disp
+/////////////////////////
+
+const imageTranslateEls = document.querySelectorAll("img.translate");
+
+/////////////////////////
+///// style attr
+///// max-width  : initial
+///// max-height : initial
+///// transform  : translate
+/////////////////////////
+
+imageTranslateEls.forEach(
+    image => {
+        // axis/disp of image
+        const axis = image.getAttribute("axis");
+        const disp = image.getAttribute("disp");
+        // stAttrs : style attr
+        const stAttrs = {
+            "max-width"  : "initial",
+            "max-height" : "initial",
+            "transform"  : `translate${axis}(${disp})`
+        };
+        // set style attr
+        setAttrByAttrs(image,stAttrs,true);
+    }
+);
+
+
+
+/////////////////////////
+///// link elements
+///// class : wrapper
+/////////////////////////
+
+const linkWrapperEls = document.querySelectorAll("a.wrapper");
+
+/////////////////////////
+///// style attr
+///// max-width  : 96px
+///// max-height : 96px
+///// overflow   : hidden
+/////////////////////////
+
+linkWrapperEls.forEach(
+    link => {
+        // stAttrs : style attr
+        const stAttrs = {
+            "max-width"  : "96px",
+            "max-height" : "96px",
+            "overflow"   : "hidden"
+        };
+        // set style attr
+        setAttrByAttrs(link,stAttrs,true);
     }
 );
