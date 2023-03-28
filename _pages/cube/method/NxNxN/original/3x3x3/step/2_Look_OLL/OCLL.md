@@ -17,7 +17,7 @@ ruwix: true
 ## S / Sune {#sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-S">
-  <img style="transform:rotate(180deg)" src="https://www.speedsolving.com/wiki/images/0/08/27correct.png">
+  <img class="rotate" deg=180 src="https://www.speedsolving.com/wiki/images/0/08/27correct.png">
 </a>
 
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
@@ -31,7 +31,7 @@ ruwix: true
 ## S- / Antisune {#antisune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-AS">
-  <img style="transform:rotate(180deg)" src="https://www.speedsolving.com/wiki/images/2/25/26.png">
+  <img class="rotate" deg=180 src="https://www.speedsolving.com/wiki/images/2/25/26.png">
 </a>
 
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
@@ -45,7 +45,7 @@ ruwix: true
 ## U / Headlights {#headlights}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-U">
-  <img style="transform:rotate(180deg)" src="https://www.speedsolving.com/wiki/images/7/7a/23.png">
+  <img class="rotate" deg=180 src="https://www.speedsolving.com/wiki/images/7/7a/23.png">
 </a>
 
 - ( R2 D ) ( R' U2 ) ( R D' ) ( R' U2 R' )
@@ -73,7 +73,7 @@ ruwix: true
 ## H / Double Sune {#double-sune}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-H">
-  <img style="transform:rotate(90deg)" src="https://www.speedsolving.com/wiki/images/7/71/21.png">
+  <img class="rotate" deg=90 src="https://www.speedsolving.com/wiki/images/7/71/21.png">
 </a>
 
 - ( F ) ( R U R' U' ) x 3 ( F' )
@@ -101,7 +101,7 @@ ruwix: true
 ## L / Bowtie {#bowtie}
 
 <a href="https://logiqx.github.io/cubing-algs/html/2loll.html#case-L">
-  <img style="transform:rotate(-90deg)" src="https://www.speedsolving.com/wiki/images/a/a9/25.png">
+  <img class="rotate" deg=270 src="https://www.speedsolving.com/wiki/images/a/a9/25.png">
 </a>
 
 - ( F' ) ( r U R' U' ) ( r' F R )

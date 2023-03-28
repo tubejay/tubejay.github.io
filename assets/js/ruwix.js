@@ -135,7 +135,7 @@ imageRotateEls.forEach(
     image => {
         // deg of image
         const deg     = image.getAttribute("deg");
-        // stAttrs   : style attr
+        // stAttrs : style attr
         const stAttrs = {
             "transform" : `rotate(${deg}deg)`
         };
