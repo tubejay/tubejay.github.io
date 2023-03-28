@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/belt/ofl/parity
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -23,8 +19,7 @@ hidden: false
 - ( R' D R D ) ( R' D' R D2 ) ( R' D R )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20D%20R%20D%20R'%20D'%20R%20D2'%20R'%20D%20R&colored=d%20F%20FL%20FR%20B%20BL%20BR%20L%20R&setupmoves=x2&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20D%20R%20D%20R'%20D'%20R%20D2'%20R'%20D%20R&colored=d%20F%20FL%20FR%20B%20BL%20BR%20L%20R&setupmoves=x2&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -34,6 +29,5 @@ hidden: false
 - ( F D' F' D' ) ( F D F' D2 ) ( F D' F' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F%20D'%20F'%20D'%20F%20D%20F'%20D2%20F%20D'%20F'&colored=d%20F%20FL%20FR%20B%20BL%20BR%20L%20R&setupmoves=x2&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F%20D'%20F'%20D'%20F%20D%20F'%20D2%20F%20D'%20F'&colored=d%20F%20FL%20FR%20B%20BL%20BR%20L%20R&setupmoves=x2&hover=9&speed=500&flags=canvas"
   ></iframe>

@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/beginner/fl
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -23,15 +19,13 @@ hidden: false
 - Right : R U R'
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : F' U' F
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U'%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -41,13 +35,11 @@ hidden: false
 - Right : ( R U' R' U ) ( F' U F )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20F'%20U%20F&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F' U F U' ) ( R U' R' )
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20R%20U'%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20R%20U'%20R'&colored=DF%20DR%20DFR&hover=9&speed=500&flags=canvas"
   ></iframe>

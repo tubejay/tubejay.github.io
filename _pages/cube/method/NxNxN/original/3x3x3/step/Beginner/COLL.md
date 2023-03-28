@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/beginner/coll
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_wo_ul.css"
-  >
 </head>
 
 
@@ -32,6 +28,5 @@ hidden: false
 ## Example
 
 <iframe
-  scrolling = "no"
-  src       = "https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
+  src = "https://ruwix.com/widget/3d/?alg=R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D%20U%20R'%20D'%20R%20D%20R'%20D'%20R%20D&hover=9&speed=500&flags=canvas"
 ></iframe>
