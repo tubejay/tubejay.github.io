@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/edges_first/eml
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -23,15 +19,13 @@ hidden: false
 - Right
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -41,13 +35,11 @@ hidden: false
 - Right
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
   ></iframe>

@@ -5,15 +5,11 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/f2l/uu
 published: true
 hidden: false
+ruwix: true
 ---
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/ruwix/iframe_w_ul.css"
-  >
 </head>
 
 
@@ -25,15 +21,13 @@ hidden: false
 - Right : ( R U R' ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F' U' F ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U'%20F%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 ### Case 2
@@ -41,15 +35,13 @@ hidden: false
 - Right : ( R U' R' ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F' U F ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 ### Case 3
@@ -57,15 +49,13 @@ hidden: false
 - Right : ( R U2 R' ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U%20%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U%20%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F' U2 F ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U2%20F%20U'%20%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U2%20F%20U'%20%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 
@@ -77,15 +67,13 @@ hidden: false
 - Right : ( R U' R' ) ( U2 ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U2'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F' U F ) ( U2 ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U2%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F%20U2%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 ### Case 5
@@ -93,15 +81,13 @@ hidden: false
 - Right : ( R U2 R' ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F' U2 F ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F'%20U2%20F%20U%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F'%20U2%20F%20U%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 ### Case 6
@@ -109,13 +95,11 @@ hidden: false
 - Right : ( R' F R F' ) ( U' ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'%20U'%20F'%20U'%20F&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
 
 - Left : ( F R' F' R ) ( U ) -> [( F2L / BASIC / case 1 )](/cube/method/NxNxN/original/3x3x3/f2l/basic#case-1)
 
   <iframe
-    scrolling = "no"
-    src       = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
+    src = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R%20U%20R%20U%20R'&colored=F%20FD%20R%20RD%20FR%20FRD&hover=9&speed=500&flags=canvas"
   ></iframe>
