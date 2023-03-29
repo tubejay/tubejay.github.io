@@ -16,9 +16,11 @@ const testLine = el => {
 
 const testEmptyLine = () => testLine("");
 const testKeyValue = (key,value) => {
+    // not object
     if (typeof value !== "object") {
         testLine(`${key} : ${value}`);
     } else {
+    // object
         testLine(`${key}`);
         Object.entries(value).forEach(
             entry => {
@@ -34,12 +36,12 @@ const testAttrs = el => {
     testEmptyLine();
     testLine("=".repeat(20));
     // string
-    if (el instanceof String) {
+    if (typeof el === String) {
         testLine(el);
     // nodelist
     } else if (el instanceof NodeList) {
         el.forEach(
-            x => testLine(x)
+            x => testLine(x.nodeName)
         );
     } else {
         // entries
