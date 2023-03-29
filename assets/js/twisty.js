@@ -15,22 +15,29 @@ const testLine = el => {
 };
 
 const testEmptyLine = () => testLine("");
-const testKeyValue = (key,value) => testLine(`${key} : ${value}`);
-const testName = el => testLine( Object.keys({el})[0] );
+const testKeyValue = (key,value) => {
+    if (typeof value !== "object") {
+        testLine(`${key} : ${value}`);
+    } else {
+        testLine(`${key}`);
+        Object.entries(value).forEach(
+            entry => {
+                const [subkey,subvalue] = entry;
+                testLine(`- ${subkey} : ${subvalue}`);
+            }
+        );
+    };
+}
 
 const testAttrs = el => {
     // start
     testEmptyLine();
     testLine("=".repeat(20));
-    // name
+    // string
     if (typeof el === "string") {
         testLine(el);
-    } else {
-        testName(el);
-    };
-    testLine("-".repeat(20));
     // not string
-    if (!(typeof el === "string")) {
+    } else {
         // entries
         Object.entries(el).forEach(
             entry => {
@@ -266,3 +273,6 @@ playerEls.forEach(
         pzElAttrs
     )
 );
+
+
+testAttrs("test ends");
