@@ -221,6 +221,7 @@ testAppend("line 222");
 ///// set puzzle attr
 /////////////////////////
 
+/*
 // set attr for every player
 playerEls.forEach(
     player => setStElAttrs(
@@ -229,3 +230,4 @@ playerEls.forEach(
         pzElAttrs
     )
 );
+*/
