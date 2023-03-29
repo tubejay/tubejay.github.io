@@ -4,6 +4,8 @@
 ///// id : test
 /////////////////////////
 
+try{
+
 const testEl = document.querySelector("#test");
 
 const testLine = el => {
@@ -42,7 +44,7 @@ if (testEl) {
 
 
 
-try{
+
 
 /////////////////////////
 ///// function
@@ -261,5 +263,5 @@ playerEls.forEach(
 );
 
 } catch (error) {
-    testAttrs(error)
+    document.write(error)
 }
