@@ -50,8 +50,7 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 ///// iframe elements
 /////////////////////////
 
-let   queryTag  = "iframe";
-const iframeEls = document.querySelectorAll(queryTag);
+const iframeEls = document.querySelectorAll("iframe");
 
 /////////////////////////
 ///// common attr for every iframe
@@ -88,8 +87,7 @@ iframeEls.forEach(
 ///// image elements
 /////////////////////////
 
-let   queryTag = "img";
-const imageEls = document.querySelectorAll(queryTag);
+const imageEls = document.querySelectorAll("img");
 
 /////////////////////////
 ///// common attr for every image
@@ -117,8 +115,7 @@ imageEls.forEach(
 ///// attr  : deg
 /////////////////////////
 
-let   queryTagClass  = "img.rotate";
-const imageRotateEls = document.querySelectorAll(queryTagClass);
+const imageRotateEls = document.querySelectorAll("img.rotate");
 
 /////////////////////////
 ///// style attr
@@ -129,8 +126,7 @@ const imageRotateEls = document.querySelectorAll(queryTagClass);
 imageRotateEls.forEach(
     image => {
         // deg of image
-        let   attrName = "deg";
-        const deg      = image.getAttribute(attrName);
+        const deg     = image.getAttribute("deg");
         // stAttrs : style attr
         const stAttrs = {
             "transform" : `rotate(${deg}deg)`
@@ -152,8 +148,7 @@ imageRotateEls.forEach(
 ///// attr  : axis/disp
 /////////////////////////
 
-let   queryTagClass     = "img.translate";
-const imageTranslateEls = document.querySelectorAll(queryTagClass);
+const imageTranslateEls = document.querySelectorAll("img.translate");
 
 /////////////////////////
 ///// style attr
@@ -165,11 +160,9 @@ const imageTranslateEls = document.querySelectorAll(queryTagClass);
 imageTranslateEls.forEach(
     image => {
         // axis of image
-        let   attrName = "axis";
-        const axis     = image.getAttribute(attrName);
+        const axis    = image.getAttribute("axis");
         // disp of image
-        let   attrName = "disp";
-        const disp     = image.getAttribute(attrName);
+        const disp    = image.getAttribute("disp");
         // stAttrs : style attr
         const stAttrs = {
             "max-width"  : "initial",
@@ -192,8 +185,7 @@ imageTranslateEls.forEach(
 ///// class : wrapper
 /////////////////////////
 
-let   queryTagClass = "div.wrapper";
-const divWrapperEls = document.querySelectorAll(queryTagClass);
+const divWrapperEls = document.querySelectorAll("div.wrapper");
 
 /////////////////////////
 ///// style attr
