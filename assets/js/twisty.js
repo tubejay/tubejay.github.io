@@ -10,9 +10,9 @@ const testAppend = el => {
     // append
     testEl.append(el);
     // create
-    const br = document.createElement("br");
+    // const br = document.createElement("br");
     // append
-    testEl.appendChild(br);
+    // testEl.appendChild(br);
 };
 if (testEl) {
     testAppend("test starts");
