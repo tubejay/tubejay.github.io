@@ -7,10 +7,10 @@ const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
     // attrEntry : [key,value]
     const [key,value] = attrEntry;
     // set attr by key,value
-    if (isStyle===true) {
+    if (isStyle) {
         // style attr
         el.style[key] = value;
-    } else if (isStyle===false) {
+    } else {
         // element attr
         el.setAttribute(key,value);
     }

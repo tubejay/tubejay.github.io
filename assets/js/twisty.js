@@ -35,7 +35,10 @@ const testEntry = entry => {
     // value : object
     } else {
         testLine(key);
-        Object.entries(value).forEach(testSubEntryText).forEach(testLine);
+        const valueEntries = Object.entries(value);
+        valueEntries.forEach(
+            valueEntry => testLine( testSubEntryText(valueEntry) )
+        );
     }
 };
 
