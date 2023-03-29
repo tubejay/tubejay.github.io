@@ -140,10 +140,9 @@ const infoPzStAttrs = {
 const cubeStAttrs = infoPzStAttrs[cubePz];
 
 // cubeElAttrs : element attr 
-const infoPzElAttrs = {
-};
-const cubeElAttrs = getAttrOrEmpty(infoPzElAttrs,cubePz);
-cubeElAttrs.puzzle = cubePz;
+const infoPzElAttrs = {};
+const cubeElAttrs   = getAttrOrEmpty(infoPzElAttrs,cubePz);
+cubeElAttrs.puzzle  = cubePz;
 
 // set attr for every player
 playerEls.forEach(

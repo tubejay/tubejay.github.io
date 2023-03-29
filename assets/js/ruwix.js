@@ -132,7 +132,11 @@ imageRotateEls.forEach(
             "transform" : `rotate(${deg}deg)`
         };
         // set style attr
-        setAttrByAttrs(image,stAttrs,true);
+        setAttrByAttrs(
+            image   ,
+            stAttrs ,
+            true
+        );
     }
 );
 
@@ -165,7 +169,11 @@ imageTranslateEls.forEach(
             "transform"  : `translate${axis}(${disp})`
         };
         // set style attr
-        setAttrByAttrs(image,stAttrs,true);
+        setAttrByAttrs(
+            image   ,
+            stAttrs ,
+            true
+        );
     }
 );
 
@@ -197,6 +205,10 @@ divWrapperEls.forEach(
             "overflow"        : "hidden"
         };
         // set style attr
-        setAttrByAttrs(wrapper,stAttrs,true);
+        setAttrByAttrs(
+            wrapper,
+            stAttrs,
+            true
+        );
     }
 );
