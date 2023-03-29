@@ -6,7 +6,7 @@ permalink: /cube/method/NxNxN/original/2x2x2/ortega/pbl
 published: true
 hidden: false
 twisty: true
-puzzle: "2x2x2"
+puzzle: "NxNxN / 2x2x2"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
 
