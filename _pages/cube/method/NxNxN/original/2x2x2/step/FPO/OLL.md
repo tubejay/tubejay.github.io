@@ -41,3 +41,4 @@ puzzle: "NxNxN / 2x2x2"
 ## Reference
 
 - [3x3x3 / Beginner / COLL](/cube/method/NxNxN/original/3x3x3/beginner/coll)
+

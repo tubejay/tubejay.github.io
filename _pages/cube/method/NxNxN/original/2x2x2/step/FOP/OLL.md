@@ -133,3 +133,4 @@ puzzle: "NxNxN / 2x2x2"
   - [OLL](https://jperm.net/algs/2x2oll)
 - vincent
   - [OLL](https://m.blog.naver.com/vincentcube/60134585079)
+

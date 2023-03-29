@@ -52,3 +52,4 @@ puzzle: "NxNxN / 2x2x2"
 ## Reference
 
 - [3x3x3 / Beginner / CPLL](/cube/method/NxNxN/original/3x3x3/beginner/cpll)
+

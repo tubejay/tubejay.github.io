@@ -53,3 +53,4 @@ puzzle: "NxNxN / 2x2x2"
   - [PLL](https://www.speedsolving.com/wiki/index.php/PLL_(2x2x2))
 - vincent
   - [PLL](https://m.blog.naver.com/vincentcube/60134585117)
+
