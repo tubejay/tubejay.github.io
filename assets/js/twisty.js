@@ -52,6 +52,8 @@ const testNodeList = els => els.forEach(
 );
 
 const testAttrs = el => {
+    // testEl exception
+    if (!testEl) {return null}
     // start
     testBrLine();
     testHrLine();
@@ -69,9 +71,7 @@ const testAttrs = el => {
     testHrLine();
 };
 
-if (testEl) {
-    testAttrs("test starts");
-};
+testAttrs("test starts");
 
 
 
