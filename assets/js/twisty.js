@@ -36,7 +36,7 @@ const testAttrs = el => {
     testEmptyLine();
     testLine("=".repeat(20));
     // string
-    if (typeof el === String) {
+    if (typeof el === "string") {
         testLine(el);
     // nodelist
     } else if (el instanceof NodeList) {
@@ -230,7 +230,6 @@ const infoByPz = {
         "t v 0 v 1 v 2",30,0
     )
 };
-testAttrs(infoByPz);
 
 
 
@@ -260,10 +259,8 @@ testAttrs(pzInfo);
 
 // style attr
 const pzStAttrs = pzInfo["style"];
-testAttrs(Object.entries(pzStAttrs));
 // element attr
 const pzElAttrs = pzInfo["element"];
-testAttrs(Object.entries(pzElAttrs));
 
 
 
@@ -279,6 +276,4 @@ playerEls.forEach(
         pzElAttrs
     )
 );
-
-
 testAttrs("test ends");
