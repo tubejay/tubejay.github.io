@@ -3,7 +3,7 @@
 /////////////////////////
 ///// id : test
 /////////////////////////
-
+try{
 const testEl = document.querySelector("#test");
 
 const testAppend = el => {
@@ -231,3 +231,6 @@ playerEls.forEach(
     )
 );
 */
+} catch (error) {
+    document.write(error)
+}
