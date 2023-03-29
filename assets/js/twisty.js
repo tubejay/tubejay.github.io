@@ -1,18 +1,27 @@
 /////////////////////////
 ///// test
 /////////////////////////
+///// id : test
+/////////////////////////
 
-const testEl = document.querySelector("#test");
+let   queryId = "#test";
+const testEl  = document.querySelector(queryId);
 
 const testAppend = el => {
+    // append
     testEl.append(el);
-    const br = document.createElement("br");
+    // create
+    let   elTag = "br";
+    const br    = document.createElement(elTag);
+    // append
     testEl.appendChild(br);
 };
 if (testEl) {
     testAppend("first");
     testAppend("second");
 };
+
+
 
 
 
@@ -62,16 +71,18 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
     );
 };
 
-// get attr or empty
-const getAttrOrEmpty = (obj,key) => obj.hasOwnProperty(key) ? obj[key] : {};
+
 
 
 
 /////////////////////////
 ///// player elements
 /////////////////////////
+///// tag : twisty-player
+/////////////////////////
 
-const playerEls = document.querySelectorAll("twisty-player");
+let   queryTag  = "twisty-player";
+const playerEls = document.querySelectorAll(queryTag);
 
 
 
@@ -81,17 +92,18 @@ const playerEls = document.querySelectorAll("twisty-player");
 
 // comStAttrs : style attr
 const comStAttrs = {
-    "background-color" : "#1a1a1a",
-    "margin-top"       : "5px",
-    "margin-bottom"    : "25px",
-    "border-style"     : "none",
-    "border-color"     : "transparent",
+    "background-color" : "#1a1a1a"     ,
+    "margin-top"       : "5px"         ,
+    "margin-bottom"    : "25px"        ,
+    "border-style"     : "none"        ,
+    "border-color"     : "transparent" ,
     "border-width"     : "0px"
 };
 // comElAttrs : element attr
 const comElAttrs = {
-    "background"       : "none",
-    "tempo-scale"      : "1.3",
+    "dark-mode"        : "dark" ,
+    "background"       : "none" ,
+    "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
 
@@ -106,49 +118,120 @@ playerEls.forEach(
 
 
 
+
+
 /////////////////////////
-///// specific attr for cube
+///// function to create info
+/////////////////////////
+///// style / short / long
 /////////////////////////
 
-// cubePz : puzzle for cube
-const cubeEl = document.querySelector("#cube");
-const cubePz = cubeEl.getAttribute("puzzle");
+// style attr
+const createStyleAttrs = (width,height) => ({
+    "width"  : `${width}px`  ,
+    "height" : `${height}px`
+});
+// short attr
+const createShortAttrs = (puzzle) => ({
+    "puzzle" : puzzle
+});
+// long attr
+const createLongAttrs = (pzdesc,latitude,longitude) => ({
+    "experimental-puzzle-description" : pzdesc ,
+    "viewer-link"      : "experimental-twizzle-explorer" ,
+    "camera-latitude"  : latitude  ,
+    "camera-longitude" : longitude ,
+});
 
-// cubeStAttrs : style attr
-const infoPzStAttrs = {
-    "2x2x2" : {
-        width  : "200px",
-        height : "180px"
-    },
-    "4x4x4" : {
-        width  : "260px",
-        height : "250px"
-    },
-    "5x5x5" : {
-        width  : "300px",
-        height : "300px"
-    },
-    "6x6x6" : {
-        width  : "340px",
-        height : "350px"
-    },
-    "7x7x7" : {
-        width  : "380px",
-        height : "400px"
-    },
+// style + short
+const createStyleShortAttrs = (width,height,puzzle) => ({
+    style   = createStyleAttrs(width,height),
+    element = createShortAttrs(puzzle)
+});
+// style + long
+const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) => ({
+    style   = createStyleAttrs(width,height),
+    element = createLongAttrs(pzdesc,latitude,longitude)
+});
+
+
+
+/////////////////////////
+///// info by puzzle
+/////////////////////////
+///// style + short
+///// style + long
+/////////////////////////
+
+const infoByPz = {
+    "NxNxN / 2x2x2" : createStyleShortAttrs(
+        200,180,
+        "2x2x2"
+    ),
+    "NxNxN / 4x4x4" : createStyleShortAttrs(
+        260,250,
+        "4x4x4"
+    ),
+    "NxNxN / 5x5x5" : createStyleShortAttrs(
+        300,300,
+        "5x5x5"
+    ),
+    "NxNxN / 6x6x6" : createStyleShortAttrs(
+        340,350,
+        "6x6x6"
+    ),
+    "NxNxN / 7x7x7" : createStyleShortAttrs(
+        380,400,
+        "7x7x7"
+    ),
+    "tetra / face / 4x4" : createStyleLongAttrs(
+        300,250,
+        "t v 0 v 1 v 2",30,0
+    )
 };
-const cubeStAttrs = infoPzStAttrs[cubePz];
 
-// cubeElAttrs : element attr 
-const infoPzElAttrs = {};
-const cubeElAttrs   = getAttrOrEmpty(infoPzElAttrs,cubePz);
-cubeElAttrs.puzzle  = cubePz;
+
+
+/////////////////////////
+///// puzzle name
+/////////////////////////
+///// id   : cube
+///// attr : puzzle
+/////////////////////////
+
+let   queryId  = "#cube"
+const cubeEl   = document.querySelector(queryId);
+let   attrName = "puzzle";
+const cubePz   = cubeEl.getAttribute(attrName);
+
+
+
+/////////////////////////
+///// get puzzle info
+/////////////////////////
+///// style attr
+///// element attr
+/////////////////////////
+
+// puzzle info
+const pzInfo = infoByPz[cubePz];
+
+// style attr
+const pzStAttrs = pzInfo["style"];
+// element attr
+const pzElAttrs = pzInfo["element"];
+
+
+
+/////////////////////////
+///// set puzzle attr
+/////////////////////////
 
 // set attr for every player
 playerEls.forEach(
     player => setStElAttrs(
-        player      ,
-        cubeStAttrs ,
-        cubeElAttrs
+        player    ,
+        pzStAttrs ,
+        pzElAttrs
     )
 );
