@@ -34,9 +34,13 @@ const testAttrs = el => {
     testEmptyLine();
     testLine("=".repeat(20));
     // string
-    if (typeof el === "string") {
+    if (el instanceof String) {
         testLine(el);
-    // not string
+    // nodelist
+    } else if (el instanceof NodeList) {
+        el.forEach(
+            x => testLine(x)
+        );
     } else {
         // entries
         Object.entries(el).forEach(
@@ -45,9 +49,9 @@ const testAttrs = el => {
                 testKeyValue(key,value);
             }
         );
-        // end
-        testLine("=".repeat(20));
     };
+    // end
+    testLine("=".repeat(20));
 };
 
 if (testEl) {
