@@ -4,8 +4,7 @@
 ///// id : test
 /////////////////////////
 
-let   queryId = "#test";
-const testEl  = document.querySelector(queryId);
+const testEl  = document.querySelector("#test");
 
 const testAppend = el => {
     // append
@@ -17,8 +16,7 @@ const testAppend = el => {
     testEl.appendChild(br);
 };
 if (testEl) {
-    testAppend("first");
-    testAppend("second");
+    testAppend("test exists");
 };
 
 
@@ -84,7 +82,7 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 let   queryTag  = "twisty-player";
 const playerEls = document.querySelectorAll(queryTag);
 
-
+testAppend("line 85");
 
 /////////////////////////
 ///// common attr for every player
@@ -116,7 +114,7 @@ playerEls.forEach(
     )
 );
 
-
+testAppend("line 117");
 
 
 
@@ -154,7 +152,7 @@ const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) => ({
     element = createLongAttrs(pzdesc,latitude,longitude)
 });
 
-
+testAppend("line 155");
 
 /////////////////////////
 ///// info by puzzle
@@ -190,7 +188,7 @@ const infoByPz = {
     )
 };
 
-
+testAppend("line 191");
 
 /////////////////////////
 ///// puzzle name
@@ -204,7 +202,7 @@ const cubeEl   = document.querySelector(queryId);
 let   attrName = "puzzle";
 const cubePz   = cubeEl.getAttribute(attrName);
 
-
+testAppend("line 205");
 
 /////////////////////////
 ///// get puzzle info
@@ -221,7 +219,7 @@ const pzStAttrs = pzInfo["style"];
 // element attr
 const pzElAttrs = pzInfo["element"];
 
-
+testAppend("line 222");
 
 /////////////////////////
 ///// set puzzle attr
