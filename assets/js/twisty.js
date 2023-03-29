@@ -4,8 +4,10 @@
 ///// id : test
 /////////////////////////
 
+// test element
 const testEl = document.querySelector("#test");
 
+// append line
 const testLine = el => {
     // new line
     const br = document.createElement("br");
@@ -13,47 +15,56 @@ const testLine = el => {
     // append
     testEl.append(el);
 };
+const testHrLine = n => testLine("=".repeat(n));
+const testBrLine = () => testHrLine(0);
 
-const testEmptyLine = () => testLine("");
-const testKeyValue = (key,value) => {
-    // not object
+// append entry
+const testEntryText = entry => {
+    const [key,value] = entry;
+    return `${key} : ${value}`;
+};
+const testEntry = entry => {
+    const [key,value] = entry;
+    // value : not object
     if (typeof value !== "object") {
-        testLine(`${key} : ${value}`);
+        testLine( testEntryText(entry) );
+    // value : object
     } else {
-    // object
-        testLine(`${key}`);
+        testLine(key);
         Object.entries(value).forEach(
-            entry => {
-                const [subkey,subvalue] = entry;
-                testLine(`- ${subkey} : ${subvalue}`);
-            }
-        );
-    };
-}
+            entry => `- ${testEntryText(entry)}`
+        ).forEach(testLine);
+    }
+};
+
+const testNodeList = els => els.forEach(
+    el => {
+        const nodeObject = {};
+        nodeObject[el.nodeName] = {
+            "nodeType"  : el.nodeType  ,
+            "nodeValue" : el.nodeValue
+        };
+        testEntry( Object.entries(nodeObject) );
+    }
+);
+const testObject = el => Object.entries(el).forEach(testEntry);
 
 const testAttrs = el => {
     // start
-    testEmptyLine();
-    testLine("=".repeat(20));
+    testBrLine();
+    testHrLine();
     // string
     if (typeof el === "string") {
         testLine(el);
     // nodelist
     } else if (el instanceof NodeList) {
-        el.forEach(
-            x => testLine(x.nodeName)
-        );
-    } else {
-        // entries
-        Object.entries(el).forEach(
-            entry => {
-                const [key,value] = entry;
-                testKeyValue(key,value);
-            }
-        );
+        testNodeList(el);
+    // object
+    } else if (typeof el === "object") {
+        testObject(el);
     };
     // end
-    testLine("=".repeat(20));
+    testHrLine();
 };
 
 if (testEl) {
@@ -138,7 +149,6 @@ const comStAttrs = {
     "border-color"     : "transparent" ,
     "border-width"     : "0px"
 };
-testAttrs(comStAttrs);
 // comElAttrs : element attr
 const comElAttrs = {
     "dark-mode"        : "dark" ,
@@ -146,7 +156,10 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
-testAttrs(comElAttrs);
+testAttrs({
+    style   : comStAttrs ,
+    element : comElAttrs
+});
 
 // set attr for every player
 playerEls.forEach(
