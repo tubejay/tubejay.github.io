@@ -42,7 +42,7 @@ if (testEl) {
 
 
 
-
+try{
 
 /////////////////////////
 ///// function
@@ -259,3 +259,7 @@ playerEls.forEach(
         pzElAttrs
     )
 );
+
+} catch (error) {
+    testAttrs(error)
+}
