@@ -10,21 +10,11 @@ puzzle: "tetra / face / 4x4"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
 <div id="test">empty</div>
-<!--
+
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Tetrahedron/4x4_Master_Pyraminx.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
--->
+
 
 
 ## Corner

@@ -6,15 +6,38 @@
 
 const testEl = document.querySelector("#test");
 
-const testAppend = el => {
+const testLine = el => {
     // new line
     const br = document.createElement("br");
     testEl.appendChild(br);
-    // append el
+    // append
     testEl.append(el);
 };
+
+const testEmptyLine = () => testLine("")
+const testKeyValue = (key,value) => testLine(`${key} : ${value}`)
+const testName = el => testLine( Object.keys(el)[0] )
+
+const testAttrs = el => {
+    // start
+    testEmptyLine();
+    testLine("=".repeat(20));
+    // name
+    testName(el);
+    testLine("-".repeat(20));
+    // entries
+    Object.entries(el).forEach(
+        entry => {
+            const key,value = entry;
+            testKeyValue(key,value);
+        }
+    );
+    // end
+    testLine("=".repeat(20));
+};
+
 if (testEl) {
-    testAppend("test starts");
+    testAttrs("test starts");
 };
 
 
@@ -78,6 +101,7 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 /////////////////////////
 
 const playerEls = document.querySelectorAll("twisty-player");
+testAttrs(playerEls);
 
 
 
@@ -94,6 +118,7 @@ const comStAttrs = {
     "border-color"     : "transparent" ,
     "border-width"     : "0px"
 };
+testAttrs(comStAttrs);
 // comElAttrs : element attr
 const comElAttrs = {
     "dark-mode"        : "dark" ,
@@ -101,6 +126,7 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
+testAttrs(comElAttrs);
 
 // set attr for every player
 playerEls.forEach(
@@ -184,6 +210,7 @@ const infoByPz = {
         "t v 0 v 1 v 2",30,0
     )
 };
+testAttrs(infoByPz);
 
 
 
@@ -196,6 +223,7 @@ const infoByPz = {
 
 const cubeEl = document.querySelector("#cube");
 const cubePz = cubeEl.getAttribute("puzzle");
+testAttrs(cubePz);
 
 
 
@@ -208,20 +236,20 @@ const cubePz = cubeEl.getAttribute("puzzle");
 
 // puzzle info
 const pzInfo = infoByPz[cubePz];
+testAttrs(pzInfo);
 
 // style attr
 const pzStAttrs = pzInfo["style"];
+testAttrs(Object.entries(pzStAttrs));
 // element attr
 const pzElAttrs = pzInfo["element"];
+testAttrs(Object.entries(pzElAttrs));
 
 
 
 /////////////////////////
 ///// set puzzle attr
 /////////////////////////
-
-testAppend(Object.entries(pzStAttrs));
-testAppend(Object.entries(pzElAttrs));
 
 // set attr for every player
 playerEls.forEach(
