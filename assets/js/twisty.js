@@ -15,7 +15,7 @@ const testLine = el => {
     // append
     testEl.append(el);
 };
-const testHrLine = n => testLine("=".repeat(n));
+const testHrLine = (n=20) => testLine("=".repeat(n));
 const testBrLine = () => testHrLine(0);
 
 // append entry
@@ -37,6 +37,7 @@ const testEntry = entry => {
     }
 };
 
+const testObject = el => Object.entries(el).forEach(testEntry);
 const testNodeList = els => els.forEach(
     el => {
         const nodeObject = {};
@@ -44,10 +45,9 @@ const testNodeList = els => els.forEach(
             "nodeType"  : el.nodeType  ,
             "nodeValue" : el.nodeValue
         };
-        testEntry( Object.entries(nodeObject) );
+        testObject(nodeObject);
     }
 );
-const testObject = el => Object.entries(el).forEach(testEntry);
 
 const testAttrs = el => {
     // start
