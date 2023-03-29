@@ -4,19 +4,18 @@
 ///// id : test
 /////////////////////////
 
-const testEl  = document.querySelector("#test");
+const testEl = document.querySelector("#test");
 
 const testAppend = el => {
     // append
     testEl.append(el);
     // create
-    let   elTag = "br";
-    const br    = document.createElement(elTag);
+    const br = document.createElement("br");
     // append
     testEl.appendChild(br);
 };
 if (testEl) {
-    testAppend("test exists");
+    testAppend("test starts");
 };
 
 
@@ -79,8 +78,7 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 ///// tag : twisty-player
 /////////////////////////
 
-let   queryTag  = "twisty-player";
-const playerEls = document.querySelectorAll(queryTag);
+const playerEls = document.querySelectorAll("twisty-player");
 
 testAppend("line 85");
 
@@ -197,10 +195,8 @@ testAppend("line 191");
 ///// attr : puzzle
 /////////////////////////
 
-let   queryId  = "#cube"
-const cubeEl   = document.querySelector(queryId);
-let   attrName = "puzzle";
-const cubePz   = cubeEl.getAttribute(attrName);
+const cubeEl = document.querySelector("#cube");
+const cubePz = cubeEl.getAttribute("puzzle");
 
 testAppend("line 205");
 
