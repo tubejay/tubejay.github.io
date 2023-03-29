@@ -15,7 +15,7 @@ const testLine = el => {
     // append
     testEl.append(el);
 };
-const testHrLine = (n=20) => testLine("=".repeat(n));
+const testHrLine = (n=25) => testLine("=".repeat(n));
 const testBrLine = () => testHrLine(0);
 
 // append entry
