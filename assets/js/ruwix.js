@@ -50,7 +50,8 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 ///// iframe elements
 /////////////////////////
 
-const iframeEls = document.querySelectorAll("iframe");
+let   queryTag  = "iframe";
+const iframeEls = document.querySelectorAll(queryTag);
 
 /////////////////////////
 ///// common attr for every iframe
@@ -58,14 +59,14 @@ const iframeEls = document.querySelectorAll("iframe");
 
 // comStAttrs : style attr
 const comStAttrs = {
-    width              : "250px",
-    height             : "300px",
-    "background-color" : "#1a1a1a",
-    "border-style"     : "none",
-    "border-color"     : "transparent",
-    "border-width"     : "0px",
-    "margin-top"       : "5px",
-    "margin-bottom"    : "5px",
+    width              : "250px"       ,
+    height             : "300px"       ,
+    "background-color" : "#1a1a1a"     ,
+    "border-style"     : "none"        ,
+    "border-color"     : "transparent" ,
+    "border-width"     : "0px"         ,
+    "margin-top"       : "5px"         ,
+    "margin-bottom"    : "5px"
 };
 // comElAttrs : element attr
 const comElAttrs = {
@@ -87,7 +88,8 @@ iframeEls.forEach(
 ///// image elements
 /////////////////////////
 
-const imageEls = document.querySelectorAll("img");
+let   queryTag = "img";
+const imageEls = document.querySelectorAll(queryTag);
 
 /////////////////////////
 ///// common attr for every image
@@ -95,7 +97,7 @@ const imageEls = document.querySelectorAll("img");
 
 // imgStAttrs : style attr
 const imgStAttrs = {
-    "max-width"  : "96px"
+    "max-width" : "96px"
 };
 
 // set attr for every image
@@ -115,7 +117,8 @@ imageEls.forEach(
 ///// attr  : deg
 /////////////////////////
 
-const imageRotateEls = document.querySelectorAll("img.rotate");
+let   queryTagClass  = "img.rotate";
+const imageRotateEls = document.querySelectorAll(queryTagClass);
 
 /////////////////////////
 ///// style attr
@@ -126,7 +129,8 @@ const imageRotateEls = document.querySelectorAll("img.rotate");
 imageRotateEls.forEach(
     image => {
         // deg of image
-        const deg     = image.getAttribute("deg");
+        let   attrName = "deg";
+        const deg      = image.getAttribute(attrName);
         // stAttrs : style attr
         const stAttrs = {
             "transform" : `rotate(${deg}deg)`
@@ -148,7 +152,8 @@ imageRotateEls.forEach(
 ///// attr  : axis/disp
 /////////////////////////
 
-const imageTranslateEls = document.querySelectorAll("img.translate");
+let   queryTagClass     = "img.translate";
+const imageTranslateEls = document.querySelectorAll(queryTagClass);
 
 /////////////////////////
 ///// style attr
@@ -159,9 +164,12 @@ const imageTranslateEls = document.querySelectorAll("img.translate");
 
 imageTranslateEls.forEach(
     image => {
-        // axis/disp of image
-        const axis = image.getAttribute("axis");
-        const disp = image.getAttribute("disp");
+        // axis of image
+        let   attrName = "axis";
+        const axis     = image.getAttribute(attrName);
+        // disp of image
+        let   attrName = "disp";
+        const disp     = image.getAttribute(attrName);
         // stAttrs : style attr
         const stAttrs = {
             "max-width"  : "initial",
@@ -184,7 +192,8 @@ imageTranslateEls.forEach(
 ///// class : wrapper
 /////////////////////////
 
-const divWrapperEls = document.querySelectorAll("div.wrapper");
+let   queryTagClass = "div.wrapper";
+const divWrapperEls = document.querySelectorAll(queryTagClass);
 
 /////////////////////////
 ///// style attr
@@ -199,10 +208,10 @@ divWrapperEls.forEach(
         // stAttrs : style attr
         const stAttrs = {
             // https://www.w3schools.com/css/css_inline-block.asp
-            "display"         : "inline-block",
-            "max-width"       : "96px",
-            "max-height"      : "96px",
-            "overflow"        : "hidden"
+            "display"    : "inline-block" ,
+            "max-width"  : "96px"         ,
+            "max-height" : "96px"         ,
+            "overflow"   : "hidden"
         };
         // set style attr
         setAttrByAttrs(
