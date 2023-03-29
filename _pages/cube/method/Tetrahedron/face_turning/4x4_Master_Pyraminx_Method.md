@@ -9,7 +9,7 @@ twisty: true
 puzzle: "tetra / face / 4x4"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
-<div id="test">empty</div>
+<div id="test">test position</div>
 
 <head>
   <base target="_blank">

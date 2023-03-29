@@ -44,11 +44,13 @@ const testEntry = entry => {
 
 const testObject = el => Object.entries(el).forEach(testEntry);
 const testNodeList = els => els.forEach(
-    el => testObject(
-        {
-            "nodeName" : el.nodeName
-        }
-    )
+    el => {
+        const elObj = {};
+        const elName = el.nodeName;
+        const elText = el.textContent;
+        elObj[elName] = {"elText":elText};
+        testObject(elObj);
+    }
 );
 
 const testAttrs = el => {
