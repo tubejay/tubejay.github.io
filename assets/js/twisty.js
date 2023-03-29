@@ -4,8 +4,6 @@
 ///// id : test
 /////////////////////////
 
-try{
-
 const testEl = document.querySelector("#test");
 
 const testLine = el => {
@@ -18,24 +16,31 @@ const testLine = el => {
 
 const testEmptyLine = () => testLine("");
 const testKeyValue = (key,value) => testLine(`${key} : ${value}`);
-const testName = el => testLine( Object.keys(el)[0] );
+const testName = el => testLine( Object.keys({el})[0] );
 
 const testAttrs = el => {
     // start
     testEmptyLine();
     testLine("=".repeat(20));
     // name
-    testName(el);
+    if (typeof el === "string") {
+        testLine(el);
+    } else {
+        testName(el);
+    };
     testLine("-".repeat(20));
-    // entries
-    Object.entries(el).forEach(
-        entry => {
-            const [key,value] = entry;
-            testKeyValue(key,value);
-        }
-    );
-    // end
-    testLine("=".repeat(20));
+    // not string
+    if (!(typeof el === "string")) {
+        // entries
+        Object.entries(el).forEach(
+            entry => {
+                const [key,value] = entry;
+                testKeyValue(key,value);
+            }
+        );
+        // end
+        testLine("=".repeat(20));
+    };
 };
 
 if (testEl) {
@@ -261,7 +266,3 @@ playerEls.forEach(
         pzElAttrs
     )
 );
-
-} catch (error) {
-    document.write(error)
-}
