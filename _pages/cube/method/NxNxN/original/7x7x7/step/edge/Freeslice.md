@@ -6,7 +6,7 @@ permalink: /cube/method/NxNxN/original/7x7x7/edge/freeslice
 published: true
 hidden: false
 twisty: true
-puzzle: "7x7x7"
+puzzle: "NxNxN / 7x7x7"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
 

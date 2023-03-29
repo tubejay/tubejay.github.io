@@ -6,7 +6,7 @@ permalink: /cube/method/NxNxN/original/4x4x4/center/commutator
 published: true
 hidden: false
 twisty: true
-puzzle: "4x4x4"
+puzzle: "NxNxN / 4x4x4"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
 

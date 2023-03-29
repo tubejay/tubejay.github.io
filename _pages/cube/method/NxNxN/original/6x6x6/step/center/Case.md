@@ -6,7 +6,7 @@ permalink: /cube/method/NxNxN/original/6x6x6/center/case
 published: true
 hidden: false
 twisty: true
-puzzle: "6x6x6"
+puzzle: "NxNxN / 6x6x6"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
 
