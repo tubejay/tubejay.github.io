@@ -23,6 +23,10 @@ const testEntryText = entry => {
     const [key,value] = entry;
     return `${key} : ${value}`;
 };
+const testSubEntryText = entry => {
+    const entryText = testEntryText(entry);
+    return `- ${entryText}`;
+};
 const testEntry = entry => {
     const [key,value] = entry;
     // value : not object
@@ -31,22 +35,17 @@ const testEntry = entry => {
     // value : object
     } else {
         testLine(key);
-        Object.entries(value).forEach(
-            entry => `- ${testEntryText(entry)}`
-        ).forEach(testLine);
+        Object.entries(value).forEach(testSubEntryText).forEach(testLine);
     }
 };
 
 const testObject = el => Object.entries(el).forEach(testEntry);
 const testNodeList = els => els.forEach(
-    el => {
-        const nodeObject = {};
-        nodeObject[el.nodeName] = {
-            "nodeType"  : el.nodeType  ,
-            "nodeValue" : el.nodeValue
-        };
-        testObject(nodeObject);
-    }
+    el => testObject(
+        {
+            "nodeName" : el.nodeName
+        }
+    )
 );
 
 const testAttrs = el => {
