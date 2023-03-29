@@ -73,7 +73,7 @@ if (testEl) {
     testAttrs("test starts");
 };
 
-try {
+
 
 
 
@@ -292,7 +292,3 @@ playerEls.forEach(
     )
 );
 testAttrs("test ends");
-
-} catch (error) {
-    testLine(error)
-}
