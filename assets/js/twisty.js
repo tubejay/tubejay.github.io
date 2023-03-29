@@ -14,9 +14,9 @@ const testLine = el => {
     testEl.append(el);
 };
 
-const testEmptyLine = () => testLine("")
-const testKeyValue = (key,value) => testLine(`${key} : ${value}`)
-const testName = el => testLine( Object.keys(el)[0] )
+const testEmptyLine = () => testLine("");
+const testKeyValue = (key,value) => testLine(`${key} : ${value}`);
+const testName = el => testLine( Object.keys(el)[0] );
 
 const testAttrs = el => {
     // start
@@ -28,7 +28,7 @@ const testAttrs = el => {
     // entries
     Object.entries(el).forEach(
         entry => {
-            const key,value = entry;
+            const [key,value] = entry;
             testKeyValue(key,value);
         }
     );
