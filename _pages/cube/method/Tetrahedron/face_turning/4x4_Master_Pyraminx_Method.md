@@ -5,8 +5,12 @@ toc: true
 permalink: /cube/method/tetrahedron/face_turning/4x4_master_pyraminx/method
 published: true
 hidden: false
+twisty: true
+puzzle: "tetra / face / 4x4"
 ---
-
+<span id="cube" puzzle="{{page.puzzle}}"></span>
+<div id="test">empty</div>
+<!--
 <head>
   <base target="_blank">
   <link
@@ -20,7 +24,7 @@ hidden: false
     defer
   ></script>
 </head>
-
+-->
 
 
 ## Corner
