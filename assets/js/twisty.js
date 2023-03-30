@@ -68,6 +68,8 @@ const testAttrs = el => {
     // object
     } else if (typeof el === "object") {
         testObject(el);
+    } else {
+        testObject(el);
     };
     // end
     testHrLine();
