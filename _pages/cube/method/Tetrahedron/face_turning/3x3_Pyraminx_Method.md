@@ -13,9 +13,8 @@ puzzle: "tetra / face / 3x3"
   puzzle = "{{page.puzzle}}"
   experimental-stickering   = "full"
   experimental-setup-alg    = ""
-  experimental-setup-anchor = "end">
+  experimental-setup-anchor = "end"  >
 </span>
-<div id="test"></div>
 
 <head>
   <base target="_blank">
@@ -35,8 +34,8 @@ puzzle: "tetra / face / 3x3"
   - from Front Right : ( R' L ) ( R L' )
 
     <twisty-player
-      alg                       = "R' L R L'"
-    ></twisty-player>
+      alg = "R' L R L'" >
+    </twisty-player>
 
   - from Front Left : ( L R' ) ( L' R )
 

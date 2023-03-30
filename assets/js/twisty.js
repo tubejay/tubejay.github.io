@@ -179,6 +179,21 @@ playerEls.forEach(
 
 
 /////////////////////////
+///// puzzle name
+/////////////////////////
+///// id   : cube
+///// attr : puzzle
+/////////////////////////
+
+const cubeEl = document.querySelector("#cube");
+const cubePz = cubeEl.getAttribute("puzzle");
+testAttrs(cubePz);
+
+
+
+
+
+/////////////////////////
 ///// function to create info
 /////////////////////////
 ///// style / short / long
@@ -258,38 +273,6 @@ const infoByPz = {
 
 
 
-/////////////////////////
-///// puzzle name
-/////////////////////////
-///// id   : cube
-///// attr : puzzle
-/////////////////////////
-
-const cubeEl = document.querySelector("#cube");
-const cubePz = cubeEl.getAttribute("puzzle");
-testAttrs(cubePz);
-
-
-
-/////////////////////////
-///// puzzle name
-/////////////////////////
-///// attr except id/puzzle
-/////////////////////////
-
-// attr name
-const namesExcept    = ["id","puzzle"];
-const pzAttrsName    = cubeEl.getAttributeNames();
-const pzComAttrsName = pzAttrsName.filter(
-    attrName => !namesExcept.includes(attrName)
-);
-// attr
-const pzComAttrsEntry = pzComAttrsName.map(
-    attrName => [attrName,cubeEl.getAttribute(attrName)]
-);
-const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
-testAttrs(pzComAttrs);
-
 
 
 /////////////////////////
@@ -323,3 +306,43 @@ playerEls.forEach(
     )
 );
 testAttrs("test ends");
+
+
+
+
+
+/////////////////////////
+///// get common attr
+/////////////////////////
+///// element attr
+///// by page
+/////////////////////////
+
+// attr name
+// except : id/puzzle
+const namesExcept    = ["id","puzzle"];
+const pzAttrsName    = cubeEl.getAttributeNames();
+const pzComAttrsName = pzAttrsName.filter(
+    attrName => !namesExcept.includes(attrName)
+);
+// attr
+const pzComAttrsEntry = pzComAttrsName.map(
+    attrName => [attrName,cubeEl.getAttribute(attrName)]
+);
+const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
+testAttrs(pzComAttrs);
+
+
+
+/////////////////////////
+///// set common attr
+/////////////////////////
+
+// set attr for every player
+playerEls.forEach(
+    player => setAttrByAttrs(
+        player     ,
+        pzComAttrs ,
+        false
+    )
+);
