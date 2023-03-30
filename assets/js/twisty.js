@@ -242,23 +242,17 @@ const createStyleElementAttrs = arr => {
     };
 };
 
-// preEntry
-// [text,array]
-// -> [puzzle,array]
-// -> [puzzle,attrs]
-const preEntryToInfoEntry = preEntry => {
-    const [puzzle,array] = entryMap(...preEntry);
-    const attrs = createStyleElementAttrs(array);
-    return [puzzle,attrs];
-};
 // preInfo
 // {text:array}
 // -> [[text,array]]
 // -> [[puzzle,attrs]]
 // -> {puzzle:attrs}
 const preInfoToInfo = (preInfo,entryMap) => Object.fromEntries(
+    // preInfoEntry
+    // [text,array]
+    // -> [puzzle,attrs]
     Object.entries(preInfo).map(
-        preEntryToInfoEntry
+        preInfoEntry => entryMap(...preInfoEntry)
     )
 );
 // preInfoEntries -> Info
