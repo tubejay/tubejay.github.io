@@ -48,7 +48,7 @@ const testNodeList = els => els.forEach(
         const elObj = {};
         const elName = el.nodeName;
         const elText = el.textContent;
-        elObj[elName] = {"elText":elText};
+        elObj["nodeName"] = elName;
         testObject(elObj);
     }
 );
