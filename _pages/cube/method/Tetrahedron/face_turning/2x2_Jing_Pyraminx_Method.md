@@ -5,20 +5,13 @@ toc: true
 permalink: /cube/method/tetrahedron/face_turning/2x2_jing_pyraminx/method
 published: true
 hidden: false
+twisty: true
+puzzle: "tetra / face / 2x2"
 ---
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Tetrahedron/2x2_Jing_Pyraminx.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -39,21 +32,13 @@ hidden: false
   - ( R' L R L' ) ( B ) ( L R' L' R ) ( B' )
   - Front & Right
   - Left & Bottom
-    <div class="twisty-wrapper">
-      <twisty-player
-        dark-mode                       = "dark"
-        background                      = "none"
-        experimental-puzzle-description = "t f 0"
-        camera-latitude                 = 30
-        camera-longitude                = 0
-        experimental-stickering         = "full"
-        alg                             = "R' L R L' B L R' L' R B'"
-        experimental-setup-alg          = ""
-        experimental-setup-anchor       = "end"
-        tempo-scale                     = "1.3"
-        viewer-link                     = "experimental-twizzle-explorer"
-      ></twisty-player>
-    </div>
+
+    <twisty-player
+      experimental-stickering         = "full"
+      alg                             = "R' L R L' B L R' L' R B'"
+      experimental-setup-alg          = ""
+      experimental-setup-anchor       = "end"
+    ></twisty-player>
 
 
 

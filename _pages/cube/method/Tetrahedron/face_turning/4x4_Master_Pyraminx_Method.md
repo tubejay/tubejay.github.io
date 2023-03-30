@@ -9,7 +9,6 @@ twisty: true
 puzzle: "tetra / face / 4x4"
 ---
 <span id="cube" puzzle="{{page.puzzle}}"></span>
-<div id="test">test position</div>
 
 <head>
   <base target="_blank">
@@ -36,21 +35,13 @@ puzzle: "tetra / face / 4x4"
 ## Outer Edge
 
 - Permute 3 Outer Edges : ( X Y ) ( X' Y' )
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "t v 0 v 1 v 2"
-      camera-latitude                 = 30
-      camera-longitude                = 0
-      experimental-stickering         = "full"
-      alg                             = "u' 3r u 3r'"
-      experimental-setup-alg          = ""
-      experimental-setup-anchor       = "end"
-      tempo-scale                     = "1.3"
-      viewer-link                     = "experimental-twizzle-explorer"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    experimental-stickering         = "full"
+    alg                             = "u' 3r u 3r'"
+    experimental-setup-alg          = ""
+    experimental-setup-anchor       = "end"
+  ></twisty-player>
 
 
 

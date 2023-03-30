@@ -5,20 +5,13 @@ toc: true
 permalink: /cube/method/tetrahedron/face_turning/3x3_pyraminx/method
 published: true
 hidden: false
+twisty: true
+puzzle: "tetra / face / 3x3"
 ---
+<span id="cube" puzzle="{{page.puzzle}}"></span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Tetrahedron/3x3_Pyraminx.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -33,18 +26,14 @@ hidden: false
 
 - Move Edge to Front Bottom
   - from Front Right : ( R' L ) ( R L' )
-    <div class="twisty-wrapper">
-      <twisty-player
-        dark-mode                 = "dark"
-        background                = "none"
-        puzzle                    = "pyraminx"
-        experimental-stickering   = "full"
-        alg                       = "R' L R L'"
-        experimental-setup-alg    = ""
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
+
+    <twisty-player
+      experimental-stickering   = "full"
+      alg                       = "R' L R L'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+    ></twisty-player>
+
   - from Front Left : ( L R' ) ( L' R )
     <div class="twisty-wrapper">
       <twisty-player

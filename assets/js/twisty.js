@@ -242,10 +242,18 @@ const infoByPz = {
         380,400,
         "7x7x7"
     ),
+    "tetra / face / 2x2" : createStyleLongAttrs(
+        250,200,
+        "t f 0",30,0
+    ),
+    "tetra / face / 3x3" : createStyleShortAttrs(
+        250,200,
+        "pyraminx"
+    ),
     "tetra / face / 4x4" : createStyleLongAttrs(
         300,250,
         "t v 0 v 1 v 2",30,0
-    )
+    ),
 };
 
 
