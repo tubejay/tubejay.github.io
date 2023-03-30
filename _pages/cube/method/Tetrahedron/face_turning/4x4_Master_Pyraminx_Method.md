@@ -8,7 +8,13 @@ hidden: false
 twisty: true
 puzzle: "tetra / face / 4x4"
 ---
-<span id="cube" puzzle="{{page.puzzle}}"></span>
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"  >
+</span>
 
 <head>
   <base target="_blank">
@@ -37,10 +43,7 @@ puzzle: "tetra / face / 4x4"
 - Permute 3 Outer Edges : ( X Y ) ( X' Y' )
 
   <twisty-player
-    experimental-stickering         = "full"
-    alg                             = "u' 3r u 3r'"
-    experimental-setup-alg          = ""
-    experimental-setup-anchor       = "end"
+    alg = "u' 3r u 3r'"
   ></twisty-player>
 
 

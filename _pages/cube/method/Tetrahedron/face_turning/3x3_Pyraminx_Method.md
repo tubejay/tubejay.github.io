@@ -34,16 +34,13 @@ puzzle: "tetra / face / 3x3"
   - from Front Right : ( R' L ) ( R L' )
 
     <twisty-player
-      alg = "R' L R L'" >
-    </twisty-player>
+      alg = "R' L R L'"
+    ></twisty-player>
 
   - from Front Left : ( L R' ) ( L' R )
 
     <twisty-player
-      experimental-stickering   = "full"
-      alg                       = "L R' L' R"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
+      alg = "L R' L' R"
     ></twisty-player>
 
 ### Middle Layer
@@ -52,29 +49,20 @@ puzzle: "tetra / face / 3x3"
   - Clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
 
     <twisty-player
-      experimental-stickering   = "full"
-      alg                       = "R' U' R U' R' U' R"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
+      alg = "R' U' R U' R' U' R"
     ></twisty-player>
 
   - Counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
 
     <twisty-player
-      experimental-stickering   = "full"
-      alg                       = "L U L' U L U L'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
+      alg = "L U L' U L U L'"
     ></twisty-player>
 
 - Flip 2 Edges : Front Left & Front Right
   - ( R' L ) ( R L' ) ( U L' ) ( U' L )
 
     <twisty-player
-      experimental-stickering   = "full"
-      alg                       = "R' L R L' U L' U' L"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
+      alg = "R' L R L' U L' U' L"
     ></twisty-player>
 
 

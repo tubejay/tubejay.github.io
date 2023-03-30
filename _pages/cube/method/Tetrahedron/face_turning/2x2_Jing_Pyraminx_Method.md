@@ -8,7 +8,13 @@ hidden: false
 twisty: true
 puzzle: "tetra / face / 2x2"
 ---
-<span id="cube" puzzle="{{page.puzzle}}"></span>
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"  >
+</span>
 
 <head>
   <base target="_blank">
@@ -34,10 +40,7 @@ puzzle: "tetra / face / 2x2"
   - Left & Bottom
 
     <twisty-player
-      experimental-stickering         = "full"
-      alg                             = "R' L R L' B L R' L' R B'"
-      experimental-setup-alg          = ""
-      experimental-setup-anchor       = "end"
+      alg = "R' L R L' B L R' L' R B'"
     ></twisty-player>
 
 
