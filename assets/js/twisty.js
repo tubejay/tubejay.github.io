@@ -76,7 +76,7 @@ const testAttrs = el => {
 testAttrs("test starts");
 
 
-
+try {
 
 
 /////////////////////////
@@ -453,3 +453,7 @@ playerEls.forEach(
 );
 
 testAttrs("test ends");
+
+} catch (error) {
+    testAttrs(error)
+};
