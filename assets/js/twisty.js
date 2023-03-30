@@ -226,6 +226,53 @@ const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) => ({
     style   : createStyleAttrs(width,height),
     element : createLongAttrs(pzdesc,latitude,longitude)
 });
+// style + short
+// style + long
+const createStyleElementAttrs = arr => {
+    // array length
+    const arrLen = arr.length;
+    // 3 : style + short
+    if (arrLen===3) {
+        return createStyleShortAttrs(...arr);
+    // 5 : style + long
+    } else if (arrLen===5) {
+        return createStyleLongAttrs(...arr);
+    };
+};
+
+// preInfo -> Info
+// {text:array}
+// -> [[text,array]]
+// -> [[puzzle,attrs]]
+// -> {puzzle:attrs}
+const preInfoToInfo = (preInfo,entryMap) => Object.fromEntries(
+    Object.entries(preInfo).map(
+        preEntry => entryMap(...preEntry)
+    )
+);
+// preInfoEntry -> Info
+const preInfoEntryToInfo = preInfoEntry => {
+    // preInfoEntry : [preInfo,entryMap]
+    const [preInfo,entryMap] = preInfoEntry;
+    // Info         : {text:object}
+    return preInfoToInfo(preInfo,entryMap);
+};
+// preInfoEntries -> Info
+const preInfoEntriesToInfo = preInfoEntries => {
+    // preInfoEntry -> Info
+    // preInfoEntry : [preInfo,entryMap]
+    // Info         : {text:object}
+    const infoArray = preInfoEntries.map(preInfoEntryToInfo);
+    // mergeInfo
+    // [Info,...,Info] -> mergeInfo
+    // https://stackoverflow.com/a/43626263
+    const mergeInfo = Object.assign(
+        {},
+        ...infoArray
+    );
+    // return
+    return mergeInfo;
+};
 
 
 
@@ -236,6 +283,59 @@ const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) => ({
 ///// style + long
 /////////////////////////
 
+const preInfoNNN = {
+    "2x2x2" : [200,180],
+    "4x4x4" : [260,250],
+    "5x5x5" : [300,300],
+    "6x6x6" : [340,350],
+    "7x7x7" : [380,400]
+};
+const entryMapNNN = (puzzle,attrs) => {
+    // attrs
+    //// [width,height]
+    //// -> [width,height,puzzle]
+    attrs.push(puzzle);
+    //// -> object
+    attrs = createStyleElementAttrs(attrs);
+    // puzzle
+    //// "2x2x2"
+    //// -> "NxNxN / 2x2x2"
+    puzzle = "NxNxN / " + puzzle;
+    // [puzzle,attrs]
+    return [puzzle,attrs];
+};
+const preInfoEntryNNN = [
+    preInfoNNN  ,
+    entryMapNNN
+];
+
+const preInfoTetraFace = {
+    "2x2" : [250,200,"t f 0",30,0]         ,
+    "3x3" : [250,200,"pyraminx"]           ,
+    "4x4" : [300,250,"t v 0 v 1 v 2",30,0]
+};
+const entryMapTetraFace = (puzzle,attrs) => {
+    // attrs
+    //// array
+    // puzzle
+    //// "2x2"
+    //// -> "tetra / face / 2x2"
+    puzzle = "tetra / face / " + puzzle;
+    // [puzzle,attrs]
+    return [puzzle,attrs]
+};
+const preInfoEntryTetraFace = [
+    preInfoTetraFace  ,
+    entryMapTetraFace
+];
+
+const preInfoEntries = [
+    preInfoEntryNNN       ,
+    preInfoEntryTetraFace
+];
+const infoByPz = preInfoEntriesToInfo(preInfoEntries);
+
+/*
 const infoByPz = {
     "NxNxN / 2x2x2" : createStyleShortAttrs(
         200,180,
@@ -270,6 +370,7 @@ const infoByPz = {
         "t v 0 v 1 v 2",30,0
     ),
 };
+*/
 
 
 
@@ -320,6 +421,7 @@ testAttrs("test ends");
 
 // attr name
 // except : id/puzzle
+// https://stackoverflow.com/a/53508215
 const namesExcept    = ["id","puzzle"];
 const pzAttrsName    = cubeEl.getAttributeNames();
 const pzComAttrsName = pzAttrsName.filter(
