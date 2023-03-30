@@ -240,29 +240,33 @@ const createStyleElementAttrs = arr => {
     };
 };
 
-// preInfo -> Info
+// preEntry
+// [text,array]
+// -> [puzzle,array]
+// -> [puzzle,attrs]
+const preEntryToInfoEntry = preEntry => {
+    const [puzzle,array] = entryMap(...preEntry);
+    const attrs = createStyleElementAttrs(...array);
+    return [puzzle,attrs];
+};
+// preInfo
 // {text:array}
 // -> [[text,array]]
 // -> [[puzzle,attrs]]
 // -> {puzzle:attrs}
 const preInfoToInfo = (preInfo,entryMap) => Object.fromEntries(
     Object.entries(preInfo).map(
-        preEntry => entryMap(...preEntry)
+        preEntryToInfoEntry
     )
 );
-// preInfoEntry -> Info
-const preInfoEntryToInfo = preInfoEntry => {
-    // preInfoEntry : [preInfo,entryMap]
-    const [preInfo,entryMap] = preInfoEntry;
-    // Info         : {text:object}
-    return preInfoToInfo(preInfo,entryMap);
-};
 // preInfoEntries -> Info
 const preInfoEntriesToInfo = preInfoEntries => {
     // preInfoEntry -> Info
     // preInfoEntry : [preInfo,entryMap]
     // Info         : {text:object}
-    const infoArray = preInfoEntries.map(preInfoEntryToInfo);
+    const infoArray = preInfoEntries.map(
+        preInfoEntry => preInfoToInfo(...preInfoEntry)
+    );
     // mergeInfo
     // [Info,...,Info] -> mergeInfo
     // https://stackoverflow.com/a/43626263
@@ -296,7 +300,6 @@ const entryMapNNN = (puzzle,attrs) => {
     //// -> [width,height,puzzle]
     attrs.push(puzzle);
     //// -> object
-    attrs = createStyleElementAttrs(attrs);
     // puzzle
     //// "2x2x2"
     //// -> "NxNxN / 2x2x2"
@@ -334,6 +337,7 @@ const preInfoEntries = [
     preInfoEntryTetraFace
 ];
 const infoByPz = preInfoEntriesToInfo(preInfoEntries);
+testAttrs(infoByPz);
 
 /*
 const infoByPz = {
@@ -406,7 +410,6 @@ playerEls.forEach(
         pzElAttrs
     )
 );
-testAttrs("test ends");
 
 
 
@@ -448,3 +451,5 @@ playerEls.forEach(
         false
     )
 );
+
+testAttrs("test ends");
