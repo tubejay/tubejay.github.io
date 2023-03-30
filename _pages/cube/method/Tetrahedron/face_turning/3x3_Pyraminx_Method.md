@@ -8,7 +8,14 @@ hidden: false
 twisty: true
 puzzle: "tetra / face / 3x3"
 ---
-<span id="cube" puzzle="{{page.puzzle}}"></span>
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"
+></span>
+<div id="test"></div>
 
 <head>
   <base target="_blank">
@@ -28,69 +35,48 @@ puzzle: "tetra / face / 3x3"
   - from Front Right : ( R' L ) ( R L' )
 
     <twisty-player
-      experimental-stickering   = "full"
       alg                       = "R' L R L'"
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
     ></twisty-player>
 
   - from Front Left : ( L R' ) ( L' R )
-    <div class="twisty-wrapper">
-      <twisty-player
-        dark-mode                 = "dark"
-        background                = "none"
-        puzzle                    = "pyraminx"
-        experimental-stickering   = "full"
-        alg                       = "L R' L' R"
-        experimental-setup-alg    = ""
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
+
+    <twisty-player
+      experimental-stickering   = "full"
+      alg                       = "L R' L' R"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+    ></twisty-player>
 
 ### Middle Layer
 
 - Permute 3 Edges
   - Clockwise : ( R' U' ) ( R U' ) ( R' U' ) ( R )
-    <div class="twisty-wrapper">
-      <twisty-player
-        dark-mode                 = "dark"
-        background                = "none"
-        puzzle                    = "pyraminx"
-        experimental-stickering   = "full"
-        alg                       = "R' U' R U' R' U' R"
-        experimental-setup-alg    = ""
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
+
+    <twisty-player
+      experimental-stickering   = "full"
+      alg                       = "R' U' R U' R' U' R"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+    ></twisty-player>
+
   - Counterclockwise : ( L U ) ( L' U ) ( L U ) ( L' )
-    <div class="twisty-wrapper">
-      <twisty-player
-        dark-mode                 = "dark"
-        background                = "none"
-        puzzle                    = "pyraminx"
-        experimental-stickering   = "full"
-        alg                       = "L U L' U L U L'"
-        experimental-setup-alg    = ""
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
+
+    <twisty-player
+      experimental-stickering   = "full"
+      alg                       = "L U L' U L U L'"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+    ></twisty-player>
+
 - Flip 2 Edges : Front Left & Front Right
   - ( R' L ) ( R L' ) ( U L' ) ( U' L )
-    <div class="twisty-wrapper">
-      <twisty-player
-        dark-mode                 = "dark"
-        background                = "none"
-        puzzle                    = "pyraminx"
-        experimental-stickering   = "full"
-        alg                       = "R' L R L' U L' U' L"
-        experimental-setup-alg    = ""
-        experimental-setup-anchor = "end"
-        tempo-scale               = "1.3"
-      ></twisty-player>
-    </div>
+
+    <twisty-player
+      experimental-stickering   = "full"
+      alg                       = "R' L R L' U L' U' L"
+      experimental-setup-alg    = ""
+      experimental-setup-anchor = "end"
+    ></twisty-player>
 
 
 

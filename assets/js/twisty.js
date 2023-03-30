@@ -272,6 +272,27 @@ testAttrs(cubePz);
 
 
 /////////////////////////
+///// puzzle name
+/////////////////////////
+///// attr except id/puzzle
+/////////////////////////
+
+// attr name
+const namesExcept    = ["id","puzzle"];
+const pzAttrsName    = cubeEl.getAttributeNames();
+const pzComAttrsName = pzAttrsName.filter(
+    attrName => !namesExcept.includes(attrName)
+);
+// attr
+const pzComAttrsEntry = pzComAttrsName.map(
+    attrName => [attrName,cubeEl.getAttribute(attrName)]
+);
+const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
+testAttrs(pzComAttrs);
+
+
+
+/////////////////////////
 ///// get puzzle info
 /////////////////////////
 ///// style attr
