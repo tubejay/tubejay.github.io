@@ -246,7 +246,7 @@ const createStyleElementAttrs = arr => {
 // -> [puzzle,attrs]
 const preEntryToInfoEntry = preEntry => {
     const [puzzle,array] = entryMap(...preEntry);
-    const attrs = createStyleElementAttrs(...array);
+    const attrs = createStyleElementAttrs(array);
     return [puzzle,attrs];
 };
 // preInfo
