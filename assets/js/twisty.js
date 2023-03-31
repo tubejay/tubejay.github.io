@@ -32,7 +32,6 @@ const testObj  = obj => Object.keys(obj).map(
 // test check
 testHr();
 testText("test");
-testBr();
 testHr();
 testBr();
 
@@ -132,8 +131,14 @@ const comElAttrs = {
     "visualization"    : "PG3D"
 };
 
+testHr();
+testText("comStAttrs");
 testObj(comStAttrs);
+testHr();
+testText("comElAttrs");
 testObj(comElAttrs);
+testHr();
+testBr()
 
 // set attr for every player
 playerEls.forEach(
@@ -159,6 +164,11 @@ queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
 queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
+
+testHr();
+testText("cubePz : "+cubePz);
+testHr();
+testBr();
 
 
 
@@ -286,6 +296,12 @@ const preInfoEntryNNN = [
     entryMapNNN
 ];
 
+testHr();
+testText("preInfoEntryNNN");
+testObj(preInfoEntryNNN);
+testHr();
+testBr();
+
 const preInfoTetraFace = {
     "2x2" : [250,200,"t f 0",30,0]         ,
     "3x3" : [250,200,"pyraminx"]           ,
@@ -305,6 +321,12 @@ const preInfoEntryTetraFace = [
     preInfoTetraFace  ,
     entryMapTetraFace
 ];
+
+testHr();
+testText("preInfoEntryTetraFace");
+testObj(preInfoEntryTetraFace);
+testHr();
+testBr();
 
 const preInfoEntries = [
     preInfoEntryNNN       ,
@@ -330,6 +352,15 @@ const pzInfo = infoByPz[cubePz];
 const pzStAttrs = pzInfo["style"];
 // element attr
 const pzElAttrs = pzInfo["element"];
+
+testHr();
+testText("pzStAttrs");
+testObj(pzStAttrs);
+testHr();
+testText("pzElAttrs");
+testObj(pzElAttrs);
+testHr();
+testBr();
 
 
 
