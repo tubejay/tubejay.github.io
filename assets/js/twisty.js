@@ -108,8 +108,6 @@ let queryText = "";
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
 
-testObj(playerEls);
-
 
 
 /////////////////////////
@@ -132,6 +130,9 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
+
+testObj(comStAttrs);
+testObj(comElAttrs);
 
 // set attr for every player
 playerEls.forEach(
