@@ -4,10 +4,10 @@
 ///// id : test
 /////////////////////////
 
-// test element
+// element
 const testEl = document.querySelector("#test");
 
-// test function
+// function : basic
 const testText = (text,useBr=true) => {
     testEl.append(text);
     if (useBr) {
@@ -27,11 +27,13 @@ const testSp = n => [...Array(n)].forEach(
         document.createTextNode("\u00a0")
     )
 );
-const objKeyLengthMax = obj => {
-    const arrayKeyLength = Object.keys(obj).map(
-        key => key.length
+
+// function : format
+const arrayMaxLength = arr => {
+    const arrLength = arr.map(
+        value => String(value).length
     );
-    return Math.max(...arrayKeyLength);
+    return Math.max(...arrLength);
 };
 const testTextPadRight = (text,totalLength) => {
     testText(text,false);
@@ -39,19 +41,42 @@ const testTextPadRight = (text,totalLength) => {
     const countPad   = totalLength - textLength;
     testSp(countPad);
 };
+
+// fumction : type
 const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
 };
+const testNodeList = (nodelist,depth=2) => nodelist.forEach(
+    (node,index) => {
+        testSp(depth);
+        testText( index + " : " + node.nodeName );
+    }
+);
+const testArray = (arr,depth=2) => {
+    const indexMaxLength = String(arr.length).length
+    arr.forEach(
+        (value,index) => {
+            testSp(depth);
+            testTextPadRight(index,indexMaxLength);
+            testText( " : " + value );
+        }
+    )
+};
 const testObj  = (obj,depth=2) => {
-    const keyLengthMax = objKeyLengthMax(obj);
+    const keyLengthMax = arrayMaxLength(Object.keys(obj));
     Object.entries(obj).map(
         entry => {
             testSp(n=depth);
             const [key,value] = entry;
+            // object
             if (isObject(value)) {
-                testText( key );
+                testText(key);
                 testObj(value,depth+2);
+            // array
+            } else if (Array.isArray(value)) {
+                testText(key);
+                testArray(value,depth+2);
             } else {
                 testTextPadRight( key , keyLengthMax );
                 testText( " : " + value );
@@ -59,18 +84,6 @@ const testObj  = (obj,depth=2) => {
         }
     );
 };
-const testNodeList = nodelist => nodelist.forEach(
-    (node,index) => {
-        testSp(2);
-        testText( index + " : " + node.nodeName );
-    }
-);
-const testArray = arr => arr.forEach(
-    (value,index) => {
-        testSp(2);
-        testText( index + " : " + value );
-    }
-);
 
 // test check
 testHr();
