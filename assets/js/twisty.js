@@ -32,7 +32,7 @@ const testSubEntryText = (entry,length=0) => {
     const entryText = testEntryText(entry,length);
     return `- ${ entryText }`;
 };
-const testEntry = (entry,length) => {
+const testEntry = (entry,length=0) => {
     const [key,value] = entry;
     // value : not object
     if (typeof value !== "object") {
@@ -40,14 +40,8 @@ const testEntry = (entry,length) => {
     // value : object
     } else {
         testLine(key);
-        const valueEntries   = Object.entries(value);
-        const valueKeyLength = valueEntries.map(
-            valueEntry => {
-                const [valueKey,valueValue] = valueEntry;
-                return valueKey.length;
-            }
-        );
-        const valueKeyLengthMax = Math.max(...valueKeyLength);
+        const valueEntries      = Object.entries(value);
+        const valueKeyLengthMax = objectMaxKeyLength(value);
         valueEntries.forEach(
             valueEntry => testLine( testSubEntryText(valueEntry,valueKeyLengthMax) )
         );
