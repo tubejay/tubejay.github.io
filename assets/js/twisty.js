@@ -28,10 +28,11 @@ const testObj      = obj => Object.keys(obj).map(
         "- " + textPadRight( key , objMaxKeyLength(obj) ) + " : " + obj[key]
     )
 );
-const testNodeList = nodelist => Array.from(nodelist).forEach(
-    node => testText(
-        "- nodeName : " + node.nodeName
-    )
+const testNodeList = nodelist => Array.prototype.slice.call(nodelist).forEach(
+    node => {
+        testText( "node       : " + node );
+        testText( "- nodeName : " + node.nodeName );
+    }
 );
 
 // test check
@@ -309,7 +310,7 @@ const preInfoEntryNNN = [
 
 testHr();
 testText("preInfoNNN");
-testobj(preInfoNNN);
+testObj(preInfoNNN);
 testHr();
 testBr();
 
@@ -335,7 +336,7 @@ const preInfoEntryTetraFace = [
 
 testHr();
 testText("preInfoTetraFace");
-testobj(preInfoTetraFace);
+testObj(preInfoTetraFace);
 testHr();
 testBr();
 
@@ -347,7 +348,7 @@ const infoByPz = preInfoEntriesToInfo(preInfoEntries);
 
 testHr();
 testText("infoByPz");
-testobj(infoByPz);
+testObj(infoByPz);
 testHr();
 testBr();
 
@@ -421,7 +422,7 @@ const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
 
 testHr();
 testText("pzComAttrs");
-testobj(pzComAttrs);
+testObj(pzComAttrs);
 testHr();
 testBr();
 
