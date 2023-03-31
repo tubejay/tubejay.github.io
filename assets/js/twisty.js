@@ -30,7 +30,7 @@ const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
 };
-const testObj  = (obj,depth=0) => Object.entries(obj).map(
+const testObj  = (obj,depth=1) => Object.entries(obj).map(
     entry => {
         testSp(n=depth);
         const [key,value] = entry;
@@ -431,7 +431,11 @@ testBr();
 
 // set attr for every player
 playerEls.forEach(
-    player => setStElAttrs( player , ...infoSelect )
+    player => setStElAttrs(
+        player                ,
+        infoSelect["style"]   ,
+        infoSelect["element"]
+    )
 );
 
 
