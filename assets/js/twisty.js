@@ -185,7 +185,7 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
-const comAttts = {
+const comAttrs = {
     "style"   : comStAttrs ,
     "element" : comElAttrs
 };
