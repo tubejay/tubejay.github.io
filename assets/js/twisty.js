@@ -20,9 +20,9 @@ const testBr   = () => testHr(n=0);
 // https://stackoverflow.com/a/4503044
 testEl.setAttribute("white-space","pre");
 // https://um-sal.tistory.com/9
-const testSp   = (n=2) => {
+const testSp   = (n=0,letter="--") => {
     // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
-    const spEl   = document.createTextNode("\u00a0");
+    const spEl = document.createTextNode(letter);
     // https://stackoverflow.com/a/37417004
     [...Array(n)].forEach( () => testEl.appendChild(spEl) )
 };
@@ -30,25 +30,20 @@ const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
 };
-const testObj  = (obj) => Object.entries(obj).map(
+const testObj  = (obj,depth=0) => Object.entries(obj).map(
     entry => {
+        testSp(n=depth);
         const [key,value] = entry;
         if (isObject(value)) {
-            testText( "- " + key );
-            Object.entries(value).forEach(
-                subEntry => {
-                    const [subKey,subValue] = subEntry;
-                    testSp();
-                    testText( "- " + subKey + " : " + subValue );
-                }
-            );
+            testText( " " + key );
+            testObj(value,depth+1);
         } else {
-            testText( "- " + key + " : " + value );
+            testText( " " + key + " : " + value );
         };
     }
 );
 const testNodeList = nodelist => nodelist.forEach(
-    node => testText( "- nodeName : " + node.nodeName )
+    node => testText( "-- nodeName : " + node.nodeName )
 );
 
 // test check
@@ -377,7 +372,7 @@ const entryMapTetraFace = (text,array) => {
     // arr : array
     const arr = array;
     // return
-    return [puzzle,attrs]
+    return [puzzle,arr]
 };
 const preSetTetraFace = [ preInfoTetraFace , entryMapTetraFace ];
 const infoTetraFace   = preSetToInfo(preSetTetraFace);
