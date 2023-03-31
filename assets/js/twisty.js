@@ -15,6 +15,12 @@ const testText = text => {
 };
 const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
+// https://um-sal.tistory.com/9
+const testSp   = (n=1) => {
+    const spEl   = document.createTextNode("\u00a0");
+    const spList = Array(n).fill(spEl);
+    testEl.append(...spList);
+};
 const isObject = x => {
     try {
         return x.constructor===Object
@@ -22,16 +28,15 @@ const isObject = x => {
         return false
     };
 };
-// https://um-sal.tistory.com/9
-const space    = document.createTextNode("\u00a0");
-const testObj  = (obj,depth=1) => Object.entries(obj).map(
+const testObj  = (obj,depth=0) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
+        testSp(depth);
         if (isObject(value)) {
-            testText( space.repeat(depth) + " " + key );
-            testObj(value,depth+1);
+            testText("- " + key);
+            testObj(value,depth+2);
         } else {
-            testText( space.repeat(depth) + " " + key + " : " + value );
+            testText("- " + key + " : " + value);
         };
     }
 );
