@@ -19,12 +19,12 @@ const testHrLine = (n=25) => testLine("=".repeat(n));
 const testBrLine = () => testHrLine(0);
 
 // append entry
-const testEntryText = entry => {
+const testEntryText = (entry,length=0) => {
     const [key,value] = entry;
-    return `${key} : ${value}`;
+    return `${ length>0 ? key.padEnd(length) : key } : ${value}`;
 };
-const testSubEntryText = entry => {
-    const entryText = testEntryText(entry);
+const testSubEntryText = (entry,length) => {
+    const entryText = testEntryText(entry,length);
     return `- ${entryText}`;
 };
 const testEntry = entry => {
@@ -35,9 +35,16 @@ const testEntry = entry => {
     // value : object
     } else {
         testLine(key);
-        const valueEntries = Object.entries(value);
+        const valueEntries   = Object.entries(value);
+        const valueKeyLength = valueEntries.map(
+            valueEntry => {
+                const [valueKey,valueValue] = valueEntry;
+                return valueKey.length;
+            }
+        );
+        const valueKeyLengthMax = Math.max(...valueKeyLength);
         valueEntries.forEach(
-            valueEntry => testLine( testSubEntryText(valueEntry) )
+            valueEntry => testLine( testSubEntryText(valueEntry,valueKeyLengthMax) )
         );
     }
 };
