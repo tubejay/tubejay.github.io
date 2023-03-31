@@ -31,20 +31,20 @@ const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
 };
-const testObj  = (obj,depth=1) => Object.entries(obj).map(
+const testObj  = (obj,depth=2) => Object.entries(obj).map(
     entry => {
         testSp(n=depth);
         const [key,value] = entry;
         if (isObject(value)) {
-            testText( " " + key );
-            testObj(value,depth+1);
+            testText( key );
+            testObj(value,depth+2);
         } else {
-            testText( " " + key + " : " + value );
+            testText( key + " : " + value );
         };
     }
 );
 const testNodeList = nodelist => nodelist.forEach(
-    node => testText( "-- nodeName : " + node.nodeName )
+    node => testText( "  nodeName : " + node.nodeName )
 );
 
 // test check
