@@ -44,7 +44,10 @@ const testObj  = (obj,depth=2) => Object.entries(obj).map(
     }
 );
 const testNodeList = nodelist => nodelist.forEach(
-    node => testText( "  nodeName : " + node.nodeName )
+    node => {
+        testSp(2);
+        testText( "nodeName : " + node.nodeName );
+    }
 );
 
 // test check
