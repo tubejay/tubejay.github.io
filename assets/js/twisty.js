@@ -23,9 +23,14 @@ const objMaxKeyLength = obj => {
     return maxKeyLength;
 };
 const textPadRight = (text,n) => ( text + " ".repeat(n) ).slice(0,n);
-const testObj  = obj => Object.keys(obj).map(
+const testObj      = obj => Object.keys(obj).map(
     key => testText(
         "- " + textPadRight( key , objMaxKeyLength(obj) ) + " : " + obj[key]
+    )
+);
+const testNodeList = nodes => nodes.forEach(
+    node => testText(
+        "- nodeName : " + node.nodeName
     )
 );
 
@@ -107,6 +112,12 @@ let queryText = "";
 
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
+
+testHr();
+testNodeList("playerEls");
+testObj(playerEls);
+testHr();
+testBr()
 
 
 
@@ -297,8 +308,8 @@ const preInfoEntryNNN = [
 ];
 
 testHr();
-testText("preInfoEntryNNN");
-testObj(preInfoEntryNNN);
+testText("preInfoNNN");
+testobj(preInfoNNN);
 testHr();
 testBr();
 
@@ -323,8 +334,8 @@ const preInfoEntryTetraFace = [
 ];
 
 testHr();
-testText("preInfoEntryTetraFace");
-testObj(preInfoEntryTetraFace);
+testText("preInfoTetraFace");
+testobj(preInfoTetraFace);
 testHr();
 testBr();
 
@@ -333,6 +344,12 @@ const preInfoEntries = [
     preInfoEntryTetraFace
 ];
 const infoByPz = preInfoEntriesToInfo(preInfoEntries);
+
+testHr();
+testText("infoByPz");
+testobj(infoByPz);
+testHr();
+testBr();
 
 
 
@@ -402,6 +419,12 @@ const pzComAttrsEntry = pzComAttrsName.map(
 );
 const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
 
+testHr();
+testText("pzComAttrs");
+testobj(pzComAttrs);
+testHr();
+testBr();
+
 
 
 /////////////////////////
@@ -421,4 +444,4 @@ playerEls.forEach(
 
 } catch (error) {
     testText(error)
-};      
+};
