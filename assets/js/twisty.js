@@ -28,13 +28,13 @@ const isObject = x => {
         return false
     };
 };
-const testObj  = (obj,depth=0) => Object.entries(obj).map(
+const testObj  = (obj,depth=-4) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
-        testSp(depth);
+        testSp(depth+4);
         if (isObject(value)) {
             testText("- " + key);
-            testObj(value,depth+2);
+            testObj(value,depth+4);
         } else {
             testText("- " + key + " : " + value);
         };
