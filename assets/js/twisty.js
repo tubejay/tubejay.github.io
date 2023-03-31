@@ -22,7 +22,8 @@ const isObject = x => {
         return false
     };
 };
-const space    = "&nbsp;"
+// https://um-sal.tistory.com/9
+const space    = document.createTextNode("\u00a0");
 const testObj  = (obj,depth=1) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
