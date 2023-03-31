@@ -27,22 +27,38 @@ const testSp = n => [...Array(n)].forEach(
         document.createTextNode("\u00a0")
     )
 );
+const objKeyLengthMax = obj => {
+    const arrayKeyLength = Object.keys(obj).map(
+        key => key.length
+    );
+    return Math.max(...arrayKeyLength);
+};
+const testTextPadRight = (text,totalLength) => {
+    testText(text,false);
+    const textLength = text.length;
+    const countPad   = totalLength - textLength;
+    testSp(countPad);
+};
 const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
 };
-const testObj  = (obj,depth=2) => Object.entries(obj).map(
-    entry => {
-        testSp(n=depth);
-        const [key,value] = entry;
-        if (isObject(value)) {
-            testText( key );
-            testObj(value,depth+2);
-        } else {
-            testText( key + " : " + value );
-        };
-    }
-);
+const testObj  = (obj,depth=2) => {
+    const keyLengthMax = objKeyLengthMax(obj);
+    Object.entries(obj).map(
+        entry => {
+            testSp(n=depth);
+            const [key,value] = entry;
+            if (isObject(value)) {
+                testText( key );
+                testObj(value,depth+2);
+            } else {
+                testTextPadRight( key , keyLengthMax );
+                testText( ": " + value );
+            };
+        }
+    );
+};
 const testNodeList = nodelist => nodelist.forEach(
     node => {
         testSp(2);
