@@ -7,9 +7,22 @@
 // test element
 const testEl = document.querySelector("#test");
 
-testEl.append("test 1");
-testEl.appendChild(document.createElement("br"));
-        testEl.append("test 2");
+// test function
+const testText = text => {
+    testEl.append(text);
+    const br = document.createElement("br");
+    testEl.appendChild(br);
+};
+const testHr   = (n=30) => testText( "=".repeat(n) );
+const testBr   = () => testHr(n=0);
+
+// test check
+testHr();
+testText("test");
+testBr();
+testHr();
+
+
 
 
 
