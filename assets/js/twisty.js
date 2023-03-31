@@ -22,7 +22,7 @@ const objMaxKeyLength = obj => {
     const maxKeyLength = Math.max(...keyLengths);
     return maxKeyLength;
 };
-const textPadRight = (text,n) => ( " ".repeat(n) + text ).slice(-n);
+const textPadRight = (text,n) => ( text + " ".repeat(n) ).slice(0,n);
 const testObj  = obj => Object.keys(obj).map(
     key => testText(
         `- ${ textPadRight( key , objMaxKeyLength(obj) ) } : ${ obj[key] }`
