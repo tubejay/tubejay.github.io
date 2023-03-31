@@ -20,32 +20,30 @@ const testBr   = () => testHr(n=0);
 // https://stackoverflow.com/a/4503044
 testEl.setAttribute("white-space","pre");
 // https://um-sal.tistory.com/9
-const testSp   = (n=1) => {
+const testSp   = (n=2) => {
     // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
-    const spEl   = document.createTextNode("\u0009");
+    const spEl   = document.createTextNode("\u00a0");
     // https://stackoverflow.com/a/37417004
-    [...Array(n)].forEach(
-        () => testEl.appendChild(spEl)
-    )
+    [...Array(n)].forEach( () => testEl.appendChild(spEl) )
 };
 const isObject = x => {
-    try {
-        return x.constructor===Object
-    } catch {
-        return false
-    };
+    try     { return x.constructor===Object }
+    catch   { return false                  };
 };
-const testObj  = (obj,depth=0) => Object.entries(obj).map(
+const testObj  = (obj) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
-        testSp(depth);
-        testText("- " + key,false);
         if (isObject(value)) {
-            testBr();
-            testObj(value,depth+1);
+            testText( "- " + key );
+            Object.entries(value).forEach(
+                subEntry => {
+                    const [subKey,subValue] = subEntry;
+                    testSp();
+                    testText( "- " + subKey + " : " + subValue );
+                }
+            );
         } else {
-            testSp(1);
-            testText(": " + value);
+            testText( "- " + key + " : " + value );
         };
     }
 );
@@ -59,9 +57,11 @@ testText("test");
 testHr();
 testBr();
 
+
+
+
+
 try {
-
-
 
 /////////////////////////
 ///// function
@@ -71,28 +71,32 @@ try {
 const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
     // attrEntry : [key,value]
     const [key,value] = attrEntry;
-    // set attr by key,value
-    if (isStyle===true) {
-        // style attr
-        el.style[key] = value;
-    } else if (isStyle===false) {
-        // element attr
-        el.setAttribute(key,value);
-    }
+    // style attr
+    if      ( isStyle===true    ) { el.style[key] = value;      }
+    // element attr
+    else if ( isStyle===false   ) { el.setAttribute(key,value); }
 };
 
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
 const setAttrByAttrs = (el,attrs,isStyle) => {
     // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-    const attrEntries = Object.entries(attrs);
-    attrEntries.forEach(
+    Object.entries(attrs).forEach(
         attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
     );
 };
 
 // set style/element attr
-const setStElAttrs = (el,stAttrs,elAttrs) => {
+const setStElAttrs = (el,stAttrs,elAttrs) => [
+    // stAttrs
+    // isStyle : true
+    [stAttrs,true],
+    // elAttrs
+    // isStyle : false
+    [elAttrs,false]
+].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
+
+/*
     // stAttrs
     // isStyle : true
     setAttrByAttrs(
@@ -107,7 +111,7 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
         elAttrs ,
         false
     );
-};
+*/
 
 
 
@@ -171,13 +175,11 @@ testHr();
 testBr()
 
 // set attr for every player
-playerEls.forEach(
-    player => setStElAttrs(
-        player     ,
-        comStAttrs ,
-        comElAttrs
-    )
-);
+playerEls.forEach( player => setStElAttrs(
+    player     ,
+    comStAttrs ,
+    comElAttrs
+) );
 
 
 
@@ -196,7 +198,7 @@ queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
 
 testHr();
-testText("cubePz : "+cubePz);
+testText( "cubePz : " + cubePz );
 testHr();
 testBr();
 
@@ -221,10 +223,10 @@ const createShortAttrs = (puzzle) => ({
 });
 // long attr
 const createLongAttrs = (pzdesc,latitude,longitude) => ({
-    "experimental-puzzle-description" : pzdesc ,
-    "viewer-link"      : "experimental-twizzle-explorer" ,
-    "camera-latitude"  : latitude  ,
-    "camera-longitude" : longitude ,
+    "experimental-puzzle-description"   : pzdesc    ,
+    "camera-latitude"                   : latitude  ,
+    "camera-longitude"                  : longitude ,
+    "viewer-link"                       : "experimental-twizzle-explorer"
 });
 
 // style + short
@@ -243,54 +245,76 @@ const createStyleElementAttrs = arr => {
     // array length
     const arrLen = arr.length;
     // 3 : style + short
-    if (arrLen===3) {
-        return createStyleShortAttrs(...arr);
+    if      (arrLen===3) { return createStyleShortAttrs(...arr);    }
     // 5 : style + long
-    } else if (arrLen===5) {
-        return createStyleLongAttrs(...arr);
-    };
+    else if (arrLen===5) { return createStyleLongAttrs(...arr);     };
 };
 
-// preInfoEntry
-// [text,array]
-// -> [puzzle,arr]
-// -> [puzzle,attrs]
+// preInfoEntry -> InfoEntry
+// preInfoEntry : [text,array]
+// InfoEntry    : [puzzle,attrs]
 const preInfoEntryToInfoEntry = (preInfoEntry,entryMap) => {
+    // [text,array] -> [puzzle,arr]
     const [puzzle,arr] = entryMap(...preInfoEntry);
+    // [puzzle,arr] -> [puzzle,attrs]
     const attrs        = createStyleElementAttrs(arr);
+    // return
     return [puzzle,attrs];
 };
-// preInfo
-// {text:array}
-// -> [[text,array]]
-// -> [[puzzle,attrs]]
-// -> {puzzle:attrs}
-const preInfoToInfo = (preInfo,entryMap) => Object.fromEntries(
-    // preInfoEntry
-    // [text,array]
-    // -> [puzzle,attrs]
-    Object.entries(preInfo).map(
-        preInfoEntry => preInfoEntryToInfoEntry(preInfoEntry,entryMap)
-    )
-);
-// preInfoEntries -> Info
-const preInfoEntriesToInfo = preInfoEntries => {
-    // preInfoEntry -> Info
-    // preInfoEntry : [preInfo,entryMap]
-    // Info         : {text:object}
-    const infoArray = preInfoEntries.map(
-        preInfoEntry => preInfoToInfo(...preInfoEntry)
+// preSet -> Info
+// preSet : [preInfo,entryMap]
+// Info   : {puzzle:attrs}
+const preSetToInfo = preSet => {
+    // preInfo,entryMap
+    const [preInfo,entryMap] = preSet;
+    // preInfo -> [preInfoEntry]
+    // Object.entries
+    const preInfoEntries = Object.entries( preInfo );
+    // [preInfoEntry] -> [InfoEntry]
+    // map + preInfoEntryToInfoEntry
+    const InfoEntries = preInfoEntries.map(
+        preInfoEntry => preInfoEntryToInfoEntry( preInfoEntry , entryMap )
     );
-    // mergeInfo
-    // [Info,...,Info] -> mergeInfo
-    // https://stackoverflow.com/a/43626263
-    const mergeInfo = Object.assign(
-        {},
-        ...infoArray
-    );
+    // [InfoEntry] -> Info
+    // Object.fromEntries
+    const Info = Object.fromEntries( InfoEntries );
     // return
-    return mergeInfo;
+    return Info;
 };
+
+/*
+    // preInfo
+    // {text:array}
+    // -> [[text,array]]
+    // -> [[puzzle,attrs]]
+    // -> {puzzle:attrs}
+    const preInfoToInfo = (preInfo,entryMap) => Object.fromEntries(
+        // preInfoEntry
+        // [text,array]
+        // -> [puzzle,attrs]
+        Object.entries(preInfo).map(
+            preInfoEntry => preInfoEntryToInfoEntry(preInfoEntry,entryMap)
+        )
+    );
+    // preInfoEntries -> Info
+    const preInfoEntriesToInfo = preInfoEntries => {
+        // preInfoEntry -> Info
+        // preInfoEntry : [preInfo,entryMap]
+        // Info         : {text:object}
+        const infoArray = preInfoEntries.map(
+            preInfoEntry => preInfoToInfo(...preInfoEntry)
+        );
+        // mergeInfo
+        // [Info,...,Info] -> mergeInfo
+        // https://stackoverflow.com/a/43626263
+        const mergeInfo = Object.assign(
+            {},
+            ...infoArray
+        );
+        // return
+        return mergeInfo;
+    };
+*/
 
 
 
@@ -301,74 +325,80 @@ const preInfoEntriesToInfo = preInfoEntries => {
 ///// style + long
 /////////////////////////
 
+let infoArray = [];
+
+// {text:array}
+// text  : "2x2x2"
+// array : [width,height]
 const preInfoNNN = {
-    "2x2x2" : [200,180],
-    "4x4x4" : [260,250],
-    "5x5x5" : [300,300],
-    "6x6x6" : [340,350],
+    "2x2x2" : [200,180] ,
+    "4x4x4" : [260,250] ,
+    "5x5x5" : [300,300] ,
+    "6x6x6" : [340,350] ,
     "7x7x7" : [380,400]
 };
-const entryMapNNN = (puzzle,attrs) => {
-    // attrs
-    //// [width,height]
-    //// -> [width,height,puzzle]
-    attrs.push(puzzle);
-    //// -> object
-    // puzzle
-    //// "2x2x2"
-    //// -> "NxNxN / 2x2x2"
-    puzzle = "NxNxN / " + puzzle;
-    // [puzzle,attrs]
-    return [puzzle,attrs];
+// [text,array] -> [puzzle,arr]
+const entryMapNNN = (text,array) => {
+    // puzzle : "NxNxN / 2x2x2"
+    const puzzle = "NxNxN / " + text;
+    // arr : [width,height,"2x2x2"]
+    const arr = [ ...array , text ];
+    // return
+    return [puzzle,arr];
 };
-const preInfoEntryNNN = [
-    preInfoNNN  ,
-    entryMapNNN
-];
+const preSetNNN = [ preInfoNNN , entryMapNNN ];
+const infoNNN   = preSetToInfo(preSetNNN);
+infoArray.push(infoNNN);
 
 testHr();
 testText("preInfoNNN");
 testObj(preInfoNNN);
 testHr();
+testText("infoNNN");
+testObj(infoNNN);
+testHr();
 testBr();
 
+// {text:array}
+// text  : "3x3"
+// array : short : [width,height,puzzle]
+// array : long  : [width,height,pzdesc,latitude,longitude]
 const preInfoTetraFace = {
-    "2x2" : [250,200,"t f 0",30,0]         ,
-    "3x3" : [250,200,"pyraminx"]           ,
-    "4x4" : [300,250,"t v 0 v 1 v 2",30,0]
+    // short
+    "3x3" : [ 250,200,      "pyraminx"              ] ,
+    // long
+    "2x2" : [ 250,200,      "t f 0"         ,30,0   ] ,
+    "4x4" : [ 300,250,      "t v 0 v 1 v 2" ,30,0   ]
 };
-const entryMapTetraFace = (puzzle,attrs) => {
-    // attrs
-    //// array
-    // puzzle
-    //// "2x2"
-    //// -> "tetra / face / 2x2"
-    puzzle = "tetra / face / " + puzzle;
-    // [puzzle,attrs]
+// [text,array] -> [puzzle,arr]
+const entryMapTetraFace = (text,array) => {
+    // puzzle : "tetra / face / 2x2"
+    const puzzle = "tetra / face / " + text;
+    // arr : array
+    const arr = array;
+    // return
     return [puzzle,attrs]
 };
-const preInfoEntryTetraFace = [
-    preInfoTetraFace  ,
-    entryMapTetraFace
-];
+const preSetTetraFace = [ preInfoTetraFace , entryMapTetraFace ];
+const infoTetraFace   = preSetToInfo(preSetTetraFace);
+infoArray.push(infoTetraFace);
 
 testHr();
 testText("preInfoTetraFace");
 testObj(preInfoTetraFace);
 testHr();
-testBr();
-
-const preInfoEntries = [
-    preInfoEntryNNN       ,
-    preInfoEntryTetraFace
-];
-const infoByPz = preInfoEntriesToInfo(preInfoEntries);
-
-testHr();
-testText("infoByPz");
-testObj(infoByPz);
+testText("infoTetraFace");
+testObj(infoTetraFace);
 testHr();
 testBr();
+
+/*
+    const preInfoEntries = [
+        preInfoEntryNNN       ,
+        preInfoEntryTetraFace
+    ];
+    const infoByPz = preInfoEntriesToInfo(preInfoEntries);
+*/
 
 
 
@@ -381,17 +411,20 @@ testBr();
 ///// element attr
 /////////////////////////
 
-// puzzle info
-const pzInfo = infoByPz[cubePz];
+// collect puzzle info
+// https://stackoverflow.com/a/43626263
+// Object.assign
+// ...infoArray
+const infoCollect = Object.assign(
+    {}, ...infoArray
+);
 
-// style attr
-const pzStAttrs = pzInfo["style"];
-// element attr
-const pzElAttrs = pzInfo["element"];
+// select puzzle info
+const infoSelect = infoCollect[cubePz];
 
 testHr();
-testText("pzInfo");
-testObj(pzInfo);
+testText("infoSelect");
+testObj(infoSelect);
 testHr();
 testBr();
 
@@ -403,11 +436,7 @@ testBr();
 
 // set attr for every player
 playerEls.forEach(
-    player => setStElAttrs(
-        player    ,
-        pzStAttrs ,
-        pzElAttrs
-    )
+    player => setStElAttrs( player , ...infoSelect )
 );
 
 
@@ -431,7 +460,7 @@ const pzComAttrsName = pzAttrsName.filter(
 );
 // attr
 const pzComAttrsEntry = pzComAttrsName.map(
-    attrName => [attrName,cubeEl.getAttribute(attrName)]
+    attrName => [ attrName , cubeEl.getAttribute(attrName) ]
 );
 const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
 
@@ -448,16 +477,11 @@ testBr();
 /////////////////////////
 
 // set attr for every player
+// isStyle : false
 playerEls.forEach(
-    player => setAttrByAttrs(
-        player     ,
-        pzComAttrs ,
-        false
-    )
+    player => setAttrByAttrs( player , pzComAttrs , false )
 );
 
 
 
-} catch (error) {
-    testText(error)
-};
+} catch (error) { testText(error) };
