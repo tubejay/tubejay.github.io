@@ -22,7 +22,7 @@ testEl.setAttribute("white-space","pre");
 // https://um-sal.tistory.com/9
 const testSp   = (n=1) => {
     // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
-    const spEl   = document.createTextNode("\u0020");
+    const spEl   = document.createTextNode("\u0009");
     // https://stackoverflow.com/a/37417004
     [...Array(n)].forEach(
         () => testEl.appendChild(spEl)
@@ -39,7 +39,7 @@ const testObj  = (obj,depth=0) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
         testSp(depth);
-        testText("-" + key,false);
+        testText("- " + key,false);
         if (isObject(value)) {
             testBr();
             testObj(value,depth+1);
