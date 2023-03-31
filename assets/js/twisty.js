@@ -16,7 +16,7 @@ const testText = text => {
 const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
 const objMaxKeyLength = obj => {
-    const keyLengths   = Object.keys(ojb).map(
+    const keyLengths   = Object.keys(obj).map(
         key => key.length
     );
     const maxKeyLength = Math.max(...keyLengths);
@@ -107,6 +107,8 @@ let queryText = "";
 
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
+
+testObj(playerEls);
 
 
 
