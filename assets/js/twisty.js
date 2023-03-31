@@ -60,9 +60,15 @@ const testObj  = (obj,depth=2) => {
     );
 };
 const testNodeList = nodelist => nodelist.forEach(
-    node => {
+    (node,index) => {
         testSp(2);
-        testText( "nodeName : " + node.nodeName );
+        testText( index + " : " + node.nodeName );
+    }
+);
+const testArray = arr => arr.forEach(
+    (value,index) => {
+        testSp(2);
+        testText( index + " : " + value );
     }
 );
 
@@ -179,15 +185,16 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
+const comAttts = {
+    "style"   : comStAttrs ,
+    "element" : comElAttrs
+};
 
 testHr();
-testText("comStAttrs");
-testObj(comStAttrs);
+testText("comAttrs");
+testObj(comAttrs);
 testHr();
-testText("comElAttrs");
-testObj(comElAttrs);
-testHr();
-testBr()
+testBr();
 
 // set attr for every player
 playerEls.forEach( player => setStElAttrs(
@@ -213,6 +220,7 @@ queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
 
 testHr();
+testText( "cubeEl : " + cubeEl );
 testText( "cubePz : " + cubePz );
 testHr();
 testBr();
@@ -297,39 +305,7 @@ const preSetToInfo = preSet => {
     return Info;
 };
 
-/*
-    // preInfo
-    // {text:array}
-    // -> [[text,array]]
-    // -> [[puzzle,attrs]]
-    // -> {puzzle:attrs}
-    const preInfoToInfo = (preInfo,entryMap) => Object.fromEntries(
-        // preInfoEntry
-        // [text,array]
-        // -> [puzzle,attrs]
-        Object.entries(preInfo).map(
-            preInfoEntry => preInfoEntryToInfoEntry(preInfoEntry,entryMap)
-        )
-    );
-    // preInfoEntries -> Info
-    const preInfoEntriesToInfo = preInfoEntries => {
-        // preInfoEntry -> Info
-        // preInfoEntry : [preInfo,entryMap]
-        // Info         : {text:object}
-        const infoArray = preInfoEntries.map(
-            preInfoEntry => preInfoToInfo(...preInfoEntry)
-        );
-        // mergeInfo
-        // [Info,...,Info] -> mergeInfo
-        // https://stackoverflow.com/a/43626263
-        const mergeInfo = Object.assign(
-            {},
-            ...infoArray
-        );
-        // return
-        return mergeInfo;
-    };
-*/
+
 
 
 
@@ -407,14 +383,6 @@ testObj(infoTetraFace);
 testHr();
 testBr();
 
-/*
-    const preInfoEntries = [
-        preInfoEntryNNN       ,
-        preInfoEntryTetraFace
-    ];
-    const infoByPz = preInfoEntriesToInfo(preInfoEntries);
-*/
-
 
 
 
@@ -437,6 +405,9 @@ const infoCollect = Object.assign(
 // select puzzle info
 const infoSelect = infoCollect[cubePz];
 
+testHr();
+testText("infoCollect");
+testObj(infoCollect);
 testHr();
 testText("infoSelect");
 testObj(infoSelect);
