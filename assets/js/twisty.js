@@ -35,7 +35,7 @@ testBr();
 testHr();
 testBr();
 
-
+try {
 
 
 
@@ -384,3 +384,9 @@ playerEls.forEach(
         false
     )
 );
+
+
+
+} catch (error) {
+    testText(error)
+};      
