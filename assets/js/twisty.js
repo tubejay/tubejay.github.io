@@ -7,98 +7,9 @@
 // test element
 const testEl = document.querySelector("#test");
 
-// append line
-const testLine = el => {
-    // append
-    testEl.append(el);
-    // new line
-    const br = document.createElement("br");
-    testEl.appendChild(br);
-};
-const testHrLine = (n=25) => testLine("=".repeat(n));
-const testBrLine = () => testHrLine(0);
-
-// append entry
-const objectMaxKeyLength = obj => {
-    keyLengths = Object.keys(ojb).map(
-        key => key.length
-    );
-    return Math.max(keyLengths);
-};
-const testEntryText = (entry,length=null) => {
-    const [key,value] = entry;
-    return `${ !length ? key.padEnd(length) : key } : ${value}`;
-};
-const testSubEntryText = (entry,length=null) => {
-    const entryText = testEntryText(entry,length);
-    return `- ${ entryText }`;
-};
-const testEntry = (entry,length=null) => {
-    const [key,value] = entry;
-    // value : not object
-    if (typeof value !== "object") {
-        testLine( testEntryText(entry,length) );
-    // value : object
-    } else {
-        testLine(key);
-        const valueEntries      = Object.entries(value);
-        const valueKeyLengthMax = objectMaxKeyLength(value);
-        valueEntries.forEach(
-            valueEntry => testLine( testSubEntryText(valueEntry,valueKeyLengthMax) )
-        );
-    }
-};
-
-const testObject = el => {
-    const entries      = Object.entries(el);
-    const maxKeyLength = objectMaxKeyLength(el);
-    entries.map(
-        entry => testEntry(entry,maxKeyLength)
-    );
-};
-const testNodeList = els => els.forEach(
-    el => {
-        const elObj = {};
-        const elName = el.nodeName;
-        elObj["nodeName"] = elName;
-        testObject(elObj);
-    }
-);
-
-const testAttrs = (el,hrbr=true) => {
-    // testEl exception
-    if (!testEl) {return null}
-    // hr
-    testHrLine();
-    // string
-    if (typeof el === "string") {
-        testLine("type : string");
-        testLine(el);
-    // nodelist
-    } else if (el instanceof NodeList) {
-        testLine("type : NodeList");
-        testNodeList(el);
-    // object
-    } else if (typeof el === "object") {
-        testLine("type : object");
-        testObject(el);
-    // else
-    } else {
-        testLine("type : else");
-        testLine(el);
-    };
-    // hrbr
-            hrbr ? [testHrLine(),testBrLine()] : "";
-};
-const testTitle = text => testAttrs(text,false);
-
-testAttrs("test starts");
-
-
-
-
-
-try {
+testEl.append("test 1");
+testEl.appendChild(document.createElement("br"));
+        testEl.append("test 2");
 
 
 
@@ -171,9 +82,6 @@ let queryText = "";
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
 
-testTitle("playerEls");
-testAttrs(playerEls);
-
 
 
 /////////////////////////
@@ -196,12 +104,6 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
-
-testTitle("comStAttrs");
-testAttrs(comStAttrs);
-
-testTitle("comElAttrs");
-testAttrs(comElAttrs);
 
 // set attr for every player
 playerEls.forEach(
@@ -227,9 +129,6 @@ queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
 queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
-
-testTitle("cubePz");
-testAttrs(cubePz);
 
 
 
@@ -402,9 +301,6 @@ const pzStAttrs = pzInfo["style"];
 // element attr
 const pzElAttrs = pzInfo["element"];
 
-testTitle("pzInfo");
-testAttrs(pzInfo);
-
 
 
 /////////////////////////
@@ -445,9 +341,6 @@ const pzComAttrsEntry = pzComAttrsName.map(
 );
 const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
 
-testTitle("pzComAttrs");
-testAttrs(pzComAttrs);
-
 
 
 /////////////////////////
@@ -462,9 +355,3 @@ playerEls.forEach(
         false
     )
 );
-
-testAttrs("test ends");
-
-} catch (error) {
-    testAttrs(error)
-};
