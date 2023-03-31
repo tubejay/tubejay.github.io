@@ -75,22 +75,14 @@ const testAttrs = (el,hrbr=true) => {
 };
 const testTitle = text => testAttrs(text,false);
 
-// https://logical-code.tistory.com/102
-const testTitleAttrs = text => {
-    // title
-    testTitle(text);
-    // attrs
-    const attrsTest     = `testAttrs(${text});`;
-    const attrsFunction = new Function(attrsTest);
-    attrsFunction();
-};
-
-
-
 testAttrs("test starts");
 
 
+
+
+
 try {
+
 
 
 /////////////////////////
@@ -162,7 +154,8 @@ let queryText = "";
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
 
-testTitleAttrs("playerEls");
+testTitle("playerEls");
+testAttrs(playerEls);
 
 
 
@@ -187,8 +180,11 @@ const comElAttrs = {
     "visualization"    : "PG3D"
 };
 
-testTitleAttrs("comStAttrs");
-testTitleAttrs("comElAttrs");
+testTitle("comStAttrs");
+testAttrs(comStAttrs);
+
+testTitle("comElAttrs");
+testAttrs(comElAttrs);
 
 // set attr for every player
 playerEls.forEach(
@@ -215,7 +211,8 @@ const cubeEl = document.querySelector(queryText);
 queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
 
-testTitleAttrs("cubePz");
+testTitle("cubePz");
+testAttrs(cubePz);
 
 
 
@@ -388,8 +385,11 @@ const pzStAttrs = pzInfo["style"];
 // element attr
 const pzElAttrs = pzInfo["element"];
 
-testTitleAttrs("pzStAttrs");
-testTitleAttrs("pzElAttrs");
+testTitle("pzStAttrs");
+testAttrs(pzStAttrs);
+
+testTitle("pzElAttrs");
+testAttrs(pzElAttrs);
 
 
 
@@ -431,7 +431,8 @@ const pzComAttrsEntry = pzComAttrsName.map(
 );
 const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
 
-testTitleAttrs("pzComAttrs");
+testTitle("pzComAttrs");
+testAttrs(pzComAttrs);
 
 
 
