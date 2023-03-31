@@ -80,7 +80,7 @@ const testTitleAttrs = text => {
     // title
     testTitle(text);
     // attrs
-    const attrsTest = `testAttrs("${text}")`;
+    const attrsTest     = "testAttrs(text);";
     const attrsFunction = new Function(attrsTest);
     attrsFunction();
 };
