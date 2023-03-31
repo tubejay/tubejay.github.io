@@ -18,7 +18,7 @@ const testText = (text,useBr=true) => {
 const testHr = (n=30) => testText( "=".repeat(n) );
 const testBr = () => testHr(n=0);
 // https://stackoverflow.com/a/4503044
-testEl.setAttribute("white-space","pre");
+// testEl.setAttribute("white-space","pre");
 // https://stackoverflow.com/a/37417004
 const testSp = n => [...Array(n)].forEach(
     // https://um-sal.tistory.com/9
@@ -54,7 +54,7 @@ const testObj  = (obj,depth=2) => {
                 testObj(value,depth+2);
             } else {
                 testTextPadRight( key , keyLengthMax );
-                testText( ": " + value );
+                testText( " : " + value );
             };
         }
     );
