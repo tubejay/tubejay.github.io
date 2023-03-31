@@ -22,14 +22,15 @@ const isObject = x => {
         return false
     };
 };
+const space    = "&nbsp;"
 const testObj  = (obj,depth=1) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
         if (isObject(value)) {
-            testText( "  ".repeat(depth) + " " + key );
+            testText( space.repeat(depth) + " " + key );
             testObj(value,depth+1);
         } else {
-            testText( "  ".repeat(depth) + " " + key + " : " + value );
+            testText( space.repeat(depth) + " " + key + " : " + value );
         };
     }
 );
