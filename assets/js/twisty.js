@@ -25,7 +25,7 @@ const objMaxKeyLength = obj => {
 const textPadRight = (text,n) => ( text + " ".repeat(n) ).slice(0,n);
 const testObj  = obj => Object.keys(obj).map(
     key => testText(
-        "- " + textPadRight( key , objMaxKeyLength(obj) ) + ` : ${ obj[key] }`
+        "- " + textPadRight( key , objMaxKeyLength(obj) ) + " : " + obj[key]
     )
 );
 
