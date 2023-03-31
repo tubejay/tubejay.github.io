@@ -28,7 +28,7 @@ const testObj      = obj => Object.keys(obj).map(
         "- " + textPadRight( key , objMaxKeyLength(obj) ) + " : " + obj[key]
     )
 );
-const testNodeList = nodes => nodes.forEach(
+const testNodeList = nodelist => Array.from(nodelist).forEach(
     node => testText(
         "- nodeName : " + node.nodeName
     )
