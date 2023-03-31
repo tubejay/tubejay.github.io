@@ -15,12 +15,25 @@ const testText = text => {
 };
 const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
+const objMaxKeyLength = obj => {
+    const keyLengths   = Object.keys(ojb).map(
+        key => key.length
+    );
+    const maxKeyLength = Math.max(...keyLengths);
+    return maxKeyLength;
+};
+const testObj  = obj => Object.keys(obj).map(
+    key => testText(
+        `- ${ key.padEnd( objMaxKeyLength(obj) ) } : ${ obj[key] }`
+    )
+);
 
 // test check
 testHr();
 testText("test");
 testBr();
 testHr();
+testBr();
 
 
 
@@ -94,6 +107,8 @@ let queryText = "";
 
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
+
+testObj(playerEls);
 
 
 
