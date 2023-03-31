@@ -24,7 +24,7 @@ const objMaxKeyLength = obj => {
 };
 const testObj  = obj => Object.keys(obj).map(
     key => testText(
-        `- ${ key.padEnd( objMaxKeyLength(obj) ) } : ${ obj[key] }`
+        `${objMaxKeyLength(obj)} - ${ key.padEnd( objMaxKeyLength(obj) ) } : ${ obj[key] }`
     )
 );
 
@@ -107,8 +107,6 @@ let queryText = "";
 
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
-
-testObj(playerEls);
 
 
 
