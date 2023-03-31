@@ -19,19 +19,24 @@ const testHrLine = (n=25) => testLine("=".repeat(n));
 const testBrLine = () => testHrLine(0);
 
 // append entry
+const objectMaxKeyLength = obj => Math.max(
+    ...Object.keys(ojb).map(
+        key => key.length
+    )
+);
 const testEntryText = (entry,length=0) => {
     const [key,value] = entry;
     return `${ length>0 ? key.padEnd(length) : key } : ${value}`;
 };
-const testSubEntryText = (entry,length) => {
+const testSubEntryText = (entry,length=0) => {
     const entryText = testEntryText(entry,length);
-    return `- ${entryText}`;
+    return `- ${ entryText }`;
 };
-const testEntry = entry => {
+const testEntry = (entry,length) => {
     const [key,value] = entry;
     // value : not object
     if (typeof value !== "object") {
-        testLine( testEntryText(entry) );
+        testLine( testEntryText(entry,length) );
     // value : object
     } else {
         testLine(key);
@@ -49,7 +54,13 @@ const testEntry = entry => {
     }
 };
 
-const testObject = el => Object.entries(el).forEach(testEntry);
+const testObject = el => {
+    const entries      = Object.entries(el);
+    const maxKeyLength = objectMaxKeyLength(el);
+    entries.map(
+        entry => testEntry(entry,maxKeyLength)
+    );
+};
 const testNodeList = els => els.forEach(
     el => {
         const elObj = {};
@@ -392,11 +403,8 @@ const pzStAttrs = pzInfo["style"];
 // element attr
 const pzElAttrs = pzInfo["element"];
 
-testTitle("pzStAttrs");
-testAttrs(pzStAttrs);
-
-testTitle("pzElAttrs");
-testAttrs(pzElAttrs);
+testTitle("pzInfo");
+testAttrs(pzInfo);
 
 
 
