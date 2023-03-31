@@ -8,18 +8,22 @@
 const testEl = document.querySelector("#test");
 
 // test function
-const testText = text => {
+const testText = (text,useBr=true) => {
     testEl.append(text);
-    const br = document.createElement("br");
-    testEl.appendChild(br);
+    if (useBr) {
+        const br = document.createElement("br");
+        testEl.appendChild(br);
+    };
 };
 const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
 // https://um-sal.tistory.com/9
 const testSp   = (n=1) => {
     const spEl   = document.createTextNode("\u00a0");
-    const spList = Array(n).fill(spEl);
-    testEl.append(...spList);
+    // https://stackoverflow.com/a/37417004
+    [...Array(n)].forEach(
+        () => testEl.appendChild(spEl)
+    )
 };
 const isObject = x => {
     try {
@@ -28,15 +32,16 @@ const isObject = x => {
         return false
     };
 };
-const testObj  = (obj,depth=-4) => Object.entries(obj).map(
+const testObj  = (obj,depth=0) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
-        testSp(depth+4);
+        testSp(depth);
+        testText("- key",false);
         if (isObject(value)) {
-            testText("- " + key);
+            testBr();
             testObj(value,depth+4);
         } else {
-            testText("- " + key + " : " + value);
+            testText(" : " + value);
         };
     }
 );
