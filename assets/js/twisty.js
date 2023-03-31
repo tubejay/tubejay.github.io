@@ -19,20 +19,21 @@ const testHrLine = (n=25) => testLine("=".repeat(n));
 const testBrLine = () => testHrLine(0);
 
 // append entry
-const objectMaxKeyLength = obj => Math.max(
-    ...Object.keys(ojb).map(
+const objectMaxKeyLength = obj => {
+    keyLengths = Object.keys(ojb).map(
         key => key.length
-    )
-);
-const testEntryText = (entry,length=0) => {
-    const [key,value] = entry;
-    return `${ length>0 ? key.padEnd(length) : key } : ${value}`;
+    );
+    return Math.max(keyLengths);
 };
-const testSubEntryText = (entry,length=0) => {
+const testEntryText = (entry,length=null) => {
+    const [key,value] = entry;
+    return `${ !length ? key.padEnd(length) : key } : ${value}`;
+};
+const testSubEntryText = (entry,length=null) => {
     const entryText = testEntryText(entry,length);
     return `- ${ entryText }`;
 };
-const testEntry = (entry,length=0) => {
+const testEntry = (entry,length=null) => {
     const [key,value] = entry;
     // value : not object
     if (typeof value !== "object") {
@@ -59,7 +60,6 @@ const testNodeList = els => els.forEach(
     el => {
         const elObj = {};
         const elName = el.nodeName;
-        const elText = el.textContent;
         elObj["nodeName"] = elName;
         testObject(elObj);
     }
@@ -72,19 +72,19 @@ const testAttrs = (el,hrbr=true) => {
     testHrLine();
     // string
     if (typeof el === "string") {
-        testLine("string");
+        testLine("type : string");
         testLine(el);
     // nodelist
     } else if (el instanceof NodeList) {
-        testLine("NodeList");
+        testLine("type : NodeList");
         testNodeList(el);
     // object
     } else if (typeof el === "object") {
-        testLine("object");
+        testLine("type : object");
         testObject(el);
     // else
     } else {
-        testLine("else");
+        testLine("type : else");
         testLine(el);
     };
     // hrbr
