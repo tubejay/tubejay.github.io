@@ -72,18 +72,23 @@ const testAttrs = (el,hrbr=true) => {
     testHrLine();
     // string
     if (typeof el === "string") {
+        testLine("string");
         testLine(el);
     // nodelist
     } else if (el instanceof NodeList) {
+        testLine("NodeList");
         testNodeList(el);
     // object
     } else if (typeof el === "object") {
+        testLine("object");
         testObject(el);
+    // else
     } else {
+        testLine("else");
         testLine(el);
     };
     // hrbr
-    hrbr ? [testHrLine(),testBrLine()] : "";
+            hrbr ? [testHrLine(),testBrLine()] : "";
 };
 const testTitle = text => testAttrs(text,false);
 
