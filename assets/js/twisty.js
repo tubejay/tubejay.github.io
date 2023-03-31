@@ -28,7 +28,7 @@ const testObj      = obj => Object.keys(obj).map(
         "- " + textPadRight( key , objMaxKeyLength(obj) ) + " : " + obj[key]
     )
 );
-const testNodeList = nodelist => Array.prototype.slice.call(nodelist).forEach(
+const testNodeList = nodelist => nodelist.forEach(
     node => {
         testText( "node       : " + node );
         testText( "- nodeName : " + node.nodeName );
@@ -115,8 +115,8 @@ queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
 
 testHr();
-testNodeList("playerEls");
-testObj(playerEls);
+testText("playerEls");
+testNodeList(playerEls);
 testHr();
 testBr()
 
