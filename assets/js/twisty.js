@@ -9,11 +9,11 @@ const testEl = document.querySelector("#test");
 
 // append line
 const testLine = el => {
+    // append
+    testEl.append(el);
     // new line
     const br = document.createElement("br");
     testEl.appendChild(br);
-    // append
-    testEl.append(el);
 };
 const testHrLine = (n=25) => testLine("=".repeat(n));
 const testBrLine = () => testHrLine(0);
@@ -53,11 +53,10 @@ const testNodeList = els => els.forEach(
     }
 );
 
-const testAttrs = el => {
+const testAttrs = (el,hrbr=true) => {
     // testEl exception
     if (!testEl) {return null}
-    // start
-    testBrLine();
+    // hr
     testHrLine();
     // string
     if (typeof el === "string") {
@@ -71,9 +70,22 @@ const testAttrs = el => {
     } else {
         testLine(el);
     };
-    // end
-    testHrLine();
+    // hrbr
+    hrbr ? [testHrLine(),testBrLine()] : "";
 };
+const testTitle = text => testAttrs(text,false);
+
+// https://logical-code.tistory.com/102
+const testTitleAttrs = text => {
+    // title
+    testTitle(text);
+    // attrs
+    const attrsTest = `testAttrs("${text}")`;
+    const attrsFunction = new Function(attrsTest);
+    attrsFunction();
+};
+
+
 
 testAttrs("test starts");
 
@@ -132,13 +144,25 @@ const setStElAttrs = (el,stAttrs,elAttrs) => {
 
 
 /////////////////////////
+///// let queryText
+/////////////////////////
+
+let queryText = "";
+
+
+
+
+
+/////////////////////////
 ///// player elements
 /////////////////////////
 ///// tag : twisty-player
 /////////////////////////
 
-const playerEls = document.querySelectorAll("twisty-player");
-testAttrs(playerEls);
+queryText       = "twisty-player";
+const playerEls = document.querySelectorAll(queryText);
+
+testTitleAttrs("playerEls");
 
 
 
@@ -162,10 +186,9 @@ const comElAttrs = {
     "tempo-scale"      : "1.3"  ,
     "visualization"    : "PG3D"
 };
-testAttrs({
-    style   : comStAttrs ,
-    element : comElAttrs
-});
+
+testTitleAttrs("comStAttrs");
+testTitleAttrs("comElAttrs");
 
 // set attr for every player
 playerEls.forEach(
@@ -187,9 +210,12 @@ playerEls.forEach(
 ///// attr : puzzle
 /////////////////////////
 
-const cubeEl = document.querySelector("#cube");
-const cubePz = cubeEl.getAttribute("puzzle");
-testAttrs(cubePz);
+queryText    = "#cube";
+const cubeEl = document.querySelector(queryText);
+queryText    = "puzzle";
+const cubePz = cubeEl.getAttribute(queryText);
+
+testTitleAttrs("cubePz");
 
 
 
@@ -248,7 +274,7 @@ const createStyleElementAttrs = arr => {
 // -> [puzzle,attrs]
 const preInfoEntryToInfoEntry = (preInfoEntry,entryMap) => {
     const [puzzle,arr] = entryMap(...preInfoEntry);
-    const attrs = createStyleElementAttrs(arr);
+    const attrs        = createStyleElementAttrs(arr);
     return [puzzle,attrs];
 };
 // preInfo
@@ -342,44 +368,6 @@ const preInfoEntries = [
     preInfoEntryTetraFace
 ];
 const infoByPz = preInfoEntriesToInfo(preInfoEntries);
-testAttrs(infoByPz);
-
-/*
-const infoByPz = {
-    "NxNxN / 2x2x2" : createStyleShortAttrs(
-        200,180,
-        "2x2x2"
-    ),
-    "NxNxN / 4x4x4" : createStyleShortAttrs(
-        260,250,
-        "4x4x4"
-    ),
-    "NxNxN / 5x5x5" : createStyleShortAttrs(
-        300,300,
-        "5x5x5"
-    ),
-    "NxNxN / 6x6x6" : createStyleShortAttrs(
-        340,350,
-        "6x6x6"
-    ),
-    "NxNxN / 7x7x7" : createStyleShortAttrs(
-        380,400,
-        "7x7x7"
-    ),
-    "tetra / face / 2x2" : createStyleLongAttrs(
-        250,200,
-        "t f 0",30,0
-    ),
-    "tetra / face / 3x3" : createStyleShortAttrs(
-        250,200,
-        "pyraminx"
-    ),
-    "tetra / face / 4x4" : createStyleLongAttrs(
-        300,250,
-        "t v 0 v 1 v 2",30,0
-    ),
-};
-*/
 
 
 
@@ -394,12 +382,14 @@ const infoByPz = {
 
 // puzzle info
 const pzInfo = infoByPz[cubePz];
-testAttrs(pzInfo);
 
 // style attr
 const pzStAttrs = pzInfo["style"];
 // element attr
 const pzElAttrs = pzInfo["element"];
+
+testTitleAttrs("pzStAttrs");
+testTitleAttrs("pzElAttrs");
 
 
 
@@ -440,7 +430,8 @@ const pzComAttrsEntry = pzComAttrsName.map(
     attrName => [attrName,cubeEl.getAttribute(attrName)]
 );
 const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
-testAttrs(pzComAttrs);
+
+testTitleAttrs("pzComAttrs");
 
 
 
