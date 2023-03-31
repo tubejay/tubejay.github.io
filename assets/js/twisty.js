@@ -19,11 +19,11 @@ const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
 // https://um-sal.tistory.com/9
 const testSp   = (n=1) => {
-    const spEl   = document.createTextNode("\u00a0");
+    // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
+    const spEl   = document.createTextNode("\u0020");
     // https://stackoverflow.com/a/37417004
     [...Array(n)].forEach(
-        // () => testEl.appendChild(spEl)
-        () => testEl.append("_")
+        () => testEl.appendChild(spEl)
     )
 };
 const isObject = x => {
@@ -40,9 +40,10 @@ const testObj  = (obj,depth=0) => Object.entries(obj).map(
         testText("-" + key,false);
         if (isObject(value)) {
             testBr();
-            testObj(value,depth+4);
+            testObj(value,depth+1);
         } else {
-            testText(" : " + value);
+            testSp(1);
+            testText(": " + value);
         };
     }
 );
