@@ -17,6 +17,8 @@ const testText = (text,useBr=true) => {
 };
 const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
+// https://stackoverflow.com/a/4503044
+testEl.setAttribute("white-space","pre");
 // https://um-sal.tistory.com/9
 const testSp   = (n=1) => {
     // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
