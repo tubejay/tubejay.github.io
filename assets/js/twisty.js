@@ -15,17 +15,18 @@ const testText = (text,useBr=true) => {
         testEl.appendChild(br);
     };
 };
-const testHr   = (n=30) => testText( "=".repeat(n) );
-const testBr   = () => testHr(n=0);
+const testHr = (n=30) => testText( "=".repeat(n) );
+const testBr = () => testHr(n=0);
 // https://stackoverflow.com/a/4503044
 testEl.setAttribute("white-space","pre");
-// https://um-sal.tistory.com/9
-const testSp   = (n=0,letter="--") => {
-    // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
-    const spEl = document.createTextNode(letter);
-    // https://stackoverflow.com/a/37417004
-    [...Array(n)].forEach( () => testEl.appendChild(spEl) )
-};
+// https://stackoverflow.com/a/37417004
+const testSp = n => [...Array(n)].forEach(
+    // https://um-sal.tistory.com/9
+    () => testEl.appendChild(
+        // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
+        document.createTextNode("\u00a0")
+    )
+);
 const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
