@@ -15,24 +15,26 @@ const testText = text => {
 };
 const testHr   = (n=30) => testText( "=".repeat(n) );
 const testBr   = () => testHr(n=0);
-const objMaxKeyLength = obj => {
-    const keyLengths   = Object.keys(obj).map(
-        key => key.length
-    );
-    const maxKeyLength = Math.max(...keyLengths);
-    return maxKeyLength;
+const isObject = x => {
+    try {
+        return x.constructor===Object
+    } catch {
+        return false
+    };
 };
-const textPadRight = (text,n) => ( text + " ".repeat(n) ).slice(0,n);
-const testObj      = obj => Object.keys(obj).map(
-    key => testText(
-        "- " + textPadRight( key , objMaxKeyLength(obj) ) + " : " + obj[key]
-    )
+const testObj  = (obj,depth=1) => Object.entries(obj).map(
+    entry => {
+        const [key,value] = entry;
+        if (isObject(value)) {
+            testText( "-".repeat(depth) + " " + key );
+            testObj(value,depth+1);
+        } else {
+            testText( "-".repeat(depth) + " " + key + " : " + value );
+        };
+    }
 );
 const testNodeList = nodelist => nodelist.forEach(
-    node => {
-        testText( "node       : " + node );
-        testText( "- nodeName : " + node.nodeName );
-    }
+    node => testText( "- nodeName : " + node.nodeName )
 );
 
 // test check
@@ -372,11 +374,8 @@ const pzStAttrs = pzInfo["style"];
 const pzElAttrs = pzInfo["element"];
 
 testHr();
-testText("pzStAttrs");
-testObj(pzStAttrs);
-testHr();
-testText("pzElAttrs");
-testObj(pzElAttrs);
+testText("pzInfo");
+testObj(pzInfo);
 testHr();
 testBr();
 
