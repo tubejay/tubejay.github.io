@@ -54,12 +54,10 @@ const testNodeList = (nodelist,depth=2) => nodelist.forEach(
     }
 );
 const testArray = (arr,depth=2) => {
-    const indexMaxLength = String(arr.length).length
     arr.forEach(
         (value,index) => {
             testSp(depth);
-            testTextPadRight(index,indexMaxLength);
-            testText( " : " + value );
+            testText( index + " : " + value );
         }
     )
 };
