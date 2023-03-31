@@ -22,7 +22,8 @@ const testSp   = (n=1) => {
     const spEl   = document.createTextNode("\u00a0");
     // https://stackoverflow.com/a/37417004
     [...Array(n)].forEach(
-        () => testEl.appendChild(spEl)
+        // () => testEl.appendChild(spEl)
+        () => testEl.append("_")
     )
 };
 const isObject = x => {
@@ -36,7 +37,7 @@ const testObj  = (obj,depth=0) => Object.entries(obj).map(
     entry => {
         const [key,value] = entry;
         testSp(depth);
-        testText("- key",false);
+        testText("-" + key,false);
         if (isObject(value)) {
             testBr();
             testObj(value,depth+4);
