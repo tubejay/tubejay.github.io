@@ -61,14 +61,19 @@ const testArray = (arr,depth=2) => arr.forEach(
 );
 const testElement = (el,depth=2) => {
     const attrArray = Array.from(el.attributes);
+    const nameLengthMax = arrayMaxLength(
+        attrArray.map(attr => attr.name)
+    );
     attrArray.forEach(
         attr => {
             testSp(depth);
-            testText( "- " + attr.name + " : " + attr.value );
+            testText( "- " , false );
+            testTextPadRight( attr.name , nameLengthMax );
+            testText( " : " + attr.value );
         }
     );
 };
-const testObj  = (obj,depth=2) => {
+const testObj = (obj,depth=2) => {
     const keyLengthMax = arrayMaxLength(Object.keys(obj));
     Object.entries(obj).map(
         entry => {
