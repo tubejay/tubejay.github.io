@@ -339,27 +339,26 @@ const preSetToInfo = preSet => {
 /////////////////////////
 ///// info by puzzle
 /////////////////////////
-///// style + short
-///// style + long
+///// preInfo
+///// entryMap
+///// push
 /////////////////////////
 
 let infoArray = [];
 
-// {text:array}
-// text  : "2x2x2"
-// array : [width,height]
+// NNN
 const preInfoNNN = {
-    "2x2x2" : [200,180] ,
-    "4x4x4" : [260,250] ,
-    "5x5x5" : [300,300] ,
-    "6x6x6" : [340,350] ,
-    "7x7x7" : [380,400]
+    // "2x2x2" : [width,height]
+    "2x2x2"    : [200,180] ,
+    "4x4x4"    : [260,250] ,
+    "5x5x5"    : [300,300] ,
+    "6x6x6"    : [340,350] ,
+    "7x7x7"    : [380,400]
 };
-// [text,array] -> [puzzle,arr]
 const entryMapNNN = (text,array) => {
-    // puzzle : "NxNxN / 2x2x2"
+    // "NxNxN / 2x2x2"
     const puzzle = "NxNxN / " + text;
-    // arr : [width,height,"2x2x2"]
+    // [width,height,"2x2x2"]
     const arr = [ ...array , text ];
     // return
     return [puzzle,arr];
@@ -368,31 +367,19 @@ const preSetNNN = [ preInfoNNN , entryMapNNN ];
 const infoNNN   = preSetToInfo(preSetNNN);
 infoArray.push(infoNNN);
 
-// testHr();
-// testText("preInfoNNN");
-// testObj(preInfoNNN);
-// testHr();
-// testText("infoNNN");
-// testObj(infoNNN);
-// testHr();
-// testBr();
-
-// {text:array}
-// text  : "3x3"
-// array : short : [width,height,puzzle]
-// array : long  : [width,height,pzdesc,latitude,longitude]
+// TetraFace
 const preInfoTetraFace = {
-    // short
-    "3x3" : [ 250,200,      "pyraminx"              ] ,
-    // long
-    "2x2" : [ 250,200,      "t f 0"         ,30,0   ] ,
-    "4x4" : [ 300,250,      "t v 0 v 1 v 2" ,30,0   ]
+    // "3x3" : [width,height,puzzle]
+    "3x3"    : [250,200,"pyraminx"          ] ,
+    // "2x2" : [width,height,pzdesc,latitude,longitude]
+    "2x2"    : [250,200,"t f 0"        ,30,0] ,
+    "4x4"    : [300,250,"t v 0 v 1 v 2",30,0]
 };
-// [text,array] -> [puzzle,arr]
 const entryMapTetraFace = (text,array) => {
-    // puzzle : "tetra / face / 2x2"
+    // "tetra / face / 2x2"
     const puzzle = "tetra / face / " + text;
-    // arr : array
+    // [width,height,puzzle]
+    // [width,height,pzdesc,latitude,longitude]
     const arr = array;
     // return
     return [puzzle,arr]
@@ -401,14 +388,23 @@ const preSetTetraFace = [ preInfoTetraFace , entryMapTetraFace ];
 const infoTetraFace   = preSetToInfo(preSetTetraFace);
 infoArray.push(infoTetraFace);
 
-// testHr();
-// testText("preInfoTetraFace");
-// testObj(preInfoTetraFace);
-// testHr();
-// testText("infoTetraFace");
-// testObj(infoTetraFace);
-// testHr();
-// testBr();
+// TetraEdge
+const preInfoTetraEdge = {
+    // "2x2" : [width,height,pzdesc,latitude,longitude,alg]
+    "2x2"    : [200,180,"t e 0"                ,30,0,""] ,
+    "3x3"    : [300,250,"t e 0.346184634065199",30,0,""]
+};
+const entryMapTetraEdge = (text,array) => {
+    // "tetra / edge / 2x2"
+    const puzzle = "tetra / edge / " + text;
+    // [width,height,pzdesc,latitude,longitude,alg]
+    const arr = array;
+    // return
+    return [puzzle,arr];
+};
+const preSetTetraEdge = [ preInfoTetraEdge , entryMapTetraEdge ];
+const infoTetraEdge   = preSetToInfo(preSetTetraEdge);
+infoArray.push(infoTetraEdge);
 
 
 
@@ -432,9 +428,6 @@ const infoCollect = Object.assign(
 // select puzzle info
 const infoSelect = infoCollect[cubePz];
 
-// testHr();
-// testText("infoCollect");
-// testObj(infoCollect);
 testHr();
 testText("infoSelect");
 testObj(infoSelect);

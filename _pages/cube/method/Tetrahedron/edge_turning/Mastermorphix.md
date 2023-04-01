@@ -5,20 +5,20 @@ toc: true
 permalink: /cube/method/tetrahedron/edge_turning/mastermorphix
 published: true
 hidden: false
+twisty: true
+puzzle: "tetra / edge / 3x3"
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"  >
+</span>
+<div id="test"></div>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Tetrahedron/Mastermorphix.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -35,19 +35,7 @@ hidden: false
 
 - [Fisher / Method](/cube/method/NxNxN/modification/fisher#method)
 
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "t e 0.346184634065199"
-      camera-latitude                 = 30
-      camera-longitude                = 0
-      experimental-stickering         = "full"
-      alg                             = ""
-      experimental-setup-alg          = "FD FR FL LR RD LD FD FL FR LR LD"
-      experimental-setup-anchor       = "start"
-    ></twisty-player>
-  </div>
+  <twisty-player></twisty-player>
 
 
 

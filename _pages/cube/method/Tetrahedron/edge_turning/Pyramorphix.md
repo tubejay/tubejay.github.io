@@ -5,20 +5,20 @@ toc: true
 permalink: /cube/method/tetrahedron/edge_turning/pyramorphix
 published: true
 hidden: false
+twisty: true
+puzzle: "tetra / edge / 2x2"
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end"  >
+</span>
+<div id="test"></div>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Tetrahedron/Pyramorphix.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -35,21 +35,7 @@ hidden: false
 
 - [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
 
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "t e 0"
-      camera-latitude                 = 30
-      camera-longitude                = 0
-      experimental-stickering         = "full"
-      alg                             = ""
-      experimental-setup-alg          = "FR LR FL FR"
-      experimental-setup-anchor       = "start"
-      tempo-scale                     = "1.3"
-      viewer-link                     = "experimental-twizzle-explorer"
-    ></twisty-player>
-  </div>
+  <twisty-player></twisty-player>
 
 
 
