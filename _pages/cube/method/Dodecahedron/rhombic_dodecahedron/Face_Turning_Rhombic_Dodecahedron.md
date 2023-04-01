@@ -1,8 +1,8 @@
 ---
-title: "Face Turning Rhombic Dodecahedron"
+title: "Face Turning Rhombic Dodecahedron (Rua)"
 layout: single
 toc: true
-permalink: /cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron
+permalink: /cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron_rua
 published: true
 hidden: false
 ---
@@ -21,4 +21,4 @@ hidden: false
 
 
 
-## [Method](/cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron/method)
+## [Method](/cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron_rua/method)

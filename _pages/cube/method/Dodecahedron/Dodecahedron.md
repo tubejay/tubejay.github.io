@@ -37,7 +37,7 @@ hidden: false
 - [Skewb Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/skewb_rhombic_dodecahedron)
 - [3x3x3 Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/3x3x3_rhombic_dodecahedron)
 - [4x4x4 Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/4x4x4_rhombic_dodecahedron)
-- [Face Turning Rhombic Dodecahedron](/cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron)
+- [Face Turning Rhombic Dodecahedron (Rua)](/cube/method/dodecahedron/rhombic_dodecahedron/face_turning_rhombic_dodecahedron_rua)
 
 
 
