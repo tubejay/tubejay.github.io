@@ -10,7 +10,10 @@ puzzle: "NxNxN / 2x2x2"
 ---
 <span
   id     = "cube"
-  puzzle = "{{page.puzzle}}" >
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "PLL"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -26,10 +29,7 @@ puzzle: "NxNxN / 2x2x2"
 - Jb Perm : ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
 
   <twisty-player
-    experimental-stickering   = "PLL"
-    alg                       = "R U2' R' U' R U2 L' U R' U' L"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "R U2' R' U' R U2 L' U R' U' L"
   ></twisty-player>
 
 
@@ -41,10 +41,7 @@ puzzle: "NxNxN / 2x2x2"
 - Y Perm : ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
 
   <twisty-player
-    experimental-stickering   = "PLL"
-    alg                       = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
   ></twisty-player>
 
 

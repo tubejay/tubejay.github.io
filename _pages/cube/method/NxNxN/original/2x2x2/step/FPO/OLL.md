@@ -10,7 +10,10 @@ puzzle: "NxNxN / 2x2x2"
 ---
 <span
   id     = "cube"
-  puzzle = "{{page.puzzle}}" >
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "LL"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -33,10 +36,7 @@ puzzle: "NxNxN / 2x2x2"
 ## Example
 
 <twisty-player
-  experimental-stickering   = "LL"
-  alg                       = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
-  experimental-setup-alg    = ""
-  experimental-setup-anchor = "end"
+  alg = "(R' D' R D)4 U (R' D' R D)4 U (R' D' R D)2 U (R' D' R D)2"
 ></twisty-player>
 
 

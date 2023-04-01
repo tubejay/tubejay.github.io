@@ -10,7 +10,10 @@ puzzle: "NxNxN / 2x2x2"
 ---
 <span
   id     = "cube"
-  puzzle = "{{page.puzzle}}" >
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "OLL"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -26,10 +29,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( L U ) ( L' U ) ( L U2 ) ( L' )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "L U L' U L U2 L'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "L U L' U L U2 L'"
   ></twisty-player>
 
 
@@ -41,10 +41,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( R' U' ) ( R U' ) ( R' U2 ) ( R )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "R' U' R U' R' U2' R"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "R' U' R U' R' U2' R"
   ></twisty-player>
 
 
@@ -56,10 +53,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( F ) ( R U R' U' ) ( F' )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "F R U R' U' F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "F R U R' U' F'"
   ></twisty-player>
 
 
@@ -71,10 +65,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( F ) ( R U R' U' ) x 2 ( F' )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "F (R U R' U')2 F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "F (R U R' U')2 F'"
   ></twisty-player>
 
 
@@ -86,10 +77,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( F ) ( R U R' U' ) x 3 ( F' )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "F (R U R' U')3 F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "F (R U R' U')3 F'"
   ></twisty-player>
 
 
@@ -101,10 +89,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( R U ) ( R' U' ) ( R' F ) ( R F' )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "R U R' U' R' F R F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "R U R' U' R' F R F'"
   ></twisty-player>
 
 
@@ -116,10 +101,7 @@ puzzle: "NxNxN / 2x2x2"
 - ( F' ) ( R U R' U' ) ( R' F R )
 
   <twisty-player
-    experimental-stickering   = "OLL"
-    alg                       = "F' R U R' U' R' F R"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "F' R U R' U' R' F R"
   ></twisty-player>
 
 

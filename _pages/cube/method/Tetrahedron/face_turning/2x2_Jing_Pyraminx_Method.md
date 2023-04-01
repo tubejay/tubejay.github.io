@@ -13,7 +13,7 @@ puzzle: "tetra / face / 2x2"
   puzzle = "{{page.puzzle}}"
   experimental-stickering   = "full"
   experimental-setup-alg    = ""
-  experimental-setup-anchor = "end"  >
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>

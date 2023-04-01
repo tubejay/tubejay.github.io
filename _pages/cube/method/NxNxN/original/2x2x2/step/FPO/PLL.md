@@ -10,7 +10,9 @@ puzzle: "NxNxN / 2x2x2"
 ---
 <span
   id     = "cube"
-  puzzle = "{{page.puzzle}}" >
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "PLL"
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -31,10 +33,8 @@ puzzle: "NxNxN / 2x2x2"
 - ( U' L' ) ( U R ) ( U' L ) ( U R' )
 
   <twisty-player
-    experimental-stickering   = "PLL"
-    alg                       = "U' L' U R U' L U R'"
-    experimental-setup-alg    = "L U L' U L U2 L'"
-    experimental-setup-anchor = "end"
+    alg                    = "U' L' U R U' L U R'"
+    experimental-setup-alg = "L U L' U L U2 L'"
   ></twisty-player>
 
 
@@ -44,10 +44,8 @@ puzzle: "NxNxN / 2x2x2"
 - ( U R ) ( U' L' ) ( U R' ) ( U' L )
 
   <twisty-player
-    experimental-stickering   = "PLL"
-    alg                       = "U R U' L' U R' U' L"
-    experimental-setup-alg    = "R' U' R U' R' U2 R"
-    experimental-setup-anchor = "end"
+    alg                    = "U R U' L' U R' U' L"
+    experimental-setup-alg = "R' U' R U' R' U2 R"
   ></twisty-player>
 
 

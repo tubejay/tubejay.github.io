@@ -15,7 +15,6 @@ puzzle: "tetra / edge / 3x3"
   experimental-setup-alg    = "FD FR FL LR RD LD FD FL FR LR LD"
   experimental-setup-anchor = "end"  >
 </span>
-<div id="test"></div>
 
 <head>
   <base target="_blank">
