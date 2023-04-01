@@ -50,21 +50,22 @@ const isObject = x => {
 const testNodeList = (nodelist,depth=2) => nodelist.forEach(
     (node,index) => {
         testSp(depth);
-        testText( index + " : " + node.nodeName );
+        testText( "- " + index + " : " + node.nodeName );
     }
 );
-const testArray = (arr,depth=2) => {
-    arr.forEach(
-        (value,index) => {
-            testSp(depth);
-            testText( index + " : " + value );
-        }
-    )
-};
+const testArray = (arr,depth=2) => arr.forEach(
+    (value,index) => {
+        testSp(depth);
+        testText( "- " + index + " : " + value );
+    }
+);
 const testElement = (el,depth=2) => {
     const attrArray = Array.from(el.attributes);
-    attrArray.foteach(
-        attr => testText( attr.name + " : " + attr.value )
+    attrArray.foreach(
+        attr => {
+            testSp(depth);
+            testText( "- " + attr.name + " : " + attr.value );
+        }
     );
 };
 const testObj  = (obj,depth=2) => {
@@ -75,19 +76,20 @@ const testObj  = (obj,depth=2) => {
             const [key,value] = entry;
             // object
             if (isObject(value)) {
-                testText(key);
+                testText( "- " + key );
                 testObj(value,depth+2);
             // array
             } else if (Array.isArray(value)) {
-                testText(key);
+                testText( "- " + key );
                 testArray(value,depth+2);
             // element
             // https://stackoverflow.com/a/36894871
             } else if (value instanceof Element) {
-                testText(key);
+                testText( "- " + key );
                 testElement(value,depth+2);
             // else
             } else {
+                testText( "- " , false );
                 testTextPadRight( key , keyLengthMax );
                 testText( " : " + value );
             };
@@ -243,7 +245,9 @@ queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
 
 testHr();
-testText( "cubeEl : " + cubeEl );
+testText( "cubeEl" );
+testElement(cubeEl);
+testHr();
 testText( "cubePz : " + cubePz );
 testHr();
 testBr();
