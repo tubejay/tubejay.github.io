@@ -12,7 +12,7 @@ puzzle: "tetra / edge / 2x2"
   id     = "cube"
   puzzle = "{{page.puzzle}}"
   experimental-stickering   = "full"
-  experimental-setup-alg    = ""
+  experimental-setup-alg    = "FR LR FL FR"
   experimental-setup-anchor = "end"  >
 </span>
 <div id="test"></div>
