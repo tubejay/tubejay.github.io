@@ -35,7 +35,9 @@ puzzle: "tetra / edge / 2x2"
 
 - [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
 
-  <twisty-player></twisty-player>
+  <twisty-player
+    alg = ""
+  ></twisty-player>
 
 
 

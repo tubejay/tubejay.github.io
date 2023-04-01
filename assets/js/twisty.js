@@ -263,15 +263,21 @@ testBr();
 /////////////////////////
 
 // style attr
+// width
+// height
 const createStyleAttrs = (width,height) => ({
     "width"  : `${width}px`  ,
     "height" : `${height}px`
 });
 // short attr
+// puzzle
 const createShortAttrs = (puzzle) => ({
     "puzzle" : puzzle
 });
 // long attr
+// pzdesc
+// latitude
+// longitude
 const createLongAttrs = (pzdesc,latitude,longitude) => ({
     "experimental-puzzle-description"   : pzdesc    ,
     "camera-latitude"                   : latitude  ,
@@ -390,14 +396,14 @@ infoArray.push(infoTetraFace);
 
 // TetraEdge
 const preInfoTetraEdge = {
-    // "2x2" : [width,height,pzdesc,latitude,longitude,alg]
-    "2x2"    : [200,180,"t e 0"                ,30,0,""] ,
-    "3x3"    : [300,250,"t e 0.346184634065199",30,0,""]
+    // "2x2" : [width,height,pzdesc,latitude,longitude]
+    "2x2"    : [200,180,"t e 0"                ,30,0] ,
+    "3x3"    : [300,250,"t e 0.346184634065199",30,0]
 };
 const entryMapTetraEdge = (text,array) => {
     // "tetra / edge / 2x2"
     const puzzle = "tetra / edge / " + text;
-    // [width,height,pzdesc,latitude,longitude,alg]
+    // [width,height,pzdesc,latitude,longitude]
     const arr = array;
     // return
     return [puzzle,arr];

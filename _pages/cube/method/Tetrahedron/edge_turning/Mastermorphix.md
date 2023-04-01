@@ -35,7 +35,9 @@ puzzle: "tetra / edge / 3x3"
 
 - [Fisher / Method](/cube/method/NxNxN/modification/fisher#method)
 
-  <twisty-player></twisty-player>
+  <twisty-player
+    alg = ""
+  ></twisty-player>
 
 
 
