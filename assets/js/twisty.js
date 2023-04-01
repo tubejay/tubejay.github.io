@@ -477,8 +477,12 @@ playerEls.forEach( player => setStElAttrs( player , infoSelect ) );
 // except : id/puzzle
 // https://stackoverflow.com/a/53508215
 const namesExcept = ["id","puzzle"];
+const nameFilter  = entry => {
+    const [key,value] = entry;
+    return !namesExcept.includes(key)
+};
 const pzComAttrs  = Object.fromEntries(
-    Object.entries(cubeEl).filter( entry => !namesExcept.includes(entry[0]) )
+    Object.entries(cubeEl).filter( nameFilter )
 );
 
 testHr();
