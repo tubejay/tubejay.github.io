@@ -21,4 +21,6 @@ hidden: false
 
 
 
-## [Method](/cube/method/tetradecahedron/face_turning/truncated_octahedron_skewb_hex/method)
+## Method
+
+- [Skewb Diamond / Method](/cube/method/octahedron/face_turning/skewb_diamond/method)

@@ -21,4 +21,6 @@ hidden: false
 
 
 
-## [Method](/cube/method/tetradecahedron/corner_turning/vertex_turning_cuboctahedron/method)
+## Method
+
+- [Helicopter Cube / Method](/cube/method/hexahedron/copter/helicopter_cube/method)
