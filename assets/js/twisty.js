@@ -22,30 +22,23 @@ const testEl = document.querySelector(queryText);
 const testText = (text,useBr=true) => {
     if (!testEl) {return null;};
     testEl.append(text);
-    if (useBr) {
-        const br = document.createElement("br");
-        testEl.appendChild(br);
-    };
+    if (useBr) { testEl.appendChild( document.createElement("br") ); };
 };
 const testHr = (n=30) => testText( "=".repeat(n) );
 const testBr = () => testHr(n=0);
 // https://stackoverflow.com/a/37417004
 const testSp = n => {
     if (!testEl) {return null;};
-    [...Array(n)].forEach(
+    [...Array(n)].forEach( () =>
+        testEl.appendChild( document.createTextNode("\u00a0") )
         // https://um-sal.tistory.com/9
-        () => testEl.appendChild(
-            // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
-            document.createTextNode("\u00a0")
-        )
+        // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
     );
 }
 
 // function : sub
 const arrayMaxLength = arr => {
-    const arrLength = arr.map(
-        value => String(value).length
-    );
+    const arrLength = arr.map( value => String(value).length );
     return Math.max(...arrLength);
 };
 // https://www.geeksforgeeks.org/how-to-check-if-the-provided-value-is-an-object-created-by-the-object-constructor-in-javascript/
@@ -64,34 +57,25 @@ const testTextPadRight = (text,totalLength) => {
 };
 const testNodeList = (nodelist,depth=2) => {
     if (!testEl) {return null;};
-    nodelist.forEach(
-        (node,index) => {
-            testSp(depth);
-            testText( "- " + index + " : " + node.nodeName );
-        }
+    nodelist.forEach( (node,index) =>
+        [ testSp(depth) , testText( "- " + index + " : " + node.nodeName ) ]
     );
 };
 const testArray = (arr,depth=2) => {
     if (!testEl) {return null;};
-    arr.forEach(
-        (value,index) => {
-            testSp(depth);
-            testText( "- " + index + " : " + value );
-        }
+    arr.forEach( (value,index) =>
+        [ testSp(depth) ,  testText( "- " + index + " : " + value ) ]
     );
 };
 const testElement = (el,depth=2) => {
     if (!testEl) {return null;};
     const attrArray     = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
-    attrArray.forEach(
-        attr => {
-            testSp(depth);
-            testText( "- " , false );
-            testTextPadRight( attr.name , nameLengthMax );
-            testText( " : " + attr.value );
-        }
-    );
+    attrArray.forEach( attr => [
+        testSp(depth) , testText( "- " , false ) ,
+        testTextPadRight( attr.name , nameLengthMax ),
+        testText( " : " + attr.value )
+    ] );
 };
 const testObj = (obj,depth=2) => {
     if (!testEl) {return null;};
@@ -101,31 +85,28 @@ const testObj = (obj,depth=2) => {
 
             // space
             testSp(n=depth);
+
             // key,value
             const [key,value] = entry;
 
             // object
             if (isObject(value)) {
-                    testText( "- " + key );
-                    testObj(value,depth+2);
+                [ testText( "- " + key ) , testObj(value,depth+2) ]
                 
             // array
             } else if (Array.isArray(value)) {
-                    testText( "- " + key );
-                    testArray(value,depth+2);
+                [ testText( "- " + key ) , testArray(value,depth+2) ]
 
             // element
             // https://stackoverflow.com/a/36894871
             } else if (value instanceof Element) {
-                    testText( "- " + key );
-                    testElement(value,depth+2);
+                [ testText( "- " + key ) , testElement(value,depth+2) ]
 
             // else
-            } else {
-                testText( "- " , false );
-                testTextPadRight( key , keyLengthMax );
-                testText( " : " + value );
-            };
+            } else { [
+                testText( "- " , false ) , testTextPadRight( key , keyLengthMax ) ,
+                testText( " : " + value )
+            ] };
 
         }
     );
@@ -172,17 +153,12 @@ const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
 // https://stackoverflow.com/a/12274782
 const setAttrByAttrs = (el,attrs,isStyle) => {
     // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-    Object.entries(attrs).forEach(
-        attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
-    );
+    Object.entries(attrs).forEach( attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle) );
 };
 
 // set style/element attr
 const setStElAttrs = (el,StElAttrs) => [
-    // style attr
-    [ StElAttrs["style"]   , true  ] ,
-    // element attr
-    [ StElAttrs["element"] , false ]
+    [ StElAttrs["style"] , true  ] , [ StElAttrs["element"] , false ]
 ].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
 
 
@@ -247,12 +223,7 @@ testHr();
 testBr();
 
 // set common attr for every player
-playerEls.forEach(
-    player => setStElAttrs(
-        player,
-        comStElAttrs
-    )
-);
+playerEls.forEach( player => setStElAttrs( player , comStElAttrs ) );
 
 
 
@@ -376,9 +347,7 @@ const preSetToInfo = preSet => {
 
     // [preInfoEntry] -> [InfoEntry]
     // preInfoEntryToInfoEntry
-    const InfoEntries = preInfoEntries.map(
-        preInfoEntry => preInfoEntryToInfoEntry( preInfoEntry , puzzleStart )
-    );
+    const InfoEntries = preInfoEntries.map( preInfoEntry => preInfoEntryToInfoEntry( preInfoEntry , puzzleStart ) );
 
     // [InfoEntry] -> Info
     // Object.fromEntries
@@ -475,12 +444,7 @@ testBr();
 /////////////////////////
 
 // set attr for every player
-playerEls.forEach(
-    player => setStElAttrs(
-        player,
-        infoSelect
-    )
-);
+playerEls.forEach( player => setStElAttrs( player , infoSelect ) );
 
 
 
@@ -493,19 +457,13 @@ playerEls.forEach(
 ///// by page
 /////////////////////////
 
-// attr name
+// get attr
 // except : id/puzzle
 // https://stackoverflow.com/a/53508215
-const namesExcept    = ["id","puzzle"];
-const pzAttrsName    = cubeEl.getAttributeNames();
-const pzComAttrsName = pzAttrsName.filter(
-    attrName => !namesExcept.includes(attrName)
+const namesExcept = ["id","puzzle"];
+const pzComAttrs  = Object.fromEntries(
+    Object.entries(cubeEl).filter( entry => !namesExcept.includes(entry[0]) )
 );
-// attr
-const pzComAttrsEntry = pzComAttrsName.map(
-    attrName => [ attrName , cubeEl.getAttribute(attrName) ]
-);
-const pzComAttrs      = Object.fromEntries(pzComAttrsEntry);
 
 testHr();
 testText("pzComAttrs");
@@ -521,9 +479,7 @@ testBr();
 
 // set attr for every player
 // isStyle : false
-playerEls.forEach(
-    player => setAttrByAttrs( player , pzComAttrs , false )
-);
+playerEls.forEach( player => setAttrByAttrs( player , pzComAttrs , false ) );
 
 
 
