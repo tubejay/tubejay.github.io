@@ -61,6 +61,12 @@ const testArray = (arr,depth=2) => {
         }
     )
 };
+const testElement = (el,depth=2) => {
+    const attrArray = Array.from(el.attributes);
+    attrArray.foteach(
+        attr => testText( attr.name + " : " + attr.value )
+    );
+};
 const testObj  = (obj,depth=2) => {
     const keyLengthMax = arrayMaxLength(Object.keys(obj));
     Object.entries(obj).map(
@@ -75,6 +81,12 @@ const testObj  = (obj,depth=2) => {
             } else if (Array.isArray(value)) {
                 testText(key);
                 testArray(value,depth+2);
+            // element
+            // https://stackoverflow.com/a/36894871
+            } else if (value instanceof Element) {
+                testText(key);
+                testElement(value,depth+2);
+            // else
             } else {
                 testTextPadRight( key , keyLengthMax );
                 testText( " : " + value );
