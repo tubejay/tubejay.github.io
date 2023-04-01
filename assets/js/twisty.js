@@ -61,7 +61,7 @@ const testArray = (arr,depth=2) => arr.forEach(
 );
 const testElement = (el,depth=2) => {
     const attrArray = Array.from(el.attributes);
-    attrArray.foreach(
+    attrArray.forEach(
         attr => {
             testSp(depth);
             testText( "- " + attr.name + " : " + attr.value );
