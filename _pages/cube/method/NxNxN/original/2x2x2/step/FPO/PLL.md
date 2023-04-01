@@ -8,7 +8,10 @@ hidden: false
 twisty: true
 puzzle: "NxNxN / 2x2x2"
 ---
-<span id="cube" puzzle="{{page.puzzle}}"></span>
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}" >
+</span>
 
 <head>
   <base target="_blank">

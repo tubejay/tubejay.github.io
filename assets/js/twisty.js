@@ -103,10 +103,10 @@ const testObj = (obj,depth=2) => {
 };
 
 // test check
-testHr();
-testText("test");
-testHr();
-testBr();
+// testHr();
+// testText("test");
+// testHr();
+// testBr();
 
 
 
@@ -146,23 +146,6 @@ const setStElAttrs = (el,stAttrs,elAttrs) => [
     // isStyle : false
     [elAttrs,false]
 ].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
-
-/*
-    // stAttrs
-    // isStyle : true
-    setAttrByAttrs(
-        el      ,
-        stAttrs ,
-        true
-    );
-    // elAttrs
-    // isStyle : false
-    setAttrByAttrs(
-        el      ,
-        elAttrs ,
-        false
-    );
-*/
 
 
 
@@ -373,14 +356,14 @@ const preSetNNN = [ preInfoNNN , entryMapNNN ];
 const infoNNN   = preSetToInfo(preSetNNN);
 infoArray.push(infoNNN);
 
-testHr();
-testText("preInfoNNN");
-testObj(preInfoNNN);
-testHr();
-testText("infoNNN");
-testObj(infoNNN);
-testHr();
-testBr();
+// testHr();
+// testText("preInfoNNN");
+// testObj(preInfoNNN);
+// testHr();
+// testText("infoNNN");
+// testObj(infoNNN);
+// testHr();
+// testBr();
 
 // {text:array}
 // text  : "3x3"
@@ -406,14 +389,14 @@ const preSetTetraFace = [ preInfoTetraFace , entryMapTetraFace ];
 const infoTetraFace   = preSetToInfo(preSetTetraFace);
 infoArray.push(infoTetraFace);
 
-testHr();
-testText("preInfoTetraFace");
-testObj(preInfoTetraFace);
-testHr();
-testText("infoTetraFace");
-testObj(infoTetraFace);
-testHr();
-testBr();
+// testHr();
+// testText("preInfoTetraFace");
+// testObj(preInfoTetraFace);
+// testHr();
+// testText("infoTetraFace");
+// testObj(infoTetraFace);
+// testHr();
+// testBr();
 
 
 
@@ -437,9 +420,9 @@ const infoCollect = Object.assign(
 // select puzzle info
 const infoSelect = infoCollect[cubePz];
 
-testHr();
-testText("infoCollect");
-testObj(infoCollect);
+// testHr();
+// testText("infoCollect");
+// testObj(infoCollect);
 testHr();
 testText("infoSelect");
 testObj(infoSelect);
