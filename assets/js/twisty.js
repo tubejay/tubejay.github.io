@@ -9,6 +9,7 @@ const testEl = document.querySelector("#test");
 
 // function : basic
 const testText = (text,useBr=true) => {
+    if (!testEl) {return null;};
     testEl.append(text);
     if (useBr) {
         const br = document.createElement("br");
@@ -20,14 +21,16 @@ const testBr = () => testHr(n=0);
 // https://stackoverflow.com/a/4503044
 // testEl.setAttribute("white-space","pre");
 // https://stackoverflow.com/a/37417004
-const testSp = n => [...Array(n)].forEach(
-    // https://um-sal.tistory.com/9
-    () => testEl.appendChild(
-        // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
-        document.createTextNode("\u00a0")
-    )
-);
-
+const testSp = n => {
+    if (!testEl) {return null;};
+    [...Array(n)].forEach(
+        // https://um-sal.tistory.com/9
+        () => testEl.appendChild(
+            // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
+            document.createTextNode("\u00a0")
+        )
+    );
+}
 // function : format
 const arrayMaxLength = arr => {
     const arrLength = arr.map(
@@ -36,6 +39,7 @@ const arrayMaxLength = arr => {
     return Math.max(...arrLength);
 };
 const testTextPadRight = (text,totalLength) => {
+    if (!testEl) {return null;};
     testText(text,false);
     const textLength = text.length;
     const countPad   = totalLength - textLength;
@@ -47,19 +51,26 @@ const isObject = x => {
     try     { return x.constructor===Object }
     catch   { return false                  };
 };
-const testNodeList = (nodelist,depth=2) => nodelist.forEach(
-    (node,index) => {
-        testSp(depth);
-        testText( "- " + index + " : " + node.nodeName );
-    }
-);
-const testArray = (arr,depth=2) => arr.forEach(
-    (value,index) => {
-        testSp(depth);
-        testText( "- " + index + " : " + value );
-    }
-);
+const testNodeList = (nodelist,depth=2) => {
+    if (!testEl) {return null;};
+    nodelist.forEach(
+        (node,index) => {
+            testSp(depth);
+            testText( "- " + index + " : " + node.nodeName );
+        }
+    );
+};
+const testArray = (arr,depth=2) => {
+    if (!testEl) {return null;};
+    arr.forEach(
+        (value,index) => {
+            testSp(depth);
+            testText( "- " + index + " : " + value );
+        }
+    );
+};
 const testElement = (el,depth=2) => {
+    if (!testEl) {return null;};
     const attrArray = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength(
         attrArray.map(attr => attr.name)
@@ -74,6 +85,7 @@ const testElement = (el,depth=2) => {
     );
 };
 const testObj = (obj,depth=2) => {
+    if (!testEl) {return null;};
     const keyLengthMax = arrayMaxLength(Object.keys(obj));
     Object.entries(obj).map(
         entry => {
