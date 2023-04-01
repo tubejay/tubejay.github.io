@@ -25,6 +25,8 @@ hidden: false
 
 ## [Dodecahedron](/cube/method/dodecahedron)
 
+## [Tetradecahedron](/cube/method/tetradecahedron)
+
 ## [Icosahedron](/cube/method/icosahedron)
 
 ## [Gear](/cube/method/gear)
