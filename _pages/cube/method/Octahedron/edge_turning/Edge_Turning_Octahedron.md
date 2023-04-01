@@ -21,4 +21,4 @@ hidden: false
 
 
 
-## [Method](/cube/method/octahedron/face_turning/edge_turning_octahedron/method)
+## [Method](/cube/method/octahedron/edge_turning/edge_turning_octahedron/method)

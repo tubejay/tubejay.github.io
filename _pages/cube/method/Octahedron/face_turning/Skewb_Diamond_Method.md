@@ -5,20 +5,20 @@ toc: true
 permalink: /cube/method/octahedron/face_turning/skewb_diamond/method
 published: true
 hidden: false
+twisty: true
+puzzle: "octa / face / 2x2"
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
+</span>
+<div id="test"></div>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Octahedron/Skewb_Diamond.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -26,17 +26,7 @@ hidden: false
 ## Method
 
 <twisty-player
-  dark-mode                       = "dark"
-  background                      = "none"
-  experimental-puzzle-description = "o f 0"
-  camera-latitude                 = "-30"
-  camera-longitude                = 0
-  experimental-stickering         = "full"
-  alg                             = ""
-  experimental-setup-alg          = ""
-  experimental-setup-anchor       = "end"
-  tempo-scale                     = "1.3"
-  viewer-link                     = "experimental-twizzle-explorer"
+  alg = ""
 ></twisty-player>
 
 

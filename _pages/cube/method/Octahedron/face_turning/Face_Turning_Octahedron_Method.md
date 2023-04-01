@@ -5,38 +5,30 @@ toc: true
 permalink: /cube/method/octahedron/face_turning/face_turning_octahedron/method
 published: true
 hidden: false
+twisty: true
+puzzle: "octa / face / 3x3"
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
+</span>
+<div id="test"></div>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Octahedron/Face_Turning_Octahedron.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
 
 ## Method
 
+<!-- camera-latitude           = "-30" -->
+<!-- camera-longitude          = 0 -->
 <twisty-player
-  dark-mode                 = "dark"
-  background                = "none"
-  puzzle                    = "fto"
-  camera-latitude           = "-30"
-  camera-longitude          = 0
-  experimental-stickering   = "full"
-  alg                       = ""
-  experimental-setup-alg    = ""
-  experimental-setup-anchor = "end"
-  tempo-scale               = "1.3"
-  viewer-link               = "twizzle"
+  alg = ""
 ></twisty-player>
 
 

@@ -402,8 +402,8 @@ const preSetArray = [
     // tetra / face
     [
         {
-            "3x3" : [250,200,"pyraminx"          ] ,
             "2x2" : [250,200,"t f 0"        ,30,0] ,
+            "3x3" : [250,200,"pyraminx"          ] ,
             "4x4" : [300,250,"t v 0 v 1 v 2",30,0]
         },
         "tetra / face / "
@@ -416,12 +416,28 @@ const preSetArray = [
             "3x3" : [300,250,"t e 0.346184634065199",30,0]
         },
         "tetra / edge / "
+    ],
+
+    // octa / face
+    [
+        {
+            "2x2" : [200,180,"o f 0"      ,-30,0] ,
+            "3x3" : [250,250,"fto"              ] ,
+            "4x4" : [300,300,"o f 0.5 f 0",-30,0]
+        },
+        "octa / face / "
     ]
 
 ];
 
 // preSetArray -> infoCollect
 const infoCollect = preSetArrayToInfoCollect(preSetArray);
+
+testHr();
+testText("infoCollect");
+testObj(infoCollect);
+testHr();
+testBr();
 
 
 
