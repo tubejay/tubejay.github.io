@@ -36,6 +36,6 @@ teston: false
 
 - [Icosamate / Method](/cube/method/icosahedron/corner_turning/icosamate/method)
 
-<twisty-player
-  alg = ""
-></twisty-player>
+  <twisty-player
+    alg = ""
+  ></twisty-player>
