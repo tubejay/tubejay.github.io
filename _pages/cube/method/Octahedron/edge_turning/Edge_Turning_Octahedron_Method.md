@@ -5,8 +5,14 @@ toc: true
 permalink: /cube/method/octahedron/edge_turning/edge_turning_octahedron/method
 published: true
 hidden: false
+twisty: true
+teston: false
 ---
-<!-- <div id="test"></div> -->
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}" >
+</span>
 
 <head>
   <base target="_blank">
