@@ -15,6 +15,7 @@ puzzle: "tetra / face / 4x4"
   experimental-setup-alg    = ""
   experimental-setup-anchor = "end" >
 </span>
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

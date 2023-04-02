@@ -6,6 +6,7 @@ permalink: /cube/method/octahedron/edge_turning/edge_turning_octahedron/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

@@ -6,6 +6,7 @@ permalink: /cube/method/dodecahedron/star/helicopter_dodecahedron/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

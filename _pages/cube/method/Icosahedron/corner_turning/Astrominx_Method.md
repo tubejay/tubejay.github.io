@@ -6,6 +6,7 @@ permalink: /cube/method/icosahedron/corner_turning/astrominx/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

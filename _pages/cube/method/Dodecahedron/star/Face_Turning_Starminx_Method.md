@@ -6,6 +6,7 @@ permalink: /cube/method/dodecahedron/star/face_turning_starminx/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

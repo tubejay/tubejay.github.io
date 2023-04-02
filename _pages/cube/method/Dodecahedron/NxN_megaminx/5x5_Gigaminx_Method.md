@@ -6,6 +6,7 @@ permalink: /cube/method/dodecahedron/NxN_megaminx/5x5_gigaminx/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

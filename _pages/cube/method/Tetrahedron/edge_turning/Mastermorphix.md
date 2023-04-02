@@ -13,8 +13,9 @@ puzzle: "tetra / edge / 3x3"
   puzzle = "{{page.puzzle}}"
   experimental-stickering   = "full"
   experimental-setup-alg    = "FD FR FL LR RD LD FD FL FR LR LD"
-  experimental-setup-anchor = "end"  >
+  experimental-setup-anchor = "end" >
 </span>
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

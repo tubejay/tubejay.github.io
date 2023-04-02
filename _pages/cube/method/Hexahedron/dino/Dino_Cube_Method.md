@@ -6,6 +6,7 @@ permalink: /cube/method/hexahedron/dino/dino_cube/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">

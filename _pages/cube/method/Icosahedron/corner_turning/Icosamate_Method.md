@@ -6,6 +6,7 @@ permalink: /cube/method/icosahedron/corner_turning/icosamate/method
 published: true
 hidden: false
 ---
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">
