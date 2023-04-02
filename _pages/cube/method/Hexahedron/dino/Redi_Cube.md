@@ -5,21 +5,21 @@ toc: true
 permalink: /cube/method/hexahedron/dino/redi_cube
 published: true
 hidden: false
+twisty: true
+puzzle: "hexa / dino / redi"
+teston: true
 ---
-<!-- <div id="test"></div> -->
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
+</span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Hexahedron/Redi_Cube.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -36,15 +36,6 @@ hidden: false
 
 - [Compy Cube / Method](/cube/method/hexahedron/dino/compy_cube/method)
 
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                 = "dark"
-      background                = "none"
-      puzzle                    = "redi_cube"
-      experimental-stickering   = "full"
-      alg                       = ""
-      experimental-setup-alg    = ""
-      experimental-setup-anchor = "end"
-      tempo-scale               = "1.3"
-    ></twisty-player>
-  </div>
+  <twisty-player
+    alg = ""
+  ></twisty-player>

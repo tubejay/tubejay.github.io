@@ -416,6 +416,25 @@ const preSetArray = [
         "tetra / "
     ],
 
+    // hexa
+    [
+        {
+            // copter
+            "copter / heli"  : [250,250,"c e 0.707106781186547",45,30] ,
+            "copter / curvy" : [300,300,"c e 0.83"             ,45,30] ,
+            // dino
+            "dino / dino"    : [200,180,"c v 0.577350269189626",45,30] ,
+            "dino / compy"   : [250,250,"c v 0.85"             ,45,30] ,
+            "dino / redi"    : [300,300,"redi_cube"                  ] ,
+            // face
+            "face / square"  : [300,500,"square1"] ,
+            // skewb
+            "skewb / skewb"  : [200,200,"skewb"          ] ,
+            "skewb / master" : [250,250,"c v 0.275",45,30] ,
+        },
+        "hexa / "
+    ],
+
     // octa
     [
         {

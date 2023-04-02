@@ -6,26 +6,20 @@ permalink: /cube/method/hexahedron/dino/compy_cube/method
 published: true
 hidden: false
 twisty: true
-teston: false
+puzzle: "hexa / dino / compy"
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Hexahedron/Compy_Cube.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -38,21 +32,9 @@ teston: false
 
 - Permute 3 Edges : ( X Y ) ( X' Y' )
 
-<div class="twisty-wrapper">
   <twisty-player
-    dark-mode                       = "dark"
-    background                      = "none"
-    experimental-puzzle-description = "c v 0.85"
-    camera-latitude                 = 45
-    camera-longitude                = 30
-    experimental-stickering         = "full"
-    alg                             =  "UFR' UFL UFR UFL'"
-    experimental-setup-alg          = ""
-    experimental-setup-anchor       = "end"
-    tempo-scale                     = "1.3"
-    viewer-link                     = "experimental-twizzle-explorer"
+    alg = "UFR' UFL UFR UFL'"
   ></twisty-player>
-</div>
 
 
 

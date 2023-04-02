@@ -7,7 +7,7 @@ published: true
 hidden: false
 twisty: true
 puzzle: "dodeca / star / copter"
-teston: true
+teston: false
 ---
 <span
   id     = "cube"

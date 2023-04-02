@@ -6,26 +6,20 @@ permalink: /cube/method/hexahedron/dino/dino_cube/method
 published: true
 hidden: false
 twisty: true
-teston: false
+puzzle: "hexa / dino / dino"
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = "Fv2"
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Hexahedron/Dino_Cube.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -43,69 +37,28 @@ teston: false
 - Notation
   - Yellow on U Face
 - 2 Yellow / Right : ( L R' ) ( L' R )
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "c v 0.577350269189626"
-      camera-latitude                 = 45
-      camera-longitude                = 30
-      experimental-stickering         = "full"
-      alg                             = "UFL UFR' UFL' UFR"
-      experimental-setup-alg          = "Fv2"
-      experimental-setup-anchor       = "end"
-      tempo-scale                     = "1.3"
-      viewer-link                     = "experimental-twizzle-explorer"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    alg = "UFL UFR' UFL' UFR"
+  ></twisty-player>
+
 - 2 Yellow / Left : ( R' L ) ( R L' )
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "c v 0.577350269189626"
-      camera-latitude                 = 45
-      camera-longitude                = 30
-      experimental-stickering         = "full"
-      alg                             = "UFR' UFL UFR UFL'"
-      experimental-setup-alg          = "Fv2"
-      experimental-setup-anchor       = "end"
-      tempo-scale                     = "1.3"
-      viewer-link                     = "experimental-twizzle-explorer"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    alg = "UFR' UFL UFR UFL'"
+  ></twisty-player>
+
 - 4 Yellow : (2 Yellow / Left) U' (2 Yellow / Left)
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "c v 0.577350269189626"
-      camera-latitude                 = 45
-      camera-longitude                = 30
-      experimental-stickering         = "full"
-      alg                             = "UFR' UFL UFR UFL' Uv' UFR' UFL UFR UFL'"
-      experimental-setup-alg          = "Fv2"
-      experimental-setup-anchor       = "end"
-      tempo-scale                     = "1.3"
-      viewer-link                     = "experimental-twizzle-explorer"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    alg = "UFR' UFL UFR UFL' Uv' UFR' UFL UFR UFL'"
+  ></twisty-player>
+
 - 0 Yellow : (2 Yellow / Left) U (2 Yellow / Left)
-  <div class="twisty-wrapper">
-    <twisty-player
-      dark-mode                       = "dark"
-      background                      = "none"
-      experimental-puzzle-description = "c v 0.577350269189626"
-      camera-latitude                 = 45
-      camera-longitude                = 30
-      experimental-stickering         = "full"
-      alg                             = "UFR' UFL UFR UFL' Uv UFR' UFL UFR UFL'"
-      experimental-setup-alg          = "Fv2"
-      experimental-setup-anchor       = "end"
-      tempo-scale                     = "1.3"
-      viewer-link                     = "experimental-twizzle-explorer"
-    ></twisty-player>
-  </div>
+
+  <twisty-player
+    alg = "UFR' UFL UFR UFL' Uv UFR' UFL UFR UFL'"
+  ></twisty-player>
 
 
 

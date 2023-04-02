@@ -6,26 +6,20 @@ permalink: /cube/method/hexahedron/face_turning/square-1/method
 published: true
 hidden: false
 twisty: true
-teston: false
+puzzle: "hexa / face / square"
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Hexahedron/Square-1.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -33,14 +27,7 @@ teston: false
 ## Method
 
 <twisty-player
-  dark-mode                 = "dark"
-  background                = "none"
-  puzzle                    = "square1"
-  experimental-stickering   = "full"
-  alg                       = ""
-  experimental-setup-alg    = ""
-  experimental-setup-anchor = "end"
-  tempo-scale               = "1.3"
+  alg = ""
 ></twisty-player>
 
 
