@@ -63,6 +63,7 @@ hidden: false
 ## Skewb
 
 - [Skewb](/cube/method/hexahedron/skewb/skewb)
+- [Twisty Skewb](/cube/method/hexahedron/skewb/twisty_skewb)
 - [X Cube (Pyracue)](/cube/method/hexahedron/skewb/x_cube_pyracue)
 - [F-Skewb](/cube/method/hexahedron/skewb/F-skewb)
 - [Master Skewb](/cube/method/hexahedron/skewb/master_skewb)

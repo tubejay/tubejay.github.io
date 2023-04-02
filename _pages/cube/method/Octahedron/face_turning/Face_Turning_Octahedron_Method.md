@@ -11,13 +11,13 @@ puzzle: "octa / face / 3x3"
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  camera-latitude           = "-30"
-  camera-longitude          = 0
   experimental-stickering   = "full"
   experimental-setup-alg    = ""
-  experimental-setup-anchor = "end" >
+  experimental-setup-anchor = "end"
+  camera-latitude           = "-30"
+  camera-longitude          = 0 >
 </span>
-<div id="test"></div>
+<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">
