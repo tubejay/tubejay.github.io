@@ -7,7 +7,7 @@ published: true
 hidden: false
 twisty: true
 puzzle: "hexa / skewb / master"
-teston: true
+teston: false
 ---
 <span
   id     = "cube"
