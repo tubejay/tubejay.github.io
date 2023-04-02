@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/reduction
 published: true
 hidden: false
+target: "_blank"
 twisty: true
 puzzle: "NxNxN / 4x4x4"
 teston: false
@@ -13,25 +14,16 @@ teston: false
   id     = "cube"
   puzzle = "{{page.puzzle}}"
   teston = "{{page.teston}}"
-  alg                       = ""
+  alg                       = "y y y"
   experimental-setup-anchor = "end" >
 
 <head>
-  <base target="_blank">
-  <style>
-    img {
-      max-width: 250px;
-    }
-  </style>
+  <base target = "{{page.target}}">
 </head>
 
 
 
 ## Center
-
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only">
-  <img src="https://user-images.githubusercontent.com/92285528/215299814-a03d80a9-cb78-4e20-bc16-ae13c952fc1e.png">
-</a>
 
 <twisty-player
   experimental-setup-alg  = ""
@@ -44,10 +36,6 @@ teston: false
 
 
 ## Edge
-
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R">
-  <img src="https://user-images.githubusercontent.com/92285528/215299975-4da81d75-41ec-4d58-87aa-463d53aec64b.png">
-</a>
 
 <twisty-player
   experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R"
@@ -72,7 +60,18 @@ teston: false
 ## [4x4x4 / Parity](/cube/method/NxNxN/original/4x4x4/parity)
 
 - OLL Parity
+
+  <twisty-player
+    experimental-setup-alg  = ""
+    experimental-stickering = "OLL"
+  ></twisty-player>
+
 - PLL Parity
+
+  <twisty-player
+    experimental-setup-alg  = ""
+    experimental-stickering = "PLL"
+  ></twisty-player>
 
 
 
