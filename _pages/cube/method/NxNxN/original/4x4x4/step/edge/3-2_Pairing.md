@@ -7,9 +7,13 @@ published: true
 hidden: false
 twisty: true
 puzzle: "NxNxN / 4x4x4"
+teston: false
 ---
-<span id="cube" puzzle="{{page.puzzle}}"></span>
-<!-- <div id="test"></div> -->
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}" >
+</span>
 
 <head>
   <base target="_blank">
