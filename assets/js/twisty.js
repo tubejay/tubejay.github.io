@@ -11,27 +11,30 @@ let queryText = "";
 /////////////////////////
 ///// test
 /////////////////////////
-///// id : test
+///// id : cube
 /////////////////////////
 
 // element
 queryText    = "#cube";
-// queryText    = "#test";
-const testEl = document.querySelector(queryText);
+const cubeEl = document.querySelector(queryText);
+
+// test
+queryText    = "teston";
+const testOn = cubeEl.getAttribute(queryText);
 
 // function : basic
 const testText = (text,useBr=true) => {
-    if (!testEl) {return null;};
-    testEl.append(text);
-    if (useBr) { testEl.appendChild( document.createElement("br") ); };
+    if (!testOn) {return null;};
+    cubeEl.append(text);
+    if (useBr) { cubeEl.appendChild( document.createElement("br") ); };
 };
 const testHr = (n=30) => testText( "=".repeat(n) );
 const testBr = () => testHr(n=0);
 // https://stackoverflow.com/a/37417004
 const testSp = n => {
-    if (!testEl) {return null;};
+    if (!testOn) {return null;};
     [...Array(n)].forEach( () =>
-        testEl.appendChild( document.createTextNode("\u00a0") )
+        cubeEl.appendChild( document.createTextNode("\u00a0") )
         // https://um-sal.tistory.com/9
         // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
     );
@@ -50,26 +53,26 @@ const isObject = x => {
 
 // function : print
 const testTextPadRight = (text,totalLength) => {
-    if (!testEl) {return null;};
+    if (!testOn) {return null;};
     testText(text,false);
     const textLength = text.length;
     const countPad   = totalLength - textLength;
     testSp(countPad);
 };
 const testNodeList = (nodelist,depth=2) => {
-    if (!testEl) {return null;};
+    if (!testOn) {return null;};
     nodelist.forEach( (node,index) =>
         [ testSp(depth) , testText( "- " + index + " : " + node.nodeName ) ]
     );
 };
 const testArray = (arr,depth=2) => {
-    if (!testEl) {return null;};
+    if (!testOn) {return null;};
     arr.forEach( (value,index) =>
         [ testSp(depth) ,  testText( "- " + index + " : " + value ) ]
     );
 };
 const testElement = (el,depth=2) => {
-    if (!testEl) {return null;};
+    if (!testOn) {return null;};
     const attrArray     = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
     attrArray.forEach( attr => [
@@ -79,7 +82,7 @@ const testElement = (el,depth=2) => {
     ] );
 };
 const testObj = (obj,depth=2) => {
-    if (!testEl) {return null;};
+    if (!testOn) {return null;};
     const keyLengthMax = arrayMaxLength(Object.keys(obj));
     Object.entries(obj).map(
         entry => {
@@ -237,8 +240,6 @@ playerEls.forEach( player => setStElAttrs( player , comStElAttrs ) );
 ///// attr : puzzle
 /////////////////////////
 
-queryText    = "#cube";
-const cubeEl = document.querySelector(queryText);
 queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
 
