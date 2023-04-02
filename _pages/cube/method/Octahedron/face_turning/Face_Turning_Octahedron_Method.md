@@ -7,7 +7,7 @@ published: true
 hidden: false
 twisty: true
 puzzle: "octa / face / 3x3"
-teston: false
+teston: true
 ---
 <span
   id     = "cube"
@@ -19,7 +19,6 @@ teston: false
   camera-latitude           = "-30"
   camera-longitude          = 0 >
 </span>
-<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">
@@ -29,8 +28,6 @@ teston: false
 
 ## Method
 
-<!-- camera-latitude           = "-30" -->
-<!-- camera-longitude          = 0 -->
 <twisty-player
   alg = ""
 ></twisty-player>

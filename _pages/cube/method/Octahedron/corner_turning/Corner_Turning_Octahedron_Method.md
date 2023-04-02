@@ -6,26 +6,20 @@ permalink: /cube/method/octahedron/corner_turning/corner_turning_octahedron/meth
 published: true
 hidden: false
 twisty: true
-teston: false
+puzzle: "octa / corner / cto"
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Octahedron/Corner_Turning_Octahedron.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -33,17 +27,7 @@ teston: false
 ## Method
 
 <twisty-player
-  dark-mode                       = "dark"
-  background                      = "none"
-  experimental-puzzle-description = "o v 0.577350269189625 v 1.154700538379251"
-  camera-latitude                 = "-30"
-  camera-longitude                = 0
-  experimental-stickering         = "full"
-  alg                             = ""
-  experimental-setup-alg          = ""
-  experimental-setup-anchor       = "end"
-  tempo-scale                     = "1.3"
-  viewer-link                     = "experimental-twizzle-explorer"
+  alg = ""
 ></twisty-player>
 
 
