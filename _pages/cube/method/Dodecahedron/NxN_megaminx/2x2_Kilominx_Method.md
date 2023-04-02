@@ -6,26 +6,22 @@ permalink: /cube/method/dodecahedron/NxN_megaminx/2x2_kilominx/method
 published: true
 hidden: false
 twisty: true
-teston: false
+puzzle: "dodeca / minx / 2x2"
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  camera-latitude           = 30
+  camera-longitude          = 0
+  experimental-stickering   = "full"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
   <base target="_blank">
-  <link
-    rel   = "stylesheet"
-    type  = "text/css"
-    href  = "/assets/css/twisty/Dodecahedron/2x2_Kilominx.css"
-  >
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
-    defer
-  ></script>
 </head>
 
 
@@ -33,17 +29,7 @@ teston: false
 ## Method
 
 <twisty-player
-  dark-mode                 = "dark"
-  background                = "none"
-  puzzle                    = "kilominx"
-  camera-latitude           = 30
-  camera-longitude          = 0
-  experimental-stickering   = "full"
-  alg                       = ""
-  experimental-setup-alg    = ""
-  experimental-setup-anchor = "end"
-  tempo-scale               = "1.3"
-  viewer-link               = "twizzle"
+  alg = ""
 ></twisty-player>
 
 

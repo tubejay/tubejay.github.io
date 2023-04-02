@@ -432,6 +432,23 @@ const preSetArray = [
         "octa / "
     ],
 
+    // dodeca
+    [
+        {
+            // minx
+            "minx / 2x2"    : [250,200,"kilominx"] ,
+            "minx / 3x3"    : [300,250,"megaminx"] ,
+            "minx / 5x5"    : [350,400,"gigaminx"] ,
+            // star
+            "star / corner" : [300,250,"d v 0.937962370425399",30,0] ,
+            "star / face"   : [300,250,"d f 0.23606797749979" ,30,0] ,
+            "star / copter" : [300,250,"d e 0.97"             ,30,0] ,
+            // misc
+            "misc / pent"   : [300,250,"d f 0",30,0] ,
+        },
+        "dodeca / "
+    ],
+
     // icosa
     [
         {
