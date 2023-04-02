@@ -478,8 +478,8 @@ playerEls.forEach( player => setStElAttrs( player , infoSelect ) );
 // https://stackoverflow.com/a/53508215
 const namesExcept = ["id","puzzle"];
 const namesFilter = attrName => !namesExcept.includes(attrName);
-const namesUse    = Object.keys(cubeEl).filter(namesFilter);
-const getElAttr   = attrName => [attrName,cubeEl.getAttribute(attrName)]
+const namesUse    = Object.keys(cubeEl);
+const getElAttr   = key => [key,cubeEl[key]]
 const pzComAttrs  = Object.fromEntries(namesUse.map(getElAttr));
 
 testHr();
