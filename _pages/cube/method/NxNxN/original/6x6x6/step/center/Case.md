@@ -12,7 +12,9 @@ teston: false
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "centers-only"
+  experimental-setup-anchor = "start" >
 </span>
 
 <head>
@@ -30,11 +32,8 @@ teston: false
 ## Edge in Center
 
 <twisty-player
-  puzzle                    = "6x6x6"
-  experimental-stickering   = "centers-only"
-  alg                       = "3Rw U 2Rw' U 2Rw U2' 3Rw'"
-  experimental-setup-alg    = "3Rw U 2R' U 2R U2' 3Rw' U 2R' F 2L F' 2R F 2L' F 2R U 2L' U' 2R' U 2L 2R U' 2L' U 2R' U' 2L F2 U 2F' U' 2B U 2F U' 2B' U"
-  experimental-setup-anchor = "start"
+  alg                    = "3Rw U 2Rw' U 2Rw U2' 3Rw'"
+  experimental-setup-alg = "3Rw U 2R' U 2R U2' 3Rw' U 2R' F 2L F' 2R F 2L' F 2R U 2L' U' 2R' U 2L 2R U' 2L' U 2R' U' 2L F2 U 2F' U' 2B U 2F U' 2B' U"
 ></twisty-player>
 
 
@@ -42,9 +41,6 @@ teston: false
 ## Corner in Center
 
 <twisty-player
-  puzzle                    = "6x6x6"
-  experimental-stickering   = "centers-only"
-  alg                       = "2Rw U 2Rw' U 2Rw U2' 2Rw'"
-  experimental-setup-alg    = "2R' F' 2L F 2R F' 2L' F U2"
-  experimental-setup-anchor = "start"
+  alg                    = "2Rw U 2Rw' U 2Rw U2' 2Rw'"
+  experimental-setup-alg = "2R' F' 2L F 2R F' 2L' F U2"
 ></twisty-player>

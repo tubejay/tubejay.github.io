@@ -12,7 +12,10 @@ teston: false
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "OLL"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -26,9 +29,5 @@ teston: false
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 4Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw )
 
   <twisty-player
-    puzzle                    = "6x6x6"
-    experimental-stickering   = "OLL"
-    alg                       = "(2Rw U2') x (2Rw U2')2 (4Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "(2Rw U2') x (2Rw U2')2 (4Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
   ></twisty-player>
