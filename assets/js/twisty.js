@@ -432,6 +432,16 @@ const preSetArray = [
         "octa / "
     ],
 
+    // icosa
+    [
+        {
+            // corner
+            "corner / 2x2" : [250,200,"i v 0"               ,10,0] ,
+            "corner / 3x3" : [350,300,"i v 0.18759247376021",10,0] ,
+        },
+        "icosa / "
+    ],
+
 ];
 
 // preSetArray -> infoCollect

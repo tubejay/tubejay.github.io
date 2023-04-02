@@ -7,7 +7,7 @@ published: true
 hidden: false
 twisty: true
 puzzle: "octa / face / 2x2"
-teston: true
+teston: false
 ---
 <span
   id     = "cube"
