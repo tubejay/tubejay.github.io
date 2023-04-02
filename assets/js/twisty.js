@@ -473,23 +473,26 @@ playerEls.forEach( player => setStElAttrs( player , infoSelect ) );
 ///// by page
 /////////////////////////
 
-// get attr
+// get attr name
 // except : id/puzzle
-// https://stackoverflow.com/a/53508215
-const namesExcept  = ["id","puzzle"];
-const namesCubeEl  = cubeEl.getAttributeNames();
-const namesFilter  = attrName => !namesExcept.includes(attrName);
-const namesUse     = namesCubeEl.filter(namesFilter);
-const getElEntry   = attrName => [attrName,cubeEl.getAttribute(attrName)];
-const namesEntries = namesUse.map(getElEntry);
-const pzComAttrs   = Object.fromEntries(namesEntries);
+const getNamesUse = namesExcept => {
+    const namesCubeEl = cubeEl.getAttributeNames();
+    const namesFilter = attrName => !namesExcept.includes(attrName);
+    return namesCubeEl.filter(namesFilter);
+};
+const namesExcept = ["id","puzzle"];
+const namesUse    = getNamesUse(namesExcept);
 
-testHr();
-testText("namesExcept");
-testArray(namesExcept);
-testHr();
-testText("namesUse");
-testArray(namesUse);
+// create attrs
+// https://stackoverflow.com/a/53508215
+const getUseAttrs = namesUse => {
+    const getElValue = attrName => cubeEl.getAttribute(attrName);
+    const getElEntry = attrName => [ attrName , getElValue(attrName) ];
+    const useEntries = namesUse.map(getElEntry);
+    return Object.fromEntries(useEntries);
+};
+const pzComAttrs  = getUseAttrs(namesUse);
+
 testHr();
 testText("pzComAttrs");
 testObj(pzComAttrs);
