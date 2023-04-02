@@ -12,7 +12,9 @@ teston: false
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "F2L"
+  experimental-setup-anchor = "start" >
 </span>
 
 <head>
@@ -24,9 +26,6 @@ teston: false
 ## Complete Edge
 
 <twisty-player
-  puzzle                    = "5x5x5"
-  experimental-stickering   = "F2L"
-  alg                       = "D R' D R 3U L U' L' R U' R' 3u' R U R'"
-  experimental-setup-alg    = "2U 2D R F' R' F L' F L F' 2U 2D y R F' R' F y F' R F R' 2U 2D y R F' R' F y R F' R' F 3U2 y R F' R' F y R F' R' F"
-  experimental-setup-anchor = "start"
+  alg                    = "D R' D R 3U L U' L' R U' R' 3u' R U R'"
+  experimental-setup-alg = "2U 2D R F' R' F L' F L F' 2U 2D y R F' R' F y F' R F R' 2U 2D y R F' R' F y R F' R' F 3U2 y R F' R' F y R F' R' F"
 ></twisty-player>
