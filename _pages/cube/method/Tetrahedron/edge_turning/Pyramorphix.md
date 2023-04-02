@@ -14,10 +14,8 @@ teston: false
   puzzle = "{{page.puzzle}}"
   teston = "{{page.teston}}"
   experimental-stickering   = "full"
-  experimental-setup-alg    = "FR LR FL FR"
   experimental-setup-anchor = "end" >
 </span>
-<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">
@@ -38,7 +36,8 @@ teston: false
 - [2x2x2 / FPO](/cube/method/NxNxN/original/2x2x2/fpo)
 
   <twisty-player
-    alg = ""
+    alg                    = ""
+    experimental-setup-alg = "FR LR FL FR"
   ></twisty-player>
 
 
