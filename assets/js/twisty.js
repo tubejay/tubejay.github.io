@@ -25,7 +25,7 @@ const testOn = cubeEl.getAttribute(queryText);
 // function : basic
 const testText = (text,useBr=true) => {
     // https://stackoverflow.com/a/19415581
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     cubeEl.append(text);
     if (useBr) { cubeEl.appendChild( document.createElement("br") ); };
 };
@@ -33,7 +33,7 @@ const testHr = (n=30) => testText( "=".repeat(n) );
 const testBr = () => testHr(n=0);
 // https://stackoverflow.com/a/37417004
 const testSp = n => {
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     [...Array(n)].forEach( () =>
         cubeEl.appendChild( document.createTextNode("\u00a0") )
         // https://um-sal.tistory.com/9
@@ -54,26 +54,26 @@ const isObject = x => {
 
 // function : print
 const testTextPadRight = (text,totalLength) => {
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     testText(text,false);
     const textLength = text.length;
     const countPad   = totalLength - textLength;
     testSp(countPad);
 };
 const testNodeList = (nodelist,depth=2) => {
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     nodelist.forEach( (node,index) =>
         [ testSp(depth) , testText( "- " + index + " : " + node.nodeName ) ]
     );
 };
 const testArray = (arr,depth=2) => {
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     arr.forEach( (value,index) =>
         [ testSp(depth) ,  testText( "- " + index + " : " + value ) ]
     );
 };
 const testElement = (el,depth=2) => {
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     const attrArray     = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
     attrArray.forEach( attr => [
@@ -83,7 +83,7 @@ const testElement = (el,depth=2) => {
     ] );
 };
 const testObj = (obj,depth=2) => {
-    if (testOn != true) {return null;};
+    if (testOn !== "true") {return null;};
     const keyLengthMax = arrayMaxLength(Object.keys(obj));
     Object.entries(obj).map(
         entry => {
