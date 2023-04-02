@@ -7,15 +7,16 @@ published: true
 hidden: false
 twisty: true
 puzzle: "NxNxN / 2x2x2"
+teston: false
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
   experimental-stickering   = "OLL"
   experimental-setup-alg    = ""
   experimental-setup-anchor = "end" >
 </span>
-<!-- <div id="test"></div> -->
 
 <head>
   <base target="_blank">
