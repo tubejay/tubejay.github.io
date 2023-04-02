@@ -436,11 +436,11 @@ const preSetArray = [
 // preSetArray -> infoCollect
 const infoCollect = preSetArrayToInfoCollect(preSetArray);
 
-testHr();
-testText("infoCollect");
-testObj(infoCollect);
-testHr();
-testBr();
+// testHr();
+// testText("infoCollect");
+// testObj(infoCollect);
+// testHr();
+// testBr();
 
 
 

@@ -7,12 +7,14 @@ published: true
 hidden: false
 twisty: true
 puzzle: "NxNxN / 4x4x4"
-teston: false
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "centers-only"
+  experimental-setup-anchor = "start" >
 </span>
 
 <head>
@@ -24,11 +26,8 @@ teston: false
 ## Clockwise
 
 <twisty-player
-  puzzle                    = "4x4x4"
-  experimental-stickering   = "centers-only"
-  alg                       = "2L' U' 2R U 2L U' 2R' U"
-  experimental-setup-alg    = "x2 2F 2U 2F' 2R F2 2R' F"
-  experimental-setup-anchor = "start"
+  alg                    = "2L' U' 2R U 2L U' 2R' U"
+  experimental-setup-alg = "x2 2F 2U 2F' 2R F2 2R' F"
 ></twisty-player>
 
 
@@ -36,11 +35,8 @@ teston: false
 ## Counterclockwise
 
 <twisty-player
-  puzzle                    = "4x4x4"
-  experimental-stickering   = "centers-only"
-  alg                       = "2R U 2L' U' 2R' U 2L U'"
-  experimental-setup-alg    = "x2 2F 2D' 2F' F2 2L' F2 2L F'"
-  experimental-setup-anchor = "start"
+  alg                    = "2R U 2L' U' 2R' U 2L U'"
+  experimental-setup-alg = "x2 2F 2D' 2F' F2 2L' F2 2L F'"
 ></twisty-player>
 
 

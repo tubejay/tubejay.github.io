@@ -7,12 +7,15 @@ published: true
 hidden: false
 twisty: true
 puzzle: "NxNxN / 4x4x4"
-teston: false
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "F2L"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -26,21 +29,13 @@ teston: false
 - 2nd Layer
 
   <twisty-player
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "F2L"
-    alg                       = "U R U R' U' 2F U R U' R' 2F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "U R U R' U' 2F U R U' R' 2F'"
   ></twisty-player>
 
 - 3rd Layer
 
   <twisty-player
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "F2L"
-    alg                       = "U R U R' U' 3F U R U' R' 3F'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "U R U R' U' 3F U R U' R' 3F'"
   ></twisty-player>
 
 
@@ -50,19 +45,11 @@ teston: false
 - 2nd Layer
 
   <twisty-player
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "F2L"
-    alg                       = "U' F' U' F U 2R' U' F' U F 2R"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "U' F' U' F U 2R' U' F' U F 2R"
   ></twisty-player>
 
 - 3rd Layer
 
   <twisty-player
-    puzzle                    = "4x4x4"
-    experimental-stickering   = "F2L"
-    alg                       = "U' F' U' F U 3R' U' F' U F 3R"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "U' F' U' F U 3R' U' F' U F 3R"
   ></twisty-player>

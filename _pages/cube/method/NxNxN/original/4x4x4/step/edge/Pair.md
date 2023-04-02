@@ -7,12 +7,14 @@ published: true
 hidden: false
 twisty: true
 puzzle: "NxNxN / 4x4x4"
-teston: false
+teston: true
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "F2L"
+  experimental-setup-anchor = "start" >
 </span>
 
 <head>
@@ -26,21 +28,15 @@ teston: false
 ### Counterclockwise
 
 <twisty-player
-  puzzle                    = "4x4x4"
-  experimental-stickering   = "F2L"
-  alg                       = "R U' R'"
-  experimental-setup-alg    = "2U L U L' R U' R' U' B' U B U'"
-  experimental-setup-anchor = "start"
+  alg                    = "R U' R'"
+  experimental-setup-alg = "2U L U L' R U' R' U' B' U B U'"
 ></twisty-player>
 
 ### Clockwise
 
 <twisty-player
-  puzzle                    = "4x4x4"
-  experimental-stickering   = "F2L"
-  alg                       = "F R' F' R"
-  experimental-setup-alg    = "2U L U L' R U' R' U' B' U B U'"
-  experimental-setup-anchor = "start"
+  alg                    = "F R' F' R"
+  experimental-setup-alg = "2U L U L' R U' R' U' B' U B U'"
 ></twisty-player>
 
 
@@ -50,19 +46,13 @@ teston: false
 ### Right
 
 <twisty-player
-  puzzle                    = "4x4x4"
-  experimental-stickering   = "F2L"
-  alg                       = "R U R' F R' F' R"
-  experimental-setup-alg    = "2U L U L' R U' R' U' B' U B U' R U' R'"
-  experimental-setup-anchor = "start"
+  alg                    = "R U R' F R' F' R"
+  experimental-setup-alg = "2U L U L' R U' R' U' B' U B U' R U' R'"
 ></twisty-player>
 
 ### Left
 
 <twisty-player
-  puzzle                    = "4x4x4"
-  experimental-stickering   = "F2L"
-  alg                       = "F' U' F R' F R F'"
-  experimental-setup-alg    = "2U L U L' R U' R' U' B' U B U' R U' R'"
-  experimental-setup-anchor = "start"
+  alg                    = "F' U' F R' F R F'"
+  experimental-setup-alg = "2U L U L' R U' R' U' B' U B U' R U' R'"
 ></twisty-player>
