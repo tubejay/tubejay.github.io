@@ -12,7 +12,10 @@ teston: false
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  experimental-stickering   = "OLL"
+  experimental-setup-alg    = ""
+  experimental-setup-anchor = "end" >
 </span>
 
 <head>
@@ -26,11 +29,7 @@ teston: false
 - ( 3Rw U2 ) ( x ) ( 3Rw U2 ) x 2 ( 4Rw' U2 ) ( 3Lw U2 ) ( 3Rw' U2 ) ( 3Rw U2 ) ( 3Rw' U2 ) ( 3Rw' )
 
   <twisty-player
-    puzzle                    = "7x7x7"
-    experimental-stickering   = "OLL"
-    alg                       = "(3Rw U2') x (3Rw U2')2 (4Rw' U2') (3Lw U2') (3Rw' U2') (3Rw U2') (3Rw' U2') 3Rw'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "(3Rw U2') x (3Rw U2')2 (4Rw' U2') (3Lw U2') (3Rw' U2') (3Rw U2') (3Rw' U2') 3Rw'"
   ></twisty-player>
 
 
@@ -40,9 +39,5 @@ teston: false
 - ( 2Rw U2 ) ( x ) ( 2Rw U2 ) x 2 ( 5Rw' U2 ) ( 2Lw U2 ) ( 2Rw' U2 ) ( 2Rw U2 ) ( 2Rw' U2 ) ( 2Rw' )
 
   <twisty-player
-    puzzle                    = "7x7x7"
-    experimental-stickering   = "OLL"
-    alg                       = "(2Rw U2') x (2Rw U2')2 (5Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
-    experimental-setup-alg    = ""
-    experimental-setup-anchor = "end"
+    alg = "(2Rw U2') x (2Rw U2')2 (5Rw' U2') (2Lw U2') (2Rw' U2') (2Rw U2') (2Rw' U2') 2Rw'"
   ></twisty-player>
