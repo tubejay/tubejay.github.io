@@ -7,10 +7,12 @@ published: true
 hidden: false
 twisty: true
 puzzle: "tetra / edge / 3x3"
+teston: false
 ---
 <span
   id     = "cube"
   puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
   experimental-stickering   = "full"
   experimental-setup-alg    = "FD FR FL LR RD LD FD FL FR LR LD"
   experimental-setup-anchor = "end" >
