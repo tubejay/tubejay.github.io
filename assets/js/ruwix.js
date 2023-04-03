@@ -92,6 +92,12 @@ iframeEls.forEach( iframe => setStElAttrs( iframe , comStElAttrs ) );
 
 
 
+queryText    = ".roofpig";
+const roofEl = document.querySelector(queryText);
+setStElAttrs(roofEl,comStElAttrs);
+
+
+
 
 
 /////////////////////////
