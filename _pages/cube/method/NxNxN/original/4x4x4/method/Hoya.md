@@ -26,7 +26,7 @@ teston: false
 ## 4 Centers
 
 <twisty-player
-  experimental-setup-alg  = "F L 2R U 2R' U' 2L' U2 2L L' F'"
+  experimental-setup-alg  = "F L 2R U 2R' U' 2L' U2 2L L' F' U 2R U' 2L' U 2R' U' 2L U F 2R U 2L' U' 2R' U 2L"
   experimental-stickering = "centers-only"
 ></twisty-player>
 
