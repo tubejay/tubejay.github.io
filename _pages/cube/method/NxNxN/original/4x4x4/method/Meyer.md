@@ -18,21 +18,13 @@ teston: false
   experimental-setup-anchor = "end" >
 
 <head>
-  <base target="_blank">
-  <style>
-    img {
-      max-width: 250px;
-    }
-  </style>
+  <base target = "{{page.target}}">
 </head>
 
 
 
 ## 2 Centers
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=Fw+U+R+L+D+Fw">
-  <img src="https://user-images.githubusercontent.com/92285528/215302294-43213174-9985-4d57-807b-c072e55a51cd.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "Fw U R L D Fw"
   experimental-stickering = "centers-only"
@@ -44,9 +36,6 @@ teston: false
 
 ## 1 Block
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=F2L&setup-alg=2F2+R2+2F2+R2+s%27+U2+s+2B+R%27+2F%27+R+2B%27+R%27+2F+R+2B%27+L+2F+L%27+2B+L+2F%27+L%27+Uw%27+L+U+L%27+B+L%27+B%27+L+Uw+U+R%27+U%27+R+B+L%27+B%27+L+R%27+U+R+B%27+R+B+R%27+B+L+U%27+L%27+2U%27+L+U+L%27+B+L%27+B%27+L+2U+L+U+L%27+B%27+U2+R%27+U+R+U%27+B+U%27+B%27+2B%27+2F+U2+s+U2+s2+U+s%27+U+s">
-  <img src="https://user-images.githubusercontent.com/92285528/215303632-3e85ab4c-ee01-4adc-9d90-f4e32983b361.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "2F2 R2 2F2 R2 s' U2 s 2B R' 2F' R 2B' R' 2F R 2B' L 2F L' 2B L 2F' L' Uw' L U L' B L' B' L Uw U R' U' R B L' B' L R' U R B' R B R' B L U' L' 2U' L U L' B L' B' L 2U L U L' B' U2 R' U R U' B U' B' 2B' 2F U2 s U2 s2 U s' U s"
   experimental-stickering = "F2L"
@@ -58,9 +47,6 @@ teston: false
 
 ## 4 Centers
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=2F+R+B+R%27+U+R%27+U%27+R+2F%27%0A2U%27+L+U+L%27+B+L%27+B%27+L+2U%0A2F+R+B+R%27+U+R%27+U%27+R+2F%27%0AB2+R%27%0A2U%27+L+U+L%27+B+L%27+B%27+L+2U%0AR">
-  <img src="https://user-images.githubusercontent.com/92285528/215304125-e57739dd-9cd5-4243-89fd-f3c18041ac48.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "2F R B R' U R' U' R 2F' 2U' L U L' B L' B' L 2U 2F R B R' U R' U' R 2F' B2 R' 2U' L U L' B L' B' L 2U R"
   experimental-stickering = "full"
@@ -73,9 +59,6 @@ teston: false
 
 ## 9 Edges
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=U+B+U+B+U2+B2+U+B+F%27+L+F+F+R+F%27+B+U+B+U2">
-  <img src="https://user-images.githubusercontent.com/92285528/215304214-67971ab6-bfbb-4621-91d6-2a2029d050de.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "U B U B U2 B2 U B F' L F F R F' B U B U2"
   experimental-stickering = "full"

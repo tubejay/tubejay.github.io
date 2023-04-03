@@ -5,15 +5,18 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/lbl
 published: true
 hidden: false
+target: "_blank"
+twisty: false
+puzzle: "NxNxN / 4x4x4"
+teston: false
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}" >
 
 <head>
-  <base target="_blank">
-  <style>
-    img {
-      max-width: 250px;
-    }
-  </style>
+  <base target = "{{page.target}}">
 </head>
 
 
