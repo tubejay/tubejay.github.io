@@ -5,10 +5,20 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/hoya
 published: true
 hidden: false
+target: "_blank"
+twisty: true
+puzzle: "NxNxN / 4x4x4"
+teston: false
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
+  alg                       = "y y y y"
+  experimental-setup-anchor = "end" >
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
   <style>
     img {
       max-width: 250px;
@@ -23,6 +33,10 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27">
   <img src="https://user-images.githubusercontent.com/92285528/216597225-c9740cda-6dd2-4848-99cf-ca6ea8250b29.png">
 </a>
+<twisty-player
+  experimental-setup-alg  = "F L 2R U 2R' U' 2L' U2 2L L' F'"
+  experimental-stickering = "centers-only"
+></twisty-player>
 
 - [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
   
@@ -33,6 +47,10 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=F+L+2R+U+2R%27+U%27+2L%27+U2+2L+L%27+F%27">
   <img src="https://user-images.githubusercontent.com/92285528/216597426-d7462bb7-4dcb-40c8-8591-77f1a949cbbb.png">
 </a>
+<twisty-player
+  experimental-setup-alg  = "F L 2R U 2R' U' 2L' U2 2L L' F'"
+  experimental-stickering = "Cross"
+></twisty-player>
 
 - [Edge / 4 Centers](/cube/method/NxNxN/original/4x4x4/edge/4_centers)
 
@@ -43,6 +61,10 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross">
   <img src="https://user-images.githubusercontent.com/92285528/215302124-11889ddc-6cc8-4fef-8eca-3012f42ba13f.png">
 </a>
+<twisty-player
+  experimental-setup-alg  = ""
+  experimental-stickering = "Cross"
+></twisty-player>
 
 - Hide Cross Edges : F L
 - Centers

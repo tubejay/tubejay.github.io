@@ -19,11 +19,6 @@ teston: false
 
 <head>
   <base target = "{{page.target}}">
-  <style>
-    img {
-      max-width: 250px;
-    }
-  </style>
 </head>
 
 
@@ -41,9 +36,6 @@ teston: false
 
 ## 3 Cross Edges
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=z+D+B+U+D+F+D+2R+F+U+B+D+2R+B%27+U%27+F+2R+z2+U2+2L+F%27+R%27+F+2L2+F+R%27+2R%27+F2+2R2+F%27">
-  <img src="https://user-images.githubusercontent.com/92285528/221233782-a00c21e3-4709-4a2d-b880-d748e2ee0fd4.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "z D B U D F D 2R F U B D 2R B' U' F 2R z2 U2 2L F' R' F 2L2 F R' 2R' F2 2R2 F'"
   experimental-stickering = "Cross"
@@ -55,9 +47,6 @@ teston: false
 
 ## 4 Centers
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27">
-  <img src="https://user-images.githubusercontent.com/92285528/215301525-215a6a32-6e02-40a6-a30b-5c59a72b4686.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "Rw U2 Rw' U' L F' L' F U Lw F2 Lw'"
   experimental-stickering = "Cross"
@@ -70,9 +59,6 @@ teston: false
 
 ## 1 Cross Edge
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=Cross">
-  <img src="https://user-images.githubusercontent.com/92285528/215301574-79a91221-8086-477f-a5bf-0fe2ccda014e.png">
-</a>
 <twisty-player
   experimental-setup-alg  = ""
   experimental-stickering = "Cross"
@@ -84,9 +70,6 @@ teston: false
 
 ## 8 Edges
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R">
-  <img src="https://user-images.githubusercontent.com/92285528/215299975-4da81d75-41ec-4d58-87aa-463d53aec64b.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "R U R' L' U L y2 R U R' L' U L y2"
   experimental-stickering = "full"
@@ -100,17 +83,17 @@ teston: false
 
 ## [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3#method)
 
+<twisty-player
+  experimental-setup-alg  = ""
+  experimental-stickering = "full"
+></twisty-player>
+
 - Method
   - [CFOP](/cube/method/NxNxN/original/3x3x3/cfop)
   - [CFCE](/cube/method/NxNxN/original/3x3x3/cfce)
   - [CFEC](/cube/method/NxNxN/original/3x3x3/cfec)
   - [CFECCE](/cube/method/NxNxN/original/3x3x3/cfecce)
 - Skip : Cross
-
-<twisty-player
-  experimental-setup-alg  = ""
-  experimental-stickering = "full"
-></twisty-player>
 
 
 
