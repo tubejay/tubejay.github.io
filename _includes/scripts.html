@@ -1,9 +1,9 @@
+<!-- mathjax -->
 <script
   type  = "text/javascript"
 	src   = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
   async
 ></script>
-
 <script
   type = "text/x-mathjax-config"
 >
@@ -21,14 +21,30 @@
   });
 </script>
 
+
+
 <!-- https://scaomath.github.io/blog/javascript-go-board-jekyll/#page-specific-loading-method-2 -->
+
+<!-- ruwix -->
 {% if page.ruwix %}
   <script
     type  = "text/javascript"
     src   = "/assets/js/ruwix.js"
     defer
   ></script>
+  <script
+    type  = "text/javascript"
+    src   = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    defer
+  ></script>
+  <script
+    type  = "text/javascript"
+    src   = "https://raw.githubusercontent.com/larspetrus/Roofpig/master/roofpig_and_three.min.js"
+    defer
+  ></script>
 {% endif %}
+
+<!-- twisty -->
 {% if page.twisty %}
   <script
     type  = "text/javascript"

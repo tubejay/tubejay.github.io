@@ -5,11 +5,12 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/cross/beginner
 published: true
 hidden: false
+target: "_blank"
 ruwix: true
 ---
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
 </head>
 
 
@@ -21,6 +22,10 @@ ruwix: true
   <iframe
     src = "https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
   ></iframe>
+  <div
+    class = "roofpig"
+    data-config = "alg=F2'|colored=U FD|setupmoves=F2|hover=9|speed=500|flags=canvas"
+  ></div>
 
 - White Not on D Face
 
