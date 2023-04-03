@@ -26,7 +26,7 @@ teston: false
 ## 2 Centers
 
 <twisty-player
-  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R B R' U' 3R U2 3R' U2 F 3U F D R D B D L D 2U 2D"
+  experimental-setup-alg  = "3U F 2U B 2D R L 3U F B 2D L 3U F R B2 2D"
   experimental-stickering = "centers-only"
 ></twisty-player>
 
@@ -37,7 +37,7 @@ teston: false
 ## 3 Cross Edges
 
 <twisty-player
-  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R B R' U' 3R U2 3R' U2 F 3U F D R D B D L D 2U 2D"
+  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R F L D2 L D2 L2 B D F' R U' R' U 3F U R' U' R 3F' B U B' 3U F D R 2U 2D R y2 D F 3U F 2D y D F2 2D y D F 2D y D F 3U y D F 3U F y D F 2U 2D"
   experimental-stickering = "Cross"
 ></twisty-player>
 
@@ -48,7 +48,7 @@ teston: false
 ## 4 Centers
 
 <twisty-player
-  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R B R' U' 3R U2 3R' U2 F"
+  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R F L D2 L D2 L2 B D F' R U' R' U 3F U R' U' R 3F' B U B'"
   experimental-stickering = "Cross"
 ></twisty-player>
 
@@ -60,7 +60,7 @@ teston: false
 ## 1 Cross Edge
 
 <twisty-player
-  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R B R' U' F2"
+  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R F L D2 L D2 L2 B D"
   experimental-stickering = "Cross"
 ></twisty-player>
 
@@ -71,7 +71,7 @@ teston: false
 ## 8 Edges
 
 <twisty-player
-  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R"
+  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R F L D2 L D2 L2 B D"
   experimental-stickering = "full"
 ></twisty-player>
 
