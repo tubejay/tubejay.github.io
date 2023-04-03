@@ -1,85 +1,96 @@
 /////////////////////////
+///// let queryText
+/////////////////////////
+
+let queryText = "";
+
+
+
+
+
+/////////////////////////
 ///// function
 /////////////////////////
 
 // set attr by attrEntry
 const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
+
     // attrEntry : [key,value]
     const [key,value] = attrEntry;
-    // set attr by key,value
-    if (isStyle) {
+
+    switch (isStyle) {
         // style attr
-        el.style[key] = value;
-    } else {
+        case true:
+            el.style[key] = value;
+            break;
         // element attr
-        el.setAttribute(key,value);
-    }
+        case false:
+            el.setAttribute(key,value);
+            break;
+    };
+
 };
 
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
 const setAttrByAttrs = (el,attrs,isStyle) => {
     // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-    const attrEntries = Object.entries(attrs);
-    attrEntries.forEach(
-        attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
-    );
+    Object.entries(attrs).forEach( attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle) );
 };
 
 // set style/element attr
-const setStElAttrs = (el,stAttrs,elAttrs) => {
-    // stAttrs
-    // isStyle : true
-    setAttrByAttrs(
-        el      ,
-        stAttrs ,
-        true
-    );
-    // elAttrs
-    // isStyle : false
-    setAttrByAttrs(
-        el      ,
-        elAttrs ,
-        false
-    );
-};
+const setStElAttrs = (el,StElAttrs) => [
+    [ StElAttrs["style"] , true  ] , [ StElAttrs["element"] , false ]
+].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
+
+
 
 
 
 /////////////////////////
 ///// iframe elements
 /////////////////////////
+///// tag : iframe
+/////////////////////////
 
-const iframeEls = document.querySelectorAll("iframe");
+queryText       = "iframe";
+const iframeEls = document.querySelectorAll(queryText);
+
+
 
 /////////////////////////
 ///// common attr for every iframe
 /////////////////////////
+///// style attr
+///// element attr
+/////////////////////////
 
-// comStAttrs : style attr
-const comStAttrs = {
-    width              : "250px"       ,
-    height             : "300px"       ,
-    "background-color" : "#1a1a1a"     ,
-    "border-style"     : "none"        ,
-    "border-color"     : "transparent" ,
-    "border-width"     : "0px"         ,
-    "margin-top"       : "5px"         ,
-    "margin-bottom"    : "5px"
-};
-// comElAttrs : element attr
-const comElAttrs = {
-    scrolling          : "no"
+// create common attr
+const comStElAttrs = {
+
+    // style attr
+    "style" : {
+            "width"            : "250px"       ,
+            "height"           : "300px"       ,
+            "background-color" : "#1a1a1a"     ,
+            "border-style"     : "none"        ,
+            "border-color"     : "transparent" ,
+            "border-width"     : "0px"         ,
+            "margin-top"       : "5px"         ,
+            "margin-bottom"    : "5px"
+    },
+
+    // element attr
+    "element" : {
+            "scrolling"        : "no"
+    }
+
 };
 
 // set attr for every iframe
-iframeEls.forEach(
-    iframe => setStElAttrs(
-        iframe     ,
-        comStAttrs ,
-        comElAttrs
-    )
-);
+iframeEls.forEach( iframe => setStElAttrs( iframe , comStElAttrs ) );
+
+
 
 
 
@@ -87,7 +98,12 @@ iframeEls.forEach(
 ///// image elements
 /////////////////////////
 
-const imageEls = document.querySelectorAll("img");
+queryText = "img";
+const imageEls = document.querySelectorAll(queryText);
+
+
+
+
 
 /////////////////////////
 ///// common attr for every image
@@ -99,26 +115,27 @@ const imgStAttrs = {
 };
 
 // set attr for every image
-imageEls.forEach(
-    image => setAttrByAttrs(
-        image      ,
-        imgStAttrs ,
-        true
-    )
-);
+imageEls.forEach( image => setAttrByAttrs( image , imgStAttrs , true ) );
+
+
 
 
 
 /////////////////////////
 ///// image elements
+/////////////////////////
 ///// class : rotate
 ///// attr  : deg
 /////////////////////////
 
-const imageRotateEls = document.querySelectorAll("img.rotate");
+queryText            = "img.rotate";
+const imageRotateEls = document.querySelectorAll(queryText);
+
+
 
 /////////////////////////
 ///// style attr
+/////////////////////////
 ///// key   : transform
 ///// value : rotate
 /////////////////////////
@@ -126,19 +143,18 @@ const imageRotateEls = document.querySelectorAll("img.rotate");
 imageRotateEls.forEach(
     image => {
         // deg of image
-        const deg     = image.getAttribute("deg");
+        queryText     = "deg";
+        const deg     = image.getAttribute(queryText);
         // stAttrs : style attr
         const stAttrs = {
             "transform" : `rotate(${deg}deg)`
         };
         // set style attr
-        setAttrByAttrs(
-            image   ,
-            stAttrs ,
-            true
-        );
+        setAttrByAttrs( image , stAttrs , true );
     }
 );
+
+
 
 
 
@@ -148,7 +164,10 @@ imageRotateEls.forEach(
 ///// attr  : axis/disp
 /////////////////////////
 
-const imageTranslateEls = document.querySelectorAll("img.translate");
+queryText               = "img.translate";
+const imageTranslateEls = document.querySelectorAll(queryText);
+
+
 
 /////////////////////////
 ///// style attr
@@ -160,9 +179,11 @@ const imageTranslateEls = document.querySelectorAll("img.translate");
 imageTranslateEls.forEach(
     image => {
         // axis of image
-        const axis    = image.getAttribute("axis");
+        queryText     = "axis";
+        const axis    = image.getAttribute(queryText);
         // disp of image
-        const disp    = image.getAttribute("disp");
+        queryText     = "disp";
+        const disp    = image.getAttribute(queryText);
         // stAttrs : style attr
         const stAttrs = {
             "max-width"  : "initial",
@@ -170,13 +191,11 @@ imageTranslateEls.forEach(
             "transform"  : `translate${axis}(${disp})`
         };
         // set style attr
-        setAttrByAttrs(
-            image   ,
-            stAttrs ,
-            true
-        );
+        setAttrByAttrs( image , stAttrs , true );
     }
 );
+
+
 
 
 
@@ -185,10 +204,14 @@ imageTranslateEls.forEach(
 ///// class : wrapper
 /////////////////////////
 
-const divWrapperEls = document.querySelectorAll("div.wrapper");
+queryText           = "div.wrapper";
+const divWrapperEls = document.querySelectorAll(queryText);
+
+
 
 /////////////////////////
 ///// style attr
+/////////////////////////
 ///// display    : inline-block
 ///// max-width  : 96px
 ///// max-height : 96px
@@ -206,10 +229,6 @@ divWrapperEls.forEach(
             "overflow"   : "hidden"
         };
         // set style attr
-        setAttrByAttrs(
-            wrapper,
-            stAttrs,
-            true
-        );
+        setAttrByAttrs( wrapper , stAttrs , true );
     }
 );
