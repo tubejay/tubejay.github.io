@@ -23,6 +23,7 @@ ruwix: true
     src = "https://ruwix.com/widget/3d/?alg=F2'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
   ></iframe>
   <div
+    style = "border-style:none;border-width:0px;"
     class = "roofpig"
     data-config = "alg=F2'|colored=U FD|setupmoves=F2|hover=9|speed=500|flags=canvas"
   ></div>
