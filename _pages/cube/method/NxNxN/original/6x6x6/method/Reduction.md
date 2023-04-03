@@ -19,20 +19,12 @@ teston: false
 
 <head>
   <base target = "{{page.target}}">
-  <style>
-    img {
-      max-width:450px;
-    }
-  </style>
 </head>
 
 
 
 ## Center
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&setup-anchor=end&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R&stickering=centers-only">
-  <img src="https://user-images.githubusercontent.com/92285528/216602505-b855ad57-6bd6-42ad-b03e-f67db16adc7c.png">
-</a>
 <twisty-player
   experimental-setup-alg  = ""
   experimental-stickering = "centers-only"
@@ -45,9 +37,6 @@ teston: false
 
 ## Edge
 
-<a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&setup-anchor=end&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R">
-  <img src="https://user-images.githubusercontent.com/92285528/216602796-b3be71f2-d7b4-4104-ba82-6f3e46144610.png">
-</a>
 <twisty-player
   experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R"
   experimental-stickering = "full"
