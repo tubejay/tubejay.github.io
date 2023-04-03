@@ -5,10 +5,20 @@ toc: true
 permalink: /cube/method/NxNxN/original/4x4x4/yau
 published: true
 hidden: false
+target: "_blank"
+twisty: true
+puzzle: "NxNxN / 4x4x4"
+teston: false
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
+  alg                       = "y y y y"
+  experimental-setup-anchor = "end" >
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
   <style>
     img {
       max-width: 250px;
@@ -23,6 +33,10 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&stickering=centers-only&setup-alg=Rw+U2+Rw%27+U%27+L+F%27+L%27+F+U+Lw+F2+Lw%27+Uw+F+Uw+F+Uw+F+Uw+F+Uw+z%27+x">
   <img src="https://user-images.githubusercontent.com/92285528/221233241-b953bb3b-36be-409a-a6ac-09ca0f9c891f.png">
 </a>
+<twisty-player
+  experimental-setup-alg  = "Rw U2 Rw' U' L F' L' F U Lw F2 Lw' Uw F Uw F Uw F Uw F Uw z' x"
+  experimental-stickering = "centers-only"
+></twisty-player>
 
 - [Center / Case](/cube/method/NxNxN/original/4x4x4/center/case)
 

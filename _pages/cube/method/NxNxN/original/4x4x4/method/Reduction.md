@@ -14,7 +14,7 @@ teston: false
   id     = "cube"
   puzzle = "{{page.puzzle}}"
   teston = "{{page.teston}}"
-  alg                       = "y y y"
+  alg                       = "y y y y"
   experimental-setup-anchor = "end" >
 
 <head>
