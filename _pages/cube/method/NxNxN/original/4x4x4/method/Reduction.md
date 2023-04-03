@@ -60,18 +60,7 @@ teston: false
 ## [4x4x4 / Parity](/cube/method/NxNxN/original/4x4x4/parity)
 
 - OLL Parity
-
-  <twisty-player
-    experimental-setup-alg  = ""
-    experimental-stickering = "OLL"
-  ></twisty-player>
-
 - PLL Parity
-
-  <twisty-player
-    experimental-setup-alg  = ""
-    experimental-stickering = "PLL"
-  ></twisty-player>
 
 
 
