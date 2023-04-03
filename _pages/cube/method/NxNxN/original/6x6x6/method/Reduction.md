@@ -5,10 +5,20 @@ toc: true
 permalink: /cube/method/NxNxN/original/6x6x6/reduction
 published: true
 hidden: false
+target: "_blank"
+twisty: true
+puzzle: "NxNxN / 6x6x6"
+teston: false
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
+  alg                       = "y y y y"
+  experimental-setup-anchor = "end" >
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
   <style>
     img {
       max-width:450px;
@@ -23,6 +33,10 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&setup-anchor=end&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R&stickering=centers-only">
   <img src="https://user-images.githubusercontent.com/92285528/216602505-b855ad57-6bd6-42ad-b03e-f67db16adc7c.png">
 </a>
+<twisty-player
+  experimental-setup-alg  = ""
+  experimental-stickering = "centers-only"
+></twisty-player>
 
 - [6x6x6 / Center / Case](/cube/method/NxNxN/original/6x6x6/center/case)
 - [4x4x4 / Center / Commutator](/cube/method/NxNxN/original/4x4x4/center/commutator)
@@ -34,6 +48,10 @@ hidden: false
 <a href="https://alpha.twizzle.net/edit/?puzzle=6x6x6&setup-anchor=end&setup-alg=R+U+L+D+B+F+R+U+L+B+F+D+L+U+B+R+U+D+R+U+F+L+F+R+U+F+L+R">
   <img src="https://user-images.githubusercontent.com/92285528/216602796-b3be71f2-d7b4-4104-ba82-6f3e46144610.png">
 </a>
+<twisty-player
+  experimental-setup-alg  = "R U L D B F R U L B F D L U B R U D R U F L F R U F L R"
+  experimental-stickering = "full"
+></twisty-player>
 
 - [4x4x4 / Edge / Pair](/cube/method/NxNxN/original/4x4x4/edge/pair)
 - [6x6x6 / Edge / Freeslice](/cube/method/NxNxN/original/6x6x6/edge/freeslice)
@@ -46,6 +64,11 @@ hidden: false
 
 
 ## [3x3x3 / Method](/cube/method/NxNxN/original/3x3x3#method)
+
+<twisty-player
+  experimental-setup-alg  = ""
+  experimental-stickering = "full"
+></twisty-player>
 
 
 
