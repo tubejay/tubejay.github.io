@@ -5,10 +5,20 @@ toc: true
 permalink: /cube/method/NxNxN/original/5x5x5/lbl
 published: true
 hidden: false
+target: "_blank"
+twisty: false
+puzzle: "NxNxN / 5x5x5"
+teston: false
 ---
+<span
+  id     = "cube"
+  puzzle = "{{page.puzzle}}"
+  teston = "{{page.teston}}"
+  alg                       = "y y y y"
+  experimental-setup-anchor = "end" >
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
 </head>
 
 
