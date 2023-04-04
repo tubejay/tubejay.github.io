@@ -164,7 +164,7 @@ const insertLinkAfter = (elTarget,href,text) => {
     // set href
     elLink.setAttribute("href",href);
     // add text
-    elLink.append(text);
+    elLink.innerText = text;
     // insert after
     // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
     let elParent = elLink.parentNode;
@@ -191,8 +191,8 @@ const namesExcept = ["id"];
 const getElAttrs = getUseAttrs(iframeTest,namesExcept);
 // get common attrs
 const comElAttrs  = {
-    hover : 1,// 9,
-    speed : 100,// 500,
+    hover : 9,
+    speed : 500,
     flags : "canvas"
 };
 
