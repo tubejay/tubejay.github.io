@@ -64,7 +64,7 @@ const getNamesUse = (el,namesExcept) => el.getAttributeNames().filter(
 // create attrs
 // https://stackoverflow.com/a/53508215
 const createUseAttrs = (el,namesUse) => Object.fromEntries( namesUse.map(
-    attrName => [ attrName , attrName => el.getAttribute(attrName) ]
+    attrName => [ attrName , el.getAttribute(attrName) ]
 ) );
 // get use attrs
 const getUseAttrs = (el,namesExcept) => createUseAttrs( el , getNamesUse(el,namesExcept) );
