@@ -3,7 +3,7 @@
 /////////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#syntax
-// import * as common from "/assets/js/common.js";
+import * as common from "/assets/js/common.js";
 
 
 
