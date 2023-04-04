@@ -24,6 +24,7 @@
 
 
 <!-- https://scaomath.github.io/blog/javascript-go-board-jekyll/#page-specific-loading-method-2 -->
+<!-- https://shopify.github.io/liquid/basics/operators/ -->
 
 <!-- ruwix -->
 {% if page.ruwix %}
@@ -44,6 +45,15 @@
   <script
     src   = "https://cdn.cubing.net/js/cubing/twisty"
     type  = "module"
+    defer
+  ></script>
+{% endif %}
+
+<!-- ruwix or twisty -->
+{% if page.ruwix or page.twisty %}
+  <script
+    type  = "text/javascript"
+    src   = "/assets/js/ruwix_twisty_common.js"
     defer
   ></script>
 {% endif %}

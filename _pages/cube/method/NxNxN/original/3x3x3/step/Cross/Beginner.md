@@ -7,7 +7,12 @@ published: true
 hidden: false
 target: "_blank"
 ruwix: true
+teston: true
 ---
+<span
+  id     = "cube"
+  teston = "{{page.teston}}" >
+</span>
 
 <head>
   <base target = "{{page.target}}">
@@ -29,7 +34,10 @@ ruwix: true
 - White Not on D Face
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R%20F'&colored=U%20FD&setupmoves=F2&hover=9&speed=500&flags=canvas"
+    id         = "test"
+    alg        = "R F'"
+    colored    = "U FD"
+    setupmoves = "F2"
   ></iframe>
 
 
@@ -39,13 +47,17 @@ ruwix: true
 - Center : Adjacent
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
+    id      = "test"
+    alg     = "F2"
+    colored = "U F FD"
   ></iframe>
 
 - Center : Not Adjacent
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=U%20F2&colored=U%20F%20FD&hover=9&speed=500&flags=canvas"
+    id      = "test"
+    alg     = "U F2"
+    colored = "U F FD"
   ></iframe>
 
 
