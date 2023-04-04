@@ -1,4 +1,14 @@
 /////////////////////////
+///// import module
+/////////////////////////
+
+import * as commonRuwixTwisty from "/assets/js/ruwix_twisty_common.js";
+
+
+
+
+
+/////////////////////////
 ///// let queryText
 /////////////////////////
 
@@ -71,11 +81,11 @@ const setStElAttrs = (el,StElAttrs) =>
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
 
-testHr();
-testText("playerEls");
-testNodeList(playerEls);
-testHr();
-testBr()
+commonRuwixTwisty.testHr();
+commonRuwixTwisty.testText("playerEls");
+commonRuwixTwisty.testNodeList(playerEls);
+commonRuwixTwisty.testHr();
+commonRuwixTwisty.testBr()
 
 
 
@@ -425,4 +435,4 @@ playerEls.forEach( player =>
 
 
 
-} catch (error) { cubeEl.innerText = error };
+} catch (error) { commonRuwixTwisty.testText(error) };
