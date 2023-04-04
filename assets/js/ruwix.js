@@ -158,22 +158,39 @@ const createSrc = (getElAttrs,comElAttrs) => {
 };
 
 // insert parent
+// before : parentOld > elTarget
+// after  : parentNew > parentOld > elTarget
 const insertParent = elTarget => {
-    let elParent = elTarget.parentNode;
-    let elDiv    = document.createElement("div");
-    elParent.replaceChild(elDiv,elTarget);
-    elDiv.appendChild(elTarget);
+    // parent : Old/New
+    let parentOld = elTarget.parentNode;
+    let parentNew = document.createElement("div");
+    // before : parentOld > elTarget
+    // after  : parentOld > parentNew
+    parentOld.replaceChild(parentNew,elTarget);
+    // before : parentOld > parentNew
+    // after  : parentOld > parentNew > elTarget
+    parentNew.appendChild(elTarget);
+    // return parentNew
+    return parentNew;
 };
 // insert link
+// https://stackoverflow.com/a/6938316
+// before : elTarget
+// after  : elTarget - (linkParent > elLink) 
 const insertLinkAfter = (elTarget,href,text) => {
     // create link element
     let elLink = document.createElement("a");
     elLink.setAttribute("href",href);
     elLink.innerText = text;
-    // insert after
+    // insert parent
+    // linkParent > elLink
+    let linkParent = insertParent(elLink);
+    // insert after target
     // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
-    let elParent = elTarget.parentNode;
-    elParent.insertBefore(elLink,elTarget.nextSibling);
+    // before : targetParent > elTarget
+    // after  : targetParent > [elTarget,linkParent]
+    let targetParent = elTarget.parentNode;
+    targetParent.insertBefore(linkParent,elTarget.nextSibling);
 };
 
 
@@ -206,8 +223,6 @@ const src = createSrc(getElAttrs,comElAttrs);
 // set src
 iframeTest.setAttribute("src",src);
 
-// insert parent
-insertParent(iframeTest);
 // insert link
 const linkText = "Ruwix 3D Canvas Cube Generator";
 insertLinkAfter(iframeTest,src,linkText);
