@@ -157,6 +157,19 @@ const createSrc = (getElAttrs,comElAttrs) => {
     return src;
 };
 
+// insert link
+const insertLinkAfter = (elTarget,href,text) => {
+    // create link element
+    let elLink = document.createElement("a");
+    // set href
+    elLink.setAttribute("href",href);
+    // add text
+    elLink.append(text);
+    // insert after
+    // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+    let elParent = elLink.parentNode;
+    elParent.insertBefore(elLink,elTarget.nextSibling);
+};
 
 
 
@@ -178,8 +191,8 @@ const namesExcept = ["id"];
 const getElAttrs = getUseAttrs(iframeTest,namesExcept);
 // get common attrs
 const comElAttrs  = {
-    hover : 9,
-    speed : 500,
+    hover : 1,// 9,
+    speed : 100,// 500,
     flags : "canvas"
 };
 
@@ -187,6 +200,10 @@ const comElAttrs  = {
 const src = createSrc(getElAttrs,comElAttrs);
 // set src
 iframeTest.setAttribute("src",src);
+
+// insert link
+const linkText = "Ruwix 3D Canvas Cube Generator";
+insertLinkAfter(iframeTest,src,);
 
 
 
