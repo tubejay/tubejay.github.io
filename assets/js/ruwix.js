@@ -121,11 +121,12 @@ const createLink = (href,text) => {
     linkEl.innerText = text;
     // set style
     const linkStyle = {
-        "width"            : "250px"   ,
-        "font-size"        : "small"   ,
-        "margin-top"       : "0px"     ,
-        "margin-bottom"    : "0px"     ,
-        "background-color" : "#1a1a1a"
+            "width"            : "250px"   ,
+            "height"           : "30px"    ,
+            "font-size"        : "small"   ,
+            "margin-top"       : "0px"     ,
+            "margin-bottom"    : "0px"     ,
+            "background-color" : "#1a1a1a"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // return
@@ -145,9 +146,11 @@ const insertLinkAfter = (targetEl,href,text) => {
     // divEl style attr
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
     const divAttrs = {
-        "display"        : "flex"   ,
-        "flex-direction" : "column" ,
-        "column-gap"     : "0"
+            "display"        : "flex"   ,
+            "flex-direction" : "column" ,
+            "column-gap"     : "0"      ,
+            "margin-top"     : "5px"    ,
+            "margin-bottom"  : "5px"
     };
     setAttrByAttrs(divEl,divAttrs,true);
 };
@@ -213,8 +216,8 @@ const comStElAttrs = {
             "border-style"     : "none"        ,
             "border-color"     : "transparent" ,
             "border-width"     : "0px"         ,
-            "margin-top"       : "0px", // "5px"         ,
-            "margin-bottom"    : "0px", // "5px"
+            "margin-top"       : "0px"         ,
+            "margin-bottom"    : "0px"         ,
     },
     // element attr
     "element" : {
