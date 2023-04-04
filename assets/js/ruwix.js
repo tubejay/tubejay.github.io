@@ -157,6 +157,13 @@ const createSrc = (getElAttrs,comElAttrs) => {
     return src;
 };
 
+// insert parent
+const insertParent = elTarget => {
+    let elParent = elTarget.parentNode;
+    let elDiv    = document.createElement("div");
+    elParent.replaceChild(elDiv,elTarget);
+    elDiv.appendChild(elTarget);
+};
 // insert link
 const insertLinkAfter = (elTarget,href,text) => {
     // create link element
@@ -201,6 +208,8 @@ const src = createSrc(getElAttrs,comElAttrs);
 // set src
 iframeTest.setAttribute("src",src);
 
+// insert parent
+insertParent(iframeTest);
 // insert link
 const linkText = "Ruwix 3D Canvas Cube Generator";
 insertLinkAfter(iframeTest,src,linkText);

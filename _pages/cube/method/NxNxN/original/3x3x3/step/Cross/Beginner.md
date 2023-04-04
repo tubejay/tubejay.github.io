@@ -28,6 +28,7 @@ ruwix: true
     colored    = "U FD"
     setupmoves = "F2"
   ></iframe>
+
 - White Not on D Face
 
   <iframe
