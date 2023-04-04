@@ -101,10 +101,19 @@ const insertAfter = (targetEl,insertEl) =>
 const createLink = (href,text) => {
     // create
     const linkEl = document.createElement("a");
-    // set href/text/style
+    // set href/text
     linkEl.setAttribute("href",href);
     linkEl.innerText = text;
-    setAttrByAttrs(linkEl,{"font-size":"small"},true);
+    // set style
+    const linkStyle = {
+        "font-size"     : "small"   ,
+        "margin-top"    : "-5px"    ,
+        "margin-bottom" : "5px"     ,
+        "border-style"  : "solid"   ,
+        "border-color"  : "#1a1a1a" ,
+        "border-width"  : "1px"
+    };
+    setAttrByAttrs(linkEl,linkStyle,true);
     // return
     return linkEl;
 };
