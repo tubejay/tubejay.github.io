@@ -106,12 +106,10 @@ const createLink = (href,text) => {
     linkEl.innerText = text;
     // set style
     const linkStyle = {
-        "font-size"     : "small"   ,
-        "margin-top"    : "-15px"   ,
-        "margin-bottom" : "10px"    ,
-        "border-style"  : "solid"   ,
-        "border-color"  : "#1a1a1a" ,
-        "border-width"  : "3px"
+        "font-size"        : "small"   ,
+        "margin-top"       : "-40px"   ,
+        "margin-bottom"    : "20px"    ,
+        "background-color" : "#1a1a1a"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // return
@@ -152,7 +150,7 @@ const comElAttrs  = {
     flags : "canvas"
 };
 // link text
-const linkText = "Ruwix 3D Canvas Cube Generator";
+const linkText = "Ruwix 3D Cube Generator";
 
 // insert link for every iframe
 iframeTestEls.forEach( iframeTest => {
