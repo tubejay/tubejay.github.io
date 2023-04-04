@@ -122,11 +122,13 @@ const createLink = (href,text) => {
     // set style
     const linkStyle = {
             "width"            : "250px"   ,
-            "height"           : "30px"    ,
+            "height"           : "40px"    ,
             "font-size"        : "small"   ,
             "margin-top"       : "0px"     ,
             "margin-bottom"    : "0px"     ,
-            "background-color" : "#1a1a1a"
+            "background-color" : "#1a1a1a" ,
+            "text-align"       : "end"     ,
+            "vertical-align"   : "middle"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // return
