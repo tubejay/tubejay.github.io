@@ -104,7 +104,7 @@ const createLink = (href,text) => {
     // set href/text/style
     linkEl.setAttribute("href",href);
     linkEl.innerText = text;
-    setAttrByAttrs(linkEl,{"font-size":"x-small"},true);
+    setAttrByAttrs(linkEl,{"font-size":"small"},true);
     // return
     return linkEl;
 };
