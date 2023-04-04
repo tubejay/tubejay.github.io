@@ -209,7 +209,7 @@ iframeTest.setAttribute("src",src);
 // insert parent
 insertParent(iframeTest);
 // insert link
-// const linkText = "Ruwix 3D Canvas Cube Generator";
+const linkText = "Ruwix 3D Canvas Cube Generator";
 insertLinkAfter(iframeTest,src,linkText);
 
 
