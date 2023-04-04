@@ -101,9 +101,10 @@ const insertAfter = (targetEl,insertEl) =>
 const createLink = (href,text) => {
     // create
     const linkEl = document.createElement("a");
-    // set href/text
+    // set href/text/style
     linkEl.setAttribute("href",href);
     linkEl.innerText = text;
+    setAttrByAttrs(linkEl,{"font-size":"x-small"},true);
     // return
     return linkEl;
 };
