@@ -96,6 +96,21 @@ const insertAfter = (targetEl,insertEl) =>
     targetEl.parentNode.insertBefore(
         insertEl , targetEl.nextSibling
     );
+// insert div parent
+// https://stackoverflow.com/a/6938316
+// before : targetEl
+// after  : divEl > targetEl
+const insertDivParent = targetEl => {
+    // parentOld > targetEl
+    const parentOld = targetEl.parentNode;
+    // parentOld > divEl
+    const divEl = document.createElement("div");
+    parentOld.replaceChild(divEl,targetEl);
+    // divEl > targetEl
+    divEl.appendChild(targetEl);
+    // return divEl
+    return divEl;
+};
 // create link element
 // set : href/text
 const createLink = (href,text) => {
@@ -106,9 +121,10 @@ const createLink = (href,text) => {
     linkEl.innerText = text;
     // set style
     const linkStyle = {
+        "width"            : "250px"   ,
         "font-size"        : "small"   ,
-        "margin-top"       : "-40px"   ,
-        "margin-bottom"    : "20px"    ,
+        "margin-top"       : "0px"     ,
+        "margin-bottom"    : "0px"     ,
         "background-color" : "#1a1a1a"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
@@ -117,15 +133,23 @@ const createLink = (href,text) => {
 };
 // insert link
 // before : targetEl
-// after  : [ targetEl , { divEl > linkEl } ]
+// after  : divEl > { targetEl , linkEl }
 const insertLinkAfter = (targetEl,href,text) => {
-    // create elements
-    // divEl > linkEl
-    const divEl  = document.createElement("div");
-    divEl.appendChild( createLink(href,text) );
-    // insert divEl
-    // [ targetEl , divEl ]
-    insertAfter(targetEl,divEl);
+    // divEl > targetEl
+    const divEl = insertDivParent(targetEl);
+    // divEl > { targetEl , linkEl }
+    insertAfter(
+        targetEl ,
+        createLink(href,text)
+    );
+    // divEl style attr
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+    const divAttrs = {
+        "display"        : "flex"   ,
+        "flex-direction" : "column" ,
+        "column-gap"     : "0"
+    };
+    setAttrByAttrs(divEl,divAttrs,true);
 };
 
 
@@ -189,8 +213,8 @@ const comStElAttrs = {
             "border-style"     : "none"        ,
             "border-color"     : "transparent" ,
             "border-width"     : "0px"         ,
-            "margin-top"       : "5px"         ,
-            "margin-bottom"    : "5px"
+            "margin-top"       : "0px", // "5px"         ,
+            "margin-bottom"    : "0px", // "5px"
     },
     // element attr
     "element" : {
