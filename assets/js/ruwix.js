@@ -58,6 +58,8 @@ const iframeEls = document.querySelectorAll(queryText);
 
 
 
+
+
 /////////////////////////
 ///// common attr for every iframe
 /////////////////////////
@@ -92,9 +94,99 @@ iframeEls.forEach( iframe => setStElAttrs( iframe , comStElAttrs ) );
 
 
 
-queryText    = ".roofpig";
-const roofEl = document.querySelector(queryText);
-setStElAttrs(roofEl,comStElAttrs);
+
+
+/////////////////////////
+///// src for each iframe
+/////////////////////////
+///// define function
+/////////////////////////
+
+// get attr name
+const getNamesUse = (el,namesExcept) => {
+    const namesEl = el.getAttributeNames();
+    const namesFilter = attrName => !namesExcept.includes(attrName);
+    return namesEl.filter(namesFilter);
+};
+// create attrs
+// https://stackoverflow.com/a/53508215
+const createUseAttrs = (el,namesUse) => {
+    const getElValue = attrName => el.getAttribute(attrName);
+    const getElEntry = attrName => [ attrName , getElValue(attrName) ];
+    const useEntries = namesUse.map(getElEntry);
+    return Object.fromEntries(useEntries);
+};
+// get use attrs
+const getUseAttrs = (el,namesExcept) => createUseAttrs( el , getNamesUse(el,namesExcept) );
+
+// create query string
+const createQueryString = (entry,sep) => {
+    const [key,value] = entry;
+    const queryString = sep + key + '=' + value;
+    return queryString;
+};
+// create src
+const createSrc = (getElAttrs,comElAttrs) => {
+    // base url
+    let src = "https://ruwix.com/widget/3d/";
+    // add common attrs
+    Object.entries(comElAttrs).forEach(
+        (entry,index) => {
+            // sep by index
+            // 0    : '?'
+            // else : '&'
+            const sep         = index===0 ? '?' : '&';
+            // query string
+            const queryString = createQueryString(entry,sep);
+            // add to src
+            src += queryString;
+        }
+    );
+    // add use attrs
+    Object.entries(getElAttrs).forEach(
+        entry => {
+            // sep : '&'
+            const sep         = '&';
+            // query string
+            const queryString = createQueryString(entry,sep);
+            // add to src
+            src += queryString;
+        }
+    );
+    // return src
+    return src;
+};
+
+
+
+
+
+
+/////////////////////////
+///// src for each iframe
+/////////////////////////
+///// use function
+/////////////////////////
+
+// get test element
+queryText        = "#test";
+const iframeTest = document.querySelector(queryText);
+
+// get use attrs
+// except : id
+const namesExcept = ["id"];
+const getElAttrs = getUseAttrs(iframeTest,namesExcept);
+// get common attrs
+const comElAttrs  = {
+    hover : 9,
+    speed : 500,
+    flags : "canvas"
+};
+
+// create src
+const src = createSrc(getElAttrs,comElAttrs);
+// set src
+iframeTest.setAttribute("src",src);
 
 
 
