@@ -27,10 +27,13 @@ const testText = (text,useBr=true) => {
     // https://stackoverflow.com/a/19415581
     if (testOn !== "true") {return null;};
     cubeEl.append(text);
-    if (useBr) { cubeEl.appendChild( document.createElement("br") ); };
+    const brEl = document.createElement("br");
+    if (useBr) { cubeEl.appendChild( brEl ); };
 };
-const testHr = (n=30) => testText( "=".repeat(n) );
-const testBr = () => testHr(n=0);
+const testHr = (n=30) =>
+    testText( "=".repeat(n) );
+const testBr = () =>
+    testHr(0);
 // https://stackoverflow.com/a/37417004
 const testSp = n => {
     if (testOn !== "true") {return null;};
@@ -42,10 +45,12 @@ const testSp = n => {
 }
 
 // function : sub
-const arrayMaxLength = arr => {
-    const arrLength = arr.map( value => String(value).length );
-    return Math.max(...arrLength);
-};
+const valueStrLength = value =>
+    String(value).length;
+const arrayMaxLength = arr =>
+    Math.max( ...(
+        arr.map( valueStrLength )
+    ) );
 // https://www.geeksforgeeks.org/how-to-check-if-the-provided-value-is-an-object-created-by-the-object-constructor-in-javascript/
 const isObject = x => {
     try     { return x.constructor===Object }
@@ -78,21 +83,17 @@ const testElement = (el,depth=2) => {
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
     attrArray.forEach( attr => [
         testSp(depth) , testText( "- " , false ) ,
-        testTextPadRight( attr.name , nameLengthMax ),
+        testTextPadRight( attr.name , nameLengthMax ) ,
         testText( " : " + attr.value )
     ] );
 };
 const testObj = (obj,depth=2) => {
     if (testOn !== "true") {return null;};
-    const keyLengthMax = arrayMaxLength(Object.keys(obj));
-    Object.entries(obj).map(
-        entry => {
+    const keyLengthMax = arrayMaxLength( Object.keys(obj) );
+    Object.entries(obj).forEach( ( [key,value] ) => {
 
             // space
-            testSp(n=depth);
-
-            // key,value
-            const [key,value] = entry;
+            testSp(depth);
 
             // object
             if (isObject(value)) {
@@ -108,13 +109,11 @@ const testObj = (obj,depth=2) => {
                 [ testText( "- " + key ) , testElement(value,depth+2) ]
 
             // else
-            } else { [
-                testText( "- " , false ) , testTextPadRight( key , keyLengthMax ) ,
-                testText( " : " + value )
-            ] };
+            } else {
+                [ testText( "- " , false ) , testTextPadRight( key , keyLengthMax ) , testText( " : " + value ) ]
+            };
 
-        }
-    );
+    } );
 };
 
 // test check
@@ -136,35 +135,30 @@ try {
 /////////////////////////
 
 // set attr by attrEntry
-const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
-
-    // attrEntry : [key,value]
-    const [key,value] = attrEntry;
-
-    switch (isStyle) {
-        // style attr
-        case true:
-            el.style[key] = value;
-            break;
-        // element attr
-        case false:
-            el.setAttribute(key,value);
-            break;
-    };
-
-};
+// isStyle
+// true : style attr
+// else : element attr
+const setAttrByAttrEntry = (el,[key,value],isStyle) =>
+    isStyle
+    ? el.style[key] = value
+    : el.setAttribute(key,value);
 
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
-const setAttrByAttrs = (el,attrs,isStyle) => {
+const setAttrByAttrs = (el,attrs,isStyle) =>
     // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-    Object.entries(attrs).forEach( attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle) );
-};
+    Object.entries(attrs).forEach( attrEntry =>
+        setAttrByAttrEntry(el,attrEntry,isStyle)
+    );
 
 // set style/element attr
-const setStElAttrs = (el,StElAttrs) => [
-    [ StElAttrs["style"] , true  ] , [ StElAttrs["element"] , false ]
-].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
+const setStElAttrs = (el,StElAttrs) =>
+    [
+        [ StElAttrs["style"]   , true  ] ,
+        [ StElAttrs["element"] , false ]
+    ].forEach( attrsEntry =>
+        setAttrByAttrs( el, ...attrsEntry )
+    );
 
 
 
@@ -196,7 +190,6 @@ testBr()
 
 // create common attr
 const comStElAttrs = {
-
     // style attr
     "style" : {
             "background-color"        : "#1a1a1a"     ,
@@ -206,7 +199,6 @@ const comStElAttrs = {
             "border-color"            : "transparent" ,
             "border-width"            : "0px"
     },
-
     // element attr
     "element" : {
             "dark-mode"               : "none"        ,
@@ -218,7 +210,6 @@ const comStElAttrs = {
             "control-panel"           : "bottom-row"  ,
             "tempo-scale"             : "1.3"
     }
-
 };
 
 testHr();
@@ -228,7 +219,9 @@ testHr();
 testBr();
 
 // set common attr for every player
-playerEls.forEach( player => setStElAttrs( player , comStElAttrs ) );
+playerEls.forEach( player =>
+    setStElAttrs( player , comStElAttrs )
+);
 
 
 
@@ -264,58 +257,57 @@ testBr();
 /////////////////////////
 
 // style attr : width,height
-const createStyleAttrs = (width,height) => ({
-    "width"  : `${width}px`  ,
-    "height" : `${height}px`
-});
+const createStyleAttrs = (width,height) =>
+    ( {
+        "width"  : `${width}px`  ,
+        "height" : `${height}px`
+    } );
 // element attr
 // short : puzzle
-const createShortAttrs = (puzzle) => ({
-    "puzzle"      : puzzle    ,
-    "viewer-link" : "twizzle"
-});
+const createShortAttrs = puzzle =>
+    ( {
+        "puzzle"      : puzzle    ,
+        "viewer-link" : "twizzle"
+    } );
 // element attr
 // long  : pzdesc,latitude,longitude
-const createLongAttrs = (pzdesc,latitude,longitude) => ({
-    "experimental-puzzle-description" : pzdesc    ,
-    "camera-latitude"                 : latitude  ,
-    "camera-longitude"                : longitude ,
-    "viewer-link"                     : "experimental-twizzle-explorer"
-});
+const createLongAttrs = (pzdesc,latitude,longitude) =>
+    ( {
+        "experimental-puzzle-description" : pzdesc    ,
+        "camera-latitude"                 : latitude  ,
+        "camera-longitude"                : longitude ,
+        "viewer-link"                     : "experimental-twizzle-explorer"
+    } );
 
 // style + short
-const createStyleShortAttrs = (width,height,puzzle) => ({
-    style   : createStyleAttrs(width,height),
-    element : createShortAttrs(puzzle)
-});
+const createStyleShortAttrs = (width,height,puzzle) =>
+    ( {
+        style   : createStyleAttrs(width,height),
+        element : createShortAttrs(puzzle)
+    } );
 // style + long
-const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) => ({
-    style   : createStyleAttrs(width,height),
-    element : createLongAttrs(pzdesc,latitude,longitude)
-});
+const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) =>
+    ( {
+        style   : createStyleAttrs(width,height),
+        element : createLongAttrs(pzdesc,latitude,longitude)
+    } );
 
 // style + element
-const createStyleElementAttrs = attrArr => {
-
-    // array length
-    const attrArrLen = attrArr.length;
-
-    switch (attrArrLen) {
+const createStyleElementAttrs = attrArr =>
+    { switch (attrArr.length) {
         // length : 3
         // width,height,puzzle
         // style + short
         case 3:
-            return createStyleShortAttrs(...attrArr);
+            return createStyleShortAttrs( ...attrArr );
             break;
         // length : 5
         // width,height,pzdesc,latitude,longitude
         // style + long
         case 5:
-            return createStyleLongAttrs(...attrArr);
+            return createStyleLongAttrs( ...attrArr );
             break;
-    };
-
-};
+    } };
 
 
 
@@ -326,57 +318,33 @@ const createStyleElementAttrs = attrArr => {
 // preInfoEntry -> InfoEntry
 // preInfoEntry : [puzzleEnd,attrArr]
 // InfoEntry    : [puzzle,attrs]
-const preInfoEntryToInfoEntry = (preInfoEntry,puzzleStart) => {
-    // puzzleEnd,attrArr
-    const [puzzleEnd,attrArr] = preInfoEntry;
-    // puzzleEnd -> puzzle
-    const puzzle = puzzleStart + puzzleEnd;
-    // attrArr -> attrs
-    const attrs  = createStyleElementAttrs(attrArr);
-    // return
-    return [puzzle,attrs];
-};
+const preInfoEntryToInfoEntry = ( [puzzleEnd,attrArr] , puzzleStart ) =>
+    [
+        // puzzleEnd -> puzzle
+        puzzleStart + puzzleEnd ,
+        // attrArr -> attrs
+        createStyleElementAttrs(attrArr)
+    ];
 // preSet -> Info
 // preSet : [preInfo,puzzleStart]
 // Info   : {puzzle:attrs}
-const preSetToInfo = preSet => {
-
-    // preInfo,puzzleStart
-    const [preInfo,puzzleStart] = preSet;
-
+const preSetToInfo = ( [preInfo,puzzleStart] ) => {
     // preInfo -> [preInfoEntry]
-    // Object.entries
     const preInfoEntries = Object.entries( preInfo );
-
     // [preInfoEntry] -> [InfoEntry]
-    // preInfoEntryToInfoEntry
-    const InfoEntries = preInfoEntries.map( preInfoEntry => preInfoEntryToInfoEntry( preInfoEntry , puzzleStart ) );
-
+    const InfoEntries = preInfoEntries.map( preInfoEntry =>
+        preInfoEntryToInfoEntry( preInfoEntry , puzzleStart )
+    );
     // [InfoEntry] -> Info
-    // Object.fromEntries
-    const Info = Object.fromEntries( InfoEntries );
-
-    // return
-    return Info;
-
+    return Object.fromEntries( InfoEntries );
 };
 
 // preSetArray -> infoArray -> infoCollect
-const preSetArrayToInfoCollect = preSetArray => {
-
+const preSetArrayToInfoCollect = preSetArray =>
     // preSetArray -> infoArray
-    // preSetToInfo
-    const infoArray = preSetArray.map(preSetToInfo);
-
     // infoArray -> infoCollect
     // https://stackoverflow.com/a/43626263
-    // Object.assign
-    const infoCollect = Object.assign( {} , ...infoArray );
-
-    // return
-    return infoCollect;
-
-};
+    Object.assign( {} , ...( preSetArray.map(preSetToInfo) ) );
 
 
 
@@ -389,7 +357,6 @@ const preSetArrayToInfoCollect = preSetArray => {
 
 // preSet : [preInfo,puzzleStart]
 const preSetArray = [
-
     // NNN
     [
         {
@@ -401,7 +368,6 @@ const preSetArray = [
         },
         "NxNxN / "
     ],
-
     // tetra
     [
         {
@@ -415,7 +381,6 @@ const preSetArray = [
         },
         "tetra / "
     ],
-
     // hexa
     [
         {
@@ -434,7 +399,6 @@ const preSetArray = [
         },
         "hexa / "
     ],
-
     // octa
     [
         {
@@ -450,7 +414,6 @@ const preSetArray = [
         },
         "octa / "
     ],
-
     // dodeca
     [
         {
@@ -467,7 +430,6 @@ const preSetArray = [
         },
         "dodeca / "
     ],
-
     // icosa
     [
         {
@@ -477,7 +439,6 @@ const preSetArray = [
         },
         "icosa / "
     ],
-
 ];
 
 // preSetArray -> infoCollect
@@ -510,7 +471,9 @@ testBr();
 /////////////////////////
 
 // set attr for every player
-playerEls.forEach( player => setStElAttrs( player , infoSelect ) );
+playerEls.forEach( player =>
+    setStElAttrs( player , infoSelect )
+);
 
 
 
@@ -535,12 +498,13 @@ const namesUse    = getNamesUse(namesExcept);
 
 // create attrs
 // https://stackoverflow.com/a/53508215
-const getUseAttrs = namesUse => {
-    const getElValue = attrName => cubeEl.getAttribute(attrName);
-    const getElEntry = attrName => [ attrName , getElValue(attrName) ];
-    const useEntries = namesUse.map(getElEntry);
-    return Object.fromEntries(useEntries);
-};
+const getElEntry  = attrName =>
+    [
+        attrName ,
+        cubeEl.getAttribute(attrName)
+    ];
+const getUseAttrs = namesUse =>
+    Object.fromEntries( namesUse.map(getElEntry) );
 const pzComAttrs  = getUseAttrs(namesUse);
 
 testHr();
@@ -557,7 +521,9 @@ testBr();
 
 // set attr for every player
 // isStyle : false
-playerEls.forEach( player => setAttrByAttrs( player , pzComAttrs , false ) );
+playerEls.forEach( player =>
+    setAttrByAttrs( player , pzComAttrs , false )
+);
 
 
 

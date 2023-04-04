@@ -13,26 +13,29 @@ let queryText = "";
 /////////////////////////
 
 // set attr by attrEntry
-const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
-    // attrEntry : [key,value]
-    const [key,value] = attrEntry;
-    // isStyle
-    // true : style attr
-    // else : element attr
-    return isStyle ? [ el.style[key]=value ] : el.setAttribute(key,value);
-};
+// isStyle
+// true : style attr
+// else : element attr
+const setAttrByAttrEntry = (el,[key,value],isStyle) =>
+    isStyle
+    ? [ el.style[key]=value ]
+    : [ el.setAttribute(key,value) ];
+
 
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
 // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-const setAttrByAttrs = (el,attrs,isStyle) => Object.entries(attrs).forEach(
-    attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
-);
+const setAttrByAttrs = (el,attrs,isStyle) =>
+    Object.entries(attrs).forEach(
+        attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
+    );
 
 // set style/element attr
-const setStElAttrs = (el,StElAttrs) => [
-    [ StElAttrs["style"] , true  ] , [ StElAttrs["element"] , false ]
-].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
+const setStElAttrs = (el,StElAttrs) =>
+    [
+        [ StElAttrs["style"]   , true  ] ,
+        [ StElAttrs["element"] , false ]
+    ].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
 
 
 
@@ -58,47 +61,40 @@ const iframeEls = document.querySelectorAll(queryText);
 /////////////////////////
 
 // get attr name
-const getNamesUse = (el,namesExcept) => el.getAttributeNames().filter(
-    attrName => !namesExcept.includes(attrName)
-);
+const getNamesUse = (el,namesExcept) =>
+    el.getAttributeNames().filter(
+        attrName => !namesExcept.includes(attrName)
+    );
 // create attrs
 // https://stackoverflow.com/a/53508215
-const createUseAttrs = (el,namesUse) => Object.fromEntries( namesUse.map(
-    attrName => [ attrName , el.getAttribute(attrName) ]
-) );
-// get use attrs
-const getUseAttrs = (el,namesExcept) => createUseAttrs( el , getNamesUse(el,namesExcept) );
-
-// create query string
-const createQueryString = (entry,sep) => {
-    const [key,value] = entry;
-    return sep + key + '=' + value;
-};
-// get sep by index
-// 0    : '?'
-// else : '&'
-const getSepByIndex = (index=null) => index===0 ? '?' : '&';
-// create src
-const createSrc = (getElAttrs,comElAttrs) => {
-    // base url
-    let src = "https://ruwix.com/widget/3d/";
-    // all element attrs
-    const allElAttrs = { ...getElAttrs , ...comElAttrs };
-    // update src
-    Object.entries(allElAttrs).forEach( (entry,index) => src += createQueryString(
-        entry , getSepByIndex(index)
+const createUseAttrs = (el,namesUse) =>
+    Object.fromEntries( namesUse.map(
+        attrName => [ attrName , el.getAttribute(attrName) ]
     ) );
-    // return src
-    return src;
-};
+// get use attrs
+const getUseAttrs = (el,namesExcept) =>
+    createUseAttrs( el , getNamesUse(el,namesExcept) );
+
+// base URL
+const baseURL = "https://ruwix.com/widget/3d/";
+// create query string
+// "key=value"
+const createQueryString = ([key,value]) => key + '=' + value;
+// create src
+// base url + "?" + quert string
+const createSrc = arrElAttrs =>
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+    // "key=value&key=value"
+    baseURL + "?" + Object.entries(allElAttrs).map(createQueryString).join("&");
 
 // insert after
 // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
 // before : targetEl
 // after  : [ targetEl , insertEl ]
-const insertAfter = (targetEl,insertEl) => targetEl.parentNode.insertBefore(
-    insertEl , targetEl.nextSibling
-);
+const insertAfter = (targetEl,insertEl) =>
+    targetEl.parentNode.insertBefore(
+        insertEl , targetEl.nextSibling
+    );
 // create link element
 // set : href/text
 const createLink = (href,text) => {
@@ -138,9 +134,7 @@ const iframeTestEls = document.querySelectorAll(queryText);
 // attr name except : id
 const namesExcept = ["id"];
 // common element attr
-// hover
-// speed
-// flags
+// hover/speed/flags
 const comElAttrs  = {
     hover : 9,
     speed : 500,
@@ -151,10 +145,12 @@ const linkText = "Ruwix 3D Canvas Cube Generator";
 
 // insert link for every iframe
 iframeTestEls.forEach( iframeTest => {
-    // get attr
-    const getElAttrs = getUseAttrs(iframeTest,namesExcept);
-    // create/set src
-    const src = createSrc(getElAttrs,comElAttrs);
+    // create src
+    const src = createSrc( [
+        comElAttrs,
+        getUseAttrs(iframeTest,namesExcept)
+    ] );
+    // set src
     iframeTest.setAttribute("src",src);
     // insert link
     insertLinkAfter(iframeTest,src,linkText);
@@ -191,7 +187,9 @@ const comStElAttrs = {
 };
 
 // set attr for every iframe
-iframeEls.forEach( iframe => setStElAttrs( iframe , comStElAttrs ) );
+iframeEls.forEach( iframe =>
+    setStElAttrs( iframe , comStElAttrs )
+);
 
 
 
@@ -218,7 +216,9 @@ const imgStAttrs = {
 };
 
 // set attr for every image
-imageEls.forEach( image => setAttrByAttrs( image , imgStAttrs , true ) );
+imageEls.forEach( image =>
+    setAttrByAttrs( image , imgStAttrs , true )
+);
 
 
 
@@ -243,19 +243,17 @@ const imageRotateEls = document.querySelectorAll(queryText);
 ///// value : rotate
 /////////////////////////
 
-imageRotateEls.forEach(
-    image => {
-        // deg of image
-        queryText     = "deg";
-        const deg     = image.getAttribute(queryText);
-        // stAttrs : style attr
-        const stAttrs = {
-            "transform" : `rotate(${deg}deg)`
-        };
-        // set style attr
-        setAttrByAttrs( image , stAttrs , true );
-    }
-);
+imageRotateEls.forEach( image => {
+    // deg of image
+    queryText     = "deg";
+    const deg     = image.getAttribute(queryText);
+    // stAttrs : style attr
+    const stAttrs = {
+        "transform" : `rotate(${deg}deg)`
+    };
+    // set style attr
+    setAttrByAttrs( image , stAttrs , true );
+} );
 
 
 
@@ -279,24 +277,22 @@ const imageTranslateEls = document.querySelectorAll(queryText);
 ///// transform  : translate
 /////////////////////////
 
-imageTranslateEls.forEach(
-    image => {
-        // axis of image
-        queryText     = "axis";
-        const axis    = image.getAttribute(queryText);
-        // disp of image
-        queryText     = "disp";
-        const disp    = image.getAttribute(queryText);
-        // stAttrs : style attr
-        const stAttrs = {
-            "max-width"  : "initial",
-            "max-height" : "initial",
-            "transform"  : `translate${axis}(${disp})`
-        };
-        // set style attr
-        setAttrByAttrs( image , stAttrs , true );
-    }
-);
+imageTranslateEls.forEach( image => {
+    // axis of image
+    queryText     = "axis";
+    const axis    = image.getAttribute(queryText);
+    // disp of image
+    queryText     = "disp";
+    const disp    = image.getAttribute(queryText);
+    // stAttrs : style attr
+    const stAttrs = {
+        "max-width"  : "initial",
+        "max-height" : "initial",
+        "transform"  : `translate${axis}(${disp})`
+    };
+    // set style attr
+    setAttrByAttrs( image , stAttrs , true );
+} );
 
 
 
@@ -321,17 +317,15 @@ const divWrapperEls = document.querySelectorAll(queryText);
 ///// overflow   : hidden
 /////////////////////////
 
-divWrapperEls.forEach(
-    wrapper => {
-        // stAttrs : style attr
-        const stAttrs = {
-            // https://www.w3schools.com/css/css_inline-block.asp
-            "display"    : "inline-block" ,
-            "max-width"  : "96px"         ,
-            "max-height" : "96px"         ,
-            "overflow"   : "hidden"
-        };
-        // set style attr
-        setAttrByAttrs( wrapper , stAttrs , true );
-    }
-);
+divWrapperEls.forEach( wrapper => {
+    // stAttrs : style attr
+    const stAttrs = {
+        // https://www.w3schools.com/css/css_inline-block.asp
+        "display"    : "inline-block" ,
+        "max-width"  : "96px"         ,
+        "max-height" : "96px"         ,
+        "overflow"   : "hidden"
+    };
+    // set style attr
+    setAttrByAttrs( wrapper , stAttrs , true );
+} );
