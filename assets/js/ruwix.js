@@ -115,10 +115,11 @@ const insertDivParent = targetEl => {
 // set : href/text
 const createLink = (href,text) => {
     // create
-    const linkEl = document.createElement("a");
+    const linkEl   = document.createElement("div");
+    const linkText = document.createElement("a");
     // set href/text
-    linkEl.setAttribute("href",href);
-    linkEl.innerText = text;
+    linkText.setAttribute("href",href);
+    linkText.innerText = text;
     // set style
     const linkStyle = {
             "width"            : "250px"   ,
@@ -131,6 +132,8 @@ const createLink = (href,text) => {
             "vertical-align"   : "middle"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
+    // linkEl > linkText
+    linkEl.appendChild(lineText);
     // return
     return linkEl;
 };
