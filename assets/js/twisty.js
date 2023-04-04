@@ -20,11 +20,6 @@ const cubeEl = document.querySelector(queryText);
 queryText    = "teston";
 const testOn = cubeEl.getAttribute(queryText);
 
-testHr();
-testText("test");
-testHr();
-testBr();
-
 
 
 
@@ -430,4 +425,4 @@ playerEls.forEach( player =>
 
 
 
-} catch (error) { testText(error) };
+} catch (error) { cubeEl.innerText = error };
