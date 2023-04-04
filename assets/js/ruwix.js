@@ -107,11 +107,11 @@ const createLink = (href,text) => {
     // set style
     const linkStyle = {
         "font-size"     : "small"   ,
-        "margin-top"    : "-5px"    ,
-        "margin-bottom" : "5px"     ,
+        "margin-top"    : "-15px"   ,
+        "margin-bottom" : "10px"    ,
         "border-style"  : "solid"   ,
         "border-color"  : "#1a1a1a" ,
-        "border-width"  : "1px"
+        "border-width"  : "3px"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // return
