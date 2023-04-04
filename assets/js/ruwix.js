@@ -79,10 +79,11 @@ const getUseAttrs = (el,namesExcept) =>
 const baseURL = "https://ruwix.com/widget/3d/";
 // create query string
 // "key=value"
-const createQueryString = ([key,value]) => key + '=' + value;
+const createQueryString = ( [key,value] ) =>
+    key + '=' + value;
 // create src
 // base url + "?" + quert string
-const createSrc = arrElAttrs =>
+const createSrc = allElAttrs =>
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
     // "key=value&key=value"
     baseURL + "?" + Object.entries(allElAttrs).map(createQueryString).join("&");
@@ -113,7 +114,7 @@ const insertLinkAfter = (targetEl,href,text) => {
     // create elements
     // divEl > linkEl
     const divEl  = document.createElement("div");
-    divEl.appendChild(createLink(href,text));
+    divEl.appendChild( createLink(href,text) );
     // insert divEl
     // [ targetEl , divEl ]
     insertAfter(targetEl,divEl);
@@ -146,10 +147,13 @@ const linkText = "Ruwix 3D Canvas Cube Generator";
 // insert link for every iframe
 iframeTestEls.forEach( iframeTest => {
     // create src
-    const src = createSrc( [
-        comElAttrs,
-        getUseAttrs(iframeTest,namesExcept)
-    ] );
+    // https://stackoverflow.com/a/43626263
+    const src = createSrc( Object.assign(
+        {} , ...( [
+            comElAttrs ,
+            getUseAttrs(iframeTest,namesExcept)
+        ] )
+    ) );
     // set src
     iframeTest.setAttribute("src",src);
     // insert link
