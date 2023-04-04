@@ -14,29 +14,20 @@ let queryText = "";
 
 // set attr by attrEntry
 const setAttrByAttrEntry = (el,attrEntry,isStyle) => {
-
     // attrEntry : [key,value]
     const [key,value] = attrEntry;
-
-    switch (isStyle) {
-        // style attr
-        case true:
-            el.style[key] = value;
-            break;
-        // element attr
-        case false:
-            el.setAttribute(key,value);
-            break;
-    };
-
+    // isStyle
+    // true : style attr
+    // else : element attr
+    return isStyle ? [ el.style[key]=value ] : el.setAttribute(key,value);
 };
 
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
-const setAttrByAttrs = (el,attrs,isStyle) => {
-    // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
-    Object.entries(attrs).forEach( attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle) );
-};
+// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+const setAttrByAttrs = (el,attrs,isStyle) => Object.entries(attrs).forEach(
+    attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
+);
 
 // set style/element attr
 const setStElAttrs = (el,StElAttrs) => [
@@ -61,6 +52,119 @@ const iframeEls = document.querySelectorAll(queryText);
 
 
 /////////////////////////
+///// src for each iframe
+/////////////////////////
+///// define function
+/////////////////////////
+
+// get attr name
+const getNamesUse = (el,namesExcept) => el.getAttributeNames().filter(
+    attrName => !namesExcept.includes(attrName)
+);
+// create attrs
+// https://stackoverflow.com/a/53508215
+const createUseAttrs = (el,namesUse) => Object.fromEntries( namesUse.map(
+    attrName => [ attrName , attrName => el.getAttribute(attrName) ]
+) );
+// get use attrs
+const getUseAttrs = (el,namesExcept) => createUseAttrs( el , getNamesUse(el,namesExcept) );
+
+// create query string
+const createQueryString = (entry,sep) => {
+    const [key,value] = entry;
+    return sep + key + '=' + value;
+};
+// get sep by index
+// 0    : '?'
+// else : '&'
+const getSepByIndex = (index=null) => index===0 ? '?' : '&';
+// create src
+const createSrc = (getElAttrs,comElAttrs) => {
+    // base url
+    let src = "https://ruwix.com/widget/3d/";
+    // all element attrs
+    const allElAttrs = { ...getElAttrs , ...comElAttrs };
+    // update src
+    Object.entries(allElAttrs).forEach( (entry,index) => src += createQueryString(
+        entry , getSepByIndex(index)
+    ) );
+    // return src
+    return src;
+};
+
+// insert after
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+// before : targetEl
+// after  : [ targetEl , insertEl ]
+const insertAfter = (targetEl,insertEl) => targetEl.parentNode.insertBefore(
+    insertEl , targetEl.nextSibling
+);
+// create link element
+// set : href/text
+const createLink = (href,text) => {
+    // create
+    const linkEl = document.createElement("a");
+    // set href/text
+    linkEl.setAttribute("href",href);
+    linkEl.innerText = text;
+    // return
+    return linkEl;
+};
+// insert link
+// before : targetEl
+// after  : [ targetEl , { divEl > linkEl } ]
+const insertLinkAfter = (targetEl,href,text) => {
+    // create elements
+    // divEl > linkEl
+    const divEl  = document.createElement("div");
+    divEl.appendChild(createLink(href,text));
+    // insert divEl
+    // [ targetEl , divEl ]
+    insertAfter(targetEl,divEl);
+};
+
+
+
+/////////////////////////
+///// src for each iframe
+/////////////////////////
+///// use function
+/////////////////////////
+
+// get test element
+queryText           = "#test";
+const iframeTestEls = document.querySelectorAll(queryText);
+
+// attr name except : id
+const namesExcept = ["id"];
+// common element attr
+// hover
+// speed
+// flags
+const comElAttrs  = {
+    hover : 9,
+    speed : 500,
+    flags : "canvas"
+};
+// link text
+const linkText = "Ruwix 3D Canvas Cube Generator";
+
+// insert link for every iframe
+iframeTestEls.forEach( iframeTest => {
+    // get attr
+    const getElAttrs = getUseAttrs(iframeTest,namesExcept);
+    // create/set src
+    const src = createSrc(getElAttrs,comElAttrs);
+    iframeTest.setAttribute("src",src);
+    // insert link
+    insertLinkAfter(iframeTest,src,linkText);
+} );
+
+
+
+
+
+/////////////////////////
 ///// common attr for every iframe
 /////////////////////////
 ///// style attr
@@ -69,7 +173,6 @@ const iframeEls = document.querySelectorAll(queryText);
 
 // create common attr
 const comStElAttrs = {
-
     // style attr
     "style" : {
             "width"            : "250px"       ,
@@ -81,150 +184,14 @@ const comStElAttrs = {
             "margin-top"       : "5px"         ,
             "margin-bottom"    : "5px"
     },
-
     // element attr
     "element" : {
             "scrolling"        : "no"
     }
-
 };
 
 // set attr for every iframe
 iframeEls.forEach( iframe => setStElAttrs( iframe , comStElAttrs ) );
-
-
-
-
-
-/////////////////////////
-///// src for each iframe
-/////////////////////////
-///// define function
-/////////////////////////
-
-// get attr name
-const getNamesUse = (el,namesExcept) => {
-    const namesEl = el.getAttributeNames();
-    const namesFilter = attrName => !namesExcept.includes(attrName);
-    return namesEl.filter(namesFilter);
-};
-// create attrs
-// https://stackoverflow.com/a/53508215
-const createUseAttrs = (el,namesUse) => {
-    const getElValue = attrName => el.getAttribute(attrName);
-    const getElEntry = attrName => [ attrName , getElValue(attrName) ];
-    const useEntries = namesUse.map(getElEntry);
-    return Object.fromEntries(useEntries);
-};
-// get use attrs
-const getUseAttrs = (el,namesExcept) => createUseAttrs( el , getNamesUse(el,namesExcept) );
-
-// create query string
-const createQueryString = (entry,sep) => {
-    const [key,value] = entry;
-    const queryString = sep + key + '=' + value;
-    return queryString;
-};
-// create src
-const createSrc = (getElAttrs,comElAttrs) => {
-    // base url
-    let src = "https://ruwix.com/widget/3d/";
-    // add common attrs
-    Object.entries(comElAttrs).forEach(
-        (entry,index) => {
-            // sep by index
-            // 0    : '?'
-            // else : '&'
-            const sep         = index===0 ? '?' : '&';
-            // query string
-            const queryString = createQueryString(entry,sep);
-            // add to src
-            src += queryString;
-        }
-    );
-    // add use attrs
-    Object.entries(getElAttrs).forEach(
-        entry => {
-            // sep : '&'
-            const sep         = '&';
-            // query string
-            const queryString = createQueryString(entry,sep);
-            // add to src
-            src += queryString;
-        }
-    );
-    // return src
-    return src;
-};
-
-// insert parent
-// before : parentOld > elTarget
-// after  : parentNew > parentOld > elTarget
-const insertParent = elTarget => {
-    // parent : Old/New
-    let parentOld = elTarget.parentNode;
-    let parentNew = document.createElement("div");
-    // before : parentOld > elTarget
-    // after  : parentOld > parentNew
-    parentOld.replaceChild(parentNew,elTarget);
-    // before : parentOld > parentNew
-    // after  : parentOld > parentNew > elTarget
-    parentNew.appendChild(elTarget);
-};
-// insert link
-// https://stackoverflow.com/a/6938316
-// before : elTarget
-// after  : elTarget - (linkParent > elLink) 
-const insertLinkAfter = (elTarget,href,text) => {
-    // create link element
-    let elLink = document.createElement("a");
-    elLink.setAttribute("href",href);
-    elLink.innerText = text;
-    // insert link after target
-    // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
-    // before : targetParent > elTarget
-    // after  : targetParent > [elTarget,elLink]
-    let targetParent = elTarget.parentNode;
-    targetParent.insertBefore(elLink,elTarget.nextSibling);
-    // insert parent of link
-    // before : targetParent > elLink
-    // after  : targetParent > linkParent > elLink
-    insertParent(elLink);
-};
-
-
-
-
-
-/////////////////////////
-///// src for each iframe
-/////////////////////////
-///// use function
-/////////////////////////
-
-// get test element
-queryText        = "#test";
-const iframeTest = document.querySelector(queryText);
-
-// get use attrs
-// except : id
-const namesExcept = ["id"];
-const getElAttrs = getUseAttrs(iframeTest,namesExcept);
-// get common attrs
-const comElAttrs  = {
-    hover : 9,
-    speed : 500,
-    flags : "canvas"
-};
-
-// create src
-const src = createSrc(getElAttrs,comElAttrs);
-// set src
-iframeTest.setAttribute("src",src);
-
-// insert link
-const linkText = "Ruwix 3D Canvas Cube Generator";
-insertLinkAfter(iframeTest,src,linkText);
 
 
 
