@@ -1,5 +1,5 @@
 /////////////////////////
-///// test function
+///// define function
 /////////////////////////
 
 // basic
@@ -101,4 +101,17 @@ const testObj = (obj,depth=2) => {
                 ]
             };
     } );
+};
+
+
+
+/////////////////////////
+///// export function
+/////////////////////////
+
+// https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#syntax
+export {
+    testText,testHr,testBr,testSp,
+    valueStrLength,arrayMaxLength,isObject,
+    testTextPadRight,testNodeList,testArray,testElement,testObj
 };

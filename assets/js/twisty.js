@@ -2,9 +2,8 @@
 ///// import module
 /////////////////////////
 
-// https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#re-exporting_aggregating
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
-import * as common from "/assets/js/common_export.js";
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#syntax
+import * as common from "/assets/js/common.js";
 
 
 
