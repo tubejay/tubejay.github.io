@@ -3,7 +3,7 @@
 /////////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#syntax
-import * as common from "./common.js";
+// import * as common from "./common.js";
 
 
 
@@ -194,7 +194,7 @@ const playerEls = document.querySelectorAll(queryText);
 testHr();
 testText("playerEls");
 testNodeList(playerEls);
-common.testHr();
+testHr();
 testBr()
 
 
