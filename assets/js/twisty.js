@@ -3,7 +3,7 @@
 /////////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#syntax
-import * as common from "common.js";
+// import * as common from "common.js";
 
 
 
@@ -191,11 +191,11 @@ const setStElAttrs = (el,StElAttrs) =>
 queryText       = "twisty-player";
 const playerEls = document.querySelectorAll(queryText);
 
-common.testHr();
-common.testText("playerEls");
-common.testNodeList(playerEls);
-common.testHr();
-common.testBr()
+testHr();
+testText("playerEls");
+testNodeList(playerEls);
+testHr();
+testBr()
 
 
 
