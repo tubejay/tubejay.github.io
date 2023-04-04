@@ -168,13 +168,11 @@ const insertParent = elTarget => {
 const insertLinkAfter = (elTarget,href,text) => {
     // create link element
     let elLink = document.createElement("a");
-    // set href
     elLink.setAttribute("href",href);
-    // add text
     elLink.innerText = text;
     // insert after
     // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
-    let elParent = elLink.parentNode;
+    let elParent = elTarget.parentNode;
     elParent.insertBefore(elLink,elTarget.nextSibling);
 };
 
@@ -211,7 +209,7 @@ iframeTest.setAttribute("src",src);
 // insert parent
 insertParent(iframeTest);
 // insert link
-const linkText = "Ruwix 3D Canvas Cube Generator";
+// const linkText = "Ruwix 3D Canvas Cube Generator";
 insertLinkAfter(iframeTest,src,linkText);
 
 
