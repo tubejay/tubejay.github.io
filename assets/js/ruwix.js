@@ -170,8 +170,6 @@ const insertParent = elTarget => {
     // before : parentOld > parentNew
     // after  : parentOld > parentNew > elTarget
     parentNew.appendChild(elTarget);
-    // return parentNew
-    return parentNew;
 };
 // insert link
 // https://stackoverflow.com/a/6938316
@@ -182,15 +180,16 @@ const insertLinkAfter = (elTarget,href,text) => {
     let elLink = document.createElement("a");
     elLink.setAttribute("href",href);
     elLink.innerText = text;
-    // insert parent
-    // linkParent > elLink
-    let linkParent = insertParent(elLink);
-    // insert after target
+    // insert link after target
     // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
     // before : targetParent > elTarget
-    // after  : targetParent > [elTarget,linkParent]
+    // after  : targetParent > [elTarget,elLink]
     let targetParent = elTarget.parentNode;
-    targetParent.insertBefore(linkParent,elTarget.nextSibling);
+    targetParent.insertBefore(elLink,elTarget.nextSibling);
+    // insert parent of link
+    // before : targetParent > elLink
+    // after  : targetParent > linkParent > elLink
+    insertParent(elLink);
 };
 
 
