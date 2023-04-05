@@ -506,11 +506,10 @@ playerEls.forEach( player =>
 
 // get attr name
 // except : id/puzzle
-const getNamesUse = namesExcept => {
-    const namesCubeEl = cubeEl.getAttributeNames();
-    const namesFilter = attrName => !namesExcept.includes(attrName);
-    return namesCubeEl.filter(namesFilter);
-};
+const getNamesUse = namesExcept =>
+    cubeEl.getAttributeNames().filter( attrName =>
+        !namesExcept.includes(attrName)
+    );
 const namesExcept = ["id","puzzle"];
 const namesUse    = getNamesUse(namesExcept);
 

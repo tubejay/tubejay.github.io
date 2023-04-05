@@ -7,13 +7,14 @@ published: true
 hidden: false
 target: "_blank"
 ruwix: true
-teston: true
+teston: false
 devon: true
 ---
 <span
   id     = "cube"
   teston = "{{page.teston}}"
-  devon  = "{{page.devon}}" >
+  devon  = "{{page.devon}}"
+  colors = "F:cyan R:cyan D:cyan" >
 </span>
 
 <head>
@@ -30,7 +31,7 @@ devon: true
     alg        = "R'"
     colored    = "U FD RD"
     setupmoves = "R F'"
-    colors     = "F:cyan R:cyan D:cyan"
+    <!-- colors     = "F:cyan R:cyan D:cyan" -->
   ></iframe>
 
 ### Case 2
@@ -41,5 +42,5 @@ devon: true
     alg        = "F U2"
     colored    = "U FD RD"
     setupmoves = "R F'"
-    colors     = "F:cyan R:cyan D:cyan"
+    <!-- colors     = "F:cyan R:cyan D:cyan" -->
   ></iframe>

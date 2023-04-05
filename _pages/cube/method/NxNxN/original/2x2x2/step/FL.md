@@ -5,6 +5,7 @@ toc: true
 permalink: /cube/method/NxNxN/original/2x2x2/fl
 published: true
 hidden: false
+target: "_blank"
 twisty: true
 puzzle: "NxNxN / 2x2x2"
 teston: false
@@ -19,7 +20,7 @@ teston: false
 </span>
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
 </head>
 
 

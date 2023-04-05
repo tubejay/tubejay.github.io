@@ -165,7 +165,6 @@ const setAttrByAttrEntry = (el,[key,value],isStyle) =>
     ? [ el.style[key]=value ]
     : [ el.setAttribute(key,value) ];
 
-
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
 // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
@@ -217,20 +216,28 @@ testBr()
 ///// define function
 /////////////////////////
 
+// get attr name
+const getNamesUse = (el,namesExcept) =>
+    el.getAttributeNames().filter( attrName =>
+        !namesExcept.includes(attrName)
+    );
 // get attr entry
 const getAttrEntry = (el,attrName) =>
     [
         attrName ,
         el.getAttribute(attrName)
     ];
-// get all attrs
+// get use attrs
 // https://stackoverflow.com/a/53508215
-const getAllAttrs = el =>
+const getUseAttrs = (el,namesExcept) =>
     Object.fromEntries(
-        el.getAttributeNames().map( attrName =>
+        getNamesUse(el,namesExcept).map( attrName =>
             getAttrEntry(el,attrName)
         )
     );
+// get all attrs
+const getAllAttrs = el =>
+    getUseAttrs( el , [] );
 // base URL
 const baseURL = "https://ruwix.com/widget/3d/";
 // create query string
@@ -379,8 +386,7 @@ testHr();
 testText("comElAttrs");
 testObj(comElAttrs);
 testHr();
-testText("linkText");
-testText(linkText);
+testText("linkText : "+linkText);
 testHr();
 testBr();
 
@@ -446,6 +452,25 @@ testBr();
 // set attr for every iframe
 iframeEls.forEach( iframe =>
     setStElAttrs( iframe , comStElAttrs )
+);
+
+
+
+
+
+/////////////////////////
+///// set attr by page
+/////////////////////////
+
+// get attr
+// except : id/teston/devon
+const namesExcept = ["id","teston","devon"];
+const comAttrs    = getUseAttrs(cubeEl,namesExcept);
+
+// set attr for every iframe
+// element attr
+iframeEls.forEach( iframe =>
+    setAttrByAttrs( iframe , comAttrs , false )
 );
 
 
