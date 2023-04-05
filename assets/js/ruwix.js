@@ -9,6 +9,26 @@ let queryText = "";
 
 
 /////////////////////////
+///// test element
+/////////////////////////
+
+// element
+queryText    = "#cube";
+const cubeEl = document.querySelector(queryText);
+
+// dev
+queryText   = "devon";
+const devOn = cubeEl.getAttribute(queryText);
+
+// test
+queryText    = "teston";
+const testOn = cubeEl.getAttribute(queryText);
+
+
+
+
+
+/////////////////////////
 ///// test function
 /////////////////////////
 
@@ -64,7 +84,7 @@ const testNodeList = (nodelist,depth=2) => {
 const testArray = (arr,depth=2) => {
     if (testOn !== "true") {return null;};
     arr.forEach( (value,index) =>
-        [ testSp(depth) ,  testText( "- " + index + " : " + value ) ]
+        [ testSp(depth) , testText( "- " + index + " : " + value ) ]
     );
 };
 const testElement = (el,depth=2) => {
@@ -77,39 +97,37 @@ const testElement = (el,depth=2) => {
         testText( " : " + attr.value )
     ] );
 };
-const testObj = (obj,depth=2) => {
+const testType = value =>
+    // object
+    isObject(value)          ? "object"  :
+    // array
+    Array.isArray(value)     ? "array"   :
+    // element
+    // https://stackoverflow.com/a/36894871
+    value instanceof Element ? "element" :
+    // else
+    "else";
+const testObj  = (obj,depth=2) => {
     if (testOn !== "true") {return null;};
     const keyLengthMax = arrayMaxLength( Object.keys(obj) );
     Object.entries(obj).forEach( ( [key,value] ) => {
-            // space
-            testSp(depth);
-            // object
-            if (isObject(value)) {
-                [
-                    testText( "- " + key ) ,
-                    testObj(value,depth+2)
-                ]
-            // array
-            } else if (Array.isArray(value)) {
-                [
-                    testText( "- " + key ) ,
-                    testArray(value,depth+2)
-                ]
-            // element
-            // https://stackoverflow.com/a/36894871
-            } else if (value instanceof Element) {
-                [
-                    testText( "- " + key ) ,
-                    testElement(value,depth+2)
-                ]
-            // else
-            } else {
-                [
-                    testText( "- " , false ) ,
-                    testTextPadRight( key , keyLengthMax ) ,
-                    testText( " : " + value )
-                ]
-            };
+        // space
+        testSp(depth);
+        switch ( testType(value) ) {
+            case "object"  :
+                testText( "- " + key );
+                testObj( value , depth+2 );
+            case "array"   :
+                testText( "- " + key );
+                testArray( value , depth+2 );
+            case "element" :
+                testText( "- " + key );
+                testElement( value , depth+2 );
+            case "else"    :
+                testText( "- " , false );
+                testTextPadRight( key , keyLengthMax );
+                testText( " : " + value );
+        };
     } );
 };
 
@@ -118,24 +136,12 @@ const testObj = (obj,depth=2) => {
 
 
 /////////////////////////
-///// test check
+///// TASK : START
 /////////////////////////
 
-// element
-queryText    = "#cube";
-const cubeEl = document.querySelector(queryText);
-
-// dev
-queryText   = "devon";
-const devOn = cubeEl.getAttribute(queryText);
-
-// test
-queryText    = "teston";
-const testOn = cubeEl.getAttribute(queryText);
-
-
-
 try{
+
+
 
 
 
@@ -260,6 +266,15 @@ const divElAttrs = {
     "margin-bottom"  : "15px"
 };
 
+testHr();
+testText("linkElAttrs");
+testObj(linkElAttrs);
+testHr();
+testText("divElAttrs");
+testObj(divElAttrs);
+testHr();
+testBr();
+
 
 
 /////////////////////////
@@ -280,14 +295,14 @@ const createLinkText = (href,text) => {
 };
 // create link element
 const createLink = (href,text) => {
-    // create
+    // create El/Text
     const linkEl   = document.createElement("div");
     const linkText = createLinkText(href,text);
-    // set style attr
+    // El : style attr
     setAttrByAttrs(linkEl,linkElAttrs,true);
-    // linkEl > linkText
+    // El > Text
     linkEl.appendChild(linkText);
-    // return
+    // return El
     return linkEl;
 };
 
@@ -328,13 +343,9 @@ const insertDivParent = targetEl => {
 const insertLinkAfter = (targetEl,href,text) => {
     // divEl > targetEl
     const divEl = insertDivParent(targetEl);
-    // divEl > { targetEl , linkEl }
-    insertAfter(
-        targetEl ,
-        createLink(href,text)
-    );
-    // set attr
     setAttrByAttrs(divEl,divElAttrs,true);
+    // divEl > { targetEl , linkEl }
+    insertAfter( targetEl , createLink(href,text) );
 };
 
 
@@ -347,19 +358,22 @@ const insertLinkAfter = (targetEl,href,text) => {
 /////////////////////////
 
 // common element attr
-// hover/speed/flags
 const comElAttrs  = {
     hover : 9,
     speed : 500,
     flags : "canvas"
 };
+// link text
+const linkText = "Ruwix 3D Cube Generator";
+
 testHr();
 testText("comElAttrs");
 testObj(comElAttrs);
 testHr();
+testText("linkText");
+testText(linkText);
+testHr();
 testBr();
-// link text
-const linkText = "Ruwix 3D Cube Generator";
 
 // create src
 const srcByIframe = iframe =>
@@ -374,7 +388,7 @@ const srcSetInsert = (el,src) =>
         el.setAttribute("src",src) ,
         insertLinkAfter(el,src,linkText)
     ];
-// devOn
+// condition : devOn
 if (devOn==="true") {
     iframeEls.forEach( iframe =>
         srcSetInsert( iframe , srcByIframe(iframe) )
@@ -394,7 +408,6 @@ if (devOn==="true") {
 
 // create common attr
 const comStElAttrs = {
-    // style attr
     "style" : {
             "width"            : "250px"       ,
             "height"           : "295px"       ,
@@ -405,7 +418,6 @@ const comStElAttrs = {
             "margin-top"       : "0px"         ,
             "margin-bottom"    : "0px"         ,
     },
-    // element attr
     "element" : {
             "scrolling"        : "no"
     }
@@ -430,7 +442,7 @@ iframeEls.forEach( iframe =>
 ///// image elements
 /////////////////////////
 
-queryText = "img";
+queryText      = "img";
 const imageEls = document.querySelectorAll(queryText);
 
 testHr();
@@ -490,12 +502,12 @@ imageRotateEls.forEach( image => {
     // deg of image
     queryText     = "deg";
     const deg     = image.getAttribute(queryText);
-    // stAttrs : style attr
-    const stAttrs = {
+    // style attr
+    const stAttrsRotate = {
         "transform" : `rotate(${deg}deg)`
     };
     // set style attr
-    setAttrByAttrs( image , stAttrs , true );
+    setAttrByAttrs( image , stAttrsRotate , true );
 } );
 
 
@@ -533,14 +545,14 @@ imageTranslateEls.forEach( image => {
     // disp of image
     queryText     = "disp";
     const disp    = image.getAttribute(queryText);
-    // stAttrs : style attr
-    const stAttrs = {
+    // style attr
+    const stAttrsTranslate = {
         "max-width"  : "initial",
         "max-height" : "initial",
         "transform"  : `translate${axis}(${disp})`
     };
     // set style attr
-    setAttrByAttrs( image , stAttrs , true );
+    setAttrByAttrs( image , stAttrsTranslate , true );
 } );
 
 
@@ -572,19 +584,27 @@ testBr()
 ///// overflow   : hidden
 /////////////////////////
 
-divWrapperEls.forEach( wrapper => {
-    // stAttrs : style attr
-    const stAttrs = {
-        // https://www.w3schools.com/css/css_inline-block.asp
-        "display"    : "inline-block" ,
-        "max-width"  : "96px"         ,
-        "max-height" : "96px"         ,
-        "overflow"   : "hidden"
-    };
+// style attr
+const stAttrsDiv = {
+    // https://www.w3schools.com/css/css_inline-block.asp
+    "display"    : "inline-block" ,
+    "max-width"  : "96px"         ,
+    "max-height" : "96px"         ,
+    "overflow"   : "hidden"
+};
+divWrapperEls.forEach( wrapper =>
     // set style attr
-    setAttrByAttrs( wrapper , stAttrs , true );
-} );
+    setAttrByAttrs( wrapper , stAttrsDiv , true )
+);
 
 
 
-} catch (error) {testText(error)}
+
+
+/////////////////////////
+///// TASK : END
+/////////////////////////
+
+} catch (error) {
+    testText(error)
+};
