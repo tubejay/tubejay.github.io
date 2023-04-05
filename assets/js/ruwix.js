@@ -125,15 +125,13 @@ const testObj = (obj,depth=2) => {
 queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
 
+// dev
+queryText   = "devon";
+const devOn = document.querySelector(queryText);
+
 // test
 queryText    = "teston";
 const testOn = cubeEl.getAttribute(queryText);
-
-
-
-
-
-try {
 
 
 
@@ -307,16 +305,6 @@ const insertLinkAfter = (targetEl,href,text) => {
 ///// use function
 /////////////////////////
 
-// get test element
-queryText           = "#test";
-const iframeTestEls = document.querySelectorAll(queryText);
-
-testHr();
-testText("iframeTestEls");
-testNodeList(iframeTestEls);
-testHr();
-testBr()
-
 // attr name except : id
 const namesExcept = ["id"];
 // common element attr
@@ -334,8 +322,9 @@ testBr();
 // link text
 const linkText = "Ruwix 3D Cube Generator";
 
-// insert link for every iframe
-try {
+// set src
+// insert link
+if (devOn==="true") {
 iframeEls.forEach( iframe => {
     // create src
     // https://stackoverflow.com/a/43626263
@@ -350,7 +339,7 @@ iframeEls.forEach( iframe => {
     // insert link
     insertLinkAfter(iframe,src,linkText);
 } );
-} catch (error) {};
+};
 
 
 
@@ -555,9 +544,3 @@ divWrapperEls.forEach( wrapper => {
     // set style attr
     setAttrByAttrs( wrapper , stAttrs , true );
 } );
-
-
-
-
-
-} catch (error) { testText(error) };

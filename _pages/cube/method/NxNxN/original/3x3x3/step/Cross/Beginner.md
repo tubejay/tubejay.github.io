@@ -8,9 +8,11 @@ hidden: false
 target: "_blank"
 ruwix: true
 teston: false
+devon: true
 ---
 <span
   id     = "cube"
+  devon  = "{{page.devon}}"
   teston = "{{page.teston}}" >
 </span>
 
