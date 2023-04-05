@@ -335,20 +335,22 @@ testBr();
 const linkText = "Ruwix 3D Cube Generator";
 
 // insert link for every iframe
-iframeEls.forEach( iframeTest => {
+try {
+iframeEls.forEach( iframe => {
     // create src
     // https://stackoverflow.com/a/43626263
     const src = createSrc( Object.assign(
         {} , ...( [
             comElAttrs ,
-            getUseAttrs(iframeTest,namesExcept)
+            getUseAttrs(iframe,namesExcept)
         ] )
     ) );
     // set src
-    iframeTest.setAttribute("src",src);
+    iframe.setAttribute("src",src);
     // insert link
-    insertLinkAfter(iframeTest,src,linkText);
+    insertLinkAfter(iframe,src,linkText);
 } );
+} catch (error) {};
 
 
 
