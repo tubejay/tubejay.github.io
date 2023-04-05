@@ -258,15 +258,16 @@ const createLink = (href,text) => {
     linkText.setAttribute("href",href);
     linkText.innerText = text;
     // set style
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
     const linkStyle = {
             "width"            : "250px"   ,
-            "height"           : "100px"    ,
+            "height"           : "30px"    ,
             "font-size"        : "small"   ,
-            "margin-top"       : "0px"     ,
-            "margin-bottom"    : "10px"     ,
             "background-color" : "#1a1a1a" ,
             "text-align"       : "end"     ,
-            "vertical-align"   : "middle"
+            "display"          : "flex"    ,
+            "align-items"      : "center"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // linkEl > linkText
@@ -292,7 +293,7 @@ const insertLinkAfter = (targetEl,href,text) => {
             "flex-direction" : "column" ,
             "column-gap"     : "0"      ,
             "margin-top"     : "5px"    ,
-            "margin-bottom"  : "5px"
+            "margin-bottom"  : "15px"
     };
     setAttrByAttrs(divEl,divAttrs,true);
 };
