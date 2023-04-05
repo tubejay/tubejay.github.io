@@ -12,8 +12,8 @@ devon: true
 ---
 <span
   id     = "cube"
-  teston = "{{page.teston}}"
-  devon  = "{{page.devon}}"
+  teston = {{page.teston}}
+  devon  = {{page.devon}}
   colors = "F:cyan R:cyan D:cyan" >
 </span>
 

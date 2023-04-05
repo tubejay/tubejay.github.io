@@ -22,10 +22,10 @@ let devOn,testOn;
 if (cubeEl) {
     // dev
     queryText = "devon";
-    devOn     = ( cubeEl.getAttribute(queryText)==="true" );
+    devOn     = cubeEl.getAttribute(queryText);
     // test
     queryText = "teston";
-    testOn    = ( cubeEl.getAttribute(queryText)==="true" );
+    testOn    = cubeEl.getAttribute(queryText);
 };
 
 
