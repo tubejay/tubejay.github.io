@@ -260,10 +260,10 @@ const createLink = (href,text) => {
     // set style
     const linkStyle = {
             "width"            : "250px"   ,
-            "height"           : "40px"    ,
+            "height"           : "100px"    ,
             "font-size"        : "small"   ,
             "margin-top"       : "0px"     ,
-            "margin-bottom"    : "0px"     ,
+            "margin-bottom"    : "10px"     ,
             "background-color" : "#1a1a1a" ,
             "text-align"       : "end"     ,
             "vertical-align"   : "middle"
