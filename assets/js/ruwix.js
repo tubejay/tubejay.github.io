@@ -117,16 +117,20 @@ const testObj  = (obj,depth=2) => {
             case "object"  :
                 testText( "- " + key );
                 testObj( value , depth+2 );
+                break;
             case "array"   :
                 testText( "- " + key );
                 testArray( value , depth+2 );
+                break;
             case "element" :
                 testText( "- " + key );
                 testElement( value , depth+2 );
+                break;
             case "else"    :
                 testText( "- " , false );
                 testTextPadRight( key , keyLengthMax );
                 testText( " : " + value );
+                break;
         };
     } );
 };
