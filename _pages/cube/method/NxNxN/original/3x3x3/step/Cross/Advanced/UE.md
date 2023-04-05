@@ -5,11 +5,12 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/cross/advanced/ue
 published: true
 hidden: false
+target: "_blank"
 ruwix: true
 ---
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
 </head>
 
 

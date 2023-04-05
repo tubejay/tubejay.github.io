@@ -83,13 +83,19 @@ const testTextPadRight = (text,totalLength) => {
 const testNodeList = (nodelist,depth=2) => {
     if (!testOn) {return null;};
     nodelist.forEach( (node,index) =>
-        [ testSp(depth) , testText( "- " + index + " : " + node.nodeName ) ]
+        [
+            testSp(depth) ,
+            testText( "- " + index + " : " + node.nodeName )
+        ]
     );
 };
 const testArray = (arr,depth=2) => {
     if (!testOn) {return null;};
     arr.forEach( (value,index) =>
-        [ testSp(depth) , testText( "- " + index + " : " + value ) ]
+        [
+            testSp(depth) ,
+            testText( "- " + index + " : " + value )
+        ]
     );
 };
 const testElement = (el,depth=2) => {
@@ -122,18 +128,22 @@ const testObj  = (obj,depth=2) => {
         testSp(depth);
         // by type
         switch ( testType(value) ) {
+            // object
             case "object"  :
                 testText( "- " + key );
                 testObj( value , depth+2 );
                 break;
+            // array
             case "array"   :
                 testText( "- " + key );
                 testArray( value , depth+2 );
                 break;
+            // element
             case "element" :
                 testText( "- " + key );
                 testElement( value , depth+2 );
                 break;
+            // else
             case "else"    :
                 testText( "- " , false );
                 testTextPadRight( key , keyLengthMax );
@@ -372,10 +382,11 @@ const insertLinkAfter = (targetEl,href,text) => {
 
 
 /////////////////////////
-///// each iframe
+///// insert for each iframe
 /////////////////////////
-///// set src
-///// insert link
+///// common attr
+///// page attr
+///// link text
 /////////////////////////
 
 // common element attr
@@ -384,6 +395,14 @@ const comElAttrs  = {
     speed : 500,
     flags : "canvas"
 };
+// page element attr
+const pageElAttr =
+    // condition : devOn
+    devOn
+    // true  -> except : id/teston/devon
+    ? getUseAttrs( cubeEl , ["id","teston","devon"] )
+    // false -> empty
+    : {};
 // link text
 const linkText = "Ruwix 3D Cube Generator";
 
@@ -391,16 +410,29 @@ testHr();
 testText("comElAttrs");
 testObj(comElAttrs);
 testHr();
+testText("pageElAttr");
+testObj(pageElAttr);
+testHr();
 testText("linkText : "+linkText);
 testHr();
 testBr();
+
+
+
+/////////////////////////
+///// each iframe
+/////////////////////////
+///// set src
+///// insert link
+/////////////////////////
 
 // create src
 const srcByIframe = iframe =>
     createSrc( mergeArrObject(
         [
             comElAttrs ,
-            getAllAttrs(iframe)
+            pageElAttr ,
+            getAllAttrs(iframe) ,
         ]
     ) );
 // set src
@@ -419,8 +451,6 @@ if (devOn) {
         )
     );
 };
-
-
 
 
 
@@ -458,28 +488,6 @@ testBr();
 iframeEls.forEach( iframe =>
     setStElAttrs( iframe , comStElAttrs )
 );
-
-
-
-
-
-/////////////////////////
-///// set attr by page
-/////////////////////////
-
-// get attr
-// except : id/teston/devon
-const namesExcept = ["id","teston","devon"];
-const comAttrs    = getUseAttrs(cubeEl,namesExcept);
-
-// set attr for every iframe
-// element attr
-// condition : devOn
-if (devOn) {
-    iframeEls.forEach( iframe =>
-        setAttrByAttrs( iframe , comAttrs , false )
-    );
-}
 
 
 
