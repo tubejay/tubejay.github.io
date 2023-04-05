@@ -127,7 +127,7 @@ const cubeEl = document.querySelector(queryText);
 
 // dev
 queryText   = "devon";
-const devOn = document.querySelector(queryText);
+const devOn = cubeEl.getAttribute(queryText);
 
 // test
 queryText    = "teston";
