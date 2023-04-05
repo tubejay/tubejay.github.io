@@ -7,13 +7,13 @@ published: true
 hidden: false
 target: "_blank"
 ruwix: true
-teston: true
+teston: false
 devon: true
 ---
 <span
   id     = "cube"
-  devon  = "{{page.devon}}"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  devon  = "{{page.devon}}" >
 </span>
 
 <head>

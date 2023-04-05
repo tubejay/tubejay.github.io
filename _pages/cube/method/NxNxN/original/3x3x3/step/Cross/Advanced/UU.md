@@ -5,15 +5,19 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/cross/advanced/uu
 published: true
 hidden: false
+target: "_blank"
 ruwix: true
-teston: false
+teston: true
+devon: true
 ---
 <span
   id     = "cube"
-  teston = "{{page.teston}}" >
+  teston = "{{page.teston}}"
+  devon  = "{{page.devon}}" >
 </span>
+
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
 </head>
 
 
@@ -23,7 +27,10 @@ teston: false
 - [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue)
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R'&colored=U%20FD%20RD&setupmoves=R%20F'&hover=9&speed=500&flags=canvas&colors=F:cyan%20R:cyan%20D:cyan"
+    alg        = "R'"
+    colored    = "U FD RD"
+    setupmoves = "R F'"
+    colors     = "F:cyan R:cyan D:cyan"
   ></iframe>
 
 ### Case 2
@@ -31,5 +38,8 @@ teston: false
 - [Cross / Advanced / UE](/cube/method/NxNxN/original/3x3x3/cross/advanced/ue)
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=F%20U2&colored=U%20FD%20RD&setupmoves=R%20F'&hover=9&speed=500&flags=canvas&colors=F:cyan%20R:cyan%20D:cyan"
+    alg        = "F U2"
+    colored    = "U FD RD"
+    setupmoves = "R F'"
+    colors     = "F:cyan R:cyan D:cyan"
   ></iframe>

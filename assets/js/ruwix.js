@@ -91,11 +91,13 @@ const testElement = (el,depth=2) => {
     if (testOn !== "true") {return null;};
     const attrArray     = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
-    attrArray.forEach( attr => [
-        testSp(depth) , testText( "- " , false ) ,
-        testTextPadRight( attr.name , nameLengthMax ) ,
-        testText( " : " + attr.value )
-    ] );
+    attrArray.forEach( attr =>
+        [
+            testSp(depth) , testText( "- " , false ) ,
+            testTextPadRight( attr.name , nameLengthMax ) ,
+            testText( " : " + attr.value )
+        ]
+    );
 };
 const testType = value =>
     // object
@@ -113,6 +115,7 @@ const testObj  = (obj,depth=2) => {
     Object.entries(obj).forEach( ( [key,value] ) => {
         // space
         testSp(depth);
+        // by type
         switch ( testType(value) ) {
             case "object"  :
                 testText( "- " + key );
@@ -167,8 +170,8 @@ const setAttrByAttrEntry = (el,[key,value],isStyle) =>
 // https://stackoverflow.com/a/12274782
 // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
 const setAttrByAttrs = (el,attrs,isStyle) =>
-    Object.entries(attrs).forEach(
-        attrEntry => setAttrByAttrEntry(el,attrEntry,isStyle)
+    Object.entries(attrs).forEach( attrEntry =>
+        setAttrByAttrEntry(el,attrEntry,isStyle)
     );
 
 // set style/element attr
@@ -176,7 +179,9 @@ const setStElAttrs = (el,StElAttrs) =>
     [
         [ StElAttrs["style"]   , true  ] ,
         [ StElAttrs["element"] , false ]
-    ].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
+    ].forEach( attrsEntry =>
+        setAttrByAttrs( el, ...attrsEntry )
+    );
 
 // merge object
 // https://stackoverflow.com/a/43626263
@@ -222,8 +227,8 @@ const getAttrEntry = (el,attrName) =>
 // https://stackoverflow.com/a/53508215
 const getAllAttrs = el =>
     Object.fromEntries(
-        el.getAttributeNames().map(
-            attrName => getAttrEntry(el,attrName)
+        el.getAttributeNames().map( attrName =>
+            getAttrEntry(el,attrName)
         )
     );
 // base URL
@@ -381,10 +386,12 @@ testBr();
 
 // create src
 const srcByIframe = iframe =>
-    createSrc( mergeArrObject( [
-        comElAttrs ,
-        getAllAttrs(iframe)
-    ] ) );
+    createSrc( mergeArrObject(
+        [
+            comElAttrs ,
+            getAllAttrs(iframe)
+        ]
+    ) );
 // set src
 // insert link
 const srcSetInsert = (el,src) =>
@@ -395,7 +402,10 @@ const srcSetInsert = (el,src) =>
 // condition : devOn
 if (devOn==="true") {
     iframeEls.forEach( iframe =>
-        srcSetInsert( iframe , srcByIframe(iframe) )
+        srcSetInsert(
+            iframe ,
+            srcByIframe(iframe)
+        )
     );
 };
 
@@ -597,7 +607,6 @@ const stAttrsDiv = {
     "overflow"   : "hidden"
 };
 divWrapperEls.forEach( wrapper =>
-    // set style attr
     setAttrByAttrs( wrapper , stAttrsDiv , true )
 );
 
