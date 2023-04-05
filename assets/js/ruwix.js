@@ -16,15 +16,17 @@ let queryText = "";
 queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
 
+// dev
+// test
 let devOn,testOn;
 
 if (cubeEl) {
     // dev
-    queryText   = "devon";
-    devOn = ( cubeEl.getAttribute(queryText)==="true" );
+    queryText = "devon";
+    devOn     = ( cubeEl.getAttribute(queryText)==="true" );
     // test
-    queryText    = "teston";
-    testOn = ( cubeEl.getAttribute(queryText)==="true" );
+    queryText = "teston";
+    testOn    = ( cubeEl.getAttribute(queryText)==="true" );
 };
 
 
@@ -472,6 +474,7 @@ const comAttrs    = getUseAttrs(cubeEl,namesExcept);
 
 // set attr for every iframe
 // element attr
+// condition : devOn
 if (devOn) {
     iframeEls.forEach( iframe =>
         setAttrByAttrs( iframe , comAttrs , false )
