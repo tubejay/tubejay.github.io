@@ -268,7 +268,7 @@ const createLink = (href,text) => {
             "display"          : "flex"     ,
             "justify-content"  : "flex-end" ,
             "align-items"      : "center"   ,
-            "padding-right"    : "5px"
+            "padding-right"    : "10px"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // linkEl > linkText
@@ -335,7 +335,7 @@ testBr();
 const linkText = "Ruwix 3D Cube Generator";
 
 // insert link for every iframe
-iframeTestEls.forEach( iframeTest => {
+iframeEls.forEach( iframeTest => {
     // create src
     // https://stackoverflow.com/a/43626263
     const src = createSrc( Object.assign(
