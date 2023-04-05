@@ -6,8 +6,12 @@ permalink: /cube/method/NxNxN/original/3x3x3/cross/advanced/uu
 published: true
 hidden: false
 ruwix: true
+teston: true
 ---
-
+<span>
+  id     = "cube"
+  teston = "{{page.teston}}" >
+</span>
 <head>
   <base target="_blank">
 </head>
