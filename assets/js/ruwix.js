@@ -258,15 +258,14 @@ const createLink = (href,text) => {
     linkText.setAttribute("href",href);
     linkText.innerText = text;
     // set style
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
     const linkStyle = {
-            "width"            : "250px"   ,
-            "height"           : "30px"    ,
-            "font-size"        : "small"   ,
-            "background-color" : "#1a1a1a" ,
-            "text-align"       : "end"     ,
-            "display"          : "flex"    ,
+            "width"            : "250px"    ,
+            "height"           : "30px"     ,
+            "font-size"        : "small"    ,
+            "background-color" : "#1a1a1a"  ,
+            "display"          : "flex"     ,
+            "justify-content"  : "flex-end" ,
             "align-items"      : "center"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
@@ -365,7 +364,7 @@ const comStElAttrs = {
     // style attr
     "style" : {
             "width"            : "250px"       ,
-            "height"           : "300px"       ,
+            "height"           : "290px"       ,
             "background-color" : "#1a1a1a"     ,
             "border-style"     : "none"        ,
             "border-color"     : "transparent" ,
