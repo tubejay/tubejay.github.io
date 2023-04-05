@@ -114,7 +114,7 @@ const testObj = (obj,depth=2) => {
 };
 
 
-
+try {
 
 
 /////////////////////////
@@ -580,3 +580,7 @@ divWrapperEls.forEach( wrapper => {
     // set style attr
     setAttrByAttrs( wrapper , stAttrs , true );
 } );
+
+
+
+} catch (error) {testText(error)}
