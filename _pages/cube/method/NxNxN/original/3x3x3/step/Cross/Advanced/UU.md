@@ -8,7 +8,7 @@ hidden: false
 ruwix: true
 teston: true
 ---
-<span>
+<span
   id     = "cube"
   teston = "{{page.teston}}" >
 </span>
