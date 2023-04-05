@@ -270,7 +270,7 @@ const createLink = (href,text) => {
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // linkEl > linkText
-    linkEl.appendChild(lineText);
+    linkEl.appendChild(linkText);
     // return
     return linkEl;
 };
