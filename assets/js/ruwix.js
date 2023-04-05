@@ -259,6 +259,7 @@ const createLink = (href,text) => {
     linkText.innerText = text;
     // set style
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right
     const linkStyle = {
             "width"            : "250px"    ,
             "height"           : "35px"     ,
@@ -266,7 +267,8 @@ const createLink = (href,text) => {
             "background-color" : "#1a1a1a"  ,
             "display"          : "flex"     ,
             "justify-content"  : "flex-end" ,
-            "align-items"      : "center"
+            "align-items"      : "center"   ,
+            "padding-right"    : "5px"
     };
     setAttrByAttrs(linkEl,linkStyle,true);
     // linkEl > linkText
