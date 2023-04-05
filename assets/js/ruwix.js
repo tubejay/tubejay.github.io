@@ -18,11 +18,11 @@ const cubeEl = document.querySelector(queryText);
 
 // dev
 queryText   = "devon";
-const devOn = cubeEl.getAttribute(queryText);
+const devOn = ( cubeEl.getAttribute(queryText)==="true" );
 
 // test
 queryText    = "teston";
-const testOn = cubeEl.getAttribute(queryText);
+const testOn = ( cubeEl.getAttribute(queryText)==="true" );
 
 
 
@@ -35,7 +35,7 @@ const testOn = cubeEl.getAttribute(queryText);
 // basic
 const testText = (text,useBr=true) => {
     // https://stackoverflow.com/a/19415581
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     cubeEl.append(text);
     const brEl = document.createElement("br");
     if (useBr) { cubeEl.appendChild( brEl ); };
@@ -46,7 +46,7 @@ const testBr = () =>
     testHr(0);
 const testSp = n => {
     // https://stackoverflow.com/a/37417004
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     [...Array(n)].forEach( () =>
         cubeEl.appendChild( document.createTextNode("\u00a0") )
         // https://um-sal.tistory.com/9
@@ -69,26 +69,26 @@ const isObject = x => {
 
 // print
 const testTextPadRight = (text,totalLength) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     testText(text,false);
     const textLength = text.length;
     const countPad   = totalLength - textLength;
     testSp(countPad);
 };
 const testNodeList = (nodelist,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     nodelist.forEach( (node,index) =>
         [ testSp(depth) , testText( "- " + index + " : " + node.nodeName ) ]
     );
 };
 const testArray = (arr,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     arr.forEach( (value,index) =>
         [ testSp(depth) , testText( "- " + index + " : " + value ) ]
     );
 };
 const testElement = (el,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     const attrArray     = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
     attrArray.forEach( attr =>
@@ -110,7 +110,7 @@ const testType = value =>
     // else
     "else";
 const testObj  = (obj,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     const keyLengthMax = arrayMaxLength( Object.keys(obj) );
     Object.entries(obj).forEach( ( [key,value] ) => {
         // space
@@ -406,7 +406,7 @@ const srcSetInsert = (el,src) =>
         insertLinkAfter(el,src,linkText)
     ];
 // condition : devOn
-if (devOn==="true") {
+if (devOn) {
     iframeEls.forEach( iframe =>
         srcSetInsert(
             iframe ,
@@ -469,9 +469,11 @@ const comAttrs    = getUseAttrs(cubeEl,namesExcept);
 
 // set attr for every iframe
 // element attr
-iframeEls.forEach( iframe =>
-    setAttrByAttrs( iframe , comAttrs , false )
-);
+if (devOn) {
+    iframeEls.forEach( iframe =>
+        setAttrByAttrs( iframe , comAttrs , false )
+    );
+}
 
 
 

@@ -31,7 +31,6 @@ devon: true
     alg        = "R'"
     colored    = "U FD RD"
     setupmoves = "R F'"
-    <!-- colors     = "F:cyan R:cyan D:cyan" -->
   ></iframe>
 
 ### Case 2
@@ -42,5 +41,4 @@ devon: true
     alg        = "F U2"
     colored    = "U FD RD"
     setupmoves = "R F'"
-    <!-- colors     = "F:cyan R:cyan D:cyan" -->
   ></iframe>
