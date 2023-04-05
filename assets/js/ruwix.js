@@ -16,13 +16,16 @@ let queryText = "";
 queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
 
-// dev
-queryText   = "devon";
-const devOn = ( cubeEl.getAttribute(queryText)==="true" );
+let devOn,testOn;
 
-// test
-queryText    = "teston";
-const testOn = ( cubeEl.getAttribute(queryText)==="true" );
+if (cubeEl) {
+    // dev
+    queryText   = "devon";
+    devOn = ( cubeEl.getAttribute(queryText)==="true" );
+    // test
+    queryText    = "teston";
+    testOn = ( cubeEl.getAttribute(queryText)==="true" );
+};
 
 
 
