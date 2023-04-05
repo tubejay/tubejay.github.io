@@ -261,7 +261,7 @@ const createLink = (href,text) => {
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
     const linkStyle = {
             "width"            : "250px"    ,
-            "height"           : "30px"     ,
+            "height"           : "35px"     ,
             "font-size"        : "small"    ,
             "background-color" : "#1a1a1a"  ,
             "display"          : "flex"     ,
@@ -364,7 +364,7 @@ const comStElAttrs = {
     // style attr
     "style" : {
             "width"            : "250px"       ,
-            "height"           : "290px"       ,
+            "height"           : "295px"       ,
             "background-color" : "#1a1a1a"     ,
             "border-style"     : "none"        ,
             "border-color"     : "transparent" ,
