@@ -20,13 +20,32 @@ let queryText = "";
 
 
 /////////////////////////
+///// test check
+/////////////////////////
+
+// element
+queryText    = "#cube";
+const cubeEl = document.querySelector(queryText);
+
+// test
+let testOn;
+if (cubeEl) {
+    queryText = "teston";
+    testOn    = ( cubeEl.getAttribute(queryText)==="true" );
+};
+
+
+
+
+
+/////////////////////////
 ///// test function
 /////////////////////////
 
 // basic
 const testText = (text,useBr=true) => {
     // https://stackoverflow.com/a/19415581
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     cubeEl.append(text);
     const brEl = document.createElement("br");
     if (useBr) { cubeEl.appendChild( brEl ); };
@@ -37,7 +56,7 @@ const testBr = () =>
     testHr(0);
 const testSp = n => {
     // https://stackoverflow.com/a/37417004
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     [...Array(n)].forEach( () =>
         cubeEl.appendChild( document.createTextNode("\u00a0") )
         // https://um-sal.tistory.com/9
@@ -60,66 +79,81 @@ const isObject = x => {
 
 // print
 const testTextPadRight = (text,totalLength) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     testText(text,false);
     const textLength = text.length;
     const countPad   = totalLength - textLength;
     testSp(countPad);
 };
 const testNodeList = (nodelist,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     nodelist.forEach( (node,index) =>
-        [ testSp(depth) , testText( "- " + index + " : " + node.nodeName ) ]
+        [
+            testSp(depth) ,
+            testText( "- " + index + " : " + node.nodeName )
+        ]
     );
 };
 const testArray = (arr,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     arr.forEach( (value,index) =>
-        [ testSp(depth) ,  testText( "- " + index + " : " + value ) ]
+        [
+            testSp(depth) ,
+            testText( "- " + index + " : " + value )
+        ]
     );
 };
 const testElement = (el,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     const attrArray     = Array.from(el.attributes);
     const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
-    attrArray.forEach( attr => [
-        testSp(depth) , testText( "- " , false ) ,
-        testTextPadRight( attr.name , nameLengthMax ) ,
-        testText( " : " + attr.value )
-    ] );
+    attrArray.forEach( attr =>
+        [
+            testSp(depth) , testText( "- " , false ) ,
+            testTextPadRight( attr.name , nameLengthMax ) ,
+            testText( " : " + attr.value )
+        ]
+    );
 };
+const testType = value =>
+    // object
+    isObject(value)          ? "object"  :
+    // array
+    Array.isArray(value)     ? "array"   :
+    // element
+    // https://stackoverflow.com/a/36894871
+    value instanceof Element ? "element" :
+    // else
+    "else";
 const testObj = (obj,depth=2) => {
-    if (testOn !== "true") {return null;};
+    if (!testOn) {return null;};
     const keyLengthMax = arrayMaxLength( Object.keys(obj) );
     Object.entries(obj).forEach( ( [key,value] ) => {
-            // space
-            testSp(depth);
+        // space
+        testSp(depth);
+        // by type
+        switch ( testType(value) ) {
             // object
-            if (isObject(value)) {
-                [
-                    testText( "- " + key ) ,
-                    testObj(value,depth+2)
-                ]
+            case "object"  :
+                testText( "- " + key );
+                testObj( value , depth+2 );
+                break;
             // array
-            } else if (Array.isArray(value)) {
-                [
-                    testText( "- " + key ) ,
-                    testArray(value,depth+2)
-                ]
+            case "array"   :
+                testText( "- " + key );
+                testArray( value , depth+2 );
+                break;
             // element
-            // https://stackoverflow.com/a/36894871
-            } else if (value instanceof Element) {
-                [
-                    testText( "- " + key ) ,
-                    testElement(value,depth+2)
-                ]
+            case "element" :
+                testText( "- " + key );
+                testElement( value , depth+2 );
+                break;
             // else
-            } else {
-                [
-                    testText( "- " , false ) ,
-                    testTextPadRight( key , keyLengthMax ) ,
-                    testText( " : " + value )
-                ]
+            case "else"    :
+                testText( "- " , false );
+                testTextPadRight( key , keyLengthMax );
+                testText( " : " + value );
+                break;
             };
     } );
 };
@@ -129,22 +163,12 @@ const testObj = (obj,depth=2) => {
 
 
 /////////////////////////
-///// test check
+///// TASK : START
 /////////////////////////
 
-// element
-queryText    = "#cube";
-const cubeEl = document.querySelector(queryText);
-
-// test
-queryText    = "teston";
-const testOn = cubeEl.getAttribute(queryText);
-
-
-
-
-
 try {
+
+
 
 
 
@@ -163,8 +187,8 @@ const setAttrByAttrEntry = (el,[key,value],isStyle) =>
 
 // set attr by attrs
 // https://stackoverflow.com/a/12274782
+// https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
 const setAttrByAttrs = (el,attrs,isStyle) =>
-    // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
     Object.entries(attrs).forEach( attrEntry =>
         setAttrByAttrEntry(el,attrEntry,isStyle)
     );
@@ -177,6 +201,11 @@ const setStElAttrs = (el,StElAttrs) =>
     ].forEach( attrsEntry =>
         setAttrByAttrs( el, ...attrsEntry )
     );
+
+// merge object
+// https://stackoverflow.com/a/43626263
+const mergeArrObject = arrObject =>
+    Object.assign( {} , ...arrObject );
 
 
 
@@ -208,7 +237,6 @@ testBr()
 
 // create common attr
 const comStElAttrs = {
-    // style attr
     "style" : {
             "background-color"        : "#1a1a1a"     ,
             "margin-top"              : "5px"         ,
@@ -217,7 +245,6 @@ const comStElAttrs = {
             "border-color"            : "transparent" ,
             "border-width"            : "0px"
     },
-    // element attr
     "element" : {
             "dark-mode"               : "none"        ,
             "background"              : "none"        ,
@@ -314,14 +341,14 @@ const createStyleLongAttrs = (width,height,pzdesc,latitude,longitude) =>
 const createStyleElementAttrs = attrArr =>
     { switch (attrArr.length) {
         // length : 3
-        // width,height,puzzle
         // style + short
+        // width,height,puzzle
         case 3:
             return createStyleShortAttrs( ...attrArr );
             break;
         // length : 5
-        // width,height,pzdesc,latitude,longitude
         // style + long
+        // width,height,pzdesc,latitude,longitude
         case 5:
             return createStyleLongAttrs( ...attrArr );
             break;
@@ -338,31 +365,30 @@ const createStyleElementAttrs = attrArr =>
 // InfoEntry    : [puzzle,attrs]
 const preInfoEntryToInfoEntry = ( [puzzleEnd,attrArr] , puzzleStart ) =>
     [
-        // puzzleEnd -> puzzle
+        // puzzle
         puzzleStart + puzzleEnd ,
-        // attrArr -> attrs
+        // attrs
         createStyleElementAttrs(attrArr)
     ];
 // preSet -> Info
 // preSet : [preInfo,puzzleStart]
 // Info   : {puzzle:attrs}
-const preSetToInfo = ( [preInfo,puzzleStart] ) => {
-    // preInfo -> [preInfoEntry]
-    const preInfoEntries = Object.entries( preInfo );
-    // [preInfoEntry] -> [InfoEntry]
-    const InfoEntries = preInfoEntries.map( preInfoEntry =>
-        preInfoEntryToInfoEntry( preInfoEntry , puzzleStart )
-    );
+const preSetToInfo = ( [preInfo,puzzleStart] ) =>
     // [InfoEntry] -> Info
-    return Object.fromEntries( InfoEntries );
-};
+    Object.fromEntries(
+        // preInfo -> [preInfoEntry]
+        Object.entries( preInfo ).map( preInfoEntry =>
+            // preInfoEntry -> InfoEntry
+            preInfoEntryToInfoEntry(
+                preInfoEntry ,
+                puzzleStart
+            )
+        )
+    );
 
 // preSetArray -> infoArray -> infoCollect
 const preSetArrayToInfoCollect = preSetArray =>
-    // preSetArray -> infoArray
-    // infoArray -> infoCollect
-    // https://stackoverflow.com/a/43626263
-    Object.assign( {} , ...( preSetArray.map(preSetToInfo) ) );
+    mergeArrObject( preSetArray.map(preSetToInfo) );
 
 
 
@@ -371,7 +397,8 @@ const preSetArrayToInfoCollect = preSetArray =>
 /////////////////////////
 ///// collect puzzle info
 /////////////////////////
-
+///// create preSet
+/////////////////////////
 
 // preSet : [preInfo,puzzleStart]
 const preSetArray = [
@@ -459,14 +486,18 @@ const preSetArray = [
     ],
 ];
 
+
+
+/////////////////////////
+///// collect puzzle info
+/////////////////////////
+///// create info
+/////////////////////////
+
 // preSetArray -> infoCollect
 const infoCollect = preSetArrayToInfoCollect(preSetArray);
 
-// testHr();
-// testText("infoCollect");
-// testObj(infoCollect);
-// testHr();
-// testBr();
+
 
 
 
@@ -521,7 +552,9 @@ const getElEntry  = attrName =>
         cubeEl.getAttribute(attrName)
     ];
 const getUseAttrs = namesUse =>
-    Object.fromEntries( namesUse.map(getElEntry) );
+    Object.fromEntries(
+        namesUse.map(getElEntry)
+    );
 const pzComAttrs  = getUseAttrs(namesUse);
 
 testHr();

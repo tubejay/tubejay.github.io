@@ -19,7 +19,6 @@ const cubeEl = document.querySelector(queryText);
 // dev
 // test
 let devOn,testOn;
-
 if (cubeEl) {
     // dev
     queryText = "devon";
@@ -361,7 +360,7 @@ const insertDivParent = targetEl => {
     // parentOld > targetEl
     const parentOld = targetEl.parentNode;
     // parentOld > divEl
-    const divEl = document.createElement("div");
+    const divEl     = document.createElement("div");
     parentOld.replaceChild(divEl,targetEl);
     // divEl > targetEl
     divEl.appendChild(targetEl);
