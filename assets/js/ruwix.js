@@ -114,7 +114,7 @@ const testObj = (obj,depth=2) => {
 };
 
 
-try {
+
 
 
 /////////////////////////
@@ -134,6 +134,8 @@ queryText    = "teston";
 const testOn = cubeEl.getAttribute(queryText);
 
 
+
+try{
 
 
 
