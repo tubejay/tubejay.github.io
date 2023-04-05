@@ -7,7 +7,7 @@ published: true
 hidden: false
 target: "_blank"
 ruwix: true
-teston: false
+teston: true
 devon: true
 ---
 <span
@@ -27,7 +27,6 @@ devon: true
 - White on D Face
 
   <iframe
-    id         = "test"
     alg        = "F2'"
     colored    = "U FD"
     setupmoves = "F2"
@@ -36,7 +35,6 @@ devon: true
 - White Not on D Face
 
   <iframe
-    id         = "test"
     alg        = "R F'"
     colored    = "U FD"
     setupmoves = "F2"
@@ -49,7 +47,6 @@ devon: true
 - Center : Adjacent
 
   <iframe
-    id      = "test"
     alg     = "F2"
     colored = "U F FD"
   ></iframe>
@@ -57,7 +54,6 @@ devon: true
 - Center : Not Adjacent
 
   <iframe
-    id      = "test"
     alg     = "U F2"
     colored = "U F FD"
   ></iframe>

@@ -166,6 +166,11 @@ const setStElAttrs = (el,StElAttrs) =>
         [ StElAttrs["element"] , false ]
     ].forEach( attrsEntry => setAttrByAttrs( el, ...attrsEntry ) );
 
+// merge object
+// https://stackoverflow.com/a/43626263
+const mergeArrObject = arrObject =>
+    Object.assign( {} , ...arrObject );
+
 
 
 
@@ -195,21 +200,18 @@ testBr()
 ///// define function
 /////////////////////////
 
-// get attr name
-const getNamesUse = (el,namesExcept) =>
-    el.getAttributeNames().filter(
-        attrName => !namesExcept.includes(attrName)
-    );
-// create attrs
-// https://stackoverflow.com/a/53508215
-const createUseAttrs = (el,namesUse) =>
-    Object.fromEntries( namesUse.map(
-        attrName => [ attrName , el.getAttribute(attrName) ]
-    ) );
+// get attr entry
+const getAttrEntry = (el,attrName) =>
+    [
+        attrName ,
+        el.getAttribute(attrName)
+    ];
 // get use attrs
-const getUseAttrs = (el,namesExcept) =>
-    createUseAttrs( el , getNamesUse(el,namesExcept) );
-
+// https://stackoverflow.com/a/53508215
+const getUseAttrs = el =>
+    Object.fromEntries(
+        el.getAttributeNames().map( getAttrEntry )
+    );
 // base URL
 const baseURL = "https://ruwix.com/widget/3d/";
 // create query string
@@ -222,6 +224,76 @@ const createSrc = allElAttrs =>
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
     // "key=value&key=value"
     baseURL + "?" + Object.entries(allElAttrs).map(createQueryString).join("&");
+
+
+
+/////////////////////////
+///// attr for each iframe
+/////////////////////////
+///// define attrs
+/////////////////////////
+
+// linkEl style attr
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+// https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right
+const linkElAttrs = {
+    "width"            : "250px"    ,
+    "height"           : "35px"     ,
+    "font-size"        : "small"    ,
+    "background-color" : "#1a1a1a"  ,
+    "display"          : "flex"     ,
+    "justify-content"  : "flex-end" ,
+    "align-items"      : "center"   ,
+    "padding-right"    : "10px"
+};
+// divEl style attr
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+const divElAttrs = {
+    "display"        : "flex"   ,
+    "flex-direction" : "column" ,
+    "column-gap"     : "0"      ,
+    "margin-top"     : "5px"    ,
+    "margin-bottom"  : "15px"
+};
+
+
+
+/////////////////////////
+///// link for each iframe
+/////////////////////////
+///// define function
+/////////////////////////
+
+// create link text
+const createLinkText = (href,text) => {
+    // create
+    const linkText = document.createElement("a");
+    // set href/text
+    linkText.setAttribute("href",href);
+    linkText.innerText = text;
+    // return
+    return linkText;
+};
+// create link element
+const createLink = (href,text) => {
+    // create
+    const linkEl   = document.createElement("div");
+    const linkText = createLinkText(href,text);
+    // set style attr
+    setAttrByAttrs(linkEl,linkElAttrs,true);
+    // linkEl > linkText
+    linkEl.appendChild(linkText);
+    // return
+    return linkEl;
+};
+
+
+
+/////////////////////////
+///// insert for each iframe
+/////////////////////////
+///// define function
+/////////////////////////
 
 // insert after
 // https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
@@ -246,34 +318,6 @@ const insertDivParent = targetEl => {
     // return divEl
     return divEl;
 };
-// create link element
-// set : href/text
-const createLink = (href,text) => {
-    // create
-    const linkEl   = document.createElement("div");
-    const linkText = document.createElement("a");
-    // set href/text
-    linkText.setAttribute("href",href);
-    linkText.innerText = text;
-    // set style
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right
-    const linkStyle = {
-            "width"            : "250px"    ,
-            "height"           : "35px"     ,
-            "font-size"        : "small"    ,
-            "background-color" : "#1a1a1a"  ,
-            "display"          : "flex"     ,
-            "justify-content"  : "flex-end" ,
-            "align-items"      : "center"   ,
-            "padding-right"    : "10px"
-    };
-    setAttrByAttrs(linkEl,linkStyle,true);
-    // linkEl > linkText
-    linkEl.appendChild(linkText);
-    // return
-    return linkEl;
-};
 // insert link
 // before : targetEl
 // after  : divEl > { targetEl , linkEl }
@@ -285,28 +329,19 @@ const insertLinkAfter = (targetEl,href,text) => {
         targetEl ,
         createLink(href,text)
     );
-    // divEl style attr
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
-    const divAttrs = {
-            "display"        : "flex"   ,
-            "flex-direction" : "column" ,
-            "column-gap"     : "0"      ,
-            "margin-top"     : "5px"    ,
-            "margin-bottom"  : "15px"
-    };
-    setAttrByAttrs(divEl,divAttrs,true);
+    // set attr
+    setAttrByAttrs(divEl,divElAttrs,true);
 };
 
 
 
 /////////////////////////
-///// src for each iframe
+///// each iframe
 /////////////////////////
-///// use function
+///// set src
+///// insert link
 /////////////////////////
 
-// attr name except : id
-const namesExcept = ["id"];
 // common element attr
 // hover/speed/flags
 const comElAttrs  = {
@@ -322,23 +357,24 @@ testBr();
 // link text
 const linkText = "Ruwix 3D Cube Generator";
 
+// create src
+const srcByIframe = iframe =>
+    createSrc( mergeArrObject( [
+        comElAttrs ,
+        getUseAttrs(iframe)
+    ] ) );
 // set src
 // insert link
+const srcSetInsert = (el,src) =>
+    [
+        el.setAttribute("src",src) ,
+        insertLinkAfter(el,src,linkText)
+    ];
+// devOn
 if (devOn==="true") {
-iframeEls.forEach( iframe => {
-    // create src
-    // https://stackoverflow.com/a/43626263
-    const src = createSrc( Object.assign(
-        {} , ...( [
-            comElAttrs ,
-            getUseAttrs(iframe,namesExcept)
-        ] )
-    ) );
-    // set src
-    iframe.setAttribute("src",src);
-    // insert link
-    insertLinkAfter(iframe,src,linkText);
-} );
+    iframeEls.forEach( iframe =>
+        srcSetInsert( iframe , srcByIframe(iframe) )
+    );
 };
 
 
