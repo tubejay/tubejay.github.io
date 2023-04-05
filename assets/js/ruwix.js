@@ -208,11 +208,13 @@ const getAttrEntry = (el,attrName) =>
         attrName ,
         el.getAttribute(attrName)
     ];
-// get use attrs
+// get all attrs
 // https://stackoverflow.com/a/53508215
-const getUseAttrs = el =>
+const getAllAttrs = el =>
     Object.fromEntries(
-        el.getAttributeNames().map( getAttrEntry )
+        el.getAttributeNames().map(
+            attrName => getAttrEntry(el,attrName)
+        )
     );
 // base URL
 const baseURL = "https://ruwix.com/widget/3d/";
@@ -363,7 +365,7 @@ const linkText = "Ruwix 3D Cube Generator";
 const srcByIframe = iframe =>
     createSrc( mergeArrObject( [
         comElAttrs ,
-        getUseAttrs(iframe)
+        getAllAttrs(iframe)
     ] ) );
 // set src
 // insert link
