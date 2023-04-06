@@ -8,12 +8,13 @@ hidden: false
 target: "_blank"
 ruwix: true
 teston: false
-devon: false
+devon: true
 ---
 <span
   id     = "cube"
   teston = "{{page.teston}}"
-  devon  = "{{page.devon}}" >
+  devon  = "{{page.devon}}"
+  solved  = "U-" >
 </span>
 
 <head>
@@ -35,8 +36,9 @@ devon: false
 - ( L2 F2 ) ( L' U2 L' U2 ) ( L F' ) ( L' U' L U ) ( L F' L2 )
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=L2'%20F2%20L'%20U2%20L'%20U2%20L%20F'%20L'%20U'%20L%20U%20L%20F'%20L2'&solved=U-&hover=9&speed=500&flags=canvas"
+    alg = "L2' F2 L' U2 L' U2 L F' L' U' L U L F' L2'"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=L2'%20F2%20L'%20U2%20L'%20U2%20L%20F'%20L'%20U'%20L%20U%20L%20F'%20L2'&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -53,8 +55,9 @@ devon: false
 - ( L2 F ) ( L' U' L' U ) ( L F ) ( L' U2 L U2 ) ( L F2 L2 )
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=L2'%20F%20L'%20U'%20L'%20U%20L%20F%20L'%20U2%20L%20U2%20L%20F2%20L2'&solved=U-&hover=9&speed=500&flags=canvas"
+    alg = "L2' F L' U' L' U L F L' U2 L U2 L F2 L2'"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=L2'%20F%20L'%20U'%20L'%20U%20L%20F%20L'%20U2%20L%20U2%20L%20F2%20L2'&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -71,8 +74,9 @@ devon: false
 - ( R2 F2 ) ( R U2 R U2 ) ( R' F ) ( R U R' U' ) ( R' F R2 )
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R2%20F2'%20R%20U2'%20R%20U2'%20R'%20F%20R%20U%20R'%20U'%20R'%20F%20R2&solved=U-&hover=9&speed=500&flags=canvas"
+    alg = "R2 F2' R U2' R U2' R' F R U R' U' R' F R2"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=R2%20F2'%20R%20U2'%20R%20U2'%20R'%20F%20R%20U%20R'%20U'%20R'%20F%20R2&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -89,5 +93,6 @@ devon: false
 - ( R2 F' ) ( R U R U' ) ( R' F' ) ( R U2 R' U2 ) ( R' F2 R2 )
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R2%20F'%20R%20U%20R%20U'%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F2'%20R2&solved=U-&hover=9&speed=500&flags=canvas"
+    alg = "R2 F' R U R U' R' F' R U2' R' U2' R' F2' R2"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=R2%20F'%20R%20U%20R%20U'%20R'%20F'%20R%20U2'%20R'%20U2'%20R'%20F2'%20R2&solved=U-&hover=9&speed=500&flags=canvas" -->
