@@ -8,12 +8,14 @@ hidden: false
 target: "_blank"
 ruwix: true
 teston: false
-devon: false
+devon: true
 ---
 <span
   id     = "cube"
   teston = "{{page.teston}}"
-  devon  = "{{page.devon}}" >
+  devon  = "{{page.devon}}"
+  colored = "U*/c u"
+  solved  = "U-" >
 </span>
 
 <head>
@@ -34,8 +36,9 @@ devon: false
 - ( R U2 R' U' ) ( R U2 L' U ) ( R' U' L )
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas"
+    alg = "R U2' R' U' R U2 L' U R' U' L"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -51,5 +54,6 @@ devon: false
 - ( F ) ( R U' R' U' ) ( R U R' F' ) ( R U R' U' ) ( R' F R F' )
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&colored=U*/c%20u&solved=U-&hover=9&speed=500&flags=canvas"
+    alg = "F R U' R' U' R U R' F' R U R' U' R' F R F'"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=F%20R%20U'%20R'%20U'%20R%20U%20R'%20F'%20R%20U%20R'%20U'%20R'%20F%20R%20F'&colored=U*/c%20u&solved=U-&hover=9&speed=500&flags=canvas" -->
