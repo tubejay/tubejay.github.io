@@ -146,7 +146,7 @@ const testObj  = (obj,depth=2) => {
             // else
             case "else"     :
                 testText( "- " , false );
-                testTextPadRight( key , nameLengthMax);
+                testTextPadRight( key , keyLengthMax);
                 testText( " : " + value )
                 break;
         };
