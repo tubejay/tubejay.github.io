@@ -171,9 +171,9 @@ if (cubeEl) {
 
     // get
     queryText = "devon";
-    devOn     = cubeEl.getAttribute(queryText);
+    devOn     = ( cubeEl.getAttribute(queryText)==="true" );
     queryText = "teston";
-    testOn    = cubeEl.getAttribute(queryText);
+    testOn    = ( cubeEl.getAttribute(queryText)==="true" );
 
     // show
     testHr();
