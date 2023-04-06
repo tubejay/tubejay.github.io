@@ -32,7 +32,6 @@ devon: true
   <iframe
     alg = "U' R'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=U'%20R'&colored=U%20FD%20RD&setupmoves=R&hover=9&speed=500&flags=canvas&colors=F:white%20R:cyan%20D:cyan" -->
 
 ### Case 2
 
@@ -41,7 +40,6 @@ devon: true
   <iframe
     alg = "R'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R'&colored=U%20FD%20RD&setupmoves=R&hover=9&speed=500&flags=canvas&colors=F:white%20R:cyan%20D:cyan" -->
 
 ### Case 3
 
@@ -50,4 +48,3 @@ devon: true
   <iframe
     alg = "U R'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=U%20R'&colored=U%20FD%20RD&setupmoves=R&hover=9&speed=500&flags=canvas&colors=F:white%20R:cyan%20D:cyan" -->
