@@ -36,7 +36,6 @@ devon: true
   <iframe
     alg = "R2 U' R2'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R2%20U'%20R2'&colored=d/m%20u/m%20frD%20brD%20flU%20blU%20F%20FL%20FR%20B%20BL%20BR%20L%20R&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -47,4 +46,3 @@ devon: true
   <iframe
     alg = "R2 U2' R2'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R2%20U2'%20R2'&colored=d/m%20u/m%20frD%20brD%20flU%20blU%20F%20FL%20FR%20B%20BL%20BR%20L%20R&hover=9&speed=500&flags=canvas" -->
