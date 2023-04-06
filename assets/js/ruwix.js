@@ -98,7 +98,7 @@ const testElse = (el,depth=2) => {
         [
             testSp(depth) , testText( "- " , false ) ,
             testTextPadRight( name , nameLengthMax ) ,
-            testText( " : " , content )
+            testText( " : " + content )
         ]
     );
 };
