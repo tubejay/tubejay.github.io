@@ -8,12 +8,13 @@ hidden: false
 target: "_blank"
 ruwix: true
 teston: false
-devon: false
+devon: true
 ---
 <span
   id     = "cube"
   teston = "{{page.teston}}"
-  devon  = "{{page.devon}}" >
+  devon  = "{{page.devon}}"
+  colored = "F R FD RD FR" >
 </span>
 
 <head>
@@ -27,14 +28,16 @@ devon: false
 - Right
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    alg = "F' U F"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
 
 - Left
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    alg = "R U' R'"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -43,11 +46,13 @@ devon: false
 - Right
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    alg = "R' F R F'"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
 
 - Left
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas"
+    alg = "F R' F' R"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
