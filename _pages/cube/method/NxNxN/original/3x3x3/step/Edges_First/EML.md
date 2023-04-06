@@ -30,14 +30,12 @@ devon: true
   <iframe
     alg = "F' U F"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=F'%20U%20F&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
 
 - Left
 
   <iframe
     alg = "R U' R'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -48,11 +46,9 @@ devon: true
   <iframe
     alg = "R' F R F'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R'%20F%20R%20F'&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->
 
 - Left
 
   <iframe
     alg = "F R' F' R"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=F%20R'%20F'%20R&colored=F%20R%20FD%20RD%20FR&hover=9&speed=500&flags=canvas" -->

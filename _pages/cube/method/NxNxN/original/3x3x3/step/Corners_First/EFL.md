@@ -30,7 +30,6 @@ devon: true
     alg     = "M' U2' M"
     colored = "F FL FR FD FDL FDR U"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U2'%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas" -->
 
 - White Not on U Face
 
@@ -38,7 +37,6 @@ devon: true
     alg     = "M' U M"
     colored = "F FL FR FD FDL FDR U"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -51,7 +49,6 @@ devon: true
     colored    = "F FL FR FD FDL FDR R RB RBD U"
     setupmoves = "d'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M%20d%20M'%20U%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20R%20RB%20RBD%20U&setupmoves=d'&hover=9&speed=500&flags=canvas" -->
 
 - White Not on D Face
 
@@ -59,4 +56,3 @@ devon: true
     alg     = "M' U' M U M' U2' M"
     colored = "F FL FR FD FDL FDR U"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M%20U%20M'%20U2'%20M&colored=F%20FL%20FR%20FD%20FDL%20FDR%20U&hover=9&speed=500&flags=canvas" -->
