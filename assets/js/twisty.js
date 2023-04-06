@@ -20,25 +20,6 @@ let queryText = "";
 
 
 /////////////////////////
-///// test check
-/////////////////////////
-
-// element
-queryText    = "#cube";
-const cubeEl = document.querySelector(queryText);
-
-// test
-let testOn;
-if (cubeEl) {
-    queryText = "teston";
-    testOn    = ( cubeEl.getAttribute(queryText)==="true" );
-};
-
-
-
-
-
-/////////////////////////
 ///// test function
 /////////////////////////
 
@@ -71,6 +52,8 @@ const arrayMaxLength = arr =>
     Math.max( ...(
         arr.map( valueStrLength )
     ) );
+const objKeyMaxLength = obj =>
+    arrayMaxLength( Object.keys(obj) );
 const isObject = x => {
     // https://www.geeksforgeeks.org/how-to-check-if-the-provided-value-is-an-object-created-by-the-object-constructor-in-javascript/
     try     { return x.constructor===Object }
@@ -115,47 +98,103 @@ const testElement = (el,depth=2) => {
         ]
     );
 };
+const testElse = (el,depth=2) => {
+    if (!testOn) {return null;};
+    const objEl         = {
+        "typeof" : typeof el ,
+        "value"  : el
+    };
+    const nameLengthMax = objKeyMaxLength(objEl);
+    Object.entries(objEl).forEach( ([name,content]) =>
+        [
+            testSp(depth) , testText( "- " , false ) ,
+            testTextPadRight( name , nameLengthMax ) ,
+            testText( " : " + content )
+        ]
+    );
+};
 const testType = value =>
     // object
-    isObject(value)          ? "object"  :
+    isObject(value)           ? "object"   :
     // array
-    Array.isArray(value)     ? "array"   :
+    Array.isArray(value)      ? "array"    :
+    // nodelist
+    // https://stackoverflow.com/a/36857902
+    value instanceof NodeList ? "nodelist" :
     // element
     // https://stackoverflow.com/a/36894871
-    value instanceof Element ? "element" :
+    value instanceof Element  ? "element"  :
     // else
     "else";
-const testObj = (obj,depth=2) => {
+const testObj  = (obj,depth=2) => {
     if (!testOn) {return null;};
-    const keyLengthMax = arrayMaxLength( Object.keys(obj) );
+    const keyLengthMax = objKeyMaxLength(obj);
     Object.entries(obj).forEach( ( [key,value] ) => {
         // space
         testSp(depth);
         // by type
         switch ( testType(value) ) {
             // object
-            case "object"  :
+            case "object"   :
                 testText( "- " + key );
                 testObj( value , depth+2 );
                 break;
             // array
-            case "array"   :
+            case "array"    :
                 testText( "- " + key );
                 testArray( value , depth+2 );
                 break;
+            // nodelist
+            case "nodelist" :
+                testText( "- " + key );
+                testNodeList( value , depth+2)
+                break;
             // element
-            case "element" :
+            case "element"  :
                 testText( "- " + key );
                 testElement( value , depth+2 );
                 break;
             // else
-            case "else"    :
+            case "else"     :
                 testText( "- " , false );
-                testTextPadRight( key , keyLengthMax );
-                testText( " : " + value );
+                testTextPadRight( key , keyLengthMax);
+                testText( " : " + value )
                 break;
-            };
+        };
     } );
+};
+
+
+
+
+
+/////////////////////////
+///// test element
+/////////////////////////
+
+// element
+queryText    = "#cube";
+const cubeEl = document.querySelector(queryText);
+
+// test
+let testOn;
+if (cubeEl) {
+
+    // get
+    queryText = "teston";
+    testOn    = ( cubeEl.getAttribute(queryText)==="true" );
+
+    // show
+    testHr();
+    testText("cubeEl");
+    testElement(cubeEl);
+    testHr();
+    testText("testOn");
+    testElse(testOn);
+    testHr();
+    testBr()
+
+
 };
 
 
@@ -577,4 +616,12 @@ playerEls.forEach( player =>
 
 
 
-} catch (error) { cubeEl.append(error) };
+
+
+/////////////////////////
+///// TASK : END
+/////////////////////////
+
+} catch (error) {
+    testText(error)
+};
