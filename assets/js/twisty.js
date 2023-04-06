@@ -322,9 +322,6 @@ queryText    = "puzzle";
 const cubePz = cubeEl.getAttribute(queryText);
 
 testHr();
-testText( "cubeEl" );
-testElement(cubeEl);
-testHr();
 testText( "cubePz : " + cubePz );
 testHr();
 testBr();
@@ -580,7 +577,7 @@ const getNamesUse = namesExcept =>
     cubeEl.getAttributeNames().filter( attrName =>
         !namesExcept.includes(attrName)
     );
-const namesExcept = ["id","puzzle"];
+const namesExcept = ["id","puzzle","teston"];
 const namesUse    = getNamesUse(namesExcept);
 
 // create attrs
