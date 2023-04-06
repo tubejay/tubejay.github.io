@@ -30,7 +30,6 @@ devon: true
   alg     = "F R D' F"
   colored = "U FD LD"
 ></iframe>
-  <!-- src = "https://ruwix.com/widget/3d/?alg=F%20R%20D'%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas" -->
 
 ### Case 2
 
@@ -38,7 +37,6 @@ devon: true
   alg     = "F R D2' F"
   colored = "U FD BD"
 ></iframe>
-  <!-- src = "https://ruwix.com/widget/3d/?alg=F%20R%20D2'%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas" -->
 
 ### Case 3
 
@@ -46,7 +44,6 @@ devon: true
   alg     = "F R D F"
   colored = "U FD RD"
 ></iframe>
-  <!-- src = "https://ruwix.com/widget/3d/?alg=F%20R%20D%20F&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -58,7 +55,6 @@ devon: true
   alg     = "R F"
   colored = "U FD RD"
 ></iframe>
-  <!-- src = "https://ruwix.com/widget/3d/?alg=R%20F&colored=U%20FD%20RD&hover=9&speed=500&flags=canvas" -->
 
 ### Case 5
 
@@ -66,7 +62,6 @@ devon: true
   alg     = "R D F"
   colored = "U FD BD"
 ></iframe>
-  <!-- src = "https://ruwix.com/widget/3d/?alg=R%20D%20F&colored=U%20FD%20BD&hover=9&speed=500&flags=canvas" -->
 
 ### Case 6
 
@@ -74,4 +69,3 @@ devon: true
   alg     = "R D2 F"
   colored = "U FD LD"
 ></iframe>
-  <!-- src = "https://ruwix.com/widget/3d/?alg=R%20D2%20F&colored=U%20FD%20LD&hover=9&speed=500&flags=canvas" -->
