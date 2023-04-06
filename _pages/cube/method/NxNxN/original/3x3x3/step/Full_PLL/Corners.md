@@ -36,7 +36,6 @@ devon: true
   <iframe
     alg = "x R' U R' D2' R U' R' D2' R2' x'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=x%20R'%20U%20R'%20D2'%20R%20U'%20R'%20D2'%20R2'%20x'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -51,7 +50,7 @@ devon: true
 - ( x' ) ( R U' R D2 ) ( R' U R D2 ) ( R2 x )
 
   <iframe
-    alg = x' R U' R D2' R' U R D2' R2 x""
+    alg = "x' R U' R D2' R' U R D2' R2 x"
   ></iframe>
     <!-- src = "https://ruwix.com/widget/3d/?alg=x'%20R%20U'%20R%20D2'%20R'%20U%20R%20D2'%20R2%20x&colored=U*&solved=U-&hover=9&speed=500&flags=canvas" -->
 
@@ -70,4 +69,3 @@ devon: true
   <iframe
     alg = "R2 U F' R' U R U' R' U R U' R' U R U' F U' R2'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R2%20U%20F'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20R'%20U%20R%20U'%20F%20U'%20R2'&colored=U*&solved=U-&hover=9&speed=500&flags=canvas" -->

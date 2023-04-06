@@ -36,7 +36,6 @@ devon: true
   <iframe
     alg = "R U R' U' R' F R2 U' R' U' R U R' F'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20F'&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -55,7 +54,6 @@ devon: true
   <iframe
     alg = "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R'%20U'%20F'%20R%20U%20R'%20U'%20R'%20F%20R2%20U'%20R'%20U'%20R%20U%20R'%20U%20R&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -74,7 +72,6 @@ devon: true
   <iframe
     alg = "R' U2 R U R' U2' L U' R U L'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R'%20U2%20R%20U%20R'%20U2'%20L%20U'%20R%20U%20L'&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 ## Jb Perm
@@ -90,7 +87,6 @@ devon: true
   <iframe
     alg = "R U2' R' U' R U2 L' U R' U' L"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R%20U2'%20R'%20U'%20R%20U2%20L'%20U%20R'%20U'%20L&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -109,7 +105,6 @@ devon: true
   <iframe
     alg = "R U' R' U' R U R D R' U' R D' R' U2' R' U'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R%20U'%20R'%20U'%20R%20U%20R%20D%20R'%20U'%20R%20D'%20R'%20U2'%20R'%20U'&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -128,4 +123,3 @@ devon: true
   <iframe
     alg = "R' U R U R' U' R' D' R U R' D R U2 R U"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=R'%20U%20R%20U%20R'%20U'%20R'%20D'%20R%20U%20R'%20D%20R%20U2%20R%20U&solved=U-&hover=9&speed=500&flags=canvas" -->
