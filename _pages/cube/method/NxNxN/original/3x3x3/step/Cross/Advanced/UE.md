@@ -7,7 +7,14 @@ published: true
 hidden: false
 target: "_blank"
 ruwix: true
+teston: false
+devon: false
 ---
+<span
+  id     = "cube"
+  teston = "{{page.teston}}"
+  devon  = "{{page.devon}}" >
+</span>
 
 <head>
   <base target = "{{page.target}}">
