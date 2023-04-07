@@ -10,7 +10,7 @@ import {
     testArray , testNodeList , testElement , testElse ,
     testObj
 }
-from "/assets/js/test/js"
+from "./test.js"
 
 
 
