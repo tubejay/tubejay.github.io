@@ -631,7 +631,5 @@ playerEls.forEach( player =>
 /////////////////////////
 
 } catch (error) {
-    const divEl = document.createElement("div");
-    divEl.innerText = error.message;
-    document.body.appendChild(divEl);
+    window.alert(error.message);
 };
