@@ -6,14 +6,14 @@
 <script
   type  = "text/javascript"
 	src   = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
-  async
-></script>
+  async >
+</script>
 
 <!-- config -->
 <script
   type = "text/x-mathjax-config"
   src  = "/assets/js/mathjax.js"
->
+  defer >
 </script>
 
 
@@ -30,8 +30,8 @@
 {% if page.ruwix or page.twisty %}
   <script
     type = "module"
-    src  = "/assets/js/test.js"
-  ></script>
+    src  = "/assets/js/test.js" >
+  </script>
 {% endif %}
 
 <!-- ruwix -->
@@ -39,8 +39,8 @@
   <script
     type  = "text/javascript"
     src   = "/assets/js/ruwix.js"
-    defer
-  ></script>
+    defer >
+  </script>
 {% endif %}
 
 <!-- twisty -->
@@ -48,11 +48,11 @@
   <script
     type  = "module"
     src   = "https://cdn.cubing.net/js/cubing/twisty"
-    defer
-  ></script>
-<script
+    defer >
+  </script>
+  <script
     type  = "text/javascript"
     src   = "/assets/js/twisty.js"
-    defer
-  ></script>
+    defer >
+  </script>
 {% endif %}
