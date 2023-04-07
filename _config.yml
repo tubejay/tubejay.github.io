@@ -151,6 +151,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets/js/mathjax
+  - assets/js/cube
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

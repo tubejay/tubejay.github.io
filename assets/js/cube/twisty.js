@@ -10,7 +10,7 @@ import {
     testArray , testNodeList , testElement , testElse ,
     testObj
 }
-from "./test.js"
+from "/assets/cube/test.js"
 
 
 
