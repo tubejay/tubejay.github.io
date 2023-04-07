@@ -38,7 +38,6 @@ devon: true
     alg        = "M' U' M'"
     setupmoves = "x2 U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -50,7 +49,6 @@ devon: true
     alg        = "M' U' M' U' M' U' M'"
     setupmoves = "U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -62,7 +60,6 @@ devon: true
     alg        = "M' U' M' M' U' M' U' M' U' M'"
     setupmoves = "x2 U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20M'%20U'%20M'%20U'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -74,7 +71,6 @@ devon: true
     alg        = "M' U' M' U2' M' U' M'"
     setupmoves = "U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -86,7 +82,6 @@ devon: true
     alg        = "M' U' M' U M' U' M' U2' M' U' M'"
     setupmoves = "x2 U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -98,7 +93,6 @@ devon: true
     alg        = "M' U' M' U' M' U' M' U M' U' M' U2' M' U' M'"
     setupmoves = "U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U'%20M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -110,7 +104,6 @@ devon: true
     alg        = "M' U' M' M' U' M' U M' U' M' U2' M' U' M'"
     setupmoves = "U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -122,4 +115,3 @@ devon: true
     alg        = "U' M2' M' U' M' M' U' M' U M' U' M' U2' M' U' M'"
     setupmoves = "x2 U2 M U2 M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=U'%20M2'%20M'%20U'%20M'%20M'%20U'%20M'%20U%20M'%20U'%20M'%20U2'%20M'%20U'%20M'&colored=l%20r%20f%20b%20u%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&setupmoves=x2%20U2%20M%20U2%20M&hover=9&speed=500&flags=canvas" -->

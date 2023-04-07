@@ -5,22 +5,20 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/corners_first
 published: true
 hidden: false
+target: "_blank"
+ruwix: true
+teston: false
+devon: true
 ---
+<span
+  id     = "cube"
+  teston = "{{page.teston}}"
+  devon  = "{{page.devon}}"
+  alg    = "y y y y" >
+</span>
 
 <head>
-  <base target="_blank">
-  <style>
-    .iframe-wrapper {
-      overflow      : hidden;
-      margin-bottom : -35px;
-    }
-    iframe {
-      width         : 250px;
-      height        : 330px;
-      margin-top    : -20px;
-      border        : none;
-    }
-  </style>
+  <base target = "{{page.target}}">
 </head>
 
 
@@ -29,9 +27,17 @@ hidden: false
 
 ### CFL : Corners of the First Layer {#cfl}
 
+<iframe
+  colored = "D*/c"
+></iframe>
+
 - [3x3x3 / Beginner / FL](/cube/method/NxNxN/original/3x3x3/beginner/fl)
 
 ### CLL : Corners of the Last Layer {#cll}
+
+<iframe
+  colored = "U*/c D*/c"
+></iframe>
 
 - [3x3x3 / 2-Look CLL](/cube/method/NxNxN/original/3x3x3/2_look_cll)
   - OCLL
@@ -41,12 +47,10 @@ hidden: false
 
 ## Centers
 
-<div class="iframe-wrapper">
-  <iframe
-    scrolling="no"
-    src="https://ruwix.com/widget/3d/?alg=M2%20E2&colored=U*/cm%20D*/cm%20F%20B%20L%20R&setupmoves=x2%20y2&hover=9&speed=500&flags=canvas"
-  ></iframe>
-</div>
+<iframe
+  colored = "U*/cm D*/cm F B L R"
+></iframe>
+  <!-- src="https://ruwix.com/widget/3d/?alg=M2%20E2&colored=U*/cm%20D*/cm%20F%20B%20L%20R&setupmoves=x2%20y2&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -54,16 +58,28 @@ hidden: false
 
 ### [EML : Edges of the Middle Layer](/cube/method/NxNxN/original/3x3x3/corners_first/eml) {#eml}
 
+<iframe
+  colored = "U*/cm D*/cm F B L R FL FR BL BR"
+></iframe>
+
 - U Layer
 - D Layer
 - E Layer
 
 ### [EFL : Edges of the First Layer](/cube/method/NxNxN/original/3x3x3/corners_first/efl) {#efl}
 
+<iframe
+  colored = "U- U*/cm"
+></iframe>
+
 - U Layer
 - D Layer
 
 ### ELL : Edges of the Last Layer {#ell}
+
+<iframe
+  colored = "*"
+></iframe>
 
 - [3x3x3 / 2-Look ELL](/cube/method/NxNxN/original/3x3x3/2_look_ell)
   - EOLL

@@ -5,23 +5,45 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/beginner
 published: true
 hidden: false
+target: "_blank"
+ruwix: true
+teston: false
+devon: true
 ---
+<span
+  id     = "cube"
+  teston = "{{page.teston}}"
+  devon  = "{{page.devon}}"
+  alg    = "y y y y" >
+</span>
 
 <head>
-  <base target="_blank">
+  <base target = "{{page.target}}">
 </head>
 
 
 
 ## [Cross / Beginner](/cube/method/NxNxN/original/3x3x3/cross/beginner)
 
+<iframe
+  colored = "F B L R D*/em"
+></iframe>
+
 
 
 ## [FL : First Layer](/cube/method/NxNxN/original/3x3x3/beginner/fl) {#fl}
 
+<iframe
+  colored = "D*"
+></iframe>
+
 
 
 ## [SL : Second Layer](/cube/method/NxNxN/original/3x3x3/beginner/sl) {#sl}
+
+<iframe
+  colored = "U-"
+></iframe>
 
 
 
@@ -29,12 +51,22 @@ hidden: false
 
 ### EOLL : Edge Orientation of the Last Layer {#eoll}
 
+<iframe
+  colored = "u/me"
+  solved  = "U-"
+></iframe>
+
 - [3x3x3 / 2-Look OLL / EOLL](/cube/method/NxNxN/original/3x3x3/2_look_oll/eoll)
   - L
   - Bar
   - Dot
 
 ### [EPLL : Edge Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/epll) {#epll}
+
+<iframe
+  colored = "U*/em"
+  solved  = "U-"
+></iframe>
 
 - Clockwise
 - Counterclockwise
@@ -45,10 +77,21 @@ hidden: false
 
 ### [CPLL : Corner Permutation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/cpll) {#cpll}
 
+<iframe
+  colored    = "U*"
+  solved     = "U-"
+  setupmoves = "R D R' D' R D R' D' L D L' D' L D L' D' L D L' D' L D L' D'"
+></iframe>
+
 - Clockwise / Left
 - Counterclockwise / Right
 
 ### [COLL : Corner Orientation of the Last Layer](/cube/method/NxNxN/original/3x3x3/beginner/coll) {#coll}
+
+<iframe
+  colored = "U*"
+  solved  = "U-"
+></iframe>
 
 
 
