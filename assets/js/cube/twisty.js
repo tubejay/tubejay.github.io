@@ -6,7 +6,7 @@ let queryText = "";
 
 
 
-/*
+
 
 /////////////////////////
 ///// test function
@@ -219,8 +219,6 @@ const testObj  = (obj,depth=2) => {
 };
 
 
-
-*/
 
 
 
