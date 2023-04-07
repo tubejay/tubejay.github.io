@@ -2,6 +2,8 @@
 ///// import module
 /////////////////////////
 
+try {
+
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
 import {
     testText , testHr , testBr ,
@@ -188,7 +190,7 @@ const cubeEl = document.querySelector(queryText);
 // test
 let testOn;
 // if (cubeEl) {
-try {
+
     // get
     queryText = "teston";
     testOn    = ( cubeEl.getAttribute(queryText)==="true" );
@@ -629,5 +631,5 @@ playerEls.forEach( player =>
 /////////////////////////
 
 } catch (error) {
-    testText(error)
+    document.write(error)
 };
