@@ -2,8 +2,8 @@
 ///// import module
 /////////////////////////
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#syntax
-// import * as common from "./common.js";
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
+import * as test from "/assets/js/test/js"
 
 
 

@@ -1,30 +1,38 @@
-<!-- mathjax -->
+<!-------------------->
+<!----- mathjax ------>
+<!-------------------->
+
+<!-- cdn -->
 <script
   type  = "text/javascript"
 	src   = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
   async
 ></script>
+
+<!-- config -->
 <script
   type = "text/x-mathjax-config"
+  src  = "/assets/js/mathjax.js"
 >
-  MathJax.Hub.Config({
-    extensions : ["tex2jax.js"],
-    jax        : ["input/TeX", "output/HTML-CSS"],
-    tex2jax    : {
-      inlineMath     : [ ['$','$'], ["\\(","\\)"] ],
-      displayMath    : [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes : true
-    },
-    "HTML-CSS" : {
-      availableFonts : ["TeX"]
-    }
-  });
 </script>
 
 
 
+<!-------------------->
+<!------ ruwix  ------>
+<!------ twisty ------>
+<!-------------------->
+
 <!-- https://scaomath.github.io/blog/javascript-go-board-jekyll/#page-specific-loading-method-2 -->
+
+<!-- ruwix or twisty -->
 <!-- https://shopify.github.io/liquid/basics/operators/ -->
+{% if page.ruwix or page.twisty %}
+  <script
+    type = "module"
+    src  = "/assets/js/test.js"
+  ></script>
+{% endif %}
 
 <!-- ruwix -->
 {% if page.ruwix %}
@@ -38,13 +46,13 @@
 <!-- twisty -->
 {% if page.twisty %}
   <script
-    type  = "text/javascript"
-    src   = "/assets/js/twisty.js"
+    type  = "module"
+    src   = "https://cdn.cubing.net/js/cubing/twisty"
     defer
   ></script>
-  <script
-    src   = "https://cdn.cubing.net/js/cubing/twisty"
-    type  = "module"
+<script
+    type  = "text/javascript"
+    src   = "/assets/js/twisty.js"
     defer
   ></script>
 {% endif %}
