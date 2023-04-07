@@ -187,8 +187,8 @@ const cubeEl = document.querySelector(queryText);
 
 // test
 let testOn;
-if (cubeEl) {
-
+// if (cubeEl) {
+try {
     // get
     queryText = "teston";
     testOn    = ( cubeEl.getAttribute(queryText)==="true" );
@@ -204,7 +204,7 @@ if (cubeEl) {
     testBr()
 
 
-};
+// };
 
 
 
@@ -214,7 +214,7 @@ if (cubeEl) {
 ///// TASK : START
 /////////////////////////
 
-try {
+// try {
 
 
 
