@@ -2,15 +2,16 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// color
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors
+// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L55
+// neon      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/skins/_neon.scss#L5
 $body-color                   : black;
 $background-color             : black;
-
 $text-color                   : white;
-
 $link-color                   : #dbfffd;
 $link-color-hover             : #FFFDDB;
 $link-color-visited           : #FFDBFD;
-
 $masthead-link-color          : #dbfffd;
 $masthead-link-color-hover    : #FFFDDB;
 
@@ -29,11 +30,38 @@ th:last-child,  td:last-child  {border-right:0px}
 // link
 a {text-decoration: none}
 
+// heading
+// base      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
+// page      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
+// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L46
+h1, h2, h3, h4, h5, h6 {
+  padding-bottom : 5px:
+  border-bottom  : 2px solid white;
+  margin-bottom  : 5px;
+}
+h1 { font-size:23px; left:0px; }
+h2 { font-size:21px; left:0px; }
+h3 { font-size:19px; left:0px; }
+h4 { font-size:17px; left:0px; }
+h5 { font-size:15px; left:0px; }
+h6 { font-size:13px; left:0px; }
+
+// title
+// page      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L226
+// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L38
+.page__title { font-size:23px; }
+
+// li
+// https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
+li { font-size:15px; }
+
 // font
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks
 $sans-serif : "IBM Plex Mono", "IBM Plex Sans KR", sans-serif;
 $serif      : "IBM Plex Mono", "IBM Plex Sans KR", serif;
 $monospace  : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
 
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#syntax-highlighting
 // http://chriskempson.com/projects/base16/
 $base00: #1d1f21; // base00 - Default Background
 $base01: #282a2e; // base01 - Lighter Background (Used for status bars, line number and folding marks)
@@ -51,6 +79,11 @@ $base0c: #00cc66; // base0C - Support, Regular Expressions, Escape Characters, M
 $base0d: #33ccff; // base0D - Functions, Methods, Attribute IDs, Headings
 $base0e: #66ffff; // base0E - Keywords, Storage, Selector, Markup Italic, Diff Changed
 $base0f: #a3685a; // base0F - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+
+// animation
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#disabling-animations
+$intro-transition  : none;
+$global-transition : none;
 
 @charset "utf-8";
 
