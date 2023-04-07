@@ -33,23 +33,20 @@ a {text-decoration: none}
 // heading
 // base      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
 // page      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L46
-h1, h2, h3, h4, h5, h6 {
-  padding-bottom : 5px;
-  border-bottom  : 2px solid white;
-  margin-bottom  : 5px;
+.page__content:not(.toc) {
+  h1, h2, h3, h4, h5, h6 {
+    padding-bottom : 5px;
+    border-bottom  : 2px solid white;
+    margin-bottom  : 5px;
+  }
 }
-h1 { font-size:23px; left:0px; }
-h2 { font-size:21px; left:0px; }
-h3 { font-size:19px; left:0px; }
-h4 { font-size:17px; left:0px; }
-h5 { font-size:15px; left:0px; }
-h6 { font-size:13px; left:0px; }
-
-// title
-// page      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L226
-// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L38
-.page__title { font-size:23px; }
+// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L46
+$h-size-1: 23px;
+$h-size-2: 21px;
+$h-size-3: 19px;
+$h-size-4: 17px;
+$h-size-5: 15px;
+$h-size-6: 13px;
 
 // li
 // https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
