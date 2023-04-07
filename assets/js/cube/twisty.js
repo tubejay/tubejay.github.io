@@ -182,7 +182,6 @@ const testObj  = (obj,depth=2) => {
 // element
 queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
-window.alert("cubeEl");
 
 // test
 let testOn;
@@ -193,7 +192,6 @@ if (cubeEl) {
     testOn    = ( cubeEl.getAttribute(queryText)==="true" );
 
     // show
-    window.alert('test show : start');
     testHr();
     testText("cubeEl");
     testElement(cubeEl);
@@ -202,8 +200,26 @@ if (cubeEl) {
     testElse(testOn);
     testHr();
     testBr()
-    window.alert('test show : start');
 
+};
+
+
+
+
+// import error test
+try {
+    import {
+        testText , testHr , testBr ,
+        testArray , testNodeList , testElement , testElse ,
+        testObj
+    }
+    from "/assets/cube/test.js";    
+} catch (error) {
+    testHr();
+    testText(error.message);
+    testHr();
+    testBr();
+    window.alert(error.message);
 };
 
 
@@ -629,5 +645,8 @@ playerEls.forEach( player =>
 /////////////////////////
 
 } catch (error) {
+    testHr()
     testText(error);
+    testHr();
+    testBr();
 };
