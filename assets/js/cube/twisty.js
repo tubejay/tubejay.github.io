@@ -3,14 +3,18 @@
 /////////////////////////
 
 try {
-
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
-import {
-    testText , testHr , testBr ,
-    testArray , testNodeList , testElement , testElse ,
-    testObj
-}
-from "/assets/cube/test.js"
+    window.alert('before import');
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
+    import {
+        testText , testHr , testBr ,
+        testArray , testNodeList , testElement , testElse ,
+        testObj
+    }
+    from "/assets/cube/test.js";
+    window.alert('after import');
+} catch (error) {
+    window.alert(error.message);
+};
 
 
 
@@ -189,13 +193,14 @@ const cubeEl = document.querySelector(queryText);
 
 // test
 let testOn;
-// if (cubeEl) {
+if (cubeEl) {
 
     // get
     queryText = "teston";
     testOn    = ( cubeEl.getAttribute(queryText)==="true" );
 
     // show
+    window.alert('test show : start');
     testHr();
     testText("cubeEl");
     testElement(cubeEl);
@@ -204,9 +209,9 @@ let testOn;
     testElse(testOn);
     testHr();
     testBr()
+    window.alert('test show : start');
 
-
-// };
+};
 
 
 
@@ -629,7 +634,3 @@ playerEls.forEach( player =>
 /////////////////////////
 ///// TASK : END
 /////////////////////////
-
-} catch (error) {
-    window.alert(error.message);
-};
