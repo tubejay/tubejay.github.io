@@ -25,10 +25,6 @@ devon: true
 
 ## [EO : Edge Orientation](/cube/method/NxNxN/original/3x3x3/roux/l6e/eo) {#eo}
 
-<a href="https://ruwix.com/widget/3d/?alg=x&colored=u/em%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas">
-  <img src="https://user-images.githubusercontent.com/92285528/215528007-716188aa-e2e6-4f2b-912f-41def4a1dc1d.png">
-</a>
-
 <iframe
   colored = "u/em d"
   solved  = "L*/cm R*/cm FL FR BL BR DL DR"
@@ -47,10 +43,6 @@ devon: true
 
 ## [UR/UL Edges](/cube/method/NxNxN/original/3x3x3/roux/l6e/ur_ul_edges) {#urul}
 
-<a href="https://ruwix.com/widget/3d/?colored=UL%20ULF%20ULB%20UR%20URF%20URB&solved=L%20R%20FL%20FR%20BL%20BR%20DL%20DR%20FLD%20FRD%20BLD%20BRD&hover=9&speed=500&flags=canvas">
-  <img src="https://user-images.githubusercontent.com/92285528/215762670-cefe6406-042d-41db-8ff7-d2e709b16207.png">
-</a>
-
 <iframe
   colored = "UL ULF ULB UR URF URB"
   solved  = "L R FL FR BL BR DL DR FLD FRD BLD BRD"
@@ -62,10 +54,6 @@ devon: true
 
 
 ## [M Slice](/cube/method/NxNxN/original/3x3x3/roux/l6e/m_slice) {#m}
-
-<a href="https://ruwix.com/widget/3d/?alg=x&colored=UF%20U%20UB%20DF%20D%20DB%20F%20B&solved=L*%20R*&hover=9&speed=500&flags=canvas">
-  <img src="https://user-images.githubusercontent.com/92285528/215528755-26c83ef5-96fa-4874-bf81-b45ed45933dc.png">
-</a>
 
 <iframe
   colored = "UF U UB DF D DB F B"
