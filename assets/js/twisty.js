@@ -28,6 +28,8 @@ let queryText = "";
 ///// test function
 /////////////////////////
 
+/*
+
 // basic
 const testText = (text,useBr=true) => {
     // https://stackoverflow.com/a/19415581
@@ -168,6 +170,8 @@ const testObj  = (obj,depth=2) => {
         };
     } );
 };
+
+*/
 
 
 
