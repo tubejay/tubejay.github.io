@@ -1,22 +1,4 @@
 /////////////////////////
-///// import module
-/////////////////////////
-
-/*
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
-import {
-    testText , testHr , testBr ,
-    testArray , testNodeList , testElement , testElse ,
-    testObj
-}
-from "/assets/cube/test.js";
-*/
-
-
-
-
-
-/////////////////////////
 ///// let queryText
 /////////////////////////
 
@@ -24,7 +6,7 @@ let queryText = "";
 
 
 
-
+/*
 
 /////////////////////////
 ///// test function
@@ -235,6 +217,11 @@ const testObj  = (obj,depth=2) => {
         };
     } );
 };
+
+
+
+*/
+
 
 
 /*

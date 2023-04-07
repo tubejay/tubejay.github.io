@@ -8,7 +8,7 @@ hidden: false
 target: "_blank"
 twisty: true
 puzzle: "NxNxN / 2x2x2"
-teston: true
+teston: false
 ---
 <span
   id     = "cube"
