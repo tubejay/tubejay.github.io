@@ -2,19 +2,15 @@
 ///// import module
 /////////////////////////
 
-try {
-    window.alert('before import');
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
-    import {
-        testText , testHr , testBr ,
-        testArray , testNodeList , testElement , testElse ,
-        testObj
-    }
-    from "/assets/cube/test.js";
-    window.alert('after import');
-} catch (error) {
-    window.alert(error.message);
-};
+/*
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
+import {
+    testText , testHr , testBr ,
+    testArray , testNodeList , testElement , testElse ,
+    testObj
+}
+from "/assets/cube/test.js";
+*/
 
 
 
@@ -33,8 +29,6 @@ let queryText = "";
 /////////////////////////
 ///// test function
 /////////////////////////
-
-/*
 
 // basic
 const testText = (text,useBr=true) => {
@@ -177,8 +171,6 @@ const testObj  = (obj,depth=2) => {
     } );
 };
 
-*/
-
 
 
 
@@ -190,6 +182,7 @@ const testObj  = (obj,depth=2) => {
 // element
 queryText    = "#cube";
 const cubeEl = document.querySelector(queryText);
+window.alert("cubeEl");
 
 // test
 let testOn;
@@ -221,7 +214,7 @@ if (cubeEl) {
 ///// TASK : START
 /////////////////////////
 
-// try {
+try {
 
 
 
@@ -634,3 +627,7 @@ playerEls.forEach( player =>
 /////////////////////////
 ///// TASK : END
 /////////////////////////
+
+} catch (error) {
+    testText(error);
+};

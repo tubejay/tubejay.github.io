@@ -208,7 +208,7 @@ const testObj  = (obj,depth=2) => {
 
 
 /////////////////////////
-///// import module
+///// export module
 /////////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#exporting_module_features
