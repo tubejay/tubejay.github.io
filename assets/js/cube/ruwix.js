@@ -12,7 +12,22 @@ let queryText = "";
 ///// test function
 /////////////////////////
 
-// basic
+
+
+/////////////////////////
+///// spread array
+/////////////////////////
+
+const spreadArray = x =>
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+    [ ...x ];
+
+
+
+/////////////////////////
+///// text format
+/////////////////////////
+
 const testText = (text,useBr=true) => {
     // https://stackoverflow.com/a/19415581
     if (!testOn) {return null;};
@@ -20,36 +35,25 @@ const testText = (text,useBr=true) => {
     const brEl = document.createElement("br");
     if (useBr) { cubeEl.appendChild( brEl ); };
 };
+
 const testHr = (n=30) =>
     testText( "=".repeat(n) );
+
 const testBr = () =>
     testHr(0);
+
 const testSp = n => {
-    // https://stackoverflow.com/a/37417004
     if (!testOn) {return null;};
-    [...Array(n)].forEach( () =>
-        cubeEl.appendChild( document.createTextNode("\u00a0") )
+    // https://stackoverflow.com/a/37417004
+    spreadArray( Array(n) ).forEach( () =>
         // https://um-sal.tistory.com/9
-        // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
+        cubeEl.appendChild(
+            // https://learn.microsoft.com/en-us/dotnet/api/system.char.iswhitespace?view=net-7.0
+            document.createTextNode("\u00a0")
+        )
     );
 }
 
-// sub
-const valueStrLength = value =>
-    String(value).length;
-const arrayMaxLength = arr =>
-    Math.max( ...(
-        arr.map( valueStrLength )
-    ) );
-const objKeyMaxLength = obj =>
-    arrayMaxLength( Object.keys(obj) );
-const isObject = x => {
-    // https://www.geeksforgeeks.org/how-to-check-if-the-provided-value-is-an-object-created-by-the-object-constructor-in-javascript/
-    try     { return x.constructor===Object }
-    catch   { return false                  };
-};
-
-// print
 const testTextPadRight = (text,totalLength) => {
     if (!testOn) {return null;};
     testText(text,false);
@@ -57,15 +61,72 @@ const testTextPadRight = (text,totalLength) => {
     const countPad   = totalLength - textLength;
     testSp(countPad);
 };
-const testNodeList = (nodelist,depth=2) => {
-    if (!testOn) {return null;};
-    nodelist.forEach( (node,index) =>
-        [
-            testSp(depth) ,
-            testText( "- " + index + " : " + node.nodeName )
-        ]
+
+
+
+/////////////////////////
+///// compute length
+/////////////////////////
+
+const valueStrLength = value =>
+    String(value).length;
+
+const arrayMaxLength = arr =>
+    Math.max( ...(
+        arr.map( valueStrLength )
+    ) );
+
+const arrayAttrNameMaxLength = arr =>
+    arrayMaxLength(
+        arr.map( attr => attr.name )
     );
+
+const objKeyMaxLength = obj =>
+    arrayMaxLength(
+        Object.keys(obj)
+    );
+
+
+
+/////////////////////////
+///// check type
+/////////////////////////
+
+const checkObject = x => {
+    // https://www.geeksforgeeks.org/how-to-check-if-the-provided-value-is-an-object-created-by-the-object-constructor-in-javascript/
+    try   { return x.constructor===Object }
+    catch { return false                  };
 };
+
+const checkArray = x =>
+    Array.isArray(x);
+
+const checkNodeList = x =>
+    // https://stackoverflow.com/a/36857902
+    x instanceof NodeList;
+
+const checkElement = x =>
+    // https://stackoverflow.com/a/36894871
+    x instanceof Element;
+
+const checkType = x =>
+    // object
+    checkObject(x)   ? "object"   :
+    // array
+    checkArray(x)    ? "array"    :
+    // nodelist
+    checkNodeList(x) ? "nodelist" :
+    // element
+    checkElement(x)  ? "element"  :
+    // else
+    "else";
+
+
+
+/////////////////////////
+///// test : except object
+/////////////////////////
+
 const testArray = (arr,depth=2) => {
     if (!testOn) {return null;};
     arr.forEach( (value,index) =>
@@ -75,10 +136,21 @@ const testArray = (arr,depth=2) => {
         ]
     );
 };
+
+const testNodeList = (nodelist,depth=2) => {
+    if (!testOn) {return null;};
+    nodelist.forEach( (node,index) =>
+        [
+            testSp(depth) ,
+            testText( "- " + index + " : " + node.nodeName )
+        ]
+    );
+};
+
 const testElement = (el,depth=2) => {
     if (!testOn) {return null;};
     const attrArray     = Array.from(el.attributes);
-    const nameLengthMax = arrayMaxLength( attrArray.map(attr => attr.name) );
+    const nameLengthMax = arrayAttrNameMaxLength(attrArray);
     attrArray.forEach( attr =>
         [
             testSp(depth) , testText( "- " , false ) ,
@@ -87,6 +159,7 @@ const testElement = (el,depth=2) => {
         ]
     );
 };
+
 const testElse = (el,depth=2) => {
     if (!testOn) {return null;};
     const objEl         = {
@@ -102,19 +175,13 @@ const testElse = (el,depth=2) => {
         ]
     );
 };
-const testType = value =>
-    // object
-    isObject(value)           ? "object"   :
-    // array
-    Array.isArray(value)      ? "array"    :
-    // nodelist
-    // https://stackoverflow.com/a/36857902
-    value instanceof NodeList ? "nodelist" :
-    // element
-    // https://stackoverflow.com/a/36894871
-    value instanceof Element  ? "element"  :
-    // else
-    "else";
+
+
+
+/////////////////////////
+///// test : object
+/////////////////////////
+
 const testObj  = (obj,depth=2) => {
     if (!testOn) {return null;};
     const keyLengthMax = objKeyMaxLength(obj);
@@ -122,7 +189,7 @@ const testObj  = (obj,depth=2) => {
         // space
         testSp(depth);
         // by type
-        switch ( testType(value) ) {
+        switch ( checkType(value) ) {
             // object
             case "object"   :
                 testText( "- " + key );
