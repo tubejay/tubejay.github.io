@@ -3,7 +3,12 @@
 /////////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#namespace_import
-import * as test from "/assets/js/test/js"
+import {
+    testText , testHr , testBr ,
+    testArray , testNodeList , testElement , testElse ,
+    testObj
+}
+from "/assets/js/test/js"
 
 
 
