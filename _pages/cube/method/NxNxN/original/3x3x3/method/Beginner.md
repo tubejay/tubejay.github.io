@@ -26,7 +26,7 @@ devon: true
 ## [Cross / Beginner](/cube/method/NxNxN/original/3x3x3/cross/beginner)
 
 <iframe
-  colored = "F B L R D*/em"
+  colored = "F B L R U D*/em"
 ></iframe>
 
 
@@ -34,7 +34,7 @@ devon: true
 ## [FL : First Layer](/cube/method/NxNxN/original/3x3x3/beginner/fl) {#fl}
 
 <iframe
-  colored = "D*"
+  colored = "D* F B L R U"
 ></iframe>
 
 
@@ -42,7 +42,7 @@ devon: true
 ## [SL : Second Layer](/cube/method/NxNxN/original/3x3x3/beginner/sl) {#sl}
 
 <iframe
-  colored = "U-"
+  colored = "U- U"
 ></iframe>
 
 

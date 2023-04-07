@@ -50,7 +50,6 @@ devon: true
 <iframe
   colored = "U*/cm D*/cm F B L R"
 ></iframe>
-  <!-- src="https://ruwix.com/widget/3d/?alg=M2%20E2&colored=U*/cm%20D*/cm%20F%20B%20L%20R&setupmoves=x2%20y2&hover=9&speed=500&flags=canvas" -->
 
 
 
