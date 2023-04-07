@@ -5,15 +5,20 @@ toc: true
 permalink: /cube/method/NxNxN/original/3x3x3/roux/l6e
 published: true
 hidden: false
+target: "_blank"
+ruwix: true
+teston: false
+devon: true
 ---
+<span
+  id     = "cube"
+  teston = "{{page.teston}}"
+  devon  = "{{page.devon}}"
+  alg    = "y y y y" >
+</span>
 
 <head>
-  <base target="_blank">
-  <style>
-    img {
-      max-width:250px;
-    }
-  </style>
+  <base target = "{{page.target}}">
 </head>
 
 
@@ -23,6 +28,11 @@ hidden: false
 <a href="https://ruwix.com/widget/3d/?alg=x&colored=u/em%20d&solved=L*/cm%20R*/cm%20FL%20FR%20BL%20BR%20DL%20DR&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/215528007-716188aa-e2e6-4f2b-912f-41def4a1dc1d.png">
 </a>
+
+<iframe
+  colored = "u/em d"
+  solved  = "L*/cm R*/cm FL FR BL BR DL DR"
+></iframe>
 
 - 3 / 1
 - 2(Adjacent) / 2
@@ -41,6 +51,11 @@ hidden: false
   <img src="https://user-images.githubusercontent.com/92285528/215762670-cefe6406-042d-41db-8ff7-d2e709b16207.png">
 </a>
 
+<iframe
+  colored = "UL ULF ULB UR URF URB"
+  solved  = "L R FL FR BL BR DL DR FLD FRD BLD BRD"
+></iframe>
+
 - 1 Edge on U Layer
 - 2 Edges on U Layer
 
@@ -51,6 +66,11 @@ hidden: false
 <a href="https://ruwix.com/widget/3d/?alg=x&colored=UF%20U%20UB%20DF%20D%20DB%20F%20B&solved=L*%20R*&hover=9&speed=500&flags=canvas">
   <img src="https://user-images.githubusercontent.com/92285528/215528755-26c83ef5-96fa-4874-bf81-b45ed45933dc.png">
 </a>
+
+<iframe
+  colored = "UF U UB DF D DB F B"
+  solved  = "L* R*"
+></iframe>
 
 - 2-1 / 2-1
 - 2-1 / 1-2

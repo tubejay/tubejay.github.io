@@ -39,7 +39,6 @@ devon: true
   <iframe
     alg = "M' U' M U2' M' U' M' U' M' U2' M U' M2'"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M%20U2'%20M'%20U'%20M'%20U'%20M'%20U2'%20M%20U'%20M2'&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -56,7 +55,6 @@ devon: true
   <iframe
     alg = "M' U' M' U' M' U2' M U' M U' M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U'%20M'%20U'%20M'%20U2'%20M%20U'%20M%20U'%20M&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -73,4 +71,3 @@ devon: true
   <iframe
     alg = "M' U2' M U2' M' U' M U2' M' U2' M"
   ></iframe>
-    <!-- src = "https://ruwix.com/widget/3d/?alg=M'%20U2'%20M%20U2'%20M'%20U'%20M%20U2'%20M'%20U2'%20M&colored=U*/cm%20u/e&solved=U-&hover=9&speed=500&flags=canvas" -->

@@ -8,12 +8,13 @@ hidden: false
 target: "_blank"
 ruwix: true
 teston: false
-devon: false
+devon: true
 ---
 <span
   id     = "cube"
   teston = "{{page.teston}}"
-  devon  = "{{page.devon}}" >
+  devon  = "{{page.devon}}"
+  solved = "L* R*" >
 </span>
 
 <head>
@@ -33,8 +34,10 @@ devon: false
 - U2 M' U2
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'&colored=*&solved=L*%20R*&setupmoves=x'&hover=9&speed=500&flags=canvas"
+    alg        = "U2' M' U2'"
+    setupmoves = "x'"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=U2'%20M'%20U2'&colored=*&solved=L*%20R*&setupmoves=x'&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -43,8 +46,10 @@ devon: false
 - U2 M U2
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=U2'%20M%20U2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
+    alg        = "U2' M U2'"
+    setupmoves = "x"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=U2'%20M%20U2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -53,8 +58,10 @@ devon: false
 - U2 M2 U2
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=U2'%20M2'%20U2'&colored=*&solved=L*%20R*&setupmoves=x2&hover=9&speed=500&flags=canvas"
+    alg        = "U2' M2' U2'"
+    setupmoves = "x2"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=U2'%20M2'%20U2'&colored=*&solved=L*%20R*&setupmoves=x2&hover=9&speed=500&flags=canvas" -->
 
 
 
@@ -63,5 +70,7 @@ devon: false
 - E2 M' E2
 
   <iframe
-    src = "https://ruwix.com/widget/3d/?alg=E2'%20M'%20E2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas"
+    alg        = "E2' M' E2'"
+    setupmoves = "x"
   ></iframe>
+    <!-- src = "https://ruwix.com/widget/3d/?alg=E2'%20M'%20E2'&colored=*&solved=L*%20R*&setupmoves=x&hover=9&speed=500&flags=canvas" -->
