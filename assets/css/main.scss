@@ -30,34 +30,39 @@ th:last-child,  td:last-child  {border-right:0px}
 // link
 a {text-decoration: none}
 
+// title
+#page-title { font-size:21px; }
+
 // heading
-h1,h2,h3,h4,h5,h6 {
-  padding-bottom : 20px;
-  border-bottom  : 10px double darkgray;
-  margin-bottom  : 20px;
-  .toc,#page-title {
-    padding-bottom : 0px;
-    border-bottom  : 0px;
-    margin-bottom  : 0px;
-  }
-}
 // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
 // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-h1 { font-size:19px; margin-left:0px;
-  #page-title { font-size:21px; };
+@mixin hfm($fs,$ml) {
+  font-size   : $fs;
+  margin-left : $ml;
 }
-h2 { font-size:17px; margin-left:15px; }
-h3 { font-size:15px; margin-left:30px; }
-h4 { font-size:13px; margin-left:45px;
-  .toc { margin-left:0px; };
+h1,h2,h3,h4,h5,h6 {
+  .page__content:not(.toc) {
+    padding-bottom : 20px;
+    border-bottom  : 2px double darkgray;
+    margin-bottom  : 20px;
+    h1 { @import hfm(19px,0px ) }
+    h2 { @import hfm(17px,10px) }
+    h3 { @import hfm(15px,20px) }
+    h4 { @import hfm(13px,30px) }
+    h5 { @import hfm(11px,40px) }
+    h6 { @import hfm(11px,50px) }
+  }
 }
-h5 { font-size:11px; margin-left:60px; }
-h6 { font-size:9px;  margin-left:75px; }
 
 // li
 // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-li { font-size:15px;
-  .toc { font-size:13px; };
+li {
+  .page__content:not(.toc) {
+    font-size:15px;
+   }
+  .toc {
+    font-size:13px;
+  }
 }
 
 // font
