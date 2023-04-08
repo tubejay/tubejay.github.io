@@ -30,24 +30,24 @@ th:last-child,  td:last-child  {border-right:0px}
 // link
 a {text-decoration: none}
 
-// page__content
+// body
 // not toc
 // https://developer.mozilla.org/en-US/docs/Web/CSS/:not
-.page__content:not(.toc) {
+body:not(.toc) {
   // heading
   // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
   h1, h2, h3, h4, h5, h6 {
     padding-bottom : 20px;
-    border-bottom  : 1px dotted darkgray;
+    border-bottom  : 1px double darkgray;
     margin-bottom  : 20px;
   }
-  h1 { font-size: 21px; margin-left:0px;  }
-  h2 { font-size: 19px; margin-left:15px; }
-  h3 { font-size: 17px; margin-left:30px; }
-  h4 { font-size: 15px; margin-left:45px; }
-  h5 { font-size: 13px; margin-left:60px; }
-  h6 { font-size: 11px; margin-left:75px; }
+  h1 { font-size: 19px; margin-left:0px;  }
+  h2 { font-size: 17px; margin-left:15px; }
+  h3 { font-size: 15px; margin-left:30px; }
+  h4 { font-size: 13px; margin-left:45px; }
+  h5 { font-size: 11px; margin-left:60px; }
+  h6 { font-size: 9px; margin-left:75px; }
   // li
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
   li { font-size:15px; }
@@ -55,7 +55,7 @@ a {text-decoration: none}
 
 // title
 // toc
-.page__title { font-size:23px; }
+.page__title { font-size:21px; }
 .toc         { font-size:15px; }
 
 // font
