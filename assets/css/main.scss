@@ -106,23 +106,26 @@ a {text-decoration: none}
   font-size      : $fs;
 }
 .page__content {
-  // heading
-  // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
-  // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-  h1 { @include hfm( 23px , 5px , ridge  ) }
-  h2 { @include hfm( 23px , 5px , ridge  ) }
-  h3 { @include hfm( 19px , 3px , solid  ) }
-  h4 { @include hfm( 15px , 1px , dashed ) }
-  h5 { @include hfm( 13px , 0px , none   ) }
-  h6 { @include hfm( 13px , 0px , none   ) }
-  // list
-  // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-  ul { font-size : 15px }
-  // toc
-  // heading
-  // list
+  // not in toc
+  :not(.toc) {
+    // heading
+    // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
+    // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
+    h1 { @include hfm( 23px , 5px , ridge  ) }
+    h2 { @include hfm( 23px , 5px , ridge  ) }
+    h3 { @include hfm( 19px , 3px , solid  ) }
+    h4 { @include hfm( 15px , 1px , dashed ) }
+    h5 { @include hfm( 13px , 0px , none   ) }
+    h6 { @include hfm( 13px , 0px , none   ) }
+    // list
+    // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
+    ul { font-size : 15px }
+  }
+  // in toc
   .toc {
+    // heading
     h4 { font-size : 11px }
+    // list
     ul { font-size : 11px }
   }
 }
