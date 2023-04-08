@@ -32,13 +32,14 @@ a {text-decoration: none}
 
 // page__content
 // not toc
+// https://developer.mozilla.org/en-US/docs/Web/CSS/:not
 .page__content:not(.toc) {
   // heading
   // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
   h1, h2, h3, h4, h5, h6 {
     padding-bottom : 20px;
-    border-bottom  : 1px dashed $border-color;
+    border-bottom  : 1px dashed darkgray;
     margin-bottom  : 20px;
   }
   h1 { font-size: 23px; left:0px;  }
