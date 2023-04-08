@@ -109,17 +109,17 @@ a {text-decoration: none}
   // heading : not in toc
   // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-  h1:not(.toc) { @include hfm(23px,5px,ridge) }
-  h2:not(.toc) { @include hfm(23px,5px,ridge) }
-  h3:not(.toc) { @include hfm(19px,3px,solid) }
-  h4:not(.toc) { @include hfm(15px,1px,dashed) }
-  h5:not(.toc) { @include hfm(13px,0px,none) }
-  h6:not(.toc) { @include hfm(13px,0px,none) }
+  h1:not(.nav__title) { @include hfm(23px,5px,ridge) }
+  h2:not(.nav__title) { @include hfm(23px,5px,ridge) }
+  h3:not(.nav__title) { @include hfm(19px,3px,solid) }
+  h4:not(.nav__title) { @include hfm(15px,1px,dashed) }
+  h5:not(.nav__title) { @include hfm(13px,0px,none) }
+  h6:not(.nav__title) { @include hfm(13px,0px,none) }
   // li : not in toc
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-  li:not(.toc)  { font-size : 15px }
+  ul:not(.toc__menu)  { font-size : 15px }
   // toc : title
   h4.nav__title { font-size : 11px }
   // toc : list
-  a.toc__menu   { font-size : 11px }
+  ul.toc__menu   { font-size : 11px }
 }
