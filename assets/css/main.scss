@@ -96,41 +96,44 @@ a {text-decoration: none}
 // title
 .page__title {
   a {
-    font-size : 21px;
-    color     : blue;
+    font-size : 23px;
+    color     : lightgreen;
   }
 }
 
-// heading
 // https://sass-lang.com/documentation/at-rules/mixin
 @mixin hfm($fs,$ml) {
-  color          : green;
+  color          : lightcoral;
   padding-bottom : 20px;
   border-bottom  : 2px double darkgray;
   margin-bottom  : 20px;
   font-size      : $fs;
   margin-left    : $ml;
 }
-// base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
-// page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
 .page__content {
-  h1:not(.toc) { @include hfm(19px,0px) }
-  h2:not(.toc) { @include hfm(17px,10px) }
-  h3:not(.toc) { @include hfm(15px,20px) }
-  h4:not(.toc) { @include hfm(13px,30px) }
-  h5:not(.toc) { @include hfm(11px,40px) }
-  h6:not(.toc) { @include hfm(11px,50px) }
-}
-
-// li
-// page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-.page__content {
+  // heading : not in toc
+  // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
+  // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
+  h1:not(.toc) { @include hfm(21px,0px  ) }
+  h2:not(.toc) { @include hfm(19px,20px ) }
+  h3:not(.toc) { @include hfm(17px,40px ) }
+  h4:not(.toc) { @include hfm(15px,60px ) }
+  h5:not(.toc) { @include hfm(13px,80px ) }
+  h6:not(.toc) { @include hfm(11px,100px) }
+  // li : not in toc
+  // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
   li:not(.toc) {
-    font-size:15px;
-    color:red;
+    font-size : 15px;
+    color     : lightgoldenrodyellow;
   }
-  .toc {
-    font-size:13px;
-    color:magenta;
+  // toc : title
+  h4.nav__title {
+    font-size : 15px;
+    color     : white;
+  }
+  // toc : list
+  a.toc__menu {
+    font-size : 13px;
+    color     : lightskyblue;
   }
 }
