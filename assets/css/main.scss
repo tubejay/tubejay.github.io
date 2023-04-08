@@ -30,27 +30,32 @@ th:last-child,  td:last-child  {border-right:0px}
 // link
 a {text-decoration: none}
 
-// heading
-// base      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
-// page      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
+// page__content
+// not toc
 .page__content:not(.toc) {
+  // heading
+  // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
+  // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
   h1, h2, h3, h4, h5, h6 {
-    padding-bottom : 5px;
-    border-bottom  : 2px solid white;
-    margin-bottom  : 5px;
+    padding-bottom : 20px;
+    border-bottom  : 1px dashed $border-color;
+    margin-bottom  : 20px;
   }
+  h1 { font-size: 23px; left:0px;  }
+  h2 { font-size: 21px; left:5px;  }
+  h3 { font-size: 19px; left:10px; }
+  h4 { font-size: 17px; left:15px; }
+  h5 { font-size: 15px; left:20px; }
+  h6 { font-size: 13px; left:25px; }
+  // li
+  // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
+  li { font-size:15px; }
 }
-// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L46
-$h-size-1: 23px;
-$h-size-2: 21px;
-$h-size-3: 19px;
-$h-size-4: 17px;
-$h-size-5: 15px;
-$h-size-6: 13px;
 
-// li
-// https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-li { font-size:15px; }
+// title
+// toc
+.page__title { font-size:25px; }
+.toc         { font-size:15px; }
 
 // font
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks
