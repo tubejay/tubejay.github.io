@@ -102,7 +102,7 @@ a {text-decoration: none}
 //// https://sass-lang.com/documentation/at-rules/mixin
 @mixin hfm($fs,$bw,$bs) {
   padding-bottom : 10px;
-  border-bottom  : $bw $bs darkgray;
+  border-bottom  : $bw $bs white; // darkgray;
   margin-bottom  : 30px;
   font-size      : $fs;
 }
