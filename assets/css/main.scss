@@ -9,9 +9,9 @@
 
 
 // color
-// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors
-// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L55
-// neon      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/skins/_neon.scss#L5
+//// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors
+//// variables : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_variables.scss#L55
+//// neon      : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/skins/_neon.scss#L5
 $body-color                   : black;
 $background-color             : black;
 $text-color                   : white;
@@ -43,7 +43,7 @@ $base0f: #a3685a; // base0F - Deprecated, Opening/Closing Embedded Language Tags
 
 
 // font
-// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks
+//// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#font-stacks
 $sans-serif : "IBM Plex Mono", "IBM Plex Sans KR", sans-serif;
 $serif      : "IBM Plex Mono", "IBM Plex Sans KR", serif;
 $monospace  : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
@@ -51,7 +51,7 @@ $monospace  : "IBM Plex Mono", "IBM Plex Sans KR", monospace;
 
 
 // animation
-// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#disabling-animations
+//// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#disabling-animations
 $intro-transition  : none;
 $global-transition : none;
 
@@ -98,7 +98,8 @@ a {text-decoration: none}
   a { font-size : 27px }
 }
 
-// https://sass-lang.com/documentation/at-rules/mixin
+// mixin for heading
+//// https://sass-lang.com/documentation/at-rules/mixin
 @mixin hfm($fs,$bw,$bs) {
   padding-bottom : 10px;
   border-bottom  : $bw $bs darkgray;
@@ -106,26 +107,34 @@ a {text-decoration: none}
   font-size      : $fs;
 }
 .page__content {
-  // not in toc
-  :not(.toc) {
-    // heading
-    // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
-    // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-    h1 { @include hfm( 23px , 5px , ridge  ) }
-    h2 { @include hfm( 23px , 5px , ridge  ) }
-    h3 { @include hfm( 19px , 3px , solid  ) }
-    h4 { @include hfm( 15px , 1px , dashed ) }
-    h5 { @include hfm( 13px , 0px , none   ) }
-    h6 { @include hfm( 13px , 0px , none   ) }
-    // list
-    // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-    ul { font-size : 15px }
-  }
-  // in toc
+
+  //////////////////////////////
+  ///////// not in toc /////////
+  //////////////////////////////
+
+  // heading
+  //// base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
+  //// page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
+  h1                  { @include hfm( 23px , 5px , ridge  ) }
+  h2                  { @include hfm( 23px , 5px , ridge  ) }
+  h3                  { @include hfm( 19px , 3px , solid  ) }
+  h4:not(.nav__title) { @include hfm( 15px , 1px , dashed ) }
+  h5                  { @include hfm( 13px , 0px , none   ) }
+  h6                  { @include hfm( 13px , 0px , none   ) }
+
+  // list
+  //// page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
+  ul { font-size : 15px }
+
+  //////////////////////////////
+  /////////// in toc ///////////
+  //////////////////////////////
+
   .toc {
     // heading
     h4 { font-size : 11px }
     // list
     ul { font-size : 11px }
   }
+
 }
