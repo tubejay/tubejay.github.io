@@ -34,23 +34,24 @@ a {text-decoration: none}
 #page-title { font-size:21px; }
 
 // heading
-// base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
-// page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
+// https://sass-lang.com/documentation/at-rules/mixin
 @mixin hfm($fs,$ml) {
   font-size   : $fs;
   margin-left : $ml;
 }
+// base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
+// page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
 h1,h2,h3,h4,h5,h6 {
   .page__content:not(.toc) {
     padding-bottom : 20px;
     border-bottom  : 2px double darkgray;
     margin-bottom  : 20px;
-    h1 { @import hfm(19px,0px ) }
-    h2 { @import hfm(17px,10px) }
-    h3 { @import hfm(15px,20px) }
-    h4 { @import hfm(13px,30px) }
-    h5 { @import hfm(11px,40px) }
-    h6 { @import hfm(11px,50px) }
+    h1 { @include hfm(19px,0px ) }
+    h2 { @include hfm(17px,10px) }
+    h3 { @include hfm(15px,20px) }
+    h4 { @include hfm(13px,30px) }
+    h5 { @include hfm(11px,40px) }
+    h6 { @include hfm(11px,50px) }
   }
 }
 
