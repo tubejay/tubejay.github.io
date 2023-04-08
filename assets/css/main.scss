@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 {
   padding-bottom : 20px;
   border-bottom  : 10px double darkgray;
   margin-bottom  : 20px;
-  .toc .page__title {
+  .toc,#page-title {
     padding-bottom : 0px;
     border-bottom  : 0px;
     margin-bottom  : 0px;
@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6 {
 // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
 // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
 h1 { font-size:19px; margin-left:0px;
-  .page__title { font-size:21px; };
+  #page-title { font-size:21px; };
 }
 h2 { font-size:17px; margin-left:15px; }
 h3 { font-size:15px; margin-left:30px; }
