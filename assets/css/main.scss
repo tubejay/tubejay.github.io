@@ -73,11 +73,15 @@ html {
 
 
 // keycap
-.kc {padding:3px; border-radius:3px}
-.kc_bl {@extend .kc; background:blue}
-.kc_gr {@extend .kc; background:forestgreen}
-.kc_rd {@extend .kc; background:darkred}
-.kc_or {@extend .kc; background:darkorange}
+@mixin keycap($bg) {
+  padding          : 3px;
+  border-radius    : 3px;
+  background-color : $bg;
+}
+.kc_bl { @include keycap(blue); }
+.kc_gr { @include keycap(forestgreen); }
+.kc_rd { @include keycap(darkred); }
+.kc_or { @include keycap(darkorange); }
 
 // table
 th,td {border-right:1px solid #262626}
@@ -90,31 +94,33 @@ a {text-decoration: none}
 
 
 // title
-#page-title { font-size:21px; color:blue; }
+.page__title {
+  a {
+    font-size : 21px;
+    color     : blue;
+  }
+}
 
 // heading
 // https://sass-lang.com/documentation/at-rules/mixin
 @mixin hfm($fs,$ml) {
-  font-size   : $fs;
-  margin-left : $ml;
-  background-color:yellow;
+  color          : green;
+  padding-bottom : 20px;
+  border-bottom  : 2px double darkgray;
+  margin-bottom  : 20px;
+  font-size      : $fs;
+  margin-left    : $ml;
 }
 // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
 // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-h1,h2,h3,h4,h5,h6 {
-  .page__content:not(.toc) {
-    color:green;
-    padding-bottom : 20px;
-    border-bottom  : 2px double darkgray;
-    margin-bottom  : 20px;
-  }
+.page__content {
+  h1:not(.toc) { @include hfm(19px,0px) }
+  h2:not(.toc) { @include hfm(17px,10px) }
+  h3:not(.toc) { @include hfm(15px,20px) }
+  h4:not(.toc) { @include hfm(13px,30px) }
+  h5:not(.toc) { @include hfm(11px,40px) }
+  h6:not(.toc) { @include hfm(11px,50px) }
 }
-h1.page__content:not(.toc) { @include hfm(19px,0px ) }
-h2.page__content:not(.toc) { @include hfm(17px,10px) }
-h3.page__content:not(.toc) { @include hfm(15px,20px) }
-h4.page__content:not(.toc) { @include hfm(13px,30px) }
-h5.page__content:not(.toc) { @include hfm(11px,40px) }
-h6.page__content:not(.toc) { @include hfm(11px,50px) }
 
 // li
 // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
@@ -123,7 +129,7 @@ h6.page__content:not(.toc) { @include hfm(11px,50px) }
     font-size:15px;
     color:red;
   }
-  li.toc {
+  .toc {
     font-size:13px;
     color:magenta;
   }
