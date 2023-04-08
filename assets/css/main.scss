@@ -95,45 +95,31 @@ a {text-decoration: none}
 
 // title
 .page__title {
-  a {
-    font-size : 23px;
-    color     : lightgreen;
-  }
+  a { font-size : 21px }
 }
 
 // https://sass-lang.com/documentation/at-rules/mixin
-@mixin hfm($fs,$ml) {
-  color          : lightcoral;
-  padding-bottom : 20px;
-  border-bottom  : 2px double darkgray;
-  margin-bottom  : 20px;
+@mixin hfm($fs,$bw) {
+  padding-bottom : 10px;
+  border-bottom  : $bw solid darkgray;
+  margin-bottom  : 10px;
   font-size      : $fs;
-  margin-left    : $ml;
 }
 .page__content {
   // heading : not in toc
   // base : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_base.scss#L24
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L91
-  h1:not(.toc) { @include hfm(21px,0px  ) }
-  h2:not(.toc) { @include hfm(19px,20px ) }
-  h3:not(.toc) { @include hfm(17px,40px ) }
-  h4:not(.toc) { @include hfm(15px,60px ) }
-  h5:not(.toc) { @include hfm(13px,80px ) }
-  h6:not(.toc) { @include hfm(11px,100px) }
+  h1:not(.toc) { @include hfm(19px,3px) }
+  h2:not(.toc) { @include hfm(19px,3px) }
+  h3:not(.toc) { @include hfm(17px,2px) }
+  h4:not(.toc) { @include hfm(15px,1px) }
+  h5:not(.toc) { @include hfm(13px,0px) }
+  h6:not(.toc) { @include hfm(13px,0px) }
   // li : not in toc
   // page : https://github.com/mmistakes/minimal-mistakes/blob/8a67ce8e41ec850f2d7c373aa47739b2abfee6f1/_sass/minimal-mistakes/_page.scss#L114
-  li:not(.toc) {
-    font-size : 15px;
-    color     : lightgoldenrodyellow;
-  }
+  li:not(.toc)  { font-size : 15px }
   // toc : title
-  h4.nav__title {
-    font-size : 15px;
-    color     : white;
-  }
+  h4.nav__title { font-size : 13px }
   // toc : list
-  a.toc__menu {
-    font-size : 13px;
-    color     : lightskyblue;
-  }
+  a.toc__menu   { font-size : 12px }
 }
