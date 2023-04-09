@@ -12,9 +12,15 @@ const testLine = el =>
     : testEl.append( "nodeName : " + el.nodeName );
     queryText = "<br>";
     testEl.innerHTML += queryText;
+    testEl.append("=".repeat(20));
+    testEl.innerHTML += queryText;
 };
 
 testLine("test start");
+
+
+
+try {
 
 
 
@@ -58,3 +64,8 @@ docEl.forEach( line =>
     ]
 );
 
+
+
+} catch (error) {
+    testLine(error.message);
+};
