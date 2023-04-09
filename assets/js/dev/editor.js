@@ -33,25 +33,58 @@ try {
 
     // https://ajaxorg.github.io/ace-api-docs/index.html
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
-    const editor = ace.edit("editor")
+
+    // https://ajaxorg.github.io/ace-api-docs/modules.html#edit
+    const editorInput  = ace.edit("editorInput");
+    const editorOutput = ace.edit("editorOutput");
+    const editorArr    = [ editorInput , editorOutput ];
+
+    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
     testLine("set mode");
-    editor.session.setMode("ace/mode/scss");
+    editorInput.session.setMode("ace/mode/scss");
+    editorOutput.session.setMode("ace/mode/css");
 
-    // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=howto
+    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
     testLine("set theme");
-    editor.setTheme("ace/theme/tomorrow_night_bright");
+    const themeFolder = "ace/theme/";
+    const themeName   = "tomorrow_night_bright";
+    const themePath   = themeFolder + themeName;
+    editorArr.forEach( editor =>
+      editor.setTheme(themePath)
+    );
 
+    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
     const codeInsert = "h2 {\n\tcolor:blue\n}";
     testLine("code insert");
-    editor.insert(codeInsert);
+    editorInput.insert(codeInsert);
 
+    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
     testLine("code read");
-    const codeRead = editor.session.getValue();
+    const codeRead = editorInput.session.getValue();
     testLine(codeRead);
 
     // https://sass-lang.com/documentation/js-api/
     // https://sass-lang.com/documentation/js-api/modules
 
+    // https://sass-lang.com/documentation/js-api/modules#compileString
+    // testLine("code convert");
+    // const codeConvert = sass.compileString(codeRead);
+    // testLine(codeConvert);
+
+    // https://github.com/medialize/sass.js/blob/master/docs/getting-started.md#using-sassjs-in-the-browser
+    testLine("code convert");
+    const sass = new Sass();
+    let codeConvert;
+    sass.compile( codeRead , result =>
+      ( codeConvert = result )
+    );
+    testLine(codeConvert);
+
+    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
+    testLine("code paste");
+    editorOutput.session.setValue(codeConvert);
+
+
 } catch (error) {
-    testLine(error.message);
+    testLine(error.mesage);
 };

@@ -78,8 +78,9 @@ editor: true
   - [cdnjs](https://cdnjs.com/libraries/ace)
 - Demo
 
-<div id = "test"  ></div>
-<div id = "editor"></div>
+<div id = "test"        ></div>
+<div id = "editorInput" ></div>
+<div id = "editorOutput"></div>
 
 
 
