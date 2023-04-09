@@ -76,18 +76,12 @@ try {
 
     // testLine(https://github.com/medialize/sass.js/blob/master/docs/api.md#libsass-compile-options"code convert");
     testLine("code convert");
-    const codeConvert = sass.compile( codeRead , result => {
-      testLine("before typeof");
-      testLine(typeof result);
-      testLine("after typeof");
-      testLine(Object.entries(result));
-      testLine("after entries");
-      return result;
-    } );
+    const sass = require("sass");
+    const codeConvert = sass.compileString( codeRead );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
     testLine("code paste");
-    editorOutput.session.setValue(codeConvert);
+    editorOutput.session.setValue(codeConvert.css);
 
 
 } catch (error) {
