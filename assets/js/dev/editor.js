@@ -49,7 +49,7 @@ testLine(ifEl);
 
 // https://stackoverflow.com/a/7570527
 // https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/contentDocument
-const ifDoc = ifEl.contentWindow.document;
+const ifDoc = ifEl.contentDocument;
 testLine("select ifDoc");
 testLine(ifDoc);
 
