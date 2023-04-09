@@ -11,7 +11,7 @@ hidden: false
   <base target="_blank">
   <script type="text/javascript" defer>
     try {
-      const testEl = document.querySelector("#iframe-test");
+      const testEl = document.querySelector(".test");
       testEl.append("append");
       const iframeLoader = document.createElement("div");
       testEl.appendChild(iframeLoader);
@@ -86,7 +86,7 @@ hidden: false
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
 
-<span id="iframe-test">test :</span>
+<span class="test">test :</span>
 
 
 
