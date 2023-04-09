@@ -5,7 +5,7 @@ toc: true
 permalink: /dev/web_publishing/markup
 published: true
 hidden: false
-editor: true
+editor: false
 ---
 <span
   id = "test" >
