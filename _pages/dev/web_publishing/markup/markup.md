@@ -79,8 +79,8 @@ editor: true
 - Demo
 
 <div id = "test"        ></div>
-<div id = "editorInput" ></div>
-<div id = "editorOutput"></div>
+<div id = "editorInput"  class = "editor" ></div>
+<div id = "editorOutput" class = "editor" ></div>
 
 
 

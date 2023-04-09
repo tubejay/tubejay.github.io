@@ -18,14 +18,16 @@ const testLine = el =>
 
 testLine("test start");
 
-queryText      = "#editor";
-const editorEl = document.querySelector(queryText);
-testLine("editor selected");
+queryText       = ".editor";
+const editorEls = document.querySelectorAll(queryText);
+testLine("editorEls selected");
 
-editorEl.style[ "position" ] = "relative";
-editorEl.style[ "width"    ] = "350px";
-editorEl.style[ "height"   ] = "150px";
-testLine("editor style");
+editorEls.forEach( editorEl => {
+  editorEl.style[ "position" ] = "relative";
+  editorEl.style[ "width"    ] = "350px";
+  editorEl.style[ "height"   ] = "150px";
+} );
+testLine("editorEls styled");
 
 
 
@@ -35,6 +37,7 @@ try {
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
 
     // https://ajaxorg.github.io/ace-api-docs/modules.html#edit
+    testLine("set edit");
     const editorInput  = ace.edit("editorInput");
     const editorOutput = ace.edit("editorOutput");
     const editorArr    = [ editorInput , editorOutput ];
