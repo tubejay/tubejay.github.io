@@ -11,12 +11,12 @@ const testLine = el =>
     queryText         = "<br>";
     testEl.innerHTML += queryText;
 
-    if (typeof el === "string") {
+    if (el instanceof String) {
         testEl.append( el )
     } else {
-        testEl.append( el.innerHTML )
+        testEl.append( el.outerHTML )
         testEl.innerHTML += queryText;
-        testEl.append("=".repeat(20));
+        testEl.append("=".repeat(30));
     };
 };
 
