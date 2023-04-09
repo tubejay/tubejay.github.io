@@ -48,7 +48,7 @@ testLine(ifEl);
 
 
 // https://stackoverflow.com/a/7570527
-const ifDoc = ifEl.Document;
+const ifDoc = ifEl.contentDocument;
 testLine("select ifDoc");
 testLine(ifDoc);
 
