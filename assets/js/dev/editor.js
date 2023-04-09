@@ -7,13 +7,17 @@ const testEl = document.querySelector(queryText);
 
 const testLine = el =>
 {
-    typeof el === "string"
-    ? testEl.append( el )
-    : testEl.append( "nodeName : " + el.nodeName );
-    queryText = "<br>";
+
+    queryText         = "<br>";
     testEl.innerHTML += queryText;
-    testEl.append("=".repeat(20));
-    testEl.innerHTML += queryText;
+
+    if (typeof el === "string") {
+        testEl.append( el )
+    } else {
+        testEl.append( el.innerHTML )
+        testEl.innerHTML += queryText;
+        testEl.append("=".repeat(20));
+    };
 };
 
 testLine("test start");
