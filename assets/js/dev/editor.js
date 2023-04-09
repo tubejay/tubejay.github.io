@@ -74,9 +74,8 @@ try {
     // const codeConvert = sass.compileString(codeRead);
     // testLine(codeConvert);
 
-    // https://github.com/medialize/sass.js/blob/master/docs/getting-started.md#using-sassjs-in-the-browser
+    // testLine(https://github.com/medialize/sass.js/blob/master/docs/api.md#libsass-compile-options"code convert");
     testLine("code convert");
-    const sass = new Sass();
     let codeConvert;
     sass.compile( codeRead , result => {
       codeConvert = result.text;
