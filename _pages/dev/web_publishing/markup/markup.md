@@ -9,6 +9,30 @@ hidden: false
 
 <head>
   <base target="_blank">
+  <script type="text/javascript" defer>
+    // https://stackoverflow.com/a/8422749
+
+    const iframeLoader = document.createElement("div");
+
+    const testEl = document.querySelector("#test");
+    testEl.appendChild(iframeLoader);
+
+    const iframeSrc = "https://codebeautify.org/css-to-scss-converter";
+    iframeLoader.innerHTML = `<iframe src="${iframeSrc}" width="100px" height="100px"></iframe>`;
+
+    const iframeEl = document.querySelector("iframe");
+    const iframeDoc = iframeEl.contentWindow.document;
+
+    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html
+    const docEl = iframeDoc.body.querySelector(".EditSession").doc;
+
+    testEl.appendChild(docEl);
+      // https://stackoverflow.com/a/7570527
+      // https://stackoverflow.com/a/42907951
+      // iframeDoc.body.querySelector("#inputACEEditor")
+
+    testEl.removeChild(iframeLoader);
+  </script>
 </head>
 
 
@@ -67,6 +91,10 @@ hidden: false
   - Sass/SCSS
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
+
+<div id="test">
+test : 
+</div>
 
 
 
