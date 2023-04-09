@@ -75,13 +75,13 @@ try {
     // testLine(codeConvert);
 
     // testLine(https://github.com/medialize/sass.js/blob/master/docs/api.md#libsass-compile-options"code convert");
-    testLine("code convert");
-    const sass = require("sass");
-    const codeConvert = sass.compileString( codeRead );
+    // testLine("code convert");
+    // const sass = require("sass");
+    // const codeConvert = sass.compileString( codeRead );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
     testLine("code paste");
-    editorOutput.session.setValue(codeConvert.css);
+    editorOutput.session.setValue(codeRead);
 
 
 } catch (error) {
