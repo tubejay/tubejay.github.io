@@ -76,10 +76,13 @@ try {
 
     // testLine(https://github.com/medialize/sass.js/blob/master/docs/api.md#libsass-compile-options"code convert");
     testLine("code convert");
-    sass.compile( codeRead , result => {
+    const codeConvert = sass.compile( codeRead , result => {
+      testLine("before typeof");
       testLine(typeof result);
+      testLine("after typeof");
       testLine(Object.entries(result));
-      const codeConvert = result;
+      testLine("after entries");
+      return result;
     } );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
