@@ -10,9 +10,6 @@ editor: true
 <span
   id = "test" >
 </span>
-<div
-  id = "editor" >
-</div>
 
 <head>
   <base target="_blank">
@@ -20,7 +17,7 @@ editor: true
     #editor {
       position : relative;
       width    : 300px;
-      height   : 300px;
+      height   : 100px;
     }
   </style>
 </head>
@@ -81,6 +78,10 @@ editor: true
   - Sass/SCSS
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
+
+### editor
+
+<div id="editor"></div>
 
 
 

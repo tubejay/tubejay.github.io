@@ -18,6 +18,13 @@ const testLine = el =>
 
 testLine("test start");
 
+queryText      = "#editor";
+const editorEl = document.querySelector(queryText);
+
+editorEl.style[ "position" ] = "relative";
+editorEl.style[ "width"    ] = "350px";
+editorEl.style[ "height"   ] = "150px";
+
 
 
 try {
@@ -31,12 +38,12 @@ try {
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=howto
     editor.setTheme("ace/theme/monokai");
     const code = `
-      h2 {
-        a {
-            color:blue;
-        }
-      }
-    `;
+h2 {
+  a {
+    color:blue;
+  }
+}
+`;
     editor.insert(code);
     testLine("insert code");
 
