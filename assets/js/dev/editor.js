@@ -4,40 +4,53 @@ let queryText;
 
 queryText    = "#test";
 const testEl = document.querySelector(queryText);
-testEl.append("test start");
+
+const testLine = el =>
+    typeof el === "string"
+    ? testEl.append( el + "\n" )
+    : testEl.append( "typeof : " + typeof el + "\n" )
+
+testLine("test start");
 
 
 
 // https://stackoverflow.com/a/8422749
 
-queryText        = "div";
-const loader     = document.createElement(queryText);
-testEl.appendChild(loader);
-testEl.append("append loader");
+queryText        = "#loader";
+const loader     = document.querySelector(queryText);
+testLine("select loader");
+testLine(loader);
 
 const src        = '"https://codebeautify.org/css-to-scss-converter"';
 loader.innerHTML = '<iframe src=' + src + ' width="100px" height="100px"></iframe>';
+testLine("loader innerHTML");
+testLine(loader.innerHTML);
 
 queryText        = "iframe";
 const ifEl       = document.querySelector(queryText);
-testEl.append("select ifEl");
+testLine("select ifEl");
+testLine(ifEl);
 
 
 
 // https://stackoverflow.com/a/7570527
 const ifDoc = ifEl.contentDocument;
-testEl.append("select ifDoc");
+testLine("select ifDoc");
+testLine(ifDoc);
 
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html
 queryText   = ".EditSession";
 const edEl  = ifDoc.body.querySelector(queryText);
-testEl.append("select edEl");
+testLine("select edEl");
+testLine(edEl);
 const edDoc = edEl.doc
-testEl.append("select edDoc");
+testLine("select edDoc");
+testLine(edDoc);
 
-docEl.forEach(
-    line => test.append(line)
+docEl.forEach( line =>
+    [
+        testLine("line"),
+        testLine(line)
+    ]
 );
 
-testEl.removeChild(loader);
-testEl.append("remove loader");
