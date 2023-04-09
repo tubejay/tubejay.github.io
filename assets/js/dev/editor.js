@@ -25,6 +25,7 @@ try {
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
     const editor = ace.edit("editor")
     editor.session.setMode("ace/mode/scss");
+    testLine("editor session");
 
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=howto
     editor.setTheme("ace/theme/monokai");
@@ -36,8 +37,7 @@ try {
       }
     `;
     editor.insert(code);
-
-    testEl.appendChild(editor);
+    testLine("insert code");
 
     // https://sass-lang.com/documentation/js-api/
     // https://sass-lang.com/documentation/js-api/modules
