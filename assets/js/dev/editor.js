@@ -49,13 +49,13 @@ testLine(ifEl);
 
 // https://stackoverflow.com/a/7570527
 // https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/contentDocument
-const ifDoc = ifEl.contentDocument;
+const ifDoc = ifEl.contentWindow.document;
 testLine("select ifDoc");
 testLine(ifDoc);
 
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html
 queryText   = ".EditSession";
-const edEl  = ifDoc.body.querySelector(queryText);
+const edEl  = ifDoc.querySelector(queryText);
 testLine("select edEl");
 testLine(edEl);
 const edDoc = edEl.doc
