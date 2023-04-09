@@ -7,19 +7,8 @@ published: true
 hidden: false
 editor: true
 ---
-<span
-  id = "test" >
-</span>
-
 <head>
   <base target="_blank">
-  <style>
-    #editor {
-      position : relative;
-      width    : 300px;
-      height   : 100px;
-    }
-  </style>
 </head>
 
 
@@ -79,9 +68,18 @@ editor: true
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
 
-### editor
+### Demo with Ace
 
-<div id="editor"></div>
+- Ace
+  - [Homepage](https://ace.c9.io/)
+  - [Kitchen Sink](https://ace.c9.io/build/kitchen-sink.html)
+  - [Themes](https://gist.github.com/RyanNutt/cb8d60997d97905f0b2aea6c3b5c8ee0)
+  - [API Reference](https://ajaxorg.github.io/ace-api-docs/index.html)
+  - [cdnjs](https://cdnjs.com/libraries/ace)
+- Demo
+
+<div id = "test"  ></div>
+<div id = "editor"></div>
 
 
 
