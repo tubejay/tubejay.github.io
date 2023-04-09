@@ -78,9 +78,9 @@ try {
     testLine("code convert");
     const sass = new Sass();
     let codeConvert;
-    sass.compile( codeRead , result =>
-      ( codeConvert = result )
-    );
+    sass.compile( codeRead , result => {
+      codeConvert = result.text;
+    } );
     testLine(codeConvert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
