@@ -11,9 +11,8 @@ hidden: false
   <base target="_blank">
 </head>
   <script type="text/javascript" defer>
-    document.write("test write");
     const testEl = document.querySelector("#test");
-    testEl.innerHTML += "<p>append innerText</p>";
+    testEl.append("append");
     try {
     const iframeLoader = document.createElement("div");
     testEl.appendChild(iframeLoader);
@@ -22,9 +21,11 @@ hidden: false
     const iframeEl = document.querySelector("iframe");
     const iframeDoc = iframeEl.contentWindow.document;
     const docEl = iframeDoc.body.querySelector(".EditSession").doc;
-    testEl.appendChild(docEl);
+    docEl.forEach( line =>
+      testEl.append(line);
+    );
     } catch (error) {
-      testEl.innerHTML += "<p>" + error.message + "</p>";
+      testEl.append(error.message);
     };
   </script>
 
