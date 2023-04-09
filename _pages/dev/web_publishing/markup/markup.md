@@ -11,20 +11,20 @@ hidden: false
   <base target="_blank">
   <script type="text/javascript" defer>
     try {
-    const testEl = document.querySelector("#iframe-test");
-    testEl.append("append");
-    const iframeLoader = document.createElement("div");
-    testEl.appendChild(iframeLoader);
-    const iframeSrc = "https://codebeautify.org/css-to-scss-converter";
-    iframeLoader.innerHTML = `<iframe src="${iframeSrc}" width="100px" height="100px"></iframe>`;
-    const iframeEl = document.querySelector("iframe");
-    const iframeDoc = iframeEl.contentWindow.document;
-    const docEl = iframeDoc.body.querySelector(".EditSession").doc;
-    docEl.forEach( line =>
-      testEl.append(line);
-    );
+      const testEl = document.querySelector("#iframe-test");
+      testEl.append("append");
+      const iframeLoader = document.createElement("div");
+      testEl.appendChild(iframeLoader);
+      const iframeSrc = "https://codebeautify.org/css-to-scss-converter";
+      iframeLoader.innerHTML = `<iframe src="${iframeSrc}" width="100px" height="100px"></iframe>`;
+      const iframeEl = document.querySelector("iframe");
+      const iframeDoc = iframeEl.contentWindow.document;
+      const docEl = iframeDoc.body.querySelector(".EditSession").doc;
+      docEl.forEach( line =>
+        testEl.append(line)
+      );
     } catch (error) {
-      document.write(error.message);
+      document.write(error.message)
     };
   </script>
 </head>
