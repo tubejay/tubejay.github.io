@@ -9,7 +9,6 @@ hidden: false
 
 <head>
   <base target="_blank">
-</head>
   <script type="text/javascript" defer>
     try {
     const testEl = document.querySelector("#iframe-test");
@@ -28,6 +27,7 @@ hidden: false
       document.write(error.message);
     };
   </script>
+</head>
 
 
 
