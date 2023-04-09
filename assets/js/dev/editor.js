@@ -10,14 +10,10 @@ const testLine = el =>
 
     queryText         = "<br>";
     testEl.innerHTML += queryText;
+    testEl.append( el )
 
-    if (typeof el === "string") {
-        testEl.append( el )
-    } else {
-        testEl.append( el.outerHTML )
-        testEl.innerHTML += queryText;
-        testEl.append("=".repeat(30));
-    };
+    testEl.innerHTML += queryText;
+    testEl.append("=".repeat(30));
 };
 
 testLine("test start");
@@ -26,50 +22,22 @@ testLine("test start");
 
 try {
 
+    // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
+    const editor = ace.edit("editor")
+    editor.session.setMode("ace/mode/scss");
 
+    // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=howto
+    editor.setTheme("ace/theme/monokai");
+    const code = `
+      h2 {
+        a {
+            color:blue;
+        }
+      }
+    `;
+    editor.insert(code);
 
-// https://stackoverflow.com/a/8422749
-
-queryText        = "#loader";
-const loader     = document.querySelector(queryText);
-testLine("select loader");
-testLine(loader);
-
-const src        = '"https://codebeautify.org/css-to-scss-converter"';
-loader.innerHTML = '<iframe src=' + src + ' width="100px" height="100px"></iframe>';
-testLine("loader innerHTML");
-testLine(loader.innerHTML);
-
-queryText        = "iframe";
-const ifEl       = document.querySelector(queryText);
-testLine("select ifEl");
-testLine(ifEl);
-
-
-
-// https://stackoverflow.com/a/7570527
-// https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/contentDocument
-const ifDoc = ifEl.contentDocument;
-testLine("select ifDoc");
-testLine(ifDoc);
-
-// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html
-queryText   = ".EditSession";
-const edEl  = ifDoc.querySelector(queryText);
-testLine("select edEl");
-testLine(edEl);
-const edDoc = edEl.doc
-testLine("select edDoc");
-testLine(edDoc);
-
-docEl.forEach( line =>
-    [
-        testLine("line"),
-        testLine(line)
-    ]
-);
-
-
+    testEl.appendChild(editor);
 
 } catch (error) {
     testLine(error.message);
