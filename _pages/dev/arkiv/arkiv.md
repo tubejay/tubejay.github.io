@@ -509,12 +509,12 @@ hidden: false
 ### Vue
 
 - Vue 2
-  - [Vue.js](https://vuejs.org/v2/guide/)
+  - [Vue.js](https://v2.vuejs.org/)
   - [Opentutorials.org](https://opentutorials.org/course/4091)
   - [Cracking Vue.js](https://joshua1988.github.io/vue-camp/textbook.html)
   - [웹 게임을 만들며 배우는 Vue](https://www.inflearn.com/course/web-game-vue)
 - Vue 3
-  - [Vue.js](https://v3.vuejs.org/guide/introduction.html)
+  - [Vue.js](https://vuejs.org/guide/introduction.html)
 
 ### React
 
