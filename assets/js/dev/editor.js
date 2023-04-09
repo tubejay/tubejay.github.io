@@ -91,5 +91,5 @@ try {
 
 
 } catch (error) {
-    testLine(error.mesage);
+    testLine(error);
 };
