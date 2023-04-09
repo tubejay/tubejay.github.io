@@ -10,6 +10,9 @@ editor: true
 <span
   id = "test" >
 </span>
+<div
+  id = "editor" >
+</div>
 
 <head>
   <base target="_blank">
