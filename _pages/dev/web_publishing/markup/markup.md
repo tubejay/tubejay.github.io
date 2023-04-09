@@ -11,6 +11,7 @@ hidden: false
   <base target="_blank">
 </head>
   <script type="text/javascript" defer>
+    testEl.append("append");
     const testEl = document.querySelector("#test");
     testEl.append("append");
     try {
