@@ -6,9 +6,13 @@ queryText    = "#test";
 const testEl = document.querySelector(queryText);
 
 const testLine = el =>
+{
     typeof el === "string"
-    ? testEl.append( el + "\n" )
-    : testEl.append( "typeof : " + typeof el + "\n" )
+    ? testEl.append( el )
+    : testEl.append( "nodeName : " + el.nodeName );
+    queryText = "<br>";
+    testEl.innerHTML += queryText;
+};
 
 testLine("test start");
 
