@@ -11,7 +11,7 @@ const testLine = el =>
     queryText         = "<br>";
     testEl.innerHTML += queryText;
 
-    if (el instanceof String) {
+    if (typeof el === "string") {
         testEl.append( el )
     } else {
         testEl.append( el.outerHTML )
@@ -48,7 +48,7 @@ testLine(ifEl);
 
 
 // https://stackoverflow.com/a/7570527
-const ifDoc = ifEl.contentDocument;
+const ifDoc = ifEl.Document;
 testLine("select ifDoc");
 testLine(ifDoc);
 
