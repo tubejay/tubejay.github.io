@@ -11,9 +11,9 @@ hidden: false
   <base target="_blank">
 </head>
   <script type="text/javascript" defer>
+    try {
     const testEl = document.querySelector("#iframe-test");
     testEl.append("append");
-    try {
     const iframeLoader = document.createElement("div");
     testEl.appendChild(iframeLoader);
     const iframeSrc = "https://codebeautify.org/css-to-scss-converter";
@@ -25,7 +25,7 @@ hidden: false
       testEl.append(line);
     );
     } catch (error) {
-      testEl.append(error.message);
+      document.write(error.message);
     };
   </script>
 
