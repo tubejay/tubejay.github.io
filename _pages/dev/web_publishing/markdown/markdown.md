@@ -1,7 +1,7 @@
 ---
 title: Markdown
 layout: single
-toc: false
+toc: true
 permalink: /dev/web_publishing/markdown
 published: true
 hidden: false
@@ -11,6 +11,8 @@ hidden: false
   <base target="_blank">
 </head>
 
+
+
 ## syntax
 
 - [basic syntax](https://www.markdownguide.org/basic-syntax/)
@@ -18,12 +20,15 @@ hidden: false
 - [cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 - [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
 
+
+
 ## editor
 
 - [VS Code](https://code.visualstudio.com/docs/languages/markdown)
 - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 - [typora](https://typora.io/)
-  - [Math and Academic Functions](https://support.typora.io/Math/)
+
+
 
 ## example
 

@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 layout: single
-toc: false
+toc: true
 permalink: /dev/web_publishing/javascript
 published: true
 hidden: false
@@ -13,9 +13,7 @@ hidden: false
 
 
 
-## Programming/Web
-
-### Programming
+## Programming
 
   - [자바스크립트 언어 기본 - javascript](https://inf.run/omAw)
   - [생활코딩 - JavaScript Immutability](https://inf.run/nQPH)
@@ -23,12 +21,16 @@ hidden: false
     - [TheBook](https://thebook.io/080270/)
     - [inflearn](https://inf.run/HVvj)
 
-### Web
+
+
+## Web
 
   - [웹브라우저 Javascript](https://inf.run/JSTp)
   - [HTML.com](https://html.com/javascript/)
 
-### Programming/Web
+
+
+## Programming/Web
 
   - [ofcourse - JavaScript 입문](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
   - [WEB2 - JavaScript](https://inf.run/jVpQ)
@@ -47,36 +49,25 @@ hidden: false
 
 ## Library/Framework
 
-###  jQuery
-
+- jQuery
   - [생활코딩 - jQuery](https://inf.run/D27z)
-
-### Node.js
-
+- Node.js
   - [WEB2 - Node.js](https://inf.run/KwAy)
   - [Node.js를 이용해 웹애플리케이션 만들기](https://inf.run/9CCM)
   - [Node.js로 Database 다루기 소개와 웹애플리케이션 만들기](https://inf.run/v3B3)
   - [Node.js 활용하기](https://inf.run/jawQ)
-
-### Express.js
-
+- Express.js
   - [Node.js - Express](https://inf.run/N7NL)
   - [WEB5 - Express Passport.js](https://inf.run/hiXP)
-
-### React
-
+- React
   - [생활코딩 - React](https://inf.run/kBb9)
   - [생활코딩 - React class vs function style coding](https://inf.run/fYXr)
   - [웹 게임을 만들며 배우는 React](https://inf.run/C6m8)
-
-### Vue.js
-
+- Vue.js
   - [뷰js 2 (vuejs) 기본 익히기!](https://opentutorials.org/course/4091)
   - [Cracking Vue.js](https://joshua1988.github.io/vue-camp/textbook.html)
   - [웹 게임을 만들며 배우는 Vue](https://inf.run/DABu)
   - [Vue 2](https://v2.vuejs.org/)
   - [Vue 3](https://vuejs.org/guide/introduction.html)
-
-### Redux
-
+- Redux
   - [생활코딩 - Redux](https://inf.run/hQ76)

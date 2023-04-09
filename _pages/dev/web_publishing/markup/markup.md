@@ -1,7 +1,7 @@
 ---
 title: Markup
 layout: single
-toc: false
+toc: true
 permalink: /dev/web_publishing/markup
 published: true
 hidden: false
@@ -47,7 +47,11 @@ hidden: false
   - [이번에야말로 CSS Grid를 익혀보자](https://studiomeal.com/archives/533)
   - [CSS Grid 완벽 가이드](https://heropy.blog/2019/08/17/css-grid/)
 
-### Sass/SCSS
+
+
+## Sass/SCSS
+
+### basic
 
   - [Sass Basics](https://sass-lang.com/guide)
   - [Documentation](https://sass-lang.com/documentation/)
@@ -60,7 +64,7 @@ hidden: false
   - to CSS
     - [Sass to CSS](https://codebeautify.org/sass-to-css-converter)
     - [SCSS to CSS](https://codebeautify.org/scss-to-css-converter)
-  - between Sass and SCSS
+  - Sass/SCSS
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
 
