@@ -5,28 +5,14 @@ toc: true
 permalink: /dev/web_publishing/markup
 published: true
 hidden: false
+editor: true
 ---
+<span
+  id = "test" >
+</span>
 
 <head>
   <base target="_blank">
-  <script type="text/javascript" defer>
-    try {
-      const testEl = document.querySelector(".test");
-      testEl.append("append");
-      const iframeLoader = document.createElement("div");
-      testEl.appendChild(iframeLoader);
-      const iframeSrc = "https://codebeautify.org/css-to-scss-converter";
-      iframeLoader.innerHTML = `<iframe src="${iframeSrc}" width="100px" height="100px"></iframe>`;
-      const iframeEl = document.querySelector("iframe");
-      const iframeDoc = iframeEl.contentWindow.document;
-      const docEl = iframeDoc.body.querySelector(".EditSession").doc;
-      docEl.forEach( line =>
-        testEl.append(line)
-      );
-    } catch (error) {
-      document.write(error.message)
-    };
-  </script>
 </head>
 
 
@@ -85,8 +71,6 @@ hidden: false
   - Sass/SCSS
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
-
-<span class="test">test :</span>
 
 
 

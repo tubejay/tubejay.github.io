@@ -157,6 +157,7 @@ include:
   - _pages
   - assets/js/mathjax
   - assets/js/cube
+  - asseta/js/dev
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
