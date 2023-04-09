@@ -57,7 +57,7 @@ try {
     );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
-    const codeInsert = "h2 {\n\tcolor:blue\n}";
+    const codeInsert = "h2 {\n\ta {\n\t\tcolor:blue\n\t}\n}";
     testLine("code insert");
     editorInput.insert(codeInsert);
 
@@ -76,11 +76,11 @@ try {
 
     // testLine(https://github.com/medialize/sass.js/blob/master/docs/api.md#libsass-compile-options"code convert");
     testLine("code convert");
-    let codeConvert;
     sass.compile( codeRead , result => {
-      codeConvert = result.text;
+      testLine(typeof result);
+      testLine(Object.entries(result));
+      const codeConvert = result;
     } );
-    testLine(codeConvert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
     testLine("code paste");
