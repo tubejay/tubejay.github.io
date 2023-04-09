@@ -16,6 +16,13 @@ editor: true
 
 <head>
   <base target="_blank">
+  <style>
+    #editor {
+      position : relative;
+      width    : 300px;
+      height   : 300px;
+    }
+  </style>
 </head>
 
 
