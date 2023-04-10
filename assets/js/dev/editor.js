@@ -71,10 +71,12 @@ try {
     // https://github.com/medialize/sass.js/blob/master/docs/api.md
     // https://cdnjs.com/libraries/sass.js
     testLine("code convert");
+    const converter = new Sass();
     let codeConvert;
-    Sass.compile( codeRead,result => {
-      codeConvert = result.text;
-    } );
+    converter.compile(
+      codeRead , result =>
+      ( codeConvert = result.text )
+    );
     testLine(codeConvert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
