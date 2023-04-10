@@ -6,6 +6,7 @@ permalink: /dev/web_publishing/markup
 published: true
 hidden: false
 editor: true
+test: false
 ---
 <head>
   <base target="_blank">
@@ -78,7 +79,7 @@ editor: true
   - [cdnjs](https://cdnjs.com/libraries/ace)
 - Demo
 
-<div id = "test"        ></div>
+<div id = "test"   test = "{{page.test}}" ></div>
 <div id = "editorInput"  class = "editor" ></div>
 <div id = "editorOutput" class = "editor" ></div>
 

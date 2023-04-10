@@ -4,9 +4,11 @@ let queryText;
 
 queryText    = "#test";
 const testEl = document.querySelector(queryText);
+const testOn = ( testEl.getAttribute("test") === "true" );
 
 const testLine = el =>
 {
+    if (!testOn) {return null};
 
     queryText         = "<br>";
     testEl.innerHTML += queryText;
@@ -66,27 +68,18 @@ try {
     const codeRead = editorInput.session.getValue();
     testLine(codeRead);
 
-    // https://sass-lang.com/documentation/js-api/
-    // https://sass-lang.com/documentation/js-api/modules
-
-    // https://sass-lang.com/documentation/js-api/modules#compileString
-    // testLine("code convert");
-    // const codeConvert = sass.compileString(codeRead);
-    // testLine(codeConvert);
-
     // https://github.com/medialize/sass.js/blob/master/docs/api.md
     // https://cdnjs.com/libraries/sass.js
     testLine("code convert");
     let codeConvert;
     Sass.compile( codeRead,result => {
       codeConvert = result.text;
-      testLine(codeConvert);
     } );
+    testLine(codeConvert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
     testLine("code paste");
     editorOutput.session.setValue(codeConvert);
-
 
 } catch (error) {
     testLine(error);
