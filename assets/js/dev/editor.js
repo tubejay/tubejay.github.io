@@ -74,10 +74,15 @@ try {
     // const codeConvert = sass.compileString(codeRead);
     // testLine(codeConvert);
 
-    // testLine(https://github.com/medialize/sass.js/blob/master/docs/api.md#libsass-compile-options"code convert");
-    // testLine("code convert");
-    // const sass = require("sass");
-    // const codeConvert = sass.compileString( codeRead );
+    // https://github.com/medialize/sass.js/blob/master/docs/api.md
+    // https://cdnjs.com/libraries/sass.js
+    testLine("code convert");
+    let codeConvert;
+    Sass.compile( codeRead,result => {
+      codeConvert = result;
+      testLine(codeConvert);
+      testLine(codeConvert.text);
+    } );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
     testLine("code paste");
