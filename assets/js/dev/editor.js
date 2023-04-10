@@ -73,7 +73,9 @@ try {
     testLine("code convert");
     let codeConvert;
     Sass.compile( codeRead,result => {
+      testLine("start compile");
       codeConvert = result;
+      testLine("end compile");
     } );
     testLine(codeConvert);
 
