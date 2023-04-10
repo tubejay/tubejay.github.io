@@ -36,7 +36,7 @@ const demoWidth = "350px";
 const btnWidth  = "70px";
 const modeWidth = "140px";
 
-const edHeight = "200px:"
+const edHeight = "200px";
 const spHeight = "50px";
 
 const setStAttrs = (el,attrs) =>
