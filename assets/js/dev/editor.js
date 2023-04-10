@@ -18,7 +18,11 @@ const testLine = el =>
     testEl.append("=".repeat(30));
 };
 
+
+
 testLine("test start");
+
+
 
 queryText       = ".editor";
 const editorEls = document.querySelectorAll(queryText);
@@ -34,6 +38,8 @@ testLine("editorEls styled");
 
 
 try {
+
+
 
     // https://ajaxorg.github.io/ace-api-docs/index.html
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
@@ -59,8 +65,8 @@ try {
     );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
-    const codeInsert = "h2 {\n\ta {\n\t\tcolor:blue;\n\t}\n}";
     testLine("code insert");
+    const codeInsert = "h2 {a {color:blue}}";
     editorInput.insert(codeInsert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
@@ -70,15 +76,19 @@ try {
 
     // https://stackoverflow.com/a/75716055
     testLine("code convert");
-    let codeConvert = "";
-    Sass.compile( codeRead , result =>
-      { codeConvert = result.text }
-    );
-    testLine(codeConvert);
+    Sass.compile( codeRead , result => {
 
-    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
-    testLine("code paste");
-    editorOutput.session.setValue(codeConvert);
+      // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
+      const codeConvert = result.text;
+      testLine(codeConvert);
+
+      // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
+      testLine("code paste");
+      editorOutput.session.setValue(codeConvert);
+
+    } );
+
+
 
 } catch (error) {
     testLine(error);
