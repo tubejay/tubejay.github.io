@@ -75,6 +75,7 @@ test: false
   - [Homepage](https://ace.c9.io/)
   - [Kitchen Sink](https://ace.c9.io/build/kitchen-sink.html)
   - [Themes](https://gist.github.com/RyanNutt/cb8d60997d97905f0b2aea6c3b5c8ee0)
+  - [Options](https://github.com/ajaxorg/ace/wiki/Configuring-Ace)
   - [API Reference](https://ajaxorg.github.io/ace-api-docs/index.html)
   - [cdnjs](https://cdnjs.com/libraries/ace)
 - Sass.js
@@ -82,12 +83,16 @@ test: false
   - [Using the Sass.js API](https://github.com/medialize/sass.js/blob/master/docs/api.md)
   - [cdnjs](https://cdnjs.com/libraries/sass.js)
 
-<div id = "test"   test = "{{page.test}}" ></div>
-<div id = "editorDemo">
-  <div id = "editorInput"  class = "editor" ></div>
-  <div id = "convertButton">convert</div>
-  <div id = "editorOutput" class = "editor" ></div>
-</div>
+  <div id = "test"   test = "{{page.test}}" ></div>
+  <div id = "editorDemo">
+    <div id = "editorInput" class = "editor" ></div>
+    <div id = "convertSpace">
+      <div id = "inputMode" class = "mode" >input</div>
+      <div id = "convertButton">convert</div>
+      <div id = "outputMode" class = "mode" >output</div>
+    </div>
+    <div id = "editorOutput" class = "editor" ></div>
+  </div>
 
 
 

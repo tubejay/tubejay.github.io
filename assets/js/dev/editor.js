@@ -32,7 +32,12 @@ queryText       = ".editor";
 const editorEls = document.querySelectorAll(queryText);
 testLine("editorEls selected");
 
-const divWidth = "350px";
+const demoWidth = "350px";
+const btnWidth  = "70px";
+const modeWidth = "140px";
+
+const edHeight = "200px:"
+const spHeight = "50px";
 
 const setStAttrs = (el,attrs) =>
   Object.entries(attrs).forEach( ( [key,value] ) =>
@@ -40,8 +45,8 @@ const setStAttrs = (el,attrs) =>
   );
 const editorStAttrs = {
   position : "relative" ,
-  width    : divWidth   ,
-  height   : "150px"
+  width    : demoWidth  ,
+  height   : edHeight
 };
 editorEls.forEach( editorEl =>
   setStAttrs(editorEl,editorStAttrs)
@@ -55,8 +60,8 @@ const convertBtn = document.querySelector(queryText);
 testLine("convertBtn selected");
 
 const btnStAttrs = {
-  width              : divWidth ,
-  height             : "50px"   ,
+  width              : btnWidth ,
+  height             : spHeight ,
   "background-color" : "black"  ,
   "font-size"        : "13px"   ,
   "font-weight"      : "bold"   ,
@@ -66,6 +71,27 @@ const btnStAttrs = {
 };
 setStAttrs(convertBtn,btnStAttrs);
 testLine("convertBtn styled");
+
+
+
+queryText     = ".mode";
+const modeArr = document.querySelectorAll(queryText);
+
+const mdStAttrs = {
+  width : modeWidth ,
+  height : spHeight
+};
+
+
+
+queryText       = "#convertSpace";
+const convertSp = document.querySelector(queryText);
+
+const spStAttrs = {
+  width        : demoWidth ,
+  display      : "flex"   ,
+  "column-gap" : "0"
+};
 
 
 
@@ -105,6 +131,28 @@ testLine("demoDiv styled");
     editorArr.forEach( editor =>
       editor.setTheme(themePath)
     );
+
+
+
+    // editor
+    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#editor-options
+
+
+    // renderer
+    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#renderer-options
+
+
+    // mouseHandler
+    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#mousehandler-options
+
+
+    // session
+    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#session-options
+
+
+    // extension
+    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#editor-options-defined-by-extensions
+
 
 
 
