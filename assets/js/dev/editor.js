@@ -56,6 +56,7 @@ const btnStAttrs = {
   width              : "350px"  ,
   height             : "50px"   ,
   "background-color" : "gray"   ,
+  border             : "1px solid white" , 
   "font-size"        : "11px"   ,
   display            : "flex"   ,
   "justify-content"  : "center" ,
@@ -102,6 +103,9 @@ testLine("demoDiv styled");
     editorArr.forEach( editor =>
       editor.setTheme(themePath)
     );
+
+    editorInput.session.setValue("");
+    editorOutput.session.setValue("");
 
 
 
