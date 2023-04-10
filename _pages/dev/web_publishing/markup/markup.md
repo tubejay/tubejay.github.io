@@ -69,7 +69,7 @@ test: false
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
 
-### Demo with Ace
+### Demo
 
 - Ace
   - [Homepage](https://ace.c9.io/)
@@ -77,11 +77,17 @@ test: false
   - [Themes](https://gist.github.com/RyanNutt/cb8d60997d97905f0b2aea6c3b5c8ee0)
   - [API Reference](https://ajaxorg.github.io/ace-api-docs/index.html)
   - [cdnjs](https://cdnjs.com/libraries/ace)
-- Demo
+- Sass.js
+  - [Getting started with Sass.js](https://github.com/medialize/sass.js/blob/master/docs/getting-started.md)
+  - [Using the Sass.js API](https://github.com/medialize/sass.js/blob/master/docs/api.md)
+  - [cdnjs](https://cdnjs.com/libraries/sass.js)
 
 <div id = "test"   test = "{{page.test}}" ></div>
-<div id = "editorInput"  class = "editor" ></div>
-<div id = "editorOutput" class = "editor" ></div>
+<div id = "editorDemo">
+  <div id = "editorInput"  class = "editor" ></div>
+  <dib id = "convertButton">convert</div>
+  <div id = "editorOutput" class = "editor" ></div>
+</div>
 
 
 

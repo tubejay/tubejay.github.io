@@ -28,12 +28,50 @@ queryText       = ".editor";
 const editorEls = document.querySelectorAll(queryText);
 testLine("editorEls selected");
 
-editorEls.forEach( editorEl => {
-  editorEl.style[ "position" ] = "relative";
-  editorEl.style[ "width"    ] = "350px";
-  editorEl.style[ "height"   ] = "150px";
-} );
+const setStAttrs = (el,attrs) =>
+  Object.entries(el).forEach( ( [key,value] ) =>
+    el.style[key] = value
+  );
+const editorStAttrs = {
+  position : "relative" ,
+  width    : "350px"    ,
+  height   : "150px"
+};
+editorEls.forEach( editorEl =>
+  setStAttrs(editorEl,editorStAttrs)
+);
 testLine("editorEls styled");
+
+
+
+queryText        = "#convertButton";
+const convertBtn = document.querySelector(queryText);
+testLine("convertBtn selected");
+
+const btnStAttrs = {
+  width              : "350px"  ,
+  height             : "50px"   ,
+  "background-color" : "gray"   ,
+  display            : "flex"   ,
+  "justify-content"  : "center" ,
+  "align-items"       : "center"
+};
+setStAttrs(convertBtn,btnStAttrs);
+testLine("convertBtn styled");
+
+
+
+queryText     = "#editorDemo";
+const demoDiv = document.querySelector(queryText);
+testLine("demoDiv selected");
+
+const demoStAttrs = {
+  display          : "flex"   ,
+  "flow-direction" : "column" ,
+  "column-gap"     : "0"
+};
+setStAttrs(demoDiv,demoStAttrs);
+testLine("demoDiv styled");
 
 
 
@@ -63,7 +101,7 @@ try {
     editorArr.forEach( editor =>
       editor.setTheme(themePath)
     );
-
+/*
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
     testLine("code insert");
     const codeInsert = "h2 {\n\ta {\n\t\tcolor : blue;\n\t}\n}";
@@ -87,7 +125,7 @@ try {
       editorOutput.session.setValue(codeConvert);
 
     } );
-
+*/
 
 
 } catch (error) {
