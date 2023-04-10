@@ -85,7 +85,7 @@ test: false
 <div id = "test"   test = "{{page.test}}" ></div>
 <div id = "editorDemo">
   <div id = "editorInput"  class = "editor" ></div>
-  <dib id = "convertButton">convert</div>
+  <div id = "convertButton">convert</div>
   <div id = "editorOutput" class = "editor" ></div>
 </div>
 

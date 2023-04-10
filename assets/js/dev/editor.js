@@ -52,6 +52,7 @@ const btnStAttrs = {
   width              : "350px"  ,
   height             : "50px"   ,
   "background-color" : "gray"   ,
+  "font-size"        : "11px"   ,
   display            : "flex"   ,
   "justify-content"  : "center" ,
   "align-items"       : "center"
@@ -101,11 +102,6 @@ try {
     editorArr.forEach( editor =>
       editor.setTheme(themePath)
     );
-/*
-    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
-    testLine("code insert");
-    const codeInsert = "h2 {\n\ta {\n\t\tcolor : blue;\n\t}\n}";
-    editorInput.insert(codeInsert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
     testLine("code read");
@@ -125,7 +121,7 @@ try {
       editorOutput.session.setValue(codeConvert);
 
     } );
-*/
+
 
 
 } catch (error) {
