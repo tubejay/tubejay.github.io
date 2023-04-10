@@ -33,7 +33,7 @@ const editorEls = document.querySelectorAll(queryText);
 testLine("editorEls selected");
 
 const setStAttrs = (el,attrs) =>
-  Object.entries(el).forEach( ( [key,value] ) =>
+  Object.entries(attrs).forEach( ( [key,value] ) =>
     el.style[key] = value
   );
 const editorStAttrs = {
@@ -66,7 +66,7 @@ setStAttrs(convertBtn,btnStAttrs);
 testLine("convertBtn styled");
 
 
-/*
+
 queryText     = "#editorDemo";
 const demoDiv = document.querySelector(queryText);
 testLine("demoDiv selected");
@@ -78,7 +78,7 @@ const demoStAttrs = {
 };
 setStAttrs(demoDiv,demoStAttrs);
 testLine("demoDiv styled");
-*/
+
 
 
     // https://ajaxorg.github.io/ace-api-docs/index.html
@@ -103,9 +103,6 @@ testLine("demoDiv styled");
     editorArr.forEach( editor =>
       editor.setTheme(themePath)
     );
-
-    editorInput.session.setValue("Input");
-    editorOutput.session.setValue("Output");
 
 
 
