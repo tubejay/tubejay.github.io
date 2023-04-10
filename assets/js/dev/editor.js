@@ -89,6 +89,7 @@ const convertSp = document.querySelector(queryText);
 
 const spStAttrs = {
   width        : demoWidth ,
+  height       : spHeight  ,
   display      : "flex"   ,
   "column-gap" : "0"
 };
