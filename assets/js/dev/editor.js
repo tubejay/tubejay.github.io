@@ -62,7 +62,7 @@ testLine("convertBtn selected");
 const btnStAttrs = {
   width              : btnWidth ,
   height             : spHeight ,
-  "background-color" : "black"  ,
+  "background-color" : "darkblue"  ,
   "font-size"        : "13px"   ,
   "font-weight"      : "bold"   ,
   display            : "flex"   ,
@@ -80,7 +80,11 @@ testLine("mode selected");
 
 const mdStAttrs = {
   width  : modeWidth ,
-  height : spHeight
+  height : spHeight  ,
+  "background-color" : "darkred" ,
+  display            : "flex"   ,
+  "justify-content"  : "center" ,
+  "align-items"      : "center"
 };
 modeArr.forEach( mode =>
   setStAttrs(mode,mdStAttrs)
