@@ -66,7 +66,7 @@ setStAttrs(convertBtn,btnStAttrs);
 testLine("convertBtn styled");
 
 
-
+/*
 queryText     = "#editorDemo";
 const demoDiv = document.querySelector(queryText);
 testLine("demoDiv selected");
@@ -78,7 +78,7 @@ const demoStAttrs = {
 };
 setStAttrs(demoDiv,demoStAttrs);
 testLine("demoDiv styled");
-
+*/
 
 
     // https://ajaxorg.github.io/ace-api-docs/index.html
@@ -104,8 +104,8 @@ testLine("demoDiv styled");
       editor.setTheme(themePath)
     );
 
-    editorInput.session.setValue("");
-    editorOutput.session.setValue("");
+    editorInput.session.setValue("Input");
+    editorOutput.session.setValue("Output");
 
 
 
