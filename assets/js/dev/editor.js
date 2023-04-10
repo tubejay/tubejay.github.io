@@ -32,13 +32,15 @@ queryText       = ".editor";
 const editorEls = document.querySelectorAll(queryText);
 testLine("editorEls selected");
 
+const divWidth = "350px";
+
 const setStAttrs = (el,attrs) =>
   Object.entries(attrs).forEach( ( [key,value] ) =>
     el.style[key] = value
   );
 const editorStAttrs = {
   position : "relative" ,
-  width    : "350px"    ,
+  width    : divWidth   ,
   height   : "150px"
 };
 editorEls.forEach( editorEl =>
@@ -53,14 +55,14 @@ const convertBtn = document.querySelector(queryText);
 testLine("convertBtn selected");
 
 const btnStAttrs = {
-  width              : "350px"  ,
+  width              : divWidth ,
   height             : "50px"   ,
-  "background-color" : "gray"   ,
-  border             : "1px solid white" , 
-  "font-size"        : "11px"   ,
+  "background-color" : "black"  ,
+  "font-size"        : "13px"   ,
+  "font-weight"      : "bold"   ,
   display            : "flex"   ,
   "justify-content"  : "center" ,
-  "align-items"       : "center"
+  "align-items"      : "center"
 };
 setStAttrs(convertBtn,btnStAttrs);
 testLine("convertBtn styled");
@@ -73,7 +75,7 @@ testLine("demoDiv selected");
 
 const demoStAttrs = {
   display          : "flex"   ,
-  "flow-direction" : "column" ,
+  "flex-direction" : "column" ,
   "column-gap"     : "0"
 };
 setStAttrs(demoDiv,demoStAttrs);
