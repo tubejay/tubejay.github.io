@@ -68,12 +68,10 @@ try {
     const codeRead = editorInput.session.getValue();
     testLine(codeRead);
 
-    // https://github.com/medialize/sass.js/blob/master/docs/api.md
-    // https://cdnjs.com/libraries/sass.js
+    // https://stackoverflow.com/a/75716055
     testLine("code convert");
-    const converter = new Sass();
     let codeConvert;
-    converter.compile(
+    Sass.compile(
       codeRead , result =>
       ( codeConvert = result.text )
     );
