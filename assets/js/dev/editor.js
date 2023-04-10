@@ -70,10 +70,9 @@ try {
 
     // https://stackoverflow.com/a/75716055
     testLine("code convert");
-    let codeConvert;
-    Sass.compile(
-      codeRead , result =>
-      ( codeConvert = result.text )
+    let codeConvert = "";
+    Sass.compile( codeRead , result =>
+      { codeConvert = result.text }
     );
     testLine(codeConvert);
 
