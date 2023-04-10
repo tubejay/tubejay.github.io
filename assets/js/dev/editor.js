@@ -24,6 +24,10 @@ testLine("test start");
 
 
 
+try {
+
+
+
 queryText       = ".editor";
 const editorEls = document.querySelectorAll(queryText);
 testLine("editorEls selected");
@@ -76,10 +80,6 @@ testLine("demoDiv styled");
 
 
 
-try {
-
-
-
     // https://ajaxorg.github.io/ace-api-docs/index.html
     // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
 
@@ -103,6 +103,12 @@ try {
       editor.setTheme(themePath)
     );
 
+
+
+const convertInputToOutput = () => {
+
+    testLine("click event");
+
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
     testLine("code read");
     const codeRead = editorInput.session.getValue();
@@ -121,6 +127,14 @@ try {
       editorOutput.session.setValue(codeConvert);
 
     } );
+
+};
+
+convertBtn.addEventListener(
+  "click",
+  convertInputToOutput
+);
+
 
 
 
