@@ -59,7 +59,7 @@ try {
     );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
-    const codeInsert = "h2 {\n\ta {\n\t\tcolor:blue\n\t}\n}";
+    const codeInsert = "h2 {\n\ta {\n\t\tcolor:blue;\n\t}\n}";
     testLine("code insert");
     editorInput.insert(codeInsert);
 
@@ -73,7 +73,7 @@ try {
     testLine("code convert");
     let codeConvert;
     Sass.compile( codeRead,result => {
-      codeConvert = result.text;
+      codeConvert = result;
     } );
     testLine(codeConvert);
 
