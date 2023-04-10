@@ -76,16 +76,22 @@ testLine("convertBtn styled");
 
 queryText     = ".mode";
 const modeArr = document.querySelectorAll(queryText);
+testLine("mode selected");
 
 const mdStAttrs = {
-  width : modeWidth ,
+  width  : modeWidth ,
   height : spHeight
 };
+modeArr.forEach( mode =>
+  setStAttrs(mode,mdStAttrs)
+);
+testLine("mode styled");
 
 
 
 queryText       = "#convertSpace";
 const convertSp = document.querySelector(queryText);
+testLine("convertSp selected");
 
 const spStAttrs = {
   width        : demoWidth ,
@@ -93,6 +99,8 @@ const spStAttrs = {
   display      : "flex"   ,
   "column-gap" : "0"
 };
+setStAttrs(convertSp,spStAttrs);
+testLine("convertSp styled");
 
 
 
