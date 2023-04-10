@@ -33,8 +33,8 @@ const editorEls = document.querySelectorAll(queryText);
 testLine("editorEls selected");
 
 const demoWidth = "350px";
-const btnWidth  = "70px";
-const modeWidth = "140px";
+const btnWidth  = "90px";
+const modeWidth = "130px";
 
 const edHeight = "200px";
 const spHeight = "50px";
@@ -63,8 +63,6 @@ const btnStAttrs = {
   width              : btnWidth ,
   height             : spHeight ,
   "background-color" : "darkblue"  ,
-  "font-size"        : "13px"   ,
-  "font-weight"      : "bold"   ,
   display            : "flex"   ,
   "justify-content"  : "center" ,
   "align-items"      : "center"
@@ -79,8 +77,8 @@ const modeArr = document.querySelectorAll(queryText);
 testLine("mode selected");
 
 const mdStAttrs = {
-  width  : modeWidth ,
-  height : spHeight  ,
+  width              : modeWidth ,
+  height             : spHeight  ,
   "background-color" : "darkred" ,
   display            : "flex"   ,
   "justify-content"  : "center" ,
@@ -98,8 +96,6 @@ const convertSp = document.querySelector(queryText);
 testLine("convertSp selected");
 
 const spStAttrs = {
-  width        : demoWidth ,
-  height       : spHeight  ,
   display      : "flex"   ,
   "column-gap" : "0"
 };
