@@ -66,7 +66,7 @@ try {
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#insert
     testLine("code insert");
-    const codeInsert = "h2 {a {color:blue}}";
+    const codeInsert = "h2 {\n\ta {\n\t\tcolor : blue;\n\t}\n}";
     editorInput.insert(codeInsert);
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
