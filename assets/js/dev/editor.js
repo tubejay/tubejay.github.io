@@ -79,14 +79,13 @@ try {
     testLine("code convert");
     let codeConvert;
     Sass.compile( codeRead,result => {
-      codeConvert = result;
+      codeConvert = result.text;
       testLine(codeConvert);
-      testLine(codeConvert.text);
     } );
 
     // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
     testLine("code paste");
-    editorOutput.session.setValue(codeRead);
+    editorOutput.session.setValue(codeConvert);
 
 
 } catch (error) {
