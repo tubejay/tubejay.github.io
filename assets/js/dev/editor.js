@@ -161,7 +161,7 @@ testLine("modeInput styled");
 ////////////////////
 ///// mode : input
 ////////////////////
-///// selector
+///// create selector
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
@@ -193,7 +193,9 @@ const createModeLabel = mode => {
   const label = document.createElement("label");
   const labelElAttrs = {
     // radio.id
-    for : mode
+    for   : mode ,
+    // class
+    class : "ModeLabel"
   };
   setElementEl(label,labelElAttrs);
   // show text
@@ -209,6 +211,7 @@ const createModeSelector = (mode,checked=false) => {
     selector.appendChild(el)
   );
   const selectorStAttrs = {
+    class : "ModeSelector" ,
     display           : "flex"   ,
     "flex-direction"  : "row"    ,
     "justify-content" : "center" ,
@@ -218,8 +221,11 @@ const createModeSelector = (mode,checked=false) => {
   return selector;
 };
 
-// default : scss
+// set initial mode
 let inputMode = "scss";
+// set prev mode
+let prevInputMode;
+// create
 const selectorArgArray = [
   // scss : checked
   ["scss",true],
@@ -232,6 +238,135 @@ selectorArgArray.forEach( arr =>
   )
 );
 testLine("modeInput selector added");
+
+
+////////////////////
+///// mode : input
+////////////////////
+///// get child by selector
+////////////////////
+
+// radio
+const getRadioBySelector = selector =>
+  selector.querySelector(".ModeRadio");
+// radio id
+const getRadioIdBySelector = selector =>
+  getRadioBySelector(selector).id;
+
+// label
+const getLabelBySelector = selector =>
+  selector.querySelector(".ModeLabel");
+
+
+////////////////////
+///// mode : input
+////////////////////
+///// get selector
+////////////////////
+
+// https://stackoverflow.com/a/36183750
+
+// all
+const getAllSelector = () => {
+  query = ".ModeSelector";
+  return queryEls();
+};
+
+// prev : invalid
+// all except new
+const getPrevInvalidSelector = () =>
+  getAllSelector().filter( selector =>
+    getRadioIdBySelector(selector) !== inputMode
+  );
+// prev : valid
+// only prev
+const getPrevValidSelector = () =>
+  getAllSelector().filter( selector =>
+    getRadioIdBySelector(selector) === prevInputMode
+  );
+
+// new
+const getNewSelector = () =>
+  getAllSelector().filter( selector =>
+    getRadioIdBySelector(selector) === inputMode
+  );
+
+
+////////////////////
+///// mode : input
+////////////////////
+///// style selector
+////////////////////
+
+// style attr
+const selectorStAttrs = {
+  checked   : { "background-color":"lightblue" } ,
+  unchecked : { "background-color":"darkgray"  }
+};
+const radioStAttrs = {
+  checked   : {} ,
+  unchecked : {}
+};
+const labelStAttrs = {
+  checked   : { color:"darkblue"  , "font-weight":"bold"  } ,
+  unchecked : { color:"lightgray" , "font-weight":"light" }
+};
+
+// get style arr
+// selector radio label
+const getStyleArrByChange = change =>
+  [
+    selectorStAttrs ,
+    radioStAttrs    ,
+    labelStAttrs
+  ].map( style => style[change] );
+
+// style selector
+const styleSelector = (selector,change) => {
+  // element
+  const elArr = [
+    selector ,
+    getRadioBySelector(selector) ,
+    getLabelBySelector(selector)
+  ];
+  // style
+  const stArr = getStyleArrByChange(change);
+  // style element
+  elArr.forEach( (el,index) =>
+    setStyleEl( el , stArr[index] )
+  );
+};
+
+// prev : invalid
+const stylePrevInvalidSelector = () =>
+  getPrevInvalidSelector().forEach( selector =>
+    styleSelector( selector , "unchecked" )
+  );
+// prev : valid
+const stylePrevValidSelector = () =>
+  getPrevValidSelector().forEach( selector =>
+    styleSelector( selector , "unchecked" )
+  );
+// prev : invalid or valid
+const stylePrevSelector = () =>
+  (!prevInputMode)
+  ? stylePrevInvalid()
+  : stylePrevValid()
+  ;
+
+// new
+const styleNewSelector = () =>
+  getNewSelector().forEach( selector =>
+    styleSelector( selector , "checked" )
+  );
+
+// prev + new
+const stylePrevNewSelector = () =>
+  [
+    stylePrevSelector() ,
+    styleNewSelector()
+  ];
+stylePrevNewSelector();
 
 
 ////////////////////
@@ -395,6 +530,9 @@ const themeName = "tomorrow_night_bright";
 ///// eventChangeRadio
 ////////////////////
 
+const setPrevInputMode = () =>
+  ( prevInputMode = inputMode )
+
 // https://stackoverflow.com/a/63218595
 const updateInputModeByRadio = eventChangeRadio => {
   // selected mode
@@ -424,21 +562,24 @@ const updateConvertButtonByRadio = () => {
 
 };
 
-// run 3 functions
+// run 5 functions
 const updateByRadio = eventChangeRadio => {
+  // prevInputMode
+  setPrevInputMode();
   // inputMode
   updateInputModeByRadio(eventChangeRadio);
   // convertButton
   updateConvertButtonByRadio();
   // editorInput
   editorInputSetMode();
+  // style selector
+  stylePrevNewSelector();
 };
 
 // set event listener
 const setUpdateForRadio = () => {
   // radio elements
-  query = ".ModeRadio";
-  const RadioEls = queryEls();
+  const RadioEls = getAllRadio();
   // add event listener
   RadioEls.forEach( radio =>
     radio.addEventListener(
