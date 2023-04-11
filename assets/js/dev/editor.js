@@ -202,7 +202,7 @@ const createModeSelector = (mode,checked=false) => {
 
 const selectorArgArray = [
   ["scss",true],
-  ["scaa"]
+  ["sass"]
 ];
 selectorArgArray.forEach( arr =>
   modeInput.appendChild(
@@ -443,13 +443,18 @@ const inputModeGetOptions = () => ({
   indentedSyntax : isIndented()
 });
 
-const convertInputToOutput = () =>
-  // https://stackoverflow.com/a/75716055
-  Sass.compile(
-    editorInputGetValue() ,
-    inputModeGetOptions() ,
-    resultToEditorOutput
-  );
+const convertInputToOutput = () => {
+  try {
+    // https://stackoverflow.com/a/75716055
+    Sass.compile(
+      editorInputGetValue() ,
+      inputModeGetOptions() ,
+      resultToEditorOutput
+    );
+  } catch (error) {
+    testLine(error)
+  };
+};
 
 convertButton.addEventListener(
   "click",
