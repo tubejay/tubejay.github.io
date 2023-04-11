@@ -161,12 +161,14 @@ const convertBtn = queryEl();
 testLine("convertBtn selected");
 
 const btnStAttrs = {
-  width              : btnWidth   ,
-  height             : spHeight   ,
-  "background-color" : "#1a1a1a"  ,
-  display            : "flex"     ,
-  "padding-left"     : "5px"      ,
-  "align-items"      : "center"
+  width              : btnWidth     ,
+  height             : spHeight     ,
+  "background-color" : "#1a1a1a"    ,
+  display            : "flex"       ,
+  "flex-direction"   : "column"     ,
+  "justify-content"  : "center"     ,
+  "align-items"      : "flex-start" ,
+  "padding-left"     : "5px"
 };
 setStyleEl(convertBtn,btnStAttrs);
 testLine("convertBtn styled");
@@ -182,9 +184,11 @@ const btnUpdate = () => {
     "- from : " + inputMode,
     "- to   : " + outputMode
   ];
-  textArr.forEach( text =>
-    convertBtn.append(text)
-  );
+  textArr.forEach( text => {
+    convertBtn.append(text);
+    const br = document.createElement("br");
+    convertBtn.appendChild(br);
+  } );
 btnUpdate()
 
 };
