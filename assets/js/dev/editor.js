@@ -185,6 +185,7 @@ const btnUpdate = () => {
     "- to   : " + outputMode
   ];
   textArr.forEach( text => {
+    testLine(text);
     convertBtn.append(text);
     const br = document.createElement("br");
     convertBtn.appendChild(br);
