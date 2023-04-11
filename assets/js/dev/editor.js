@@ -1,111 +1,83 @@
-let queryText;
+////////////////////
+///// query function
+////////////////////
+
+let query;
+
+const queryEl  = query => queryEl(query);
+const queryEls = query => queryEls(query);
 
 
+////////////////////
+///// style function
+////////////////////
 
-queryText    = "#test";
-const testEl = document.querySelector(queryText);
+const setStyleEl = (el,attrs) =>
+  Object.entries(attrs).forEach( ( [key,value] ) =>
+    el.style[key] = value
+  );
+
+const setStyleEls = (elArr,attrs) =>
+  elArr.forEach( el =>
+    setStyleEl(el,attrs)
+  );
+
+
+////////////////////
+///// test function
+////////////////////
+
+query = "#test";
+const testEl = queryEl(query);
 const testOn = ( testEl.getAttribute("test") === "true" );
 
 const testLine = el =>
 {
     if (!testOn) {return null};
 
-    queryText         = "<br>";
-    testEl.innerHTML += queryText;
+    query  = "<br>";
+    testEl.innerHTML += query;
     testEl.append( el )
 
-    testEl.innerHTML += queryText;
+    testEl.innerHTML += query;
     testEl.append("=".repeat(30));
 };
 
 
 
+
+
+////////////////////
+///// test try catch
+////////////////////
+
 testLine("test start");
-
-
 
 try {
 
 
 
-queryText       = ".editor";
-const editorEls = document.querySelectorAll(queryText);
-testLine("editorEls selected");
+
+
+////////////////////
+///// width height
+////////////////////
 
 const demoWidth = "350px";
-const btnWidth  = "90px";
+
+const edHeight  = "200px";
+const spHeight  = "50px";
+
 const modeWidth = "130px";
-
-const edHeight = "200px";
-const spHeight = "50px";
-
-const setStAttrs = (el,attrs) =>
-  Object.entries(attrs).forEach( ( [key,value] ) =>
-    el.style[key] = value
-  );
-const editorStAttrs = {
-  position : "relative" ,
-  width    : demoWidth  ,
-  height   : edHeight
-};
-editorEls.forEach( editorEl =>
-  setStAttrs(editorEl,editorStAttrs)
-);
-testLine("editorEls styled");
+const btnWidth  = "90px";
 
 
+////////////////////
+///// editor demo
+////////////////////
 
-queryText        = "#convertButton";
-const convertBtn = document.querySelector(queryText);
-testLine("convertBtn selected");
-
-const btnStAttrs = {
-  width              : btnWidth ,
-  height             : spHeight ,
-  "background-color" : "darkblue"  ,
-  display            : "flex"   ,
-  "justify-content"  : "center" ,
-  "align-items"      : "center"
-};
-setStAttrs(convertBtn,btnStAttrs);
-testLine("convertBtn styled");
-
-
-
-queryText     = ".mode";
-const modeArr = document.querySelectorAll(queryText);
-testLine("mode selected");
-
-const mdStAttrs = {
-  width              : modeWidth ,
-  height             : spHeight  ,
-  "background-color" : "darkred" ,
-  display            : "flex"   ,
-  "justify-content"  : "center" ,
-  "align-items"      : "center"
-};
-modeArr.forEach( mode =>
-  setStAttrs(mode,mdStAttrs)
-);
-testLine("mode styled");
-
-
-
-queryText       = "#convertSpace";
-const convertSp = document.querySelector(queryText);
-testLine("convertSp selected");
-
-const spStAttrs = {
-  display      : "flex"   ,
-  "column-gap" : "0"
-};
-setStAttrs(convertSp,spStAttrs);
-testLine("convertSp styled");
-
-
-
-queryText     = "#editorDemo";
-const demoDiv = document.querySelector(queryText);
+query = "#editorDemo";
+const demoDiv = queryEl(query);
 testLine("demoDiv selected");
 
 const demoStAttrs = {
@@ -113,90 +85,205 @@ const demoStAttrs = {
   "flex-direction" : "column" ,
   "column-gap"     : "0"
 };
-setStAttrs(demoDiv,demoStAttrs);
+setStyleEl(demoDiv,demoStAttrs);
 testLine("demoDiv styled");
 
 
+////////////////////
+///// editor
+////////////////////
 
-    // https://ajaxorg.github.io/ace-api-docs/index.html
-    // https://ace.c9.io/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library#nav=embedding
+query = ".editor";
+const editorEls = queryEls(query);
+testLine("editorEls selected");
 
-    // https://ajaxorg.github.io/ace-api-docs/modules.html#edit
-    testLine("set edit");
-    const editorInput  = ace.edit("editorInput");
-    const editorOutput = ace.edit("editorOutput");
-    const editorArr    = [ editorInput , editorOutput ];
+const editorStAttrs = {
+  position : "relative" ,
+  width    : demoWidth  ,
+  height   : edHeight
+};
+setStyleEls(editorEls,editorStAttrs);
+testLine("editorEls styled");
 
-    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
-    testLine("set mode");
-    editorInput.session.setMode("ace/mode/scss");
-    editorOutput.session.setMode("ace/mode/css");
 
-    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
-    testLine("set theme");
-    const themeFolder = "ace/theme/";
-    const themeName   = "tomorrow_night_bright";
-    const themePath   = themeFolder + themeName;
-    editorArr.forEach( editor =>
-      editor.setTheme(themePath)
+////////////////////
+///// convert space
+////////////////////
+
+query = "#convertSpace";
+const convertSp = queryEl(query);
+testLine("convertSp selected");
+
+const spStAttrs = {
+  display      : "flex" ,
+  "column-gap" : "0"
+};
+setStyleEl(convertSp,spStAttrs);
+testLine("convertSp styled");
+
+
+////////////////////
+///// button
+////////////////////
+
+query = "#convertButton";
+const convertBtn = queryEl(query);
+testLine("convertBtn selected");
+
+const btnStAttrs = {
+  width              : btnWidth   ,
+  height             : spHeight   ,
+  "background-color" : "darkblue" ,
+  display            : "flex"     ,
+  "justify-content"  : "center"   ,
+  "align-items"      : "center"
+};
+setStyleEl(convertBtn,btnStAttrs);
+testLine("convertBtn styled");
+
+
+////////////////////
+///// mode
+////////////////////
+
+query = ".mode";
+const modeArr = queryEls(query);
+testLine("mode selected");
+
+const mdStAttrs = {
+  width              : modeWidth ,
+  height             : spHeight  ,
+  "background-color" : "darkred" ,
+  display            : "flex"    ,
+  "justify-content"  : "center"  ,
+  "align-items"      : "center"
+};
+setStyleEls(modeArr,mdStAttrs);
+testLine("mode styled");
+
+
+
+
+
+////////////////////
+///// set ACE : editor
+////////////////////
+
+testLine("set ACE : editor");
+// https://ajaxorg.github.io/ace-api-docs/modules.html#edit
+query = "editorInput";
+const editorInput  = ace.edit(query);
+query = "editorOutput";
+const editorOutput = ace.edit(query);
+const editorArr    = [ editorInput , editorOutput ];
+
+
+////////////////////
+///// set ACE : mode
+////////////////////
+
+testLine("set ACE : mode");
+// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
+const modePath = "ace/mode/";
+let inputMode  = "scss";
+let outputMode = "css";
+editorInput.session.setMode(modePath+inputMode);
+editorOutput.session.setMode(modePath+outputMode);
+
+
+////////////////////
+///// set ACE : theme
+////////////////////
+
+testLine("set ACE : theme");
+// https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
+const themePath = "ace/theme/";
+const themeName = "tomorrow_night_bright";
+editorArr.forEach( editor =>
+  editor.setTheme(themePath+themeName)
+);
+
+
+////////////////////
+///// set ACE : option
+////////////////////
+
+// editor
+// https://github.com/ajaxorg/ace/wiki/Configuring-Ace#editor-options
+
+// renderer
+// https://github.com/ajaxorg/ace/wiki/Configuring-Ace#renderer-options
+
+// mouseHandler
+// https://github.com/ajaxorg/ace/wiki/Configuring-Ace#mousehandler-options
+
+// session
+// https://github.com/ajaxorg/ace/wiki/Configuring-Ace#session-options
+
+// extension
+// https://github.com/ajaxorg/ace/wiki/Configuring-Ace#editor-options-defined-by-extensions
+
+
+
+
+
+////////////////////
+///// use ACE : value
+////////////////////
+
+// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
+const edGetValue = editor => editor.session.getValue();
+
+// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
+const edSetValue = (editor,value) => editor.session.setValue(value)
+
+
+////////////////////
+///// use ACE : convert
+////////////////////
+
+const edConvert = (editorInput,editorOutput) => {
+
+  const codeRead = edGetValue(editorInput);
+
+  const codeWrite = result =>
+    edSetValue(
+      editorOutput ,
+      // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
+      result.text
     );
 
-
-
-    // editor
-    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#editor-options
-
-
-    // renderer
-    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#renderer-options
-
-
-    // mouseHandler
-    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#mousehandler-options
-
-
-    // session
-    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#session-options
-
-
-    // extension
-    // https://github.com/ajaxorg/ace/wiki/Configuring-Ace#editor-options-defined-by-extensions
-
-
-
-
-const convertInputToOutput = () => {
-
-    testLine("click event");
-
-    // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
-    testLine("code read");
-    const codeRead = editorInput.session.getValue();
-    testLine(codeRead);
-
-    // https://stackoverflow.com/a/75716055
-    testLine("code convert");
-    Sass.compile( codeRead , result => {
-
-      // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-      const codeConvert = result.text;
-      testLine(codeConvert);
-
-      // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
-      testLine("code paste");
-      editorOutput.session.setValue(codeConvert);
-
-    } );
+  // https://stackoverflow.com/a/75716055
+  Sass.compile(
+    codeRead ,
+    codeWrite
+  );
 
 };
 
+
+
+
+
+////////////////////
+///// event : convert
+////////////////////
+
+const eventConvert = () =>
+  edConvert(editorInput,editorOutput);
+
 convertBtn.addEventListener(
   "click",
-  convertInputToOutput
+  eventConvert
 );
 
 
 
+
+
+////////////////////
+///// test try catch
+////////////////////
 
 } catch (error) {
     testLine(error);

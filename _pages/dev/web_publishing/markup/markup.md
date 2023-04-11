@@ -83,19 +83,15 @@ test: false
   - [Using the Sass.js API](https://github.com/medialize/sass.js/blob/master/docs/api.md)
   - [cdnjs](https://cdnjs.com/libraries/sass.js)
 
-<div id = "test"   test = "{{page.test}}" ></div>
-<div id = "editorDemo">
-
-<div id = "editorInput" class = "editor" ></div>
-<div id = "convertSpace">
-
-<div id = "inputMode" class = "mode" >input</div>
-<div id = "convertButton">convert</div>
-<div id = "outputMode" class = "mode" >output</div>
-
-</div>
-<div id = "editorOutput" class = "editor" ></div>
-
+<div id="test" test="{{page.test}}"></div>
+<div id="editorDemo">
+  <div id="editorInput" class="editor"></div>
+  <div id="convertSpace">
+    <div id="inputMode" class="mode"></div>
+    <div id="convertButton"></div>
+    <div id="outputMode" class="mode"></div>
+  </div>
+  <div id="editorOutput" class="editor"></div>
 </div>
 
 
