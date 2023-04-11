@@ -566,6 +566,7 @@ const updateConvertButtonByRadio = () => {
 
 // run 5 functions
 const updateByRadio = eventChangeRadio => {
+  try {
   // prevInputMode
   setPrevInputMode();
   // inputMode
@@ -576,6 +577,7 @@ const updateByRadio = eventChangeRadio => {
   editorInputSetMode();
   // style selector
   stylePrevNewSelector();
+  } catch (error) { testLine(error) }
 };
 
 // set event listener
