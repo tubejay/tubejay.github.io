@@ -569,8 +569,10 @@ const updateByRadio = eventChangeRadio => {
   try {
   // prevInputMode
   setPrevInputMode();
+  testLine(prevInputMode);
   // inputMode
   updateInputModeByRadio(eventChangeRadio);
+  testLine(inputMode);
   // convertButton
   updateConvertButtonByRadio();
   // editorInput
