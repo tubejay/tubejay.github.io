@@ -164,8 +164,6 @@ testLine("modeInput styled");
 ///// selector
 ////////////////////
 
-let inputMode;
-
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
 const createModeRadio = (mode,checked) => {
   const radio = document.createElement("input");
@@ -215,11 +213,13 @@ const createModeSelector = (mode,checked=false) => {
   return selector;
 };
 
+// default : scss
+let inputMode = "scss";
 const selectorArgArray = [
-  // scss : default checked
+  // scss : checked
   ["scss",true],
-  // sass
-  ["sass"]
+  // sass : unchecked
+  ["sass",false]
 ];
 selectorArgArray.forEach( arr =>
   modeInput.appendChild(
