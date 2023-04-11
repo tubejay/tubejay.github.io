@@ -4,8 +4,8 @@
 
 let query;
 
-const queryEl  = query => document.querySelector(query);
-const queryEls = query => document.querySelectorAll(query);
+const queryEl  = () => document.querySelector(query);
+const queryEls = () => document.querySelectorAll(query);
 
 
 ////////////////////
@@ -28,7 +28,7 @@ const setStyleEls = (elArr,attrs) =>
 ////////////////////
 
 query = "#test";
-const testEl = queryEl(query);
+const testEl = queryEl();
 const testOn = ( testEl.getAttribute("test") === "true" );
 
 const testLine = el =>
@@ -77,7 +77,7 @@ const btnWidth  = "90px";
 ////////////////////
 
 query = "#editorDemo";
-const demoDiv = queryEl(query);
+const demoDiv = queryEl();
 testLine("demoDiv selected");
 
 const demoStAttrs = {
@@ -94,7 +94,7 @@ testLine("demoDiv styled");
 ////////////////////
 
 query = ".editor";
-const editorEls = queryEls(query);
+const editorEls = queryEls();
 testLine("editorEls selected");
 
 const editorStAttrs = {
@@ -111,7 +111,7 @@ testLine("editorEls styled");
 ////////////////////
 
 query = "#convertSpace";
-const convertSp = queryEl(query);
+const convertSp = queryEl();
 testLine("convertSp selected");
 
 const spStAttrs = {
@@ -127,8 +127,11 @@ testLine("convertSp styled");
 ////////////////////
 
 query = "#convertButton";
-const convertBtn = queryEl(query);
+const convertBtn = queryEl();
 testLine("convertBtn selected");
+
+const btnText = "convert\n ====> ";
+convertBtn.append(btnText);
 
 const btnStAttrs = {
   width              : btnWidth   ,
@@ -146,9 +149,20 @@ testLine("convertBtn styled");
 ///// mode
 ////////////////////
 
-query = ".mode";
-const modeArr = queryEls(query);
-testLine("mode selected");
+query = "#inputMode";
+const modeInput = queryEl();
+testLine("modeInput selected");
+
+query = "#outputMode";
+const modeOutput = queryEl();
+testLine("modeOutput selected");
+
+let inputMode  = "scss";
+let outputMode = "css";
+modeInput.innerTEXT = inputMode;
+modeOutput.innerTEXT = outputMode;
+
+const modeArr = [ modeInput , modeOutput ];
 
 const mdStAttrs = {
   width              : modeWidth ,
@@ -185,8 +199,6 @@ const editorArr    = [ editorInput , editorOutput ];
 testLine("set ACE : mode");
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
 const modePath = "ace/mode/";
-let inputMode  = "scss";
-let outputMode = "css";
 editorInput.session.setMode(modePath+inputMode);
 editorOutput.session.setMode(modePath+outputMode);
 
