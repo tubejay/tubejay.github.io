@@ -87,9 +87,7 @@ test: true
 <div id="editorDemo">
   <div id="editorInput" class="editor"></div>
   <div id="convertSpace">
-    <div id="modeInput">
-      <div id="radioModeInput"></div>
-    </div>
+    <div id="modeInput"></div>
     <div id="convertButton"></div>
   </div>
   <div id="editorOutput" class="editor"></div>
