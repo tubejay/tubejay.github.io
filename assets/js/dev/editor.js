@@ -177,10 +177,15 @@ const createModeRadio = (mode,checked) => {
     // label.for
     id      : mode        ,
     // event.target.value
-    value   : mode        ,
-    checked : checked
+    value   : mode
   };
   setElementEl(radio,radioElAttrs);
+  // checked attr
+  // true  : set value
+  // false : do nothing
+  checked
+  ? radio.setAttribute("checked",checked)
+  : null
   return radio;
 };
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
@@ -196,7 +201,7 @@ const createModeLabel = mode => {
   return label;
 };
 // selector > [radio,label]
-const createModeSelector = (mode,checked) => {
+const createModeSelector = (mode,checked=false) => {
   const selector = document.createElement("div");
   const radio    = createModeRadio(mode,checked);
   const label    = createModeLabel(mode);
@@ -219,7 +224,7 @@ const selectorArgArray = [
   // scss : checked
   ["scss",true],
   // sass : unchecked
-  ["sass",false]
+  ["sass"]
 ];
 selectorArgArray.forEach( arr =>
   modeInput.appendChild(
