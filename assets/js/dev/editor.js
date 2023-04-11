@@ -477,13 +477,15 @@ const editorSetValue = (editor,value) =>
 const editorOutputSetValue = value =>
   editorSetValue(editorOutput,value);
 
-const resultToEditorOutput = result =>
+const resultToEditorOutput = result => {
+  testLine(result.outerHTML);
   editorOutputSetValue(
     // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
     // valid   : text
     // invalid : formatted
     result.outerHTML
   );
+};
 
 
 ////////////////////
