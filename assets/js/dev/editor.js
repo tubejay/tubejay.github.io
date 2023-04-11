@@ -5,7 +5,7 @@
 let query;
 
 const queryEl  = () => document.querySelector(query);
-const queryEls = () => document.querySelectorAll(query);
+const queryEls = () => Array.from( document.querySelectorAll(query) );
 
 
 ////////////////////
