@@ -170,10 +170,15 @@ let inputMode;
 const createModeRadio = (mode,checked) => {
   const radio = document.createElement("input");
   const radioElAttrs = {
+    // radio
     type    : "radio"     ,
+    // radio button group
     name    : "ModeRadio" ,
+    // querySelectorAll
     class   : "ModeRadio" ,
+    // label.for
     id      : mode        ,
+    // event.target.value
     value   : mode        ,
     checked : checked
   };
@@ -184,12 +189,15 @@ const createModeRadio = (mode,checked) => {
 const createModeLabel = mode => {
   const label = document.createElement("label");
   const labelElAttrs = {
+    // radio.id
     for : mode
   };
   setElementEl(label,labelElAttrs);
+  // show text
   label.textContent = mode;
   return label;
 };
+// selector > [radio,label]
 const createModeSelector = (mode,checked=false) => {
   const selector = document.createElement("div");
   const radio    = createModeRadio(mode,checked);
@@ -197,11 +205,20 @@ const createModeSelector = (mode,checked=false) => {
   [radio,label].forEach( el =>
     selector.appendChild(el)
   );
+  const selectorStAttrs = {
+    display           : "flex"   ,
+    "flex-direction"  : "row"    ,
+    "justify-content" : "center" ,
+    "align-items"     : "center"  
+  };
+  setStyleEl(selector,selectorStAttrs);
   return selector;
 };
 
 const selectorArgArray = [
+  // scss : default checked
   ["scss",true],
+  // sass
   ["sass"]
 ];
 selectorArgArray.forEach( arr =>
@@ -218,18 +235,23 @@ testLine("modeInput selector added");
 ///// check mode
 ////////////////////
 
+// get current value
 const getInputMode = () =>
     inputMode;
 
+// intendedSyntax
 const isIndented = () => {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#syntax
   switch ( getInputMode() ) {
+    // sass : true
     case "sass":
       return true;
       break;
+    // scss : false
     case "scss":
       return false;
       break;
+    // else : null
     default:
       return null;
       break;
@@ -241,6 +263,7 @@ const isIndented = () => {
 ///// mode : output
 ////////////////////
 
+// fixed value
 const outputMode = "css";
 
 
@@ -287,7 +310,6 @@ query = "editorInput";
 const editorInput  = ace.edit(query);
 query = "editorOutput";
 const editorOutput = ace.edit(query);
-const editorArr    = [ editorInput , editorOutput ];
 
 
 ////////////////////
@@ -306,10 +328,16 @@ const editorSetMode = (editor,modeName) =>
 const editorInputSetMode = () =>
   editorSetMode(
     editorInput ,
+    // current value
     getInputMode()
   );
-editorInputSetMode();
-editorSetMode(editorOutput,outputMode);
+const editorOutputSetMode = () =>
+  editorSetMode(
+    editorOutput ,
+    // fixed value
+    outputMode
+  );
+editorOutputSetMode();
 
 
 ////////////////////
@@ -323,7 +351,10 @@ testLine("set ACE : theme");
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
 const themePath = "ace/theme/";
 const themeName = "tomorrow_night_bright";
-editorArr.forEach( editor =>
+[
+  editorInput  ,
+  editorOutput
+].forEach( editor =>
   editor.setTheme(themePath+themeName)
 );
 
@@ -361,36 +392,52 @@ editorArr.forEach( editor =>
 
 // https://stackoverflow.com/a/63218595
 const updateInputModeByRadio = eventChangeRadio => {
+  // selected mode
   const modeSelected = eventChangeRadio.target.value;
   testLine(modeSelected);
+  // update inputMode
   inputMode = modeSelected;
 };
-const updateConvertButtonByRadio = eventChangeRadio => {
+const updateConvertButtonByRadio = () => {
+
+  // remove existing text
   // https://stackoverflow.com/a/65413839
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
   convertButton.replaceChildren();
+
+  // set new text
   [
     "Convert"                    ,
+    // from : current value
     "- from : " + getInputMode() ,
+    // to   : fixed value
     "- to   : " + outputMode
   ].forEach( text => {
+    // text
     convertButton.append(text);
+    // br
     const br = document.createElement("br");
     convertButton.appendChild(br);
   } );
+
 };
 
+// run 3 functions
 const updateByRadio = eventChangeRadio => {
   // inputMode
   updateInputModeByRadio(eventChangeRadio);
   // convertButton
-  updateConvertButtonByRadio(eventChangeRadio);
+  updateConvertButtonByRadio();
   // editorInput
   editorInputSetMode();
 };
+
+// set event listener
 const setUpdateForRadio = () => {
+  // radio elements
   query = ".ModeRadio";
   const RadioEls = queryEls();
+  // add event listener
   RadioEls.forEach( radio =>
     radio.addEventListener(
       "change",
@@ -399,6 +446,10 @@ const setUpdateForRadio = () => {
   );
 };
 setUpdateForRadio();
+
+// set initial value
+updateConvertButtonByRadio();
+editorInputSetMode();
 
 
 
@@ -439,25 +490,25 @@ const resultToEditorOutput = result =>
 
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-const inputModeGetOptions = () => ({
+const inputModeGetOptions = () => ( {
   indentedSyntax : isIndented()
-});
+} );
 
-const convertInputToOutput = () => {
-  try {
-    // https://stackoverflow.com/a/75716055
-    Sass.compile(
-      editorInputGetValue() ,
-      inputModeGetOptions() ,
-      resultToEditorOutput
-    );
-  } catch (error) {
-    testLine(error)
-  };
-};
+const convertInputToOutput = () =>
+  // https://stackoverflow.com/a/75716055
+  Sass.compile(
+    // input
+    editorInputGetValue() ,
+    // option
+    inputModeGetOptions() ,
+    // result to output
+    resultToEditorOutput
+  );
 
 convertButton.addEventListener(
+  // event
   "click",
+  // function
   convertInputToOutput
 );
 
