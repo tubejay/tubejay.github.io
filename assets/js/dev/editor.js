@@ -63,13 +63,13 @@ try {
 ///// width height
 ////////////////////
 
-const demoWidth = "350px";
+const demoWidth    = "350px";
+const buttonWidth  = "150px";
+// modeWidth = demoWidth - buttonWidth
+const modeWidth    = "200px";
 
-const edHeight  = "200px";
-const spHeight  = "70px";
-
-const modeWidth = "130px";
-const btnWidth  = "90px";
+const editorHeight = "200px";
+const spaceHeight  = "70px";
 
 
 ////////////////////
@@ -77,16 +77,16 @@ const btnWidth  = "90px";
 ////////////////////
 
 query = "#editorDemo";
-const demoDiv = queryEl();
-testLine("demoDiv selected");
+const editorDemo = queryEl();
+testLine("editorDemo selected");
 
 const demoStAttrs = {
   display          : "flex"   ,
   "flex-direction" : "column" ,
   "column-gap"     : "0"
 };
-setStyleEl(demoDiv,demoStAttrs);
-testLine("demoDiv styled");
+setStyleEl(editorDemo,demoStAttrs);
+testLine("editorDemo styled");
 
 
 ////////////////////
@@ -100,7 +100,7 @@ testLine("editorEls selected");
 const editorStAttrs = {
   position : "relative" ,
   width    : demoWidth  ,
-  height   : edHeight
+  height   : editorHeight
 };
 setStyleEls(editorEls,editorStAttrs);
 testLine("editorEls styled");
@@ -111,45 +111,66 @@ testLine("editorEls styled");
 ////////////////////
 
 query = "#convertSpace";
-const convertSp = queryEl();
-testLine("convertSp selected");
+const convertSpace = queryEl();
+testLine("convertSpace selected");
 
 const spStAttrs = {
   display      : "flex" ,
   "column-gap" : "0"
 };
-setStyleEl(convertSp,spStAttrs);
-testLine("convertSp styled");
+setStyleEl(convertSpace,spStAttrs);
+testLine("convertSpace styled");
+
+
+
 
 
 ////////////////////
-///// mode
+///// mode : input
 ////////////////////
 
-query = "#inputMode";
+query = "#modeInput";
 const modeInput = queryEl();
 testLine("modeInput selected");
 
-query = "#outputMode";
-const modeOutput = queryEl();
-testLine("modeOutput selected");
-
-const modeArr = [ modeInput , modeOutput ];
-const mdStAttrs = {
-  width              : modeWidth ,
-  height             : spHeight  ,
-  "border"           : "1px solid #1a1a1a",
-  display            : "flex"    ,
-  "justify-content"  : "center"  ,
+const modeStAttrs = {
+  width              : modeWidth           ,
+  height             : spaceHeight         ,
+  border             : "1px solid #1a1a1a" ,
+  display            : "flex"              ,
+  "justify-content"  : "center"            ,
   "align-items"      : "center"
 };
-setStyleEls(modeArr,mdStAttrs);
-testLine("mode styled");
+setStyleEl(modeInput,modeStAttrs);
+testLine("modeInput styled");
 
-let inputMode  = "scss";
-let outputMode = "css";
-modeInput.append(inputMode);
-modeOutput.append(outputMode);
+const getInputMode = () =>
+  // to do
+  //// get inputMode from modeInput
+  //// using ratio buttons
+  "scss";
+
+const isIndented = () => {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#syntax
+  switch ( getInputMode() ) {
+    case "sass":
+      return true;
+      break;
+    case "scss":
+      return false;
+      break;
+    default:
+      return null;
+      break;
+  }
+};
+
+
+////////////////////
+///// mode : output
+////////////////////
+
+const outputMode = "css";
 
 
 ////////////////////
@@ -157,12 +178,12 @@ modeOutput.append(outputMode);
 ////////////////////
 
 query = "#convertButton";
-const convertBtn = queryEl();
-testLine("convertBtn selected");
+const convertButton = queryEl();
+testLine("convertButton selected");
 
-const btnStAttrs = {
-  width              : btnWidth     ,
-  height             : spHeight     ,
+const buttonStAttrs = {
+  width              : buttonWidth     ,
+  height             : spaceHeight     ,
   "background-color" : "#1a1a1a"    ,
   display            : "flex"       ,
   "flex-direction"   : "column"     ,
@@ -170,29 +191,29 @@ const btnStAttrs = {
   "align-items"      : "flex-start" ,
   "padding-left"     : "5px"
 };
-setStyleEl(convertBtn,btnStAttrs);
-testLine("convertBtn styled");
+setStyleEl(convertButton,buttonStAttrs);
+testLine("convertButton styled");
 
-const btnUpdate = () => {
+const buttonUpdate = () => {
 
   // https://stackoverflow.com/a/65413839
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
-  convertBtn.replaceChildren();
+  convertButton.replaceChildren();
 
   const textArr = [
     "Convert",
-    "- from : " + inputMode,
+    "- from : " + getInputMode(),
     "- to   : " + outputMode
   ];
   textArr.forEach( text => {
     testLine(text);
-    convertBtn.append(text);
+    convertButton.append(text);
     const br = document.createElement("br");
-    convertBtn.appendChild(br);
+    convertButton.appendChild(br);
   } );
 
 };
-btnUpdate();
+buttonUpdate();
 
 
 
@@ -203,6 +224,7 @@ btnUpdate();
 ////////////////////
 
 testLine("set ACE : editor");
+
 // https://ajaxorg.github.io/ace-api-docs/modules.html#edit
 query = "editorInput";
 const editorInput  = ace.edit(query);
@@ -216,10 +238,19 @@ const editorArr    = [ editorInput , editorOutput ];
 ////////////////////
 
 testLine("set ACE : mode");
-// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
+
 const modePath = "ace/mode/";
-editorInput.session.setMode(modePath+inputMode);
-editorOutput.session.setMode(modePath+outputMode);
+const editorSetMode = (editor,modeName) =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
+  editor.session.setMode( modePath + modeName );
+
+const editorInputSetMode = () =>
+  editorSetMode(
+    editorInput ,
+    getInputMode()
+  );
+editorInputSetMode();
+editorSetMode(editorOutput,outputMode);
 
 
 ////////////////////
@@ -227,6 +258,7 @@ editorOutput.session.setMode(modePath+outputMode);
 ////////////////////
 
 testLine("set ACE : theme");
+
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
 const themePath = "ace/theme/";
 const themeName = "tomorrow_night_bright";
@@ -263,34 +295,45 @@ editorArr.forEach( editor =>
 ////////////////////
 
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
-const edGetValue = editor => editor.session.getValue();
+const editorGetValue = editor =>
+  editor.session.getValue();
+
+const editorInputGetValue = () =>
+  editorGetValue(editorInput);
 
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
-const edSetValue = (editor,value) => editor.session.setValue(value)
+const editorSetValue = (editor,value) =>
+  editor.session.setValue(value);
+
+const editorOutputSetValue = value =>
+  editorSetValue(editorOutput,value);
+
+const resultToEditorOutput = result =>
+  editorOutputSetValue(
+    // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
+    result.text
+  );
 
 
 ////////////////////
 ///// use ACE : convert
 ////////////////////
 
-const edConvert = (editorInput,editorOutput) => {
+// https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
+// https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
+const sass = Sass();
 
-  const codeRead = edGetValue(editorInput);
+const inputModeGetOptions = () => ({
+  indentedSyntax : isIndented()
+});
 
-  const codeWrite = result =>
-    edSetValue(
-      editorOutput ,
-      // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-      result.text
-    );
-
+const convertInputToOutput = () =>
   // https://stackoverflow.com/a/75716055
-  Sass.compile(
-    codeRead ,
-    codeWrite
+  sass.compile(
+    editorInputGetValue() ,
+    inputModeGetOptions() ,
+    resultToEditorOutput
   );
-
-};
 
 
 
@@ -300,12 +343,9 @@ const edConvert = (editorInput,editorOutput) => {
 ///// event : convert
 ////////////////////
 
-const eventConvert = () =>
-  edConvert(editorInput,editorOutput);
-
-convertBtn.addEventListener(
+convertButton.addEventListener(
   "click",
-  eventConvert
+  convertInputToOutput
 );
 
 
