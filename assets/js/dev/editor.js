@@ -4,8 +4,8 @@
 
 let query;
 
-const queryEl  = query => queryEl(query);
-const queryEls = query => queryEls(query);
+const queryEl  = query => document.querySelector(query);
+const queryEls = query => document.querySelectorAll(query);
 
 
 ////////////////////
