@@ -76,7 +76,7 @@ try {
 const demoWidth    = "350px";
 const buttonWidth  = "250px";
 // modeWidth = demoWidth - buttonWidth
-const modeWidth    = "200px";
+const modeWidth    = "100px";
 
 const editorHeight = "200px";
 const spaceHeight  = "80px";
@@ -482,7 +482,7 @@ const resultToEditorOutput = result =>
     // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
     // valid   : text
     // invalid : formatted
-    result.text | result.formatted
+    result.outerHTML
   );
 
 
