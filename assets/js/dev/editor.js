@@ -271,6 +271,8 @@ const getAllSelector = () => {
   query = ".ModeSelector";
   return queryEls();
 };
+const getAllRadio = () =>
+  getAllSelector().map( getRadioBySelector );
 
 // prev : invalid
 // all except new
