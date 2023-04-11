@@ -190,9 +190,9 @@ const btnUpdate = () => {
     const br = document.createElement("br");
     convertBtn.appendChild(br);
   } );
-btnUpdate()
 
 };
+btnUpdate();
 
 
 
