@@ -478,15 +478,14 @@ const editorOutputSetValue = value =>
   editorSetValue(editorOutput,value);
 
 const resultToEditorOutput = result => {
-  Object.entries(result).forEach(
-    ( [key,value] ) => testLine( key + " : " + value )
-  );
-  editorOutputSetValue(
-    // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-    // valid   : text
-    // invalid : formatted
-    result.text
-  );
+  const status = String( result["status"] );
+  // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
+  // valid   : text
+  // invalid : formatted
+  const value  = status==="0"
+                 ? String( result["text"] )
+                 : String( result["formatted"] );
+  editorOutputSetValue(value);
 };
 
 
