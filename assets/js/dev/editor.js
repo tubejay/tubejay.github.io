@@ -350,8 +350,8 @@ const stylePrevValidSelector = () =>
 // prev : invalid or valid
 const stylePrevSelector = () =>
   (!prevInputMode)
-  ? stylePrevInvalid()
-  : stylePrevValid()
+  ? stylePrevInvalidSelector()
+  : stylePrevValidSelector()
   ;
 
 // new
