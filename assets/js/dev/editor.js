@@ -74,7 +74,7 @@ try {
 ////////////////////
 
 const demoWidth    = "350px";
-const buttonWidth  = "150px";
+const buttonWidth  = "250px";
 // modeWidth = demoWidth - buttonWidth
 const modeWidth    = "200px";
 
@@ -293,7 +293,7 @@ const buttonStAttrs = {
   "flex-direction"   : "column"     ,
   "justify-content"  : "center"     ,
   "align-items"      : "flex-start" ,
-  "padding-left"     : "5px"
+  "padding-left"     : "30px"
 };
 setStyleEl(convertButton,buttonStAttrs);
 testLine("convertButton styled");
@@ -412,11 +412,8 @@ const updateConvertButtonByRadio = () => {
 
   // set new text
   [
-    "Convert"                    ,
-    // from : current value
-    "- from : " + getInputMode() ,
-    // to   : fixed value
-    "- to   : " + outputMode
+    "Click to convert" ,
+    ": from " + getInputMode() + " to " + outputMode
   ].forEach( text => {
     // text
     convertButton.append(text);
@@ -483,7 +480,9 @@ const editorOutputSetValue = value =>
 const resultToEditorOutput = result =>
   editorOutputSetValue(
     // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-    result.text
+    // valid   : text
+    // invalid : formatted
+    result.text | result.formatted
   );
 
 
