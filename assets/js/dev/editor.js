@@ -66,7 +66,7 @@ try {
 const demoWidth = "350px";
 
 const edHeight  = "200px";
-const spHeight  = "50px";
+const spHeight  = "70px";
 
 const modeWidth = "130px";
 const btnWidth  = "90px";
@@ -123,29 +123,6 @@ testLine("convertSp styled");
 
 
 ////////////////////
-///// button
-////////////////////
-
-query = "#convertButton";
-const convertBtn = queryEl();
-testLine("convertBtn selected");
-
-const btnText = "convert\n ====> ";
-convertBtn.append(btnText);
-
-const btnStAttrs = {
-  width              : btnWidth   ,
-  height             : spHeight   ,
-  "background-color" : "darkblue" ,
-  display            : "flex"     ,
-  "justify-content"  : "center"   ,
-  "align-items"      : "center"
-};
-setStyleEl(convertBtn,btnStAttrs);
-testLine("convertBtn styled");
-
-
-////////////////////
 ///// mode
 ////////////////////
 
@@ -157,23 +134,60 @@ query = "#outputMode";
 const modeOutput = queryEl();
 testLine("modeOutput selected");
 
-let inputMode  = "scss";
-let outputMode = "css";
-modeInput.innerTEXT = inputMode;
-modeOutput.innerTEXT = outputMode;
-
 const modeArr = [ modeInput , modeOutput ];
-
 const mdStAttrs = {
   width              : modeWidth ,
   height             : spHeight  ,
-  "background-color" : "darkred" ,
+  "border"           : "1px solid #1a1a1a",
   display            : "flex"    ,
   "justify-content"  : "center"  ,
   "align-items"      : "center"
 };
 setStyleEls(modeArr,mdStAttrs);
 testLine("mode styled");
+
+let inputMode  = "scss";
+let outputMode = "css";
+modeInput.append(inputMode);
+modeOutput.append(outputMode);
+
+
+////////////////////
+///// button
+////////////////////
+
+query = "#convertButton";
+const convertBtn = queryEl();
+testLine("convertBtn selected");
+
+const btnStAttrs = {
+  width              : btnWidth   ,
+  height             : spHeight   ,
+  "background-color" : "#1a1a1a"  ,
+  display            : "flex"     ,
+  "padding-left"     : "5px"      ,
+  "align-items"      : "center"
+};
+setStyleEl(convertBtn,btnStAttrs);
+testLine("convertBtn styled");
+
+const btnUpdate = () => {
+
+  // https://stackoverflow.com/a/65413839
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
+  convertBtn.replaceChildren();
+
+  const textArr = [
+    "Convert",
+    "- from : " + inputMode,
+    "- to   : " + outputMode
+  ];
+  textArr.forEach( text =>
+    convertBtn.append(text)
+  );
+btnUpdate()
+
+};
 
 
 
