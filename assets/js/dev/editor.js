@@ -9,6 +9,16 @@ const queryEls = () => document.querySelectorAll(query);
 
 
 ////////////////////
+///// element function
+////////////////////
+
+const setElementEl = (el,attrs) =>
+  Object.entries(attrs).forEach( ( [key,value] ) =>
+    el.setAttribute(key,value)
+  );
+
+
+////////////////////
 ///// style function
 ////////////////////
 
@@ -69,7 +79,7 @@ const buttonWidth  = "150px";
 const modeWidth    = "200px";
 
 const editorHeight = "200px";
-const spaceHeight  = "70px";
+const spaceHeight  = "80px";
 
 
 ////////////////////
@@ -143,6 +153,45 @@ const modeStAttrs = {
 };
 setStyleEl(modeInput,modeStAttrs);
 testLine("modeInput styled");
+
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+const createModeRadio = (mode,checked) => {
+  const radio = document.createElement("input");
+  const radioElAttrs = {
+    type    : "radio"     ,
+    name    : "ModeRadio" ,
+    id      : mode        ,
+    value   : mode        ,
+    checked : checked
+  };
+  setElementEl(radio,radioElAttrs);
+  return radio;
+};
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+const createModeLabel = mode => {
+  const label = document.createElement("label");
+  const labelElAttrs = {
+    for : mode
+  };
+  setElementEl(label,labelElAttrs);
+  label.textContent = mode;
+  return label;
+};
+const createModeSelector = (mode,checked=false) => {
+  const selector = document.createElement("div");
+  const radio    = createModeRadio(mode,checked);
+  const label    = createModeLabel(mode);
+  [radio,label].forEach( el =>
+    selector.appendChild(el)
+  );
+  return selector;
+};
+
+const scssSelector = createModeSelector("scss",true);
+const sassSelector = createModeSelector("sass");
+modeInput.appendChild(scssSelector);
+modeInput.appendChild(sassSelector);
+testLine("modeInput selector added");
 
 const getInputMode = () =>
   // to do
@@ -321,15 +370,13 @@ const resultToEditorOutput = result =>
 
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-const sass = Sass();
-
 const inputModeGetOptions = () => ({
   indentedSyntax : isIndented()
 });
 
 const convertInputToOutput = () =>
   // https://stackoverflow.com/a/75716055
-  sass.compile(
+  Sass.compile(
     editorInputGetValue() ,
     inputModeGetOptions() ,
     resultToEditorOutput
