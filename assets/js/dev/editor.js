@@ -196,7 +196,7 @@ const createModeLabel = mode => {
   return label;
 };
 // selector > [radio,label]
-const createModeSelector = (mode,checked=false) => {
+const createModeSelector = (mode,checked) => {
   const selector = document.createElement("div");
   const radio    = createModeRadio(mode,checked);
   const label    = createModeLabel(mode);
