@@ -24,7 +24,8 @@ const setElementEl = (el,attrs) =>
 
 const setStyleEl = (el,attrs) =>
   Object.entries(attrs).forEach( ( [key,value] ) =>
-    el.style[key] = value
+    // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty
+    el.style.setProperty(key,value)
   );
 
 const setStyleEls = (elArr,attrs) =>
@@ -91,6 +92,8 @@ const modeWidth    = "100px";
 
 const editorHeight = "200px";
 const spaceHeight  = "80px";
+// modeHeight = spaceHeight / 2
+const modeHeight   = "40px";
 
 
 ////////////////////
@@ -157,12 +160,12 @@ const modeInput = queryEl();
 testLine("modeInput selected");
 
 const modeStAttrs = {
-  width              : modeWidth           ,
-  height             : spaceHeight         ,
-  border             : "1px solid #1a1a1a" ,
-  display            : "flex"              ,
-  "flex-direction"   : "column"            ,
-  "justify-content"  : "center"            ,
+  width              : modeWidth   ,
+  height             : spaceHeight ,
+  border             : "0"         ,
+  display            : "flex"      ,
+  "flex-direction"   : "column"    ,
+  "justify-content"  : "center"    ,
   "align-items"      : "center"
 };
 setStyleEl(modeInput,modeStAttrs);
@@ -178,6 +181,10 @@ testLine("modeInput styled");
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
 const createModeRadio = (mode,checked) => {
   const radio = document.createElement("input");
+  const radioStAttrs = {
+    display : "none"
+  };
+  setStyleEl(radio,radioStAttrs);
   const radioElAttrs = {
     // radio
     type    : "radio"     ,
@@ -209,6 +216,10 @@ const createModeLabel = mode => {
     class : "ModeLabel"
   };
   setElementEl(label,labelElAttrs);
+  const labelStAttrs = {
+    "text-align" : "center"
+  };
+  setStyleEl(label,labelStAttrs);
   // show text
   label.textContent = mode;
   return label;
@@ -226,9 +237,11 @@ const createModeSelector = (mode,checked=false) => {
   };
   setElementEl(selector,selectorElAttrs);
   const selectorStAttrs = {
-    display           : "flex"   ,
-    "flex-direction"  : "row"    ,
-    "justify-content" : "center" ,
+    width             : modeWidth  ,
+    height            : modeHeight ,
+    display           : "flex"     ,
+    "flex-direction"  : "row"      ,
+    "justify-content" : "center"   ,
     "align-items"     : "center"  
   };
   setStyleEl(selector,selectorStAttrs);
@@ -310,32 +323,30 @@ const getNewSelector = () =>
 ////////////////////
 
 // style attr
-const selectorStAttrs = {
+const selectorStAttrsByChange = {
+  checked   : { "background-color":"darkgray" } ,
+  unchecked : { "background-colot":"lightgray" }
+};
+const radioStAttrsByChange = {
   checked   : {  } ,
   unchecked : {  }
 };
-const radioStAttrs = {
-  checked   : { display:"none" } ,
-  unchecked : { display:"none" }
-};
-const labelStAttrs = {
-  checked   : { color:"darkblue"  , "font-weight":"bold"  } ,
-  unchecked : { color:"lightgray" , "font-weight":"light" }
+const labelStAttrsByChange = {
+  checked   : { "font-size":"13px" , "font-weight":"bold"  } ,
+  unchecked : { "font-size":"11px" , "font-weight":"light" }
 };
 
 // get style arr
 // selector radio label
 const getStyleArrByChange = change =>
   [
-    selectorStAttrs ,
-    radioStAttrs    ,
-    labelStAttrs
+    selectorStAttrsByChange ,
+    radioStAttrsByChange    ,
+    labelStAttrsByChange
   ].map( style => style[change] );
 
 // style selector
 const styleSelector = (selector,change) => {
-  testLine( "selector : " + getRadioIdBySelector(selector) );
-  testLine( "change : " + change );
   // element
   const elArr = [
     selector ,
@@ -347,9 +358,6 @@ const styleSelector = (selector,change) => {
   // style element
   elArr.forEach( (el,index) => {
     const attrs = stArr[index];
-    testLine( "index : " + index );
-    testLine( "el : " + el.class );
-    testLine( "attrs : " + Object.entries(attrs) );
     setStyleEl( el , attrs );
   } );
 };
