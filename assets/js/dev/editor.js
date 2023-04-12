@@ -5,7 +5,7 @@
 let query;
 
 const queryEl  = () => document.querySelector(query);
-const queryEls = () => Array.from( document.querySelectorAll(query) );
+const queryEls = () => document.querySelectorAll(query);
 
 
 ////////////////////
@@ -267,29 +267,32 @@ const getLabelBySelector = selector =>
 // https://stackoverflow.com/a/36183750
 
 // all
-const getAllSelector = () => {
-  query = ".ModeSelector";
+const getAllRadio = () => {
+  query = ".ModeRadio";
   return queryEls();
 };
-const getAllRadio = () =>
-  getAllSelector().map( getRadioBySelector );
+const getAllSelectorArr = () => {
+  query = ".ModeSelector";
+  return Array.from( queryEls() );
+};
 
 // prev : invalid
 // all except new
 const getPrevInvalidSelector = () =>
-  getAllSelector().filter( selector =>
+  getAllSelectorArr().filter( selector =>
     getRadioIdBySelector(selector) !== inputMode
-  );
+  )
 // prev : valid
 // only prev
-const getPrevValidSelector = () =>
-  getAllSelector().filter( selector =>
+const getPrevValidSelector = () => {
+  getAllSelectorArr().filter( selector =>
     getRadioIdBySelector(selector) === prevInputMode
   );
+};
 
 // new
 const getNewSelector = () =>
-  getAllSelector().filter( selector =>
+  getAllSelectorArr().filter( selector =>
     getRadioIdBySelector(selector) === inputMode
   );
 
@@ -532,8 +535,11 @@ const themeName = "tomorrow_night_bright";
 ///// eventChangeRadio
 ////////////////////
 
-const setPrevInputMode = () =>
-  ( prevInputMode = inputMode )
+const setPrevInputMode = () => {
+  testLine(prevInputMode);
+  prevInputMode = inputMode;
+  testLine(prevInputMode);
+};
 
 // https://stackoverflow.com/a/63218595
 const updateInputModeByRadio = eventChangeRadio => {
@@ -566,7 +572,6 @@ const updateConvertButtonByRadio = () => {
 
 // run 5 functions
 const updateByRadio = eventChangeRadio => {
-  try {
   // prevInputMode
   setPrevInputMode();
   testLine(prevInputMode);
@@ -579,7 +584,6 @@ const updateByRadio = eventChangeRadio => {
   editorInputSetMode();
   // style selector
   stylePrevNewSelector();
-  } catch (error) { testLine(error) }
 };
 
 // set event listener
