@@ -119,8 +119,8 @@ const editorEls = queryEls();
 testLine("editorEls selected");
 
 const editorStAttrs = {
-  position : "relative"  ,
-  width    : demoWidth   ,
+  position : "relative"   ,
+  width    : demoWidth    ,
   height   : editorHeight
 };
 setStyleEls(editorEls,editorStAttrs);
@@ -131,7 +131,7 @@ testLine("editorEls styled");
 
 
 ////////////////////
-///// mode : input
+///// input mode
 ////////////////////
 ///// style
 ////////////////////
@@ -141,73 +141,83 @@ const modeInput = queryEl();
 testLine("modeInput selected");
 
 const modeStAttrs = {
-  width              : demoWidth  ,
-  height             : modeHeight ,
-  display            : "flex"     ,
-  "flex-direction"   : "row"      ,
-  "justify-content"  : "center"   ,
-  "align-items"      : "center"
+  width             : demoWidth  ,
+  height            : modeHeight ,
+  display           : "flex"     ,
+  "flex-direction"  : "row"      ,
+  "justify-content" : "center"   ,
+  "align-items"     : "center"
 };
 setStyleEl(modeInput,modeStAttrs);
 testLine("modeInput styled");
 
 
+
+
+
 ////////////////////
-///// mode : input
+///// input mode
 ////////////////////
-///// create selector
+///// create radio
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
 const createModeRadio = (mode,checked) => {
+  // create
   const radio = document.createElement("input");
+  // style attr
   const radioStAttrs = {
     display : "none"
   };
   setStyleEl(radio,radioStAttrs);
+  // element attr
   const radioElAttrs = {
-    // radio
-    type    : "radio"     ,
-    // radio button group
-    name    : "ModeRadio" ,
-    // querySelectorAll
-    class   : "ModeRadio" ,
-    // label.for
-    id      : mode        ,
-    // event.target.value
-    value   : mode
+    type  : "radio"     ,
+    name  : "ModeRadio" ,
+    class : "ModeRadio" ,
+    id    : mode        ,
+    value : mode
   };
   setElementEl(radio,radioElAttrs);
-  // checked attr
-  // true  : set value
-  // false : do nothing
+  // checked
   checked
   ? radio.setAttribute("checked",checked)
   : null
   return radio;
 };
+
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
 const createModeLabel = mode => {
+  // create
   const label = document.createElement("label");
+  // element attr
   const labelElAttrs = {
-    // radio.id
     for   : mode ,
-    // class
     class : "ModeLabel"
   };
   setElementEl(label,labelElAttrs);
+  // style attr
   const labelStAttrs = {
     width            : modeWidth  ,
     height           : modeHeight ,
-    display          : "block"    ,
-    "text-align"     : "center"   ,
-    "vertical-align" : "middle"
+    "text-align"     : "center"
   };
   setStyleEl(label,labelStAttrs);
-  // show text
+  // text
   label.textContent = mode;
   return label;
 };
+
+
+
+
+
+////////////////////
+///// input mode
+////////////////////
+///// create selector
+////////////////////
+
 // selector > [radio,label]
 const createModeSelector = (mode,checked=false) => {
   const selector = document.createElement("div");
@@ -224,8 +234,7 @@ const createModeSelector = (mode,checked=false) => {
     width             : modeWidth  ,
     height            : modeHeight ,
     display           : "flex"     ,
-    "flex-direction"  : "row"      ,
-    "column-gap"      : "0"        ,
+    "flex-direction"  : "column"   ,
     "justify-content" : "center"   ,
     "align-items"     : "center"  
   };
@@ -234,14 +243,12 @@ const createModeSelector = (mode,checked=false) => {
 };
 
 // set initial mode
-let inputMode = "scss";
-// set prev mode
+let inputMode     = "scss";
 let prevInputMode = "sass";
-// create
+// scss : checked
+// sass : unchecked
 const selectorArgArray = [
-  // scss : checked
   ["scss",true],
-  // sass : unchecked
   ["sass"]
 ];
 selectorArgArray.forEach( arr =>
@@ -256,25 +263,25 @@ testLine("modeInput selector added");
 
 
 ////////////////////
-///// mode : input
+///// input mode
 ////////////////////
 ///// get child by selector
 ////////////////////
 
-// radio
-const getRadioBySelector = selector =>
-  selector.querySelector(".ModeRadio");
 // radio id
 const getRadioIdBySelector = selector =>
-  getRadioBySelector(selector).id;
+  selector.querySelector(".ModeRadio").id;
 
 // label
 const getLabelBySelector = selector =>
   selector.querySelector(".ModeLabel");
 
 
+
+
+
 ////////////////////
-///// mode : input
+///// input mode
 ////////////////////
 ///// get selector
 ////////////////////
@@ -291,86 +298,82 @@ const getAllSelectorArr = () => {
   return Array.from( queryEls() );
 };
 
-// prev
-const getPrevSelector = () =>
+// by checked
+const getModeByChecked = isChecked =>
+  isChecked ? inputMode : prevInputMode;
+const getSelectorByChecked = isChecked =>
   getAllSelectorArr().filter( selector =>
-    getRadioIdBySelector(selector) === prevInputMode
-  );
-
-// new
-const getNewSelector = () =>
-  getAllSelectorArr().filter( selector =>
-    getRadioIdBySelector(selector) === inputMode
+    getRadioIdBySelector(selector) === getModeByChecked(isChecked)
   );
 
 
+
+
+
 ////////////////////
-///// mode : input
+///// input mode
 ////////////////////
-///// style selector
+///// style attr
 ////////////////////
 
-// style attr
-const selectorStAttrsByChange = {
+// selector
+const selectorStAttrsByStatus = {
   checked   : { "background-color":"#ffffff" } ,
   unchecked : { "background-color":"#000000" }
 };
-const labelStAttrsByChange = {
+// label
+const labelStAttrsByStatus = {
   checked   : { "color":"#000000" , "font-size":"15px" , "font-weight":"bold" } ,
   unchecked : { "color":"#555555" , "font-size":"15px" , "font-weight":"thin" }
 };
 
 // get style arr
-// selector label
-const getStyleArrByChange = change =>
+const getStatusByChecked = isChecked =>
+  isChecked ? "checked" : "unchecked"
+const getStyleArrByChecked = isChecked =>
   [
-    selectorStAttrsByChange ,
-    labelStAttrsByChange
-  ].map( style => style[change] );
+    selectorStAttrsByStatus ,
+    labelStAttrsByStatus
+  ].map( style =>
+    style[ getStatusByChecked(isChecked) ]
+  );
 
-// style selector
-const styleSelector = (selector,change) => {
-  // element
-  const elArr = [
-    selector ,
-    getLabelBySelector(selector)
-  ];
-  // style
-  const stArr = getStyleArrByChange(change);
-  // style element
-  elArr.forEach( (el,index) => {
-    const attrs = stArr[index];
-    setStyleEl( el , attrs );
-  } );
+
+////////////////////
+///// input mode
+////////////////////
+///// style selector
+////////////////////
+
+const styleSelector = (selector,isChecked) => {
+  const elArr = [ selector , getLabelBySelector(selector) ];
+  const stArr = getStyleArrByChecked(isChecked);
+  elArr.forEach( (el,index) =>
+    setStyleEl( el , stArr[index] )
+  );
 };
 
-// prev
-const stylePrevSelector = () =>
-  getPrevSelector().forEach( selector =>
-    styleSelector( selector , "unchecked" )
-  );
-// new
-const styleNewSelector = () =>
-  getNewSelector().forEach( selector =>
-    styleSelector( selector , "checked" )
+// by checked
+const styleSelectorByChecked = isChecked =>
+  getSelectorByChecked(isChecked).forEach( selector =>
+    styleSelector( selector , isChecked )
   );
 
 // prev + new
-const stylePrevNewSelector = () => {
-  // prev
-  testLine( "style prev : " + prevInputMode );
-  stylePrevSelector();
-  // new
-  testLine( "style new : " + inputMode );
-  styleNewSelector();
-};
+const stylePrevNewSelector = () =>
+  [true,false].forEach(
+    styleSelectorByChecked
+  );
 stylePrevNewSelector();
 
 
+
+
+
 ////////////////////
-///// mode : input
+///// input mode
 ////////////////////
-///// check mode
+///// check
 ////////////////////
 
 // get current value
@@ -398,7 +401,7 @@ const isIndented = () => {
 
 
 ////////////////////
-///// mode : output
+///// output mode
 ////////////////////
 
 // fixed value
