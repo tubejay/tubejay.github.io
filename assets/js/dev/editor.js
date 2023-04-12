@@ -536,18 +536,14 @@ const themeName = "tomorrow_night_bright";
 ////////////////////
 
 const setPrevInputMode = () => {
-  testLine(prevInputMode);
   prevInputMode = inputMode;
-  testLine(prevInputMode);
 };
 
+const getChangeMode = eventChangeRadio =>
+  eventChangeRadio.target.value;
 // https://stackoverflow.com/a/63218595
 const updateInputModeByRadio = eventChangeRadio => {
-  // selected mode
-  const modeSelected = eventChangeRadio.target.value;
-  testLine(modeSelected);
-  // update inputMode
-  inputMode = modeSelected;
+  inputMode = getChangeMode(eventChangeRadio);
 };
 const updateConvertButtonByRadio = () => {
 
@@ -572,18 +568,34 @@ const updateConvertButtonByRadio = () => {
 
 // run 5 functions
 const updateByRadio = eventChangeRadio => {
+
+  testLine( "prevInputMode    : " + prevInputMode );
+  testLine( "inputMode        : " + inputMode );
+  testLine( "eventChangeRadio : " + eventChangeRadio );
+  testLine( "target           : " + eventChangeRadio.target );
+  const changeMode = getChangeMode(eventChangeRadio);
+  testLine( "changeMode       : " + changeMode );
+  if ( inputMode === changeMode ) {
+    return null;
+  };
+
   // prevInputMode
   setPrevInputMode();
-  testLine(prevInputMode);
+  testLine( "prevInputMode : " + prevInputMode );
+
   // inputMode
   updateInputModeByRadio(eventChangeRadio);
-  testLine(inputMode);
+  testLine( "inputMode : " + inputMode );
+
   // convertButton
   updateConvertButtonByRadio();
+
   // editorInput
   editorInputSetMode();
+
   // style selector
   stylePrevNewSelector();
+
 };
 
 // set event listener
