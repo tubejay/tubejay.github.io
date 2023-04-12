@@ -91,12 +91,12 @@ try {
 ///// width height
 ////////////////////
 
-const demoWidth    = "500px";
-const modeWidth    = "250px";
+const demoWidth    = "360px";
+const modeWidth    = "180px";
 
-const modeHeight   = "100px";
-const buttonHeight = "100px";
-const editorHeight = "300px";
+const modeHeight   = "60px";
+const buttonHeight = "60px";
+const editorHeight = "240px";
 
 
 ////////////////////

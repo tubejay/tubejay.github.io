@@ -6,7 +6,7 @@ permalink: /dev/web_publishing/markup
 published: true
 hidden: false
 editor: true
-test: false
+test: true
 ---
 <head>
   <base target="_blank">
