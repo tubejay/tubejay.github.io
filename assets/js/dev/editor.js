@@ -488,10 +488,7 @@ testLine("set ACE : theme");
 // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
 const themePath = "ace/theme/";
 const themeName = "tomorrow_night_bright";
-[
-  editorInput  ,
-  editorOutput
-].forEach( editor =>
+[ editorInput , editorOutput ].forEach( editor =>
   editor.setTheme( themePath + themeName )
 );
 
@@ -549,7 +546,7 @@ const updateConvertButtonByRadio = () => {
                     + getInputMode()
                     + " to "
                     + outputMode;
-  convertButton.append(text);
+  convertButton.append(textButton);
 };
 
 // run 5 functions
