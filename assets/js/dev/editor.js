@@ -431,7 +431,7 @@ const outputMode = "css";
 ///// update convert button
 ////////////////////
 
-const updateConvertButtonByRadio = () => {
+const updateConvertButton = () => {
   // remove existing text
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
   convertButton.replaceChildren();
@@ -462,9 +462,9 @@ const updateComponentByMode = () => {
   // selector
   stylePrevNewSelector();
   // input editor
-  editorInputSetMode();
+  setModeByEditor("input");
   // convert button
-  updateConvertButtonByRadio();
+  updateConvertButton();
 };
 
 
