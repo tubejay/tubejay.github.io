@@ -235,7 +235,7 @@ const createModeSelector = (mode,checked=false) => {
 // set initial mode
 let inputMode = "scss";
 // set prev mode
-let prevInputMode;
+let prevInputMode = "sass";
 // create
 const selectorArgArray = [
   // scss : checked
@@ -287,15 +287,8 @@ const getAllSelectorArr = () => {
   return Array.from( queryEls() );
 };
 
-// prev : invalid
-// all except new
-const getPrevInvalidSelector = () =>
-  getAllSelectorArr().filter( selector =>
-    getRadioIdBySelector(selector) !== inputMode
-  )
-// prev : valid
-// only prev
-const getPrevValidSelector = () => {
+// prev
+const getPrevSelector = () => {
   getAllSelectorArr().filter( selector =>
     getRadioIdBySelector(selector) === prevInputMode
   );
@@ -359,23 +352,11 @@ const styleSelector = (selector,change) => {
   } );
 };
 
-// prev : invalid
-const stylePrevInvalidSelector = () =>
-  getPrevInvalidSelector().forEach( selector =>
-    styleSelector( selector , "unchecked" )
-  );
-// prev : valid
-const stylePrevValidSelector = () =>
-  getPrevValidSelector().forEach( selector =>
-    styleSelector( selector , "unchecked" )
-  );
-// prev : invalid or valid
+// prev
 const stylePrevSelector = () =>
-  (!prevInputMode)
-  ? stylePrevInvalidSelector()
-  : stylePrevValidSelector()
-  ;
-
+  getPrevSelector().forEach( selector =>
+    styleSelector( selector , "unchecked" )
+  );
 // new
 const styleNewSelector = () =>
   getNewSelector().forEach( selector =>
