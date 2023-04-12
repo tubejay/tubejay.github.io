@@ -53,6 +53,16 @@ const testLine = el =>
     testEl.append("=".repeat(30));
 };
 
+// https://stackoverflow.com/a/40606838
+const testClear = () => {
+  if (!testOn) {return null};
+
+  // https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes#remove_all_children_from_a_node
+  testEl.childNodes.forEach(
+    child => child.remove()
+  );
+};
+
 
 
 
@@ -305,12 +315,12 @@ const getNewSelector = () =>
 
 // style attr
 const selectorStAttrs = {
-  checked   : { "background-color":"lightblue" } ,
-  unchecked : { "background-color":"darkgray"  }
+  checked   : {  } ,
+  unchecked : {  }
 };
 const radioStAttrs = {
-  checked   : {} ,
-  unchecked : {}
+  checked   : { display:"none" } ,
+  unchecked : { display:"none" }
 };
 const labelStAttrs = {
   checked   : { color:"darkblue"  , "font-weight":"bold"  } ,
@@ -328,6 +338,8 @@ const getStyleArrByChange = change =>
 
 // style selector
 const styleSelector = (selector,change) => {
+  testLine( "selector : " + getRadioIdBySelector(selector) );
+  testLine( "change : " + change );
   // element
   const elArr = [
     selector ,
@@ -337,9 +349,13 @@ const styleSelector = (selector,change) => {
   // style
   const stArr = getStyleArrByChange(change);
   // style element
-  elArr.forEach( (el,index) =>
-    setStyleEl( el , stArr[index] )
-  );
+  elArr.forEach( (el,index) => {
+    const attrs = stArr[index];
+    testLine( "index : " + index );
+    testLine( "el : " + el.class );
+    testLine( "attrs : " + Object.entries(attrs) );
+    setStyleEl( el , attrs );
+  } );
 };
 
 // prev : invalid
@@ -366,11 +382,14 @@ const styleNewSelector = () =>
   );
 
 // prev + new
-const stylePrevNewSelector = () =>
-  [
-    stylePrevSelector() ,
-    styleNewSelector()
-  ];
+const stylePrevNewSelector = () => {
+  // prev
+  testLine( "style prev" );
+  stylePrevSelector();
+  // new
+  testLine( "style new" );
+  styleNewSelector();
+};
 stylePrevNewSelector();
 
 
@@ -569,11 +588,9 @@ const updateConvertButtonByRadio = () => {
 // run 5 functions
 const updateByRadio = eventChangeRadio => {
 
-  testLine( "event.target.id : " + eventChangeRadio.target.id );
+  testClear();
+
   const changeMode = getChangeMode(eventChangeRadio);
-  // if ( inputMode === changeMode ) {
-  //   return null;
-  // };
 
   // prevInputMode
   setPrevInputMode();
@@ -584,12 +601,15 @@ const updateByRadio = eventChangeRadio => {
   testLine( "inputMode : " + inputMode );
 
   // convertButton
+  testLine( "convert button" );
   updateConvertButtonByRadio();
 
   // editorInput
+  testLine( "set input editor" );
   editorInputSetMode();
 
   // style selector
+  testLine( "style prev/new selector" );
   stylePrevNewSelector();
 
 };
