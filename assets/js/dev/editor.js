@@ -569,11 +569,11 @@ const updateConvertButtonByRadio = () => {
 // run 5 functions
 const updateByRadio = eventChangeRadio => {
 
+  testLine( "event.target.id : " + eventChangeRadio.target.id );
   const changeMode = getChangeMode(eventChangeRadio);
-  testLine( "changeMode : " + changeMode );
-  if ( inputMode === changeMode ) {
-    return null;
-  };
+  // if ( inputMode === changeMode ) {
+  //   return null;
+  // };
 
   // prevInputMode
   setPrevInputMode();
