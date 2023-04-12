@@ -221,8 +221,11 @@ const createModeSelector = (mode,checked=false) => {
   [radio,label].forEach( el =>
     selector.appendChild(el)
   );
+  const selectorElAttrs = {
+    class : "ModeSelector"
+  };
+  setElementEl(selector,selectorElAttrs);
   const selectorStAttrs = {
-    class : "ModeSelector" ,
     display           : "flex"   ,
     "flex-direction"  : "row"    ,
     "justify-content" : "center" ,
@@ -288,11 +291,10 @@ const getAllSelectorArr = () => {
 };
 
 // prev
-const getPrevSelector = () => {
+const getPrevSelector = () =>
   getAllSelectorArr().filter( selector =>
     getRadioIdBySelector(selector) === prevInputMode
   );
-};
 
 // new
 const getNewSelector = () =>
@@ -366,10 +368,10 @@ const styleNewSelector = () =>
 // prev + new
 const stylePrevNewSelector = () => {
   // prev
-  testLine( "style prev" );
+  testLine( "style prev : " + prevInputMode );
   stylePrevSelector();
   // new
-  testLine( "style new" );
+  testLine( "style new : " + inputMode );
   styleNewSelector();
 };
 stylePrevNewSelector();
