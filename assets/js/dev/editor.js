@@ -61,6 +61,7 @@ const testClear = () => {
   testEl.childNodes.forEach(
     child => child.remove()
   );
+  testEl.textContent = "";
 };
 
 
@@ -588,7 +589,7 @@ const updateConvertButtonByRadio = () => {
 // run 5 functions
 const updateByRadio = eventChangeRadio => {
 
-  testClear();
+  // testClear();
 
   const changeMode = getChangeMode(eventChangeRadio);
 
