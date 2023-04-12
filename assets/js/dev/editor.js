@@ -324,16 +324,16 @@ const getNewSelector = () =>
 
 // style attr
 const selectorStAttrsByChange = {
-  checked   : { "background-color":"darkgray" } ,
-  unchecked : { "background-colot":"lightgray" }
+  checked   : { "background-color":"#1a1a1a" } ,
+  unchecked : { "background-color":"#000000" }
 };
 const radioStAttrsByChange = {
   checked   : {  } ,
   unchecked : {  }
 };
 const labelStAttrsByChange = {
-  checked   : { "font-size":"13px" , "font-weight":"bold"  } ,
-  unchecked : { "font-size":"11px" , "font-weight":"light" }
+  checked   : { "color":"#ffffff" , "font-size":"13px" , "font-weight":"bold"  } ,
+  unchecked : { "color":"#1a1a1a" , "font-size":"10px" , "font-weight":"light" }
 };
 
 // get style arr
