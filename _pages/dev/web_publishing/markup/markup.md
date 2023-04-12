@@ -84,12 +84,10 @@ test: false
   - [cdnjs](https://cdnjs.com/libraries/sass.js)
 
 <div id="test" test="{{page.test}}"></div>
-<div id="editorDemo">
+<div id="demo">
+  <div id="modeInput"></div>
   <div id="editorInput" class="editor"></div>
-  <div id="convertSpace">
-    <div id="modeInput"></div>
-    <div id="convertButton"></div>
-  </div>
+  <div id="convertButton"></div>
   <div id="editorOutput" class="editor"></div>
 </div>
 

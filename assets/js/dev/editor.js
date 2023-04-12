@@ -85,32 +85,29 @@ try {
 ///// width height
 ////////////////////
 
-const demoWidth    = "350px";
-const buttonWidth  = "250px";
-// modeWidth = demoWidth - buttonWidth
-const modeWidth    = "100px";
+const demoWidth    = "360px";
+const modeWidth    = "180px";
 
-const editorHeight = "200px";
-const spaceHeight  = "80px";
-// modeHeight = spaceHeight / 2
-const modeHeight   = "40px";
+const modeHeight   = "60px";
+const buttonHeight = "60px";
+const editorHeight = "240px";
 
 
 ////////////////////
-///// editor demo
+///// demo
 ////////////////////
 
-query = "#editorDemo";
-const editorDemo = queryEl();
-testLine("editorDemo selected");
+query = "#demo";
+const demo = queryEl();
+testLine("demo selected");
 
 const demoStAttrs = {
   display          : "flex"   ,
   "flex-direction" : "column" ,
   "column-gap"     : "0"
 };
-setStyleEl(editorDemo,demoStAttrs);
-testLine("editorDemo styled");
+setStyleEl(demo,demoStAttrs);
+testLine("demo styled");
 
 
 ////////////////////
@@ -122,28 +119,12 @@ const editorEls = queryEls();
 testLine("editorEls selected");
 
 const editorStAttrs = {
-  position : "relative" ,
-  width    : demoWidth  ,
+  position : "relative"  ,
+  width    : demoWidth   ,
   height   : editorHeight
 };
 setStyleEls(editorEls,editorStAttrs);
 testLine("editorEls styled");
-
-
-////////////////////
-///// convert space
-////////////////////
-
-query = "#convertSpace";
-const convertSpace = queryEl();
-testLine("convertSpace selected");
-
-const spStAttrs = {
-  display      : "flex" ,
-  "column-gap" : "0"
-};
-setStyleEl(convertSpace,spStAttrs);
-testLine("convertSpace styled");
 
 
 
@@ -160,12 +141,11 @@ const modeInput = queryEl();
 testLine("modeInput selected");
 
 const modeStAttrs = {
-  width              : modeWidth   ,
-  height             : spaceHeight ,
-  border             : "0"         ,
-  display            : "flex"      ,
-  "flex-direction"   : "column"    ,
-  "justify-content"  : "center"    ,
+  width              : demoWidth  ,
+  height             : modeHeight ,
+  display            : "flex"     ,
+  "flex-direction"   : "row"      ,
+  "justify-content"  : "center"   ,
   "align-items"      : "center"
 };
 setStyleEl(modeInput,modeStAttrs);
@@ -217,10 +197,10 @@ const createModeLabel = mode => {
   };
   setElementEl(label,labelElAttrs);
   const labelStAttrs = {
-    width            : modeWidth      ,
-    height           : modeHeight     ,
-    display          : "inline-block" ,
-    "text-align"     : "center"       ,
+    width            : modeWidth  ,
+    height           : modeHeight ,
+    display          : "block"    ,
+    "text-align"     : "center"   ,
     "vertical-align" : "middle"
   };
   setStyleEl(label,labelStAttrs);
@@ -244,7 +224,8 @@ const createModeSelector = (mode,checked=false) => {
     width             : modeWidth  ,
     height            : modeHeight ,
     display           : "flex"     ,
-    // "flex-direction"  : "row"      ,
+    "flex-direction"  : "row"      ,
+    "column-gap"      : "0"        ,
     "justify-content" : "center"   ,
     "align-items"     : "center"  
   };
@@ -269,6 +250,9 @@ selectorArgArray.forEach( arr =>
   )
 );
 testLine("modeInput selector added");
+
+
+
 
 
 ////////////////////
@@ -328,24 +312,19 @@ const getNewSelector = () =>
 
 // style attr
 const selectorStAttrsByChange = {
-  checked   : { "background-color":"#1a1a1a" } ,
+  checked   : { "background-color":"#ffffff" } ,
   unchecked : { "background-color":"#000000" }
 };
-const radioStAttrsByChange = {
-  checked   : {  } ,
-  unchecked : {  }
-};
 const labelStAttrsByChange = {
-  checked   : { "color":"#ffffff" , "font-size":"15px" , "font-weight":"bold"  } ,
-  unchecked : { "color":"#dddddd" , "font-size":"13px" , "font-weight":"light" }
+  checked   : { "color":"#000000" , "font-size":"15px" , "font-weight":"bold" } ,
+  unchecked : { "color":"#555555" , "font-size":"15px" , "font-weight":"thin" }
 };
 
 // get style arr
-// selector radio label
+// selector label
 const getStyleArrByChange = change =>
   [
     selectorStAttrsByChange ,
-    radioStAttrsByChange    ,
     labelStAttrsByChange
   ].map( style => style[change] );
 
@@ -354,7 +333,6 @@ const styleSelector = (selector,change) => {
   // element
   const elArr = [
     selector ,
-    getRadioBySelector(selector) ,
     getLabelBySelector(selector)
   ];
   // style
@@ -441,14 +419,13 @@ const convertButton = queryEl();
 testLine("convertButton selected");
 
 const buttonStAttrs = {
-  width              : buttonWidth     ,
-  height             : spaceHeight     ,
+  width              : demoWidth    ,
+  height             : buttonHeight ,
   "background-color" : "#1a1a1a"    ,
   display            : "flex"       ,
   "flex-direction"   : "column"     ,
   "justify-content"  : "center"     ,
-  "align-items"      : "flex-start" ,
-  "padding-left"     : "30px"
+  "align-items"      : "center"
 };
 setStyleEl(convertButton,buttonStAttrs);
 testLine("convertButton styled");
@@ -480,7 +457,7 @@ const editorOutput = ace.edit(query);
 
 testLine("set ACE : mode");
 
-const modePath = "ace/mode/";
+const modePath      = "ace/mode/";
 const editorSetMode = (editor,modeName) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
   editor.session.setMode( modePath + modeName );
@@ -515,7 +492,7 @@ const themeName = "tomorrow_night_bright";
   editorInput  ,
   editorOutput
 ].forEach( editor =>
-  editor.setTheme(themePath+themeName)
+  editor.setTheme( themePath + themeName )
 );
 
 
@@ -556,29 +533,23 @@ const setPrevInputMode = () => {
 
 const getChangeMode = eventChangeRadio =>
   eventChangeRadio.target.value;
-// https://stackoverflow.com/a/63218595
+
 const updateInputModeByRadio = eventChangeRadio => {
+// https://stackoverflow.com/a/63218595
   inputMode = getChangeMode(eventChangeRadio);
 };
-const updateConvertButtonByRadio = () => {
 
+const updateConvertButtonByRadio = () => {
   // remove existing text
   // https://stackoverflow.com/a/65413839
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
   convertButton.replaceChildren();
-
-  // set new text
-  [
-    "Click to convert" ,
-    ": from " + getInputMode() + " to " + outputMode
-  ].forEach( text => {
-    // text
-    convertButton.append(text);
-    // br
-    const br = document.createElement("br");
-    convertButton.appendChild(br);
-  } );
-
+  // text
+  const textButton  = "Click to convert : from "
+                    + getInputMode()
+                    + " to "
+                    + outputMode;
+  convertButton.append(text);
 };
 
 // run 5 functions
@@ -657,9 +628,9 @@ const resultToEditorOutput = result => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   // valid   : text
   // invalid : formatted
-  const value  = status==="0"
-                 ? String( result["text"] )
-                 : String( result["formatted"] );
+  const value = status==="0"
+              ? String( result["text"] )
+              : String( result["formatted"] );
   editorOutputSetValue(value);
 };
 
