@@ -217,7 +217,11 @@ const createModeLabel = mode => {
   };
   setElementEl(label,labelElAttrs);
   const labelStAttrs = {
-    "text-align" : "center"
+    width            : modeWidth      ,
+    height           : modeHeight     ,
+    display          : "inline-block" ,
+    "text-align"     : "center"       ,
+    "vertical-align" : "middle"
   };
   setStyleEl(label,labelStAttrs);
   // show text
@@ -240,7 +244,7 @@ const createModeSelector = (mode,checked=false) => {
     width             : modeWidth  ,
     height            : modeHeight ,
     display           : "flex"     ,
-    "flex-direction"  : "row"      ,
+    // "flex-direction"  : "row"      ,
     "justify-content" : "center"   ,
     "align-items"     : "center"  
   };
@@ -332,8 +336,8 @@ const radioStAttrsByChange = {
   unchecked : {  }
 };
 const labelStAttrsByChange = {
-  checked   : { "color":"#ffffff" , "font-size":"13px" , "font-weight":"bold"  } ,
-  unchecked : { "color":"#1a1a1a" , "font-size":"10px" , "font-weight":"light" }
+  checked   : { "color":"#ffffff" , "font-size":"15px" , "font-weight":"bold"  } ,
+  unchecked : { "color":"#dddddd" , "font-size":"13px" , "font-weight":"light" }
 };
 
 // get style arr
