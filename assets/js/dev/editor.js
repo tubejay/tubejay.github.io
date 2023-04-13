@@ -213,15 +213,15 @@ const sheetArr       = document.styleSheets;
 const sheetArrLength = sheetArr.length;
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet
 const lastSheet      = sheetArr[sheetArrLength-1];
-// const firstSheet     = document.styleSheets[0];
+const firstSheet     = document.styleSheets[0];
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 // https://developer.mozilla.org/en-US/docs/Web/CSS/:active
 const ruleActive     = "#convertButton:active { color:blue; }";
 
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/insertRule
-lastSheet.insertRule(
-// firstSheet.insertRule(
+// lastSheet.insertRule(
+firstSheet.insertRule(
   ruleActive
 );
 
