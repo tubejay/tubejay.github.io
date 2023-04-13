@@ -208,24 +208,26 @@ testLine("convertButton : transition");
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheets
 // https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList
-const sheetArr       = document.styleSheets;
+// const sheetArr       = document.styleSheets;
 // https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList/length
-const sheetArrLength = sheetArr.length;
+// const sheetArrLength = sheetArr.length;
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet
-const lastSheet      = sheetArr[sheetArrLength-1];
+// const lastSheet      = sheetArr[sheetArrLength-1];
+const firstSheet = document.styleSheets[0];
 
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/cssRules
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSRuleList
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSRuleList/length
-const ruleArrLength  = lastSheet.cssRules.length;
+// const ruleArrLength  = lastSheet.cssRules.length;
 // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 // https://developer.mozilla.org/en-US/docs/Web/CSS/:active
 const ruleActive     = "#convertButton:active { background-color : #999999 }";
 
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/insertRule
-lastSheet.insertRule(
+// lastSheet.insertRule(
+firstSheet.insertRule(
   ruleActive ,
-  ruleArrLength-1
+  // ruleArrLength-1
 );
 
 testLine("convertButton : active");
