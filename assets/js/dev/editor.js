@@ -169,7 +169,7 @@ const buttonStAttrs = {
   width              : demoWidth    ,
   height             : buttonHeight ,
   border             : "none"       ,
-  "font-size"        : "15px"       ,
+  "font-size"        : "18px"       ,
   "font-weight"      : "600"        ,
   color              : "#000000"    ,
   "background-color" : "#ffffff"    ,
@@ -203,34 +203,6 @@ const transitionAttrs = {
 
 setStyleEl(convertButton,transitionAttrs);
 testLine("convertButton : transition");
-
-
-////////////////////
-///// convert button
-////////////////////
-///// active
-////////////////////
-
-// https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheets
-// https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList
-const sheetArr       = document.styleSheets;
-// https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList/length
-// const sheetArrLength = sheetArr.length;
-// https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet
-// const lastSheet      = sheetArr[sheetArrLength-1];
-const firstSheet     = sheetArr[0];
-
-// https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
-// https://developer.mozilla.org/en-US/docs/Web/CSS/:active
-const ruleActive     = "#convertButton:active { color:blue; }";
-
-// https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/insertRule
-// lastSheet.insertRule(
-firstSheet.insertRule(
-  ruleActive
-);
-
-testLine("convertButton : active");
 
 
 ////////////////////////////////////////
@@ -496,7 +468,7 @@ const updateConvertButton = () => {
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
   convertButton.replaceChildren();
   // append text element
-  const textButton  = "Click to convert : " + getInputMode() + " to " + outputMode;
+  const textButton  = "Convert : " + getInputMode() + " to " + outputMode;
   convertButton.append(textButton);
 };
 

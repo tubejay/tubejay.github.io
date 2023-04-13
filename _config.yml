@@ -224,7 +224,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  load_paths: [assets/css/ruwix,assets/css/twisty]
+  load_paths: [assets/css/ruwix,assets/css/twisty,assets/css/dev]
   style: expanded # https://sass-lang.com/documentation/cli/dart-sass#style
 
 
