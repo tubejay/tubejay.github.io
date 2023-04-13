@@ -88,7 +88,7 @@ test: true
   <div id="modeInput"></div>
   <div id="editorInput" class="editor"></div>
   <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button -->
-  <button id="convertButton"></button>
+  <div id="convertButton"></div>
   <div id="editorOutput" class="editor"></div>
 </div>
 

@@ -174,11 +174,6 @@ const buttonStAttrs = {
 };
 setStyleEl(convertButton,buttonStAttrs);
 
-const buttonElAttrs = {
-  type : "button"
-};
-setElementEl(convertButton,buttonElAttrs);
-
 testLine("convertButton styled");
 
 
@@ -632,8 +627,42 @@ const convertInputToOutput = () =>
   );
 
 
+////////////////////
+///// animate
+////////////////////
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+const animateKeyFrames = {
+  "background-color" : "#999999"
+};
+
+// https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
+const animateOptions = {
+  direction : "alternate"   ,
+  duration  : "500"         ,
+  easing    : "ease-in-out"
+};
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+const animateButton = () =>
+  convertButton.animate(
+    animateKeyFrames ,
+    animateOptions
+  );
+
+
 ////////////////////////////////////////
 ////////////////////////////////////////
+
+
+////////////////////
+///// define listener
+////////////////////
+
+const clickListener = () => {
+  convertInputToOutput();
+  animateButton();
+};
 
 
 ////////////////////
@@ -643,7 +672,7 @@ const convertInputToOutput = () =>
 convertButton.addEventListener(
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
   "click" ,
-  convertInputToOutput
+  clickListener
 );
 
 
