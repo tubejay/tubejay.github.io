@@ -146,7 +146,9 @@ testLine("convertButton selected");
 const buttonStAttrs = {
   width              : demoWidth    ,
   height             : buttonHeight ,
-  "background-color" : "#1a1a1a"    ,
+  "font-size"        : "20px"       ,
+  color              : "#000000"    ,
+  "background-color" : "#ffffff"    ,
   display            : "flex"       ,
   "flex-direction"   : "column"     ,
   "justify-content"  : "center"     ,
@@ -341,8 +343,8 @@ const selectorStAttrsByStatus = {
 };
 // label
 const labelStAttrsByStatus = {
-  checked   : { "color":"#000000" , "font-size":"15px" , "font-weight":"bold" } ,
-  unchecked : { "color":"#555555" , "font-size":"15px" , "font-weight":"thin" }
+  checked   : { "color":"#000000" , "font-size":"25px" , "font-weight":"bold" } ,
+  unchecked : { "color":"#888888" , "font-size":"20px" , "font-weight":"light" }
 };
 
 // get style arr
@@ -436,7 +438,7 @@ const updateConvertButton = () => {
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
   convertButton.replaceChildren();
   // append text element
-  const textButton  = "Click to convert : from " + getInputMode() + " to " + outputMode;
+  const textButton  = "Click to convert : " + getInputMode() + " to " + outputMode;
   convertButton.append(textButton);
 };
 
@@ -624,12 +626,60 @@ const convertInputToOutput = () =>
 
 
 ////////////////////
+///// transition
+////////////////////
+
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+const transitionKey     = "transition";
+const transitionValue   = "background-color 1s";
+const transitionStAttrs = {
+  mousedown : { "background-color":"#1a1a1a" , transitionKey:transitionValue } ,
+  mouseup   : { "background-color":"#ffffff" , transitionKey:transitionValue }
+};
+
+const transitionByMouseEvent = mouseEvent =>
+  setStyleEl(
+    convertButton ,
+    transitionStAttrs[mouseEvent]
+  );
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+
+
+////////////////////
+///// trigger
+////////////////////
+
+// mouse down
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event#syntax
+const triggerMouseDown = () =>
+  transitionByMouseEvent("mousedown");
+
+// mouse up
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event#syntax
+const triggerMouseUp = () => {
+  transitionByMouseEvent("mouseup");
+  convertInputToOutput();
+};
+
+
+////////////////////
 ///// add event listener
 ////////////////////
 
-convertButton.addEventListener(
-  "click",
-  convertInputToOutput
+const triggerByMouseEvent = {
+  mousedown : triggerMouseDown ,
+  mouseup   : triggerMouseUp
+};
+
+Object.entries(triggerByMouseEvent).forEach(
+  ( [mouseEvent,mouseTrigger] ) =>
+    convertButton.addEventListener(
+      mouseEvent ,
+      mouseTrigger
+    )
 );
 
 
