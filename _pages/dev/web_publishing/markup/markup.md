@@ -6,7 +6,7 @@ permalink: /dev/web_publishing/markup
 published: true
 hidden: false
 editor: true
-test: true
+test: false
 ---
 <head>
   <base target="_blank">
@@ -87,7 +87,6 @@ test: true
 <div id="demo">
   <div id="modeInput"></div>
   <div id="editorInput" class="editor"></div>
-  <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button -->
   <div id="convertButton"></div>
   <div id="editorOutput" class="editor"></div>
 </div>

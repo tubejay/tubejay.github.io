@@ -100,6 +100,40 @@ const editorHeight = "240px";
 
 
 ////////////////////
+///// animate key frame
+////////////////////
+
+// [from,to]
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+const animateKeyFrames = {
+  button : {
+    color              : [ "#000000" , "#ffffff" ] ,
+    "background-color" : [ "#ffffff" , "#000000" ]
+  }
+};
+
+
+////////////////////
+///// animate options
+////////////////////
+
+
+// https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
+const animateOptions = {
+  button : {
+    direction  : "alternate"   ,
+    duration   : 300           ,
+    iterations : 2             ,
+    easing     : "ease-in-out"
+  }
+};
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+
+
+////////////////////
 ///// demo
 ////////////////////
 
@@ -163,15 +197,18 @@ const buttonStAttrs = {
   width              : demoWidth    ,
   height             : buttonHeight ,
   border             : "none"       ,
-  "font-size"        : "18px"       ,
+  "font-size"        : "20px"       ,
   "font-weight"      : "600"        ,
-  color              : "#000000"    ,
-  "background-color" : "#ffffff"    ,
   display            : "flex"       ,
   "flex-direction"   : "column"     ,
   "justify-content"  : "center"     ,
   "align-items"      : "center"
 };
+Object.entries(
+  animateKeyFrames["button"]
+).forEach( ( [key,value] ) =>
+  buttonStAttrs[key] = value[0]
+);
 setStyleEl(convertButton,buttonStAttrs);
 
 testLine("convertButton styled");
@@ -631,25 +668,11 @@ const convertInputToOutput = () =>
 ///// animate
 ////////////////////
 
-// https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
-const animateKeyFrames = {
-  color : "#ffffff" ,
-  "background-color" : "#000000"
-};
-
-// https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
-const animateOptions = {
-  direction  : "alternate"   ,
-  duration   : 500           ,
-  iterations : 2             ,
-  easing     : "ease-in-out"
-};
-
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
 const animateButton = () =>
   convertButton.animate(
-    animateKeyFrames ,
-    animateOptions
+    animateKeyFrames["button"] ,
+    animateOptions["button"]
   );
 
 
@@ -662,8 +685,8 @@ const animateButton = () =>
 ////////////////////
 
 const clickListener = () => {
-  convertInputToOutput();
   animateButton();
+  convertInputToOutput();
 };
 
 
