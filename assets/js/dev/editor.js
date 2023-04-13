@@ -216,12 +216,11 @@ const lastSheet      = sheetArr[sheetArrLength-1];
 
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/cssRules
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSRuleList
-const ruleArr       = lastSheet.cssRules;
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSRuleList/length
-const ruleArrLength = ruleArr.length;
+const ruleArrLength  = lastSheet.cssRules.length;
 // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 // https://developer.mozilla.org/en-US/docs/Web/CSS/:active
-const ruleActive = "#convertButton:active { background-color : #999999 }";
+const ruleActive     = "#convertButton:active { background-color : #999999 }";
 
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/insertRule
 lastSheet.insertRule(
