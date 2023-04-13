@@ -136,31 +136,6 @@ testLine("modeInput styled");
 
 
 ////////////////////
-///// convert button
-////////////////////
-
-query = "#convertButton";
-const convertButton = queryEl();
-testLine("convertButton selected");
-
-const buttonStAttrs = {
-  width              : demoWidth    ,
-  height             : buttonHeight ,
-  "font-size"        : "20px"       ,
-  color              : "#000000"    ,
-  "background-color" : "#ffffff"    ,
-  display            : "flex"       ,
-  "flex-direction"   : "column"     ,
-  "justify-content"  : "center"     ,
-  "align-items"      : "center"     ,
-  // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-  "transition"       : "background-color 1s"
-};
-setStyleEl(convertButton,buttonStAttrs);
-testLine("convertButton styled");
-
-
-////////////////////
 ///// editor
 ////////////////////
 
@@ -175,6 +150,86 @@ const editorStAttrs = {
 };
 setStyleEls(editorEls,editorStAttrs);
 testLine("editorEls styled");
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+
+
+////////////////////
+///// convert button
+////////////////////
+///// default
+////////////////////
+
+query = "#convertButton";
+const convertButton = queryEl();
+
+const buttonStAttrs = {
+  width              : demoWidth    ,
+  height             : buttonHeight ,
+  border             : "none"       ,
+  "font-size"        : "15px"       ,
+  "font-weight"      : "600"        ,
+  color              : "#000000"    ,
+  "background-color" : "#ffffff"    ,
+  display            : "flex"       ,
+  "flex-direction"   : "column"     ,
+  "justify-content"  : "center"     ,
+  "align-items"      : "center"
+};
+
+setStyleEl(convertButton,buttonStAttrs);
+testLine("convertButton : default");
+
+
+////////////////////
+///// convert button
+////////////////////
+///// transition
+////////////////////
+
+const transitionAttrs = {
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
+  "transition" : "all 0.5s ease-in"
+};
+
+setStyleEl(convertButton,transitionAttrs);
+testLine("convertButton : transition");
+
+
+////////////////////
+///// convert button
+////////////////////
+///// active
+////////////////////
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheets
+// https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList
+const sheetArr       = document.styleSheets;
+// https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList/length
+const sheetArrLength = sheetArr.length;
+// https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet
+const lastSheet      = sheetArr[sheetArrLength-1];
+
+// https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/cssRules
+// https://developer.mozilla.org/en-US/docs/Web/API/CSSRuleList
+const ruleArr       = lastSheet.cssRules;
+// https://developer.mozilla.org/en-US/docs/Web/API/CSSRuleList/length
+const ruleArrLength = ruleArr.length;
+// https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+// https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+const ruleActive = "#convertButton:active { background-color : #999999 }";
+
+// https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet/insertRule
+lastSheet.insertRule(
+  ruleActive ,
+  ruleArrLength-1
+);
+
+testLine("convertButton : active");
 
 
 ////////////////////////////////////////
@@ -345,8 +400,8 @@ const selectorStAttrsByStatus = {
 };
 // label
 const labelStAttrsByStatus = {
-  checked   : { "color":"#000000" , "font-size":"25px" , "font-weight":"bold" } ,
-  unchecked : { "color":"#888888" , "font-size":"20px" , "font-weight":"light" }
+  checked   : { "color":"#000000" , "font-size":"25px" , "font-weight":"600" } ,
+  unchecked : { "color":"#999999" , "font-size":"22px" , "font-weight":"300" }
 };
 
 // get style arr
@@ -627,57 +682,19 @@ const convertInputToOutput = () =>
   );
 
 
-////////////////////
-///// transition
-////////////////////
-
-// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-const transitionStAttrs = {
-  "background-color" : "#1a1a1a"
-};
-
-const transitionClick = () =>
-  setStyleEl(
-    convertButton ,
-    transitionStAttrs
-  );
-
-
 ////////////////////////////////////////
 ////////////////////////////////////////
-
-
-////////////////////
-///// trigger
-////////////////////
-
-const triggerClick = () => {
-  transitionClick();
-  convertInputToOutput();
-};
 
 
 ////////////////////
 ///// add event listener
 ////////////////////
 
-const triggerByEvent = {
-  // click
+convertButton.addEventListener(
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-  click : triggerClick
-};
-
-Object.entries(triggerByEvent).forEach(
-  ( [event,trigger] ) =>
-    convertButton.addEventListener(
-      event ,
-      trigger
-    )
+  "click" ,
+  convertInputToOutput
 );
-
-
-////////////////////////////////////////
-////////////////////////////////////////
 
 
 ////////////////////
@@ -686,6 +703,10 @@ Object.entries(triggerByEvent).forEach(
 
 updateComponentByMode();
 setModeByEditor("output");
+
+
+////////////////////////////////////////
+////////////////////////////////////////
 
 
 ////////////////////
