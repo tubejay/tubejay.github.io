@@ -633,14 +633,16 @@ const convertInputToOutput = () =>
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
 const animateKeyFrames = {
-  "background-color" : "#999999"
+  color : "#ffffff" ,
+  "background-color" : "#000000"
 };
 
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 const animateOptions = {
-  direction : "alternate"   ,
-  duration  : "500"         ,
-  easing    : "ease-in-out"
+  direction  : "alternate"   ,
+  duration   : 500           ,
+  iterations : 2             ,
+  easing     : "ease-in-out"
 };
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
