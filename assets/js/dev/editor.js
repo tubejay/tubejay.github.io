@@ -152,14 +152,8 @@ setStyleEls(editorEls,editorStAttrs);
 testLine("editorEls styled");
 
 
-////////////////////////////////////////
-////////////////////////////////////////
-
-
 ////////////////////
 ///// convert button
-////////////////////
-///// default
 ////////////////////
 
 query = "#convertButton";
@@ -185,24 +179,7 @@ const buttonElAttrs = {
 };
 setElementEl(convertButton,buttonElAttrs);
 
-testLine("convertButton : default");
-
-
-////////////////////
-///// convert button
-////////////////////
-///// transition
-////////////////////
-
-const transitionAttrs = {
-  // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-  // https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
-  // https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
-  "transition" : "all 2s ease-in"
-};
-
-setStyleEl(convertButton,transitionAttrs);
-testLine("convertButton : transition");
+testLine("convertButton styled");
 
 
 ////////////////////////////////////////
