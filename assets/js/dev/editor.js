@@ -152,7 +152,9 @@ const buttonStAttrs = {
   display            : "flex"       ,
   "flex-direction"   : "column"     ,
   "justify-content"  : "center"     ,
-  "align-items"      : "center"
+  "align-items"      : "center"     ,
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+  "transition"       : "background-color 1s"
 };
 setStyleEl(convertButton,buttonStAttrs);
 testLine("convertButton styled");
@@ -630,17 +632,14 @@ const convertInputToOutput = () =>
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-const transitionKey     = "transition";
-const transitionValue   = "background-color 2s";
 const transitionStAttrs = {
-  mousedown : { "background-color":"#1a1a1a" , transitionKey:transitionValue } ,
-  // mouseup   : { "background-color":"#ffffff" , transitionKey:transitionValue }
+  "background-color" : "#1a1a1a"
 };
 
-const transitionByMouseEvent = mouseEvent =>
+const transitionClick = () =>
   setStyleEl(
     convertButton ,
-    transitionStAttrs[mouseEvent]
+    transitionStAttrs
   );
 
 
@@ -652,15 +651,8 @@ const transitionByMouseEvent = mouseEvent =>
 ///// trigger
 ////////////////////
 
-// mouse down
-// https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event#syntax
-const triggerMouseDown = () =>
-  transitionByMouseEvent("mousedown");
-
-// mouse up
-// https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event#syntax
-const triggerMouseUp = () => {
-  transitionByMouseEvent("mouseup");
+const triggerClick = () => {
+  transitionClick();
   convertInputToOutput();
 };
 
@@ -669,16 +661,17 @@ const triggerMouseUp = () => {
 ///// add event listener
 ////////////////////
 
-const triggerByMouseEvent = {
-  mousedown : triggerMouseDown ,
-  mouseup   : triggerMouseUp
+const triggerByEvent = {
+  // click
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+  click : triggerClick
 };
 
-Object.entries(triggerByMouseEvent).forEach(
-  ( [mouseEvent,mouseTrigger] ) =>
+Object.entries(triggerByEvent).forEach(
+  ( [event,trigger] ) =>
     convertButton.addEventListener(
-      mouseEvent ,
-      mouseTrigger
+      event ,
+      trigger
     )
 );
 
