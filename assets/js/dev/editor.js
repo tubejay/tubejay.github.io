@@ -631,10 +631,10 @@ const convertInputToOutput = () =>
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 const transitionKey     = "transition";
-const transitionValue   = "background-color 1s";
+const transitionValue   = "background-color 2s";
 const transitionStAttrs = {
   mousedown : { "background-color":"#1a1a1a" , transitionKey:transitionValue } ,
-  mouseup   : { "background-color":"#ffffff" , transitionKey:transitionValue }
+  // mouseup   : { "background-color":"#ffffff" , transitionKey:transitionValue }
 };
 
 const transitionByMouseEvent = mouseEvent =>
