@@ -178,8 +178,13 @@ const buttonStAttrs = {
   "justify-content"  : "center"     ,
   "align-items"      : "center"
 };
-
 setStyleEl(convertButton,buttonStAttrs);
+
+const buttonElAttrs = {
+  type : "button"
+};
+setElementEl(convertButton,buttonElAttrs);
+
 testLine("convertButton : default");
 
 
@@ -193,7 +198,7 @@ const transitionAttrs = {
   // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
   // https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
   // https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
-  "transition" : "all 0.5s ease-in"
+  "transition" : "all 2s ease-in"
 };
 
 setStyleEl(convertButton,transitionAttrs);
@@ -210,10 +215,10 @@ testLine("convertButton : transition");
 // https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList
 const sheetArr       = document.styleSheets;
 // https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList/length
-const sheetArrLength = sheetArr.length;
+// const sheetArrLength = sheetArr.length;
 // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet
-const lastSheet      = sheetArr[sheetArrLength-1];
-const firstSheet     = document.styleSheets[0];
+// const lastSheet      = sheetArr[sheetArrLength-1];
+const firstSheet     = sheetArr[0];
 
 // https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 // https://developer.mozilla.org/en-US/docs/Web/CSS/:active
