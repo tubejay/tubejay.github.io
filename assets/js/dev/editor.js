@@ -125,7 +125,7 @@ const animateOptions = {
     duration   : 300           ,
     iterations : 2
   }
-};o
+};
 
 
 ////////////////////////////////////////
