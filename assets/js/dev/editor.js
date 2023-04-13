@@ -107,11 +107,11 @@ const editorHeight = "240px";
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
 const animateKeyFrames = {
   button : {
-    color  : [ "#000000" , "#ffffff" ] ,
-    easing : [ "ease-in-out" ]
+    color              : [ "#000000" , "#ffffff" ] ,
+    "background-color" : [ "#ffffff" , "#000000" ] ,
+    easing             : [ "ease-in-out" ]
   }
 };
-animateKeyFrames["button"]["background-color"] = animateKeyFrames["button"]["color"].reverse();
 
 
 ////////////////////
@@ -205,9 +205,11 @@ const buttonStAttrs = {
 };
 Object.entries(
   animateKeyFrames["button"]
-).forEach( ( [key,value] ) =>
-  buttonStAttrs[key] = value[0]
-);
+).forEach( ( [key,value] ) => {
+  if (key!=="ease") {
+    buttonStAttrs[key] = value[0]
+  }
+} );
 setStyleEl(convertButton,buttonStAttrs);
 
 testLine("convertButton styled");
