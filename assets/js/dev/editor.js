@@ -107,26 +107,25 @@ const editorHeight = "240px";
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
 const animateKeyFrames = {
   button : {
-    color              : [ "#000000" , "#ffffff" ] ,
-    "background-color" : [ "#ffffff" , "#000000" ]
+    color  : [ "#000000" , "#ffffff" ] ,
+    easing : [ "ease-in-out" ]
   }
 };
+animateKeyFrames["button"]["background-color"] = animateKeyFrames["button"]["color"].reverse();
 
 
 ////////////////////
 ///// animate options
 ////////////////////
 
-
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 const animateOptions = {
   button : {
     direction  : "alternate"   ,
     duration   : 300           ,
-    iterations : 2             ,
-    easing     : "ease-in-out"
+    iterations : 2
   }
-};
+};o
 
 
 ////////////////////////////////////////
