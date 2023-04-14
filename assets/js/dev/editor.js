@@ -173,7 +173,7 @@ const demoContainerStAttrs = {
   display          : "flex"   ,
   "flex-direction" : "column" ,
   "column-gap"     : "0"      ,
-  border           : "5px solid #ffffff"
+  border           : "2px solid #ffffff"
 };
 
 // inputContainer

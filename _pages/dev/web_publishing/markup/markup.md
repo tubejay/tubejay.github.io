@@ -5,8 +5,6 @@ toc: true
 permalink: /dev/web_publishing/markup
 published: true
 hidden: false
-editor: true
-test: true
 ---
 <head>
   <base target="_blank">
@@ -69,7 +67,7 @@ test: true
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
 
-### try
+### [css test](/dev/web_publishing/markup/css_test)
 
 - Ace
   - [Homepage](https://ace.c9.io/)
@@ -82,14 +80,6 @@ test: true
   - [Getting started with Sass.js](https://github.com/medialize/sass.js/blob/master/docs/getting-started.md)
   - [Using the Sass.js API](https://github.com/medialize/sass.js/blob/master/docs/api.md)
   - [cdnjs](https://cdnjs.com/libraries/sass.js)
-
-<div id="test" test="{{page.test}}"></div>
-<div id="demoContainer">
-  <div id="inputContainer"></div>
-  <div id="editorInput" class="editor"></div>
-  <div id="convertButton"></div>
-  <div id="editorOutput" class="editor"></div>
-</div>
 
 
 
