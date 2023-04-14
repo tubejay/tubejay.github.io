@@ -75,7 +75,10 @@ const testObject = obj => {
     case true:
       Object.entries(obj).forEach(
         ( [key,value] ) =>
-          testLine( key + " : " + value )
+          testLine(
+            key + " : " + value
+            , false
+          )
       );
       break;
   };
@@ -217,7 +220,7 @@ const editorStAttrs = {
 const animateKeyFrames = {
   "convertButton" : 
     {
-      "box-shadow" : [ "none" , "inset 0 0 50px #ffffff" ]
+      "box-shadow" : [ "none" , "inset 0px 0px 50px #ffffff" ]
     }
 };
 
@@ -484,13 +487,13 @@ const inputModeSelectorByChecked = isChecked =>
 const selectorStAttrsByState = {
   checked   : {
     "background-color" : "#ffffff" ,
-    "color"            : "#000000" ,
+    "color"            : "blue" ,
     "font-size"        : "25px"    ,
     "font-weight"      : "600"
   } ,
   unchecked : {
     "background-color" : "#000000" ,
-    "color"            : "#999999" ,
+    "color"            : "red" ,
     "font-size"        : "22px"    ,
     "font-weight"      : "300"
   }
@@ -562,7 +565,6 @@ const updateInputComponentByInputMode = () => {
 
 const updateInputByRadioEvent = eventChangeRadio => {
   try {
-    // clear test log
     testClear();
     // RadioEvent -> inputMode
     updateInputModeByRadioEvent(eventChangeRadio);
@@ -769,6 +771,8 @@ const animateConvertButton = () => {
 
 const convertButtonClickListener = () => {
   try {
+    testClear();
+    // 
     convertInputToOutput();
     animateConvertButton();
   } catch (error) {
