@@ -54,14 +54,14 @@ const testHr = (n=30) =>
   testAppend( "=".repeat(n) );
 
 // line
-const testLine = el => {
+const testLine = (el,hr=true) => {
   switch (testOn) {
     case false:
       return null;
       break;
     case true:
       testAppend(el);
-      testHr();
+      hr ? testHr() : null;
       break;
   };
 };
@@ -77,7 +77,6 @@ const testObject = obj => {
         ( [key,value] ) =>
           testLine( key + " : " + value )
       );
-      testHr();
       break;
   };
 };
@@ -538,10 +537,10 @@ const stylePrevNewSelector = () =>
 
 const updateInputModeByRadioEvent = eventChangeRadio => {
   // prevInputMode
-  currentMode("prev") = currentMode("input");
+  prevInputMode = currentMode("input");
   // inputMode
   // https://stackoverflow.com/a/63218595
-  currentMode("input") = eventChangeRadio.target.value;
+  inputMode = eventChangeRadio.target.value;
 };
 
 
