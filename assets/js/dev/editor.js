@@ -484,23 +484,16 @@ const selectorStAttrsByState = {
 // get style arr
 const stateByIsChecked = isChecked =>
   isChecked ? "checked" : "unchecked"
-const stArrByIsChecked = isChecked =>
-  selectorStAttrsByState.map( style =>
-    style[ stateByIsChecked(isChecked) ]
-  );
+const stAttrsByIsChecked = isChecked =>
+  selectorStAttrsByState[ stateByIsChecked(isChecked) ];
 
 
 ////////////////////
 ///// style selector
 ////////////////////
 
-const styleSelector = (selector,isChecked) => {
-  const elArr = [ selector , inputModeLabelBySelector(selector) ];
-  const stArr = stArrByIsChecked(isChecked);
-  elArr.forEach( (el,index) =>
-    setStyleEl( el , stArr[index] )
-  );
-};
+const styleSelector = (selector,isChecked) =>
+  setStyleEl( selector , stAttrsByIsChecked(isChecked) )
 
 // isChecked
 const styleSelectorByIsChecked = isChecked =>
