@@ -103,14 +103,18 @@ const editorHeight = "240px";
 ///// animate key frame
 ////////////////////
 
-// [from,to]
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
 const animateKeyFrames = {
-  button : {
-    color              : [ "#000000" , "#ffffff" ] ,
-    "background-color" : [ "#ffffff" , "#000000" ] ,
-    easing             : [ "ease-in-out" ]
-  }
+  button : [
+    {
+      color              : "#000000" ,
+      "background-color" : "#ffffff"
+    } ,
+    {
+      color              : "#ffffff" ,
+      "background-color" : "#000000"
+    }
+  ]
 };
 
 
@@ -121,8 +125,8 @@ const animateKeyFrames = {
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 const animateOptions = {
   button : {
-    direction  : "alternate"   ,
-    duration   : 300           ,
+    direction  : "alternate" ,
+    duration   : 300         ,
     iterations : 2
   }
 };
@@ -193,25 +197,22 @@ query = "#convertButton";
 const convertButton = queryEl();
 
 const buttonStAttrs = {
-  width              : demoWidth    ,
-  height             : buttonHeight ,
-  border             : "none"       ,
-  "font-size"        : "20px"       ,
-  "font-weight"      : "600"        ,
-  display            : "flex"       ,
-  "flex-direction"   : "column"     ,
-  "justify-content"  : "center"     ,
-  "align-items"      : "center"
+  width             : demoWidth    ,
+  height            : buttonHeight ,
+  border            : "none"       ,
+  "font-size"       : "20px"       ,
+  "font-weight"     : "600"        ,
+  display           : "flex"       ,
+  "flex-direction"  : "column"     ,
+  "justify-content" : "center"     ,
+  "align-items"     : "center"
 };
-Object.entries(
-  animateKeyFrames["button"]
-).forEach( ( [key,value] ) => {
-  if (key!=="ease") {
-    buttonStAttrs[key] = value[0]
-  }
-} );
-setStyleEl(convertButton,buttonStAttrs);
+Object.assign(
+  buttonStAttrs ,
+  animateKeyFrames["button"][0]
+);
 
+setStyleEl(convertButton,buttonStAttrs);
 testLine("convertButton styled");
 
 
