@@ -516,7 +516,7 @@ const styleSelector = (selector,isChecked) => {
 
 // isChecked
 const styleSelectorByIsChecked = isChecked =>
-  inpÿutModeSelectorByChecked(isChecked).forEach( selector =>
+  inputModeSelectorByChecked(isChecked).forEach( selector =>
     styleSelector( selector , isChecked )
   );
 
