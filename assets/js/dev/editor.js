@@ -107,12 +107,12 @@ const editorHeight = "240px";
 const animateKeyFrames = {
   button : [
     {
-      color              : "#000000" ,
-      "background-color" : "#ffffff"
+      // color              : "#000000" ,
+      "background-color" : "blue"
     } ,
     {
-      color              : "#ffffff" ,
-      "background-color" : "#000000"
+      // color              : "#ffffff" ,
+      "background-color" : "red"
     }
   ]
 };
