@@ -120,7 +120,7 @@ const animateKeyFrames = {
 const animateOptions = {
   button : {
     direction  : "alternate" ,
-    duration   : 300         ,
+    duration   : 500         ,
     iterations : 2
   }
 };
