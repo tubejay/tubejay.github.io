@@ -6,7 +6,7 @@ permalink: /dev/web_publishing/markup
 published: true
 hidden: false
 editor: true
-test: false
+test: true
 ---
 <head>
   <base target="_blank">
@@ -58,7 +58,7 @@ test: false
   - [Documentation](https://sass-lang.com/documentation/)
   - [Sass(SCSS) 완전 정복!](https://heropy.blog/2018/01/31/sass/)
 
-### Online Converter
+### online converter
 
   - from CSS
     - [CSS to SCSS](https://codebeautify.org/css-to-scss-converter)
@@ -69,7 +69,7 @@ test: false
     - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
     - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
 
-### Demo
+### try
 
 - Ace
   - [Homepage](https://ace.c9.io/)
@@ -84,8 +84,8 @@ test: false
   - [cdnjs](https://cdnjs.com/libraries/sass.js)
 
 <div id="test" test="{{page.test}}"></div>
-<div id="demo">
-  <div id="modeInput"></div>
+<div id="demoContainer">
+  <div id="inputContainer"></div>
   <div id="editorInput" class="editor"></div>
   <div id="convertButton"></div>
   <div id="editorOutput" class="editor"></div>

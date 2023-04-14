@@ -1,37 +1,29 @@
 ////////////////////////////////////////
+///// function
 ////////////////////////////////////////
 
 
 ////////////////////
-///// query function
+///// use
 ////////////////////
 
+// query
 let query;
-
 const queryEl  = () => document.querySelector(query);
 const queryEls = () => document.querySelectorAll(query);
 
-
-////////////////////
-///// element function
-////////////////////
-
+// element
 const setElementEl = (el,attrs) =>
   Object.entries(attrs).forEach( ( [key,value] ) =>
     el.setAttribute(key,value)
   );
 
-
-////////////////////
-///// style function
-////////////////////
-
+// style
 const setStyleEl = (el,attrs) =>
   Object.entries(attrs).forEach( ( [key,value] ) =>
     // https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty
     el.style.setProperty(key,value)
   );
-
 const setStyleEls = (elArr,attrs) =>
   elArr.forEach( el =>
     setStyleEl(el,attrs)
@@ -39,412 +31,99 @@ const setStyleEls = (elArr,attrs) =>
 
 
 ////////////////////
-///// test function
+///// test
 ////////////////////
 
+// element
 query = "#test";
 const testEl = queryEl();
 const testOn = ( testEl.getAttribute("test") === "true" );
 
-const testLine = el =>
-{
-    if (!testOn) {return null};
+// br
+const testBr = () =>
+  testEl.innerHTML += "<br>";
 
-    query = "<br>";
-    testEl.innerHTML += query;
-    testEl.append( el )
-
-    testEl.innerHTML += query;
-    testEl.append( "=".repeat(30) );
+// append
+const testAppend = el => {
+  testBr();
+  testEl.append(el);
 };
 
-// https://stackoverflow.com/a/40606838
+// hr
+const testHr = (n=30) =>
+  testAppend( "=".repeat(n) );
+
+// line
+const testLine = el => {
+  switch (testOn) {
+    case false:
+      return null;
+      break;
+    case true:
+      testAppend(el);
+      testHr();
+      break;
+  };
+};
+
+// clear
 const testClear = () => {
-  if (!testOn) {return null};
-
-  // https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes#remove_all_children_from_a_node
-  testEl.childNodes.forEach(
-    child => child.remove()
-  );
-  testEl.innerHTML = "";
+  switch (testOn) {
+    case false:
+      return null;
+      break;
+    case true:
+      // https://stackoverflow.com/a/40606838
+      testEl.innerHTML = "";
+  };
 };
 
 
 ////////////////////////////////////////
+///// test try catch
 ////////////////////////////////////////
 
-
-////////////////////
-///// test try catch
-////////////////////
 
 testLine("test start");
-
 try {
 
 
 ////////////////////////////////////////
+///// mode
 ////////////////////////////////////////
 
 
 ////////////////////
-///// width height
+///// value
 ////////////////////
 
-const demoWidth    = "360px";
-const modeWidth    = "180px";
-
-const modeHeight   = "60px";
-const buttonHeight = "60px";
-const editorHeight = "240px";
-
-
-////////////////////
-///// animate key frame
-////////////////////
-
-// https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
-const animateKeyFrames = {
-  button : 
-    {
-      color : ["#000000","#0000ff"]
-    }
-};
-
-
-////////////////////
-///// animate options
-////////////////////
-
-// https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
-const animateOptions = {
-  button : {
-    direction  : "alternate" ,
-    duration   : 500         ,
-    iterations : 2
-  }
-};
-
-
-////////////////////////////////////////
-////////////////////////////////////////
-
-
-////////////////////
-///// demo
-////////////////////
-
-query = "#demo";
-const demo = queryEl();
-testLine("demo selected");
-
-const demoStAttrs = {
-  display          : "flex"   ,
-  "flex-direction" : "column" ,
-  "column-gap"     : "0"
-};
-setStyleEl(demo,demoStAttrs);
-testLine("demo styled");
-
-
-////////////////////
-///// input mode
-////////////////////
-
-query = "#modeInput";
-const modeInput = queryEl();
-testLine("modeInput selected");
-
-const modeStAttrs = {
-  width            : demoWidth  ,
-  height           : modeHeight ,
-  display          : "flex"     ,
-  "flex-direction" : "row"      ,
-  "column-gap"     : "0"
-};
-setStyleEl(modeInput,modeStAttrs);
-testLine("modeInput styled");
-
-
-////////////////////
-///// editor
-////////////////////
-
-query = ".editor";
-const editorEls = queryEls();
-testLine("editorEls selected");
-
-const editorStAttrs = {
-  position : "relative"   ,
-  width    : demoWidth    ,
-  height   : editorHeight
-};
-setStyleEls(editorEls,editorStAttrs);
-testLine("editorEls styled");
-
-
-////////////////////
-///// convert button
-////////////////////
-
-query = "#convertButton";
-const convertButton = queryEl();
-
-const buttonStAttrs = {
-  width              : demoWidth    ,
-  height             : buttonHeight ,
-  border             : "none"       ,
-  "background-color" : "#ffffff"    ,
-  "font-size"        : "20px"       ,
-  "font-weight"      : "600"        ,
-  display            : "flex"       ,
-  "flex-direction"   : "column"     ,
-  "justify-content"  : "center"     ,
-  "align-items"      : "center"
-};
-const animateFromAttrs = Object.fromEntries(
-  Object.entries(
-    animateKeyFrames["button"]
-  ).map( ( [key,valueArr] ) =>
-    [ key,valueArr[0] ]
-  )
-);
-Object.assign(
-  buttonStAttrs ,
-  animateFromAttrs
-);
-
-setStyleEl(convertButton,buttonStAttrs);
-testLine("convertButton styled");
-
-
-////////////////////////////////////////
-////////////////////////////////////////
-
-
-////////////////////
-///// input mode
-////////////////////
-///// create radio
-////////////////////
-
-// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
-const createModeRadio = (mode,checked) => {
-  // create
-  const radio = document.createElement("input");
-  // style attr
-  const radioStAttrs = {
-    display : "none"
-  };
-  setStyleEl(radio,radioStAttrs);
-  // element attr
-  const radioElAttrs = {
-    type  : "radio"     ,
-    name  : "ModeRadio" ,
-    class : "ModeRadio" ,
-    id    : mode        ,
-    value : mode
-  };
-  setElementEl(radio,radioElAttrs);
-  // checked
-  if (checked) {
-    radio.setAttribute("checked",checked)
-  };
-  // return
-  return radio;
-};
-
-
-////////////////////
-///// input mode
-////////////////////
-///// create label
-////////////////////
-
-// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
-const createModeLabel = mode => {
-  // create
-  const label = document.createElement("label");
-  // element attr
-  const labelElAttrs = {
-    for   : mode ,
-    class : "ModeLabel"
-  };
-  setElementEl(label,labelElAttrs);
-  // style attr
-  const labelStAttrs = {
-    width             : modeWidth  ,
-    height            : modeHeight ,
-    display           : "flex"     ,
-    "flex-direction"  : "column"   ,
-    "justify-content" : "center"   ,
-    "align-items"     : "center"  
-  };
-  setStyleEl(label,labelStAttrs);
-  // text
-  label.append(mode);
-  // return
-  return label;
-};
-
-
-////////////////////////////////////////
-////////////////////////////////////////
-
-
-////////////////////
-///// create selector
-////////////////////
-
-// selector > [radio,label]
-const createModeSelector = (mode,checked=false) => {
-  const selector = document.createElement("div");
-  const radio    = createModeRadio(mode,checked);
-  const label    = createModeLabel(mode);
-  [radio,label].forEach( el =>
-    selector.appendChild(el)
-  );
-  const selectorElAttrs = {
-    class : "ModeSelector"
-  };
-  setElementEl(selector,selectorElAttrs);
-  const selectorStAttrs = {
-    width  : modeWidth  ,
-    height : modeHeight
-  };
-  setStyleEl(selector,selectorStAttrs);
-  return selector;
-};
-
-// set initial mode
 let inputMode     = "scss";
 let prevInputMode = "sass";
-// scss : checked
-// sass : unchecked
-const selectorArgArray = [
-  ["scss",true],
-  ["sass"]
-];
-selectorArgArray.forEach( arr =>
-  modeInput.appendChild(
-    createModeSelector(...arr)
-  )
-);
-testLine("modeInput selector added");
+const outputMode  = "css";
 
 
 ////////////////////
-///// get child by selector
+///// function
 ////////////////////
 
-// radio id
-const getRadioIdBySelector = selector =>
-  selector.querySelector(".ModeRadio").id;
-
-// label
-const getLabelBySelector = selector =>
-  selector.querySelector(".ModeLabel");
-
-
-////////////////////
-///// get selector
-////////////////////
-
-// https://stackoverflow.com/a/36183750
-
-// all
-const getAllRadio = () => {
-  query = ".ModeRadio";
-  return queryEls();
-};
-const getAllSelectorArr = () => {
-  query = ".ModeSelector";
-  return Array.from( queryEls() );
+// current
+const currentMode = modeName => {
+  switch (modeName) {
+    case "input":
+      return inputMode;
+      break;
+    case "prev":
+      return prevInputMode;
+      break;
+    case "output":
+      return outputMode;
+      break;
+  };
 };
 
-// by checked
-const getModeByChecked = isChecked =>
-  isChecked ? inputMode : prevInputMode;
-const getSelectorByChecked = isChecked =>
-  getAllSelectorArr().filter( selector =>
-    getRadioIdBySelector(selector) === getModeByChecked(isChecked)
-  );
-
-
-////////////////////////////////////////
-////////////////////////////////////////
-
-
-////////////////////
-///// style attr
-////////////////////
-
-// selector
-const selectorStAttrsByStatus = {
-  checked   : { "background-color":"#ffffff" } ,
-  unchecked : { "background-color":"#000000" }
-};
-// label
-const labelStAttrsByStatus = {
-  checked   : { "color":"#000000" , "font-size":"25px" , "font-weight":"600" } ,
-  unchecked : { "color":"#999999" , "font-size":"22px" , "font-weight":"300" }
-};
-
-// get style arr
-const getStatusByChecked = isChecked =>
-  isChecked ? "checked" : "unchecked"
-const getStyleArrByChecked = isChecked =>
-  [
-    selectorStAttrsByStatus ,
-    labelStAttrsByStatus
-  ].map( style =>
-    style[ getStatusByChecked(isChecked) ]
-  );
-
-
-////////////////////
-///// style selector
-////////////////////
-
-const styleSelector = (selector,isChecked) => {
-  const elArr = [ selector , getLabelBySelector(selector) ];
-  const stArr = getStyleArrByChecked(isChecked);
-  elArr.forEach( (el,index) =>
-    setStyleEl( el , stArr[index] )
-  );
-};
-
-// by checked
-const styleSelectorByChecked = isChecked =>
-  getSelectorByChecked(isChecked).forEach( selector =>
-    styleSelector( selector , isChecked )
-  );
-
-// prev + new
-const stylePrevNewSelector = () =>
-  [true,false].forEach(
-    styleSelectorByChecked
-  );
-
-
-////////////////////////////////////////
-////////////////////////////////////////
-
-
-////////////////////
-///// input mode
-////////////////////
-///// check
-////////////////////
-
-// get current value
-const getInputMode = () =>
-    inputMode;
-
-// intendedSyntax
-const isIndented = () => {
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch#syntax
-  switch ( getInputMode() ) {
+// indented
+const currentInputIsIndented = () => {
+  switch ( currentMode("input") ) {
     // sass : true
     case "sass":
       return true;
@@ -461,95 +140,445 @@ const isIndented = () => {
 };
 
 
-////////////////////
-///// output mode
-////////////////////
-
-// fixed value
-const outputMode = "css";
-
-
 ////////////////////////////////////////
+///// style
 ////////////////////////////////////////
 
+
 ////////////////////
-///// update convert button
+///// size
 ////////////////////
 
-const updateConvertButton = () => {
-  // remove existing text
-  // https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren#emptying_a_node
-  convertButton.replaceChildren();
-  // append text element
-  const textButton  = "Convert : " + getInputMode() + " to " + outputMode;
-  convertButton.append(textButton);
+// demoContainer
+const demoContainerWidth  = "360px";
+
+// inputButton
+const inputButtonWidth    = "180px";
+const inputButtonHeight   = "60px";
+
+// editor
+const editorHeight        = "240px";
+
+// convertButton
+const convertButtonHeight = "60px";
+
+
+////////////////////
+///// fixed
+////////////////////
+
+
+// demoContainer
+const demoContainerStAttrs = {
+  display          : "flex"   ,
+  "flex-direction" : "column" ,
+  "column-gap"     : "0"      ,
+  border           : "5px solid #ffffff"
+};
+
+// inputContainer
+const inputContainerStAttrs = {
+  width            : demoContainerWidth  ,
+  height           : inputButtonHeight ,
+  display          : "flex"     ,
+  "flex-direction" : "row"      ,
+  "column-gap"     : "0"
+};
+
+// editor
+const editorStAttrs = {
+  position : "relative"   ,
+  width    : demoContainerWidth    ,
+  height   : editorHeight
 };
 
 
 ////////////////////
-///// update mode
+///// animate
 ////////////////////
 
-const updateModeByRadio = eventChangeRadio => {
+// key frames
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+const animateKeyFrames = {
+  "convertButton" : 
+    {
+      "box-shadow" : [ "none" , "inset 0 0 10px #ffffff" ]
+    }
+};
+
+// options
+// https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
+const animateOptions = {
+  "convertButton" : {
+    direction  : "alternate" ,
+    duration   : 500         ,
+    iterations : 2
+  }
+};
+
+
+////////////////////
+///// convertButton
+////////////////////
+
+// fixed
+const convertButtonStAttrs = {
+  width              : demoContainerWidth    ,
+  height             : convertButtonHeight ,
+  border             : "none"       ,
+  color              : "#ffffff"    ,
+  "background-color" : "#f21368"    ,
+  "font-size"        : "20px"       ,
+  "font-weight"      : "600"        ,
+  display            : "flex"       ,
+  "flex-direction"   : "column"     ,
+  "justify-content"  : "center"     ,
+  "align-items"      : "center"
+};
+
+// animate
+const convertButtonAnimate = Object.fromEntries(
+  Object.entries(
+    animateKeyFrames["convertButton"]
+  ).map( ( [key,valueArr] ) =>
+    [ key,valueArr[0] ]
+  )
+);
+
+// fixed + animate
+Object.assign(
+  convertButtonStAttrs ,
+  convertButtonAnimate
+);
+
+
+////////////////////////////////////////
+///// component
+////////////////////////////////////////
+
+
+////////////////////
+///// demoContainer
+////////////////////
+
+// select
+query = "#demoContainer";
+const demoContainer = queryEl();
+testLine("demoContainer selected");
+
+// style
+setStyleEl(demoContainer,demoContainerStAttrs);
+testLine("demoContainer styled");
+
+
+////////////////////
+///// inputContainer
+////////////////////
+
+// select
+query = "#inputContainer";
+const inputContainer = queryEl();
+testLine("inputContainer selected");
+
+// style
+setStyleEl(inputContainer,inputContainerStAttrs);
+testLine("inputContainer styled");
+
+
+////////////////////
+///// editor
+////////////////////
+
+// select
+query = ".editor";
+const editorEls = queryEls();
+testLine("editorEls selected");
+
+// style
+setStyleEls(editorEls,editorStAttrs);
+testLine("editorEls styled");
+
+
+////////////////////
+///// convertButton
+////////////////////
+
+// select
+query = "#convertButton";
+const convertButton = queryEl();
+
+// text
+const convertButtonText = "Click : convert to " + currentMode("output");
+convertButton.append(convertButtonText);
+
+// style
+setStyleEl(convertButton,convertButtonStAttrs);
+testLine("convertButton styled");
+
+
+////////////////////////////////////////
+///// inputContainer
+////////////////////////////////////////
+
+
+////////////////////
+///// inputModeRadio
+////////////////////
+
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
+const createInputModeRadio = (mode,checked) => {
+  // create
+  const radio = document.createElement("input");
+  // style attr
+  const radioStAttrs = {
+    display : "none"
+  };
+  setStyleEl(radio,radioStAttrs);
+  // element attr
+  const radioElAttrs = {
+    type  : "radio"     ,
+    name  : "InputModeRadio" ,
+    class : "InputModeRadio" ,
+    id    : mode        ,
+    value : mode
+  };
+  setElementEl(radio,radioElAttrs);
+  // checked
+  if (checked) {
+    radio.setAttribute("checked",checked)
+  };
+  // return
+  return radio;
+};
+
+
+////////////////////
+///// inputModeLabel
+////////////////////
+
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+const createInputModeLabel = mode => {
+  // create
+  const label = document.createElement("label");
+  // element attr
+  const labelElAttrs = {
+    for   : mode ,
+    class : "InputModeLabel"
+  };
+  setElementEl(label,labelElAttrs);
+  // style attr
+  const labelStAttrs = {
+    width             : inputButtonWidth  ,
+    height            : inputButtonHeight ,
+    display           : "flex"     ,
+    "flex-direction"  : "column"   ,
+    "justify-content" : "center"   ,
+    "align-items"     : "center"  
+  };
+  setStyleEl(label,labelStAttrs);
+  // text
+  label.append(mode);
+  // return
+  return label;
+};
+
+
+////////////////////
+///// inputModeSelector
+////////////////////
+
+// selector > [radio,label]
+const createInputModeSelector = (mode,checked=false) => {
+  const selector = document.createElement("div");
+  const radio    = createInputModeRadio(mode,checked);
+  const label    = createInputModeLabel(mode);
+  [radio,label].forEach( el =>
+    selector.appendChild(el)
+  );
+  const selectorElAttrs = {
+    class : "InputModeSelector"
+  };
+  setElementEl(selector,selectorElAttrs);
+  const selectorStAttrs = {
+    width  : inputButtonWidth  ,
+    height : inputButtonHeight
+  };
+  setStyleEl(selector,selectorStAttrs);
+  return selector;
+};
+
+// scss : checked
+// sass : unchecked
+const selectorArgArray = [
+  ["scss",true],
+  ["sass"]
+];
+selectorArgArray.forEach( arr =>
+  inputContainer.appendChild(
+    createInputModeSelector(...arr)
+  )
+);
+testLine("inputModeSelector added");
+
+
+////////////////////////////////////////
+///// inputModeSelector
+////////////////////////////////////////
+
+
+////////////////////
+///// get child by selector
+////////////////////
+
+// radio id
+const inputModeRadioIdBySelector = selector =>
+  selector.querySelector(".InputModeRadio").id;
+
+// label
+const inputModeLabelBySelector = selector =>
+  selector.querySelector(".InputModeLabel");
+
+
+////////////////////
+///// get selector
+////////////////////
+
+// all
+const inputModeRadioAll = () => {
+  query = ".InputModeRadio";
+  return queryEls();
+};
+const inputModeSelectorAll = () => {
+  query = ".InputModeSelector";
+  return Array.from( queryEls() );
+};
+
+// by checked
+const inputModeByChecked = isChecked =>
+  isChecked ? currentMode("input") : currentMode("prev");
+const inputModeSelectorByChecked = isChecked =>
+  inputModeSelectorAll().filter( selector =>
+    inputModeRadioIdBySelector(selector) === inputModeByChecked(isChecked)
+  );
+
+
+////////////////////
+///// style attr
+////////////////////
+
+const selectorStAttrsByState = {
+  checked   : {
+    "background-color" : "#ffffff" ,
+    "color"            : "#000000" ,
+    "font-size"        : "25px"    ,
+    "font-weight"      : "600"
+  } ,
+  unchecked : {
+    "background-color" : "#000000" ,
+    "color"            : "#999999" ,
+    "font-size"        : "22px"    ,
+    "font-weight"      : "300"
+  }
+};
+
+// get style arr
+const stateByIsChecked = isChecked =>
+  isChecked ? "checked" : "unchecked"
+const stArrByIsChecked = isChecked =>
+  selectorStAttrsByState.map( style =>
+    style[ stateByIsChecked(isChecked) ]
+  );
+
+
+////////////////////
+///// style selector
+////////////////////
+
+const styleSelector = (selector,isChecked) => {
+  const elArr = [ selector , inputModeLabelBySelector(selector) ];
+  const stArr = stArrByIsChecked(isChecked);
+  elArr.forEach( (el,index) =>
+    setStyleEl( el , stArr[index] )
+  );
+};
+
+// isChecked
+const styleSelectorByIsChecked = isChecked =>
+  inputModeSelectorByChecked(isChecked).forEach( selector =>
+    styleSelector( selector , isChecked )
+  );
+
+// prev + new
+const stylePrevNewSelector = () =>
+  [true,false].forEach(
+    styleSelectorByIsChecked
+  );
+
+
+////////////////////////////////////////
+///// RadioEvent
+////////////////////////////////////////
+
+
+////////////////////
+///// RadioEvent -> inputMode
+////////////////////
+
+const updateInputModeByRadioEvent = eventChangeRadio => {
   // prevInputMode
-  prevInputMode = inputMode;
+  currentMode("prev") = currentMode("input");
   // inputMode
   // https://stackoverflow.com/a/63218595
-  inputMode = eventChangeRadio.target.value;
+  currentMode("input") = eventChangeRadio.target.value;
 };
 
 
 ////////////////////
-///// update component
+///// inputMode -> inputComponent
 ////////////////////
 
-const updateComponentByMode = () => {
+const updateInputComponentByInputMode = () => {
   // selector
   stylePrevNewSelector();
   // input editor
-  setModeByEditor("input");
-  // convert button
-  updateConvertButton();
+  setEditorModeByEditorName("input");
 };
 
 
-////////////////////////////////////////
-////////////////////////////////////////
-
-
 ////////////////////
-///// update by radio
+///// RadioEvent -> input
 ////////////////////
 
-const updateByRadio = eventChangeRadio => {
+const updateInputByRadioEvent = eventChangeRadio => {
   // clear test log
   testClear();
-  // update mode
-  updateModeByRadio(eventChangeRadio);
-  testLine( "preInputMode : " + prevInputMode );
-  testLine( "inputMode    : " + inputMode );
-  // update component
-  updateComponentByMode();
+  // RadioEvent -> inputMode
+  updateInputModeByRadioEvent(eventChangeRadio);
+  testLine( "prevInputMode : " + currentMode("prev") );
+  testLine( "inputMode     : " + currentMode("input") );
+  // inputMode -> inputComponent
+  updateInputComponentByInputMode();
 };
 
 
 ////////////////////
-///// add event listener
+///// inputModeRadio
 ////////////////////
 
-getAllRadio().forEach( radio =>
+inputModeRadioAll().forEach( radio =>
   radio.addEventListener(
-    "change" , updateByRadio
+    "change" , updateInputByRadioEvent
   )
 );
 
 
 ////////////////////////////////////////
+///// set ACE
 ////////////////////////////////////////
 
 
 ////////////////////
-///// set editor
+///// editor
 ////////////////////
 
 testLine("set ACE : editor");
@@ -560,41 +589,53 @@ const editorInput  = ace.edit(query);
 query = "editorOutput";
 const editorOutput = ace.edit(query);
 
-
-////////////////////
-///// set mode
-////////////////////
-
-testLine("set ACE : mode");
-
-const modePath      = "ace/mode/";
-const setEditorByMode = (editor,modeName) =>
-  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
-  editor.session.setMode( modePath + modeName );
-
-const setModeByEditor = editorName => {
+const editorByName = editorName => {
   switch (editorName) {
     case "input":
-      setEditorByMode( editorInput  , getInputMode() );
+      return editorInput;
       break;
     case "output":
-      setEditorByMode( editorOutput , outputMode );
+      return editorOutput;
       break;
   };
 };
 
 
 ////////////////////
-///// set theme
+///// mode
+////////////////////
+
+testLine("set ACE : mode");
+
+const editorModePath      = "ace/mode/";
+const setEditorModeByModeName = (editor,modeName) =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
+  editor.session.setMode( editorModePath + modeName );
+
+const setEditorModeByEditorName = editorName =>
+  setEditorModeByModeName(
+    editorByName(editorName) ,
+    currentMode(editorName)
+  );
+
+
+////////////////////
+///// theme
 ////////////////////
 
 testLine("set ACE : theme");
 
-// https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
-const themePath = "ace/theme/";
+const editorThemePath = "ace/theme/";
+const setEditorThemeByThemeName = (editor,themeName) =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
+  editor.setTheme( editorThemePath + themeName );
+
 const themeName = "tomorrow_night_bright";
-[ editorInput , editorOutput ].forEach( editor =>
-  editor.setTheme( themePath + themeName )
+["input","output"].forEach( editorName =>
+  setEditorThemeByThemeName(
+    editorByName(editorName) ,
+    themeName
+  )
 );
 
 
@@ -619,6 +660,7 @@ const themeName = "tomorrow_night_bright";
 
 
 ////////////////////////////////////////
+///// convertButton
 ////////////////////////////////////////
 
 
@@ -626,13 +668,13 @@ const themeName = "tomorrow_night_bright";
 ///// value
 ////////////////////
 
-const getInputEditorValue = () =>
+const getEditorValue = editorName =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
-  editorInput.session.getValue();
+  editorByName(editorName).session.getValue();
 
-const setOutputEditorValue = value =>
+const setEditorValue = (editorName,value) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
-  editorOutput.session.setValue(value);
+  editorByName(editorName).session.setValue(value);
 
 
 ////////////////////
@@ -640,19 +682,19 @@ const setOutputEditorValue = value =>
 ////////////////////
 
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-const getInputEditorOption = () => ( {
-  indentedSyntax : isIndented()
+const getEditorInputOption = () => ( {
+  indentedSyntax : currentInputIsIndented()
 } );
 
-const resultToOutputEditor = result => {
-  const status = String( result["status"] );
+const resultToEditorOutput = result => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
+  const status = String( result["status"] );
   // valid   : text
   // invalid : formatted
   const value = status==="0"
               ? String( result["text"] )
-              : String( result["formatted"] );
-  setOutputEditorValue(value);
+              : String( result["message"] ) + "\n" + String( result["formatted"] );
+  setEditorValue("output",value)
 };
 
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
@@ -660,11 +702,11 @@ const convertInputToOutput = () =>
   // https://stackoverflow.com/a/75716055
   Sass.compile(
     // input
-    getInputEditorValue() ,
+    getEditorValue("input") ,
     // option
-    getInputEditorOption() ,
+    getEditorInputOption() ,
     // result to output
-    resultToOutputEditor
+    resultToEditorOutput
   );
 
 
@@ -673,10 +715,10 @@ const convertInputToOutput = () =>
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
-const animateButton = () =>
+const animateConvertButton = () =>
   convertButton.animate(
-    animateKeyFrames["button"] ,
-    animateOptions["button"]
+    animateKeyFrames["convertButton"] ,
+    animateOptions["convertButton"]
   );
 
 
@@ -688,8 +730,8 @@ const animateButton = () =>
 ///// define listener
 ////////////////////
 
-const clickListener = () => {
-  animateButton();
+const convertButtonClickListener = () => {
+  animateConvertButton();
   convertInputToOutput();
 };
 
@@ -701,7 +743,7 @@ const clickListener = () => {
 convertButton.addEventListener(
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
   "click" ,
-  clickListener
+  convertButtonClickListener
 );
 
 
@@ -709,8 +751,8 @@ convertButton.addEventListener(
 ///// initialize
 ////////////////////
 
-updateComponentByMode();
-setModeByEditor("output");
+updateInputComponentByInputMode();
+setEditorModeByEditorName("output");
 
 
 ////////////////////////////////////////
