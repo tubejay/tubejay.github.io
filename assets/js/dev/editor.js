@@ -105,16 +105,10 @@ const editorHeight = "240px";
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
 const animateKeyFrames = {
-  button : [
+  button : 
     {
-      // color              : "#000000" ,
-      "background-color" : "blue"
-    } ,
-    {
-      // color              : "#ffffff" ,
-      "background-color" : "red"
+      color : ["#000000","#0000ff"]
     }
-  ]
 };
 
 
@@ -197,19 +191,27 @@ query = "#convertButton";
 const convertButton = queryEl();
 
 const buttonStAttrs = {
-  width             : demoWidth    ,
-  height            : buttonHeight ,
-  border            : "none"       ,
-  "font-size"       : "20px"       ,
-  "font-weight"     : "600"        ,
-  display           : "flex"       ,
-  "flex-direction"  : "column"     ,
-  "justify-content" : "center"     ,
-  "align-items"     : "center"
+  width              : demoWidth    ,
+  height             : buttonHeight ,
+  border             : "none"       ,
+  "background-color" : "#ffffff"    ,
+  "font-size"        : "20px"       ,
+  "font-weight"      : "600"        ,
+  display            : "flex"       ,
+  "flex-direction"   : "column"     ,
+  "justify-content"  : "center"     ,
+  "align-items"      : "center"
 };
+const animateFromAttrs = Object.fromEntries(
+  Object.entries(
+    animateKeyFrames["button"]
+  ).map( ( [key,valueArr] ) =>
+    [ key,valueArr[0] ]
+  )
+);
 Object.assign(
   buttonStAttrs ,
-  animateKeyFrames["button"][0]
+  animateFromAttrs
 );
 
 setStyleEl(convertButton,buttonStAttrs);

@@ -1,7 +1,16 @@
 ---
 ---
 
-// https://sass-lang.com/documentation/style-rules/parent-selector
+// https://sass-lang.com/documentation/at-rules/css
+@keyframes clickTo
+  background-color : #000000
+
 #convertButton
-  &:active
-    background-color : #999999
+  // https://sass-lang.com/documentation/style-rules/parent-selector
+  &:click
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+    animation-name            : clickTo
+    animation-duration        : 200
+    animation-direction       : alternate
+    animation-iteration-count : 2
+    animation-timing-function : ease-in-out
