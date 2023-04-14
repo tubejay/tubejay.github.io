@@ -66,6 +66,22 @@ const testLine = el => {
   };
 };
 
+// object
+const testObject = obj => {
+  switch (testOn) {
+    case false:
+      return null;
+      break;
+    case true:
+      Object.entries(obj).forEach(
+        ( [key,value] ) =>
+          testLine( key + " : " + value )
+      );
+      testHr();
+      break;
+  };
+};
+
 // clear
 const testClear = () => {
   switch (testOn) {
@@ -202,7 +218,7 @@ const editorStAttrs = {
 const animateKeyFrames = {
   "convertButton" : 
     {
-      "box-shadow" : [ "none" , "inset 0 0 10px #ffffff" ]
+      "box-shadow" : [ "none" , "inset 0 0 50px #ffffff" ]
     }
 };
 
@@ -211,7 +227,7 @@ const animateKeyFrames = {
 const animateOptions = {
   "convertButton" : {
     direction  : "alternate" ,
-    duration   : 500         ,
+    duration   : 2000         ,
     iterations : 2
   }
 };
@@ -492,12 +508,15 @@ const stAttrsByIsChecked = isChecked =>
 ///// style selector
 ////////////////////
 
-const styleSelector = (selector,isChecked) =>
-  setStyleEl( selector , stAttrsByIsChecked(isChecked) )
+const styleSelector = (selector,isChecked) => {
+  const useAttrs = stAttrsByIsChecked(isChecked);
+  testObject(useAttrs)
+  setStyleEl(selector,useAttrs)
+};
 
 // isChecked
 const styleSelectorByIsChecked = isChecked =>
-  inputModeSelectorByChecked(isChecked).forEach( selector =>
+  inpÿutModeSelectorByChecked(isChecked).forEach( selector =>
     styleSelector( selector , isChecked )
   );
 
@@ -543,14 +562,18 @@ const updateInputComponentByInputMode = () => {
 ////////////////////
 
 const updateInputByRadioEvent = eventChangeRadio => {
-  // clear test log
-  testClear();
-  // RadioEvent -> inputMode
-  updateInputModeByRadioEvent(eventChangeRadio);
-  testLine( "prevInputMode : " + currentMode("prev") );
-  testLine( "inputMode     : " + currentMode("input") );
-  // inputMode -> inputComponent
-  updateInputComponentByInputMode();
+  try {
+    // clear test log
+    testClear();
+    // RadioEvent -> inputMode
+    updateInputModeByRadioEvent(eventChangeRadio);
+    testLine( "prevInputMode : " + currentMode("prev") );
+    testLine( "inputMode     : " + currentMode("input") );
+    // inputMode -> inputComponent
+    updateInputComponentByInputMode();
+  } catch (error) {
+    testLine(error);
+  }
 };
 
 
@@ -605,11 +628,15 @@ const setEditorModeByModeName = (editor,modeName) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
   editor.session.setMode( editorModePath + modeName );
 
-const setEditorModeByEditorName = editorName =>
+const setEditorModeByEditorName = editorName => {
+  const useEditor = editorByName(editorName);
+  testLine( "editorName : " + editorName );
+  const useMode   = currentMode(editorName);
+  testLine( "useMode : " + useMode );
   setEditorModeByModeName(
-    editorByName(editorName) ,
-    currentMode(editorName)
+    useEditor , useMode
   );
+};
 
 
 ////////////////////
@@ -661,9 +688,12 @@ const themeName = "tomorrow_night_bright";
 ///// value
 ////////////////////
 
-const getEditorValue = editorName =>
+const getEditorValue = editorName => {
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
-  editorByName(editorName).session.getValue();
+  const value = editorByName(editorName).session.getValue();
+  testLine( "value from Editor " + editorName );
+  return value;
+};
 
 const setEditorValue = (editorName,value) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
@@ -675,13 +705,19 @@ const setEditorValue = (editorName,value) =>
 ////////////////////
 
 // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-const getEditorInputOption = () => ( {
-  indentedSyntax : currentInputIsIndented()
-} );
+const getEditorInputOption = () => {
+  const option = {
+    indentedSyntax : currentInputIsIndented()
+  };
+  testObject(option);
+  return option;
+};
 
 const resultToEditorOutput = result => {
+  // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   const status = String( result["status"] );
+  testLine( "status : " + status );
   // valid   : text
   // invalid : formatted
   const value = status==="0"
@@ -708,11 +744,20 @@ const convertInputToOutput = () =>
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
-const animateConvertButton = () =>
-  convertButton.animate(
-    animateKeyFrames["convertButton"] ,
-    animateOptions["convertButton"]
+const animateConvertButton = () => {
+  // get
+  const convertButtonKeyFrames = animateKeyFrames["convertButton"];
+  const convertButtonOptions   = animateOptions["convertButton"];
+  // test
+  [ convertButtonKeyFrames , convertButtonOptions ].forEach(
+    attrs => testObject(attrs)
   );
+  // animate
+  convertButton.animate(
+    convertButtonKeyFrames ,
+    convertButtonOptions
+  );
+};
 
 
 ////////////////////////////////////////
@@ -724,8 +769,12 @@ const animateConvertButton = () =>
 ////////////////////
 
 const convertButtonClickListener = () => {
-  animateConvertButton();
-  convertInputToOutput();
+  try {
+    convertInputToOutput();
+    animateConvertButton();
+  } catch (error) {
+    testLine(error);
+  }
 };
 
 

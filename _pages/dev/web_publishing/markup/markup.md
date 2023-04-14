@@ -69,17 +69,6 @@ hidden: false
 
 ### [css test](/dev/web_publishing/markup/css_test)
 
-- Ace
-  - [Homepage](https://ace.c9.io/)
-  - [Kitchen Sink](https://ace.c9.io/build/kitchen-sink.html)
-  - [Themes](https://gist.github.com/RyanNutt/cb8d60997d97905f0b2aea6c3b5c8ee0)
-  - [Options](https://github.com/ajaxorg/ace/wiki/Configuring-Ace)
-  - [API Reference](https://ajaxorg.github.io/ace-api-docs/index.html)
-  - [cdnjs](https://cdnjs.com/libraries/ace)
-- Sass.js
-  - [Getting started with Sass.js](https://github.com/medialize/sass.js/blob/master/docs/getting-started.md)
-  - [Using the Sass.js API](https://github.com/medialize/sass.js/blob/master/docs/api.md)
-  - [cdnjs](https://cdnjs.com/libraries/sass.js)
 
 
 
