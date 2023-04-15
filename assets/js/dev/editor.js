@@ -44,16 +44,9 @@ query = "#test";
 const testEl = queryEl();
 const testOn = ( testEl.getAttribute("test") === "true" );
 
-// br
-const testBr = () =>
-  testEl.appendChild(
-    document.createElement("br")
-  );
-
 // text
 const testText = text => {
   childText( testEl , text );
-  testBr();
 };
 
 // hr
@@ -213,13 +206,16 @@ const demoContainerStyle = {
 ///// element
 ////////////////////
 
+testLine("demoContainer");
+
 // select
 query = "#demoContainer";
 const demoContainer = queryEl();
-testLine(demoContainer);
+testLine("select",false);
 
 // set : style
 setElStyle(demoContainer,demoContainerStyle);
+testLine("set : style",false);
 
 
 
@@ -250,13 +246,16 @@ const inputContainerStyle = {
 ///// element
 ////////////////////
 
+testLine("inputContainer");
+
 // select
 query = "#inputContainer";
 const inputContainer = queryEl();
-testLine(inputContainer);
+testLine("select",false);
 
 // set : style
 setElStyle(inputContainer,inputContainerStyle);
+testLine("set : style");
 
 
 
@@ -343,6 +342,8 @@ const inputButtonAnimate = {};
 ///// element
 ////////////////////
 
+testLine("inputButton");
+
 const inputButtonCreate = modeInput => {
   // label as button
   const inputButton = document.createElement("label");
@@ -365,13 +366,14 @@ const inputButtonCreate = modeInput => {
   return inputButton;
 };
 
+// create -> appendChild
 const modeInputArray = ["scss","sass"];
 modeInputArray.forEach( modeInput =>
   inputContainer.appendChild(
     inputButtonCreate(modeInput)
   )
 );
-testLine(inputContainer.childNodeList);
+testLine("create -> appendChild");
 
 
 
@@ -400,15 +402,18 @@ const editorStyle = {
 ///// element
 ////////////////////
 
+testLine("editor");
+
 // select
 query = ".editor";
 const editors = queryEls();
-testLine(editors);
+testLine("select",false);
 
 // set : style
 editors.forEach( editor =>
   setElStyle(editor,editorStyle)
 );
+testLine("set : style");
 
 
 
@@ -461,17 +466,21 @@ const convertButtonAnimate = {
 ///// element
 ////////////////////
 
+testLine("convertButton");
+
 // select
 query = "#convertButton";
 const convertButton = queryEl();
-testLine(convertButton);
+testLine("select",false);
 
-// style
+// set : style
 setElStyle(convertButton,convertButtonStyle);
+testLine("set : style",false);
 
 // child : text
 const convertButtonText = "Click : convert to " + getModeByName("Input");
 childText(convertButton,convertButtonText);
+testLine("child : text");
 
 
 
@@ -484,5 +493,6 @@ childText(convertButton,convertButtonText);
 
 
 } catch(error) {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/toString
   testLine( error.toString() );
 };
