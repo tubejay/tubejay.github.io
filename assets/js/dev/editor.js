@@ -139,8 +139,8 @@ const modeOutput  = "css";
 ////////////////////
 
 // get
-const getModeByName = modeName => {
-  switch (modeName) {
+const getModeByRole = role => {
+  switch (role) {
     case "Input":
       return modeInput;
       break;
@@ -438,6 +438,11 @@ const editorInput  = ace.edit(query);
 query = "editorOutput";
 const editorOutput = ace.edit(query);
 
+const editorByRole = {
+  Input   : editorInput   ,
+  Output  : editorOutput
+};
+
 
 
 ////////////////////
@@ -455,6 +460,15 @@ const setEditorMode = (editor,modeName) =>
     getEditorModeByModeName(modeName)
   );
 
+// test
+const editorModeByRole = {
+  Input   : "scss"  ,
+  Output  : "css"
+};
+Object.entries(editorModeByRole).forEach( ( [role,modeName] ) =>
+  setEditorMode( editorByRole[role] , modeName )
+);
+
 
 
 ////////////////////
@@ -471,6 +485,15 @@ const setEditorTheme = (editor,themeName) =>
   editor.setTheme(
     getEditorThemeByThemeName(themeName)
   );
+
+// test
+const editorThemeByRole = {
+  Input   : "tomorrow_night_bright" ,
+  Output  : "monokai"
+};
+Object.entries(editorThemeByRole).forEach( ( [role,themeName] ) =>
+  setEditorTheme( editorByRole[role] , themeName )
+);
 
 
 
@@ -551,21 +574,60 @@ const convertButtonStyle = {
 };
 
 // animate
-const convertButtonAnimate = {
+const convertButtonAnimateKeyFrames = {
   // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
   // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
   // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-  keyFrames : {
-    boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
-  },
-  // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
-  options   : {
-    easing     : "ease-out"   ,
-    direction  : "alternate"  ,
-    duration   : 500          ,
-    iterations : 2
-  }
+  boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
 };
+const convertButtonAnimateOptions = {
+  // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
+  easing     : "ease-out"   ,
+  direction  : "alternate"  ,
+  duration   : 500          ,
+  iterations : 2
+};
+
+// convert
+const getEditorInputValue = () =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
+  editorInput.session.getValue();
+const getEditorInputIndented = () => {
+  switch ( getModeByRole("Input") ) {
+    case "sass":
+      return true;
+      break;
+    case "scss":
+      return false;
+      break;
+    default:
+      return null;
+      break;
+  };
+};
+const getEditorInputOption = () => ( {
+  // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
+  indentedSyntax : getEditorInputIndented()
+} );
+const convertButtonConvertResultToValue = result => {
+  // status
+  // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
+  const status = String( result["status"] );
+  // value
+  // valid    : text
+  // invalid  : message + formatted
+  const value = status==="0"
+              ? String( result["text"] )
+              : String( result["message"] ) + "\n\n" + String( result["formatted"] )
+              ;
+  // return
+  return value;
+};
+const convertButtonConvertResultToOutput = result =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
+  editorOutput.session.setValue(
+    convertButtonConvertResultToValue(result)
+  );
 
 
 
@@ -585,9 +647,43 @@ setElStyle(convertButton,convertButtonStyle);
 testLine("set : style",false);
 
 // child : text
-const convertButtonText = "Click : convert to " + getModeByName("Input");
+const convertButtonText = "Click : convert to " + getModeByRole("Output");
 childText(convertButton,convertButtonText);
-testLine("child : text");
+testLine("child : text",false);
+
+// set : animate
+const convertButtonAnimate = () =>
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+  convertButton.animate(
+    convertButtonAnimateKeyFrames ,
+    convertButtonAnimateOptions
+  );
+
+// set : convert
+const convertButtonConvert = () =>
+  // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
+  // https://stackoverflow.com/a/75716055
+  Sass.compile(
+    // input value
+    getEditorInputValue()   ,
+    // input option
+    getEditorInputOption()  ,
+    // result to output
+    convertButtonConvertResultToOutput
+  );
+
+// set : event listener
+const convertButtonListener = event => {
+  convertButtonAnimate();
+  convertButtonConvert();
+};
+convertButton.addEventListener(
+  // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+  "click" ,
+  convertButtonListener
+);
+testLine("set : event listener");
 
 
 
