@@ -211,6 +211,20 @@ const editorStAttrs = {
   height   : editorHeight
 };
 
+// convertButton
+const convertButtonStAttrs = {
+  width              : demoContainerWidth  ,
+  height             : convertButtonHeight ,
+  color              : "#ffffff" ,
+  "background-color" : "#f21368" ,
+  "font-size"        : "20px"    ,
+  "font-weight"      : "600"     ,
+  display            : "flex"    ,
+  "flex-direction"   : "column"  ,
+  "justify-content"  : "center"  ,
+  "align-items"      : "center"
+};
+
 
 ////////////////////
 ///// animate
@@ -218,10 +232,14 @@ const editorStAttrs = {
 
 // key frames
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
+// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 const animateKeyFrames = {
   "convertButton" : 
     {
-      fontSize : [ "20px" , "23px" ] ,
+      fontSize        : [ "22px" ] ,
+      backgroundColor : [ "#f21300" ] ,
+      boxShadow       : [ "inset 0 0 5px 5px #ffffff" ]
     }
 };
 
@@ -231,43 +249,10 @@ const animateOptions = {
   "convertButton" : {
     easing     : "ease-in-out" ,
     direction  : "alternate"   ,
-    duration   : 500           ,
+    duration   : 750           ,
     iterations : 2
   }
 };
-
-
-////////////////////
-///// convertButton
-////////////////////
-
-// fixed
-const convertButtonStAttrs = {
-  width              : demoContainerWidth  ,
-  height             : convertButtonHeight ,
-  color              : "#ffffff" ,
-  "background-color" : "#f21368" ,
-  "font-weight"      : "600"     ,
-  display            : "flex"    ,
-  "flex-direction"   : "column"  ,
-  "justify-content"  : "center"  ,
-  "align-items"      : "center"
-};
-
-// animate
-const convertButtonAnimate = Object.fromEntries(
-  Object.entries(
-    animateKeyFrames["convertButton"]
-  ).map( ( [key,valueArr] ) =>
-    [ key,valueArr[0] ]
-  )
-);
-
-// fixed + animate
-Object.assign(
-  convertButtonStAttrs ,
-  convertButtonAnimate
-);
 
 
 ////////////////////////////////////////
