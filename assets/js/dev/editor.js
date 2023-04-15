@@ -221,8 +221,8 @@ const editorStAttrs = {
 const animateKeyFrames = {
   "convertButton" : 
     {
-      color        : [ "#000000" , "#0000ff" ] ,
-      "box-shadow" : [ "none"    , "inset 0px 0px 50px #ffffff" ]
+      color        : [ "#ffffff" , "#0000ff" ] ,
+      "box-shadow" : [ "none"    , "inset 0px 0px 0px 20px #ffffff" ]
     }
 };
 
@@ -231,7 +231,7 @@ const animateKeyFrames = {
 const animateOptions = {
   "convertButton" : {
     direction  : "alternate" ,
-    duration   : 2000         ,
+    duration   : 1000         ,
     iterations : 2
   }
 };
@@ -488,13 +488,13 @@ const inputModeSelectorByChecked = isChecked =>
 const selectorStAttrsByState = {
   checked   : {
     "background-color" : "#ffffff" ,
-    "color"            : "blue" ,
+    "color"            : "#000000" ,
     "font-size"        : "25px"    ,
     "font-weight"      : "600"
   } ,
   unchecked : {
     "background-color" : "#000000" ,
-    "color"            : "red" ,
+    "color"            : "#ffffff" ,
     "font-size"        : "22px"    ,
     "font-weight"      : "300"
   }
@@ -515,9 +515,6 @@ const styleSelector = (selector,isChecked) => {
   const useAttrs = stAttrsByIsChecked(isChecked);
   testObject(useAttrs)
   setStyleEl(selector,useAttrs)
-  const childLabel = inputModeLabelBySelector(selector);
-  testLine("childLabel.style.cssText",false);
-  testLine(style.cssText);
 };
 
 // isChecked
