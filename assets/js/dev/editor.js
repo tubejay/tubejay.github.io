@@ -484,5 +484,5 @@ childText(convertButton,convertButtonText);
 
 
 } catch(error) {
-  testLine(error);
+  testLine( error.toString() );
 };
