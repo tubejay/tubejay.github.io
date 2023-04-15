@@ -216,7 +216,7 @@ const demoContainerStyle = {
 // select
 query = "#demoContainer";
 const demoContainer = queryEl();
-testText(demoContainer);
+testLine(demoContainer);
 
 // set : style
 setElStyle(demoContainer,demoContainerStyle);
@@ -253,7 +253,7 @@ const inputContainerStyle = {
 // select
 query = "#inputContainer";
 const inputContainer = queryEl();
-testText(inputContainer);
+testLine(inputContainer);
 
 // set : style
 setElStyle(inputContainer,inputContainerStyle);
@@ -371,7 +371,7 @@ modeInputArray.forEach( modeInput =>
     inputButtonCreate(modeInput)
   )
 );
-testText(inputContainer.childNodeList);
+testLine(inputContainer.childNodeList);
 
 
 
@@ -403,7 +403,7 @@ const editorStyle = {
 // select
 query = ".editor";
 const editors = queryEls();
-testText(editors);
+testLine(editors);
 
 // set : style
 editors.forEach( editor =>
@@ -464,7 +464,7 @@ const convertButtonAnimate = {
 // select
 query = "#convertButton";
 const convertButton = queryEl();
-testText(convertButton);
+testLine(convertButton);
 
 // style
 setElStyle(convertButton,convertButtonStyle);
@@ -484,5 +484,5 @@ childText(convertButton,convertButtonText);
 
 
 } catch(error) {
-  testText(error);
+  testLine(error);
 };
