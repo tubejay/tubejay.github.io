@@ -395,7 +395,9 @@ const createInputModeLabel = inputMode => {
   };
   setStyleEl(label,labelStAttrs);
   // text child
-  label.innerHTML = "<div>" + inputMode + "</div>";
+  const textChild = document.createElement("div");
+  textChild.append(inputMode);
+  label.appendChild(textChild);
   // return
   return label;
 };
@@ -405,12 +407,12 @@ const createInputModeLabel = inputMode => {
 ///// inputModeSelector
 ////////////////////
 
-// selector > [label,radio]
+// selector > [radio,label]
 const createInputModeSelector = (inputMode,checked=false) => {
   const selector = document.createElement("div");
-  const label    = createInputModeLabel(inputMode);
   const radio    = createInputModeRadio(inputMode,checked);
-  selector.appendChild(label,radio);
+  const label    = createInputModeLabel(inputMode);
+  selector.appendChild(radio,label);
   const selectorElAttrs = {
     class : "InputModeSelector"
   };
