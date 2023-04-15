@@ -216,6 +216,7 @@ const demoContainerStyle = {
 // select
 query = "#demoContainer";
 const demoContainer = queryEl();
+testText(demoContainer);
 
 // set : style
 setElStyle(demoContainer,demoContainerStyle);
@@ -252,6 +253,7 @@ const inputContainerStyle = {
 // select
 query = "#inputContainer";
 const inputContainer = queryEl();
+testText(inputContainer);
 
 // set : style
 setElStyle(inputContainer,inputContainerStyle);
@@ -346,6 +348,11 @@ const inputButtonCreate = modeInput => {
   const inputButton = document.createElement("label");
   // set : attr
   setElAttr(inputButton,inputButtonAttr);
+  // set : attr more
+  const inputButtonAttrMore = {
+    value : modeInput
+  };
+  setElAttr(inputButton,inputButtonAttrMore);
   // set : style
   setElStyle(inputButton,inputButtonStyle);
   // child : radio
@@ -364,6 +371,7 @@ modeInputArray.forEach( modeInput =>
     inputButtonCreate(modeInput)
   )
 );
+testText(inputContainer.childNodeList);
 
 
 
@@ -395,6 +403,7 @@ const editorStyle = {
 // select
 query = ".editor";
 const editors = queryEls();
+testText(editors);
 
 // set : style
 editors.forEach( editor =>
@@ -455,6 +464,7 @@ const convertButtonAnimate = {
 // select
 query = "#convertButton";
 const convertButton = queryEl();
+testText(convertButton);
 
 // style
 setElStyle(convertButton,convertButtonStyle);
