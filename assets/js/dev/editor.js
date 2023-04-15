@@ -3,6 +3,7 @@
 ////////////////////////////////////////
 
 
+
 ////////////////////
 ///// use
 ////////////////////
@@ -31,6 +32,7 @@ const childText = (el,text,tag="div") => {
   child.append(text);
   el.appendChild(child);
 };
+
 
 
 ////////////////////
@@ -105,18 +107,26 @@ const testclear = () => {
 };
 
 
+
+
+
 ////////////////////////////////////////
 ///// test try catch
 ////////////////////////////////////////
+
 
 
 testLine("test start");
 try {
 
 
+
+
+
 ////////////////////////////////////////
 ///// mode
 ////////////////////////////////////////
+
 
 
 ////////////////////
@@ -128,6 +138,7 @@ let   modeInput   = null;
 
 // modeOutput
 const modeOutput  = "css";
+
 
 
 ////////////////////
@@ -152,9 +163,14 @@ const setModeInput = modeNew => {
 };
 
 
+
+
+
 ////////////////////////////////////////
 ///// size
 ////////////////////////////////////////
+
+
 
 // demoContainer
 const demoContainerWidth  = "360px";
@@ -170,9 +186,13 @@ const editorHeight        = "240px";
 const convertButtonHeight = "60px";
 
 
+
+
+
 ////////////////////////////////////////
 ///// demoContainer
 ////////////////////////////////////////
+
 
 
 ////////////////////
@@ -188,6 +208,7 @@ const demoContainerStyle = {
 };
 
 
+
 ////////////////////
 ///// element
 ////////////////////
@@ -200,9 +221,13 @@ const demoContainer = queryEl();
 setElStyle(demoContainer,demoContainerStyle);
 
 
+
+
+
 ////////////////////////////////////////
 ///// inputContainer
 ////////////////////////////////////////
+
 
 
 ////////////////////
@@ -219,6 +244,7 @@ const inputContainerStyle = {
 };
 
 
+
 ////////////////////
 ///// element
 ////////////////////
@@ -231,9 +257,60 @@ const inputContainer = queryEl();
 setElStyle(inputContainer,inputContainerStyle);
 
 
+
+
+
+////////////////////////////////////////
+///// inputButtonRadio
+////////////////////////////////////////
+
+
+
+////////////////////
+///// set
+////////////////////
+
+// attr
+const inputButtonRadioAttr = {
+  type  : "radio"             ,
+  name  : "inputButtonRadio"
+};
+
+// style
+const inputButtonRadioStyle = {
+  display : "none"
+};
+
+
+
+////////////////////
+///// element
+////////////////////
+
+const inputButtonRadioCreate = modeInput => {
+  // radio
+  const inputButtonRadio = document.createElement("Input");
+  // set : attr
+  setElAttr(inputButtonRadio,inputButtonRadioAttr);
+  // set : attr more
+  const inputButtonRadioAttrMore = {
+    value : modeInput
+  };
+  setElAttr(inputButtonRadio,inputButtonRadioAttrMore);
+  // set : style
+  setElStyle(inputButtonRadio,inputButtonRadioStyle);
+  // return
+  return inputButtonRadio
+};
+
+
+
+
+
 ////////////////////////////////////////
 ///// inputButton
 ////////////////////////////////////////
+
 
 
 ////////////////////
@@ -259,6 +336,7 @@ const inputButtonStyle = {
 const inputButtonAnimate = {};
 
 
+
 ////////////////////
 ///// element
 ////////////////////
@@ -276,52 +354,25 @@ const inputButtonCreate = modeInput => {
   );
   // child : text
   childText(inputButton,modeInput);
+  // return
+  return inputButton;
 };
 
-
-////////////////////////////////////////
-///// inputButton
-////////////////////////////////////////
-
-
-////////////////////
-///// set
-////////////////////
-
-// attr
-const inputButtonRadioAttr = {
-  type  : "radio"             ,
-  name  : "inputButtonRadio"
-};
-
-// style
-const inputButtonRadioStyle = {
-  display : "none"
-};
+const modeInputArray = ["scss","sass"];
+modeInputArray.forEach( modeInput =>
+  inputContainer.appendChild(
+    inputButtonCreate(modeInput)
+  )
+);
 
 
-////////////////////
-///// element
-////////////////////
 
-const inputButtonRadioCreate = modeInput => {
-  // radio
-  const inputButtonRadio = document.createElement("Input");
-  // set : attr
-  setElAttr(inputButtonRadio,inputButtonRadioAttr);
-  // set : attr more
-  const inputButtonRadioAttrMore = {
-    value : modeInput
-  };
-  setElAttr(inputButtonRadio,inputButtonRadioAttrMore);
-  // set : style
-  setElStyle(inputButtonRadio,inputButtonRadioStyle);
-};
 
 
 ////////////////////////////////////////
 ///// editor
 ////////////////////////////////////////
+
 
 
 ////////////////////
@@ -334,6 +385,7 @@ const editorStyle = {
   width    : demoContainerWidth ,
   height   : editorHeight
 };
+
 
 
 ////////////////////
@@ -350,9 +402,13 @@ editors.forEach( editor =>
 );
 
 
+
+
+
 ////////////////////////////////////////
 ///// convertButton
 ////////////////////////////////////////
+
 
 
 ////////////////////
@@ -391,6 +447,7 @@ const convertButtonAnimate = {
 };
 
 
+
 ////////////////////
 ///// element
 ////////////////////
@@ -407,9 +464,14 @@ const convertButtonText = "Click : convert to " + getModeByName("Input");
 childText(convertButton,convertButtonText);
 
 
+
+
+
 ////////////////////////////////////////
 ///// test try catch
 ////////////////////////////////////////
+
+
 
 } catch(error) {
   testText(error);
