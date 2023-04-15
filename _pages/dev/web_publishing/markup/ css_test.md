@@ -15,9 +15,9 @@ test: true
 
 <div id="demoContainer">
   <div id="inputContainer"></div>
-  <div id="editorInput" class="editor"></div>
+  <!-- <div id="editorInput" class="editor"></div> -->
   <div id="convertButton"></div>
-  <div id="editorOutput" class="editor"></div>
+  <!-- <div id="editorOutput" class="editor"></div> -->
 </div>
 
 
