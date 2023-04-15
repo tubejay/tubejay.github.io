@@ -80,6 +80,7 @@ const testObject = obj => {
             , false
           )
       );
+      testHr();
       break;
   };
 };
@@ -220,7 +221,8 @@ const editorStAttrs = {
 const animateKeyFrames = {
   "convertButton" : 
     {
-      "box-shadow" : [ "none" , "inset 0px 0px 50px #ffffff" ]
+      color        : [ "#000000" , "#0000ff" ] ,
+      "box-shadow" : [ "none"    , "inset 0px 0px 50px #ffffff" ]
     }
 };
 
@@ -241,10 +243,9 @@ const animateOptions = {
 
 // fixed
 const convertButtonStAttrs = {
-  width              : demoContainerWidth    ,
+  width              : demoContainerWidth  ,
   height             : convertButtonHeight ,
   border             : "none"       ,
-  color              : "#ffffff"    ,
   "background-color" : "#f21368"    ,
   "font-size"        : "20px"       ,
   "font-weight"      : "600"        ,
@@ -514,6 +515,9 @@ const styleSelector = (selector,isChecked) => {
   const useAttrs = stAttrsByIsChecked(isChecked);
   testObject(useAttrs)
   setStyleEl(selector,useAttrs)
+  const childLabel = inputModeLabelBySelector(selector);
+  testLine("childLabel.style.cssText",false);
+  testLine(style.cssText);
 };
 
 // isChecked
@@ -631,9 +635,9 @@ const setEditorModeByModeName = (editor,modeName) =>
 
 const setEditorModeByEditorName = editorName => {
   const useEditor = editorByName(editorName);
-  testLine( "editorName : " + editorName );
   const useMode   = currentMode(editorName);
-  testLine( "useMode : " + useMode );
+  testLine( "editorName : " + editorName , false );
+  testLine( "useMode    : " + useMode );
   setEditorModeByModeName(
     useEditor , useMode
   );
@@ -772,8 +776,9 @@ const animateConvertButton = () => {
 const convertButtonClickListener = () => {
   try {
     testClear();
-    // 
+    // input -> output
     convertInputToOutput();
+    // convertButton
     animateConvertButton();
   } catch (error) {
     testLine(error);
