@@ -192,15 +192,15 @@ const demoContainerStAttrs = {
   display          : "flex"   ,
   "flex-direction" : "column" ,
   "column-gap"     : "0"      ,
-  border           : "2px solid #ffffff"
+  border           : "0px solid #ffffff"
 };
 
 // inputContainer
 const inputContainerStAttrs = {
-  width            : demoContainerWidth  ,
-  height           : inputButtonHeight ,
-  display          : "flex"     ,
-  "flex-direction" : "row"      ,
+  width            : demoContainerWidth ,
+  height           : inputButtonHeight  ,
+  display          : "flex" ,
+  "flex-direction" : "row"  ,
   "column-gap"     : "0"
 };
 
@@ -221,7 +221,7 @@ const editorStAttrs = {
 const animateKeyFrames = {
   "convertButton" : 
     {
-      "font-size" : [ "20px" , "23px" ] ,
+      fontSize : [ "20px" , "23px" ] ,
     }
 };
 
@@ -488,14 +488,14 @@ const inputModeSelectorByChecked = isChecked =>
 
 const selectorStAttrsByState = {
   checked   : {
-    "background-color" : "#ffffff" ,
+    "background-color" : "#f21368" ,
     "color"            : "#000000" ,
     "font-size"        : "25px"    ,
     "font-weight"      : "600"
   } ,
   unchecked : {
     "background-color" : "#000000" ,
-    "color"            : "#ffffff" ,
+    "color"            : "#f21368" ,
     "font-size"        : "22px"    ,
     "font-weight"      : "300"
   }
