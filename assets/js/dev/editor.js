@@ -221,8 +221,7 @@ const editorStAttrs = {
 const animateKeyFrames = {
   "convertButton" : 
     {
-      color        : [ "#ffffff" , "#0000ff" ] ,
-      "box-shadow" : [ "none"    , "inset 0px 0px 0px 20px #ffffff" ]
+      "font-size" : [ "20px" , "23px" ] ,
     }
 };
 
@@ -230,8 +229,9 @@ const animateKeyFrames = {
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 const animateOptions = {
   "convertButton" : {
-    direction  : "alternate" ,
-    duration   : 1000         ,
+    easing     : "ease-in-out" ,
+    direction  : "alternate"   ,
+    duration   : 500           ,
     iterations : 2
   }
 };
@@ -245,13 +245,12 @@ const animateOptions = {
 const convertButtonStAttrs = {
   width              : demoContainerWidth  ,
   height             : convertButtonHeight ,
-  border             : "none"       ,
-  "background-color" : "#f21368"    ,
-  "font-size"        : "20px"       ,
-  "font-weight"      : "600"        ,
-  display            : "flex"       ,
-  "flex-direction"   : "column"     ,
-  "justify-content"  : "center"     ,
+  color              : "#ffffff" ,
+  "background-color" : "#f21368" ,
+  "font-weight"      : "600"     ,
+  display            : "flex"    ,
+  "flex-direction"   : "column"  ,
+  "justify-content"  : "center"  ,
   "align-items"      : "center"
 };
 
@@ -345,7 +344,7 @@ testLine("convertButton styled");
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
-const createInputModeRadio = (mode,checked) => {
+const createInputModeRadio = (inputMode,checked) => {
   // create
   const radio = document.createElement("input");
   // style attr
@@ -358,8 +357,8 @@ const createInputModeRadio = (mode,checked) => {
     type  : "radio"     ,
     name  : "InputModeRadio" ,
     class : "InputModeRadio" ,
-    id    : mode        ,
-    value : mode
+    id    : inputMode        ,
+    value : inputMode
   };
   setElementEl(radio,radioElAttrs);
   // checked
@@ -376,12 +375,12 @@ const createInputModeRadio = (mode,checked) => {
 ////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
-const createInputModeLabel = mode => {
+const createInputModeLabel = inputMode => {
   // create
   const label = document.createElement("label");
   // element attr
   const labelElAttrs = {
-    for   : mode ,
+    for   : inputMode ,
     class : "InputModeLabel"
   };
   setElementEl(label,labelElAttrs);
@@ -395,8 +394,8 @@ const createInputModeLabel = mode => {
     "align-items"     : "center"  
   };
   setStyleEl(label,labelStAttrs);
-  // text
-  label.append(mode);
+  // text child
+  label.innerHTML = "<div>" + inputMode + "</div>";
   // return
   return label;
 };
@@ -406,14 +405,12 @@ const createInputModeLabel = mode => {
 ///// inputModeSelector
 ////////////////////
 
-// selector > [radio,label]
-const createInputModeSelector = (mode,checked=false) => {
+// selector > [label,radio]
+const createInputModeSelector = (inputMode,checked=false) => {
   const selector = document.createElement("div");
-  const radio    = createInputModeRadio(mode,checked);
-  const label    = createInputModeLabel(mode);
-  [radio,label].forEach( el =>
-    selector.appendChild(el)
-  );
+  const label    = createInputModeLabel(inputMode);
+  const radio    = createInputModeRadio(inputMode,checked);
+  selector.appendChild(label,radio);
   const selectorElAttrs = {
     class : "InputModeSelector"
   };
@@ -773,10 +770,10 @@ const animateConvertButton = () => {
 const convertButtonClickListener = () => {
   try {
     testClear();
-    // input -> output
-    convertInputToOutput();
     // convertButton
     animateConvertButton();
+    // input -> output
+    convertInputToOutput();
   } catch (error) {
     testLine(error);
   }
