@@ -412,7 +412,9 @@ const createInputModeSelector = (inputMode,checked=false) => {
   const selector = document.createElement("div");
   const radio    = createInputModeRadio(inputMode,checked);
   const label    = createInputModeLabel(inputMode);
-  selector.appendChild(radio,label);
+  [radio,label].forEach( child =>
+    selector.appendChild(child)
+  );
   const selectorElAttrs = {
     class : "InputModeSelector"
   };
