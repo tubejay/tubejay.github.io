@@ -557,10 +557,12 @@ const updateInputByRadioEvent = eventChangeRadio => {
   try {
     testClear();
     // RadioEvent -> inputMode
+    testLine("inputMode : update");
     updateInputModeByRadioEvent(eventChangeRadio);
     testLine( "prevInputMode : " + currentMode("prevInput") , false );
     testLine( "inputMode     : " + currentMode("Input") );
     // inputMode -> inputComponent
+    testLine("inputComponent : update");
     updateInputComponentByInputMode();
   } catch (error) {
     testLine(error);
@@ -577,7 +579,6 @@ inputModeRadioAll().forEach( radio =>
     "change" , updateInputByRadioEvent
   )
 );
-
 testLine("inputModeRadio : change event");
 
 
@@ -744,7 +745,7 @@ const convertEditorInputToEditorOutput = () => {
 
 // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
 const animateConvertButton = () => {
-  testLine("animate convertButton");
+  testLine("convertButton : animate");
   // get
   const convertButtonKeyFrames = animateKeyFrames["convertButton"];
   const convertButtonOptions   = animateOptions["convertButton"];
@@ -786,7 +787,6 @@ convertButton.addEventListener(
   "click" ,
   convertButtonClickListener
 );
-
 testLine("convertButton : click event");
 
 
@@ -794,7 +794,10 @@ testLine("convertButton : click event");
 ///// initialize
 ////////////////////
 
+testLine("inputComponent : initialize");
 updateInputComponentByInputMode();
+
+testLine("editorOutput : initialize");
 setEditorModeByEditorName("Output");
 
 
