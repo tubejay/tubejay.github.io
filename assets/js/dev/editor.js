@@ -58,7 +58,7 @@ const testText = text => {
 
 // hr
 const testHr = (n=30) =>
-  testText( "=",repeat(n) );
+  testText( "=".repeat(n) );
 
 // line
 const testLine = (text,hr=true) => {
