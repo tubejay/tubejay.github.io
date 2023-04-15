@@ -420,6 +420,113 @@ testLine("set : style");
 
 
 ////////////////////////////////////////
+///// ACE
+////////////////////////////////////////
+
+
+
+////////////////////
+///// edit
+////////////////////
+
+testLine("ACE");
+testLine("edit",false);
+
+// https://ajaxorg.github.io/ace-api-docs/modules.html#edit
+query = "editorInput";
+const editorInput  = ace.edit(query);
+query = "editorOutput";
+const editorOutput = ace.edit(query);
+
+
+
+////////////////////
+///// mode
+////////////////////
+
+testLine("mode",false);
+
+// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
+const editorModePath = "ace/mode/";
+const getEditorModeByModeName = modeName =>
+  editorModePath + modeName;
+const setEditorMode = (editor,modeName) =>
+  editor.session.setMode(
+    getEditorModeByModeName(modeName)
+  );
+
+
+
+////////////////////
+///// theme
+////////////////////
+
+testLine("theme",false);
+
+// https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
+const editorThemePath = "ace/theme/";
+const getEditorThemeByThemeName = themeName =>
+  editorThemePath + themeName;
+const setEditorTheme = (editor,themeName) =>
+  editor.setTheme(
+    getEditorThemeByThemeName(themeName)
+  );
+
+
+
+////////////////////
+///// option
+////////////////////
+
+testLine("option");
+
+// https://ace.c9.io/#nav=howto
+// https://github.com/ajaxorg/ace/wiki/Configuring-Ace
+const editorOption = {
+  All : {
+    selectionStyle            : "line"          ,
+    highlightActiveLine       : true            ,
+    highlightSelectedWord     : true            ,
+    copyWithEmptySelection    : true            ,
+    useSoftTabs               : true            ,
+    enableAutoIndent          : true            ,
+    hScrollBarAlwaysVisible   : false           ,
+    vScrollBarAlwaysVisible   : false           ,
+    animatedScroll            : false           ,
+    fadeFoldWidgets           : false           ,
+    showFoldWidgets           : true            ,
+    showLineNumbers           : true            ,
+    displayIndentGuides       : true            ,
+    highlightIndentGuides     : true            ,
+    fontSize                  : "15px"          ,
+    fontFamily                : "IBM Plex Mono" ,
+    tabSize                   : 2               ,
+    enableBasicAutocompletion : true            ,
+    enableLiveAutocompletion  : true            ,
+    enableSnippets            : true            ,
+  },
+  Input : {
+    readOnly : false
+  },
+  Output : {
+    readOnly : true
+  },
+};
+
+// Input/Output
+[ editorInput , editorOutput ].forEach( editor =>
+  editor.setOptions( editorOption["All"] )
+);
+// Input
+editorInput.setOptions( editorOption["Input"] );
+// Output
+editorOutput.setOptions( editorOption["Output"] );
+
+
+
+
+
+////////////////////////////////////////
 ///// convertButton
 ////////////////////////////////////////
 
