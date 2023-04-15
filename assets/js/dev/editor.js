@@ -489,7 +489,7 @@ const setEditorTheme = (editor,themeName) =>
 // test
 const editorThemeByRole = {
   Input   : "tomorrow_night_bright" ,
-  Output  : "monokai"
+  Output  : "terminal"
 };
 Object.entries(editorThemeByRole).forEach( ( [role,themeName] ) =>
   setEditorTheme( editorByRole[role] , themeName )
@@ -515,14 +515,20 @@ const editorOption = {
     enableAutoIndent          : true            ,
     hScrollBarAlwaysVisible   : false           ,
     vScrollBarAlwaysVisible   : false           ,
+    highlightGutterLine       : true            ,
     animatedScroll            : false           ,
+    showInvisibles            : true            ,
     fadeFoldWidgets           : false           ,
     showFoldWidgets           : true            ,
     showLineNumbers           : true            ,
+    showGutter                : true            ,
     displayIndentGuides       : true            ,
     highlightIndentGuides     : true            ,
     fontSize                  : "15px"          ,
     fontFamily                : "IBM Plex Mono" ,
+    scrollPastEnd             : 0.5             ,
+    tooltipFollowsMouse       : true            ,
+    useWorker                 : true            ,
     tabSize                   : 2               ,
     enableBasicAutocompletion : true            ,
     enableLiveAutocompletion  : true            ,
