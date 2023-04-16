@@ -705,12 +705,11 @@ const setEditorValueByRole = (role,value) =>
     value
   );
 const convertResultToEditorByRole = role => {
-  const resultToEditor = result =>
+  result =>
     setEditorValueByRole(
       role ,
       convertResultToValue(result)
     );
-  return resultToEditor;
 };
 
 
@@ -755,19 +754,24 @@ const convertButtonConvert = () => {
   const roleInput = editorRoles[0];
   const roleOutput = editorRoles[1];
   try {
-    // set
+    // inputValue
+    testLine( "inputValue" , false );
     const inputValue = getEditorValueByRole(roleInput);
+    testLine( "- length : " + inputValue.length );
+    // inputOption
     const inputOption = getEditorOptionByRole(roleInput);
+    testObject( inputOption , "inputOption" );
+    // resultToOutput
+    testLine( "resultToOutput" , false );
     const resultToOutput = convertResultToEditorByRole(roleOutput);
+    testLine( "- typeof : " + typeof resultToOutput );
     // compile
+    testLine( "compile" );
     // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
     // https://stackoverflow.com/a/75716055
     Sass.compile(
-      // input value
       inputValue ,
-      // input option
       inputOption ,
-      // result to output
       resultToOutput
     );
   } catch (error) {
