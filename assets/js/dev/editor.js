@@ -631,23 +631,23 @@ const convertButtonStyle = {
 };
 
 // animate
-const convertButtonAnimateKeyFramesOptions = [
+const convertButtonAnimateKeyFramesOptions = {
   // KeyFrames
-  {
+  KeyFrames : {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
     boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
   } ,
   // Options
-  {
+  Options : {
     // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
     easing     : "ease-out"   ,
     direction  : "alternate"  ,
     duration   : 500          ,
     iterations : 2
   }
-];
+};
 
 // convert : value
 const getEditorValue = editor =>
@@ -733,11 +733,20 @@ childText(convertButton,convertButtonText);
 testLine("child : text",false);
 
 // set : animate
-const convertButtonAnimate = () =>
+const convertButtonAnimate = () => {
+  const [KeyFrames,Options] = Object.values(
+    convertButtonAnimateKeyFramesOptions
+  );
+  testLine("KeyFrames",false);
+  testObject(KeyFrames);
+  testLine("Options",false);
+  testObject(Options);
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
   convertButton.animate(
-    ...convertButtonAnimateKeyFramesOptions
+    KeyFrames ,
+    Options
   );
+};
 
 // set : convert
 const convertButtonConvert = () => {
@@ -763,7 +772,9 @@ const convertButtonConvert = () => {
 // set : event listener
 const convertButtonListener = event => {
   testclear();
+  testLine("animate");
   convertButtonAnimate();
+  testLine("convert");
   convertButtonConvert();
 };
 convertButton.addEventListener(
