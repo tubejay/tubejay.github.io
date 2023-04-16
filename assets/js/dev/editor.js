@@ -195,7 +195,7 @@ const setModeByRole = (role,modeNew) => {
   };
 };
 const setModeByIndex = (index,modeNew) =>
-  setModeByRole( getModeByIndex(index) );
+  setModeByRole( getRoleByIndex(index) );
 
 
 
@@ -391,7 +391,7 @@ const inputButtonStyleKebab = {
     easing     : "ease-in-out" ,
     direction  : "alternate"   ,
     duration   : 500           ,
-    iterations : 2
+    iterations : 1
   }
 };
 
@@ -431,10 +431,10 @@ const inputButtonAll = () => {
 const inputButtonBoolByState = state => {
   switch (state) {
     case "unchecked":
-      return false;
+      return true;
       break;
     case "checked":
-      return true;
+      return false;
       break;
   };
 };
@@ -442,7 +442,8 @@ const inputButtonEqualValue = (inputButton,value) =>
   inputButton.getAttribute("value") === value;
 const inputButtonFilter = (state,modeNew) =>
   inputButtonAll().filter( inputButton =>
-    inputButtonBoolByState(state) * inputButtonEqualValue(inputButton,modeNew)
+    // https://stackoverflow.com/a/4540481
+    inputButtonBoolByState(state) ^ inputButtonEqualValue(inputButton,modeNew)
   );
 
 
@@ -658,7 +659,7 @@ const setEditorMode = (editor,modeName) =>
 const setEditorModeByRole = (role,modeName) => {
   testLine( "setEditorModeByRole" , false );
   testLine( "- role : " + role , false );
-  const modeOld = getEditorModeByRole(role);
+  const modeOld = getModeByRole(role);
   testLine( "- modeOld : " + modeOld , false );
   setEditorMode(
     getEditorByRole(role) ,
