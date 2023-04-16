@@ -72,7 +72,7 @@ const testObject = (obj,title) => {
       break;
     case true:
       // title
-      testLine(title);
+      testLine(title,false);
       // key,value
       Object.entries(obj).forEach(
         ([key,value]) =>
@@ -705,10 +705,12 @@ const setEditorValueByRole = (role,value) =>
     value
   );
 const convertResultToEditorByRole = role => {
-  result => setEditorValueByRole(
-    role ,
-    convertResultToValue(result)
-  );
+  const resultToEditor = result =>
+    setEditorValueByRole(
+      role ,
+      convertResultToValue(result)
+    );
+  return resultToEditor;
 };
 
 
