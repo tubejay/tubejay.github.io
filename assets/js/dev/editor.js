@@ -744,6 +744,7 @@ const convertButtonConvert = () => {
   // role
   const roleInput = editorRoles[0];
   const roleOutput = editorRoles[1];
+  try {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   Sass.compile(
@@ -754,6 +755,9 @@ const convertButtonConvert = () => {
     // result to output
     convertResultToEditorByRole(roleOutput)
   );
+  } catch (error) {
+    testLine( error.toString() );
+  };
 };
 
 // set : event listener
