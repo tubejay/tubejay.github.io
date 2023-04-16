@@ -132,6 +132,11 @@ let   modeInput   = null;
 // modeOutput
 const modeOutput  = "css";
 
+// editorRole
+// 0 : Input
+// 1 : Output
+const editorRoles = [ "Input" , "Output" ];
+
 
 
 ////////////////////
@@ -141,10 +146,10 @@ const modeOutput  = "css";
 // get
 const getModeByRole = role => {
   switch (role) {
-    case "Input":
+    case editorRoles[0]:
       return modeInput;
       break;
-    case "Output":
+    case editorRoles[1]:
       return modeOutput;
       break;
   };
@@ -215,7 +220,7 @@ testLine("select",false);
 
 // set : style
 setElStyle(demoContainer,demoContainerStyle);
-testLine("set : style",false);
+testLine("set : style");
 
 
 
@@ -290,7 +295,7 @@ const inputButtonRadioStyle = {
 
 const inputButtonRadioCreate = modeInput => {
   // radio
-  const inputButtonRadio = document.createElement("Input");
+  const inputButtonRadio = document.createElement("input");
   // set : attr
   setElAttr(inputButtonRadio,inputButtonRadioAttr);
   // set : attr more
@@ -438,10 +443,18 @@ const editorInput  = ace.edit(query);
 query = "editorOutput";
 const editorOutput = ace.edit(query);
 
-const editorByRole = {
-  Input   : editorInput   ,
-  Output  : editorOutput
+const getEditorByRole = role => {
+  switch (role) {
+    case editorRoles[0]:
+      return editorInput;
+      break;
+    case editorRoles[1]:
+      return editorOutput;
+      break;
+  };
 };
+const getEditorByAllRoles = () =>
+  editorRoles.map(getEditorByRole);
 
 
 
@@ -451,22 +464,37 @@ const editorByRole = {
 
 testLine("mode",false);
 
-// https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
 const editorModePath = "ace/mode/";
-const getEditorModeByModeName = modeName =>
+const setEditorModeString = modeName =>
+  // https://ace.c9.io/#nav=howto
   editorModePath + modeName;
 const setEditorMode = (editor,modeName) =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
   editor.session.setMode(
-    getEditorModeByModeName(modeName)
+    setEditorModeString(modeName)
+  );
+const setEditorModeByRole = (role,modeName) =>
+  setEditorMode(
+    getEditorByRole(role) ,
+    modeName
+  );
+const getEditorMode = editor =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getMode
+  editor.session.getMode();
+const getEditorModeByRole = role =>
+  getEditorMode(
+    getEditorByRole(role)
   );
 
 // test
-const editorModeByRole = {
+const testEditorModeByRole = {
+  // role : modeName
   Input   : "scss"  ,
   Output  : "css"
 };
-Object.entries(editorModeByRole).forEach( ( [role,modeName] ) =>
-  setEditorMode( editorByRole[role] , modeName )
+Object.entries(testEditorModeByRole).forEach(
+  // entry : [role,modeName]
+  entry => setEditorModeByRole(...entry)
 );
 
 
@@ -477,22 +505,32 @@ Object.entries(editorModeByRole).forEach( ( [role,modeName] ) =>
 
 testLine("theme",false);
 
-// https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
+// set string
 const editorThemePath = "ace/theme/";
-const getEditorThemeByThemeName = themeName =>
+const setEditorThemeString = themeName =>
+  // https://ajaxorg.github.io/ace-api-docs/classes/Ace.Editor.html#setTheme
   editorThemePath + themeName;
+
+// set editor
 const setEditorTheme = (editor,themeName) =>
   editor.setTheme(
-    getEditorThemeByThemeName(themeName)
+    setEditorThemeString(themeName)
+  );
+const setEditorThemeByRole = (role,themeName) =>
+  setEditorTheme(
+    getEditorByRole(role) ,
+    themeName
   );
 
 // test
-const editorThemeByRole = {
+const testEditorThemeByRole = {
+  // role : themeName
   Input   : "tomorrow_night_bright" ,
   Output  : "terminal"
 };
-Object.entries(editorThemeByRole).forEach( ( [role,themeName] ) =>
-  setEditorTheme( editorByRole[role] , themeName )
+Object.entries(testEditorThemeByRole).forEach(
+  // entry : [role,themeName]
+  entry => setEditorThemeByRole(...entry)
 );
 
 
@@ -505,7 +543,7 @@ testLine("option");
 
 // https://ace.c9.io/#nav=howto
 // https://github.com/ajaxorg/ace/wiki/Configuring-Ace
-const editorOption = {
+const editorOptionByRole = {
   All : {
     selectionStyle            : "line"          ,
     highlightActiveLine       : true            ,
@@ -542,14 +580,27 @@ const editorOption = {
   },
 };
 
-// Input/Output
-[ editorInput , editorOutput ].forEach( editor =>
-  editor.setOptions( editorOption["All"] )
-);
-// Input
-editorInput.setOptions( editorOption["Input"] );
-// Output
-editorOutput.setOptions( editorOption["Output"] );
+const setEditorOption = (editor,option) =>
+  editor.setOptions(option);
+const setEditorOptionByRole = (role,option) =>
+  setOptions(
+    getEditorByRole(role) ,
+    option
+  );
+
+// set
+editorRoles.forEach( role => {
+  // all
+  setEditorOptionByRole(
+    role ,
+    editorOptionByRole["All"]
+  );
+  // role
+  setEditorOptionByRole(
+    role ,
+    editorOptionByRole[role]
+  );
+} );
 
 
 
@@ -580,26 +631,36 @@ const convertButtonStyle = {
 };
 
 // animate
-const convertButtonAnimateKeyFrames = {
-  // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
-  // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
-  // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-  boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
-};
-const convertButtonAnimateOptions = {
-  // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
-  easing     : "ease-out"   ,
-  direction  : "alternate"  ,
-  duration   : 500          ,
-  iterations : 2
-};
+const convertButtonAnimateKeyFramesOptions = [
+  // KeyFrames
+  {
+    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+    boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
+  } ,
+  // Options
+  {
+    // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
+    easing     : "ease-out"   ,
+    direction  : "alternate"  ,
+    duration   : 500          ,
+    iterations : 2
+  }
+];
 
-// convert
-const getEditorInputValue = () =>
+// convert : value
+const getEditorValue = editor =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
-  editorInput.session.getValue();
-const getEditorInputIndented = () => {
-  switch ( getModeByRole("Input") ) {
+  editor.session.getValue();
+const getEditorValueByRole = role =>
+  getEditorValue(
+    getEditorByRole(role)
+  );
+
+// convert : option
+const getEditorIndented = editor => {
+  switch ( getEditorMode(editor) ) {
     case "sass":
       return true;
       break;
@@ -611,11 +672,17 @@ const getEditorInputIndented = () => {
       break;
   };
 };
-const getEditorInputOption = () => ( {
+const getEditorIndentedByRole = role =>
+  getEditorIndented(
+    getEditorByRole(role)
+  );
+const getEditorOptionByRole = role => ( {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-  indentedSyntax : getEditorInputIndented()
+  indentedSyntax : getEditorIndentedByRole(role)
 } );
-const convertButtonConvertResultToValue = result => {
+
+// convert : result
+const convertResultToValue = result => {
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   const status = String( result["status"] );
@@ -629,10 +696,18 @@ const convertButtonConvertResultToValue = result => {
   // return
   return value;
 };
-const convertButtonConvertResultToOutput = result =>
+const setEditorValue = (editor,value) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
-  editorOutput.session.setValue(
-    convertButtonConvertResultToValue(result)
+  editor.session.setValue(value);
+const setEditorValueByRole = (role,value) =>
+  setEditorValue(
+    getEditorByRole(role) ,
+    value
+  );
+const convertResultToEditorByRole = (role,result) =>
+  setEditorValueByRole(
+    role ,
+    convertResultToValue(result)
   );
 
 
@@ -653,7 +728,7 @@ setElStyle(convertButton,convertButtonStyle);
 testLine("set : style",false);
 
 // child : text
-const convertButtonText = "Click : convert to " + getModeByRole("Output");
+const convertButtonText = "Click : convert to " + getEditorModeByRole( editorRoles[1] );
 childText(convertButton,convertButtonText);
 testLine("child : text",false);
 
@@ -661,25 +736,28 @@ testLine("child : text",false);
 const convertButtonAnimate = () =>
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
   convertButton.animate(
-    convertButtonAnimateKeyFrames ,
-    convertButtonAnimateOptions
+    ...convertButtonAnimateKeyFramesOptions
   );
 
 // set : convert
-const convertButtonConvert = () =>
+const convertButtonConvert = () => {
+  // role : Input
+  const role = editorRoles[0];
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   Sass.compile(
     // input value
-    getEditorInputValue()   ,
+    getEditorValueByRole(role) ,
     // input option
-    getEditorInputOption()  ,
+    getEditorOptionByRole(role) ,
     // result to output
-    convertButtonConvertResultToOutput
+    convertResultToEditorByRole(role)
   );
+};
 
 // set : event listener
 const convertButtonListener = event => {
+  testclear();
   convertButtonAnimate();
   convertButtonConvert();
 };
