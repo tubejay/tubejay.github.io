@@ -156,10 +156,10 @@ const editorRoles = [
 ];
 testArray( editorRoles , "editorRoles" );
 
-const modeByRole = {};
-editorRoles.forEach( role => {
-  modeByRole[role] = undefined;
-} );
+const modeByRole = {
+  Input   : undefined ,
+  Output  : "css"
+};
 testObject( modeByRole , "modeByRole" );
 
 
@@ -187,7 +187,7 @@ const setModeByRole = (role,modeNew) => {
       testLine( "- role : " + role , false );
       const modeOld = modeByRole[role];
       testLine( "- modeOld : " + modeOld , false );
-      modeByRole[role] = modeName;
+      modeByRole[role] = modeNew;
       testLine( "- modeNew : " + modeNew );
       break;
     case false:
@@ -390,6 +390,7 @@ const inputButtonStyleKebab = {
   option : {
     easing     : "ease-in-out" ,
     direction  : "alternate"   ,
+    fill       : "forwards"    ,
     duration   : 500           ,
     iterations : 1
   }
@@ -453,21 +454,41 @@ const inputButtonFilter = (state,modeNew) =>
 ////////////////////
 
 // animate
-const inputButtonAnimate = modeNew => {
+// https://stackoverflow.com/a/39914235
+// https://www.daleseo.com/js-async-callback/
+// https://www.daleseo.com/js-async-promise/
+// https://www.daleseo.com/js-async-async-await/
+// https://www.daleseo.com/js-sleep/
+const sleep = ms => new Promise( r => setTimeout(ms) );
+const inputButtonAnimate = async modeNew => {
   try {
     inputButtonState.forEach( state => {
       testLine( "state : " + state );
-      inputButtonFilter(state,modeNew).forEach( button => {
-        testLine( "button : " + button.getAttribute("value") );
-        const buttonKeyFrames = inputButtonStyleCamel[state];
-        const buttonOptions = inputButtonStyleKebab["option"];
-        testObject( buttonKeyFrames , "KeyFrames" );
-        testObject( buttonOptions , "Options" );
-        button.animate(
-          inputButtonStyleCamel[state] ,
-          inputButtonStyleKebab["option"]
-        )
-      } )
+      // filter
+      inputButtonFilter(state,modeNew).forEach(
+        // async
+        async button =>
+        {
+          testLine( "button : " + button.getAttribute("value") );
+          // KeyFrames
+          // Options
+          const buttonKeyFrames = inputButtonStyleCamel[state];
+          const buttonOptions = inputButtonStyleKebab["option"];
+          testObject( buttonKeyFrames , "KeyFrames" );
+          testObject( buttonOptions , "Options" );
+          // animate
+          button.animate(
+            buttonKeyFrames ,
+            buttonOptions
+          );
+          // await sleep
+          const buttonDuration = buttonOptions["duration"];
+          await sleep( buttonDuration );
+          // style
+          const buttonStyle = inputButtonStyleKebab[state];
+          setElStyle(button,buttonStyle);
+        }
+      )
     } );
   } catch(error) {
     testLine( error.toString() );
