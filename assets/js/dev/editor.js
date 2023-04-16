@@ -704,11 +704,12 @@ const setEditorValueByRole = (role,value) =>
     getEditorByRole(role) ,
     value
   );
-const convertResultToEditorByRole = (role,result) =>
-  setEditorValueByRole(
+const convertResultToEditorByRole = role => {
+  result => setEditorValueByRole(
     role ,
     convertResultToValue(result)
   );
+};
 
 
 
@@ -737,10 +738,8 @@ const convertButtonAnimate = () => {
   const [KeyFrames,Options] = Object.values(
     convertButtonAnimateKeyFramesOptions
   );
-  testLine("KeyFrames",false);
-  testObject(KeyFrames);
-  testLine("Options",false);
-  testObject(Options);
+  testObject(KeyFrames,"KeyFrames");
+  testObject(Options,"Options");
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
   convertButton.animate(
     KeyFrames ,
@@ -754,16 +753,21 @@ const convertButtonConvert = () => {
   const roleInput = editorRoles[0];
   const roleOutput = editorRoles[1];
   try {
-  // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
-  // https://stackoverflow.com/a/75716055
-  Sass.compile(
-    // input value
-    getEditorValueByRole(roleInput) ,
-    // input option
-    getEditorOptionByRole(roleInput) ,
-    // result to output
-    convertResultToEditorByRole(roleOutput)
-  );
+    // set
+    const inputValue = getEditorValueByRole(roleInput);
+    const inputOption = getEditorOptionByRole(roleInput);
+    const resultToOutput = convertResultToEditorByRole(roleOutput);
+    // compile
+    // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
+    // https://stackoverflow.com/a/75716055
+    Sass.compile(
+      // input value
+      inputValue ,
+      // input option
+      inputOption ,
+      // result to output
+      resultToOutput
+    );
   } catch (error) {
     testLine( error.toString() );
   };
