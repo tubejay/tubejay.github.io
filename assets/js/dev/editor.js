@@ -74,12 +74,11 @@ const testObject = (obj,title) => {
       // title
       testLine(title,false);
       // key,value
-      Object.entries(obj).forEach(
-        ([key,value]) =>
-          testLine(
-            "- " + key + " : " + value
-            , false
-          )
+      Object.entries(obj).forEach( ( [key,value] ) =>
+        testLine(
+          "- " + key + " : " + value
+          , false
+        )
       );
       // hr
       testHr();
@@ -96,12 +95,11 @@ const testArray = (arr,title) => {
       // title
       testLine(title,false);
       // item
-      arr.forEach(
-        item =>
-          testLine(
-            "- " + item
-            , false
-          )
+      arr.forEach( item =>
+        testLine(
+          "- " + item
+          , false
+        )
       );
       // hr
       testHr();
@@ -159,11 +157,9 @@ const editorRoles = [
 testArray( editorRoles , "editorRoles" );
 
 const modeByRole = {};
-editorRoles.forEach(
-  role => {
-    modeByRole[role] = undefined;
-  }
-);
+editorRoles.forEach( role => {
+  modeByRole[role] = undefined;
+} );
 testObject( modeByRole , "modeByRole" );
 
 
@@ -172,11 +168,17 @@ testObject( modeByRole , "modeByRole" );
 ///// function
 ////////////////////
 
-// get
+// get : role
+const getRoleByIndex = index =>
+  editorRoles[index];
+
+// get : mode
 const getModeByRole = role =>
   modeByRole[role];
+const getModeByIndex = index =>
+  getModeByRole( getRoleByIndex(index) );
 
-// set
+// set : mode
 const setModeByRole = (role,modeNew) => {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
   switch ( editorRoles.includes(role) ) {
@@ -187,6 +189,8 @@ const setModeByRole = (role,modeNew) => {
       break;
   };
 };
+const setModeByIndex = (index,modeNew) =>
+  setModeByRole( getModeByIndex(index) );
 
 
 
@@ -473,10 +477,10 @@ const editorOutput = ace.edit(query);
 
 const getEditorByRole = role => {
   switch (role) {
-    case editorRoles[0]:
+    case getRoleByIndex(0):
       return editorInput;
       break;
-    case editorRoles[1]:
+    case getRoleByIndex(1):
       return editorOutput;
       break;
   };
@@ -748,7 +752,7 @@ setElStyle(convertButton,convertButtonStyle);
 testLine("set : style",false);
 
 // child : text
-const convertButtonText = "Click : convert to " + getModeByRole( editorRoles[1] );
+const convertButtonText = "Click : convert to " + getModeByIndex(1);
 childText(convertButton,convertButtonText);
 testLine("child : text",false);
 
@@ -769,8 +773,8 @@ const convertButtonAnimate = () => {
 // set : convert
 const convertButtonConvert = () => {
   // role
-  const roleInput = editorRoles[0];
-  const roleOutput = editorRoles[1];
+  const roleInput = getRoleByIndex(0);
+  const roleOutput = getRoleByIndex(1);
   testLine( "role" , false );
   testLine( "- roleInput  : " + roleInput , false);
   testLine( "- roleOutput : " + roleOutput );
