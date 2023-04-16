@@ -87,6 +87,28 @@ const testObject = (obj,title) => {
   };
 };
 
+// array
+const testArray = (arr,title) => {
+  switch (testOn) {
+    case false:
+      break;
+    case true:
+      // title
+      testLine(title,false);
+      // item
+      arr.forEach(
+        item =>
+          testLine(
+            "- " + item
+            , false
+          )
+      );
+      // hr
+      testHr();
+      break;
+  };
+};
+
 // clear
 const testclear = () => {
   switch (testOn) {
@@ -126,15 +148,23 @@ try {
 ///// role
 ////////////////////
 
-let modeByRole = {
-  Input  : undefined ,
-  Output : undefined
-};
+testLine("mode");
 
-// editorRole
 // 0 : Input
 // 1 : Output
-const editorRoles = [ "Input" , "Output" ];
+const editorRoles = [
+  "Input" ,
+  "Output"
+];
+testArray( editorRoles , "editorRoles" );
+
+const modeByRole = {};
+editorRoles.forEach(
+  role => {
+    modeByRole[role] = undefined;
+  }
+);
+testObject( modeByRole , "modeByRole" );
 
 
 
