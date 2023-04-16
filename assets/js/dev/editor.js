@@ -123,14 +123,13 @@ try {
 
 
 ////////////////////
-///// initialize
+///// role
 ////////////////////
 
-// modeInput
-let   modeInput   = null;
-
-// modeOutput
-const modeOutput  = "css";
+let modeByRole = {
+  Input  : undefined ,
+  Output : undefined
+};
 
 // editorRole
 // 0 : Input
@@ -144,20 +143,19 @@ const editorRoles = [ "Input" , "Output" ];
 ////////////////////
 
 // get
-const getModeByRole = role => {
-  switch (role) {
-    case editorRoles[0]:
-      return modeInput;
-      break;
-    case editorRoles[1]:
-      return modeOutput;
-      break;
-  };
-};
+const getModeByRole = role =>
+  modeByRole[role];
 
 // set
-const setModeInput = modeNew => {
-  modeInput = modeNew
+const setModeByRole = (role,modeNew) => {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+  switch ( editorRoles.includes(role) ) {
+    case true:
+      modeByRole[role] = modeName;
+      break;
+    case false:
+      break;
+  };
 };
 
 
@@ -486,17 +484,6 @@ const getEditorModeByRole = role =>
     getEditorByRole(role)
   );
 
-// test
-const testEditorModeByRole = {
-  // role : modeName
-  Input   : "scss"  ,
-  Output  : "css"
-};
-Object.entries(testEditorModeByRole).forEach(
-  // entry : [role,modeName]
-  entry => setEditorModeByRole(...entry)
-);
-
 
 
 ////////////////////
@@ -659,7 +646,7 @@ const getEditorValueByRole = role =>
   );
 
 // convert : option
-const getEditorIndented = modeName => {
+const getModeIndented = modeName => {
   switch ( modeName ) {
     case "sass":
       return true;
@@ -672,13 +659,13 @@ const getEditorIndented = modeName => {
       break;
   };
 };
-const getEditorIndentedByRole = role =>
-  getEditorIndented(
+const getModeIndentedByRole = role =>
+  getModeIndented(
     getModeByRole(role)
   );
 const getEditorOptionByRole = role => ( {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-  indentedSyntax : getEditorIndentedByRole(role)
+  indentedSyntax : getModeIndentedByRole(role)
 } );
 
 // convert : result
@@ -705,11 +692,12 @@ const setEditorValueByRole = (role,value) =>
     value
   );
 const convertResultToEditorByRole = role => {
-  result =>
+  const resultToEditor = result =>
     setEditorValueByRole(
       role ,
       convertResultToValue(result)
     );
+  return resultToEditor;
 };
 
 
@@ -753,6 +741,9 @@ const convertButtonConvert = () => {
   // role
   const roleInput = editorRoles[0];
   const roleOutput = editorRoles[1];
+  testLine( "role" , false );
+  testLine( "- roleInput  : " + roleInput , false);
+  testLine( "- roleOutput : " + roleOutput );
   try {
     // inputValue
     testLine( "inputValue" , false );
