@@ -383,7 +383,7 @@ const inputButtonStyleKebab = {
   },
   checked : {
     "background-color" : "#f21368" ,
-    "color"            : "#000000" ,
+    "color"            : "#ffffff" ,
     "font-size"        : "25px"    ,
     "font-weight"      : "600"
   },
