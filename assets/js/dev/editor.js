@@ -659,8 +659,8 @@ const getEditorValueByRole = role =>
   );
 
 // convert : option
-const getEditorIndented = editor => {
-  switch ( getEditorMode(editor) ) {
+const getEditorIndented = modeName => {
+  switch ( modeName ) {
     case "sass":
       return true;
       break;
@@ -674,7 +674,7 @@ const getEditorIndented = editor => {
 };
 const getEditorIndentedByRole = role =>
   getEditorIndented(
-    getEditorByRole(role)
+    getModeByRole(role)
   );
 const getEditorOptionByRole = role => ( {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
@@ -728,7 +728,7 @@ setElStyle(convertButton,convertButtonStyle);
 testLine("set : style",false);
 
 // child : text
-const convertButtonText = "Click : convert to " + getEditorModeByRole( editorRoles[1] );
+const convertButtonText = "Click : convert to " + getModeByRole( editorRoles[1] );
 childText(convertButton,convertButtonText);
 testLine("child : text",false);
 
@@ -741,17 +741,18 @@ const convertButtonAnimate = () =>
 
 // set : convert
 const convertButtonConvert = () => {
-  // role : Input
-  const role = editorRoles[0];
+  // role
+  const roleInput = editorRoles[0];
+  const roleOutput = editorRoles[1];
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   Sass.compile(
     // input value
-    getEditorValueByRole(role) ,
+    getEditorValueByRole(roleInput) ,
     // input option
-    getEditorOptionByRole(role) ,
+    getEditorOptionByRole(roleInput) ,
     // result to output
-    convertResultToEditorByRole(role)
+    convertResultToEditorByRole(roleOutput)
   );
 };
 
