@@ -360,18 +360,109 @@ const inputButtonAttr = {
   class : "inputButton"
 };
 
-// style
-const inputButtonStyle = {
-  width             : inputButtonWidth  ,
-  height            : inputButtonHeight ,
-  display           : "flex"            ,
-  "flex-direction"  : "column"          ,
-  "justify-content" : "center"          ,
-  "align-items"     : "center"  
+// style : kebab
+const inputButtonStyleKebab = {
+  fixed : {
+    width             : inputButtonWidth  ,
+    height            : inputButtonHeight ,
+    display           : "flex"            ,
+    "flex-direction"  : "column"          ,
+    "justify-content" : "center"          ,
+    "align-items"     : "center"  
+  },
+  unchecked : {
+    "background-color" : "#000000" ,
+    "color"            : "#f21368" ,
+    "font-size"        : "22px"    ,
+    "font-weight"      : "300"
+  },
+  checked : {
+    "background-color" : "#f21368" ,
+    "color"            : "#000000" ,
+    "font-size"        : "25px"    ,
+    "font-weight"      : "600"
+  },
+  option : {
+    easing     : "ease-in-out" ,
+    direction  : "alternate"   ,
+    duration   : 500           ,
+    iterations : 2
+  }
 };
 
-// animate
-const inputButtonAnimate = {};
+// style : camel
+const inputButtonState = ["unchecked","checked"];
+const textCamel = text =>
+  // https://stackoverflow.com/a/60738940
+  text.replace( /-./g , x => x[1].toUpperCase() );
+const objectKeyCamel = obj =>
+  Object.fromEntries( Object.entries(obj).map(
+    ( [key,value] ) => [ textCamel(key) , [value] ]
+  ) );
+const inputButtonStyleCamel = Object.fromEntries(
+  inputButtonState.map( state =>
+    [ state , objectKeyCamel( inputButtonStyleKebab[state] ) ]
+  )
+);
+
+
+
+////////////////////
+///// filter
+////////////////////
+
+const inputButtonAll = () => {
+  // NodeList
+  // https://developer.mozilla.org/en-US/docs/Web/API/NodeList
+  query = "." + inputButtonAttr["class"];
+  const buttonNodeList = queryEls();
+  // Array
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+  const buttonArray = Array.from( buttonNodeList );
+  // return
+  return buttonArray;
+};
+
+const inputButtonBoolByState = state => {
+  switch (state) {
+    case "unchecked":
+      return false;
+      break;
+    case "checked":
+      return true;
+      break;
+  };
+};
+const inputButtonEqualValue = (inputButton,value) =>
+  inputButton.getAttribute("value") === value;
+const inputButtonFilter = (state,modeNew) =>
+  inputButtonAll().filter( inputButton =>
+    inputButtonBoolByState(state) * inputButtonEqualValue(inputButton,modeNew)
+  );
+
+
+
+////////////////////
+///// listener
+////////////////////
+
+const inputButtonAnimate = modeNew =>
+  inputButtonState.forEach( state =>
+    inputButtonFilter(state,modeNew).forEach(
+      button => button.animate(
+        inputButtonStyleCamel[state] ,
+        inputButtonStyleKebab["option"]
+      )
+    )
+  );
+
+// mode
+const inputButtonMode = modeNew =>
+  setModeByIndex(0,modeNew);
+
+// editor
+const inputButtonEditor = modeNew =>
+  setEditorModeByIndex(0,modeNew);
 
 
 
@@ -381,26 +472,56 @@ const inputButtonAnimate = {};
 
 testLine("inputButton");
 
+// create
 const inputButtonCreate = modeInput => {
   // label as button
   const inputButton = document.createElement("label");
   // set : attr
-  setElAttr(inputButton,inputButtonAttr);
+  setElAttr( inputButton , inputButtonAttr );
   // set : attr more
   const inputButtonAttrMore = {
     value : modeInput
   };
-  setElAttr(inputButton,inputButtonAttrMore);
-  // set : style
-  setElStyle(inputButton,inputButtonStyle);
+  setElAttr( inputButton , inputButtonAttrMore );
+  // set : style : fixed
+  setElStyle( inputButton , inputButtonStyleKebab["fixed"] );
+  // set : style : unchecked
+  setElStyle( inputButton , inputButtonStyleKebab["unchecked"] );
   // child : radio
   inputButton.appendChild(
     inputButtonRadioCreate(modeInput)
   );
   // child : text
-  childText(inputButton,modeInput);
+  childText( inputButton , modeInput );
+  // set : event listener
+  inputButton.addEventListener(
+    // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
+    "change" ,
+    inputButtonListener
+  );
   // return
   return inputButton;
+};
+
+// event listener
+const inputButtonListener = event => {
+  // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
+  // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
+  try {
+    // value : modeNew
+    const modeNew = event.currentTarget.value;
+    // mode
+    inputButtonMode(modeNew);
+    // animate
+    inputButtonAnimate(modeNew);
+    // editor
+    inputButtonEditor(modeNew);
+  } catch(error) {
+    testLine( error.toString() );
+  };
 };
 
 // create -> appendChild
@@ -510,6 +631,11 @@ const setEditorModeByRole = (role,modeName) =>
     getEditorByRole(role) ,
     modeName
   );
+const setEditorModeByIndex = (index,modeName) =>
+  setEditorModeByRole(
+    getRoleByIndex(index) ,
+    modeName
+  );
 const getEditorMode = editor =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getMode
   editor.session.getMode();
@@ -517,6 +643,11 @@ const getEditorModeByRole = role =>
   getEditorMode(
     getEditorByRole(role)
   );
+const getEditorModeByIndex = index =>
+  getEditorModeByRole(
+    getRoleByIndex(index)
+  );
+
 
 
 
@@ -670,7 +801,7 @@ const convertButtonAnimateKeyFramesOptions = {
   }
 };
 
-// convert : value
+// value
 const getEditorValue = editor =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getValue
   editor.session.getValue();
@@ -679,7 +810,13 @@ const getEditorValueByRole = role =>
     getEditorByRole(role)
   );
 
-// convert : option
+
+
+////////////////////
+///// convert
+////////////////////
+
+// option
 const getModeIndented = modeName => {
   switch ( modeName ) {
     case "sass":
@@ -702,7 +839,7 @@ const getEditorOptionByRole = role => ( {
   indentedSyntax : getModeIndentedByRole(role)
 } );
 
-// convert : result
+// result
 const convertResultToValue = result => {
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
@@ -737,24 +874,8 @@ const convertResultToEditorByRole = role => {
 
 
 ////////////////////
-///// element
+///// listener
 ////////////////////
-
-testLine("convertButton");
-
-// select
-query = "#convertButton";
-const convertButton = queryEl();
-testLine("select",false);
-
-// set : style
-setElStyle(convertButton,convertButtonStyle);
-testLine("set : style",false);
-
-// child : text
-const convertButtonText = "Click : convert to " + getModeByIndex(1);
-childText(convertButton,convertButtonText);
-testLine("child : text",false);
 
 // set : animate
 const convertButtonAnimate = () => {
@@ -803,6 +924,28 @@ const convertButtonConvert = () => {
     testLine( error.toString() );
   };
 };
+
+
+
+////////////////////
+///// element
+////////////////////
+
+testLine("convertButton");
+
+// select
+query = "#convertButton";
+const convertButton = queryEl();
+testLine("select",false);
+
+// set : style
+setElStyle(convertButton,convertButtonStyle);
+testLine("set : style",false);
+
+// child : text
+const convertButtonText = "Click : convert to " + getModeByIndex(1);
+childText(convertButton,convertButtonText);
+testLine("child : text",false);
 
 // set : event listener
 const convertButtonListener = event => {
