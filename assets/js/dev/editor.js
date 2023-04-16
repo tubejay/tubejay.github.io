@@ -183,7 +183,12 @@ const setModeByRole = (role,modeNew) => {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
   switch ( editorRoles.includes(role) ) {
     case true:
+      testLine( "setModeByRole" , false );
+      testLine( "- role : " + role , false );
+      const modeOld = modeByRole[role];
+      testLine( "- modeOld : " + modeOld , false );
       modeByRole[role] = modeName;
+      testLine( "- modeNew : " + modeNew );
       break;
     case false:
       break;
@@ -449,14 +454,20 @@ const inputButtonFilter = (state,modeNew) =>
 // animate
 const inputButtonAnimate = modeNew => {
   try {
-    inputButtonState.forEach( state =>
-      inputButtonFilter(state,modeNew).forEach(
-        button => button.animate(
+    inputButtonState.forEach( state => {
+      testLine( "state : " + state );
+      inputButtonFilter(state,modeNew).forEach( button => {
+        testLine( "button : " + button.getAttribute("value") );
+        const buttonKeyFrames = inputButtonStyleCamel[state];
+        const buttonOptions = inputButtonStyleKebab["option"];
+        testObject( buttonKeyFrames , "KeyFrames" );
+        testObject( buttonOptions , "Options" );
+        button.animate(
           inputButtonStyleCamel[state] ,
           inputButtonStyleKebab["option"]
         )
-      )
-    );
+      } )
+    } );
   } catch(error) {
     testLine( error.toString() );
   };
@@ -644,11 +655,17 @@ const setEditorMode = (editor,modeName) =>
   editor.session.setMode(
     setEditorModeString(modeName)
   );
-const setEditorModeByRole = (role,modeName) =>
+const setEditorModeByRole = (role,modeName) => {
+  testLine( "setEditorModeByRole" , false );
+  testLine( "- role : " + role , false );
+  const modeOld = getEditorModeByRole(role);
+  testLine( "- modeOld : " + modeOld , false );
   setEditorMode(
     getEditorByRole(role) ,
     modeName
   );
+  testLine( "- modeNew : " + modeName );
+};
 const setEditorModeByIndex = (index,modeName) =>
   setEditorModeByRole(
     getRoleByIndex(index) ,
