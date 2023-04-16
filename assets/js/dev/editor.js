@@ -446,23 +446,39 @@ const inputButtonFilter = (state,modeNew) =>
 ///// listener
 ////////////////////
 
-const inputButtonAnimate = modeNew =>
-  inputButtonState.forEach( state =>
-    inputButtonFilter(state,modeNew).forEach(
-      button => button.animate(
-        inputButtonStyleCamel[state] ,
-        inputButtonStyleKebab["option"]
+// animate
+const inputButtonAnimate = modeNew => {
+  try {
+    inputButtonState.forEach( state =>
+      inputButtonFilter(state,modeNew).forEach(
+        button => button.animate(
+          inputButtonStyleCamel[state] ,
+          inputButtonStyleKebab["option"]
+        )
       )
-    )
-  );
+    );
+  } catch(error) {
+    testLine( error.toString() );
+  };
+};
 
 // mode
-const inputButtonMode = modeNew =>
-  setModeByIndex(0,modeNew);
+const inputButtonMode = modeNew => {
+  try {
+    setModeByIndex(0,modeNew);
+  } catch(error) {
+    testLine( error.toString() );
+  };
+};
 
 // editor
-const inputButtonEditor = modeNew =>
-  setEditorModeByIndex(0,modeNew);
+const inputButtonEditor = modeNew => {
+  try {
+    setEditorModeByIndex(0,modeNew);
+  } catch(error) {
+    testLine( error.toString() );
+  };
+};
 
 
 
@@ -510,15 +526,17 @@ const inputButtonListener = event => {
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
   // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
+  testclear();
   try {
-    // value : modeNew
+    testLine( "modeNew" , false );
     const modeNew = event.currentTarget.value;
-    // mode
+    testLine( "- " + modeNew );
+    testLine( "Mode" );
     inputButtonMode(modeNew);
-    // animate
-    inputButtonAnimate(modeNew);
-    // editor
+    testLine( "Editor" );
     inputButtonEditor(modeNew);
+    testLine( "Animate" );
+    inputButtonAnimate(modeNew);
   } catch(error) {
     testLine( error.toString() );
   };
