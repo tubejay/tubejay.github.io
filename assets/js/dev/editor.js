@@ -583,7 +583,7 @@ const editorOptionByRole = {
 const setEditorOption = (editor,option) =>
   editor.setOptions(option);
 const setEditorOptionByRole = (role,option) =>
-  setOptions(
+  setEditorOption(
     getEditorByRole(role) ,
     option
   );
