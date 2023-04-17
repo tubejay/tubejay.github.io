@@ -606,7 +606,7 @@ const inputButtonListener = event => {
   testclear();
   // modeNew
   testLine( "modeNew" , false );
-  const modeNew = event.target.value;
+  const modeNew = event.currentTarget.value;
   testLine( "- " + modeNew );
   // Mode
   testLine( "Mode" );
