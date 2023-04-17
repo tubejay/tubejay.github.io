@@ -204,7 +204,7 @@ const setModeByRole = (role,modeNew) => {
   };
 };
 const setModeByIndex = (index,modeNew) =>
-  setModeByRole( getRoleByIndex(index) );
+  setModeByRole( getRoleByIndex(index) , modeNew );
 
 
 
@@ -608,7 +608,6 @@ const inputButtonListener = event => {
   // modeNew
   testLine( "modeNew" , false );
   const modeNew = event.target.value;
-  testLine( "- " + modeNew );
   // Mode
   testLine( "Mode" );
   inputButtonMode(modeNew);
@@ -724,14 +723,11 @@ const setEditorMode = (editor,modeName) =>
   );
 const setEditorModeByRole = (role,modeName) => {
   testLine( "setEditorModeByRole" , false );
-  testLine( "- role : " + role , false );
-  const modeOld = getModeByRole(role);
-  testLine( "- modeOld : " + modeOld , false );
+  testLine( "- role : " + role );
   setEditorMode(
     getEditorByRole(role) ,
     modeName
   );
-  testLine( "- modeNew : " + modeName );
 };
 const setEditorModeByIndex = (index,modeName) =>
   setEditorModeByRole(
