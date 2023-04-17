@@ -444,21 +444,20 @@ const inputButtonStyleKebab = {
     display           : "flex"            ,
     "flex-direction"  : "column"          ,
     "justify-content" : "center"          ,
-    "align-items"     : "center"  
+    "align-items"     : "center"          ,
+    "font-weight"     : "bold"
   },
 
   unchecked : {
     "background-color" : colorDark      ,
     "color"            : colorNeonLight ,
-    "font-size"        : "22px"         ,
-    "font-weight"      : "300"
+    "font-size"        : "23px"
   },
 
   checked : {
     "background-color" : colorNeonDefault ,
     "color"            : colorLight       ,
-    "font-size"        : "25px"           ,
-    "font-weight"      : "600"
+    "font-size"        : "25px"
   },
 
   option : {
@@ -937,7 +936,7 @@ const convertButtonStyle = {
   color              : colorLight           ,
   "background-color" : colorNeonDark        ,
   "font-size"        : "20px"               ,
-  "font-weight"      : "600"                ,
+  "font-weight"      : "bold"               ,
   display            : "flex"               ,
   "flex-direction"   : "column"             ,
   "justify-content"  : "center"             ,
@@ -953,8 +952,7 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
     backgroundColor : [ colorDark ] ,
-    color           : [ colorNeonLight ] ,
-    boxShadow       : [ "inset 0 0 3px 5px " + colorLight ]
+    boxShadow       : [ "inset 0 0 3px 3px " + colorLight ]
   } ,
 
   // Options
