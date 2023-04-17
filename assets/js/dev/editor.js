@@ -1060,7 +1060,7 @@ childText(convertButton,convertButtonText);
 testLine("child : text",false);
 
 // set : event listener
-const convertButtonListener = event => {
+const convertButtonListener = async event => {
   testclear();
   // animate
   testLine("animate");
