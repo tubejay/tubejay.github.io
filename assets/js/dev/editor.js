@@ -13,6 +13,11 @@ let query;
 const queryEl  = () => document.querySelector(query);
 const queryEls = () => document.querySelectorAll(query);
 
+// name
+const nameAsString = x =>
+  // https://stackoverflow.com/a/52598270
+  Object.keys( {x} );
+
 // attr
 const setElAttr = (el,objAttr) =>
   Object.entries(objAttr).forEach( ( [key,value] ) =>
@@ -40,7 +45,6 @@ const childText = (el,text,tag="div") => {
 // https://www.daleseo.com/js-async-async-await/
 // https://www.daleseo.com/js-sleep/
 const sleep = ms => new Promise( r => setTimeout(ms) );
-
 
 
 
@@ -75,13 +79,13 @@ const testLine = (text,hr=true) => {
 };
 
 // object
-const testObject = (obj,title) => {
+const testObject = obj => {
   switch (testOn) {
     case false:
       break;
     case true:
       // title
-      testLine(title,false);
+      testLine( nameAsString(obj) , false );
       // key,value
       Object.entries(obj).forEach( ( [key,value] ) =>
         testLine(
@@ -96,13 +100,13 @@ const testObject = (obj,title) => {
 };
 
 // array
-const testArray = (arr,title) => {
+const testArray = arr => {
   switch (testOn) {
     case false:
       break;
     case true:
       // title
-      testLine(title,false);
+      testLine( nameAsString(obj) , false );
       // item
       arr.forEach( item =>
         testLine(
@@ -163,13 +167,18 @@ const editorRoles = [
   "Input" ,
   "Output"
 ];
-testArray( editorRoles , "editorRoles" );
+testArray( editorRoles );
 
 const modeByRole = {
   Input   : undefined ,
   Output  : "css"
 };
-testObject( modeByRole , "modeByRole" );
+testObject( modeByRole );
+
+const modeInputArray = [
+  "scss" ,
+  "sass"
+];
 
 
 
@@ -264,7 +273,7 @@ const colorLight       = "#FFFFFF";
 
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 
-const durationShort = 500;
+const durationShort = 750;
 const durationLong  = 1000;
 
 
@@ -311,11 +320,10 @@ testLine("demoContainer");
 // select
 query = "#demoContainer";
 const demoContainer = queryEl();
-testLine("select",false);
 
-// set : style
-setElStyle(demoContainer,demoContainerStyle);
-testLine("set : style");
+// style
+setElStyle(demoContainer);
+testObject(demoContainerStyle);
 
 
 
@@ -344,18 +352,17 @@ const inputContainerStyle = {
 
 ////////////////////
 ///// element
-////////////////////
+/////a///////////////
 
 testLine("inputContainer");
 
 // select
 query = "#inputContainer";
 const inputContainer = queryEl();
-testLine("select",false);
 
-// set : style
+// style
 setElStyle(inputContainer,inputContainerStyle);
-testLine("set : style");
+testObject(inputContainerStyle);
 
 
 
@@ -389,8 +396,10 @@ const inputButtonRadioStyle = {
 ////////////////////
 
 const inputButtonRadioCreate = modeInput => {
-  // radio
+
+  // input
   const inputButtonRadio = document.createElement("input");
+
   // set : attr
   setElAttr(inputButtonRadio,inputButtonRadioAttr);
   // set : attr more
@@ -398,10 +407,13 @@ const inputButtonRadioCreate = modeInput => {
     value : modeInput
   };
   setElAttr(inputButtonRadio,inputButtonRadioAttrMore);
+
   // set : style
   setElStyle(inputButtonRadio,inputButtonRadioStyle);
+
   // return
   return inputButtonRadio
+
 };
 
 
@@ -425,6 +437,7 @@ const inputButtonAttr = {
 
 // style : kebab
 const inputButtonStyleKebab = {
+
   fixed : {
     width             : inputButtonWidth  ,
     height            : inputButtonHeight ,
@@ -433,18 +446,21 @@ const inputButtonStyleKebab = {
     "justify-content" : "center"          ,
     "align-items"     : "center"  
   },
+
   unchecked : {
     "background-color" : colorDark      ,
     "color"            : colorNeonLight ,
     "font-size"        : "22px"         ,
     "font-weight"      : "300"
   },
+
   checked : {
     "background-color" : colorNeonDefault ,
     "color"            : colorLight       ,
     "font-size"        : "25px"           ,
     "font-weight"      : "600"
   },
+
   option : {
     iterations : 1            ,
     direction  : "alternate"  ,
@@ -452,6 +468,7 @@ const inputButtonStyleKebab = {
     easing     : easingOut    ,
     duration   : durationLong
   }
+
 };
 
 // style : camel
@@ -512,25 +529,31 @@ const inputButtonFilter = (state,modeNew) =>
 ////////////////////
 
 const inputButtonAsync = async (state,button) => {
+
   testLine( "button : " + button.getAttribute("value") );
+
   // KeyFrames
   // Options
   const buttonKeyFrames = inputButtonStyleCamel[state];
-  const buttonOptions = inputButtonStyleKebab["option"];
-  testObject( buttonKeyFrames , "KeyFrames" );
-  testObject( buttonOptions , "Options" );
+  const buttonOptions   = inputButtonStyleKebab["option"];
+  testObject( buttonKeyFrames );
+  testObject( buttonOptions );
+
   // animate
   button.animate(
     buttonKeyFrames ,
     buttonOptions
   );
+
   // await sleep
   // duration : animate
   await sleep( buttonOptions["duration"] );
+
   // style
   // after animate
   const buttonStyle = inputButtonStyleKebab[state];
   setElStyle(button,buttonStyle);
+
 }
 
 
@@ -559,12 +582,16 @@ const inputButtonAnimate = modeNew =>
   } );
 
 // mode
-const inputButtonMode = modeNew =>
+const inputButtonMode = modeNew => {
+  testLine("inputButtonMode");
   setModeByIndex(0,modeNew);
+};
 
 // editor
-const inputButtonEditor = modeNew =>
+const inputButtonEditor = modeNew => {
+  testLine("inputButtonEditor");
   setEditorModeByIndex(0,modeNew);
+};
 
 
 
@@ -576,66 +603,88 @@ testLine("inputButton");
 
 // create
 const inputButtonCreate = modeInput => {
-  // label as button
+
+  // label
   const inputButton = document.createElement("label");
+
   // set : attr
   setElAttr( inputButton , inputButtonAttr );
+  testObject( inputButtonAttr  );
+
   // set : attr more
   const inputButtonAttrMore = {
     value : modeInput
   };
   setElAttr( inputButton , inputButtonAttrMore );
+  testObject( inputButtonAttrMore  );
+
   // set : style : fixed
-  setElStyle( inputButton , inputButtonStyleKebab["fixed"] );
+  const inputButtonStyleFixed = inputButtonStyleKebab["fixed"];
+  setElStyle( inputButton , inputButtonStyleFixed );
+  testObject( inputButtonStyleFixed   );
+
   // set : style : unchecked
-  setElStyle( inputButton , inputButtonStyleKebab["unchecked"] );
+  const inputButtonStyleUnchecked = inputButtonStyleKebab["unchecked"];
+  setElStyle( inputButton , inputButtonStyleUnchecked );
+  testObject( inputButtonStyleUnchecked );
+
   // child : radio
+  testLine( "child radio" , false );
   inputButton.appendChild(
     inputButtonRadioCreate(modeInput)
   );
+
   // child : text
+  testLine( "child text" , false );
   childText( inputButton , modeInput );
+
   // set : event listener
+  testLine( "event listener" );
   inputButton.addEventListener(
     // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
     "change" ,
     inputButtonListener
   );
+
   // return
   return inputButton;
 };
 
 // event listener
 const inputButtonListener = event => {
+
+  testclear();
+  testLine("inputButtonListener");
+
   // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
   // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/target
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
   // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
-  testclear();
+
   // modeNew
-  testLine( "modeNew" , false );
   const modeNew = event.target.value;
+  testLine( "modeNew : " + modeNew );
+
   // Mode
-  testLine( "Mode" );
   inputButtonMode(modeNew);
+
   // Editor
-  testLine( "Editor" );
   inputButtonEditor(modeNew);
+
   // Animate
-  testLine( "Animate" );
   inputButtonAnimate(modeNew);
+
 };
 
-// create -> appendChild
-const modeInputArray = ["scss","sass"];
-modeInputArray.forEach( modeInput =>
+// create
+modeInputArray.forEach( modeInput => {
+  testLine( "modeInput : " + modeInput );
   inputContainer.appendChild(
     inputButtonCreate(modeInput)
   )
-);
-testLine("create -> appendChild");
+} );
 
 
 
@@ -669,13 +718,12 @@ testLine("editor");
 // select
 query = ".editor";
 const editors = queryEls();
-testLine("select",false);
 
 // set : style
 editors.forEach( editor =>
   setElStyle(editor,editorStyle)
 );
-testLine("set : style");
+testObject( editorStyle );
 
 
 
@@ -690,9 +738,6 @@ testLine("set : style");
 ////////////////////
 ///// edit
 ////////////////////
-
-testLine("ACE");
-testLine("edit",false);
 
 // https://ajaxorg.github.io/ace-api-docs/modules.html#edit
 query = "editorInput";
@@ -719,17 +764,20 @@ const getEditorByAllRoles = () =>
 ///// mode
 ////////////////////
 
-testLine("mode",false);
-
+// set : string
 const editorModePath = "ace/mode/";
 const setEditorModeString = modeName =>
   // https://ace.c9.io/#nav=howto
   editorModePath + modeName;
+
+// set : editor
 const setEditorMode = (editor,modeName) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setMode
   editor.session.setMode(
     setEditorModeString(modeName)
   );
+
+// set : by
 const setEditorModeByRole = (role,modeName) => {
   testLine( "setEditorModeByRole" , false );
   testLine( "- role : " + role );
@@ -743,9 +791,13 @@ const setEditorModeByIndex = (index,modeName) =>
     getRoleByIndex(index) ,
     modeName
   );
+
+// get : editor
 const getEditorMode = editor =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#getMode
   editor.session.getMode();
+
+// get : by
 const getEditorModeByRole = role =>
   getEditorMode(
     getEditorByRole(role)
@@ -761,8 +813,6 @@ const getEditorModeByIndex = index =>
 ////////////////////
 ///// theme
 ////////////////////
-
-testLine("theme",false);
 
 // set string
 const editorThemePath = "ace/theme/";
@@ -791,14 +841,13 @@ Object.entries(initialEditorThemeByRole).forEach(
   // entry : [role,themeName]
   entry => setEditorThemeByRole(...entry)
 );
+testObject( initialEditorThemeByRole );
 
 
 
 ////////////////////
 ///// option
 ////////////////////
-
-testLine("option");
 
 // https://ace.c9.io/#nav=howto
 // https://github.com/ajaxorg/ace/wiki/Configuring-Ace
@@ -849,16 +898,21 @@ const setEditorOptionByRole = (role,option) =>
 
 // set
 editorRoles.forEach( role => {
+  testLine( "role : " + role );
   // all
+  const editorOptionAll = editorOptionByRole["All"];
   setEditorOptionByRole(
     role ,
-    editorOptionByRole["All"]
+    editorOptionAll
   );
+  testObject( editorOptionAll );
   // role
+  const editorOptionRole = editorOptionByRole[role];
   setEditorOptionByRole(
     role ,
-    editorOptionByRole[role]
+    editorOptionRole
   );
+  testObject( editorOptionRole );
 } );
 
 
@@ -891,14 +945,17 @@ const convertButtonStyle = {
 
 // animate
 const convertButtonAnimateKeyFramesOptions = {
+
   // KeyFrames
   KeyFrames : {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-    backgroundColor : [ colorNeonLight ]
-    //boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
+    backgroundColor : [ colorDark ] ,
+    color           : [ colorNeonLight ] ,
+    boxShadow       : [ "inset 0 0 3px 5px " + colorLight ]
   } ,
+
   // Options
   Options : {
     iterations : 2             ,
@@ -906,6 +963,7 @@ const convertButtonAnimateKeyFramesOptions = {
     easing     : easingLinear  ,
     duration   : durationShort
   }
+
 };
 
 // value
@@ -948,9 +1006,14 @@ const getEditorOptionByRole = role => ( {
 
 // result
 const convertResultToValue = result => {
+
+  testLine( "convertResultToValue" , false );
+
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   const status = String( result["status"] );
+  testLine( "- status : " + status , false );
+
   // value
   // valid    : text
   // invalid  : message + formatted
@@ -958,8 +1021,11 @@ const convertResultToValue = result => {
               ? String( result["text"] )
               : String( result["message"] ) + "\n\n" + String( result["formatted"] )
               ;
+  testLine( "- value length : " + value.length );
+
   // return
   return value;
+
 };
 const setEditorValue = (editor,value) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
@@ -970,11 +1036,13 @@ const setEditorValueByRole = (role,value) =>
     value
   );
 const convertResultToEditorByRole = role => {
-  const resultToEditor = result =>
+  const resultToEditor = result => {
+    testLine("resultToEditor");
     setEditorValueByRole(
       role ,
       convertResultToValue(result)
     );
+  };
   return resultToEditor;
 };
 
@@ -986,23 +1054,30 @@ const convertResultToEditorByRole = role => {
 
 // set : animate
 const convertButtonAnimate = () => {
+
+  testLine("convertButtonAnimate");
+
   const [KeyFrames,Options] = Object.values(
     convertButtonAnimateKeyFramesOptions
   );
-  testObject(KeyFrames,"KeyFrames");
-  testObject(Options,"Options");
+  testObject(KeyFrames);
+  testObject(Options);
+
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
   convertButton.animate(
     KeyFrames ,
     Options
   );
+
 };
 
 // set : convert
 const convertButtonConvert = () => {
 
+  testLine("convertButtonConvert");
+
   // role
-  const roleInput = getRoleByIndex(0);
+  const roleInput  = getRoleByIndex(0);
   const roleOutput = getRoleByIndex(1);
   testLine( "role" , false );
   testLine( "- roleInput  : " + roleInput , false);
@@ -1020,15 +1095,12 @@ const convertButtonConvert = () => {
 
   // inputOption
   const inputOption = getEditorOptionByRole(roleInput);
-  testObject( inputOption , "inputOption" );
+  testObject( inputOption );
 
   // resultToOutput
-  testLine( "resultToOutput" , false );
   const resultToOutput = convertResultToEditorByRole(roleOutput);
-  testLine( "- typeof : " + typeof resultToOutput );
 
   // compile
-  testLine( "compile" );
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   Sass.compile(
@@ -1050,25 +1122,23 @@ testLine("convertButton");
 // select
 query = "#convertButton";
 const convertButton = queryEl();
-testLine("select",false);
 
 // set : style
 setElStyle(convertButton,convertButtonStyle);
-testLine("set : style",false);
+testObject( convertButtonStyle );
 
 // child : text
 const convertButtonText = "Click : convert to " + getModeByIndex(1);
 childText(convertButton,convertButtonText);
-testLine("child : text",false);
+testLine( "child text" , false );
 
 // set : event listener
 const convertButtonListener = event => {
   testclear();
+  testLine("convertButtonListener");
   // animate
-  testLine("animate");
   convertButtonAnimate();
   // convert
-  testLine("convert");
   convertButtonConvert();
 };
 convertButton.addEventListener(
@@ -1077,7 +1147,7 @@ convertButton.addEventListener(
   "click" ,
   convertButtonListener
 );
-testLine("set : event listener");
+testLine( "event listener" );
 
 
 
