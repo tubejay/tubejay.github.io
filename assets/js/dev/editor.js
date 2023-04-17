@@ -106,7 +106,7 @@ const testArray = arr => {
       break;
     case true:
       // title
-      testLine( nameAsString(obj) , false );
+      testLine( nameAsString(arr) , false );
       // item
       arr.forEach( item =>
         testLine(
@@ -464,6 +464,7 @@ const inputButtonStyleKebab = {
   option : {
     iterations : 1            ,
     direction  : "alternate"  ,
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
     fill       : "forwards"   ,
     easing     : easingOut    ,
     duration   : durationLong
