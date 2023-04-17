@@ -1007,6 +1007,10 @@ const convertButtonConvert = () => {
   testLine( "role" , false );
   testLine( "- roleInput  : " + roleInput , false);
   testLine( "- roleOutput : " + roleOutput );
+  // mode
+  testLine( "mode" , false );
+  testLine( "- modeInput  : " + getModeByRole(roleInput) , false );
+  testLine( "- modeOutput : " + getModeByRole(roleOutput) );
   try {
     // inputValue
     testLine( "inputValue" , false );
@@ -1060,7 +1064,7 @@ const convertButtonListener = event => {
   testclear();
   // animate
   testLine("animate");
-  convertButtonAnimateSleep();
+  await convertButtonAnimateSleep();
   // convert
   testLine("convert");
   convertButtonConvert();
