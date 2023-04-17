@@ -33,6 +33,15 @@ const childText = (el,text,tag="div") => {
   el.appendChild(child);
 };
 
+// sleep
+// https://stackoverflow.com/a/39914235
+// https://www.daleseo.com/js-async-callback/
+// https://www.daleseo.com/js-async-promise/
+// https://www.daleseo.com/js-async-async-await/
+// https://www.daleseo.com/js-sleep/
+const sleep = ms => new Promise( r => setTimeout(ms) );
+
+
 
 
 ////////////////////
@@ -202,23 +211,52 @@ const setModeByIndex = (index,modeNew) =>
 
 
 ////////////////////////////////////////
-///// size
+///// constant
 ////////////////////////////////////////
 
 
 
-// demoContainer
+////////////////////
+///// size
+////////////////////
+
 const demoContainerWidth  = "360px";
 
-// inputButton
 const inputButtonWidth    = "180px";
 const inputButtonHeight   = "60px";
 
-// editor
 const editorHeight        = "240px";
 
-// convertButton
 const convertButtonHeight = "60px";
+
+
+
+////////////////////
+///// color
+////////////////////
+
+const colorNeonDefault = "#F21368";
+const colorNeonLight   = "#F65593";
+const colorNeonDark    = "#C20A51";
+
+const colorDark  = "#1A1A1A";
+const colorLight = "#FFFFFF";
+
+
+
+////////////////////
+///// animate
+////////////////////
+
+const animateDurationShort = 250;
+const animateDurationLong  = 1000;
+
+const animateDurationInput     = animateDurationLong;
+const animateDurationAlternate = animateDurationShort;
+
+// https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
+const animateEasingBezier = "cubic-bezier(0.1, 0.7, 1.0, 0.1)";
+const animateEasingOut    = "ease-in-out";
 
 
 
@@ -376,22 +414,22 @@ const inputButtonStyleKebab = {
     "align-items"     : "center"  
   },
   unchecked : {
-    "background-color" : "#000000" ,
-    "color"            : "#f21368" ,
-    "font-size"        : "22px"    ,
+    "background-color" : colorDark      ,
+    "color"            : colorNeonLight ,
+    "font-size"        : "22px"         ,
     "font-weight"      : "300"
   },
   checked : {
-    "background-color" : "#f21368" ,
-    "color"            : "#ffffff" ,
-    "font-size"        : "25px"    ,
+    "background-color" : colorNeonDefault ,
+    "color"            : colorLight       ,
+    "font-size"        : "25px"           ,
     "font-weight"      : "600"
   },
   option : {
-    easing     : "ease-in-out" ,
-    direction  : "alternate"   ,
-    fill       : "forwards"    ,
-    duration   : 500           ,
+    easing     : animateEasingBezier  ,
+    direction  : "alternate"          ,
+    fill       : "forwards"           ,
+    duration   : animateDurationInput ,
     iterations : 1
   }
 };
@@ -450,44 +488,50 @@ const inputButtonFilter = (state,modeNew) =>
 
 
 ////////////////////
+///// async
+////////////////////
+
+const inputButtonAsync = async (state,button) => {
+  testLine( "button : " + button.getAttribute("value") );
+  // KeyFrames
+  // Options
+  const buttonKeyFrames = inputButtonStyleCamel[state];
+  const buttonOptions = inputButtonStyleKebab["option"];
+  testObject( buttonKeyFrames , "KeyFrames" );
+  testObject( buttonOptions , "Options" );
+  // animate
+  button.animate(
+    buttonKeyFrames ,
+    buttonOptions
+  );
+  // await sleep
+  // duration : animate
+  await sleep( buttonOptions["duration"] );
+  // style
+  // after animate
+  const buttonStyle = inputButtonStyleKebab[state];
+  setElStyle(button,buttonStyle);
+}
+
+
+
+////////////////////
 ///// listener
 ////////////////////
 
 // animate
-// https://stackoverflow.com/a/39914235
-// https://www.daleseo.com/js-async-callback/
-// https://www.daleseo.com/js-async-promise/
-// https://www.daleseo.com/js-async-async-await/
-// https://www.daleseo.com/js-sleep/
-const sleep = ms => new Promise( r => setTimeout(ms) );
 const inputButtonAnimate = async modeNew => {
   try {
+    // state
     inputButtonState.forEach( state => {
       testLine( "state : " + state );
-      // filter
+      // button
       inputButtonFilter(state,modeNew).forEach(
         // async
-        async button =>
-        {
-          testLine( "button : " + button.getAttribute("value") );
-          // KeyFrames
-          // Options
-          const buttonKeyFrames = inputButtonStyleCamel[state];
-          const buttonOptions = inputButtonStyleKebab["option"];
-          testObject( buttonKeyFrames , "KeyFrames" );
-          testObject( buttonOptions , "Options" );
-          // animate
-          button.animate(
-            buttonKeyFrames ,
-            buttonOptions
-          );
-          // await sleep
-          const buttonDuration = buttonOptions["duration"];
-          await sleep( buttonDuration );
-          // style
-          const buttonStyle = inputButtonStyleKebab[state];
-          setElStyle(button,buttonStyle);
-        }
+        button => inputButtonAsync(
+          state  ,
+          button
+        )
       )
     } );
   } catch(error) {
@@ -560,19 +604,19 @@ const inputButtonListener = event => {
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
   // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
   testclear();
-  try {
-    testLine( "modeNew" , false );
-    const modeNew = event.target.value;
-    testLine( "- " + modeNew );
-    testLine( "Mode" );
-    inputButtonMode(modeNew);
-    testLine( "Editor" );
-    inputButtonEditor(modeNew);
-    testLine( "Animate" );
-    inputButtonAnimate(modeNew);
-  } catch(error) {
-    testLine( error.toString() );
-  };
+  // modeNew
+  testLine( "modeNew" , false );
+  const modeNew = event.target.value;
+  testLine( "- " + modeNew );
+  // Mode
+  testLine( "Mode" );
+  inputButtonMode(modeNew);
+  // Editor
+  testLine( "Editor" );
+  inputButtonEditor(modeNew);
+  // Animate
+  testLine( "Animate" );
+  inputButtonAnimate(modeNew);
 };
 
 // create -> appendChild
@@ -731,8 +775,8 @@ const setEditorThemeByRole = (role,themeName) =>
     themeName
   );
 
-// test
-const testEditorThemeByRole = {
+// initialize
+const initialEditorThemeByRole = {
   // role : themeName
   Input   : "tomorrow_night_bright" ,
   Output  : "terminal"
@@ -829,8 +873,8 @@ editorRoles.forEach( role => {
 const convertButtonStyle = {
   width              : demoContainerWidth   ,
   height             : convertButtonHeight  ,
-  color              : "#ffffff"            ,
-  "background-color" : "#f21368"            ,
+  color              : colorLight           ,
+  "background-color" : colorNeonDark        ,
   "font-size"        : "20px"               ,
   "font-weight"      : "600"                ,
   display            : "flex"               ,
@@ -846,14 +890,14 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-    boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
+    backgroundColor : [ colorNeonLight ]
+    //boxShadow : [ "inset 0 0 5px 5px #ffffff" ]
   } ,
   // Options
   Options : {
-    // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
-    easing     : "ease-out"   ,
-    direction  : "alternate"  ,
-    duration   : 500          ,
+    easing     : animateEasingBezier      ,
+    direction  : "alternate"              ,
+    duration   : animateDurationAlternate ,
     iterations : 2
   }
 };
@@ -948,6 +992,13 @@ const convertButtonAnimate = () => {
   );
 };
 
+// set : animate + sleep
+const convertButtonAnimateSleep = async () => {
+  convertButtonAnimate();
+  await sleep( 2*animateDurationAlternate );
+  return null;
+};
+
 // set : convert
 const convertButtonConvert = () => {
   // role
@@ -1007,8 +1058,10 @@ testLine("child : text",false);
 // set : event listener
 const convertButtonListener = event => {
   testclear();
+  // animate
   testLine("animate");
-  convertButtonAnimate();
+  convertButtonAnimateSleep();
+  // convert
   testLine("convert");
   convertButtonConvert();
 };
