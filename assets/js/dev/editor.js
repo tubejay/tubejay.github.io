@@ -192,10 +192,13 @@ const setModeByRole = (role,modeNew) => {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
   switch ( editorRoles.includes(role) ) {
     case true:
+      // role
       testLine( "setModeByRole" , false );
       testLine( "- role : " + role , false );
+      // modeOld
       const modeOld = modeByRole[role];
       testLine( "- modeOld : " + modeOld , false );
+      // modeNew
       modeByRole[role] = modeNew;
       testLine( "- modeNew : " + modeNew );
       break;
@@ -204,7 +207,10 @@ const setModeByRole = (role,modeNew) => {
   };
 };
 const setModeByIndex = (index,modeNew) =>
-  setModeByRole( getRoleByIndex(index) , modeNew );
+  setModeByRole(
+    getRoleByIndex(index) ,
+    modeNew
+  );
 
 
 
@@ -239,24 +245,38 @@ const colorNeonDefault = "#F21368";
 const colorNeonLight   = "#F65593";
 const colorNeonDark    = "#C20A51";
 
-const colorDark  = "#1A1A1A";
-const colorLight = "#FFFFFF";
+const colorDark        = "#1A1A1A";
+const colorLight       = "#FFFFFF";
 
 
 
-////////////////////
+
+
+////////////////////////////////////////
 ///// animate
+////////////////////////////////////////
+
+
+
 ////////////////////
-
-const animateDurationShort = 750;
-const animateDurationLong  = 1000;
-
-const animateDurationInput     = animateDurationLong;
-const animateDurationAlternate = animateDurationShort;
+///// duration
+////////////////////
 
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
-const animateEasingBezier = "cubic-bezier(0.1, 0.7, 1.0, 0.1)";
-const animateEasingOut    = "ease-in-out";
+
+const durationShort = 500;
+const durationLong  = 1000;
+
+
+
+////////////////////
+///// easing
+////////////////////
+
+// https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
+
+const easingLinear = "linear";
+const easingOut    = "ease-out";
 
 
 
@@ -426,11 +446,11 @@ const inputButtonStyleKebab = {
     "font-weight"      : "600"
   },
   option : {
-    easing     : animateEasingBezier  ,
-    direction  : "alternate"          ,
-    fill       : "forwards"           ,
-    duration   : animateDurationInput ,
-    iterations : 1
+    iterations : 1            ,
+    direction  : "alternate"  ,
+    fill       : "forwards"   ,
+    easing     : easingOut    ,
+    duration   : durationLong
   }
 };
 
@@ -520,42 +540,31 @@ const inputButtonAsync = async (state,button) => {
 ////////////////////
 
 // animate
-const inputButtonAnimate = modeNew => {
-  try {
-    // state
-    inputButtonState.forEach( state => {
-      testLine( "state : " + state );
-      // button
-      inputButtonFilter(state,modeNew).forEach(
-        // async
-        button => inputButtonAsync(
-          state  ,
-          button
-        )
+const inputButtonAnimate = modeNew =>
+  // loop : state
+  inputButtonState.forEach( state => {
+    testLine( "state : " + state );
+    // filter : button
+    inputButtonFilter(
+      state   ,
+      modeNew
+    // loop : button
+    ).forEach( button =>
+      // async
+      inputButtonAsync(
+        state  ,
+        button
       )
-    } );
-  } catch(error) {
-    testLine( error.toString() );
-  };
-};
+    )
+  } );
 
 // mode
-const inputButtonMode = modeNew => {
-  try {
-    setModeByIndex(0,modeNew);
-  } catch(error) {
-    testLine( error.toString() );
-  };
-};
+const inputButtonMode = modeNew =>
+  setModeByIndex(0,modeNew);
 
 // editor
-const inputButtonEditor = modeNew => {
-  try {
-    setEditorModeByIndex(0,modeNew);
-  } catch(error) {
-    testLine( error.toString() );
-  };
-};
+const inputButtonEditor = modeNew =>
+  setEditorModeByIndex(0,modeNew);
 
 
 
@@ -892,10 +901,10 @@ const convertButtonAnimateKeyFramesOptions = {
   } ,
   // Options
   Options : {
-    easing     : animateEasingBezier      ,
-    direction  : "alternate"              ,
-    duration   : animateDurationAlternate ,
-    iterations : 2
+    iterations : 2             ,
+    direction  : "alternate"   ,
+    easing     : easingLinear  ,
+    duration   : durationShort
   }
 };
 
@@ -991,40 +1000,43 @@ const convertButtonAnimate = () => {
 
 // set : convert
 const convertButtonConvert = () => {
+
   // role
   const roleInput = getRoleByIndex(0);
   const roleOutput = getRoleByIndex(1);
   testLine( "role" , false );
   testLine( "- roleInput  : " + roleInput , false);
   testLine( "- roleOutput : " + roleOutput );
+
   // mode
   testLine( "mode" , false );
   testLine( "- modeInput  : " + getModeByRole(roleInput) , false );
   testLine( "- modeOutput : " + getModeByRole(roleOutput) );
-  try {
-    // inputValue
-    testLine( "inputValue" , false );
-    const inputValue = getEditorValueByRole(roleInput);
-    testLine( "- length : " + inputValue.length );
-    // inputOption
-    const inputOption = getEditorOptionByRole(roleInput);
-    testObject( inputOption , "inputOption" );
-    // resultToOutput
-    testLine( "resultToOutput" , false );
-    const resultToOutput = convertResultToEditorByRole(roleOutput);
-    testLine( "- typeof : " + typeof resultToOutput );
-    // compile
-    testLine( "compile" );
-    // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
-    // https://stackoverflow.com/a/75716055
-    Sass.compile(
-      inputValue ,
-      inputOption ,
-      resultToOutput
-    );
-  } catch (error) {
-    testLine( error.toString() );
-  };
+
+  // inputValue
+  testLine( "inputValue" , false );
+  const inputValue = getEditorValueByRole(roleInput);
+  testLine( "- length : " + inputValue.length );
+
+  // inputOption
+  const inputOption = getEditorOptionByRole(roleInput);
+  testObject( inputOption , "inputOption" );
+
+  // resultToOutput
+  testLine( "resultToOutput" , false );
+  const resultToOutput = convertResultToEditorByRole(roleOutput);
+  testLine( "- typeof : " + typeof resultToOutput );
+
+  // compile
+  testLine( "compile" );
+  // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
+  // https://stackoverflow.com/a/75716055
+  Sass.compile(
+    inputValue ,
+    inputOption ,
+    resultToOutput
+  );
+
 };
 
 
