@@ -322,7 +322,7 @@ query = "#demoContainer";
 const demoContainer = queryEl();
 
 // style
-setElStyle(demoContainer);
+setElStyle(demoContainer,demoContainerStyle);
 testObject(demoContainerStyle);
 
 
