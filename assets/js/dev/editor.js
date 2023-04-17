@@ -248,7 +248,7 @@ const colorLight = "#FFFFFF";
 ///// animate
 ////////////////////
 
-const animateDurationShort = 250;
+const animateDurationShort = 750;
 const animateDurationLong  = 1000;
 
 const animateDurationInput     = animateDurationLong;
@@ -520,7 +520,7 @@ const inputButtonAsync = async (state,button) => {
 ////////////////////
 
 // animate
-const inputButtonAnimate = async modeNew => {
+const inputButtonAnimate = modeNew => {
   try {
     // state
     inputButtonState.forEach( state => {
@@ -992,13 +992,6 @@ const convertButtonAnimate = () => {
   );
 };
 
-// set : animate + sleep
-const convertButtonAnimateSleep = async () => {
-  convertButtonAnimate();
-  await sleep( 2*animateDurationAlternate );
-  return null;
-};
-
 // set : convert
 const convertButtonConvert = () => {
   // role
@@ -1064,7 +1057,9 @@ const convertButtonListener = async event => {
   testclear();
   // animate
   testLine("animate");
-  await convertButtonAnimateSleep();
+  convertButtonAnimate();
+  // sleep
+  await sleep( 2*animateDurationAlternate );
   // convert
   testLine("convert");
   convertButtonConvert();
