@@ -998,29 +998,44 @@ const getModeIndentedByRole = role =>
   getModeIndented(
     getModeByRole(role)
   );
-const getEditorOptionByRole = role => ( {
-  // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-  indentedSyntax : getModeIndentedByRole(role)
-} );
+const getEditorOptionByRole = role => {
+  // https://github.com/medialize/sass.js/blob/master/docs/api.md#output-style-options
+  const optionStyle  = Sass.style.expanded;
+  const optionIndent = getModeIndentedByRole(role);
+  return {
+    style          : optionStyle ,
+    comments       : true ,
+    // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
+    indentedSyntax : optionIndent
+  }
+};
 
 // result
-const convertResultToValue = result => {
+const convertResultToValue = (role,result) => {
 
   testLine( "convertResultToValue" , false );
 
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-  const status = String( result["status"] );
-  testLine( "- status : " + status , false );
+  const status      = String( result["status"] );
+  const statusText  = "- status : " + status;
+  const statusValue = "// status : " + status;
+  testLine( statusText , false );
 
-  // value
+  // resultValue
   // valid    : text
   // invalid  : message + formatted
-  const value = status==="0"
-              ? String( result["text"] )
-              : String( result["message"] ) + "\n\n" + String( result["formatted"] )
-              ;
-  testLine( "- value length : " + value.length );
+  const resultValue = status==="0"
+                    ? String( result["text"] )
+                    : String( result["message"] ) + "\n\n" + String( result["formatted"] )
+                    ;
+  testLine( "- value length : " + resultValue.length );
+
+  // value
+  const value       = statusValue
+                    + "\n\n"
+                    + resultValue
+                    ;
 
   // return
   return value;
@@ -1039,7 +1054,7 @@ const convertResultToEditorByRole = role => {
     testLine("resultToEditor");
     setEditorValueByRole(
       role ,
-      convertResultToValue(result)
+      convertResultToValue(role,result)
     );
   };
   return resultToEditor;
