@@ -600,13 +600,14 @@ const inputButtonCreate = modeInput => {
 const inputButtonListener = event => {
   // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
   // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/target
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
   // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
   testclear();
   // modeNew
   testLine( "modeNew" , false );
-  const modeNew = event.currentTarget.value;
+  const modeNew = event.target.value;
   testLine( "- " + modeNew );
   // Mode
   testLine( "Mode" );
@@ -1053,13 +1054,11 @@ childText(convertButton,convertButtonText);
 testLine("child : text",false);
 
 // set : event listener
-const convertButtonListener = async event => {
+const convertButtonListener = event => {
   testclear();
   // animate
   testLine("animate");
   convertButtonAnimate();
-  // sleep
-  await sleep( 2*animateDurationAlternate );
   // convert
   testLine("convert");
   convertButtonConvert();
