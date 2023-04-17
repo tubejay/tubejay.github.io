@@ -781,7 +781,7 @@ const initialEditorThemeByRole = {
   Input   : "tomorrow_night_bright" ,
   Output  : "terminal"
 };
-Object.entries(testEditorThemeByRole).forEach(
+Object.entries(initialEditorThemeByRole).forEach(
   // entry : [role,themeName]
   entry => setEditorThemeByRole(...entry)
 );
