@@ -290,7 +290,7 @@ const colorWhite       = "#FFFFFF";
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 
 const durationShort = 500;
-const durationLong  = 1000;
+const durationLong  = 750;
 
 
 
@@ -465,14 +465,14 @@ const inputButtonAttr = {
 const inputButtonStyleKebab = {
 
   fixed : {
-    width             : inputButtonWidth        ,
-    height            : inputButtonHeight       ,
-    display           : "flex"                  ,
-    "flex-direction"  : "column"                ,
-    "justify-content" : "center"                ,
-    "align-items"     : "center"                ,
-    "font-weight"     : "bold"                  ,
-    "text-shadow"     : colorBlack + " 0 0 3px"
+    "text-shadow"     : colorBlack + " 1px 1px 2px" ,
+    "font-weight"     : "bold"            ,
+    width             : inputButtonWidth  ,
+    height            : inputButtonHeight ,
+    display           : "flex"            ,
+    "flex-direction"  : "column"          ,
+    "justify-content" : "center"          ,
+    "align-items"     : "center"
   },
 
   unchecked : {
@@ -987,16 +987,16 @@ editorRoles.forEach( role => {
 
 // style
 const convertButtonStyle = {
-  width              : demoContainerWidth      ,
-  height             : convertButtonHeight     ,
-  color              : colorWhite              ,
-  "background-color" : colorNeonDefault        ,
-  "text-shadow"      : colorBlack + " 0 0 3px" ,
-  "font-size"        : "20px"                  ,
-  "font-weight"      : "bold"                  ,
-  display            : "flex"                  ,
-  "flex-direction"   : "column"                ,
-  "justify-content"  : "center"                ,
+  "text-shadow"      : colorBlack + " 2px 2px 2px" ,
+  "background-color" : colorNeonDefault    ,
+  color              : colorWhite          ,
+  "font-size"        : "20px"              ,
+  "font-weight"      : "bold"              ,
+  width              : demoContainerWidth  ,
+  height             : convertButtonHeight ,
+  display            : "flex"              ,
+  "flex-direction"   : "column"            ,
+  "justify-content"  : "center"            ,
   "align-items"      : "center"
 };
 
@@ -1009,7 +1009,7 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
     backgroundColor : [ colorNeonBlack ] ,
-    boxShadow       : [ "inset 0 0 2px 5px " + colorWhite ]
+    boxShadow       : [ "inset 0 0 2px 2px " + colorNeonLight ]
   } ,
 
   // Options
