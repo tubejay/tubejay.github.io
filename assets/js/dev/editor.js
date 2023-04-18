@@ -79,13 +79,13 @@ const testLine = (text,hr=true) => {
 };
 
 // object
-const testObject = obj => {
+const testObject = (obj,title="") => {
   switch (testOn) {
     case false:
       break;
     case true:
       // title
-      testLine( nameAsString(obj) , false );
+      testLine( title , false );
       // key,value
       Object.entries(obj).forEach( ( [key,value] ) =>
         testLine(
@@ -100,13 +100,13 @@ const testObject = obj => {
 };
 
 // array
-const testArray = arr => {
+const testArray = (arr,title="") => {
   switch (testOn) {
     case false:
       break;
     case true:
       // title
-      testLine( nameAsString(arr) , false );
+      testLine( title , false );
       // item
       arr.forEach( item =>
         testLine(
@@ -167,13 +167,13 @@ const editorRoles = [
   "Input" ,
   "Output"
 ];
-testArray( editorRoles );
+testArray( editorRoles , "editorRoles" );
 
 const modeByRole = {
   Input   : undefined ,
   Output  : "css"
 };
-testObject( modeByRole );
+testObject( modeByRole , "modeByRole" );
 
 const modeInputArray = [
   "scss" ,
@@ -322,8 +322,8 @@ query = "#demoContainer";
 const demoContainer = queryEl();
 
 // style
-setElStyle(demoContainer,demoContainerStyle);
-testObject(demoContainerStyle);
+setElStyle( demoContainer , demoContainerStyle );
+testObject( demoContainerStyle , "demoContainerStyle" );
 
 
 
@@ -361,8 +361,8 @@ query = "#inputContainer";
 const inputContainer = queryEl();
 
 // style
-setElStyle(inputContainer,inputContainerStyle);
-testObject(inputContainerStyle);
+setElStyle( inputContainer , inputContainerStyle );
+testObject( inputContainerStyle , "inputContainerStyle" );
 
 
 
@@ -536,8 +536,8 @@ const inputButtonAsync = async (state,button) => {
   // Options
   const buttonKeyFrames = inputButtonStyleCamel[state];
   const buttonOptions   = inputButtonStyleKebab["option"];
-  testObject( buttonKeyFrames );
-  testObject( buttonOptions );
+  testObject( buttonKeyFrames , "buttonKeyFrames" );
+  testObject( buttonOptions , "buttonOptions" );
 
   // animate
   button.animate(
@@ -609,24 +609,24 @@ const inputButtonCreate = modeInput => {
 
   // set : attr
   setElAttr( inputButton , inputButtonAttr );
-  testObject( inputButtonAttr  );
+  testObject( inputButtonAttr , "inputButtonAttr" );
 
   // set : attr more
   const inputButtonAttrMore = {
     value : modeInput
   };
   setElAttr( inputButton , inputButtonAttrMore );
-  testObject( inputButtonAttrMore  );
+  testObject( inputButtonAttrMore , "inputButtonAttrMore" );
 
   // set : style : fixed
   const inputButtonStyleFixed = inputButtonStyleKebab["fixed"];
   setElStyle( inputButton , inputButtonStyleFixed );
-  testObject( inputButtonStyleFixed   );
+  testObject( inputButtonStyleFixed , "inputButtonStyleFixed" );
 
   // set : style : unchecked
   const inputButtonStyleUnchecked = inputButtonStyleKebab["unchecked"];
   setElStyle( inputButton , inputButtonStyleUnchecked );
-  testObject( inputButtonStyleUnchecked );
+  testObject( inputButtonStyleUnchecked , "inputButtonStyleUnchecked" );
 
   // child : radio
   testLine( "child radio" , false );
@@ -721,9 +721,9 @@ const editors = queryEls();
 
 // set : style
 editors.forEach( editor =>
-  setElStyle(editor,editorStyle)
+  setElStyle( editor , editorStyle )
 );
-testObject( editorStyle );
+testObject( editorStyle , "editorStyle" );
 
 
 
@@ -841,7 +841,7 @@ Object.entries(initialEditorThemeByRole).forEach(
   // entry : [role,themeName]
   entry => setEditorThemeByRole(...entry)
 );
-testObject( initialEditorThemeByRole );
+testObject( initialEditorThemeByRole , "initialEditorThemeByRole" );
 
 
 
@@ -905,14 +905,14 @@ editorRoles.forEach( role => {
     role ,
     editorOptionAll
   );
-  testObject( editorOptionAll );
+  testObject( editorOptionAll , "editorOptionAll" );
   // role
   const editorOptionRole = editorOptionByRole[role];
   setEditorOptionByRole(
     role ,
     editorOptionRole
   );
-  testObject( editorOptionRole );
+  testObject( editorOptionRole , "editorOptionRole" );
 } );
 
 
@@ -1074,8 +1074,8 @@ const convertButtonAnimate = () => {
   const [KeyFrames,Options] = Object.values(
     convertButtonAnimateKeyFramesOptions
   );
-  testObject(KeyFrames);
-  testObject(Options);
+  testObject( KeyFrames , "KeyFrames" );
+  testObject( Options , "Options" );
 
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
   convertButton.animate(
@@ -1109,7 +1109,7 @@ const convertButtonConvert = () => {
 
   // inputOption
   const inputOption = getEditorOptionByRole(roleInput);
-  testObject( inputOption );
+  testObject( inputOption , "inputOption" );
 
   // resultToOutput
   const resultToOutput = convertResultToEditorByRole(roleOutput);
@@ -1138,8 +1138,8 @@ query = "#convertButton";
 const convertButton = queryEl();
 
 // set : style
-setElStyle(convertButton,convertButtonStyle);
-testObject( convertButtonStyle );
+setElStyle( convertButton , convertButtonStyle );
+testObject( convertButtonStyle , "convertButtonStyle" );
 
 // child : text
 const convertButtonText = "Click : convert to " + getModeByIndex(1);
