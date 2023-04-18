@@ -13,11 +13,6 @@ let query;
 const queryEl  = () => document.querySelector(query);
 const queryEls = () => document.querySelectorAll(query);
 
-// name
-const nameAsString = x =>
-  // https://stackoverflow.com/a/52598270
-  Object.keys( {x} );
-
 // attr
 const setElAttr = (el,objAttr) =>
   Object.entries(objAttr).forEach( ( [key,value] ) =>
@@ -32,10 +27,15 @@ const setElStyle = (el,objStyle) =>
   );
 
 // text
-const childText = (el,text,tag="div") => {
+const childText = (el,text,tag="div") => {    
   const child = document.createElement(tag);
   child.append(text);
   el.appendChild(child);
+};
+const textElChild = (el,text) => {
+  testLine( "childText" , false );
+  testLine( "- text : " + text );
+  childText( el , text );
 };
 
 // sleep
@@ -397,19 +397,25 @@ const inputButtonRadioStyle = {
 
 const inputButtonRadioCreate = modeInput => {
 
+  testLine( "inputButtonRadioCreate" );
+
   // input
   const inputButtonRadio = document.createElement("input");
 
   // set : attr
-  setElAttr(inputButtonRadio,inputButtonRadioAttr);
+  setElAttr( inputButtonRadio , inputButtonRadioAttr );
+  testObject( inputButtonRadioAttr , "inputButtonRadioAttr" );
+
   // set : attr more
   const inputButtonRadioAttrMore = {
     value : modeInput
   };
-  setElAttr(inputButtonRadio,inputButtonRadioAttrMore);
+  setElAttr( inputButtonRadio , inputButtonRadioAttrMore );
+  testObject( inputButtonRadioAttrMore , "inputButtonRadioAttrMore" );
 
   // set : style
-  setElStyle(inputButtonRadio,inputButtonRadioStyle);
+  setElStyle( inputButtonRadio , inputButtonRadioStyle );
+  testObject( inputButtonRadioStyle , "inputButtonRadioStyle" );
 
   // return
   return inputButtonRadio
@@ -516,11 +522,13 @@ const inputButtonBoolByState = state => {
 };
 const inputButtonEqualValue = (inputButton,value) =>
   inputButton.getAttribute("value") === value;
-const inputButtonFilter = (state,modeNew) =>
+const inputButtonFilter = (state,modeNew) => {
+  testLine( "inputButtonFilter" );
   inputButtonAll().filter( inputButton =>
     // https://stackoverflow.com/a/4540481
     inputButtonBoolByState(state) ^ inputButtonEqualValue(inputButton,modeNew)
   );
+};
 
 
 
@@ -530,7 +538,8 @@ const inputButtonFilter = (state,modeNew) =>
 
 const inputButtonAsync = async (state,button) => {
 
-  testLine( "button : " + button.getAttribute("value") );
+  testLine( "inputButtonAsync" , false );
+  testLine( "- button : " + button.getAttribute("value") );
 
   // KeyFrames
   // Options
@@ -539,20 +548,23 @@ const inputButtonAsync = async (state,button) => {
   testObject( buttonKeyFrames , "buttonKeyFrames" );
   testObject( buttonOptions , "buttonOptions" );
 
-  // animate
+  // animate + sleep
+  testLine( "animate + sleep" , false );
+  const sleepDuration = buttonOptions["duration"];
+  testLine( "- duration : " + sleepDuration , false );
+  testLine( "- start" , false );
   button.animate(
     buttonKeyFrames ,
     buttonOptions
   );
-
-  // await sleep
-  // duration : animate
-  await sleep( buttonOptions["duration"] );
+  await sleep( sleepDuration );
+  testLine( "- end" );
 
   // style
-  // after animate
+  testLine( "start" );
   const buttonStyle = inputButtonStyleKebab[state];
-  setElStyle(button,buttonStyle);
+  setElStyle( button , buttonStyle );
+  testObject( buttonStyle , "buttonStyle" );
 
 }
 
@@ -563,7 +575,10 @@ const inputButtonAsync = async (state,button) => {
 ////////////////////
 
 // animate
-const inputButtonAnimate = modeNew =>
+const inputButtonAnimate = modeNew => {
+
+  testLine( "inputButtonAnimate" );
+
   // loop : state
   inputButtonState.forEach( state => {
     testLine( "state : " + state );
@@ -580,6 +595,7 @@ const inputButtonAnimate = modeNew =>
       )
     )
   } );
+};
 
 // mode
 const inputButtonMode = modeNew => {
@@ -603,6 +619,9 @@ testLine("inputButton");
 
 // create
 const inputButtonCreate = modeInput => {
+
+  testLine( "inputButtonCreate" , false );
+  testLine( "- modeInput : " + modeInput );
 
   // label
   const inputButton = document.createElement("label");
@@ -629,20 +648,21 @@ const inputButtonCreate = modeInput => {
   testObject( inputButtonStyleUnchecked , "inputButtonStyleUnchecked" );
 
   // child : radio
-  testLine( "child radio" , false );
   inputButton.appendChild(
     inputButtonRadioCreate(modeInput)
   );
 
   // child : text
-  testLine( "child text" , false );
-  childText( inputButton , modeInput );
+  textElChild( inputButton , modeInput );
 
   // set : event listener
-  testLine( "event listener" );
+  testLine( "addEventListener" , false );
+  // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
+  const eventType = "change";
+  testLine( "- eventType : " + eventType , false )
+  testLine( "- listener : " + "inputButtonListener" );
   inputButton.addEventListener(
-    // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
-    "change" ,
+    eventType ,
     inputButtonListener
   );
 
@@ -654,7 +674,7 @@ const inputButtonCreate = modeInput => {
 const inputButtonListener = event => {
 
   testclear();
-  testLine("inputButtonListener");
+  testLine( "inputButtonListener" , false );
 
   // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
   // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
@@ -679,12 +699,11 @@ const inputButtonListener = event => {
 };
 
 // create
-modeInputArray.forEach( modeInput => {
-  testLine( "modeInput : " + modeInput );
+modeInputArray.forEach( modeInput =>
   inputContainer.appendChild(
     inputButtonCreate(modeInput)
   )
-} );
+);
 
 
 
@@ -1050,13 +1069,16 @@ const setEditorValueByRole = (role,value) =>
     value
   );
 const convertResultToEditorByRole = role => {
+  // create
   const resultToEditor = result => {
-    testLine("resultToEditor");
+    testLine( "resultToEditor" );
     setEditorValueByRole(
       role ,
       convertResultToValue(role,result)
     );
+    testLine( "resultToEditor" );
   };
+  // return
   return resultToEditor;
 };
 
@@ -1117,6 +1139,7 @@ const convertButtonConvert = () => {
   // compile
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
+  testLine( "compile" );
   Sass.compile(
     inputValue ,
     inputOption ,
@@ -1124,6 +1147,18 @@ const convertButtonConvert = () => {
   );
 
 };
+
+// set : listener
+const convertButtonListener = event => {
+  testclear();
+  testLine("convertButtonListener");
+  // animate
+  convertButtonAnimate();
+  // convert
+  convertButtonConvert();
+};
+
+
 
 
 
@@ -1143,18 +1178,9 @@ testObject( convertButtonStyle , "convertButtonStyle" );
 
 // child : text
 const convertButtonText = "Click : convert to " + getModeByIndex(1);
-childText(convertButton,convertButtonText);
-testLine( "child text" , false );
+textElChild( convertButton , convertButtonText );
 
 // set : event listener
-const convertButtonListener = event => {
-  testclear();
-  testLine("convertButtonListener");
-  // animate
-  convertButtonAnimate();
-  // convert
-  convertButtonConvert();
-};
 convertButton.addEventListener(
   // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
