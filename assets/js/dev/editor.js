@@ -63,8 +63,19 @@ const testText = text => {
 };
 
 // hr
-const testHr = (n=30) =>
-  testText( "=".repeat(n) );
+const testHr = () =>
+  testText( "=".repeat(30) );
+
+// br
+const testBr = () =>
+  testText( " " );
+
+// br + hr
+const testBrHr = () => {
+  testBr();
+  testHr();
+};
+
 
 // line
 const testLine = (text,hr=true) => {
@@ -159,6 +170,7 @@ try {
 ///// role
 ////////////////////
 
+testBrHr();
 testLine("mode");
 
 // 0 : Input
@@ -315,6 +327,7 @@ const demoContainerStyle = {
 ///// element
 ////////////////////
 
+testBrHr();
 testLine("demoContainer");
 
 // select
@@ -524,7 +537,7 @@ const inputButtonEqualValue = (inputButton,value) =>
   inputButton.getAttribute("value") === value;
 const inputButtonFilter = (state,modeNew) => {
   testLine( "inputButtonFilter" );
-  inputButtonAll().filter( inputButton =>
+  return inputButtonAll().filter( inputButton =>
     // https://stackoverflow.com/a/4540481
     inputButtonBoolByState(state) ^ inputButtonEqualValue(inputButton,modeNew)
   );
@@ -615,6 +628,7 @@ const inputButtonEditor = modeNew => {
 ///// element
 ////////////////////
 
+testBrHr();
 testLine("inputButton");
 
 // create
@@ -685,7 +699,6 @@ const inputButtonListener = event => {
 
   // modeNew
   const modeNew = event.target.value;
-  testLine( "modeNew : " + modeNew );
 
   // Mode
   inputButtonMode(modeNew);
@@ -699,11 +712,12 @@ const inputButtonListener = event => {
 };
 
 // create
-modeInputArray.forEach( modeInput =>
+modeInputArray.forEach( modeInput => {
+  testBrHr();
   inputContainer.appendChild(
     inputButtonCreate(modeInput)
   )
-);
+} );
 
 
 
@@ -732,6 +746,7 @@ const editorStyle = {
 ///// element
 ////////////////////
 
+testBrHr();
 testLine("editor");
 
 // select
@@ -920,6 +935,7 @@ const setEditorOptionByRole = (role,option) =>
 // set
 editorRoles.forEach( role => {
 
+  testBrHr();
   testLine( "role : " + role );
 
   // all
@@ -1077,7 +1093,6 @@ const setEditorValueByRole = (role,value) =>
 const convertResultToEditorByRole = role => {
   // create
   const resultToEditor = result => {
-    testLine( "resultToEditor" );
     setEditorValueByRole(
       role ,
       convertResultToValue(role,result)
@@ -1165,7 +1180,7 @@ const convertButtonListener = event => {
 
   // convert
   convertButtonConvert();
-  
+
 };
 
 
@@ -1176,6 +1191,7 @@ const convertButtonListener = event => {
 ///// element
 ////////////////////
 
+testBrHr();
 testLine("convertButton");
 
 // select
@@ -1208,6 +1224,8 @@ const convertButtonSetting = () => {
 
 };
 convertButtonSetting();
+
+testLine( getModeByIndex(0) );
 
 
 
