@@ -155,6 +155,7 @@ const testclear = () => {
 
 
 
+testBrHr();
 testLine("test start");
 try {
 
@@ -369,6 +370,7 @@ const inputContainerStyle = {
 ///// element
 /////a///////////////
 
+testBrHr();
 testLine("inputContainer");
 
 // select
@@ -412,6 +414,7 @@ const inputButtonRadioStyle = {
 
 const inputButtonRadioCreate = modeInput => {
 
+  testBrHr();
   testLine( "inputButtonRadioCreate" );
 
   // input
@@ -592,11 +595,15 @@ const inputButtonAsync = async (state,button) => {
 // animate
 const inputButtonAnimate = modeNew => {
 
+  testBrHr();
   testLine( "inputButtonAnimate" );
 
   // loop : state
   inputButtonState.forEach( state => {
+
+    testBrHr();
     testLine( "state : " + state );
+
     // filter : button
     inputButtonFilter(
       state   ,
@@ -609,6 +616,7 @@ const inputButtonAnimate = modeNew => {
         button
       )
     )
+    
   } );
 };
 
@@ -656,17 +664,13 @@ const inputButtonCreate = modeInput => {
   // set : style : fixed
   const inputButtonStyleFixed = inputButtonStyleKebab["fixed"];
   setElStyle( inputButton , inputButtonStyleFixed );
+  testBrHr();
   testObject( inputButtonStyleFixed , "inputButtonStyleFixed" );
 
   // set : style : unchecked
   const inputButtonStyleUnchecked = inputButtonStyleKebab["unchecked"];
   setElStyle( inputButton , inputButtonStyleUnchecked );
   testObject( inputButtonStyleUnchecked , "inputButtonStyleUnchecked" );
-
-  // child : radio
-  inputButton.appendChild(
-    inputButtonRadioCreate(modeInput)
-  );
 
   // child : text
   textElChild( inputButton , modeInput );
@@ -682,6 +686,11 @@ const inputButtonCreate = modeInput => {
     inputButtonListener
   );
 
+  // child : radio
+  inputButton.appendChild(
+    inputButtonRadioCreate(modeInput)
+  );
+
   // return
   return inputButton;
 };
@@ -690,6 +699,7 @@ const inputButtonCreate = modeInput => {
 const inputButtonListener = event => {
 
   testclear();
+  testBrHr();
   testLine( "inputButtonListener" );
 
   // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
@@ -1114,6 +1124,7 @@ const convertResultToEditorByRole = role => {
 // set : animate
 const convertButtonAnimate = () => {
 
+  testBrHr();
   testLine("convertButtonAnimate");
 
   const [KeyFrames,Options] = Object.values(
@@ -1133,6 +1144,7 @@ const convertButtonAnimate = () => {
 // set : convert
 const convertButtonConvert = () => {
 
+  testBrHr();
   testLine("convertButtonConvert");
 
   // role
@@ -1175,6 +1187,7 @@ const convertButtonConvert = () => {
 const convertButtonListener = event => {
 
   testclear();
+  testBrHr();
   testLine("convertButtonListener");
 
   // animate
@@ -1226,8 +1239,6 @@ const convertButtonSetting = () => {
 
 };
 convertButtonSetting();
-
-testLine( getModeByIndex(0) );
 
 
 
