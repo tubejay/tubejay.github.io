@@ -34,7 +34,7 @@ const childText = (el,text,tag="div") => {
 };
 const textElChild = (el,text) => {
   testLine( "childText" , false );
-  testLine( "- text : " + text );
+  testLine( "- " + text );
   childText( el , text );
 };
 
@@ -558,6 +558,7 @@ const inputButtonAsync = async (state,button) => {
 
   testLine( "inputButtonAsync" , false );
   testLine( "- button : " + button.getAttribute("value") );
+  testBrHr();
 
   // KeyFrames
   // Options
@@ -569,20 +570,16 @@ const inputButtonAsync = async (state,button) => {
   // animate + sleep
   testLine( "animate + sleep" , false );
   const sleepDuration = buttonOptions["duration"];
-  testLine( "- duration : " + sleepDuration , false );
-  testLine( "- start" , false );
+  testLine( "- duration : " + sleepDuration , true );
   button.animate(
     buttonKeyFrames ,
     buttonOptions
   );
   await sleep( sleepDuration );
-  testLine( "- end" );
 
   // style
-  testLine( "start" );
   const buttonStyle = inputButtonStyleKebab[state];
   setElStyle( button , buttonStyle );
-  testObject( buttonStyle , "buttonStyle" );
 
 }
 
@@ -603,6 +600,7 @@ const inputButtonAnimate = modeNew => {
 
     testBrHr();
     testLine( "state : " + state );
+    testBrHr();
 
     // filter : button
     inputButtonFilter(
@@ -616,18 +614,20 @@ const inputButtonAnimate = modeNew => {
         button
       )
     )
-    
+
   } );
 };
 
 // mode
 const inputButtonMode = modeNew => {
+  testBrHr();
   testLine("inputButtonMode");
   setModeByIndex(0,modeNew);
 };
 
 // editor
 const inputButtonEditor = modeNew => {
+  testBrHr();
   testLine("inputButtonEditor");
   setEditorModeByIndex(0,modeNew);
 };
@@ -950,14 +950,6 @@ editorRoles.forEach( role => {
   testBrHr();
   testLine( "role : " + role );
 
-  // all
-  const editorOptionAll = editorOptionByRole["All"];
-  setEditorOptionByRole(
-    role ,
-    editorOptionAll
-  );
-  testObject( editorOptionAll , "editorOptionAll" );
-
   // role
   const editorOptionRole = editorOptionByRole[role];
   setEditorOptionByRole(
@@ -965,6 +957,14 @@ editorRoles.forEach( role => {
     editorOptionRole
   );
   testObject( editorOptionRole , "editorOptionRole" );
+
+  // all
+  const editorOptionAll = editorOptionByRole["All"];
+  setEditorOptionByRole(
+    role ,
+    editorOptionAll
+  );
+  testObject( editorOptionAll , "editorOptionAll" );
 
 } );
 
@@ -1109,7 +1109,6 @@ const convertResultToEditorByRole = role => {
       role ,
       convertResultToValue(role,result)
     );
-    testLine( "resultToEditor" );
   };
   // return
   return resultToEditor;
@@ -1160,6 +1159,7 @@ const convertButtonConvert = () => {
   testLine( "- modeOutput : " + getModeByRole(roleOutput) );
 
   // inputValue
+  testBrHr();
   testLine( "inputValue" , false );
   const inputValue = getEditorValueByRole(roleInput);
   testLine( "- length : " + inputValue.length );
@@ -1174,6 +1174,7 @@ const convertButtonConvert = () => {
   // compile
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
+  testBrHr();
   testLine( "compile" );
   Sass.compile(
     inputValue ,
