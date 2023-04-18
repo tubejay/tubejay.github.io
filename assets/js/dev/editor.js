@@ -268,9 +268,10 @@ const convertButtonHeight = "60px";
 const colorNeonDefault = "#F21368";
 const colorNeonLight   = "#F65593";
 const colorNeonDark    = "#C20A51";
+const colorNeonBlack   = "#91083C";
 
-const colorDark        = "#1A1A1A";
-const colorLight       = "#FFFFFF";
+const colorBlack       = "#1A1A1A";
+const colorWhite       = "#FFFFFF";
 
 
 
@@ -288,7 +289,7 @@ const colorLight       = "#FFFFFF";
 
 // https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect#parameters
 
-const durationShort = 750;
+const durationShort = 500;
 const durationLong  = 1000;
 
 
@@ -301,6 +302,7 @@ const durationLong  = 1000;
 
 const easingLinear = "linear";
 const easingOut    = "ease-out";
+const easingInOut  = "ease-in-out";
 
 
 
@@ -473,14 +475,16 @@ const inputButtonStyleKebab = {
   },
 
   unchecked : {
-    "background-color" : colorDark      ,
-    "color"            : colorNeonLight ,
+    "background-color" : colorBlack              ,
+    "color"            : colorNeonLight          ,
+    "text-shadow"      : colorWhite + " 0 0 3px" ,
     "font-size"        : "23px"
   },
 
   checked : {
-    "background-color" : colorNeonDefault ,
-    "color"            : colorLight       ,
+    "background-color" : colorNeonDark              ,
+    "color"            : colorWhite                 ,
+    "text-shadow"      : colorNeonDark + " 0 0 5px" ,
     "font-size"        : "25px"
   },
 
@@ -984,15 +988,16 @@ editorRoles.forEach( role => {
 
 // style
 const convertButtonStyle = {
-  width              : demoContainerWidth   ,
-  height             : convertButtonHeight  ,
-  color              : colorLight           ,
-  "background-color" : colorNeonDark        ,
-  "font-size"        : "20px"               ,
-  "font-weight"      : "bold"               ,
-  display            : "flex"               ,
-  "flex-direction"   : "column"             ,
-  "justify-content"  : "center"             ,
+  width              : demoContainerWidth      ,
+  height             : convertButtonHeight     ,
+  color              : colorWhite              ,
+  "background-color" : colorNeonDefault        ,
+  "text-shadow"      : colorBlack + " 0 0 5px" ,
+  "font-size"        : "20px"                  ,
+  "font-weight"      : "bold"                  ,
+  display            : "flex"                  ,
+  "flex-direction"   : "column"                ,
+  "justify-content"  : "center"                ,
   "align-items"      : "center"
 };
 
@@ -1004,15 +1009,15 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-    backgroundColor : [ colorDark ] ,
-    boxShadow       : [ "inset 0 0 3px 3px " + colorLight ]
+    backgroundColor : [ colorNeonBlack ] ,
+    boxShadow       : [ "inset 0 0 2px 5px " + colorWhite ]
   } ,
 
   // Options
   Options : {
     iterations : 2             ,
     direction  : "alternate"   ,
-    easing     : easingLinear  ,
+    easing     : easingInOut   ,
     duration   : durationShort
   }
 
