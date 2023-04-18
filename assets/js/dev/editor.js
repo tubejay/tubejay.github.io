@@ -58,9 +58,11 @@ const testEl = queryEl();
 const testOn = ( testEl.getAttribute("test") === "true" );
 
 // text
-const testText = text => {
-  childText( testEl , text );
-};
+const testText = text =>
+  testOn
+  ? childText( testEl , text )
+  : null
+  ;
 
 // hr
 const testHr = () =>
@@ -68,9 +70,10 @@ const testHr = () =>
 
 // br
 const testBr = () =>
-  testEl.appendChild(
-    document.createElement("br")
-  );
+  testOn
+  ? testEl.appendChild( document.createElement("br") )
+  : null
+  ;
 
 // br + hr
 const testBrHr = () => {
@@ -78,59 +81,40 @@ const testBrHr = () => {
   testHr();
 };
 
-
 // line
 const testLine = (text,hr=true) => {
-  switch (testOn) {
-    case false:
-      break;
-    case true:
-      testText(text);
-      hr ? testHr() : null;
-      break;
-  };
+  testText(text);
+  hr ? testHr() : null;
 };
 
 // object
 const testObject = (obj,title="") => {
-  switch (testOn) {
-    case false:
-      break;
-    case true:
-      // title
-      testLine( title , false );
-      // key,value
-      Object.entries(obj).forEach( ( [key,value] ) =>
-        testLine(
-          "- " + key + " : " + value
-          , false
-        )
-      );
-      // hr
-      testHr();
-      break;
-  };
+  // title
+  testLine( title , false );
+  // key,value
+  Object.entries(obj).forEach( ( [key,value] ) =>
+    testLine(
+      "- " + key + " : " + value
+      , false
+    )
+  );
+  // hr
+  testHr();
 };
 
 // array
 const testArray = (arr,title="") => {
-  switch (testOn) {
-    case false:
-      break;
-    case true:
-      // title
-      testLine( title , false );
-      // item
-      arr.forEach( item =>
-        testLine(
-          "- " + item
-          , false
-        )
-      );
-      // hr
-      testHr();
-      break;
-  };
+  // title
+  testLine( title , false );
+  // item
+  arr.forEach( item =>
+    testLine(
+      "- " + item
+      , false
+    )
+  );
+  // hr
+  testHr();
 };
 
 // clear
@@ -465,7 +449,7 @@ const inputButtonAttr = {
 const inputButtonStyleKebab = {
 
   fixed : {
-    "text-shadow"     : colorBlack + " 1px 1px 2px" ,
+    "text-shadow"     : colorBlack + " 0px 1px 1px" ,
     "font-weight"     : "bold"            ,
     width             : inputButtonWidth  ,
     height            : inputButtonHeight ,
@@ -987,7 +971,7 @@ editorRoles.forEach( role => {
 
 // style
 const convertButtonStyle = {
-  "text-shadow"      : colorBlack + " 2px 2px 2px" ,
+  "text-shadow"      : colorBlack + " 0px 1px 1px" ,
   "background-color" : colorNeonDefault    ,
   color              : colorWhite          ,
   "font-size"        : "20px"              ,
