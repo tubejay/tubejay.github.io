@@ -974,7 +974,7 @@ const convertButtonStyle = {
   "text-shadow"      : colorBlack + " 0px 1px 1px" ,
   "background-color" : colorNeonDefault    ,
   color              : colorWhite          ,
-  "font-size"        : "20px"              ,
+  "font-size"        : "22px"              ,
   "font-weight"      : "bold"              ,
   width              : demoContainerWidth  ,
   height             : convertButtonHeight ,
