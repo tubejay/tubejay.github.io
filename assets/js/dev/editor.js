@@ -465,26 +465,25 @@ const inputButtonAttr = {
 const inputButtonStyleKebab = {
 
   fixed : {
-    width             : inputButtonWidth  ,
-    height            : inputButtonHeight ,
-    display           : "flex"            ,
-    "flex-direction"  : "column"          ,
-    "justify-content" : "center"          ,
-    "align-items"     : "center"          ,
-    "font-weight"     : "bold"
+    width             : inputButtonWidth        ,
+    height            : inputButtonHeight       ,
+    display           : "flex"                  ,
+    "flex-direction"  : "column"                ,
+    "justify-content" : "center"                ,
+    "align-items"     : "center"                ,
+    "font-weight"     : "bold"                  ,
+    "text-shadow"     : colorBlack + " 0 0 3px"
   },
 
   unchecked : {
-    "background-color" : colorBlack              ,
-    "color"            : colorNeonLight          ,
-    "text-shadow"      : colorWhite + " 0 0 3px" ,
+    "background-color" : colorBlack     ,
+    "color"            : colorNeonLight ,
     "font-size"        : "23px"
   },
 
   checked : {
-    "background-color" : colorNeonDark              ,
-    "color"            : colorWhite                 ,
-    "text-shadow"      : colorNeonDark + " 0 0 5px" ,
+    "background-color" : colorNeonDark ,
+    "color"            : colorWhite    ,
     "font-size"        : "25px"
   },
 
@@ -992,7 +991,7 @@ const convertButtonStyle = {
   height             : convertButtonHeight     ,
   color              : colorWhite              ,
   "background-color" : colorNeonDefault        ,
-  "text-shadow"      : colorBlack + " 0 0 5px" ,
+  "text-shadow"      : colorBlack + " 0 0 3px" ,
   "font-size"        : "20px"                  ,
   "font-weight"      : "bold"                  ,
   display            : "flex"                  ,
