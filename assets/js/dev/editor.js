@@ -68,7 +68,9 @@ const testHr = () =>
 
 // br
 const testBr = () =>
-  testText( " " );
+  testEl.appendChild(
+    document.createElement("br")
+  );
 
 // br + hr
 const testBrHr = () => {
@@ -688,7 +690,7 @@ const inputButtonCreate = modeInput => {
 const inputButtonListener = event => {
 
   testclear();
-  testLine( "inputButtonListener" , false );
+  testLine( "inputButtonListener" );
 
   // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
   // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
