@@ -868,6 +868,7 @@ testObject( initialEditorThemeByRole , "initialEditorThemeByRole" );
 ///// option
 ////////////////////
 
+// define
 // https://ace.c9.io/#nav=howto
 // https://github.com/ajaxorg/ace/wiki/Configuring-Ace
 const editorOptionByRole = {
@@ -907,6 +908,7 @@ const editorOptionByRole = {
   },
 };
 
+// function
 const setEditorOption = (editor,option) =>
   editor.setOptions(option);
 const setEditorOptionByRole = (role,option) =>
@@ -917,7 +919,9 @@ const setEditorOptionByRole = (role,option) =>
 
 // set
 editorRoles.forEach( role => {
+
   testLine( "role : " + role );
+
   // all
   const editorOptionAll = editorOptionByRole["All"];
   setEditorOptionByRole(
@@ -925,6 +929,7 @@ editorRoles.forEach( role => {
     editorOptionAll
   );
   testObject( editorOptionAll , "editorOptionAll" );
+
   // role
   const editorOptionRole = editorOptionByRole[role];
   setEditorOptionByRole(
@@ -932,6 +937,7 @@ editorRoles.forEach( role => {
     editorOptionRole
   );
   testObject( editorOptionRole , "editorOptionRole" );
+
 } );
 
 
@@ -1150,12 +1156,16 @@ const convertButtonConvert = () => {
 
 // set : listener
 const convertButtonListener = event => {
+
   testclear();
   testLine("convertButtonListener");
+
   // animate
   convertButtonAnimate();
+
   // convert
   convertButtonConvert();
+  
 };
 
 
@@ -1172,22 +1182,32 @@ testLine("convertButton");
 query = "#convertButton";
 const convertButton = queryEl();
 
-// set : style
-setElStyle( convertButton , convertButtonStyle );
-testObject( convertButtonStyle , "convertButtonStyle" );
-
-// child : text
-const convertButtonText = "Click : convert to " + getModeByIndex(1);
-textElChild( convertButton , convertButtonText );
-
-// set : event listener
-convertButton.addEventListener(
-  // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+// setting
+const convertButtonSetting = () => {
+  
+  // set : style
+  setElStyle( convertButton , convertButtonStyle );
+  testObject( convertButtonStyle , "convertButtonStyle" );
+  
+  // child : text
+  const convertButtonText = "Click : convert to " + getModeByIndex(1);
+  textElChild( convertButton , convertButtonText );
+  
+  // set : event listener
+  testLine( "addEventListener" , false );
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-  "click" ,
-  convertButtonListener
-);
-testLine( "event listener" );
+  const eventType = "click";
+  testLine( "- eventType : " + eventType , false );
+  testLine( "- listener : " + "convertButtonListener" );
+  convertButton.addEventListener(
+    // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+    eventType ,
+    convertButtonListener
+  );
+
+};
+convertButtonSetting();
 
 
 
