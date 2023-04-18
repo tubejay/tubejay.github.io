@@ -1185,16 +1185,14 @@ const convertButtonConvert = () => {
 };
 
 // set : listener
-const convertButtonListener = async event => {
+const convertButtonListener = event => {
 
   testclear();
   testBrHr();
   testLine("convertButtonListener");
 
-  // animate + sleep
+  // animate
   convertButtonAnimate();
-  const sleepDuration = convertButtonAnimateKeyFramesOptions["Options"]["duration"];
-  await sleep(sleepDuration);
 
   // convert
   convertButtonConvert();
