@@ -449,7 +449,7 @@ const inputButtonAttr = {
 const inputButtonStyleKebab = {
 
   fixed : {
-    "text-shadow"     : colorBlack + " 0px 2px 2px" ,
+    "text-shadow"     : colorBlack + " 0px 2px 5px" ,
     "font-weight"     : "bold"            ,
     width             : inputButtonWidth  ,
     height            : inputButtonHeight ,
@@ -971,7 +971,7 @@ editorRoles.forEach( role => {
 
 // style
 const convertButtonStyle = {
-  "text-shadow"      : colorBlack + " 0px 2px 2px" ,
+  "text-shadow"      : colorBlack + " 0px 2px 5px" ,
   "background-color" : colorNeonDefault    ,
   color              : colorWhite          ,
   "font-size"        : "22px"              ,
