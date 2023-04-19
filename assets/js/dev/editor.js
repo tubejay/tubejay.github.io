@@ -993,7 +993,7 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
     backgroundColor : [ colorNeonBlack ] ,
-    boxShadow       : [ "inset 0 0 1px 3px " + colorWhite ]
+    boxShadow       : [ "inset 0 0 1px 1px " + colorWhite ]
   } ,
 
   // Options
