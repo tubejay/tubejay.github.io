@@ -449,7 +449,7 @@ const inputButtonAttr = {
 const inputButtonStyleKebab = {
 
   fixed : {
-    "text-shadow"     : colorBlack + " 0px 1px 1px" ,
+    "text-shadow"     : colorBlack + " 0px 2px 2px" ,
     "font-weight"     : "bold"            ,
     width             : inputButtonWidth  ,
     height            : inputButtonHeight ,
@@ -971,7 +971,7 @@ editorRoles.forEach( role => {
 
 // style
 const convertButtonStyle = {
-  "text-shadow"      : colorBlack + " 0px 1px 1px" ,
+  "text-shadow"      : colorBlack + " 0px 2px 2px" ,
   "background-color" : colorNeonDefault    ,
   color              : colorWhite          ,
   "font-size"        : "22px"              ,
@@ -993,7 +993,7 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
     backgroundColor : [ colorNeonBlack ] ,
-    boxShadow       : [ "inset 0 0 2px 2px " + colorWhite ]
+    boxShadow       : [ "inset 0 0 1px 3px " + colorWhite ]
   } ,
 
   // Options
