@@ -580,7 +580,7 @@ const inputButtonAsync = async (state,button) => {
 ////////////////////
 
 // animate
-const inputButtonAnimate = modeNew => {
+const inputButtonAnimate = async modeNew => {
 
   testBrHr();
   testLine( "inputButtonAnimate" );
@@ -604,6 +604,11 @@ const inputButtonAnimate = modeNew => {
         button
       )
     )
+
+    // sleep
+    const buttonOptions = inputButtonStyleKebab.option;
+    const sleepDuration = buttonOptions.duration;
+    await sleep(sleepDuration);
 
   } );
 };
@@ -1177,17 +1182,6 @@ const convertButtonConvert = () => {
 
 
 // set : listener
-const convertButtonAsync = async () => {
-  // animate
-  convertButtonAnimate();
-  // sleep
-  const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
-  const sleepDuration  = animateOptions.duration;
-  await sleep( sleepDuration );
-  // convert
-  convertButtonConvert();
-};
-
 const convertButtonListener = async event => {
 
   testclear();
