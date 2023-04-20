@@ -509,7 +509,7 @@ const inputButtonStyleCamel = Object.fromEntries(
 const inputButtonAll = () => {
   // NodeList
   // https://developer.mozilla.org/en-US/docs/Web/API/NodeList
-  query = "." + inputButtonAttr["class"];
+  query = "." + inputButtonAttr.class;
   const buttonNodeList = queryEls();
   // Array
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
@@ -553,13 +553,13 @@ const inputButtonAsync = async (state,button) => {
   // KeyFrames
   // Options
   const buttonKeyFrames = inputButtonStyleCamel[state];
-  const buttonOptions   = inputButtonStyleKebab["option"];
+  const buttonOptions   = inputButtonStyleKebab.option;
   testObject( buttonKeyFrames , "buttonKeyFrames" );
   testObject( buttonOptions , "buttonOptions" );
 
   // animate + sleep
   testLine( "animate + sleep" , false );
-  const sleepDuration = buttonOptions["duration"];
+  const sleepDuration = buttonOptions.duration;
   testLine( "- duration : " + sleepDuration , true );
   button.animate(
     buttonKeyFrames ,
@@ -657,13 +657,13 @@ const inputButtonCreate = modeInput => {
   testObject( inputButtonAttrMore , "inputButtonAttrMore" );
 
   // set : style : fixed
-  const inputButtonStyleFixed = inputButtonStyleKebab["fixed"];
+  const inputButtonStyleFixed = inputButtonStyleKebab.fixed;
   setElStyle( inputButton , inputButtonStyleFixed );
   testBrHr();
   testObject( inputButtonStyleFixed , "inputButtonStyleFixed" );
 
   // set : style : unchecked
-  const inputButtonStyleUnchecked = inputButtonStyleKebab["unchecked"];
+  const inputButtonStyleUnchecked = inputButtonStyleKebab.unchecked;
   setElStyle( inputButton , inputButtonStyleUnchecked );
   testObject( inputButtonStyleUnchecked , "inputButtonStyleUnchecked" );
 
@@ -954,7 +954,7 @@ editorRoles.forEach( role => {
   testObject( editorOptionRole , "editorOptionRole" );
 
   // all
-  const editorOptionAll = editorOptionByRole["All"];
+  const editorOptionAll = editorOptionByRole.All;
   setEditorOptionByRole(
     role ,
     editorOptionAll
@@ -1066,7 +1066,7 @@ const convertResultToValue = (role,result) => {
 
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-  const status      = String( result["status"] );
+  const status      = String( result.status );
   const statusText  = "- status : " + status;
   const statusValue = "// status : " + status;
   testLine( statusText , false );
@@ -1075,8 +1075,8 @@ const convertResultToValue = (role,result) => {
   // valid    : text
   // invalid  : message + formatted
   const resultValue = status==="0"
-                    ? String( result["text"] )
-                    : String( result["message"] ) + "\n\n" + String( result["formatted"] )
+                    ? String( result.text )
+                    : String( result.message ) + "\n\n" + String( result.formatted )
                     ;
   testLine( "- value length : " + resultValue.length );
 
