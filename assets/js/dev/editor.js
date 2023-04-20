@@ -1186,7 +1186,7 @@ const convertButtonListener = async event => {
   convertButtonAnimate();
 
   // sleep
-  sleep( convertButtonAnimateKeyFramesOptions.Options.direction );
+  await sleep( convertButtonAnimateKeyFramesOptions.Options.direction );
 
   // convert
   convertButtonConvert();
