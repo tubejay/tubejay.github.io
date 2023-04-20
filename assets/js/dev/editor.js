@@ -44,7 +44,10 @@ const textElChild = (el,text) => {
 // https://www.daleseo.com/js-async-promise/
 // https://www.daleseo.com/js-async-async-await/
 // https://www.daleseo.com/js-sleep/
-const sleep = ms => new Promise( r => setTimeout(ms) );
+const sleep = ms =>
+  new Promise( (resolve,reject) =>
+    setTimeout(resolve,ms)
+  );
 
 
 
@@ -1173,7 +1176,7 @@ const convertButtonConvert = () => {
 };
 
 // set : listener
-const convertButtonListener = event => {
+const convertButtonListener = async event => {
 
   testclear();
   testBrHr();
@@ -1181,6 +1184,9 @@ const convertButtonListener = event => {
 
   // animate
   convertButtonAnimate();
+
+  // sleep
+  sleep( convertButtonAnimateKeyFramesOptions.Options.direction );
 
   // convert
   convertButtonConvert();
