@@ -580,7 +580,7 @@ const inputButtonAsync = async (state,button) => {
 ////////////////////
 
 // animate
-const inputButtonAnimate = async modeNew => {
+const inputButtonAnimate = modeNew => {
 
   testBrHr();
   testLine( "inputButtonAnimate" );
@@ -604,11 +604,6 @@ const inputButtonAnimate = async modeNew => {
         button
       )
     )
-
-    // sleep
-    const buttonOptions = inputButtonStyleKebab.option;
-    const sleepDuration = buttonOptions.duration;
-    await sleep(sleepDuration);
 
   } );
 };
@@ -1066,7 +1061,7 @@ const convertResultToValue = (role,result) => {
 
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
-  const status      = String( result.status );
+  const status      = String( result["status"] );
   const statusText  = "- status : " + status;
   const statusValue = "// status : " + status;
   testLine( statusText , false );
