@@ -1112,7 +1112,7 @@ const convertResultToEditorByRole = role => {
 ////////////////////
 
 // set : animate
-const convertButtonAnimate = () => {
+const convertButtonAnimate = async () => {
 
   testBrHr();
   testLine("convertButtonAnimate");
@@ -1128,6 +1128,9 @@ const convertButtonAnimate = () => {
     KeyFrames ,
     Options
   );
+
+  // sleep
+  await sleep( convertButtonAnimateKeyFramesOptions.Options.direction );
 
 };
 
@@ -1176,7 +1179,7 @@ const convertButtonConvert = () => {
 };
 
 // set : listener
-const convertButtonListener = async event => {
+const convertButtonListener = event => {
 
   testclear();
   testBrHr();
@@ -1184,9 +1187,6 @@ const convertButtonListener = async event => {
 
   // animate
   convertButtonAnimate();
-
-  // sleep
-  await sleep( convertButtonAnimateKeyFramesOptions.Options.direction );
 
   // convert
   convertButtonConvert();
