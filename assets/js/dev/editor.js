@@ -44,7 +44,10 @@ const textElChild = (el,text) => {
 // https://www.daleseo.com/js-async-promise/
 // https://www.daleseo.com/js-async-async-await/
 // https://www.daleseo.com/js-sleep/
-const sleep = ms => new Promise( r => setTimeout(ms) );
+const sleep = ms =>
+  new Promise( (resolve,reject) =>
+    setTimeout(resolve,ms)
+  );
 
 
 
@@ -449,7 +452,7 @@ const inputButtonAttr = {
 const inputButtonStyleKebab = {
 
   fixed : {
-    "text-shadow"     : colorBlack + " 0px 1px 1px" ,
+    "text-shadow"     : colorBlack + " 0px 2px 5px" ,
     "font-weight"     : "bold"            ,
     width             : inputButtonWidth  ,
     height            : inputButtonHeight ,
@@ -506,7 +509,7 @@ const inputButtonStyleCamel = Object.fromEntries(
 const inputButtonAll = () => {
   // NodeList
   // https://developer.mozilla.org/en-US/docs/Web/API/NodeList
-  query = "." + inputButtonAttr["class"];
+  query = "." + inputButtonAttr.class;
   const buttonNodeList = queryEls();
   // Array
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
@@ -550,13 +553,13 @@ const inputButtonAsync = async (state,button) => {
   // KeyFrames
   // Options
   const buttonKeyFrames = inputButtonStyleCamel[state];
-  const buttonOptions   = inputButtonStyleKebab["option"];
+  const buttonOptions   = inputButtonStyleKebab.option;
   testObject( buttonKeyFrames , "buttonKeyFrames" );
   testObject( buttonOptions , "buttonOptions" );
 
   // animate + sleep
   testLine( "animate + sleep" , false );
-  const sleepDuration = buttonOptions["duration"];
+  const sleepDuration = buttonOptions.duration;
   testLine( "- duration : " + sleepDuration , true );
   button.animate(
     buttonKeyFrames ,
@@ -649,13 +652,13 @@ const inputButtonCreate = modeInput => {
   testObject( inputButtonAttrMore , "inputButtonAttrMore" );
 
   // set : style : fixed
-  const inputButtonStyleFixed = inputButtonStyleKebab["fixed"];
+  const inputButtonStyleFixed = inputButtonStyleKebab.fixed;
   setElStyle( inputButton , inputButtonStyleFixed );
   testBrHr();
   testObject( inputButtonStyleFixed , "inputButtonStyleFixed" );
 
   // set : style : unchecked
-  const inputButtonStyleUnchecked = inputButtonStyleKebab["unchecked"];
+  const inputButtonStyleUnchecked = inputButtonStyleKebab.unchecked;
   setElStyle( inputButton , inputButtonStyleUnchecked );
   testObject( inputButtonStyleUnchecked , "inputButtonStyleUnchecked" );
 
@@ -946,7 +949,7 @@ editorRoles.forEach( role => {
   testObject( editorOptionRole , "editorOptionRole" );
 
   // all
-  const editorOptionAll = editorOptionByRole["All"];
+  const editorOptionAll = editorOptionByRole.All;
   setEditorOptionByRole(
     role ,
     editorOptionAll
@@ -971,7 +974,7 @@ editorRoles.forEach( role => {
 
 // style
 const convertButtonStyle = {
-  "text-shadow"      : colorBlack + " 0px 1px 1px" ,
+  "text-shadow"      : colorBlack + " 0px 2px 5px" ,
   "background-color" : colorNeonDefault    ,
   color              : colorWhite          ,
   "font-size"        : "22px"              ,
@@ -993,7 +996,7 @@ const convertButtonAnimateKeyFramesOptions = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
     backgroundColor : [ colorNeonBlack ] ,
-    boxShadow       : [ "inset 0 0 2px 2px " + colorWhite ]
+    boxShadow       : [ "inset 0 0 1px 1px " + colorWhite ]
   } ,
 
   // Options
@@ -1067,8 +1070,8 @@ const convertResultToValue = (role,result) => {
   // valid    : text
   // invalid  : message + formatted
   const resultValue = status==="0"
-                    ? String( result["text"] )
-                    : String( result["message"] ) + "\n\n" + String( result["formatted"] )
+                    ? String( result.text )
+                    : String( result.message ) + "\n\n" + String( result.formatted )
                     ;
   testLine( "- value length : " + resultValue.length );
 
@@ -1172,8 +1175,9 @@ const convertButtonConvert = () => {
 
 };
 
+
 // set : listener
-const convertButtonListener = event => {
+const convertButtonListener = async event => {
 
   testclear();
   testBrHr();
@@ -1181,6 +1185,11 @@ const convertButtonListener = event => {
 
   // animate
   convertButtonAnimate();
+
+  // sleep
+  const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
+  const sleepDuration  = animateOptions.duration;
+  await sleep(sleepDuration);
 
   // convert
   convertButtonConvert();
