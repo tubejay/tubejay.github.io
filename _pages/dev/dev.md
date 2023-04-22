@@ -17,4 +17,6 @@ hidden: false
 
 ## [Font](/dev/font)
 
+## [Visualization](/dev/visualization)
+
 ## [GitHub Pages](/dev/github_pages)
