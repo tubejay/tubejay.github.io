@@ -16,3 +16,4 @@ hidden: false
 ## Reference
 
 - [documentation](https://plotly.com/javascript/)
+- [W3Schools](https://www.w3schools.com/js/js_graphics_plotly.asp)

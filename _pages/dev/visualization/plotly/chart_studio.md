@@ -16,3 +16,4 @@ hidden: false
 ## Reference
 
 - [documentation](https://plotly.com/python/chart-studio/)
+- [tutorial](https://plotly.com/chart-studio-help/tutorials/)

@@ -17,3 +17,4 @@ hidden: false
 
 - [documentation](https://plotly.com/python/)
 - [wikidocs](https://wikidocs.net/book/8909)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/python-plotly-tutorial/amp/)
