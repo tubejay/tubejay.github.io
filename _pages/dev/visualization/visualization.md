@@ -21,7 +21,7 @@ hidden: false
 
 ### [Dash](/dev/visualization/plotly/dash)
 
-### [Chart Studio](dev/visualization/plotly/chart_studio)
+### [Chart Studio](/dev/visualization/plotly/chart_studio)
 
 ### Backend
 
