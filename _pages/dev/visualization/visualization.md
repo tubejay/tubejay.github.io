@@ -15,13 +15,13 @@ hidden: false
 
 ## Plotly
 
-### [Python](/dev/visualization/plotly/python)
+### [Python](/dev/visualization/plotly/python){:target="_self"}
 
-### [Javascript](/dev/visualization/plotly/javascript)
+### [Javascript](/dev/visualization/plotly/javascript){:target="_self"}
 
-### [Dash](/dev/visualization/plotly/dash)
+### [Dash](/dev/visualization/plotly/dash){:target="_self"}
 
-### [Chart Studio](/dev/visualization/plotly/chart_studio)
+### [Chart Studio](/dev/visualization/plotly/chart_studio){:target="_self"}
 
 ### Backend
 
