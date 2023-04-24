@@ -558,12 +558,14 @@ const inputButtonAnimateButton = (state,button) => {
   // animate
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
   // https://developer.mozilla.org/en-US/docs/Web/API/Animation
-  // https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
-  const finishedPromise = button.animate(
+  const buttonAnimate = button.animate(
     buttonKeyFrames ,
     buttonOptions
-  ).finished;
-  return finishedPromise;
+  );
+
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
+  const buttonFinished = buttonAnimate.finished;
+  return buttonFinished;
 
 };
 
@@ -594,11 +596,15 @@ const inputButtonAnimateStateArr = modeNew => {
       )
     );
 
-    return Promise.all( buttonFinishedArr );
+    // finished : all buttons
+    const buttonFinishedAll = Promise.all( buttonFinishedArr );
+    return buttonFinishedAll;
 
   } );
 
-  return Promise.all( stateFinishedArr );
+  // finished : all states
+  const stateFinishedAll = Promise.all( stateFinishedArr );
+  return stateFinishedAll;
 
 };
 
@@ -654,14 +660,6 @@ const inputButtonListener = async event => {
 
   // animate
   await inputButtonAnimateStateArr(modeNew);
-
-  // sleep
-  const buttonOptions = inputButtonStyleKebab.option;
-  const sleepDuration = buttonOptions.duration;
-  // testBrHr();
-  // testLine( "sleep" , false );
-  // testLine( "- duration : " + sleepDuration );
-  // await sleep( sleepDuration );
 
   // mode + editor
   inputButtonModeEditor(modeNew);
@@ -1206,7 +1204,7 @@ const convertButtonListener = async event => {
   // sleep
   const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
   const sleepDuration  = animateOptions.duration;
-  // await sleep(sleepDuration);
+  await sleep(sleepDuration);
 
   // convert
   convertButtonConvert();
