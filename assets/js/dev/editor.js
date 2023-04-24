@@ -686,7 +686,7 @@ const inputButtonCreate = modeInput => {
 };
 
 // event listener
-const inputButtonListener = event => {
+const inputButtonListener = async event => {
 
   testclear();
   testBrHr();
@@ -702,14 +702,14 @@ const inputButtonListener = event => {
   // modeNew
   const modeNew = event.target.value;
 
+  // Animate
+  await inputButtonAnimate(modeNew);
+
   // Mode
   inputButtonMode(modeNew);
 
   // Editor
   inputButtonEditor(modeNew);
-
-  // Animate
-  inputButtonAnimate(modeNew);
 
 };
 
