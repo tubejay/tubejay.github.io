@@ -476,7 +476,7 @@ const inputButtonStyleKebab = {
 
   option : {
     iterations : 1            ,
-    direction  : "alternate"  ,
+    // direction  : "alternate"  ,
     // https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
     fill       : "forwards"   ,
     easing     : easingOut    ,
@@ -568,8 +568,8 @@ const inputButtonAsync = async (state,button) => {
   await sleep( sleepDuration );
 
   // style
-  const buttonStyle = inputButtonStyleKebab[state];
-  setElStyle( button , buttonStyle );
+  // const buttonStyle = inputButtonStyleKebab[state];
+  // setElStyle( button , buttonStyle );
 
 }
 
