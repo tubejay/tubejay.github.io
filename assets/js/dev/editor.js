@@ -699,7 +699,7 @@ const inputButtonListener = async event => {
   // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
 
   // modeNew
-  const modeNew = event.currentTarget.value;
+  const modeNew = event.target.value;
 
   // animate
   inputButtonAnimateStateArr(modeNew);
