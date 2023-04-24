@@ -546,9 +546,9 @@ const inputButtonFilter = (state,modeNew) => {
 // button
 const inputButtonAnimateButton = (state,button) => {
 
+  testBrHr();
   testLine( "inputButtonAnimateButton" , false );
   testLine( "- button : " + button.getAttribute("value") );
-  testBrHr();
 
   // KeyFrames
   // Options
@@ -558,7 +558,6 @@ const inputButtonAnimateButton = (state,button) => {
   testObject( buttonOptions , "buttonOptions" );
 
   // animate
-  testLine( "animate" );
   button.animate(
     buttonKeyFrames ,
     buttonOptions
@@ -567,7 +566,7 @@ const inputButtonAnimateButton = (state,button) => {
 };
 
 // state
-const inputButtonAnimateState = async modeNew => {
+const inputButtonAnimateState = modeNew => {
 
   testBrHr();
   testLine( "inputButtonAnimateState" );
@@ -579,7 +578,6 @@ const inputButtonAnimateState = async modeNew => {
     testLine( "state : " + state , false );
 
     // filter : button
-    testLine( "- filter" );
     inputButtonFilter(
       state   ,
       modeNew
@@ -704,10 +702,13 @@ const inputButtonListener = async event => {
   const modeNew = event.target.value;
 
   // Animate
-  await inputButtonAnimateState(modeNew);
+  inputButtonAnimateState(modeNew);
 
   // sleep
   const sleepDuration = buttonOptions.duration;
+  testBrHr();
+  testLine( "sleep" , false );
+  testLine( "- duration : " + sleepDuration );
   await sleep( sleepDuration );
 
   // Mode + Editor
