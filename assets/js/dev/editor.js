@@ -556,10 +556,14 @@ const inputButtonAnimateButton = (state,button) => {
   testObject( buttonOptions , "buttonOptions" );
 
   // animate
-  button.animate(
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
+  const finishedPromise = button.animate(
     buttonKeyFrames ,
     buttonOptions
-  );
+  ).finished;
+  return finishedPromise;
 
 };
 
@@ -570,18 +574,19 @@ const inputButtonAnimateStateArr = modeNew => {
   testLine( "inputButtonAnimateStateArr" );
 
   // loop : state
-  inputButtonStateArr.forEach( state => {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+  const stateFinishedArr = inputButtonStateArr.map( state => {
 
     testBrHr();
     testLine( "state : " + state );
 
     // filter : button
     testLine( "inputButtonFilterByState" );
-    inputButtonFilterByState(
+    const buttonFinishedArr = inputButtonFilterByState(
       state   ,
       modeNew
     // loop : button
-    ).forEach( button =>
+    ).map( button =>
       // animate : button
       inputButtonAnimateButton(
         state  ,
@@ -589,7 +594,11 @@ const inputButtonAnimateStateArr = modeNew => {
       )
     );
 
+    return Promise.all( buttonFinishedArr );
+
   } );
+
+  return Promise.all( stateFinishedArr );
 
 };
 
@@ -644,15 +653,15 @@ const inputButtonListener = async event => {
   const modeNew = event.target.value;
 
   // animate
-  inputButtonAnimateStateArr(modeNew);
+  await inputButtonAnimateStateArr(modeNew);
 
   // sleep
   const buttonOptions = inputButtonStyleKebab.option;
   const sleepDuration = buttonOptions.duration;
-  testBrHr();
-  testLine( "sleep" , false );
-  testLine( "- duration : " + sleepDuration );
-  await sleep( sleepDuration );
+  // testBrHr();
+  // testLine( "sleep" , false );
+  // testLine( "- duration : " + sleepDuration );
+  // await sleep( sleepDuration );
 
   // mode + editor
   inputButtonModeEditor(modeNew);
@@ -1131,9 +1140,6 @@ const convertButtonAnimate = () => {
   testObject( KeyFrames , "KeyFrames" );
   testObject( Options , "Options" );
 
-  // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
-  // https://developer.mozilla.org/en-US/docs/Web/API/Animation
-  // https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
   const finishedPromise = convertButton.animate(
     KeyFrames ,
     Options
