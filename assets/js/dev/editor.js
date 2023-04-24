@@ -1129,6 +1129,7 @@ const convertResultToEditorByRole = role => {
 // animate
 const convertButtonAnimate = () => {
 
+  testclear();
   testBrHr();
   testLine("convertButtonAnimate");
 
