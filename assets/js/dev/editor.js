@@ -485,7 +485,7 @@ const inputButtonStyleKebab = {
 };
 
 // style : camel
-const inputButtonState = ["unchecked","checked"];
+const inputButtonStateArr = ["unchecked","checked"];
 const textCamel = text =>
   // https://stackoverflow.com/a/60738940
   text.replace( /-./g , x => x[1].toUpperCase() );
@@ -494,7 +494,7 @@ const objectKeyCamel = obj =>
     ( [key,value] ) => [ textCamel(key) , [value] ]
   ) );
 const inputButtonStyleCamel = Object.fromEntries(
-  inputButtonState.map( state =>
+  inputButtonStateArr.map( state =>
     [ state , objectKeyCamel( inputButtonStyleKebab[state] ) ]
   )
 );
@@ -529,7 +529,7 @@ const inputButtonBoolByState = state => {
 };
 const inputButtonEqualValue = (inputButton,value) =>
   inputButton.getAttribute("value") === value;
-const inputButtonFilter = (state,modeNew) =>
+const inputButtonFilterByState = (state,modeNew) =>
   inputButtonAll().filter( inputButton =>
     // https://stackoverflow.com/a/4540481
     inputButtonBoolByState(state) ^ inputButtonEqualValue(inputButton,modeNew)
@@ -564,25 +564,25 @@ const inputButtonAnimateButton = (state,button) => {
 };
 
 // state
-const inputButtonAnimateState = modeNew => {
+const inputButtonAnimateStateArr = modeNew => {
 
   testBrHr();
-  testLine( "inputButtonAnimateState" );
+  testLine( "inputButtonAnimateStateArr" );
 
   // loop : state
-  inputButtonState.forEach( state => {
+  inputButtonStateArr.forEach( state => {
 
     testBrHr();
     testLine( "state : " + state );
 
     // filter : button
-    testLine( "inputButtonFilter" );
-    inputButtonFilter(
+    testLine( "inputButtonFilterByState" );
+    inputButtonFilterByState(
       state   ,
       modeNew
     // loop : button
     ).forEach( button =>
-      // animate
+      // animate : button
       inputButtonAnimateButton(
         state  ,
         button
@@ -613,6 +613,7 @@ const inputButtonEditor = modeNew => {
   setEditorModeByIndex(0,modeNew);
 };
 
+// mode + editor
 const inputButtonModeEditor = modeNew => {
   // mode
   inputButtonMode(modeNew);
@@ -698,10 +699,10 @@ const inputButtonListener = async event => {
   // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
 
   // modeNew
-  const modeNew = event.target.value;
+  const modeNew = event.currentTarget.value;
 
-  // Animate
-  inputButtonAnimateState(modeNew);
+  // animate
+  inputButtonAnimateStateArr(modeNew);
 
   // sleep
   const buttonOptions = inputButtonStyleKebab.option;
@@ -711,7 +712,7 @@ const inputButtonListener = async event => {
   testLine( "- duration : " + sleepDuration );
   await sleep( sleepDuration );
 
-  // Mode + Editor
+  // mode + editor
   inputButtonModeEditor(modeNew);
 
 };
