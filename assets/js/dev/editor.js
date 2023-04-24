@@ -1077,10 +1077,10 @@ const convertResultToValue = (role,result) => {
 
   // resultValue
   // valid    : text
-  // invalid  : message + formatted
+  // invalid  : formatted
   const resultValue = status==="0"
                     ? String( result.text )
-                    : String( result.message ) + "\n\n" + String( result.formatted )
+                    : String( result.formatted )
                     ;
   testLine( "- value length : " + resultValue.length );
 
@@ -1104,12 +1104,11 @@ const setEditorValueByRole = (role,value) =>
   );
 const convertResultToEditorByRole = role => {
   // create
-  const resultToEditor = result => {
+  const resultToEditor = result =>
     setEditorValueByRole(
       role ,
       convertResultToValue(role,result)
     );
-  };
   // return
   return resultToEditor;
 };
@@ -1133,10 +1132,13 @@ const convertButtonAnimate = () => {
   testObject( Options , "Options" );
 
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
-  convertButton.animate(
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
+  const finishedPromise = convertButton.animate(
     KeyFrames ,
     Options
-  );
+  ).finished;
+  return finishedPromise;
 
 };
 
@@ -1193,12 +1195,12 @@ const convertButtonListener = async event => {
   testLine("convertButtonListener");
 
   // animate
-  convertButtonAnimate();
+  await convertButtonAnimate();
 
   // sleep
   const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
   const sleepDuration  = animateOptions.duration;
-  await sleep(sleepDuration);
+  // await sleep(sleepDuration);
 
   // convert
   convertButtonConvert();
