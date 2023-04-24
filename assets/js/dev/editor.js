@@ -543,9 +543,10 @@ const inputButtonFilter = (state,modeNew) => {
 ///// animate
 ////////////////////
 
-const inputButtonAnimate = (state,button) => {
+// button
+const inputButtonAnimateButton = (state,button) => {
 
-  testLine( "inputButtonAnimate" , false );
+  testLine( "inputButtonAnimateButton" , false );
   testLine( "- button : " + button.getAttribute("value") );
   testBrHr();
 
@@ -565,33 +566,27 @@ const inputButtonAnimate = (state,button) => {
 
 };
 
-
-
-////////////////////
-///// listener
-////////////////////
-
-// animate + sleep
-const inputButtonAnimateSleep = async modeNew => {
+// state
+const inputButtonAnimateState = async modeNew => {
 
   testBrHr();
-  testLine( "inputButtonAnimateSleep" );
+  testLine( "inputButtonAnimateState" );
 
   // loop : state
   inputButtonState.forEach( state => {
 
     testBrHr();
-    testLine( "state : " + state );
-    testBrHr();
+    testLine( "state : " + state , false );
 
     // filter : button
+    testLine( "- filter" );
     inputButtonFilter(
       state   ,
       modeNew
     // loop : button
     ).forEach( button =>
       // animate
-      inputButtonAnimate(
+      inputButtonAnimateButton(
         state  ,
         button
       )
@@ -599,13 +594,13 @@ const inputButtonAnimateSleep = async modeNew => {
 
   } );
 
-  // sleep
-  const sleepDuration = buttonOptions.duration;
-  testLine( "sleep" , false );
-  testLine( "- duration : " + sleepDuration );
-  await sleep( sleepDuration );
-
 };
+
+
+
+////////////////////
+///// mode + editor
+////////////////////
 
 // mode
 const inputButtonMode = modeNew => {
@@ -619,6 +614,13 @@ const inputButtonEditor = modeNew => {
   testBrHr();
   testLine("inputButtonEditor");
   setEditorModeByIndex(0,modeNew);
+};
+
+const inputButtonModeEditor = modeNew => {
+  // mode
+  inputButtonMode(modeNew);
+  // editor
+  inputButtonEditor(modeNew);
 };
 
 
@@ -702,13 +704,14 @@ const inputButtonListener = async event => {
   const modeNew = event.target.value;
 
   // Animate
-  await inputButtonAnimateSleep(modeNew);
+  await inputButtonAnimateState(modeNew);
 
-  // Mode
-  inputButtonMode(modeNew);
+  // sleep
+  const sleepDuration = buttonOptions.duration;
+  await sleep( sleepDuration );
 
-  // Editor
-  inputButtonEditor(modeNew);
+  // Mode + Editor
+  inputButtonModeEditor(modeNew);
 
 };
 
