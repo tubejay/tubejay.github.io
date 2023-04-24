@@ -529,13 +529,11 @@ const inputButtonBoolByState = state => {
 };
 const inputButtonEqualValue = (inputButton,value) =>
   inputButton.getAttribute("value") === value;
-const inputButtonFilter = (state,modeNew) => {
-  testLine( "inputButtonFilter" );
-  return inputButtonAll().filter( inputButton =>
+const inputButtonFilter = (state,modeNew) =>
+  inputButtonAll().filter( inputButton =>
     // https://stackoverflow.com/a/4540481
     inputButtonBoolByState(state) ^ inputButtonEqualValue(inputButton,modeNew)
   );
-};
 
 
 
@@ -575,9 +573,10 @@ const inputButtonAnimateState = modeNew => {
   inputButtonState.forEach( state => {
 
     testBrHr();
-    testLine( "state : " + state , false );
+    testLine( "state : " + state );
 
     // filter : button
+    testLine( "inputButtonFilter" );
     inputButtonFilter(
       state   ,
       modeNew
@@ -705,6 +704,7 @@ const inputButtonListener = async event => {
   inputButtonAnimateState(modeNew);
 
   // sleep
+  const buttonOptions = inputButtonStyleKebab.option;
   const sleepDuration = buttonOptions.duration;
   testBrHr();
   testLine( "sleep" , false );
