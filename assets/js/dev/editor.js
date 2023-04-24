@@ -624,6 +624,44 @@ const inputButtonModeEditor = modeNew => {
 
 
 ////////////////////
+// listener
+////////////////////
+
+const inputButtonListener = async event => {
+
+  testclear();
+  testBrHr();
+  testLine( "inputButtonListener" );
+
+  // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/target
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
+  // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
+
+  // modeNew
+  const modeNew = event.target.value;
+
+  // animate
+  inputButtonAnimateStateArr(modeNew);
+
+  // sleep
+  const buttonOptions = inputButtonStyleKebab.option;
+  const sleepDuration = buttonOptions.duration;
+  testBrHr();
+  testLine( "sleep" , false );
+  testLine( "- duration : " + sleepDuration );
+  await sleep( sleepDuration );
+
+  // mode + editor
+  inputButtonModeEditor(modeNew);
+
+};
+
+
+
+////////////////////
 ///// element
 ////////////////////
 
@@ -682,39 +720,6 @@ const inputButtonCreate = modeInput => {
 
   // return
   return inputButton;
-};
-
-// event listener
-const inputButtonListener = async event => {
-
-  testclear();
-  testBrHr();
-  testLine( "inputButtonListener" );
-
-  // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
-  // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
-  // https://developer.mozilla.org/en-US/docs/Web/API/Event/target
-  // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
-  // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
-  // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
-
-  // modeNew
-  const modeNew = event.target.value;
-
-  // animate
-  inputButtonAnimateStateArr(modeNew);
-
-  // sleep
-  const buttonOptions = inputButtonStyleKebab.option;
-  const sleepDuration = buttonOptions.duration;
-  testBrHr();
-  testLine( "sleep" , false );
-  testLine( "- duration : " + sleepDuration );
-  await sleep( sleepDuration );
-
-  // mode + editor
-  inputButtonModeEditor(modeNew);
-
 };
 
 // create
@@ -1115,7 +1120,7 @@ const convertResultToEditorByRole = role => {
 ///// listener
 ////////////////////
 
-// set : animate
+// animate
 const convertButtonAnimate = () => {
 
   testBrHr();
@@ -1135,7 +1140,7 @@ const convertButtonAnimate = () => {
 
 };
 
-// set : convert
+// convert
 const convertButtonConvert = () => {
 
   testBrHr();
@@ -1180,7 +1185,7 @@ const convertButtonConvert = () => {
 };
 
 
-// set : listener
+// animate + convert
 const convertButtonListener = async event => {
 
   testclear();
