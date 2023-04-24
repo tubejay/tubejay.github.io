@@ -476,7 +476,6 @@ const inputButtonStyleKebab = {
 
   option : {
     iterations : 1            ,
-    // direction  : "alternate"  ,
     // https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
     fill       : "forwards"   ,
     easing     : easingOut    ,
@@ -541,12 +540,12 @@ const inputButtonFilter = (state,modeNew) => {
 
 
 ////////////////////
-///// async
+///// animate
 ////////////////////
 
-const inputButtonAsync = async (state,button) => {
+const inputButtonAnimate = (state,button) => {
 
-  testLine( "inputButtonAsync" , false );
+  testLine( "inputButtonAnimate" , false );
   testLine( "- button : " + button.getAttribute("value") );
   testBrHr();
 
@@ -557,21 +556,14 @@ const inputButtonAsync = async (state,button) => {
   testObject( buttonKeyFrames , "buttonKeyFrames" );
   testObject( buttonOptions , "buttonOptions" );
 
-  // animate + sleep
-  testLine( "animate + sleep" , false );
-  const sleepDuration = buttonOptions.duration;
-  testLine( "- duration : " + sleepDuration , true );
+  // animate
+  testLine( "animate" );
   button.animate(
     buttonKeyFrames ,
     buttonOptions
   );
-  await sleep( sleepDuration );
 
-  // style
-  // const buttonStyle = inputButtonStyleKebab[state];
-  // setElStyle( button , buttonStyle );
-
-}
+};
 
 
 
@@ -579,11 +571,11 @@ const inputButtonAsync = async (state,button) => {
 ///// listener
 ////////////////////
 
-// animate
-const inputButtonAnimate = modeNew => {
+// animate + sleep
+const inputButtonAnimateSleep = async modeNew => {
 
   testBrHr();
-  testLine( "inputButtonAnimate" );
+  testLine( "inputButtonAnimateSleep" );
 
   // loop : state
   inputButtonState.forEach( state => {
@@ -598,14 +590,21 @@ const inputButtonAnimate = modeNew => {
       modeNew
     // loop : button
     ).forEach( button =>
-      // async
-      inputButtonAsync(
+      // animate
+      inputButtonAnimate(
         state  ,
         button
       )
-    )
+    );
 
   } );
+
+  // sleep
+  const sleepDuration = buttonOptions.duration;
+  testLine( "sleep" , false );
+  testLine( "- duration : " + sleepDuration );
+  await sleep( sleepDuration );
+
 };
 
 // mode
@@ -703,7 +702,7 @@ const inputButtonListener = async event => {
   const modeNew = event.target.value;
 
   // Animate
-  await inputButtonAnimate(modeNew);
+  await inputButtonAnimateSleep(modeNew);
 
   // Mode
   inputButtonMode(modeNew);
