@@ -1138,11 +1138,10 @@ const convertButtonAnimate = () => {
   testObject( KeyFrames , "KeyFrames" );
   testObject( Options , "Options" );
 
-  const finishedPromise = convertButton.animate(
+  convertButton.animate(
     KeyFrames ,
     Options
-  ).finished;
-  return finishedPromise;
+  );
 
 };
 
@@ -1199,7 +1198,7 @@ const convertButtonListener = async event => {
   testLine("convertButtonListener");
 
   // animate
-  await convertButtonAnimate();
+  convertButtonAnimate();
 
   // sleep
   const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
@@ -1238,17 +1237,25 @@ const convertButtonSetting = () => {
   textElChild( convertButton , convertButtonText );
   
   // set : event listener
-  testLine( "addEventListener" , false );
-  // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-  const eventType = "click";
-  testLine( "- eventType : " + eventType , false );
-  testLine( "- listener : " + "convertButtonListener" );
-  convertButton.addEventListener(
-    // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  testLine( "addEventListener" );
+
+  const eventListener = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-    eventType ,
-    convertButtonListener
-  );
+    click : {convertButtonAnimate} ,
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event
+    animationiteration : {convertButtonConvert}
+  };
+  Object.entries(eventListener).forEach( ( [event,listener] ) => {
+    testLine( "- event : " + event , false );
+    Object.entries(listener).forEach( ( [listenerName,listenerFunction] ) => {
+      testLine( "- listener : " + listenerName );
+      convertButton.addEventListener(
+        event ,
+        listenerFunction
+      );
+    } );
+  } );
 
 };
 convertButtonSetting();
