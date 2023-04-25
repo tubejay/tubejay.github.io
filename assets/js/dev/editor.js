@@ -1192,26 +1192,30 @@ const convertButtonConvert = () => {
 
 
 // animate + convert
-const convertButtonListener = async event => {
+const convertButtonListener = () => {
 
-  testclear();
-  testBrHr();
-  testLine("convertButtonListener");
+  const eventListener = {
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+    click : {convertButtonAnimate} ,
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event
+    animationiteration : {convertButtonConvert} ,
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event#browser_compatibility
+    "-webkit-animationiteration" : {convertButtonConvert}
+  };
 
-  // animate
-  convertButtonAnimate();
-
-  // sleep
-  const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
-  const sleepDuration  = animateOptions.duration;
-  await sleep(sleepDuration);
-
-  // convert
-  convertButtonConvert();
+  // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  Object.entries(eventListener).forEach(
+    ( [ event , [ [listenerName,listenerFunction] ] ] ) => {
+      testLine( "- event : " + event , false );
+      testLine( "- listener : " + listenerName );
+      convertButton.addEventListener(
+        event ,
+        listenerFunction
+      );
+    }
+  );
 
 };
-
-
 
 
 
@@ -1238,25 +1242,8 @@ const convertButtonSetting = () => {
   textElChild( convertButton , convertButtonText );
   
   // set : event listener
-  // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-  testLine( "addEventListener" );
-
-  const eventListener = {
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-    click : {convertButtonAnimate} ,
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event
-    animationiteration : {convertButtonConvert}
-  };
-  Object.entries(eventListener).forEach( ( [event,listener] ) => {
-    testLine( "- event : " + event , false );
-    Object.entries(listener).forEach( ( [listenerName,listenerFunction] ) => {
-      testLine( "- listener : " + listenerName );
-      convertButton.addEventListener(
-        event ,
-        listenerFunction
-      );
-    } );
-  } );
+  testLine( "convertButtonListener" );
+  convertButtonListener();
 
 };
 convertButtonSetting();
