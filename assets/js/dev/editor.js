@@ -1004,25 +1004,34 @@ const convertButtonStyle = {
 };
 
 // animate
-const convertButtonAnimateKeyFramesOptions = {
-
-  // KeyFrames
-  KeyFrames : {
-    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
-    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-    backgroundColor : [ colorNeonBlack ] ,
-    boxShadow       : [ "inset 0 0 1px 1px " + colorWhite ]
-  } ,
-
-  // Options
-  Options : {
-    iterations : 2             ,
-    direction  : "alternate"   ,
-    easing     : easingInOut   ,
-    duration   : durationShort
-  }
-
+const convertButtonAnimateOptions = {
+  iterations : 1             ,
+  fill       : "forwards"    ,
+  easing     : easingInOut   ,
+  duration   : durationShort
+}
+const convertButtonAnimateIsActive = {
+  true : [
+    // KeyFrames
+    {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+      // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
+      // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+      backgroundColor : [ colorNeonBlack ] ,
+      boxShadow       : [ "inset 0 0 1px 1px " + colorWhite ]
+    } ,
+    // Options
+    convertButtonAnimateOptions
+  ] , 
+  false : [
+    // KeyFrames
+    {
+      backgroundColor : [ convertButtonStyle["background-color"] ] ,
+      boxShadow       : [ "none" ]
+    } ,
+    // Options
+    convertButtonAnimateOptions
+  ]
 };
 
 // value
@@ -1127,22 +1136,22 @@ const convertResultToEditorByRole = role => {
 ////////////////////
 
 // animate
-const convertButtonAnimate = () => {
+const convertButtonAnimate = (isActive=true) => {
 
-  testclear();
   testBrHr();
-  testLine("convertButtonAnimate");
+  testLine( "convertButtonAnimate" , false );
+  testLine( "- isActive : " + isActive );
 
-  const [KeyFrames,Options] = Object.values(
-    convertButtonAnimateKeyFramesOptions
-  );
+  const keyActive = String(isActive);
+  const byActive  = convertButtonAnimateIsActive;
+  const [KeyFrames,Options] = byActive[keyActive];
   testObject( KeyFrames , "KeyFrames" );
   testObject( Options , "Options" );
 
-  convertButton.animate(
+  return convertButton.animate(
     KeyFrames ,
     Options
-  );
+  ).finished;
 
 };
 
@@ -1182,44 +1191,33 @@ const convertButtonConvert = () => {
   // https://stackoverflow.com/a/75716055
   testBrHr();
   testLine( "compile" );
-  Sass.compile(
-    inputValue ,
-    inputOption ,
-    resultToOutput
+  return new Promise( (resolve,reject) =>
+    resolve( Sass.compile(
+      inputValue     ,
+      inputOption    ,
+      resultToOutput
+    ) )
   );
 
 };
 
-
 // animate + convert
-const convertButtonListener = () => {
+const convertButtonListener = async () => {
 
+  testclear();
   testBrHr();
   testLine( "convertButtonListener" );
 
-  const eventListener = {
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-    click : {convertButtonAnimate} ,
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event
-    animationiteration : {convertButtonConvert} ,
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event#browser_compatibility
-    // https://stackoverflow.com/a/19132952
-    WebkitAnimationIteration : {convertButtonConvert}
-  };
+  // animate
+  // active : true
+  await convertButtonAnimate(true);
 
-  // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-  Object.entries(eventListener).forEach(
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring
-    ( [ event , listener ] ) => {
-      const [ [listenerName,listenerFunction] ] = Object.entries(listener);
-      testLine( "- event : " + event , false );
-      testLine( "- listener : " + listenerName );
-      convertButton.addEventListener(
-        event ,
-        listenerFunction
-      );
-    }
-  );
+  // convert
+  convertButtonConvert();
+
+  // animate
+  // active : false
+  await convertButtonAnimate(false);
 
 };
 
@@ -1249,7 +1247,15 @@ const convertButtonSetting = () => {
   testHr();
   
   // set : event listener
-  convertButtonListener();
+  testLine( "addEventListener" , false );
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+  const eventClick = "click";
+  testLine( "- event : " + eventClick , false );
+  testLine( "- listener : " + "convertButtonListener" );
+  convertButton.addEventListener(
+    eventClick ,
+    convertButtonListener
+  )
 
 };
 convertButtonSetting();
