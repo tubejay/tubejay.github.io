@@ -1207,7 +1207,7 @@ const convertButtonListener = () => {
   Object.entries(eventListener).forEach(
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring
     ( [ event , listener ] ) => {
-      const [listenerName,listenerFunction] = listener;
+      const [ [listenerName,listenerFunction] ] = Object.entries(listener);
       testLine( "- event : " + event , false );
       testLine( "- listener : " + listenerName );
       convertButton.addEventListener(
