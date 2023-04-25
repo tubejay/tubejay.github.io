@@ -41,7 +41,7 @@ hidden: false
 
 
 
-## asynchronous
+## Asynchronous
 
 - MDN Web Docs
   - Learn
@@ -65,7 +65,7 @@ hidden: false
     - [2부 - Promise](https://www.daleseo.com/js-async-promise/)
     - [3부 - async/await](https://www.daleseo.com/js-async-async-await/)
   - 함수
-    - [setTimeout() / setInterval()](https://www.daleseo.com/js-timer/)
+    - [setTimeout / setInterval](https://www.daleseo.com/js-timer/)
     - [sleep](https://www.daleseo.com/js-sleep/)
 
 

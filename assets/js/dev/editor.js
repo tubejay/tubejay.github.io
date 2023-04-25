@@ -476,7 +476,6 @@ const inputButtonStyleKebab = {
 
   option : {
     iterations : 1            ,
-    direction  : "alternate"  ,
     // https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
     fill       : "forwards"   ,
     easing     : easingOut    ,
@@ -486,7 +485,7 @@ const inputButtonStyleKebab = {
 };
 
 // style : camel
-const inputButtonState = ["unchecked","checked"];
+const inputButtonStateArr = ["unchecked","checked"];
 const textCamel = text =>
   // https://stackoverflow.com/a/60738940
   text.replace( /-./g , x => x[1].toUpperCase() );
@@ -495,7 +494,7 @@ const objectKeyCamel = obj =>
     ( [key,value] ) => [ textCamel(key) , [value] ]
   ) );
 const inputButtonStyleCamel = Object.fromEntries(
-  inputButtonState.map( state =>
+  inputButtonStateArr.map( state =>
     [ state , objectKeyCamel( inputButtonStyleKebab[state] ) ]
   )
 );
@@ -530,25 +529,24 @@ const inputButtonBoolByState = state => {
 };
 const inputButtonEqualValue = (inputButton,value) =>
   inputButton.getAttribute("value") === value;
-const inputButtonFilter = (state,modeNew) => {
-  testLine( "inputButtonFilter" );
-  return inputButtonAll().filter( inputButton =>
+const inputButtonFilterByState = (state,modeNew) =>
+  inputButtonAll().filter( inputButton =>
     // https://stackoverflow.com/a/4540481
     inputButtonBoolByState(state) ^ inputButtonEqualValue(inputButton,modeNew)
   );
-};
 
 
 
 ////////////////////
-///// async
+///// animate
 ////////////////////
 
-const inputButtonAsync = async (state,button) => {
+// button
+const inputButtonAnimateButton = (state,button) => {
 
-  testLine( "inputButtonAsync" , false );
-  testLine( "- button : " + button.getAttribute("value") );
   testBrHr();
+  testLine( "inputButtonAnimateButton" , false );
+  testLine( "- button : " + button.getAttribute("value") );
 
   // KeyFrames
   // Options
@@ -557,56 +555,64 @@ const inputButtonAsync = async (state,button) => {
   testObject( buttonKeyFrames , "buttonKeyFrames" );
   testObject( buttonOptions , "buttonOptions" );
 
-  // animate + sleep
-  testLine( "animate + sleep" , false );
-  const sleepDuration = buttonOptions.duration;
-  testLine( "- duration : " + sleepDuration , true );
-  button.animate(
+  // animate
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation
+  const buttonAnimate = button.animate(
     buttonKeyFrames ,
     buttonOptions
   );
-  await sleep( sleepDuration );
 
-  // style
-  const buttonStyle = inputButtonStyleKebab[state];
-  setElStyle( button , buttonStyle );
+  // https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
+  const buttonFinished = buttonAnimate.finished;
+  return buttonFinished;
 
-}
+};
 
-
-
-////////////////////
-///// listener
-////////////////////
-
-// animate
-const inputButtonAnimate = modeNew => {
+// state
+const inputButtonAnimateStateArr = modeNew => {
 
   testBrHr();
-  testLine( "inputButtonAnimate" );
+  testLine( "inputButtonAnimateStateArr" );
 
   // loop : state
-  inputButtonState.forEach( state => {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+  const stateFinishedArr = inputButtonStateArr.map( state => {
 
     testBrHr();
     testLine( "state : " + state );
-    testBrHr();
 
     // filter : button
-    inputButtonFilter(
+    testLine( "inputButtonFilterByState" );
+    const buttonFinishedArr = inputButtonFilterByState(
       state   ,
       modeNew
     // loop : button
-    ).forEach( button =>
-      // async
-      inputButtonAsync(
+    ).map( button =>
+      // animate : button
+      inputButtonAnimateButton(
         state  ,
         button
       )
-    )
+    );
+
+    // finished : all buttons
+    const buttonFinishedAll = Promise.all( buttonFinishedArr );
+    return buttonFinishedAll;
 
   } );
+
+  // finished : all states
+  const stateFinishedAll = Promise.all( stateFinishedArr );
+  return stateFinishedAll;
+
 };
+
+
+
+////////////////////
+///// mode + editor
+////////////////////
 
 // mode
 const inputButtonMode = modeNew => {
@@ -620,6 +626,44 @@ const inputButtonEditor = modeNew => {
   testBrHr();
   testLine("inputButtonEditor");
   setEditorModeByIndex(0,modeNew);
+};
+
+// mode + editor
+const inputButtonModeEditor = modeNew => {
+  // mode
+  inputButtonMode(modeNew);
+  // editor
+  inputButtonEditor(modeNew);
+};
+
+
+
+////////////////////
+// listener
+////////////////////
+
+const inputButtonListener = async event => {
+
+  testclear();
+  testBrHr();
+  testLine( "inputButtonListener" );
+
+  // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/target
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
+  // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
+  // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
+
+  // modeNew
+  const modeNew = event.target.value;
+
+  // animate
+  await inputButtonAnimateStateArr(modeNew);
+
+  // mode + editor
+  inputButtonModeEditor(modeNew);
+
 };
 
 
@@ -683,34 +727,6 @@ const inputButtonCreate = modeInput => {
 
   // return
   return inputButton;
-};
-
-// event listener
-const inputButtonListener = event => {
-
-  testclear();
-  testBrHr();
-  testLine( "inputButtonListener" );
-
-  // https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events#event_bubbling
-  // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling
-  // https://developer.mozilla.org/en-US/docs/Web/API/Event/target
-  // https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
-  // https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets
-  // https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81---event-bubbling
-
-  // modeNew
-  const modeNew = event.target.value;
-
-  // Mode
-  inputButtonMode(modeNew);
-
-  // Editor
-  inputButtonEditor(modeNew);
-
-  // Animate
-  inputButtonAnimate(modeNew);
-
 };
 
 // create
@@ -988,25 +1004,34 @@ const convertButtonStyle = {
 };
 
 // animate
-const convertButtonAnimateKeyFramesOptions = {
-
-  // KeyFrames
-  KeyFrames : {
-    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
-    // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
-    // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
-    backgroundColor : [ colorNeonBlack ] ,
-    boxShadow       : [ "inset 0 0 1px 1px " + colorWhite ]
-  } ,
-
-  // Options
-  Options : {
-    iterations : 2             ,
-    direction  : "alternate"   ,
-    easing     : easingInOut   ,
-    duration   : durationShort
-  }
-
+const convertButtonAnimateOptions = {
+  iterations : 1             ,
+  fill       : "forwards"    ,
+  easing     : easingInOut   ,
+  duration   : durationShort
+}
+const convertButtonAnimateIsActive = {
+  true : [
+    // KeyFrames
+    {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+      // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats#attributes
+      // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+      backgroundColor : [ colorNeonBlack ] ,
+      boxShadow       : [ "inset 0 0 1px 1px " + colorWhite ]
+    } ,
+    // Options
+    convertButtonAnimateOptions
+  ] , 
+  false : [
+    // KeyFrames
+    {
+      backgroundColor : [ convertButtonStyle["background-color"] ] ,
+      boxShadow       : [ "none" ]
+    } ,
+    // Options
+    convertButtonAnimateOptions
+  ]
 };
 
 // value
@@ -1068,10 +1093,10 @@ const convertResultToValue = (role,result) => {
 
   // resultValue
   // valid    : text
-  // invalid  : message + formatted
+  // invalid  : formatted
   const resultValue = status==="0"
                     ? String( result.text )
-                    : String( result.message ) + "\n\n" + String( result.formatted )
+                    : String( result.formatted )
                     ;
   testLine( "- value length : " + resultValue.length );
 
@@ -1082,23 +1107,28 @@ const convertResultToValue = (role,result) => {
                     ;
 
   // return
-  return value;
+  return new Promise( (resolve,reject) =>
+    resolve(value)
+  );
 
 };
 const setEditorValue = (editor,value) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
   editor.session.setValue(value);
-const setEditorValueByRole = (role,value) =>
+const setEditorValueByRole = (role,value) => {
+  const editor = getEditorByRole(role);
   setEditorValue(
-    getEditorByRole(role) ,
+    editor ,
     value
   );
+};
 const convertResultToEditorByRole = role => {
   // create
-  const resultToEditor = result => {
+  const resultToEditor = async result => {
+    const value = await convertResultToValue(role,result);
     setEditorValueByRole(
       role ,
-      convertResultToValue(role,result)
+      value
     );
   };
   // return
@@ -1111,27 +1141,27 @@ const convertResultToEditorByRole = role => {
 ///// listener
 ////////////////////
 
-// set : animate
-const convertButtonAnimate = () => {
+// animate
+const convertButtonAnimate = (isActive=true) => {
 
   testBrHr();
-  testLine("convertButtonAnimate");
+  testLine( "convertButtonAnimate" , false );
+  testLine( "- isActive : " + isActive );
 
-  const [KeyFrames,Options] = Object.values(
-    convertButtonAnimateKeyFramesOptions
-  );
+  const keyActive = String(isActive);
+  const byActive  = convertButtonAnimateIsActive;
+  const [KeyFrames,Options] = byActive[keyActive];
   testObject( KeyFrames , "KeyFrames" );
   testObject( Options , "Options" );
 
-  // https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
-  convertButton.animate(
+  return convertButton.animate(
     KeyFrames ,
     Options
-  );
+  ).finished;
 
 };
 
-// set : convert
+// convert
 const convertButtonConvert = () => {
 
   testBrHr();
@@ -1150,9 +1180,8 @@ const convertButtonConvert = () => {
   testLine( "- modeOutput : " + getModeByRole(roleOutput) );
 
   // inputValue
-  testBrHr();
-  testLine( "inputValue" , false );
   const inputValue = getEditorValueByRole(roleInput);
+  testLine( "inputValue" , false );
   testLine( "- length : " + inputValue.length );
 
   // inputOption
@@ -1165,38 +1194,34 @@ const convertButtonConvert = () => {
   // compile
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
-  testBrHr();
   testLine( "compile" );
   Sass.compile(
-    inputValue ,
-    inputOption ,
+    inputValue     ,
+    inputOption    ,
     resultToOutput
   );
 
 };
 
-
-// set : listener
-const convertButtonListener = async event => {
+// animate + convert
+const convertButtonListener = async () => {
 
   testclear();
   testBrHr();
-  testLine("convertButtonListener");
+  testLine( "convertButtonListener" );
 
   // animate
-  convertButtonAnimate();
-
-  // sleep
-  const animateOptions = convertButtonAnimateKeyFramesOptions.Options;
-  const sleepDuration  = animateOptions.duration;
-  await sleep(sleepDuration);
+  // active : true
+  await convertButtonAnimate(true);
 
   // convert
   convertButtonConvert();
 
+  // animate
+  // active : false
+  await convertButtonAnimate(false);
+
 };
-
-
 
 
 
@@ -1223,15 +1248,13 @@ const convertButtonSetting = () => {
   textElChild( convertButton , convertButtonText );
   
   // set : event listener
-  testLine( "addEventListener" , false );
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-  const eventType = "click";
-  testLine( "- eventType : " + eventType , false );
+  const eventClick = "click";
+  testLine( "addEventListener" , false );
+  testLine( "- event : " + eventClick , false );
   testLine( "- listener : " + "convertButtonListener" );
   convertButton.addEventListener(
-    // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-    // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-    eventType ,
+    eventClick ,
     convertButtonListener
   );
 
