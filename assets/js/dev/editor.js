@@ -1248,15 +1248,15 @@ const convertButtonSetting = () => {
   textElChild( convertButton , convertButtonText );
   
   // set : event listener
-  testLine( "addEventListener" , false );
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
   const eventClick = "click";
+  testLine( "addEventListener" , false );
   testLine( "- event : " + eventClick , false );
   testLine( "- listener : " + "convertButtonListener" );
   convertButton.addEventListener(
     eventClick ,
     convertButtonListener
-  )
+  );
 
 };
 convertButtonSetting();
