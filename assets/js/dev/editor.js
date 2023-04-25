@@ -1194,13 +1194,16 @@ const convertButtonConvert = () => {
 // animate + convert
 const convertButtonListener = () => {
 
+  testBrHr();
+  testLine( "convertButtonListener" );
+
   const eventListener = {
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
     click : {convertButtonAnimate} ,
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event
     animationiteration : {convertButtonConvert} ,
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event#browser_compatibility
-    "-webkit-animationiteration" : {convertButtonConvert}
+    webkitAnimationiteration : {convertButtonConvert}
   };
 
   // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
@@ -1242,9 +1245,9 @@ const convertButtonSetting = () => {
   // child : text
   const convertButtonText = "Click : convert to " + getModeByIndex(1);
   textElChild( convertButton , convertButtonText );
+  testHr();
   
   // set : event listener
-  testLine( "convertButtonListener" );
   convertButtonListener();
 
 };
