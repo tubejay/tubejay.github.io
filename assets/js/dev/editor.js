@@ -1201,10 +1201,10 @@ const convertButtonListener = () => {
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
     click : {convertButtonAnimate} ,
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event
-    animationIteration : {convertButtonConvert} ,
+    animationiteration : {convertButtonConvert} ,
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event#browser_compatibility
     // https://stackoverflow.com/a/19132952
-    webkitAnimationIteration : {convertButtonConvert}
+    WebkitAnimationIteration : {convertButtonConvert}
   };
 
   // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
