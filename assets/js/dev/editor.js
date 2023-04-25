@@ -1107,24 +1107,30 @@ const convertResultToValue = (role,result) => {
                     ;
 
   // return
-  return value;
+  return new Promise( (resolve,reject) =>
+    resolve(value)
+  );
 
 };
 const setEditorValue = (editor,value) =>
   // https://ajaxorg.github.io/ace-api-docs/classes/Ace.EditSession.html#setValue
   editor.session.setValue(value);
-const setEditorValueByRole = (role,value) =>
+const setEditorValueByRole = (role,value) => {
+  const editor = getEditorByRole(role);
   setEditorValue(
-    getEditorByRole(role) ,
+    editor ,
     value
   );
+};
 const convertResultToEditorByRole = role => {
   // create
-  const resultToEditor = result =>
+  const resultToEditor = async result => {
+    const value = await convertResultToValue(role,result);
     setEditorValueByRole(
       role ,
-      convertResultToValue(role,result)
+      value
     );
+  };
   // return
   return resultToEditor;
 };
@@ -1189,12 +1195,10 @@ const convertButtonConvert = () => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   testLine( "compile" );
-  return new Promise( (resolve,reject) =>
-    resolve( Sass.compile(
-      inputValue     ,
-      inputOption    ,
-      resultToOutput
-    ) )
+  Sass.compile(
+    inputValue     ,
+    inputOption    ,
+    resultToOutput
   );
 
 };
@@ -1211,7 +1215,7 @@ const convertButtonListener = async () => {
   await convertButtonAnimate(true);
 
   // convert
-  await convertButtonConvert();
+  convertButtonConvert();
 
   // animate
   // active : false
