@@ -1246,7 +1246,6 @@ const convertButtonSetting = () => {
   // child : text
   const convertButtonText = "Click : convert to " + getModeByIndex(1);
   textElChild( convertButton , convertButtonText );
-  testHr();
   
   // set : event listener
   testLine( "addEventListener" , false );
