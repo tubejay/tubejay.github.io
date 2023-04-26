@@ -1130,6 +1130,9 @@ const convertResultToEditorByRole = role => {
       role ,
       value
     );
+    return new Promise( (resolve,reject) =>
+      resolve(value)
+    );
   };
   // return
   return resultToEditor;
@@ -1195,11 +1198,14 @@ const convertButtonConvert = () => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   testLine( "compile" );
-  Sass.compile(
-    inputValue     ,
-    inputOption    ,
-    resultToOutput
-  );
+  return new Promise( (resolve,reject) => {
+    const compileReturn = Sass.compile(
+      inputValue     ,
+      inputOption    ,
+      resultToOutput
+    );
+    resolve( compileReturn );
+  } );
 
 };
 
@@ -1215,7 +1221,7 @@ const convertButtonListener = async () => {
   await convertButtonAnimate(true);
 
   // convert
-  convertButtonConvert();
+  await convertButtonConvert();
 
   // animate
   // active : false
