@@ -95,20 +95,38 @@ const testFunction = useFunc =>
   testLine( useFunc.name );
 
 // object
+const testObjectConvert = obj =>
+  Object.fromEntries(
+    Object.entries(obj).forEach( ( [key,value] ) => {
+      // function : name
+      const valueConvert = typeof value === "function"
+                         ? value.name
+                         : value
+                         ;
+      return [key,valueConvert]
+    } )
+  );
+const testObjectKey = obj => {
+  const keyLengthArr = Object.keys(obj).map( key => key.length );
+  return Math.max( ...keyLengthArr );
+};
 const testObject = (obj,title="") => {
   // title
   title!=="" ? testLine( title , false ) : null;
-  // key,valueText
-  Object.entries(obj).forEach( ( [key,value] ) => {
-    const valueText = ( typeof value === "function" )
-                    ? value.name
-                    : value
-                    ;
-    testLine(
-      "- " + key + " : " + valueText
-      , false
-    );
-  } );
+  // object convert
+  const objConvert = testObjectConvert(obj);
+  // key length max
+  const keyLengthMax = testObjectKey(objConvert);
+  // key,value
+  Object.entries(objConvert).forEach(
+    ( [key,value] ) => {
+      const keyPad = key.padEnd(keyLengthMax);
+      testLine(
+        "- " + keyPad + " : " + value
+        , false
+      )
+    }
+  );
   // hr
   testHr();
 };
@@ -1106,7 +1124,7 @@ const convertResultToValue = (role,result) => {
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   const status      = String( result["status"] );
-  const statusText  = "- status : " + status;
+  const statusText  = "" + status;
   const statusValue = "// status : " + status;
 
   // resultValue
