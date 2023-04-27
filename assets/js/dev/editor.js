@@ -89,7 +89,7 @@ const testLine = (text,hr=true) =>
   new Promise( (resolve,reject) => {
     testText(text);
     hr ? testHr() : null;
-    resolve;
+    resolve(0);
   } );
 
 // object
@@ -1198,7 +1198,8 @@ const convertButtonConvert = () => {
   Sass.compile(
     inputValue     ,
     inputOption    ,
-    resultToOutput
+    result => testObject(result)
+    // resultToOutput
   );
 
 };
