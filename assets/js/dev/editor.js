@@ -38,6 +38,40 @@ const textElChild = (el,text) => {
   childText( el , text );
 };
 
+// table
+// https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
+const columnsToRows = columnArr =>
+  columnArr[0].map( (value,index) =>
+    columnArr.map( column =>
+      column[index]
+    )
+  );
+const cellsToRow = cellArr => {
+  // tr : row
+  const tr = document.createElement("tr");
+  // td : cell
+  cellArr.forEach( cell => {
+    const td = document.createElement("td");
+    td.textContent = cell;
+    tr.appendChild(td);
+  } );
+  // return
+  return tr;
+};
+const createTable = columnArr => {
+  // table
+  const table = document.createElement("table");
+  // tbody
+  const tbody = document.createElement("tbody");
+  table.appendChild(tbody);
+  // columns -> rows
+  const rowArr = columnsToRows(columnArr).map(cellsToRow);
+  // add rows
+  rowArr.forEach( tbody.appendChild );
+  // return
+  return table;
+};
+
 // sleep
 // https://stackoverflow.com/a/39914235
 // https://www.daleseo.com/js-async-callback/
@@ -118,6 +152,12 @@ const testObject = (obj,title="") => {
       , false
     )
   );
+  // table
+  const table = createTable( [
+    Object.keys(objConvert) ,
+    Object.values(objConvert)
+  ] );
+  testEl.appendChild(table);
   // hr
   testHr();
 };
