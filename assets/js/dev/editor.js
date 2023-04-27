@@ -97,7 +97,7 @@ const testFunction = useFunc =>
 // object
 const testObjectConvert = obj =>
   Object.fromEntries(
-    Object.entries(obj).forEach( ( [key,value] ) => {
+    Object.entries(obj).map( ( [key,value] ) => {
       // function : name
       const valueConvert = typeof value === "function"
                          ? value.name
