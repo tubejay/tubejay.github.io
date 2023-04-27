@@ -162,7 +162,7 @@ const testObject = (obj,title="") => {
   const columnArr = [
     Object.keys(objConvert) ,
     Object.values(objConvert)
-  ].map(Array.from);
+  ];
   const table = createTable(columnArr);
   testEl.appendChild(table);
   // hr
