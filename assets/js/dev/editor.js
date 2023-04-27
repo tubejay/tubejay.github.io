@@ -71,9 +71,12 @@ const createTable = columnArr => {
     tbody.appendChild(row)
   );
   // style
-  setElStyle( table , {
-    "font-size" : "15px"
-  } );
+  const tableStyle = {
+    "font-size"     : "17px" ,
+    "margin-top"    : "3px" ,
+    "margin-bottom" : "3px"
+  }
+  setElStyle(table,tableStyle);
   // return
   return table;
 };
