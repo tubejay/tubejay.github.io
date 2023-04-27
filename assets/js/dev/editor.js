@@ -33,8 +33,10 @@ const childText = (el,text,tag="div") => {
   el.appendChild(child);
 };
 const textElChild = (el,text) => {
-  testLine( "childText" , false );
-  testLine( "- " + text );
+  testObject(
+    { text } ,
+    "childText"
+  );
   childText( el , text );
 };
 
@@ -232,13 +234,12 @@ try {
 testBrHr();
 testLine("mode");
 
-// 0 : Input
-// 1 : Output
-const editorRoles = [
-  "Input" ,
-  "Output"
-];
-testArray( editorRoles , "editorRoles" );
+let editorRoles = {
+  0 : "Input" ,
+  1 : "Output"
+};
+testObject( editorRoles , "editorRoles" );
+editorRoles = Object.values(editorRoles);
 
 const modeByRole = {
   Input  : null ,
@@ -272,15 +273,14 @@ const setModeByRole = (role,modeNew) => {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
   switch ( editorRoles.includes(role) ) {
     case true:
-      // role
-      testLine( "setModeByRole" , false );
-      testLine( "- role : " + role , false );
       // modeOld
       const modeOld = modeByRole[role];
-      testLine( "- modeOld : " + modeOld , false );
       // modeNew
       modeByRole[role] = modeNew;
-      testLine( "- modeNew : " + modeNew );
+      testObject(
+        { role , modeOld , modeNew } ,
+        "setModeByRole"
+      );
       break;
     case false:
       break;
