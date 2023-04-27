@@ -106,30 +106,17 @@ const testObjectConvert = obj =>
       return [key,valueConvert]
     } )
   );
-const testObjectKey = obj => {
-  const keyLengthArr = Object.keys(obj).map( key => key.length );
-  return Math.max( ...keyLengthArr );
-};
-const testPad = (text,n) =>
-  // https://stackoverflow.com/a/14760377
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring
-  ( text + " ".repeat(n) ).substring(0,n);
 const testObject = (obj,title="") => {
   // title
   title!=="" ? testLine( title , false ) : null;
   // object convert
   const objConvert = testObjectConvert(obj);
-  // key length max
-  const keyLengthMax = testObjectKey(objConvert);
   // key,value
   Object.entries(objConvert).forEach(
-    ( [key,value] ) => {
-      const keyPad = testPad(key,keyLengthMax);
-      testLine(
-        "- " + keyPad + " : " + value
-        , false
-      )
-    }
+    ( [key,value] ) => testLine(
+      "- " + key + " : " + value
+      , false
+    )
   );
   // hr
   testHr();
