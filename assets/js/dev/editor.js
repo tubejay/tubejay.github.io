@@ -90,17 +90,25 @@ const testLine = (text,hr=true) => {
   hr ? testHr() : null;
 };
 
+// function
+const testFunction = useFunc =>
+  testLine( useFunc.name );
+
 // object
 const testObject = (obj,title="") => {
   // title
   title==="" ? testLine( title , false ) : null;
-  // key,value
-  Object.entries(obj).forEach( ( [key,value] ) =>
+  // key,valueText
+  Object.entries(obj).forEach( ( [key,value] ) => {
+    const valueText = ( typeof value === "function" )
+                    ? value.name
+                    : value
+                    ;
     testLine(
-      "- " + key + " : " + value
+      "- " + key + " : " + valueText
       , false
-    )
-  );
+    );
+  } );
   // hr
   testHr();
 };
