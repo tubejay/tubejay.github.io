@@ -112,7 +112,8 @@ const testObjectKey = obj => {
 };
 const testPad = (text,n) =>
   // https://stackoverflow.com/a/14760377
-  ( text + " ".repeat(n) ).slice(n);
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring
+  ( text + " ".repeat(n) ).substring(0,n);
 const testObject = (obj,title="") => {
   // title
   title!=="" ? testLine( title , false ) : null;
