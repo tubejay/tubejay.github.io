@@ -97,7 +97,7 @@ const testFunction = useFunc =>
 // object
 const testObject = (obj,title="") => {
   // title
-  title==="" ? testLine( title , false ) : null;
+  title!=="" ? testLine( title , false ) : null;
   // key,valueText
   Object.entries(obj).forEach( ( [key,value] ) => {
     const valueText = ( typeof value === "function" )
