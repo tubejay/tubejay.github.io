@@ -1195,16 +1195,13 @@ const convertButtonConvert = () => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   testLine( "compile" );
-  let getResult = null;
-  Sass.compile(
-    inputValue     ,
-    inputOption    ,
-    result => {
-      getResult = JSON.parse( JSON.stringify(result) );
-    }
-    // resultToOutput
+  return new Promise( (resolve,reject) =>
+    resolve( Sass.compile(
+      inputValue     ,
+      inputOption    ,
+      resultToOutput
+    ) )
   );
-  testObject( getResult , "getResult" );
 
 };
 
@@ -1221,6 +1218,7 @@ const convertButtonListener = async () => {
     await convertButtonAnimate(true);
     // convert
     await convertButtonConvert();
+    await sleep(500);
     // animate
     // active : false
     await convertButtonAnimate(false);
