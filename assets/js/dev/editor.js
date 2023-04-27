@@ -110,6 +110,9 @@ const testObjectKey = obj => {
   const keyLengthArr = Object.keys(obj).map( key => key.length );
   return Math.max( ...keyLengthArr );
 };
+const testPad = (text,n) =>
+  // https://stackoverflow.com/a/14760377
+  ( text + " ".repeat(n) ).slice(n);
 const testObject = (obj,title="") => {
   // title
   title!=="" ? testLine( title , false ) : null;
@@ -120,7 +123,7 @@ const testObject = (obj,title="") => {
   // key,value
   Object.entries(objConvert).forEach(
     ( [key,value] ) => {
-      const keyPad = key.padEnd(keyLengthMax);
+      const keyPad = testPad(key,keyLengthMax);
       testLine(
         "- " + keyPad + " : " + value
         , false
