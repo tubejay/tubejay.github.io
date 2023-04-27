@@ -1195,11 +1195,12 @@ const convertButtonConvert = () => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   testLine( "compile" );
+  let getResult;
   Sass.compile(
     inputValue     ,
     inputOption    ,
     result => {
-      const getResult = structuredClone(result);
+      getResult = structuredClone(result);
     }
     // resultToOutput
   );
