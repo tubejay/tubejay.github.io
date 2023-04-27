@@ -85,10 +85,12 @@ const testBrHr = () => {
 };
 
 // line
-const testLine = (text,hr=true) => {
-  testText(text);
-  hr ? testHr() : null;
-};
+const testLine = (text,hr=true) =>
+  new Promise( (resolve,reject) => {
+    testText(text);
+    hr ? testHr() : null;
+    resolve;
+  } );
 
 // object
 const testObject = (obj,title="") => {
@@ -1080,16 +1082,16 @@ const getEditorOptionByRole = role => {
 };
 
 // result
-const convertResultToValue = (role,result) => {
+const convertResultToValue = async (role,result) => {
 
-  testLine( "convertResultToValue" , false );
+  await testLine( "convertResultToValue" , false );
 
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   const status      = String( result["status"] );
   const statusText  = "- status : " + status;
   const statusValue = "// status : " + status;
-  testLine( statusText , false );
+  await testLine( statusText , false );
 
   // resultValue
   // valid    : text
@@ -1098,7 +1100,7 @@ const convertResultToValue = (role,result) => {
                     ? String( result.text )
                     : String( result.formatted )
                     ;
-  testLine( "- value length : " + resultValue.length );
+  await testLine( "- value length : " + resultValue.length );
 
   // value
   const value       = statusValue
@@ -1107,9 +1109,7 @@ const convertResultToValue = (role,result) => {
                     ;
 
   // return
-  return new Promise( (resolve,reject) =>
-    resolve(value)
-  );
+  return value;
 
 };
 const setEditorValue = (editor,value) =>
@@ -1124,14 +1124,11 @@ const setEditorValueByRole = (role,value) => {
 };
 const convertResultToEditorByRole = role => {
   // create
-  const resultToEditor = async result => {
-    const value = await convertResultToValue(role,result);
+  const resultToEditor = result => {
+    const value = convertResultToValue(role,result);
     setEditorValueByRole(
       role ,
       value
-    );
-    return new Promise( (resolve,reject) =>
-      resolve(value)
     );
   };
   // return
@@ -1198,14 +1195,11 @@ const convertButtonConvert = () => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#compiling-strings
   // https://stackoverflow.com/a/75716055
   testLine( "compile" );
-  return new Promise( (resolve,reject) => {
-    const compileReturn = Sass.compile(
-      inputValue     ,
-      inputOption    ,
-      resultToOutput
-    );
-    resolve( compileReturn );
-  } );
+  Sass.compile(
+    inputValue     ,
+    inputOption    ,
+    resultToOutput
+  );
 
 };
 
