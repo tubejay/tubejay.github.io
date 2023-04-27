@@ -59,21 +59,21 @@ const cellsToRow = cellArr => {
   return tr;
 };
 const createTable = columnArr => {
-  testLine( "createTable" , false );
   // table
-  testLine( "- table" , false );
   const table = document.createElement("table");
   // tbody
-  testLine( "- tbody" , false );
   const tbody = document.createElement("tbody");
   table.appendChild(tbody);
   // columns -> rows
-  testLine( "- rowArr" , false );
   const rowArr = columnsToRows(columnArr).map(cellsToRow);
   // add rows
   rowArr.forEach( row =>
     tbody.appendChild(row)
   );
+  // style
+  setElStyle( table , {
+    "font-size" : "15px"
+  } );
   // return
   return table;
 };
