@@ -1215,16 +1215,18 @@ const convertButtonListener = async () => {
   testBrHr();
   testLine( "convertButtonListener" );
 
-  // animate
-  // active : true
-  await convertButtonAnimate(true);
-
-  // convert
-  await convertButtonConvert();
-
-  // animate
-  // active : false
-  await convertButtonAnimate(false);
+  try {
+    // animate
+    // active : true
+    await convertButtonAnimate(true);
+    // convert
+    await convertButtonConvert();
+    // animate
+    // active : false
+    await convertButtonAnimate(false);
+  } catch(error) {
+    testLine( error.toString() );
+  };
 
 };
 
