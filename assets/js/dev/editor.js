@@ -152,12 +152,14 @@ const testObject = (obj,title="") => {
   // object convert
   const objConvert = testObjectConvert(obj);
   // key,value
+  /*
   Object.entries(objConvert).forEach(
     ( [key,value] ) => testLine(
       "- " + key + " : " + value
       , false
     )
   );
+  */
   // table
   const columnArr = [
     Object.keys(objConvert) ,
