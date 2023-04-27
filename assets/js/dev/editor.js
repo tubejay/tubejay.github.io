@@ -27,7 +27,7 @@ const setElStyle = (el,objStyle) =>
   );
 
 // text
-const childText = (el,text,tag="div") => {    
+const childText = (el,text,tag="div") => {
   const child = document.createElement(tag);
   child.append(text);
   el.appendChild(child);
@@ -85,17 +85,15 @@ const testBrHr = () => {
 };
 
 // line
-const testLine = (text,hr=true) =>
-  new Promise( (resolve,reject) => {
-    testText(text);
-    hr ? testHr() : null;
-    resolve(0);
-  } );
+const testLine = (text,hr=true) => {
+  testText(text);
+  hr ? testHr() : null;
+};
 
 // object
 const testObject = (obj,title="") => {
   // title
-  testLine( title , false );
+  title==="" ? testLine( title , false ) : null;
   // key,value
   Object.entries(obj).forEach( ( [key,value] ) =>
     testLine(
@@ -547,8 +545,11 @@ const inputButtonFilterByState = (state,modeNew) =>
 const inputButtonAnimateButton = (state,button) => {
 
   testBrHr();
-  testLine( "inputButtonAnimateButton" , false );
-  testLine( "- button : " + button.getAttribute("value") );
+  const buttonValue = button.getAttribute("value");
+  testObject(
+    { buttonValue } ,
+    "inputButtonAnimateButton"
+  );
 
   // KeyFrames
   // Options
@@ -680,8 +681,10 @@ testLine("inputButton");
 // create
 const inputButtonCreate = modeInput => {
 
-  testLine( "inputButtonCreate" , false );
-  testLine( "- modeInput : " + modeInput );
+  testObject(
+    { modeInput } ,
+    "inputButtonCreate"
+  );
 
   // label
   const inputButton = document.createElement("label");
@@ -712,14 +715,16 @@ const inputButtonCreate = modeInput => {
   textElChild( inputButton , modeInput );
 
   // set : event listener
-  testLine( "addEventListener" , false );
   // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
   const eventType = "change";
-  testLine( "- eventType : " + eventType , false )
-  testLine( "- listener : " + "inputButtonListener" );
+  const listener  = inputButtonListener;
+  testObject(
+    { eventType , listener } ,
+    "addEventListener"
+  );
   inputButton.addEventListener(
     eventType ,
-    inputButtonListener
+    listener
   );
 
   // child : radio
@@ -833,8 +838,10 @@ const setEditorMode = (editor,modeName) =>
 
 // set : by
 const setEditorModeByRole = (role,modeName) => {
-  testLine( "setEditorModeByRole" , false );
-  testLine( "- role : " + role );
+  testObject(
+    { role } ,
+    "setEditorModeByRole"
+  );
   setEditorMode(
     getEditorByRole(role) ,
     modeName
@@ -895,7 +902,10 @@ Object.entries(initialEditorThemeByRole).forEach(
   // entry : [role,themeName]
   entry => setEditorThemeByRole(...entry)
 );
-testObject( initialEditorThemeByRole , "initialEditorThemeByRole" );
+testObject(
+  initialEditorThemeByRole ,
+  "initialEditorThemeByRole"
+);
 
 
 
@@ -1024,7 +1034,7 @@ const convertButtonAnimateIsActive = {
     } ,
     // Options
     convertButtonAnimateOptions
-  ] , 
+  ] ,
   false : [
     // KeyFrames
     {
@@ -1052,6 +1062,7 @@ const getEditorValueByRole = role =>
 ////////////////////
 
 // option
+// https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
 const getModeIndented = modeName => {
   switch ( modeName ) {
     case "sass":
@@ -1071,42 +1082,44 @@ const getModeIndentedByRole = role =>
   );
 const getEditorOptionByRole = role => {
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#output-style-options
-  const optionStyle  = Sass.style.expanded;
-  const optionIndent = getModeIndentedByRole(role);
+  const style          = Sass.style.expanded;
+  const comments       = true;
+  const indentedSyntax = getModeIndentedByRole(role);
   return {
-    style          : optionStyle ,
-    comments       : true ,
-    // https://github.com/medialize/sass.js/blob/master/docs/api.md#sass-vs-scss
-    indentedSyntax : optionIndent
-  }
+    style          ,
+    comments       ,
+    indentedSyntax
+  };
 };
 
 // result
-const convertResultToValue = async (role,result) => {
-
-  await testLine( "convertResultToValue" , false );
+const convertResultToValue = (role,result) => {
 
   // status
   // https://github.com/medialize/sass.js/blob/master/docs/api.md#the-response-object
   const status      = String( result["status"] );
   const statusText  = "- status : " + status;
   const statusValue = "// status : " + status;
-  await testLine( statusText , false );
 
   // resultValue
   // valid    : text
   // invalid  : formatted
   const resultValue = status==="0"
-                    ? String( result.text )
+                    ? String( result.text      )
                     : String( result.formatted )
                     ;
-  await testLine( "- value length : " + resultValue.length );
+  const valueLength = resultValue.length;
+
+  testObject(
+    { statusText , valueLength } ,
+    "convertResultToValue"
+  );
 
   // value
-  const value       = statusValue
-                    + "\n\n"
-                    + resultValue
-                    ;
+  const value = statusValue
+              + "\n\n"
+              + resultValue
+              ;
 
   // return
   return value;
@@ -1145,14 +1158,16 @@ const convertResultToEditorByRole = role => {
 const convertButtonAnimate = (isActive=true) => {
 
   testBrHr();
-  testLine( "convertButtonAnimate" , false );
-  testLine( "- isActive : " + isActive );
+  testObject(
+    { isActive } ,
+    "convertButtonAnimate"
+  );
 
   const keyActive = String(isActive);
   const byActive  = convertButtonAnimateIsActive;
   const [KeyFrames,Options] = byActive[keyActive];
   testObject( KeyFrames , "KeyFrames" );
-  testObject( Options , "Options" );
+  testObject( Options   , "Options" );
 
   return convertButton.animate(
     KeyFrames ,
@@ -1170,19 +1185,26 @@ const convertButtonConvert = () => {
   // role
   const roleInput  = getRoleByIndex(0);
   const roleOutput = getRoleByIndex(1);
-  testLine( "role" , false );
-  testLine( "- roleInput  : " + roleInput , false);
-  testLine( "- roleOutput : " + roleOutput );
+  testObject(
+    { roleInput , roleOutput } ,
+    "role"
+  );
 
   // mode
-  testLine( "mode" , false );
-  testLine( "- modeInput  : " + getModeByRole(roleInput) , false );
-  testLine( "- modeOutput : " + getModeByRole(roleOutput) );
+  const modeInput  = getModeByRole(roleInput);
+  const modeOutput = getModeByRole(roleOutput);
+  testObject(
+    { modeInput , modeOutput } ,
+    "mode"
+  );
 
   // inputValue
   const inputValue = getEditorValueByRole(roleInput);
-  testLine( "inputValue" , false );
-  testLine( "- length : " + inputValue.length );
+  const length     = inputValue.length;
+  testObject(
+    { length } ,
+    "inputValue"
+  );
 
   // inputOption
   const inputOption = getEditorOptionByRole(roleInput);
@@ -1241,24 +1263,26 @@ const convertButton = queryEl();
 
 // setting
 const convertButtonSetting = () => {
-  
+
   // set : style
   setElStyle( convertButton , convertButtonStyle );
   testObject( convertButtonStyle , "convertButtonStyle" );
-  
+
   // child : text
   const convertButtonText = "Click : convert to " + getModeByIndex(1);
   textElChild( convertButton , convertButtonText );
-  
+
   // set : event listener
   // https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
-  const eventClick = "click";
-  testLine( "addEventListener" , false );
-  testLine( "- event : " + eventClick , false );
-  testLine( "- listener : " + "convertButtonListener" );
+  const event    = "click";
+  const listener = convertButtonListener;
+  testObject(
+    { event , listener } ,
+    "addEventListener"
+  );
   convertButton.addEventListener(
-    eventClick ,
-    convertButtonListener
+    event ,
+    listener
   );
 
 };
