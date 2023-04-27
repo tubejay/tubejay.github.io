@@ -134,7 +134,7 @@ const testObject = (obj,title="") => {
 // array
 const testArray = (arr,title="") => {
   // title
-  testLine( title , false );
+  title!=="" ? testLine( title , false ) : null;
   // item
   arr.forEach( item =>
     testLine(
@@ -198,8 +198,8 @@ const editorRoles = [
 testArray( editorRoles , "editorRoles" );
 
 const modeByRole = {
-  Input   : undefined ,
-  Output  : "css"
+  Input  : null ,
+  Output : "css"
 };
 testObject( modeByRole , "modeByRole" );
 
