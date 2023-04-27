@@ -67,7 +67,9 @@ const createTable = columnArr => {
   // columns -> rows
   const rowArr = columnsToRows(columnArr).map(cellsToRow);
   // add rows
-  rowArr.forEach( tbody.appendChild );
+  rowArr.forEach( row =>
+    tbody.appendChild(row)
+  );
   // return
   return table;
 };
@@ -153,10 +155,11 @@ const testObject = (obj,title="") => {
     )
   );
   // table
-  const table = createTable( [
+  const columnArr = [
     Object.keys(objConvert) ,
     Object.values(objConvert)
-  ] );
+  ].map(Array.from);
+  const table = createTable(columnArr);
   testEl.appendChild(table);
   // hr
   testHr();
