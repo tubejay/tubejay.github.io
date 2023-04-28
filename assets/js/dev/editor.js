@@ -95,7 +95,8 @@ const createGridjs = columnArr => {
   const gridElement = document.createElement("div");
   // config
   const gridConfig = new gridjs.Grid( {
-    data : columnsToRows(columnArr)
+    columns : [ "key" , "value" ] ,
+    data    : columnsToRows(columnArr)
   } );
   // render
   gridConfig.render(gridElement);
