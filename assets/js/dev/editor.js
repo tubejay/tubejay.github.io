@@ -113,7 +113,7 @@ const gridStyle = {
     "white-space"   : "nowrap"
   } ,
   td : {
-    "border" : "1px solid #000000" ,
+    "border" : "1px solid #ffffff" ,
     "background-color" : "#1a1a1a" ,
     "color"            : "#ffffff" ,
     "font-size"        : "18px"    ,
@@ -135,11 +135,11 @@ const createGridjs = columnArr => {
     data      : gridData  ,
     style     : gridStyle ,
     // https://gridjs.io/docs/config/width
-    //width     : "90%"     ,
+    // width     : "90%"     ,
     // https://gridjs.io/docs/config/autoWidth
-    autoWidth : true      ,
+    autoWidth : false     ,
     // https://gridjs.io/docs/examples/resizable
-    resizable : true
+    resizable : false
   } );
   // render
   gridConfig.render(gridElement);
@@ -225,8 +225,8 @@ const testObject = (obj,title="") => {
     Object.keys(objConvert) ,
     Object.values(objConvert)
   ];
-  const table = createTable(columnArr);
-  // const table = createGridjs(columnArr);
+  // const table = createTable(columnArr);
+  const table = createGridjs(columnArr);
   testEl.appendChild(table);
   // hr
   testHr();
