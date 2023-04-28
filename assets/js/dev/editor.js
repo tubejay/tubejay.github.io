@@ -42,7 +42,7 @@ const textElChild = (el,text) => {
 
 // table
 // https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
-const columnsToRows = columnArr =>
+const columnsToRowsWithCells = columnArr =>
   columnArr[0].map( (value,index) =>
     columnArr.map( column =>
       column[index]
@@ -60,6 +60,11 @@ const cellsToRow = cellArr => {
   // return
   return tr;
 };
+const columnsToRows = columnArr =>
+  columnsToRowsWithCells(columnArr).map(
+    cellsToRow
+  );
+
 const createTable = columnArr => {
   // table
   const table = document.createElement("table");
@@ -67,7 +72,7 @@ const createTable = columnArr => {
   const tbody = document.createElement("tbody");
   table.appendChild(tbody);
   // columns -> rows
-  const rowArr = columnsToRows(columnArr).map(cellsToRow);
+  const rowArr = columnsToRows(columnArr);
   // add rows
   rowArr.forEach( row =>
     tbody.appendChild(row)
@@ -81,6 +86,21 @@ const createTable = columnArr => {
   setElStyle(table,tableStyle);
   // return
   return table;
+};
+
+// Grid.js
+// https://gridjs.io/docs/hello-world#browser
+const createGridjs = columnArr => {
+  // element
+  const gridElement = document.createElement("div");
+  // config
+  const gridConfig = new gridjs.Grid( {
+    data : columnsToRows(columnArr)
+  } );
+  // render
+  gridConfig.render(gridElement);
+  // return
+  return gridElement;
 };
 
 // sleep
@@ -156,21 +176,13 @@ const testObject = (obj,title="") => {
   title!=="" ? testLine( title , false ) : null;
   // object convert
   const objConvert = testObjectConvert(obj);
-  // key,value
-  /*
-  Object.entries(objConvert).forEach(
-    ( [key,value] ) => testLine(
-      "- " + key + " : " + value
-      , false
-    )
-  );
-  */
   // table
   const columnArr = [
     Object.keys(objConvert) ,
     Object.values(objConvert)
   ];
-  const table = createTable(columnArr);
+  // const table = createTable(columnArr);
+  const table = createGridjs(columnArr);
   testEl.appendChild(table);
   // hr
   testHr();
