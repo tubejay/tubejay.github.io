@@ -106,7 +106,9 @@ const createTable = columnArr => {
 // https://gridjs.io/docs/examples/css-style
 const gridStyle = {
   table : {
-    "border"           : "1px solid #000000" ,
+    "border" : "1px solid #000000" ,
+  } ,
+  td : {
     "background-color" : "#1a1a1a" ,
     "color"            : "#ffffff" ,
     "font-size"        : "15px"    ,
