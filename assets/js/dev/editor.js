@@ -129,6 +129,18 @@ const gridStyle = {
   }
 };
 
+// config
+const gridConfigObj = {
+  style     : gridStyle ,
+  // https://gridjs.io/docs/config/width
+  width     : "300px"   ,
+  // https://gridjs.io/docs/config/autoWidth
+  autoWidth : true      ,
+  // https://gridjs.io/docs/examples/resizable
+  resizable : false
+};
+
+
 // create
 // https://gridjs.io/docs/hello-world#browser
 const createGridJS = columnsObj => {
@@ -142,17 +154,15 @@ const createGridJS = columnsObj => {
   const columns  = Object.values(columnsObj);
   const gridData = columnsToCellsInRows(columns);
   // config
-  const gridConfig = new gridjs.Grid( {
+  const gridConfigColumns = {
     columns : gridColumns ,
-    data    : gridData    ,
-    style   : gridStyle   ,
-    // https://gridjs.io/docs/config/width
-    width     : "300px"   ,
-    // https://gridjs.io/docs/config/autoWidth
-    autoWidth : true  ,
-    // https://gridjs.io/docs/examples/resizable
-    resizable : false
-  } );
+    data    : gridData
+  };
+  Object.assign(
+    gridConfigObj ,
+    gridConfigColumns
+  );
+  const gridConfig = new gridjs.Grid( gridConfigObj );
   // render
   gridConfig.render(gridElement);
   // return
