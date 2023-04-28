@@ -106,8 +106,10 @@ const createTable = columnArr => {
 // https://gridjs.io/docs/examples/css-style
 const gridStyle = {
   table : {
-    "margin-top"    : "5px" ,
-    "margin-bottom" : "5px"
+    "margin-top"    : "5px"    ,
+    "margin-bottom" : "5px"    ,
+    // https://gridjs.io/docs/examples/wide-table
+    "white-space"   : "nowrap"
   } ,
   td : {
     "border" : "1px solid #000000" ,
@@ -132,9 +134,11 @@ const createGridjs = columnArr => {
     data      : gridData  ,
     style     : gridStyle ,
     // https://gridjs.io/docs/config/width
-    width     : "null"    ,
+    width     : 300       ,
     // https://gridjs.io/docs/config/autoWidth
-    autoWidth : true
+    autoWidth : true      ,
+    // https://gridjs.io/docs/examples/resizable
+    resizable : true
   } );
   // render
   gridConfig.render(gridElement);
