@@ -134,7 +134,7 @@ const createGridjs = columnArr => {
     data      : gridData  ,
     style     : gridStyle ,
     // https://gridjs.io/docs/config/width
-    width     : 300       ,
+    //width     : "90%"     ,
     // https://gridjs.io/docs/config/autoWidth
     autoWidth : true      ,
     // https://gridjs.io/docs/examples/resizable
