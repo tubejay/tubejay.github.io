@@ -50,7 +50,7 @@ const textElChild = (el,text) => {
 const columnsToCellsInRows = columns =>
   columns[0].map( (value,index) =>
     columns.map( column =>
-      column[index]
+      String( column[index] )
     )
   );
 
@@ -120,7 +120,7 @@ const gridStyle = {
     "padding"    : "0"
   } ,
   td : {
-    "border" : "1px solid #333333" ,
+    "border" : "1px solid #595959" ,
     "background-color" : "#1a1a1a" ,
     "color"            : "#ffffff" ,
     "font-size"        : "18px"    ,
