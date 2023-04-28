@@ -40,7 +40,12 @@ const textElChild = (el,text) => {
   childText( el , text );
 };
 
-// table
+
+
+////////////////////
+///// table
+////////////////////
+
 // https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces
 const columnsToRowsWithCells = columnArr =>
   columnArr[0].map( (value,index) =>
@@ -48,6 +53,7 @@ const columnsToRowsWithCells = columnArr =>
       column[index]
     )
   );
+
 const cellsToRow = cellArr => {
   // tr : row
   const tr = document.createElement("tr");
@@ -60,6 +66,7 @@ const cellsToRow = cellArr => {
   // return
   return tr;
 };
+
 const columnsToRows = columnArr =>
   columnsToRowsWithCells(columnArr).map(
     cellsToRow
@@ -88,15 +95,38 @@ const createTable = columnArr => {
   return table;
 };
 
-// Grid.js
+
+
+////////////////////
+///// Grid.js
+////////////////////
+
+// data
+// https://gridjs.io/docs/config/data
+const gridData = columnsToRowsWithCells(columnArr);
+
+// style
+// https://gridjs.io/docs/config/style
+// https://gridjs.io/docs/examples/css-style
+const gridStyle = {
+  table : {
+    "border"           : "1px solid #000000" ,
+    "background-color" : "#1a1a1a" ,
+    "color"            : "#ffffff" ,
+    "font-size"        : "15px"    ,
+    "text-align"       : "left"
+  }
+};
+
+// create
 // https://gridjs.io/docs/hello-world#browser
 const createGridjs = columnArr => {
   // element
   const gridElement = document.createElement("div");
   // config
   const gridConfig = new gridjs.Grid( {
-    columns : [ "key" , "value" ] ,
-    data    : columnsToRows(columnArr)
+    data  : gridData  ,
+    style : gridStyle
   } );
   // render
   gridConfig.render(gridElement);
