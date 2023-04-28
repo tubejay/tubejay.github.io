@@ -101,10 +101,6 @@ const createTable = columnArr => {
 ///// Grid.js
 ////////////////////
 
-// data
-// https://gridjs.io/docs/config/data
-const gridData = columnsToRowsWithCells(columnArr);
-
 // style
 // https://gridjs.io/docs/config/style
 // https://gridjs.io/docs/examples/css-style
@@ -123,6 +119,9 @@ const gridStyle = {
 const createGridjs = columnArr => {
   // element
   const gridElement = document.createElement("div");
+  // data
+  // https://gridjs.io/docs/config/data
+  const gridData = columnsToRowsWithCells(columnArr);
   // config
   const gridConfig = new gridjs.Grid( {
     data  : gridData  ,
