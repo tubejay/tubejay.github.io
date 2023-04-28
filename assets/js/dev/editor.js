@@ -132,7 +132,7 @@ const createGridjs = columnArr => {
     data      : gridData  ,
     style     : gridStyle ,
     // https://gridjs.io/docs/config/width
-    width     : "1px"    ,
+    width     : "null"    ,
     // https://gridjs.io/docs/config/autoWidth
     autoWidth : true
   } );
