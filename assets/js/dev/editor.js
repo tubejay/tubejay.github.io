@@ -86,9 +86,10 @@ const createTable = columnArr => {
   );
   // style
   const tableStyle = {
-    "font-size"     : "17px" ,
-    "margin-top"    : "3px" ,
-    "margin-bottom" : "3px"
+    "font-size"     : "18px" ,
+    "margin-top"    : "5px"  ,
+    "margin-bottom" : "5px"  ,
+    "padding"       : "10px"
   }
   setElStyle(table,tableStyle);
   // return
@@ -117,7 +118,7 @@ const gridStyle = {
     "color"            : "#ffffff" ,
     "font-size"        : "18px"    ,
     "text-align"       : "left"    ,
-    "padding"          : "10px 20px"
+    "padding"          : "10px"
   }
 };
 
@@ -224,8 +225,8 @@ const testObject = (obj,title="") => {
     Object.keys(objConvert) ,
     Object.values(objConvert)
   ];
-  // const table = createTable(columnArr);
-  const table = createGridjs(columnArr);
+  const table = createTable(columnArr);
+  // const table = createGridjs(columnArr);
   testEl.appendChild(table);
   // hr
   testHr();
