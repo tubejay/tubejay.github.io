@@ -230,12 +230,12 @@ const testObject = (obj,title="") => {
   // object convert
   const objConvert = testObjectConvert(obj);
   // table
-  const columnArr = [
-    Object.keys(objConvert) ,
-    Object.values(objConvert)
-  ];
+  const columnsObj = {
+    key   : Object.keys(objConvert)   ,
+    value : Object.values(objConvert)
+  };
   // const table = createTable(columnArr);
-  const table = createGridJS(columnArr);
+  const table = createGridJS(columnsObj);
   testEl.appendChild(table);
   // hr
   testHr();
