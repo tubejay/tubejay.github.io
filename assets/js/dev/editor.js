@@ -113,8 +113,11 @@ const gridStyle = {
     "white-space"   : "nowrap"
   } ,
   th : {
-    // https://stackoverflow.com/a/5440737
-    "display" : "none"
+    // https://stackoverflow.com/a/13512228
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
+    "visibility" : "collapse" ,
+    "font-size"  : "0"        ,
+    "padding"    : "0"
   } ,
   td : {
     "border" : "1px solid #333333" ,
