@@ -113,9 +113,9 @@ const gridStyle = {
     "border" : "1px solid #000000" ,
     "background-color" : "#1a1a1a" ,
     "color"            : "#ffffff" ,
-    "font-size"        : "15px"    ,
+    "font-size"        : "18px"    ,
     "text-align"       : "left"    ,
-    "padding"          : "5px 10px"
+    "padding"          : "10px 20px"
   }
 };
 
@@ -129,10 +129,12 @@ const createGridjs = columnArr => {
   const gridData = columnsToRowsWithCells(columnArr);
   // config
   const gridConfig = new gridjs.Grid( {
-    data  : gridData  ,
-    style : gridStyle ,
+    data      : gridData  ,
+    style     : gridStyle ,
     // https://gridjs.io/docs/config/width
-    width : "null"
+    width     : "1px"    ,
+    // https://gridjs.io/docs/config/autoWidth
+    autoWidth : true
   } );
   // render
   gridConfig.render(gridElement);
