@@ -116,8 +116,8 @@ const gridStyle = {
     // https://stackoverflow.com/a/13512228
     // https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
     "visibility" : "collapse" ,
-    // "font-size"  : "0"        ,
-    // "padding"    : "0"
+    "font-size"  : "0"        ,
+    "padding"    : "0"
   } ,
   td : {
     "border" : "1px solid #595959" ,
