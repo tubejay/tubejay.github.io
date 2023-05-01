@@ -23,62 +23,19 @@ hidden: false
 
 
 
-## CSS
-
-###  basic
-
-  - [ofcourse - CSS 입문](https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8)
-  - [CSS 기본부터 활용까지](https://inf.run/WNHj)
-  - [WEB2 - CSS](https://inf.run/TcHg)
-  - [CSS-Tricks](https://css-tricks.com/)
-  - [W3Schools](https://www.w3schools.com/css/default.asp)
-  - [HTML.com](https://html.com/css/)
-
-### flex
-
-  - [CSS flex, grid 속성 쉽게 이해하기](https://wisesilver.tistory.com/25#flex)
-  - [이번에야말로 CSS Flex를 익혀보자](https://studiomeal.com/archives/197)
-  - [CSS Flex 완벽 가이드](https://heropy.blog/2018/11/24/css-flexible-box/)
-  - [Flex Cheatsheet](https://flexngrid.com/cheatsheet-flex/)
-
-### grid
-
-  - [CSS flex, grid 속성 쉽게 이해하기](https://wisesilver.tistory.com/25#grid)
-  - [이번에야말로 CSS Grid를 익혀보자](https://studiomeal.com/archives/533)
-  - [CSS Grid 완벽 가이드](https://heropy.blog/2019/08/17/css-grid/)
-  - [Grid Cheatsheet](https://flexngrid.com/cheatsheet-grid/)
-
-
-
-## Sass/SCSS
-
-### basic
-
-  - [Sass Basics](https://sass-lang.com/guide)
-  - [Documentation](https://sass-lang.com/documentation/)
-  - [Sass(SCSS) 완전 정복!](https://heropy.blog/2018/01/31/sass/)
-
-### online converter
-
-  - from CSS
-    - [CSS to SCSS](https://codebeautify.org/css-to-scss-converter)
-  - to CSS
-    - [Sass to CSS](https://codebeautify.org/sass-to-css-converter)
-    - [SCSS to CSS](https://codebeautify.org/scss-to-css-converter)
-  - Sass/SCSS
-    - [Sass to SCSS](https://codebeautify.org/sass-to-scss-converter)
-    - [SCSS to Sass](https://codebeautify.org/scss-to-sass-converter)
-
-### [css test](/dev/web_publishing/markup/css_test)
-
-
-
-
 ## HTML/CSS
 
 - [모두의 HTML5 & CSS3](https://thebook.io/006943/)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [입문자에게 추천하는 HTML, CSS 첫걸음](https://heropy.blog/2019/04/24/html-css-starter/)
+
+
+
+## [CSS](/dev/web_publishing/markup/css)
+
+
+
+## [Sass](/dev/web_publishing/markup/sass)
 
 
 

@@ -1,12 +1,12 @@
 ---
-title: "CSS Test"
+title: "Sass / Test"
 layout: single
 toc: false
-permalink: /dev/web_publishing/markup/css_test
+permalink: /dev/web_publishing/markup/sass/test
 publishee: true
 hidden: false
 editor: true
-test: true
+test: false
 ---
 
 
@@ -22,13 +22,13 @@ test: true
 
 
 
-## test log
+## Test Log
 
 <div id="test" test="{{page.test}}"></div>
 
 
 
-## reference
+## Reference
 
 - Ace
   - [Homepage](https://ace.c9.io/)
