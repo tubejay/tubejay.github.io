@@ -13,6 +13,31 @@ hidden: false
 
 
 
+## [npm trends](https://npmtrends.com/)
+
+
+
+## Svelte
+
+- [documentation](https://svelte.dev/docs)
+- [GitHub](https://github.com/sveltejs/svelte)
+
+
+
+## SolidJS
+
+- [documentation](https://www.solidjs.com/docs/latest/api)
+- [GitHub](https://github.com/solidjs/solid)
+
+
+
+## RxJS
+
+- [documentation](https://rxjs.dev/guide/overview)
+- [GitHub](https://github.com/ReactiveX/rxjs)
+
+
+
 ## Vue.js
 
 - [뷰js 2 (vuejs) 기본 익히기!](https://opentutorials.org/course/4091)

@@ -30,7 +30,7 @@ hidden: false
 
 
 
-## Programming/Web
+## Programming / Web
 
 - [ofcourse - JavaScript 입문](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
 - [WEB2 - JavaScript](https://inf.run/jVpQ)
@@ -62,6 +62,6 @@ hidden: false
 
 
 
-## Typescript
+## TypeScript
 
 - [한눈에 보는 타입스크립트](https://heropy.blog/2020/01/27/typescript/)

@@ -37,7 +37,7 @@ hidden: false
 
 
 
-# DaleSeo
+## DaleSeo
  
 - 비동기 처리
   - [1부 - Callback](https://www.daleseo.com/js-async-callback/)
