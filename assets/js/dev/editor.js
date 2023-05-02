@@ -86,7 +86,7 @@ const createTable = columns => {
   );
   // style
   const tableStyle = {
-    "font-size"     : "18px" ,
+    "font-size"     : "15px" ,
     "margin-top"    : "5px"  ,
     "margin-bottom" : "5px"  ,
     "padding"       : "10px"
@@ -229,10 +229,10 @@ const testObjectConvert = obj =>
   Object.fromEntries(
     Object.entries(obj).map( ( [key,value] ) => {
       // function : name
-      const valueConvert = typeof value === "function"
-                         ? value.name
-                         : value
-                         ;
+      const valueConvert  = typeof value === "function"
+                          ? value.name
+                          : value
+                          ;
       return [key,valueConvert]
     } )
   );
