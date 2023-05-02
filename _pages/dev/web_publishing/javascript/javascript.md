@@ -17,6 +17,7 @@ hidden: false
 
 - [자바스크립트 언어 기본 - javascript](https://inf.run/omAw)
 - [생활코딩 - JavaScript Immutability](https://inf.run/nQPH)
+- [Do it! 자바스크립트 입문](https://inf.run/WoCA)
 - Let's Get IT 자바스크립트 프로그래밍
   - [TheBook](https://thebook.io/080270/)
   - [inflearn](https://inf.run/HVvj)
@@ -34,6 +35,7 @@ hidden: false
 
 - [ofcourse - JavaScript 입문](https://ofcourse.kr/js-course/JavaScript-%EC%9E%85%EB%AC%B8)
 - [WEB2 - JavaScript](https://inf.run/jVpQ)
+- [Do it! HTML+CSS+자바스크립트 웹 표준의 정석](https://inf.run/FspL)
 - [try! helloworld 자바스크립트](https://thebook.io/006894/)
 - [W3Schools](https://www.w3schools.com/js/default.asp)
 - [The Modern JavaScript Tutorial](https://javascript.info/)

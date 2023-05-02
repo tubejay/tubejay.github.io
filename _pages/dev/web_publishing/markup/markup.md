@@ -23,11 +23,12 @@ hidden: false
 
 
 
-## HTML/CSS
+## HTML / CSS
 
 - [모두의 HTML5 & CSS3](https://thebook.io/006943/)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [입문자에게 추천하는 HTML, CSS 첫걸음](https://heropy.blog/2019/04/24/html-css-starter/)
+- [Do it! HTML5 + CSS3 웹 표준의 정석](https://inf.run/XF24)
 
 
 
