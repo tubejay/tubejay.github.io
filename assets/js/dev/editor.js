@@ -123,7 +123,7 @@ const gridStyle = {
     "border" : "1px solid #595959" ,
     "background-color" : "#1a1a1a" ,
     "color"            : "#ffffff" ,
-    "font-size"        : "18px"    ,
+    "font-size"        : "15px"    ,
     "text-align"       : "left"    ,
     "padding"          : "10px"
   }
@@ -133,7 +133,7 @@ const gridStyle = {
 const gridConfigObj = {
   style     : gridStyle ,
   // https://gridjs.io/docs/config/width
-  width     : "350px"   ,
+  width     : "100%"   ,
   // https://gridjs.io/docs/config/autoWidth
   autoWidth : true      ,
   // https://gridjs.io/docs/examples/resizable
@@ -192,6 +192,7 @@ const testOn = ( testEl.getAttribute("test") === "true" );
 
 // text
 const testText = text =>
+  // testOn
   testOn
   ? childText( testEl , text )
   : null
@@ -203,6 +204,7 @@ const testHr = () =>
 
 // br
 const testBr = () =>
+  // testOn
   testOn
   ? testEl.appendChild( document.createElement("br") )
   : null
@@ -237,20 +239,26 @@ const testObjectConvert = obj =>
     } )
   );
 const testObject = (obj,title="") => {
-  // title
-  title!=="" ? testLine( title , false ) : null;
-  // object convert
-  const objConvert = testObjectConvert(obj);
-  // table
-  const columnsObj = {
-    key   : Object.keys(objConvert)   ,
-    value : Object.values(objConvert)
+  // testOn
+  switch (testOn) {
+    case false:
+      break;
+    case true:
+      // title
+      title!=="" ? testLine( title , false ) : null;
+      // object convert
+      const objConvert = testObjectConvert(obj);
+      // table
+      const columnsObj = {
+        key   : Object.keys(objConvert)   ,
+        value : Object.values(objConvert)
+      };
+      // const table = createTable(columnArr);
+      const table = createGridJS(columnsObj);
+      testEl.appendChild(table);
+      // hr
+      testHr();
   };
-  // const table = createTable(columnArr);
-  const table = createGridJS(columnsObj);
-  testEl.appendChild(table);
-  // hr
-  testHr();
 };
 
 // array
@@ -270,6 +278,7 @@ const testArray = (arr,title="") => {
 
 // clear
 const testclear = () => {
+  // testOn
   switch (testOn) {
     case false:
       break;
