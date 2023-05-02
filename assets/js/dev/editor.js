@@ -395,11 +395,11 @@ const setModeByIndex = (index,modeNew) =>
 const demoContainerWidth  = "360px";
 
 const inputButtonWidth    = "180px";
-const inputButtonHeight   = "60px";
+const inputButtonHeight   = "50px";
 
 const editorHeight        = "240px";
 
-const convertButtonHeight = "60px";
+const convertButtonHeight = "50px";
 
 
 
@@ -620,13 +620,13 @@ const inputButtonStyleKebab = {
   unchecked : {
     "background-color" : colorBlack     ,
     "color"            : colorNeonLight ,
-    "font-size"        : "23px"
+    "font-size"        : "16px"
   },
 
   checked : {
     "background-color" : colorNeonDark ,
     "color"            : colorWhite    ,
-    "font-size"        : "25px"
+    "font-size"        : "18px"
   },
 
   option : {
@@ -1160,7 +1160,7 @@ const convertButtonStyle = {
   "text-shadow"      : colorBlack + " 0px 2px 5px" ,
   "background-color" : colorNeonDefault    ,
   color              : colorWhite          ,
-  "font-size"        : "22px"              ,
+  "font-size"        : "18px"              ,
   "font-weight"      : "bold"              ,
   width              : demoContainerWidth  ,
   height             : convertButtonHeight ,
