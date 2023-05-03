@@ -21,6 +21,7 @@ hidden: false
 
 - [documentation](https://svelte.dev/docs)
 - [GitHub](https://github.com/sveltejs/svelte)
+- [Svelte.js 완벽 가이드](https://heropy.blog/2019/09/29/svelte/)
 
 
 
