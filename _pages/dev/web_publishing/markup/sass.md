@@ -5,7 +5,9 @@ toc: true
 permalink: /dev/web_publishing/markup/sass
 published: true
 hidden: false
-editor: true
+ace: true
+sass: true
+gridjs: true
 test: false
 ---
 <head>

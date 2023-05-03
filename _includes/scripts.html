@@ -2,14 +2,11 @@
 <!----- mathjax ------>
 <!-------------------->
 
-<!-- cdn -->
 <script
   type  = "text/javascript"
 	src   = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
   async >
 </script>
-
-<!-- config -->
 <script
   type = "text/x-mathjax-config"
   src  = "/assets/js/mathjax/mathjax.js" >
@@ -60,10 +57,10 @@
 
 
 <!-------------------->
-<!----- editor ------->
+<!------- ace -------->
 <!-------------------->
 
-{% if page.editor %}
+{% if page.ace %}
   <script
     type    = "text/javascript"
     src     = "https://cdnjs.cloudflare.com/ajax/libs/ace/1.16.0/ace.js"
@@ -74,17 +71,51 @@
     src     = "https://cdnjs.cloudflare.com/ajax/libs/ace/1.16.0/ext-language_tools.min.js"
     charset = "utf-8" >
   </script>
+  <script
+    type  = "text/javascript"
+    src   = "/assets/js/dev/ace.js"
+    defer >
+  </script>
+{% endif %}
+
+
+
+<!-------------------->
+<!---- codemirror ---->
+<!-------------------->
+
+{% if page.codemirror %}
+  <script
+    type = "text/javascript"
+    src  = "https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js" >
+  </script>
+  <link
+    rel  = "stylesheet"
+    href = "https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css" >
+{% endif %}
+
+
+
+<!-------------------->
+<!------- sass ------->
+<!-------------------->
+
+{% if page.sass %}
   <!-- https://github.com/medialize/sass.js/blob/master/docs/getting-started.md#using-the-synchronous-api-in-the-browser -->
   <!-- https://cdnjs.com/libraries/sass.js -->
   <!-- https://stackoverflow.com/a/75716055 -->
   <script
     src = "https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.11.1/sass.sync.min.js" >
   </script>
-  <script
-    type  = "text/javascript"
-    src   = "/assets/js/dev/editor.js"
-    defer >
-  </script>
+{% endif %}
+
+
+
+<!-------------------->
+<!------ gridjs ------>
+<!-------------------->
+
+{% if page.gridjs %}
   <!-- https://gridjs.io/docs/hello-world#browser -->
   <!-- https://gridjs.io/docs/install#jsdelivr -->
   <script
