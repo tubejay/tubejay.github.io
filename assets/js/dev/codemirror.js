@@ -3,8 +3,7 @@ const demoEditor = document.querySelector(
 );
 
 const demoStyle = {
-  width  : "300px" ,
-  height : "200px"
+  width  : "200px"
 };
 Object.entries(demoStyle).forEach( ( [key,value] ) =>
   demoEditor.style.setProperty(
