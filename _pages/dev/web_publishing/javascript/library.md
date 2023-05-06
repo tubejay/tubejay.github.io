@@ -5,6 +5,7 @@ toc: true
 permalink: /dev/web_publishing/javascript/library
 published: true
 hidden: false
+codemirror: true
 ---
 
 <head>
@@ -46,6 +47,8 @@ hidden: false
   - [Documentation](https://codemirror.net/docs/)
   - [GitHub](https://github.com/codemirror/dev/)
   - [cdnjs](https://cdnjs.com/libraries/codemirror)
+
+<div id="demo-codemirror"></div>
 
 
 
