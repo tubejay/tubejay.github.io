@@ -3,7 +3,7 @@ const demoEditor = document.querySelector(
 );
 
 const demoStyle = {
-  width  : "200px"
+  width : "200px"
 };
 Object.entries(demoStyle).forEach( ( [key,value] ) =>
   demoEditor.style.setProperty(
@@ -12,9 +12,20 @@ Object.entries(demoStyle).forEach( ( [key,value] ) =>
 );
 
 const demoOption = {
-  lineNumbers : true      ,
-  mode        : "css"     ,
-  theme       : "monokai"
+
+  lineNumbers               : true          ,
+  highlightSpecialChars     : true          ,
+  bracketMatching           : true          ,
+  closeBrackets             : true          ,
+  autocompletion            : true          ,
+  highlightActiveLine       : true          ,
+  highlightActiveLineGutter : true          ,
+  highlightSelectionMatches : true          ,
+
+  tabSize                   : 6             ,
+  mode                      : "css"         ,
+  theme                     : "base16-dark"
+
 };
 CodeMirror(
   demoEditor,demoOption
