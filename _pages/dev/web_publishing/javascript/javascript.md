@@ -28,6 +28,7 @@ hidden: false
 
 - [웹브라우저 Javascript](https://inf.run/JSTp)
 - [HTML.com](https://html.com/javascript/)
+- [웹팩 핸드북](https://joshua1988.github.io/webpack-guide/)
 
 
 
@@ -67,3 +68,4 @@ hidden: false
 ## TypeScript
 
 - [한눈에 보는 타입스크립트](https://heropy.blog/2020/01/27/typescript/)
+- [타입스크립트 핸드북](https://joshua1988.github.io/ts/intro.html)
