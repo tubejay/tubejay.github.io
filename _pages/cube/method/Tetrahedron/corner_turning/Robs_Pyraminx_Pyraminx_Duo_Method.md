@@ -30,7 +30,7 @@ hidden: false
 
 - [투마이](https://youtu.be/e-FgTsVoQZo)
 - [MrUk](https://youtu.be/AVRRHVgIeh4)
-- Z3Cubing]
+- Z3Cubing
   - [Beginner](https://youtu.be/xB9OFNyi-Uk)
   - [Intermediate](https://youtu.be/xRBGC4Bxv1w)
   - [Advanced](https://youtu.be/P-Zt7GEyYuE)
